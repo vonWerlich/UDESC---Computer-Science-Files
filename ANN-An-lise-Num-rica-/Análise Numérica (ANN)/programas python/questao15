@@ -1,0 +1,8 @@
+def newton(f, df, x0, n):
+    for _ in range(n):
+        x0 -= f(x0) / df(x0)
+        yield x0
+
+def f(x)
+    return  x * (x -1) * (x - 2) + 0.42
+
