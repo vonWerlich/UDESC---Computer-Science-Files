@@ -10,11 +10,11 @@ O principal objetivo é servir como um recurso de consulta e referência para fu
 
 ### 📂 Estrutura do Repositório
 
-Cada diretório principal neste repositório corresponde a uma disciplina específica do curso. Dentro de cada um, você encontrará subpastas contendo coisas como:
+Cada diretório principal neste repositório corresponde a uma disciplina específica do curso. Dentro de cada um, você encontrará subpastas ou arquivos de:
 * Trabalhos práticos e teóricos
 * Projetos de programação
 * Listas de exercícios
-* Anotações de aula
+* Slides de aula
 
 ---
 
