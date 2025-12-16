@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/barcodes-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/font-asian-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/forms-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/hyph-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/io-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/kernel-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/layout-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/pdfa-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/pdftest-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/postgresql-42.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/sign-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/slf4j-api-1.7.9.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/slf4j-simple-1.7.9.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/styled-xml-parser-7.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Kauan/UDESC/2022_02 - 4º Semestre/Banco de Dados - II (BAN-II)/programas_java/trabalhoBan2/src/libs/svg-7.1.14.jar"/>
+	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="src/libs/barcodes-7.1.14.jar"/>
+	<classpathentry kind="lib" path="src/libs/font-asian-7.1.14.jar"/>
+	<classpathentry kind="lib" path="src/libs/mongo-java-driver-3.12.11.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
