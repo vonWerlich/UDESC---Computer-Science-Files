@@ -1,0 +1,31 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares conveniados ou contratados - Piracema
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013225&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11480%5D%7B73%7Dpiracema_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar Piracema foi introduzido na Epagri em 1998 com a denominação SC 170, oriundo da linhagem CNA 8659, proveniente da Embrapa/CNPAF. A linhagem foi avaliada em ensaios regionais, em regiões do Estado do Mato Grosso do Sul e lançada como cultivar em 2004 como fruto do convênio Epagri/Embrapa, com proteção. Trata-se de um cultivar de tipo moderno e destaca-se pelo excelente potencial produtivo, boa qualidade de grãos e ciclo longo. Especialmente desenvolvido para o Estado do Mato Grosso do Sul, através do convênio Fazenda San Francisco/Epagri, foi bastante cultivada naquele Estado.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: 10,3t/ha • Altura da planta: 93cm • Ciclo: Médio (125 dias) • Acamamento: Resistente • Reação à toxidez por ferro: Moderadamente resistente • Reação à brusone: Suscetível • Reação a baixas temperaturas (13°C): Suscetível
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 1 • Classe: Longo fino • Renda do beneficiamento: 70,0% • Rendimento de grãos inteiros: 62,0% • Teor de amilose: 29,0% • Temperatura de gelatinização: Média
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: 28cm • Largura: 1,7cm • Pubescência: Forte • Ângulo das folhas: Intermediário • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Branca a verde • Cor da aurícula: Incolor a verde • Cor do colo: Verde-clara
+
+-- COLMO: --
+• Comprimento: 68cm • Espessura: 0,6cm • Perfilhamento: Bom • Ângulo dos perfilhos: Intermediário (entre 30 a 60°) • Cor do internó: Verde
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Intermediário (25,3cm) • Exserção: Média (1 a 5cm) • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Verde • Cor do apículo na maturação: Palha • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,5mm • Espessura: 1,8mm • Largura: 2,2mm • Relação C/L: 3,41br> • Forma do grão: Alongado • Peso de mil grãos: 29,9g • Pilosidade: Média
+
+-- Informações Complementares --
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).

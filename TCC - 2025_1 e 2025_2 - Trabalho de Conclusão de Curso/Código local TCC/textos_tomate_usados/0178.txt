@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Paty F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0178&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B82%5D%7B129%7Dpaty.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Empresa: Seminis; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Plantas fortes e vigorosas, com excelente enfolhamento. Frutos saborosos, firmes, de paredes grossas e uniformes. Alta produtividade.
+
+-- DESCRIÇÃO DO PRODUTO: --
+Peso médio do fruto: 240 a 250 g. Tipo do fruto: Salada. Tipo da planta: Indeterminada. Ciclo médio: 110 a 120 dias.
+
+-- RESISTÊNCIA: --
+HR - ToMV:0-2, Fol:1,2 e Va:1/Vd:1 / IR – TYLCV e Ma/Mi/Mj.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.seminis.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.seminis.com.br.

@@ -1,0 +1,16 @@
+Título: TOMATE - Tratos Culturais - Irrigação - 2.1) Irrigação por gotejamento
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02193&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1985%5D%7B378%7Dfigura-211.png
+
+-- Conceito: --
+Este é um método de irrigação localizada que tem como principal componente os gotejadores, desmontáveis ou não. A água é lançada pelos gotejadores na forma de gotas contínuas e em local desejado. Em virtude da milimétrica dimensão do diâmetro do orifício do gotejador a água utilizada na irrigação deve ser filtrada para que não haja entupimentos. Neste método de irrigação, cada fileira de planta recebe uma linha de gotejadores. O espaço entre os gotejadores deve ser o da distância das plantas na fila de plantio para solos argilosos até franco, e menor para solos franco até arenosos.
+
+-- Vantagens: --
+- Economia de água devido a menor perda por evaporação, percolação e escoamento superficial; - Não há interferência do vento; - Menor disseminação de patógenos; - Menor variação nos níveis de umidade no solo; - Adapta-se a diferentes solos e topografias; - Permite a distribuição de biofertilizantes na água de irrigação; - Minimiza a possibilidade de erosão; - Funciona com baixas pressões de serviço (4 a 8 mca) que podem ser fornecidas por motobombas ou por gravidade; - Reduz drasticamente o período de molhamento foliar com diminuição de doenças foliares e; - De maneira geral apresenta alta eficiência (até 95%).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1985%5D%7B175%7Dfigura-211.png
+Legenda: Irrigação por gotejamento do tomateiro. Foto: ROBERTO TESTEZLAF
+
+-- Informações Complementares --
+Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019.

@@ -1,0 +1,10 @@
+Título: TOMATE - DIAGNOSE VISUAL - SINTOMAS NO CAULE - Escurecimento
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04561&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4536%5D%7B350%7D2.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4561%5D%7B304%7D88.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4561%5D%7B357%7D201.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4561%5D%7B473%7D2.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4561%5D%7B297%7D2.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4561%5D%7B442%7Dd1.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4561%5D%7B455%7Dscreenshot_20200330-123638_adama_hf.jpg

@@ -1,0 +1,30 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Análise de solo, tecido vegetal e diagnose visual - Diagnose visual da planta
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014635&isEdicao=N&epagriTEC=S
+
+
+-- CONCEITO: --
+É o método mais simples e menos dispendioso para avaliar o estado nutricional da planta, pois se trata de uma avaliação visual de uma determinada planta em comparação com uma planta padrão (sem limitação nutricional).
+
+-- COMO SE FAZ: --
+Comparam-se a coloração, o tamanho e a forma de plantas, raízes e folhas.
+
+-- O QUE É AVALIADO: --
+Os sintomas avaliados podem se referir à deficiência nutricional ou à toxidez de algum elemento.
+
+-- FATORES QUE PODEM INDUZIR A ERROS: --
+As pragas, as doenças, o clima, a compactação do solo, a toxidez de defensivos entre outros fatores podem induzir sintomas visuais na plantas semelhantes ao de origem nutricional o que consequentemente dificulta o diagnóstico. Por isso, deve-se analisar de forma criteriosa todos os fatores bióticos e abióticos que possam estar alterando o estado nutricional da planta ou que estejam induzindo sintomas similares ao de toxidez e deficiência nutricional (CANTARUTTI et al., 2007).
+
+-- FATORES A SEREM OBSERVADOS: --
+Algumas indicações práticas podem minimizar a possibilidade de erro no diagnóstico visual. Os sintomas visuais de deficiência nutricional podem ocorrer de forma generalizada na gleba e ou em reboleira e os sintomas nas folhas ocorrem de forma simétrica e com diferença de coloração entre folhas velhas e novas (FAQUIN, 2002). A diferença de sintomas entre folhas velhas e novas se deve ao processo de redistribuição de nutriente na planta.
+
+-- SINTOMA DE DEFICIÊNCIA EM FOLHAS NOVAS E VELHAS: --
+Os elementos móveis (N, P, K e Mg) são remobilizados das folhas velhas para as novas e consequentemente as folhas velhas manifestam os sintomas. E os demais elementos que são pouco móveis ou imóveis na planta os sintomas ocorrem nas folhas e nos tecidos novos.
+
+-- ASPESCTOS A SEREM OBSERVADOS: --
+Com relação à diagnose visual deve-se considerar os seguintes aspectos (FAQUIN, 2002): quando a manifestação visual ocorre, em geral há perda de produção; é um método qualitativo e não permite estabelecer doses para correção de um elemento limitante; exige bastante experiência do técnico; não possibilita o diagnóstico quando o excesso ou a carência ocorrem de forma mais branda e não manifesta sintomatologia típica (toxidez ou fome oculta) e não permite diagnóstico de deficiências múltiplas devido ao ocultamento de sintomas típicos.
+
+-- MEDIDAS CORRITIVAS: --
+Para plantas de ciclo anual a diagnose visual não permite medidas corretivas de forma eficiente, mas pode ser um subsídio para o diagnóstico com base na análise de tecido (CANTARUTTI et al., 2007).
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

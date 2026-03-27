@@ -1,0 +1,84 @@
+Título: TOMATE - Cultivares - Caroliny F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0854&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B731%5D%7B68%7Dcaroliny.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agrocinco; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: Ty1 - Tomato yellow leaf curl virus 1 (ToLCV); Tamanho do fruto: Médio (201 a 230 g); Tamanho do fruto: Muito grande (251 a 280 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido indeterminado incorporando tolerância a Vira Cabeça e Geminivírus. Planta vigorosa com ótimo enfolhamento. Frutos longa vida de tamanho grande (230g a 260g) com excelente coloração. Não usar Nitrogênio em cobertura.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B81%7Dtomate_caroliny_%281%29.jpg
+Legenda: 1)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B250%7Dtomate_caroliny_%2810%29.jpg
+Legenda: 10)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B325%7Dtomate_caroliny_%2811%29.jpg
+Legenda: 11)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B469%7Dtomate_caroliny_%2812%29.jpg
+Legenda: 12)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B386%7Dtomate_caroliny_%2813%29.jpg
+Legenda: 13)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B269%7Dtomate_caroliny_%2814%29.jpg
+Legenda: 14)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B535%7Dtomate_caroliny_%2815%29.jpg
+Legenda: 15)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B251%7Dtomate_caroliny_%2816%29.jpg
+Legenda: 16)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B508%7Dtomate_caroliny_%2817%29.jpg
+Legenda: 17)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B355%7Dtomate_caroliny_%2818%29.jpg
+Legenda: 18)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B233%7Dtomate_caroliny_%2819%29.jpg
+Legenda: 19)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B439%7Dtomate_caroliny_%282%29.jpg
+Legenda: 2)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B75%7Dtomate_caroliny_%2820%29.jpg
+Legenda: 20)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B293%7Dtomate_caroliny_%2821%29.jpg
+Legenda: 21)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B244%7Dtomate_caroliny_%2822%29.jpg
+Legenda: 22)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B118%7Dtomate_caroliny_%2823%29.jpg
+Legenda: 23)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B296%7Dtomate_caroliny_%2824%29.jpg
+Legenda: 24)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B142%7Dtomate_caroliny_%2825%29.jpg
+Legenda: 25)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B339%7Dtomate_caroliny_%2826%29.jpg
+Legenda: 26)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B287%7Dtomate_caroliny_%2827%29.jpg
+Legenda: 27)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B332%7Dtomate_caroliny_%2828%29.jpg
+Legenda: 28)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B425%7Dtomate_caroliny_%2829%29.jpg
+Legenda: 29)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B481%7Dtomate_caroliny_%283%29.jpg
+Legenda: 3)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B260%7Dtomate_caroliny_%2830%29.jpg
+Legenda: 30)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B499%7Dtomate_caroliny_%2831%29.jpg
+Legenda: 31)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B2%7Dtomate_caroliny_%2832%29.jpg
+Legenda: 32)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B398%7Dtomate_caroliny_%284%29.jpg
+Legenda: 4)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B348%7Dtomate_caroliny_%285%29.jpg
+Legenda: 5)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B370%7Dtomate_caroliny_%286%29.jpg
+Legenda: 6)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B405%7Dtomate_caroliny_%287%29.jpg
+Legenda: 7)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B542%7Dtomate_caroliny_%288%29.jpg
+Legenda: 8)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B731%5D%7B90%7Dtomate_caroliny_%289%29.jpg
+Legenda: 9)null
+
+-- RESISTÊNCIA: --
+Verticillium 1, Fusarium 1 e 2, Vírus do Mosaico do Tabaco, Vira Cabeça e TY.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.agrocinco.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.agrocinco.com.br.

@@ -1,0 +1,20 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Broca-grande-do-fruto
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015001&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12999%5D%7B393%7D53-1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12999%5D%7B95%7D53-2.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12999%5D%7B139%7D53-1.jpg
+Legenda: Lagartas da broca-grande-do-fruto. null
+
+-- IDENTIFICAÇÃO DA PRAGA: --
+A broca-grande-do-fruto (Helicoverpa armigera, zea e outras espécies de Spodoptera) apresenta coloração variável e mede entre 40 a 50 mm de comprimento. Esta lagarta apresenta tamanho relativamente maior às demais que atacam o tomateiro.
+
+-- PUPA: --
+Assim como a broca-pequena, a broca-grande também empupa no solo.
+
+-- DANOS: --
+Devido ao seu tamanho e voracidade, estes indivíduos podem danificar consideravelmente frutos em sistema orgânico.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

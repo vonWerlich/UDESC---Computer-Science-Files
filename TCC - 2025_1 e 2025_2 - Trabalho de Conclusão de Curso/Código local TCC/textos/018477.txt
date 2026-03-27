@@ -1,0 +1,31 @@
+Título: COMPOSTAGEM - Tipos de compostagem - Leira estática
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018477&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16096%5D%7B177%7Dfigura_1.jpg
+
+-- DESCRIÇÃO: --
+Modo tradicional mais utilizado de compostagem ao longo dos anos, com pilhas de resíduos vegetais e animais, incluindo restos de alimentos.
+
+-- COMO SE FAZ: --
+Nesse modelo são intercaladas camadas de palha de alta relação C/N, variando entre 50 e 100 camadas na maioria dos casos (resíduos culturais, de manutenção de jardins, de agroindústrias de processamento vegetal, capineiras, serragens, entre outras), com camadas de materiais de baixa relação C/N, variando entre 4 a 8 camadas (estercos, resíduos de abates de animais, grãos residuais de soja, de mamona, entre outros) (Figura 1). É possível misturar resíduos de alimentos no interior da compostagem considerando a sua relação C/N de acordo com o cálculo descrito no item 3: COMO CALCULAR AS MISTURAS .
+
+-- DIMENSÃO: --
+A pilha deve ter uma dimensão próxima a 1,5 a 2,0m de altura, 2,0 a 3,0m de largura e comprimento indefinido, porém no mínimo de 3,0m (Figura 1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16096%5D%7B382%7Dfigura_1-1.jpg
+Legenda: 1. Leiras de compostagens estáticas formadas por camadas de resíduos vegetais e estercos de aves. Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16096%5D%7B85%7Dfigura_1-2.jpg
+Legenda: 2. Leiras de compostagens estáticas formadas por camadas de resíduos vegetais e estercos de aves. Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16096%5D%7B250%7Dfigura_1-3.jpg
+Legenda: 3. Leiras de compostagens estáticas formadas por camadas de resíduos vegetais e estercos de aves. Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16096%5D%7B165%7Dfigura_1-4.jpg
+Legenda: 4. Leiras de compostagens estáticas formadas por camadas de resíduos vegetais e estercos de aves. Foto: Rafael Ricardo Cantú
+
+-- REVOLVIMENTO: --
+Em geral, uma pilha de compostagem é revolvida a cada 15 dias, mas o momento exato do revolvimento vai depender da temperatura do composto.
+
+-- EXEMPLO DE APLICAÇÃO DA TÉCNICA: --
+Local: Joinville, SC. Ano da observação: 2019 Material compostado: A - bagaço de cana (Relação C/N de 55/1); B - esterco bovino (Relação C/N de 8/1). Proporções utilizadas (volume/volume): 12 a 15 / 1 dos materiais A/B Revolvimento da pilha: a cada 20 a 30 dias Tempo necessário para a finalização do processo: 90 dias
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

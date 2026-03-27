@@ -1,0 +1,374 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2431&amp;isEdicao=N&amp;epagriTEC=S">Sistemas de Produção</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2435&amp;isEdicao=N&amp;epagriTEC=S">Produção Orgânica (TOMATORG)</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7356&amp;isEdicao=N&amp;epagriTEC=S">c) Escolha dos cultivares, produção de mudas e plantio</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7362&amp;isEdicao=N&amp;epagriTEC=S">6) Enxertia</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="6647">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="07362">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[6647]{377}16.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Morales et al. 2019. </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>A enxertia do tomateiro: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A enxertia do tomateiro é uma técnica amplamente conhecida e utilizada em
+países desenvolvidos cuja produção de hortaliças apresenta um caráter mais intensivo.
+Em Santa Catarina, a técnica está sendo muito difundida pelos técnicos e procurada por
+produtores, e vem se consolidando dentre as tecnologias fundamentais para o manejo
+de doenças de solo. De maneira geral, busca-se, por meio de um porta-enxerto (PE), a
+resistência genética a doenças do solo que limitam o crescimento de raízes, tanto em
+cultivos a céu aberto como em cultivo protegido. Enxerta-se o cultivar comercial sobre um
+PE resistente, pertencente a outro cultivar, espécie ou gênero da mesma família botânica. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Principais resistências adquiridas via Porta-Enxerto:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> No mercado brasileiro existem PE resistentes a diversas doenças, com destaque
+para murcha-bacteriana (Ralstonia solanacearum), murcha de verticílio (Verticillium spp.),
+murcha de fusário (Fusarium oxysporum f.sp. lycopersici), podridão da coroa e da raiz
+(Fusarium oxysporum f.sp. radicis-lycopersici), mosaico do tomateiro (Tomato mosaic
+virus) e nematoides (Meloidogyne arenaria, M. incógnita, M. javanica). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Principal motivo para fazer a enxertia no tomateiro:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Apesar de todas as doenças supracitadas serem importantes, a prática da
+enxertia é justificável principalmente por causa de uma doença: a murcha-bacteriana.
+Isso ocorre porque ainda não há no mercado cultivares resistentes a essa bactéria. Se o
+problema de murcha for causado pela presença de nematoides na área de cultivo, basta
+selecionar um cultivar comercial que tenha em sua genética os genes de resistência aos
+nematoides, como é o caso dos cultivares relacionados na Tabela 5. Com isso, descarta-se
+a necessidade da enxertia, com economia de tempo e dinheiro, pois todo o processo eleva
+consideravelmente o custo da muda. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6117,07362,6647,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{117}14.jpg">  </a> 
+<br><br>
+<b>Caso a área de cultivo tenha histórico de problemas com a murcha bacteriana: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Existem duas possibilidades a ser consideradas nessa ocasião: a primeira é evitar o plantio
+de solanáceas na área em questão e iniciar um manejo de solo, principalmente com
+plantas de cobertura não suscetíveis à bactéria; a segunda e mais eficiente é utilizar um
+PE que tenha resistência genética à bactéria, o que traz, na maioria das vezes,
+resultados muito consistentes. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Uso de outras solanáceas para a enxertia: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para o controle da murcha-bacteriana, o PE resistente pode ser um genótipo de tomateiro ou de outras solanáceas resistentes pertencentes a espécies ou gêneros
+distintos, sendo mais conhecidas as várias espécies de “jurubebas” (gênero Solanum
+subgênero Leptostemonum), o jiló e a berinjela (Goto et al., 2003). Entretanto, a utilização
+de acessos do próprio tomateiro como PE tem a vantagem de reduzir o problema de
+incompatibilidade associada ao uso de espécies/gêneros diferentes. Além disso, essa estratégia simplifica a operação de enxertia, pois o enxerto e o PE podem ser plantados
+simultaneamente. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Quebra da resistência do Porta-Enxerto: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> É possível que o agente fitopatogênico consiga infectar plantas enxertadas com
+PE resistentes, causando a murcha característica e a perda da produção. Isso ocorre
+em áreas que tenham grande quantidade de bactérias fitopatogênicas, em solo mal
+manejado, encharcado, com baixa quantidade de matéria orgânica, aliado a um ambiente
+estressante, principalmente sob altas temperaturas. Assim, o PE deve fazer parte de uma
+estratégia maior para um controle eficiente da doença, e não deve ser usado isoladamente
+como única ação. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>MÉTODO DE ENXERTIA:</b><br>
+<p class="p1"><div> Para a enxertia do tomateiro, o método por estaca terminal é mais eficiente do
+que a enxertia por aproximação (encostia). Entretanto, o manejo deve ser mais cuidadoso
+no que se refere às condições ambientais pós-enxertia (temperatura e umidade). O
+procedimento descrito a seguir foi adaptado de Lopes &amp; Mendonça (2014), conforme
+segue: <br> </div></p>
+<b>1 - Produção das mudas:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Semear simultaneamente o PE e o cultivar comercial em bandejas para
+produção de mudas. Bandejas com 128 células são as mais recomendadas. O substrato
+comercial deve ter adubação equilibrada, em especial sem excesso de nitrogênio, e as
+mudas irrigadas moderadamente para evitar a ocorrência de tombamento. As mudas
+devem ser produzidas em ambiente bem iluminado para que não fiquem estioladas. É
+essencial dispor de plantas vigorosas do enxerto e do porta-enxerto. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6118,07362,6647,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{372}15.jpg">  </a> 
+<br><br>
+<b>2- Tempo para enxertia e ferramentas:</b><br>
+<p class="p1"><div> Dependendo das condições meteorológicas, o tempo para realizar a enxertia
+vai variar entre 20 e 25 dias após a semeadura. As ferramentas usadas são a lâmina de
+barbear ou bisturi e clipes próprios para a enxertia do tomateiro. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6120,07362,6647,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{289}17.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6119,07362,6647,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{505}16.jpg">  </a> 
+<br><br>
+<b>3 - Como cortar:</b><br>
+<p class="p1"><div> A preparação do PE para receber o enxerto consiste em cortar transversalmente (oblíquo) o caule da muda do PE a cerca de 8cm de altura. No preparo do enxerto, corta-se transversalmente (obliquo) a muda na altura das folhas cotiledonares. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6121,07362,6647,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{380}18.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6122,07362,6647,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{145}19.jpg">  </a> 
+<br><br>
+<b>4- Junção do Cavaleiro (Parte Aérea) no Cavalo (Raiz): </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A enxertia em si consiste na junção perfeita do segmento transversal do enxerto  com a do porta-enxerto, de modo a estabelecer um contato íntimo entre os tecidos dos dois genótipos. Deve-se usar uma presilha para auxiliar o contato entre os tecidos dos dois genótipos. Existem diferentes modelos e tamanhos de presilhas para a enxertia do tomateiro. A utilizada na Epagri/EEI é uma presilha de silicone de 2mm de espessura em
+formato de grampo. Para ajudar a reduzir a pressão sobre o ponto de enxerto, recomenda-se fixar junto a cada planta enxertada um palito de madeira ou varetas de bambu. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6123,07362,6647,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{456}20.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6124,07362,6647,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{77}21.jpg">  </a> 
+<br><br>
+<b>5- Câmara de enxertia:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Após a operação da enxertia é normal o enxerto murchar, devido ao rompimento
+dos vasos vasculares e interrupção do suprimento de seiva. Por isso, as mudas devem ser
+levadas rapidamente após a enxertia para um local com elevada umidade relativa do ar,
+de no mínimo 80% (câmara úmida), sob o risco de perder a viabilidade das
+enxertias. Para aumentar a umidade da câmara, devem-se umedecer todas as superfícies
+internas e colocar jornal abaixo das bandejas, o que auxilia na manutenção da umidade
+da câmara. A câmara úmida deve permanecer num local fresco e de meia-luz, tal como
+as proximidades de clareira de uma mata. O monitoramento da umidade da câmara deve
+ser constante, pois a redução da umidade ambiente é fator decisivo para a redução da
+viabilidade dos enxertos. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6125,07362,6647,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{104}22.jpg">  </a> 
+<br><br>
+<b>8- Aclimatação após a enxertia e antes do plantio: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> As plantas enxertadas devem permanecer na câmara por cerca de quatro dias.
+Após esse período, as mudas devem ser colocadas em um abrigo, protegidas da insolação
+por telas de sombreamento (vermelha ou aluminizada). Caso a temperatura interna da
+câmara ultrapasse os 35oC, esta deve ser aberta somente para a troca de ar e fechada
+imediatamente. O tempo de permanência nesse ambiente varia entre 3 e 4 dias. Após, a
+câmara deve ser aberta e as plantas devem permanecer nesse local por mais 1 a 2 dias.
+Completado todo esse período entre a enxertia e a aclimatação e cicatrização do enxerto,
+as mudas estarão prontas para o transplante. A retirada dos clipes de enxertia
+pode ser realizada imediatamente antes ou dois dias após o transplantio. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6127,07362,6647,13);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{367}24.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6126,07362,6647,13);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6647]{211}23.jpg">  </a> 
+<br><br>
+<b>Observações Gerais: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - A temperatura ambiente deve ser baixa e a umidade relativa do ar elevada no momento da enxertia;<br><br>
+- Uma ampla superfície de contato entre o cultivar e o porta-enxerto aumenta o pegamento das enxertias;<br><br>
+- Ao enxertar, deve-se tomar cuidados fitossanitários para prevenir infecções por patógenos nas feridas produzidas;<br><br>
+- É essencial que não se faça amontoa do tomateiro acima do ponto de enxertia;<br><br>
+- A irrigação por gotejamento ajuda a reduzir a contaminação dos enxertos, devido à ausência de respingos de água;<br><br>
+- No caso do uso de aspersão, deve-se usar cobertura morta para dificultar que respingos de água contaminados levem o patógeno até os tecidos do enxerto. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção
+de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019.
+176p. (Epagri. Sistemas de Produção, 53).
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 10/02/2020</font>
+<br> <font size="2"> Última atualização: 01/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=07362&amp;cdElemento=6647">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=6647');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

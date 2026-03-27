@@ -1,0 +1,16 @@
+Título: TOMATE - Tratos Culturais - Implantação da Cultura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=085&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1984%5D%7B227%7D2015-05-08_09.24.56.jpg
+
+-- Espaçamentos mais utilizado: --
+O espaçamento varia em função do vigor das plantas, do sistema de tutoramento e do sistema de produção. Para cultivo protegido, os mais comuns são: 1,4 m x 0,50 m; 1,30m x 0,50m; 1,00 m x 0,5 a 0,6m, entre linhas e entre plantas, respectivamente. Para cultivo a campo, vai depender do tipo de pulverização a ser usada: - Pulverizador barra vertical ou turbinado: Entre fileiras: 0,80 m a 2,20m; Entre plantas: 0,40m a 0,70m; - Canetas de pulverização: Entre fileiras: 1,25m a 1,50m **Observar o tipo de enfolhamento do cultivar.
+
+-- Critérios na escolha do espaçamento: --
+A decisão sobre qual espaçamento adotar deve ser tomada ao observar as características da região e da área de cultivo. Em condições que favorecem a ocorrência de doenças foliares, como alta umidade e temperatura, deve-se utilizar maiores espaçamentos a fim de aumentar a ventilação e a luminosidade dentro do cultivo. Por outro lado, caso as condições ambientais forem favoráveis para o cultivo, deve-se optar por menores espaçamentos, para aumentar a densidade de cultivo e a produtividade por área. Para a produção de tomate orgânico, devem prevalecer as medidas preventivas, ou seja, maiores espaçamentos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1984%5D%7B276%7D2015-05-08_09.24.56.jpg
+Legenda: Exemplo de espaçamento em tomateiro - 0,6m entre plantas e 1,0 m entre linhas. Foto: Rafael G. F. Morales
+
+-- Informações Complementares --
+Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019. Mueller, S.; Wamser, A.F. Manejo de plantas na produção integrada de tomate tutorado. In: Becker et al. Sistema de Produção Integrada para o tomate tutorado em Santa Catarina. Florianópolis: Epagri, 2016. Cap.3. p.27-39

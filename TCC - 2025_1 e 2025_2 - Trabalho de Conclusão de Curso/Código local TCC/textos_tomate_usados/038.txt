@@ -1,0 +1,29 @@
+Título: TOMATE - Nutrição Mineral - Magnésio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=038&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B748%5D%7B271%7D97.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B748%5D%7B195%7Dmagnesio.jpg
+Legenda: Sintomas de deficiência de magnésio em folhas velhas do tomateiro. Foto: autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B748%5D%7B207%7D105.jpg
+Legenda: Sintomas típicos da deficiência de magnésio. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B748%5D%7B293%7D97.jpg
+Legenda: Sintomas típicos da deficiência de magnésio. FOTO: António Pedro Tavares Guerra
+
+-- Informações gerais: --
+O magnésio é constituinte da molécula de clorofila (3) além de ser o elemento que mais ativa enzimas na planta (4). Quanto a absorção, há um aumento significativo a partir dos 30 dias após o transplantio (DAT), prosseguindo com um aumento contínuo até os 60 DAT, com redução gradual até o final do ciclo produtivo (Informações baseadas na curva de absorção de nutrientes do cultivar Carmem).
+
+-- Como identificar: --
+Por ser um elemento móvel na planta os sintomas aparecem inicialmente em folhas mais velhas (5). São caracterizados por um amarelecimento entre as nervuras das folhas velhas, sendo que as nervuras das folhas jovens permaneçam verdes. O amarelecimento avança gradualmente, da base para o topo da planta. As folhas com sintomas ficam quebradiças e tendem a ficarem curvadas para cima. Ao passar o tempo, as folhas começam a secar, até senescerem (1). Quando não há correção da deficiência os sintomas visuais avançam para as folhas mais novas (3).
+
+-- O que pode estar ocorrendo: --
+- Baixos teores de magnésio no solo (3). - Altos teores de cálcio, potássio e amônio no solo afetam a disponibilidade de magnésio (2) (3). - Em condições de solos ácidos há menor absorção de magnésio devido a maiores concentrações de H+ e Al3+ (4). - Cultivo em solos arenosos. - Altos índices de lixiviação (3).
+
+-- Controle: --
+Visto que a translocação do Mg na planta é polar (da base para as regiões meristematicas da planta), a correção pode ser realizada com uma adubação na base (1). O controle pode ser feito preventivamente com calcário dolomítico (14 a 21% de MgO) ou de sulfato de magnésio (30 kg ha-1) no solo (1 e 2). O controle curativo pode ser feito com pulverização foliar de sulfato de magnésio na concentração de 10 a 20 g por litro de água. A aplicação foliar conjunta de ureia favorece a absorção de Mg (2). Também pode ser realizado o controle com adubos fontes de Mg, como Nitromag, Magnitra e Nitrocálcio, em corbertura e alguns podem ser utilizados na fertirrigação (1). As pulverizações devem ser realizadas semanalmente, e geralmente após a terceira aplicação, os sintomas devem sumir (1).
+
+-- Pode ser confundida com: --
+Viroses - Amarelo Baixeiro: Contudo, quando há ocorrência de vírus, os sintomas se manifestam em plantas isoladas, ao passo que a deficiência de magnésio vai ocorrer de maneira generalizada na lavoura (quase todas as plantas numa mesma área).
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. et al. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) DA SILVA, J. C. et al. Cultivo de Tomate para Industrialização. Revista Eletrônica Embrapa Hortaliças. v. 27, 2006. (3) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474. (4) FAQUIN, V. Nutrição Mineral de Plantas. Lavras: UFLA/FAEPE, 2005. (5) FAQUIN, V. Diagnose do estado nutricional das plantas. Lavras: UFLA/FAEPE, 2002. Foto de capa: António Pedro Tavares Guerra. A importância do magnésio nas culturas hortícolas. DRAP Norte Direcção Regional de Agricultura e Pescas do Norte. Ficha técnica 33. Edição e distribuição: Núcleo de Documentação e Relações Públicas. Primeira edição: Dezembro 2010. I.S.B.N.:978-989-8201-26-3.

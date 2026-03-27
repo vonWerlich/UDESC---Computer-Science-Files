@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Mestiço F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0921&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B803%5D%7B526%7Dmestico.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: HM Clause; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a fungos: Ff - Fulvia fulva (ex Cladosporium fulvum); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Médio (201 a 230 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+• Híbrido indeterminado; • Excelente vigor e boa cobertura foliar dos frutos; • Fruto tipo salada LSL com excelente firmeza; • Calibre grande, com peso médio de 220 – 230g.
+
+-- RESISTÊNCIA: --
+• HR: Va:1 (Eur 0) / Vd:1 (Eur 0) / For / Fol 1,2 (Eur 0,1) /ToMV /Ff (A,B,C,D,E) • IR: TYLCV /TSWV:T0
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://hmclause.com/?lang=pt-br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://hmclause.com/?lang=pt-br.

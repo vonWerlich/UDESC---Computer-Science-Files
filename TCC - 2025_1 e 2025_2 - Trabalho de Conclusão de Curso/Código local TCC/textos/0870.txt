@@ -1,0 +1,19 @@
+Título: TOMATE - Nutrição Mineral - *Cobre
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0870&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+
+-- Informações gerais: --
+A manifestação dos sintomas de deficiência desse nutriente é muito rara, tanto em solo, como em hidroponia, e essa hipótese deve ser considerada em último caso. A forma iônica Cu2+ é a mais comum nos solos e também é a forma absorvida pelas plantas (4). Este nutriente participa de processos como: fotossíntese, respiração, distribuição de carboidrato, redução e fixação de nitrogênio e está envolvido no mecanismo de resistência as doenças fúngicas das plantas (1). Além disso, o Cu atua como cofator de várias enzimas, no entanto, o excesso de Cu pode desencadear deficiência de Fe e reduzir a absorção de P (3).
+
+-- Como identificar: --
+Os sintomas de deficiência ocorrem em folhas mais novas das plantas, com amarelecimento marginal e internerval e necrose nas nervuras das folhas inferiores (1). As plantas se apresentam menos vigorosas e com menor área foliar (2).
+
+-- O que pode estar ocorrendo: --
+A ocorrência de deficiência é rara, podendo ocorrer em solos orgânicos ou turfosos pela complexação do Cu pela matéria orgânica (4), por excesso de calagem e em solos arenosos com alta precipitação (1).
+
+-- Correção: --
+A correção é feita com o uso de oxicloreto ou hidróxido de cobre em pulverizações semanais (1). O uso da calda bordalesa preventivamente para o controle de doenças, na concentração de 0,3%, evitará indiretamente a ocorrência da deficiência desse nutriente.
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R.. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) YARA. Disponível em: . Acesso em 19/10/2018. (3) DECHEN, A.R.; NACHTIGALL, G.R.; CARMELLO, Q.A. de C.; SANTOS, L.A.; SPERANDIO, M.V.L. Micronutrientes. In: FERNANDES, M. S.; SOUZA, S. R. DE; SANTOS, L. A. (Ed.). Nutrição mineral de plantas. 2. ed. Viçosa: Sociedade Brasileira de Ciência do Solo, 2018. p. 491–562. (4) FAQUIN, V. Nutrição Mineral de Plantas. Lavras: UFLA/FAEPE, 2005.

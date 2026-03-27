@@ -1,0 +1,30 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Tripes
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014995&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12993%5D%7B251%7D49-1_-_copia.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12993%5D%7B127%7D49-1.jpg
+Legenda: Adulto de tripes. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12993%5D%7B332%7D49-2.jpg
+Legenda: Danos ocasionados pelo ataque de tripes em folhas de tomateiro. null
+
+-- INFORMAÇÕES GERAIS: --
+As espécies Thrips palmi Karny, 1925, Frankliniella occidentalis (Pergande, 1895) e Frankliniella schultzei (Trybom, 1910) (Thysanoptera: Thripidae) são as principais para a tomaticultura.
+
+-- IDENTIFICAÇÃO DA PRAGA: --
+Os tripes são insetos pequenos, medindo aproximadamente 1 mm, com asas franjadas e coloração que varia do amarelo ao negro.
+
+-- PARTES DA PLANTA QUE PODEM SER ENCONTRADA A PRAGA: --
+Tanto as ninfas (fase jovem) quanto os adultos vivem predominantemente em nervuras e na parte inferior da folha.
+
+-- CICLO BIOLÓGICO: --
+Seu ciclo biológico, da fase jovem a adulta, é completado em apenas 15 dias.
+
+-- DANOS: --
+Estes indivíduos alimentam-se raspando o tecido foliar, e posteriormente, sugando a seiva extravasada das células. Isto provoca danos típicos e facilmente reconhecidos em campo, como o surgimento de manchas prateadas nas folhas e frutos, bem como pontos negros (fezes) e pequenas pústulas formadas pela oviposição dentro do tecido vegetal.
+
+-- TRANSMISSÃO DE VIROSES: --
+Os principais danos referem-se, no entanto, à transmissão de vírus às plantas, principalmente relacionada ao complexo vira-cabeça do tomateiro.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

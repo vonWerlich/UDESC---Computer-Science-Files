@@ -1,0 +1,35 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - d) Manejo de plantas e do cultivo para produção orgânica - 7) Consorciação de culturas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07375&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6659%5D%7B510%7Dcapa_tomatorg.jpg
+
+-- Conceito: --
+A consorciação de culturas pode ser definida como um sistema em que duas ou mais espécies ou cultivares diferentes desenvolvem-se na mesma área. Pode ser definida também como tipo de agricultura que utiliza diferentes plantas, tentando imitar a diversidade dos ecossistemas naturais. Existem diversos relatos de sucesso do uso da consorciação de culturas, principalmente quando ela envolve cultivos de plantas de porte alto, como frutíferas, erva-mate, cafeeiro, etc., com plantas de porte baixo, como plantas de cobertura e hortaliças.
+
+-- Vantagens: --
+Dentre as vantagens, Altieri et al. (2003) destacam que a diversidade vegetal mantém a estabilidade da densidade populacional dos insetos fitófagos, pois favorece os insetos benéficos por meio da maior disponibilidade de pólen e néctar, promovendo o controle biológico natural. Além disso, reduz a competitividade de plantas daninhas (FLECK et al., 1984), o que é um fator importante a ser considerado numa área de produção de orgânicos.
+
+-- Exemplo de sucesso em outras culturas: --
+Uma experiência exitosa no uso da consorciação de culturas está sendo observada em Itajaí no cultivo de aipim a céu aberto. O trabalho é desenvolvido entre a pesquisa (Estações da Epagri de Urussanga e Itajaí) e extensão rural do município. O objetivo do trabalho é reduzir o ataque da mosca-do-broto (Neosilba perezzi) na cultura do aipim, por meio do consórcio com diferentes arranjos de plantas. Nos últimos anos, essa praga vem se tornando um sério problema aos produtores de aipim do estado de Santa Catarina e novas estratégias de manejo precisam ser definidas. Em uma das propriedades incluídas nesse estudo, localizada na comunidade de São Roque, em Itajaí, SC, o produtor cultiva em uma faixa de terra (35 metros de largura) vários talhões, com três arranjos. No primeiro monocultivo de aipim (8.250 m²), no segundo consórcio de aipim e feijão (11.360 m²) e no terceiro consorcio de aipim com melancia e milho verde (7.035 m²). O monitoramento consistiu em contagem das plantas atacadas no meio de cada talhão, definindo a porcentagem de plantas atingidas. A porcentagem de plantas atacadas pela mosca no monocultivo de aipim foi de 79%, caindo para 53% no consórcio com feijão e 13% no consórcio com milho verde e melancia. Além desse efeito positivo, existe a taxa de equivalente área, que é mais vantajosa em consorciação.
+
+-- RELATOS BIBLIOGRÁFICOS COM O TOMATEIRO: --
+Para o cultivo do tomateiro existem diversos relatos bibliográficos que indicam que a consorciação de culturas pode trazer benefícios diretos e indiretos ao cultivo.
+
+-- Gomes et al. (2012): --
+Gomes et al. (2012) compararam tomateiros cultivados em sistemas monoculturais e policulturais, consorciando tomate com coentro (Coriandrum sativum) e tagetes (Tagetes minuta) circundados por uma faixa de sorgo (Sorghum bicolor). Os resultados em relação ao ataque de pragas são bem significativos, com uma redução de três vezes no ataque de tripes na consorciação; maior ataque do vira-cabeça no monocultivo (transmitido por insetos) e também menor ataque da broca-pequena-do-tomateiro, quando ele estava consorciado.
+
+-- Tringovska et al. (2015): --
+Tringovska et al. (2015) avaliaram em cultivo protegido a consorciação do tomateiro com tagetes (Tagetes patula L.), manjericão (Ocimum basilicum L.), alface (Lactuca sativa L.) e mostarda branca (Sinapis alba L.), para verificar a incidência de nematoides da galha (Meloidogyne spp.) entre outros parâmetros. Nesse trabalho, a mostarda branca, juntamente com o tagetes, aparece como o melhor tratamento contra o nematoide Meloidogyne no tomateiro produzido em cultivo protegido. A supressão de nematoides causada pelas brássicas como a mostarda branca é atribuída ao alto conteúdo de glucosinolatos nos tecidos das plantas, cujos produtos de sua degradação inibem a germinação de ervas e também o aparecimento de algumas doenças (HENDERSON et al., 2009)
+
+-- Togni et al. (2009): --
+Togni et al. (2009) avaliaram o cultivo do tomateiro consorciado com coentro em sistema orgânico e convencional em relação ao ataque da mosca-branca, concluindo que a população de adultos da praga foi menor no tomateiro quando este estava consorciado com coentro, nos dois tipos de cultivo. Para Hilje (2001), o coentro pode possuir ação repelente devido à produção de compostos voláteis tóxicos, além de contribuir para o aumento de habitats para a proliferação de inimigos naturais e dificultar a localização da planta hospedeira pela mosca-branca.
+
+-- CUIDADOS: --
+Apesar de serem destacadas neste item as vantagens da consorciação de culturas, alguns cuidados devem ser tomados para o uso no cultivo do tomateiro, principalmente em abrigos de cultivo. O primeiro deles é que não deve haver competição por luz, pois, além da competição direta pelas plantas, há perda de parte da luz fotossinteticamente ativa devido ao plástico de cobertura. Esses fatores, somados a um período de baixa luminosidade, podem limitar o crescimento da planta e a expressão do seu máximo potencial produtivo. Quanto à nutrição, a planta companheira deve ser considerada na hora do cálculo da adubação, para não limitar o crescimento do tomateiro. A irrigação deve ser igualmente dimensionada para suprimento das exigências hídricas das plantas. Um cuidado especial deve ser tomado quanto à umidade do ar, pois o aumento da massa vegetal dentro de um abrigo de cultivo, principalmente aqueles com telas anti-insetos nas laterais, pode aumentar em demasia a umidade foliar, favorecendo a ocorrência de doenças.
+
+-- Posicionamento da equipe de olericultura da Epagri de Itajaí: --
+Devido aos inúmeros fatores envolvidos nos cultivos consorciados, que tornam mais complexo o correto manejo do tomateiro em abrigos de cultivo, deve-se dar preferência pelo cultivo solteiro, procurando o aumento da diversidade biológica através da introdução de plantas em áreas adjacentes ao abrigo, pela rotação de culturas ou cultivo de plantas de cobertura na entressafra do tomateiro. Novas pesquisas devem ser realizadas para se determinar com precisão as melhores opções de consorciação de plantas para o cultivo do tomateiro orgânico em abrigo, como forma de reduzir aplicações de produtos fitossanitários, aumentar a rentabilidade do cultivo e facilitar o manejo dos principais insetos-praga e doenças.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

@@ -1,0 +1,25 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano é no colmo ou nas panículas, ainda que tenham folhas amareladas - A panícula ou os grãos apresentam sinais externos de dano - Apenas os grãos estão danificados ou manchados - Os grãos estão chochos ou têm a casca manchada. Podem estar envoltos por massa pulverulenta negra ou esverdeada - Os grão estão cobertos por uma massa pulverulenta negra ou esverdeada
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021577&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17059%5D%7B178%7Dpl39_carvoes.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano é no colmo ou nas panículas, ainda que tenham folhas amareladas
+A panícula ou os grãos apresentam sinais externos de dano
+Apenas os grãos estão danificados ou manchados
+Os grãos estão chochos ou têm a casca manchada. Podem estar envoltos por massa pulverulenta negra ou esverdeada
+Os grão estão cobertos por uma massa pulverulenta negra ou esverdeada
+A massa pulverulenta que cobre os grãos é fina e negra - CARVÃO ou CÁRIE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21577%5D%7B148%7Dchv_carvaograo.jpg
+Legenda: A massa pulverulenta que cobre os grãos é fina e negra - CARVÃO ou CÁRIE
+21584
+A massa pulverulenta que cobre os grãos é fina e negra - CARVÃO ou CÁRIE
+A massa pulverulenta que cobre os grãos é espessa, de aspecto esponjoso, verde-amarelada quando recém formada e verde-oliva quando envelhecida - FALSO-CARVÃO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21577%5D%7B124%7Ddano_falsocarvao.jpg
+Legenda: A massa pulverulenta que cobre os grãos é espessa, de aspecto esponjoso, verde-amarelada quando recém formada e verde-oliva quando envelhecida - FALSO-CARVÃO
+21585
+A massa pulverulenta que cobre os grãos é espessa, de aspecto esponjoso, verde-amarelada quando recém formada e verde-oliva quando envelhecida - FALSO-CARVÃO

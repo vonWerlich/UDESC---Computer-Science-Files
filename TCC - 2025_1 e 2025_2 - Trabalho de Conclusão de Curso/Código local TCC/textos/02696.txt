@@ -1,0 +1,56 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - E) MANEJO DA IRRIGAÇÃO POR GOTEJAMENTO - c) Manejo da irrigação por gotejamento com base no solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02696&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2422%5D%7B3%7Dcapa_1.jpg
+
+-- Para cálculo da estimativa da lâmina de água a ser utilizada em cada turno de rega: --
+A estrutura física do solo é o fator determinante que irá definir a umidade do solo e que influenciará diretamente o volume de água nele armazenado. Logo, é de suma importância o conhecimento da estrutura física e da umidade do solo para estudar o movimento da água no solo, a disponibilidade de água, a época e a quantidade de água a ser aplicada. Para viabilizar o manejo de irrigação e possibilitar o cálculo da estimativa da lâmina de água a ser utilizada em cada turno de rega são necessárias algumas informações importantes, tais como: profundidade efetiva do sistema radicular, potencial de água crítico para as culturas, capacidade de campo, ponto de murcha permanente e curva de retenção de água do solo.
+
+-- A profundidade efetiva das raízes: --
+A profundidade efetiva das raízes compreende a camada desde a superfície do solo até onde se concentra a maior parte das raízes absorventes ou finas. Essa informação é importante não somente para determinação da lâmina de irrigação, mas também para a instalação de sensores para o monitoramento da água no solo no controle das irrigações. A profundidade efetiva do sistema radicular é onde se concentra em torno de 80% do total de raízes finas da cultura. Para a cultura do tomate a profundidade varia de 20 a 40cm na fase vegetativa e reprodutiva, respectivamente. Porém, essa medida deve ser determinada em cada situação, pois pode variar de acordo com o tipo de solo.
+
+-- Capacidade de campo (Cc) e ponto de murcha permanente (Pm): --
+O solo funciona como um reservatório de água, o qual tem como limite máximo a capacidade de campo (Cc), ou seja, a quantidade de água que o solo pode reter sem causar danos à planta, além de evitar a lixiviação de nutrientes, o escoamento superficial e a percolação profunda. Já no ponto de murcha permanente (Pm), a água existente no solo não está mais disponível às plantas, pois a força de retenção exercida pelo solo sobre a água é maior que a capacidade da planta em absorvê-la.
+
+-- O conceito de potencial de água crítico: --
+O potencial de água crítico para uma cultura indica o valor até o qual as irrigações podem ser realizadas sem que ocorram prejuízos à produtividade. Por isso, é o que determina o momento de irrigação.
+
+-- Curva de retenção de água no solo: --
+Em um solo homogêneo, para cada valor de umidade (θ), existe um valor correspondente de potencial de água no solo (ψ). A elaboração de um gráfico, com essas variáveis se denomina curva de retenção de água no solo. As coletas das amostras de solo para a determinação da curva de retenção de água no solo devem ser indeformadas, sendo coletadas com uso de anéis volumétricos que mantenham sua estrutura, pois, embora a textura seja o principal fator que influencia na retenção de água no solo, a estrutura também exerce bastante influência, sobretudo na faixa compreendida entre 0 e 100kPa.
+
+-- A coleta de solo para a curva de retenção de água do solo: --
+A coleta das amostras de solo para a determinação da curva de retenção de água do solo é feita em diferentes camadas, preferencialmente nos primeiros 20cm, sendo a profundidade efetiva do sistema radicular do tomate de 40cm. A curva de retenção deve ser determinada nas duas camadas. Entretanto, o manejo da irrigação deve se basear na camada de 0-20cm na fase inicial e na soma das duas camadas na fase de maior desenvolvimento vegetativo.
+
+-- O uso da curva de retenção: --
+O uso da curva de retenção para o manejo da irrigação é bastante simples. A irrigação é efetuada quando o solo atinge um potencial ou umidade que prejudique o desenvolvimento da cultura. Dessa forma, o monitoramento no campo é constante. Para a determinação do potencial de água no solo são utilizados tensiômetros em vários pontos na lavoura e, com auxílio de um densímetro, faz-se a leitura instantânea da tensão. Segundo Marouelli & Silva (2006) a máxima produção de tomate ocorre quando a tensão no solo é de 10kPa. Esse resultado está de acordo com Marouelli et al. (2003), que indicam que a realização de irrigações visando manter a tensão máxima de água no solo abaixo de 15kPa poderia ser capaz de acarretar incrementos de produtividade de frutos em tomateiro irrigado por gotejamento. Entretanto, deve-se ressaltar que esses valores são específicos para cada tipo de solo, inclusive com diferenças entre cultivares, sendo necessário, portanto, a determinação desses valores para cada situação específica.
+
+-- Quantidade de água a ser reposta: --
+Determinado o momento da irrigação, calcula-se a quantidade de água a ser reposta pela seguinte equação: LL= (θ cc - θ i)*Z Sendo que: LL = Lâmina liquida de irrigação (mm) θ cc = Umidade na capacidade de campo (cm3 cm-3) θ i = Umidade de irrigação correspondente ao potencial mínimo (máxima tensão ou tensão crítica) de água no solo preestabelecido para a cultura (cm3cm-3) Z = Profundidade efetiva do sistema radicular (mm)
+
+-- Exemplo de curva de retenção de água no solo --
+Na Figura 13 tem-se um exemplo de curva de retenção de água no solo para ser utilizada no manejo da irrigação, em uma área experimental da Estação Experimental de Caçador (Epagri/EECd), cultivada com tomate de mesa. A curva representa a camada da profundidade efetiva do sistema radicular da cultura do tomateiro em pleno desenvolvimento (Z= 400mm). Admitindo a tensão na capacidade de campo (θcc) igual a 10kPa, obtém-se pela equação do gráfico uma umidade na capacidade de campo igual a 44,65% (θ cc = 0,4465cm3/cm3). Considerando a tensão de irrigação (θ i) igual 25kPa, obtém-se uma umidade de irrigação igual a 41,83% (θ i = 0,4183cm3/cm3). Substituindo os valores de Z, θ cc e θ i na equação LL= (θ cc - θ i)*Z, tem-se uma lâmina de irrigação LL = 11,3mm.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2422%5D%7B371%7Dfigura_13.jpg
+Legenda: Curva de retenção de água em solo da Estação Experimental de Caçador (Epagri/EECd).Foto: Anderson Luiz Feltrim
+
+-- Lâmina líquida x Lâmina bruta: --
+A lâmina de água determinada pela curva de retenção é a lâmina líquida a ser aplicada, porém, como nenhum sistema de irrigação possui uma eficiência de 100%, deve-se fazer a correção e aplicar uma lâmina bruta de irrigação.
+
+-- A eficiência de irrigação: --
+A eficiência de irrigação é um conceito largamente utilizado, tanto em projetos quanto no manejo de sistemas de irrigação. O conceito de eficiência abrange dois aspectos básicos: a uniformidade de aplicação e as perdas que podem ocorrer durante a operação do sistema. Para que a eficiência possa atingir valores altos é necessário que as perdas durante a operação sejam as menores possíveis e que haja uma maior uniformidade de aplicação e distribuição da água no solo.
+
+-- Coeficiente de uniformidade de Christiansen (CUC) e de distribuição (CUD): --
+A uniformidade de aplicação de água, em sistemas de irrigação por gotejamento, pode ser expressa por vários coeficientes, destacando-se o coeficiente de uniformidade de Christiansen (CUC) e o coeficiente de uniformidade de distribuição (CUD). Para os sistemas de irrigação localizada é mais frequente o uso do CUD, que possibilita uma medida mais restrita, dando maior peso às plantas que recebem menos água. A determinação dos coeficientes é feita com uso das seguintes equações.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2422%5D%7B107%7Dformula_1.jpg
+Legenda: Fórmula 1 - oeficiente de uniformidade de Christiansen (CUC). Foto: Anderson Luiz Feltrim
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2422%5D%7B127%7Dformula_2.jpg
+Legenda: Fórmula 2 - Coeficiente de uniformidade de distribuição (CUD). Foto: Anderson Luiz Feltrim
+
+-- A determinação de eficiência do sistema: --
+A determinação de eficiência do sistema é feita no campo com auxílio de um recipiente, um cronômetro e uma proveta, de preferência com precisão de 1 a 2mL. A aferição da vazão dos gotejadores é feita no início, meio e fim do tubo gotejador e em diferentes pontos da lavoura, incluindo obrigatoriamente os pontos mais altos e baixos. Uma forma de evitar variações na pressão entre pontos altos e baixos na linha lateral é a utilização de mangueiras com gotejadores autocompensantes. Outro fator de baixa uniformidade de aplicação é o alto coeficiente de variação de fabricação entre as marcas de mangueiras e/ou entupimento dos gotejadores. Dessa forma, deve-se fazer o monitoramento periódico da uniformidade de aplicação. A lâmina bruta de irrigação é definida pela seguinte equação: Lb=LL/Ea Sendo que: Lb = Lâmina bruta de irrigação LL= Lâmina líquida de irrigação Ea = Eficiência do sistema (decimal).
+
+-- Cálculo da eficiência do sistema de irrigação: --
+Admitindo que a eficiência do sistema de irrigação por gotejamento é de 90% (0,9), tem-se uma lâmina bruta de irrigação de 12,5mm. Entretanto, no gotejamento, apenas uma fração da área é molhada, por isso esse valor de lâmina bruta (Lb) deve ser diminuído, multiplicado por um fator Pa (porcentagem de área molhada). Esse fator Pa é função do tipo do solo, espaçamento entre linhas laterais e vazão dos gotejadores e do tempo de aplicação da lâmina. A porcentagem de área molhada deve ser determinada no campo. Considerando um valor médio de Pa de 65%, tem-se uma lâmina final a ser aplicada de 8,1mm.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

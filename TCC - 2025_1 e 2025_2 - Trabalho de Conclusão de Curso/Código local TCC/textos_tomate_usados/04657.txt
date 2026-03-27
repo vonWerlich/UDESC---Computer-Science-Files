@@ -1,0 +1,28 @@
+Título: TOMATE - Fitossanidade - Pragas - Ácaro rajado (Tetranychus urticae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04657&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1952%5D%7B154%7D%5B1952%5D%7B487%7Dacara_rajado_pimentao1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1952%5D%7B211%7Dacara_rajado_pimentao.jpg
+Legenda: Adulto do Ácaro rajado. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1952%5D%7B484%7Dacara_rajado_pimentao1.jpg
+Legenda: Adulto do Ácaro rajado. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1952%5D%7B239%7D210.jpg
+Legenda: Os ácaros também podem atacar os frutos. Suas ações são reveladas pela presença de pequenas lesões cloróticas concentradas em torno da zona peduncular. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1952%5D%7B362%7D212.jpg
+Legenda: Quando há surtos de ácaros, as folhas acabam amarelando completamente e às vezes se tornam necróticos.Fonte: D. Blancard (INRA)
+
+-- INFORMAÇÕES GERAIS: --
+O ácaro rajado é visível a olho nu apesar de ser pequeno, e é capaz de formar teias. Ele ocasiona amarelecimento e queda prematura das folhas. É favorecido pelo tempo quente e seco (2). Ataca as folhas situadas na parte mediana da planta de tomate, sendo que uma infestação intensa produz o amarelecimento e o secamento com diminuição do número dos frutos, tamanho, maturação precoce e baixo teor de sólidos solúveis. O ácaro rajado aparece principalmente em condições de cultivo protegido, preferindo ambientes de baixa umidade relativa (2).
+
+-- BIOLOGIA: --
+Os adultos medem aproximadamente 1 mm de comprimento e 0,6 mm de largura. As fases ativas do ácaro-rajado apresentam-se de coloração que varia de verde-amarelada a verde-escura, possuindo duas manchas escuras no dorso (1). As fêmeas são maiores e possuem o abdome com formato ovalado, enquanto que nos machos, a extremidade posterior do abdome é mais estreita (1). Vivem na parte inferior das folhas em grande número e tecem teias para sua proteção. Os ovos são esféricos e amarelados e são colocados entre os fios de teia (1). O ciclo biológico varia de 5 a 21 dias, dependendo da temperatura. As melhores condições para o desenvolvimento do ácaro-rajado situam-se ao redor de 25ºC com ausência de precipitação, fato comum em cultivos protegidos sob estrutura plástica (1). Os ácaros possuem uma enorme capacidade de aumento populacional, chegando a 20-25 gerações por ano (2).
+
+-- MONITORAMENTO: --
+O monitoramento é realizado por meio da contagem do número de ácaros de uma amostra de 20 folhas coletadas ao acaso de uma parcela (área de mesma cultivar e data de plantio). Quando forem encontrados mais de cinco ácaros por folhas em 20% das folhas amostradas, deve-se realizar o controle (1).
+
+-- CONTROLE: --
+É realizado com a aplicação de acaricidas ou através da liberação do ácaro predador Neoseiulus californicus (1), o qual é produzido comercialmente no Brasil e comercializado com os seguintes nomes: Neomip Max ; Spical ; Neomip .
+
+-- Informações Complementares --
+(1) Fonte: www.agencia.cnptia.embrapa.br/gestor/morango/arvore/CONT000fmxotm4c02wyiv8065610drz016oe.html. (2) Fonte: https://www.grupocultivar.com.br/artigos/reacao-aos-acaros.

@@ -1,0 +1,16 @@
+Título: BANANA - Cultivares - SCS454 Carvoeira
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021670&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+SCS454 Carvoeira
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18353%5D%7B116%7Dcap_3_-_fig_1_-_letra_h_-_buques_maduro_carvoeira_-_autoria_eliseu_emanoel_dos_santos.jpg
+
+-- DESCRIÇÃO DO CULTIVAR: --
+Grupo genômico AAB, subgrupo Prata. É uma mutação espontânea derivada do cultivar Prata Anã. Foi selecionado por apresentar maior produtividade, maior resistência ao mal do Panamá e ainda uma maior resistência à doenças do complexo Sigatoka, quando comparada com o cultivar de origem. Espaçamentos de plantio de 2,5m x 3,0m; 2,0m x 3,5m; 2,0m x 4,0m, ou 1.200 plantas por hectare. (Mais informações em: " Avaliação de cultivares para o Estado de Santa Catarina ")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

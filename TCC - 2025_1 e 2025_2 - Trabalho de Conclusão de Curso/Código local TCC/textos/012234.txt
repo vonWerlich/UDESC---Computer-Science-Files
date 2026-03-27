@@ -1,0 +1,29 @@
+Título: 1) REGULAMENTAÇÃO - 4) Descrição, requisitos de composição e condições de uso de substâncias e produtos para a produção orgânica
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012234&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_alface.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6629%5D%7B93%7Dcapa_tomatorg.jpg
+
+-- a) Desde que o produto formulado tenha concentração máxima de: --
+8% (oito por cento) de ácido acético.
+
+-- b) Desde que isentos de componentes não autorizados pela Instrução Normativa 17/14/MAPA: --
+Açúcar, água, amido de milho, calcário, espiga de milho, extrato de grãos de café torrado, farinha de arroz, farinha de milho, farinha de soja, leite, leite em pó, melaço, óleo de soja, óleo de soja degomado.
+
+-- c) Somente poderá ser utilizado no preparo de extratos vegetais: --
+Álcool etílico, borracha, septo de borracha e cera de parafina.
+
+-- d) Desde que livre de sílica cristalina: --
+Dióxido de silício, sílica amorfa coloidal e sílica gel precipitada.
+
+-- e) Inteiros, quebrados ou moídos desde que esterilizados e isentos de componentes não autorizados pela Instrução Normativa 17/14/MAPA: --
+Grão de milheto, de milho, de soja, de sorgo, de trigo, de arroz e látex de borracha.
+
+-- f) Somente autorizado para uso como liberador de feromônio: --
+Látex de borracha e microcápsulas de polímeros naturais (gelatina ou goma arábica).
+
+-- g) Substâncias e produtos sem restrições de uso: --
+Ácido ascórbico, ácido cítrico, ácido cítrico monoidratado, ácido fumárico, ácido láctico, alfaciclodextrina, aluminosilicato de sódio, bentonita, benzoato de sódio, bicarbonato de sódio, carbonato de cálcio, carbonato de magnésio, carbonato de sódio, carboximetilcelulose, carboximetilcelulose sódica, caulim, caulinita, cera de abelha, cera de carnaúba, cera de parafina, citrato de sódio, cloreto de potássio, cloreto de magnésio, cloreto de sódio, dióxido de silício, estearato de magnésio, farinha de trigo, gelatina, gipsita, glicerina, glicose, goma arábica, goma guar, goma xantana, hidróxido de potássio, hidróxido de sódio, hietelose, hiprolose, hipromelose, lactose, lecitina, lecitina de soja, levedura de cerveja, maltodextrina, monoestearato de glicerila, oleato de potássio, óleo de mamona, óleo de mamona hidrogenado, óleo de soja hidrogenado, óleo mineral branco, óleo mineral, óxido de cálcio, óxido de ferro (iii), óxido de magnésio, óxido de zinco, peróxido de hidrogênio, polietileno, polpa cítrica, sílica amorfa precipitada e gel, sílica gel, silicato de cálcio, silicato de magnésio e silicato de magnésio hidratado.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

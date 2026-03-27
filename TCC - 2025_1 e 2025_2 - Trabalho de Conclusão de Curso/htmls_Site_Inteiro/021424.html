@@ -1,0 +1,351 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13031&amp;isEdicao=N&amp;epagriTEC=S">ARROZ IRRIGADO</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13151&amp;isEdicao=N&amp;epagriTEC=S">08. Cultivares</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13153&amp;isEdicao=N&amp;epagriTEC=S">Portfólio de cultivares Epagri</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13155&amp;isEdicao=N&amp;epagriTEC=S">     Cultivares convencionais recomendadas</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21424&amp;isEdicao=N&amp;epagriTEC=S">SCSBRS126 Dueto</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18045">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021424">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18045]{507}scs126_caput.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  SCSBRS126 Dueto 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>CARACTERÍSTICAS GERAIS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Cultivar de arroz irrigado resiliente a extremos de temperatura na fase reprodutiva, indicada para as regiões produtoras de Santa Catarina e Rio Grande do Sul.<br>
+Resultado da parceria Epagri – Embrapa, com apoio da Udesc/CAV, a variedade de arroz irrigado SCSBRS126 Dueto (linhagem SC 806) é oriunda do cruzamento das cultivares Irga 424 e BRS Pampa. É indicada principalmente para regiões com altitude superior a 400m, sujeitas a quedas de temperatura (frentes frias) na fase reprodutiva. Também pode ser cultivada nas demais regiões de SC, desde que se sigam as orientações técnicas específicas desta variedade, como densidade adequada, adubação nitrogenada adequada, entre outras, a fim de atenuar a suscetibilidade de acamamento deste cultivar quando em cultivo em baixas altitudes.<br>
+Para mais informações consulte:<br>
+<a target="_blank" href="https://sistemas.epagri.sc.gov.br/semob/consulta.action?subFuncao=consultaProdTecCientDetalhe&amp;cdDoc=57923&amp;epagriSite/DOC_57923.pdf">Cartilha do SCSBRS126 Dueto</a>.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CARACTERÍSTICAS AGRONÔMICAS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> • <b>Produtividade média:</b> 10,3t/ha<br>
+• <b>Produtividade potencial:</b> 13,7t/ha<br>
+• <b>Altura da planta:</b> 75,9cm<br>
+• <b>Ciclo:</b> Tardio (142 dias)<br>
+• <b>Acamamento (acima de 400m de altitude:</b> Médio suscetível<br>
+• <b>Acamamento (abaixo de 400m de altitude:</b> Suscetível<br>
+• <b>Reação à toxidez por ferro:</b> Moderadamente suscetível<br>
+• <b>Reação à brusone:</b> Moderadamente resistente<br>
+• <b>Reação a temperaturas baixas (15°C) e altas (38°C):</b> Tolerante<br><br>
+Médio-suscetível à escaldadura da folha, à mancha-parda, à mancha de grãos e ao falso carvão; suscetível à podridão da bainha. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CARACTERÍSTICAS INDUSTRIAIS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> • <b>Gesso:</b> 2<br>
+• <b>Classe:</b> Longo fino<br>
+• <b>Renda do beneficiamento:</b> 70,3%<br>
+• <b>Rendimento de grãos inteiros:</b> 68,8%<br>
+• <b>Teor de amilose:</b> 24,2% (intermediário)<br>
+• <b>Temperatura de gelatinização:</b> Baixa (6,98)<br><br>
+Veja curva de encharcamento abaixo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26246,021424,18045,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18045]{231}curva_de_hidratacao_scsbrs126_dueto_-_ufpel_labgraos.jpg">  </a> 
+<br><br>
+<b>RECOMENDAÇÕES ADICIONAIS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para as regiões do Litoral Sul, Litoral Norte, e Baixo Vale do Itajaí (ou seja, com altitudes aproximadas entre 0 a 150 m), recomenda-se densidades de semeadura de 100 kg/ha, e adubação nitrogenada cujo total não deve ultrapassar 100 kg de N/ha. Densidades e adubações nitrogenadas acima destes níveis, nestas regiões, implicam em aumento considerável do risco de acamamento.<br>
+Para as regiões de altitude (de 300 a 400 m, e acima de 400 m) a Epagri ainda não definiu, através de pesquisas, a densidade de semeadura e a adubação nitrogenada ideais. Alguns estudos preliminares indicam que as densidades nas regiões de altitude precisam ser maiores, mas não há dados conclusivos para uma recomendação, que poderá ser informada nos próximos anos.<br>
+Recomenda-se evitar regiões litorâneas especialmente sujeitas a ventos fortes.<br>
+Aconselha-se a drenagem intermediária no perfilhamento, a supressão da água entre 10 a 15 dias após o florescimento e a drenagem no mais tardar até 15 dias após o florescimento.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>FOLHAS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> • <b>Cor:</b> Verde<br>
+• <b>Comprimento:</b> 33,6cm<br>
+• <b>Largura:</b> ...cm<br>
+• <b>Pubescência:</b> Média<br>
+• <b>Ângulo das folhas:</b> ...<br>
+• <b>Ângulo da folha bandeira:</b> Ereto (menor que 30°)<br>
+• <b>Cor da bainha:</b> Verde<br>
+• <b>Cor da lígula:</b> Incolor a verde<br>
+• <b>Cor da aurícula:</b> Verde-clara<br>
+• <b>Cor do colo:</b> ... <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COLMO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> • <b>Comprimento:</b> 75,9cm<br>
+• <b>Espessura:</b> 4,1mm<br>
+• <b>Perfilhamento:</b> Bom<br>
+• <b>Ângulo dos perfilhos:</b> Ereto (menor que 30°)<br>
+• <b>Cor do internó:</b> Verde-clara <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PANÍCULAS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> • <b>Tipo:</b> Normal<br>
+• <b>Comprimento:</b> 25,7cm<br>
+• <b>Exserção:</b> Completa<br>
+• <b>Degrane:</b> Intermediário<br>
+• <b>Axis:</b> Caído
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ESPIGUETAS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> • <b>Arista:</b> Rara<br>
+• <b>Cor estigma:</b> Verde-clara<br>
+• <b>Cor do apículo na floração:</b> Verde<br>
+• <b>Cor do apículo na maturação:</b> Amarela<br>
+• <b>Cor da pálea e lema:</b> Palha<br>
+• <b>Cor das glumelas:</b> Palha <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>GRÃOS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> • <b>Comprimento:</b> 7,09mm<br>
+• <b>Espessura:</b> 1,73mm<br>
+• <b>Largura:</b> 1,99mm<br>
+• <b>Relação C/L:</b> 3,50<br>
+• <b>Forma do grão:</b> Alongada<br>
+• <b>Peso de mil grãos:</b> 27,3g<br>
+• <b>Pilosidade:</b> Escassa <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INFORMAÇÕES MOLECULARES:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O dendograma de similaridade genética, incluindo a SCSBRS126 Dueto, seus parentais (Irga 424 e BRS Pampa) e as variedades mais importantes da Epagri ainda em cultivo é apresentado na figura abaixo.<br>
+Na tabela a seguir são listados os 26 marcadores moleculares SSR (Gramene) da SCSBRS126 Dueto, com localização cromossômica e tamanho do fragmento (alelo). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26247,021424,18045,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18045]{524}dendograma_de_similaridade_genetica_scsbrs126_dueto.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26248,021424,18045,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18045]{534}marcadores_moleculares_genotipagem_fingerprint_scsbrs126_dueto.jpg">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+EBERHARDT, D.S. Altas temperaturas afetam produtividade e qualidade do arroz irrigado do Estado. Agropecuária Catarinense, Florianópolis, SC, v.23, n.2, p.12, jul. 2010.
+FACCHINELLO P.H.K.; MARSCHALEK, R.; TERRES, L.R.; ANDRADE, A.; WICKERT, E.; KONKOL, A.C.B; NUNES, L.D.P; SANGOI, L.  Avaliação de linhagens de arroz irrigado Epagri submetidas à estresse de frio na microsporogênese. In: XII CBAI Resumos... Santa Maria: SOSBAI, 2022
+FACCHINELLO, P.H.K ; MARSCHALEK, R. ; ANDRADE, A.; WICKERT, E. , TERRES, L.R., KONKOL, A.C.B. , NUNES, L.D.P. , SOUZA, N.M., SANGOI, L. Validação da linhagem SC 806 para tolerância a altas temperaturas na antese. In: XIICBAI, Resumos... Santa Maria: SOSBAI, 2022
+MARSCHALEK, R.; ROZZETTO, D. S.; ANDRADE, A. ; WICKERT, E. Avaliação de Genótipos de Arroz Irrigado em região de elevada altitude, sujeita a baixas temperaturas 2013/14 - 2014/15. In: IX CBAI, 2015.. Anais. SOSBAI, 2015. v.1, p.116-119.
+MARSCHALEK, R.; HICKEL, E. R. ; STÜRMER, F. W. . Avaliação da produtividade de cultivares e linhagens de arroz irrigado em região de altitude, sujeita à baixas temperaturas, 2015/16 - 2016/17. In: X CBAI, 2017. Anais. SOSBAI, 2017. p.1-4.
+MARSCHALEK, R., ERDMANN, L.F., ROZZETTO, D.S. Esterilidade e peso de grãos em genótipos de arroz irrigado sob condições controladas de baixa temperatura na microsporogênese e antese. Resumos XI CBAI... Balneário Camboriú: SOSBAI, 2019.  4p.
+MARSCHALEK, R.; SOUZA, N.M. ; WICKERT, E. ; ANDRADE, A. ; TERRES, L.R. ; MASSIGNAM, A. M. ; RICCE, W. ; SANGOI, L. Produtividade de cultivares e linhagens de arroz irrigado em região de altitude, sujeita a baixas temperaturas, safra 2017/18 e 2018/19. In: XI CBAI, 2019; Anais: SOSBAI, 2019. v.1. p.1-4.
+MARSCHALEK, R ; EICHSTADT, E. ; VERDI, R ; TERRES, L.T. , FACCHINELLO, P.H.K.; MASSIGNAM, A.M. , RODRIGUES, M.L.G, VIEIRA, H.J., SANGOI, L. Comportamento de linhagem de arroz irrigado tolerante à frio (SC806) sob ocorrência de baixas temperaturas de campo, na fase reprodutiva, na safra 2020/21. Anais do XII CBAI. 2022. 
+MARSCHALEK, R.; OLIVEIRA, D.G.; SOUZA, N.M.; FACCHINELLO, P.H.K.; TERRES, L.R.; SANGOI, L. Avaliação de tolerância a baixas temperaturas em genótipos de arroz irrigado (Oryza sativa L.) na fase reprodutiva em experimento a campo, durante evento climático espontâneo na safra 2019/2020. Ciências Agroveterinárias, v.22 n1, p-103-108, 2023
+SOUZA, N. M. Estresse por altas temperaturas na antese em arroz irrigado. 2020. 118p. (Doutorado em Produção Vegetal) - UDESC/CAV, Lages, 2020.
+SOUZA, N. M.; SANGOI, L.; MARSCHALEK, R. Tolerance of lowlandrice (Oryza sativa) genotypestoheat stress atanthesis. Agropecuária Catarinense, v.35, n.2, p50-54, 2022.
+STÜRMER, F. W.;MARSCHALEK, R. ; SANGOI, L. ; SOUZA, N.M. . Esterilidade de espiguetas e produção de grãos de genótipos de arroz irrigado submetidos a baixas temperaturas na microsporogênese. Agropecuária Catarinense, v.32, p 57-61, 2019.
+STÜRMER, F. W. Tolerância à baixas temperaturas durante o estabelecimento e microsporogênese em genótipos de arroz irrigado. 2018. 107p. Dissertação (Mestrado em Produção Vegetal) - UDESC/CAV, Lages, 2018. 
+STÜRMER, F.W., MARSCHALEK, R.; SANGOI, L., SOUZA, N.M., SANTOS, S.B. Esterilidade e produção de grãos de genótipos de arroz irrigado submetidos à baixa temperatura na fase de microsporogênese. X CBAI. Resumos... Gramado: SOSBAI, 2017 4p
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Rubens Marschalek (Dr. em Melhoramento - Epagri)<br> &nbsp;&nbsp;Melhoramento e cultivares  </font> 
+<br> <font size="2">• Laerte Reis Terres (Dr. em Melhoramento - Epagri)<br> &nbsp;&nbsp; Melhoramento, cultivares e sementes </font> 
+<br><br><br> <font size="2"> Criado em: 22/06/2023</font>
+<br> <font size="2"> Última atualização: 23/06/2023</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021424&amp;cdElemento=18045">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18045');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

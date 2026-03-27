@@ -1,0 +1,11 @@
+Título: BIOFERTILIZANTE EEI - Formulação do Biofertilizante EEI
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018799&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16383%5D%7B175%7Dingredientes.jpg
+
+-- Para 100 litros de biofertilizante, utilizam-se: --
+- 94 litros de água; - 1kg de farinha de peixe (ou casca de camarão seca e moída); - 1kg de matéria orgânica (ou composto ou esterco ou serapilheira); - 2kg de farelo de arroz (ou farelo de trigo); - 0,5kg de amido de milho; - 1kg de açúcar ou melado; - 0,5kg de amido de mandioca.
+
+-- Informações Complementares --
+Visconti, A.; Schallenberger, E. Morales, R.G.F.; Cantú, R.R. Unidade Portátil de Produção de Biofertilizante Aeróbico, Modelo Epagri. Cartilha da Epagri, Florianópolis, Março de 2022.

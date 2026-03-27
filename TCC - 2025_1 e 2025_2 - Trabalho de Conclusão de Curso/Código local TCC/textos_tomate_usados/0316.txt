@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Laura F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0316&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B211%5D%7B477%7Dlaura.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Feltrin; Finalidade: Copa; Grupo: Santa Cruz; Polinização: Híbrido; Precocidade: Baixa (121 a 130dias); Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Muito Pequeno (menor que 170 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Cultivar: Tomate Laura Híbrido F1. Colheita (Dias): 110-130 dias. Hábito De Crescimento: Indeterminado. Peso: 200g. DESTAQUE: Planta Vigorosa + Multivírus.
+
+-- RESISTÊNCIA: --
+V, F2, TMV, TYLC, TSWV.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sementesfeltrin.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sementesfeltrin.com.br.

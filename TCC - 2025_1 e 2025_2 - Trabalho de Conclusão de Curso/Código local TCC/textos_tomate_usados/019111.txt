@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Cereja Vermelho
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019111&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16754%5D%7B410%7Dtomate-cereja-vermelho.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Planta: Vigorosa de crescimento determinado, indicada para plantio em vasos ou no jardim; Frutos: De 20 x 20 mm; Época: Melhor adaptação em temperaturas quentes e amenas.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.horticeres.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.horticeres.com.br/nossos-produtos/solanaceas/tomate/tomate-cereja-vermelho/

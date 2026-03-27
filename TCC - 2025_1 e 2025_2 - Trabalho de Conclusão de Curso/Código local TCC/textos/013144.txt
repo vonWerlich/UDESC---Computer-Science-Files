@@ -1,0 +1,30 @@
+Título: ARROZ IRRIGADO - 06. Manejo nutricional - Distúrbios nutricionais
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013144&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11410%5D%7B379%7D06_disturbio_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+As características dos sistemas de cultivo do arroz tornam a cultura suscetível à ocorrência de alguns distúrbios nutricionais. A frequência e intensidade de ocorrência desses distúrbios depende, principalmente, das características do solo, manejo da cultura e da dinâmica hídrica.
+
+-- TOXIDEZ POR ÁCIDOS ORGÂNICOS: --
+É causada pelo excesso de ácidos na solução do solo, formados pela decomposição de material orgânico em solos inundados. Esses ácidos afetam a germinação e o crescimento das plântulas, prejudicando consideravelmente o estabelecimento da lavoura. O montante de 4t/ha de material orgânico de fácil decomposição no solo (plantas verdes e palha) já causam redução de crescimento e absorção de nutrientes. A principal medida preventiva da toxidez por ácidos orgânicos é a incorporação da palha pelo menos 30 dias antes da semeadura do arroz. Outra medida para redução do problema é a elevação do pH do solo para próximo de 6. No ocaso de manifestação da toxidez por ácidos orgânicos após a semeadura, a área deve ser drenada.
+
+-- TOXIDEZ POR FERRO: --
+A toxidez por ferro é causada pelo excesso de ferro acumulado na solução do solo, ocasionado pela inundação da área. Ocorre principalmente em solos com altos teores de ferro, baixa CTC e baixos teores de Ca, Mg, K e P. Os sintomas da toxidez por ferro aparecem cerca de 40 dias após o início da irrigação contínua e normalmente ocorrem entre o perfilhamento pleno e a diferenciação da panícula. Pode se manifestar na forma direta ou indireta. A toxidez direta ocorre pela absorção excessiva de ferro e se manifesta através de manchas (pequenas ou grandes) de coloração marrom ou arroxeada ( figuras abaixo ). O controle deste tipo de toxidez deve ser feito de forma preventiva, majoritariamente com uso de cultivares resistentes. A aplicação de calcário ou de fertilizantes orgânicos tem se demonstrado pouco efetivas para a prevenção da toxidez direta. Em lavouras com sintomas intensos, a drenagem é a estratégia mais efetiva para redução da intensidade da toxidez durante a safra. Em áreas com sintomas leves ou moderados, a aplicação de nitrogênio, prevista para o perfilhamento pleno ou para a diferenciação da panícula, é suficiente para reduzir a intensidade do problema. A toxidez indireta consiste na deficiência de nutrientes, principalmente potássio e fósforo, causada pelo excesso de ferro na zona das raízes ( figuras abaixo ). O principal sintoma é o alaranjamento das folhas mais velhas. O controle dessa toxidez também é feito de forma preventiva, principalmente com uso de cultivares resistentes e aplicação de calcário. A aplicação de calcário tem por objetivo elevar o pH (para 6) e saturação de bases (V), fazendo o manejo conforme descrito no item 06.2 Necessidade de calcário . A aplicação de fertilizantes orgânicos tem se mostrado pouco efetiva para a prevenção da toxidez. Durante a safra, a aplicação de ureia cloretada, nos estádios de perfilhamento pleno e diferenciação da panícula, reduz a intensidade da toxidez indireta. A drenagem da área deve ser a última alternativa a ser utilizada e deve ser feita apenas em casos extremos (com morte das plantas de arroz).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11410%5D%7B177%7D06_toxicdirfe_01.jpg
+Legenda: 01. Sintomas de toxidez direta por ferro. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11410%5D%7B461%7D06_toxicdirfe_02.jpg
+Legenda: 02. Folhas arroxeadas por toxidez direta de ferro. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11410%5D%7B278%7D06_toxicdirfe_03.jpg
+Legenda: 03. Planta com sintmas de toxidez direta por ferro. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11410%5D%7B276%7D06_toxicindirfe_01.jpg
+Legenda: 04. Sintomas de toxidez indireta por ferro. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11410%5D%7B537%7D06_toxicindirfe_02.jpg
+Legenda: 05. Plantas com sintomas de toxidez indireta por ferro. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11410%5D%7B448%7D06_toxicindirfe_03.jpg
+Legenda: 06. Lavoura com sintomas de toxidez indireta por ferro. Fonte: D.S.Eberhardt (remasterizada)
+
+-- TOXIDEZ POR SÓDIO (SAL): --
+Em Santa Catarina, a toxidez por sal na cultura do arroz é causada principalmente pela irrigação da lavoura com água contendo elevados teores de cloreto de sódio. O problema é mais frequente nas áreas mais próximas ao litoral e é observado em anos mais secos. Os efeitos da toxidez por sal são maiores nas fases de estabelecimento da lavoura (causando redução do crescimento e perfilhamento) e na floração (causando esterilização de espiguetas). A principal medida preventiva é o monitoramento da condutividade elétrica da água de irrigação. A entrada de água na lavoura deve ser suspensa quando a condutividade elétrica atingir o valor de 2.000 μS/cm (equivalentes a 2mS/cm ou 2dS/m). O uso de corretivos, como calcário e gesso, é recomendado apenas para áreas com teores de sódio no solo acima de 20%. O teor de sódio no solo deve ser determinado em termos de Percentual de Saturação por Sódio (PST) de acordo com a equação abaixo. PST (%) = [Na(cmolc/dm³)/CTCpH7] x 100 A quantidade de corretivo aplicado deve ser suficiente para adicionar entre 1 a 2 cmolc/dm³ de cálcio no solo. No caso do uso de gesso, é necessário associar sua aplicação à prática de lavagem do solo, irrigando e drenando a área durante a entressafra, pelo menos duas vezes após a aplicação.
+
+-- Informações Complementares --

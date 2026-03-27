@@ -1,0 +1,17 @@
+Título: MANGARITO - Botânica
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09503&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8795%5D%7B528%7Dfigura_2a.jpg
+
+-- FAMÍLIA ARACEAE: --
+Segundo Purseglove (1972) a família Araceae pertence à subclasse monocotiledônea, ordem Arales, com 100 gêneros e 1.500 espécies distribuídas em diversas regiões do planeta, principalmente nos trópicos, em ambientes úmidos e sombreados. A maioria é herbácea com túberos com rizomas alongados, porém em alguns casos podem ser trepadeiras.
+
+-- GÊNEROS DE ARÁCEAS UTILIZADOS NA ALIMENTAÇÃO --
+Segundo Onwueme (1978), a família Araceae possui diversos gêneros de plantas que são cultivadas e utilizadas na alimentação em várias partes dos trópicos. São elas: Xanthosoma spp: Xanthosoma sagittifolium Schott- é a mais importante. E conhecida como tannia, cocoyam novo. No Brasil é chamada taiá ou taioba. Colocasia esculenta Schott: É conhecida como taro, cocoyam velho, eddoes e dasheen. No sul do Brasil é chamado inhame ou taiá-japão. Alocasia spp: Nesse gênero, Alocasia macrorhiza é a principal espécie cultivada e é conhecida como taro gigante. Cytosperma chamissonis: Taro do banhado. Amorphophallus campanulatus: Conhecido como inhame elefante. No Brasil e em Santa Catarina os gêneros mais cultivados são Xanthosoma e Colocasia.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8795%5D%7B288%7Dfigura_2a.jpg
+Legenda: Figura 1. Alocasia macrorhiza. Foto: David Monniaux
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8795%5D%7B362%7Dfigura_2c.jpg
+Legenda: Figura 1. Cyrtosperma chamissonis (taro-gigante-do-pântano). Foto: Karmen Hosé
+
+-- Informações Complementares --
+Antônio H. dos Santos e Rafael G. F. Morales. Cultivo do mangarito em Santa Catarina. Cartilha. Edição: Epagri/DEMC Florianópolis, agosto/2022. AUTORES CITADOS: - ONWUEME, I.C. The tropical tuber crops. Great Britain: J. Wiley & Sons. 1978. 234p. - PURSEGLOVE, J. W. Tropical crops monocotyledons. New York: J. Wiley & Sons. 1972. 607p.

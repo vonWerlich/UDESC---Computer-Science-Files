@@ -1,0 +1,44 @@
+Título: TOMATE - Tratos Culturais - Rotação de culturas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=088&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1981%5D%7B238%7D20181018_101742.jpg
+
+-- Conceito: --
+É desejável que a lavoura seja conduzida com alternância de diferentes culturas, não repetindo o plantio do tomateiro ou outra solanácea duas vezes consecutivas na mesma área, o que propicia o maior benefício à produção e maior sanidade das plantas. Uma opção muito comumente adotado por tomaticultores orgânicos é o cultivo de feijão de vagem em sequência a lavoura de tomate, com o objetivo de aproveitar o tutor e os nutrientes do residual da adubação orgânica. A escolha da cultura de sucessão deve ser feita em função do mercado que o produtor atende. Caso o produtor insista erroneamente em dois cultivos sucessivos de tomateiro, o uso de enxertia no segundo cultivo é imprescindível. Embora não existam estudos mais aprofundados a respeito da rotação de plantas com o cultivo de tomateiros, é possível utilizar para isso hortaliças folhosas, e também cereais como o milho verde.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B388%7D20181018_101742.jpg
+Legenda: Plantio de feijão vagem com aproveitamento do sistema de tutoramento do tomateiro. Foto: Rafael G. F. Morales
+
+-- Problemas com plantas infestantes (1): --
+terrenos com alta infestação de plantas espontâneas da família das solanáceas nativas: - Datura stramonium, vulgarmente conhecida como quinquilho ou trombeteira; - Nicandra physaloides, vulgarmente conhecida como joá-de-capote ou quinquilho; - Physalis angulata (bucho-de-rã ou balãozinho); - Solanum americanum (maria-pretinha ou erva-moura); - Solanum diflorum (tomatinho); - Solanum erianthum e Solanum mauritianum (fumo-bravo); - Solanum fastigiatum (jurubeba); - Solanum palinacanthum (joá-bagudo); - Solanum viarum (joá-bravo ou arrebenta-cavalo); Ou outras que sirvam de sobrevivência para patógenos causadores de doenças do tomate (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B218%7Ddatura_stramonium.jpg
+Legenda: Datura stramonium. Fonte: https://pt.wikipedia.org/wiki/Datura_stramonium.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B378%7Dnicandra_physaloides.jpg
+Legenda: Nicandra physaloides. Fonte: https://pt.wikipedia.org/wiki/Nicandra_physalodes.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B157%7Dphysalis_angulata.jpg
+Legenda: Physalis angulata. http://www.tradewindsfruit.com/physalis-angulata-mullaca-seeds.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B422%7Dsolanum_americanum.jpg
+Legenda: Solanum americanum. https://pt.wikipedia.org/wiki/Solanum_americanum.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B501%7Dsolanum_diflorum_1.jpg
+Legenda: Solanum diflorum. Photographer: Jeremy Rolfe
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B216%7Dsolanum_diflorum_2.jpg
+Legenda: Solanum diflorum. Photographer: Jeremy Rolfe.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B31%7Dsolanum_erianthum_1.jpg
+Legenda: Solanum erianthum. Photograph by: mutolisp.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B157%7Dsolanum_erianthum_2.jpg
+Legenda: Solanum erianthum. Photograph by: J.M.Garg.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B441%7Dsolanum_fastigiatum_1.jpg
+Legenda: Solanum fastigiatum. Fonte: https://www.agrolink.com.br/problemas/jurubeba_1338.html.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B422%7Dsolanum_fastigiatum_2.jpg
+Legenda: Solanum fastigiatum. https://www.agrolink.com.br/problemas/jurubeba_1338.html
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B114%7Dsolanum_fastigiatum_3.jpg
+Legenda: Solanum fastigiatum. Fonte: https://www.agrolink.com.br/problemas/jurubeba_1338.html.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B283%7Dsolanum_mauritianum.jpg
+Legenda: Solanum mauritianum. Fonte: https://en.wikipedia.org/wiki/Solanum_mauritianum.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B258%7Dsolanum_palinacanthum.jpg
+Legenda: Solanum palinacanthum. Fotógrafo: Sérgio Bordignon. Fonte: Flora Digital.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1981%5D%7B511%7Dsolanum_viarum.jpg
+Legenda: Solanum viarum. Fonte: https://commons.wikimedia.org/wiki/File:Solanum_viarum_05.JPG.
+
+-- Informações Complementares --
+Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019. (1) Mueller, S.; Wamser, A.F.; Becker, W.F.; Santos, J.P dos. Indicações técnicas para o tomateiro tutorado na Região do Alto Vale do Rio do Peixe. Sistema de Produção no. 45. Florianópolis: Epagri, 2008. 78p.

@@ -1,0 +1,46 @@
+Título: TOMATE - Cultivares - Shani F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0866&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B744%5D%7B96%7Dshani.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agrocinco; Finalidade: Copa; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido indeterminado do tipo cereja. Pode ser conduzido com 2, 3 ou 4 hastes com peso médio variando entre 15g e 30g. Recomenda-se a colheita do fruto maduro por ter excepcional sabor e excelente pós-colheita.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B515%7Dtomate_shani_%281%29.jpg
+Legenda: 1)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B380%7Dtomate_shani_%2810%29.jpg
+Legenda: 10)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B60%7Dtomate_shani_%2811%29.jpg
+Legenda: 11)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B80%7Dtomate_shani_%2812%29.jpg
+Legenda: 12)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B70%7Dtomate_shani_%2813%29.jpg
+Legenda: 13)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B186%7Dtomate_shani_%282%29.jpg
+Legenda: 2)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B546%7Dtomate_shani_%283%29.jpg
+Legenda: 3)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B128%7Dtomate_shani_%284%29.jpg
+Legenda: 4)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B121%7Dtomate_shani_%285%29.jpg
+Legenda: 5)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B287%7Dtomate_shani_%286%29.jpg
+Legenda: 6)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B254%7Dtomate_shani_%287%29.jpg
+Legenda: 7)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B30%7Dtomate_shani_%288%29.jpg
+Legenda: 8)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B744%5D%7B244%7Dtomate_shani_%289%29.jpg
+Legenda: 9)null
+
+-- RESISTÊNCIA: --
+Verticillium, Fusarium 1 e 2, Vírus do Mosaico do Tabaco e Nematóide.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.agrocinco.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.agrocinco.com.br.

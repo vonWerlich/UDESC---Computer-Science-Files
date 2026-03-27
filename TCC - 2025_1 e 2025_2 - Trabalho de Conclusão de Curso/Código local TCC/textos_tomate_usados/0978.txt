@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Aguamiel F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0978&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B860%5D%7B175%7Dagumiel.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Empresa: Vilmorin; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Versatilidade, qualidade de alta resistência. CARACTERÍSTICA DE CULTIVAR: -Frutos tipo saladette. -Cultivar versátil; adaptada ao cultivo protegido e ao cultivo em campo aberto. -Planta vigorosa e rústicas. -Alto potencial produtivo. -Ótima cobertura foliar e proteção de frutos. -Bom calibre e firmeza de frutos. -Bom índice de uniformidade entre frutos. RESISTÊNCIA: HR: FOL:1,2 e 3; TOMV;S;TSWV:0 IR: M;TYLCV
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.vilmorinmikado.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.vilmorinmikado.com.br.

@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Herbicidas indicados para o arroz irrigado - Only
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015658&isEdicao=N&epagriTEC=S
+
+
+-- INFORMAÇÕES GERAIS: --
+- Ingrediente ativo: Imazetapir+Imazapique; - Formulação e Concentração (g/L ou kg): SL 75+25; - Dose (quantidade/ha): 1,5 L; - Época de aplicação: Pós; - Classificação tóxicológica: 5 (produto improvável de causar dano agudo, faixa azul); - Classificação ambiental: III (perigoso ao ambiente); - Intervalo de segurança (dia): 60;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+- Adicionar adjuvante específico na dose recomendada (vide bula). - A aplicação de todo e qualquer tratamento herbicida deve seguir as recomendações do receituário agronômico, utilizando-se equipamentos de proteção individual (EPI) e acompanhado de um responsável técnico.
+
+-- INFORMAÇÕES SOBRE O CONTROLE DE PLANTAS DANINHAS NO ARROZ: --
+Aguapé: controla. Angiquinho: controla, mas obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento. Arroz-daninho: controla, mas pode apresentar resistência ao herbicida. Capim-arroz: controla, mas pode apresentar resistência ao herbicida. Capim-macho: controla, mas pode apresentar resistência ao herbicida. Cuminho: controla, mas pode apresentar resistência ao herbicida. Junquinho: controla, mas pode apresentar resistência ao herbicida. Sagitária: controla, mas pode apresentar resistência ao herbicida.
+
+-- Informações Complementares --

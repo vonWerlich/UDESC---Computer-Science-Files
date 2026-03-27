@@ -1,0 +1,10 @@
+Título: BANANA - Cultivares - Nanicão
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021674&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18357%5D%7B239%7Dnanicao.jfif
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAA, subgrupo Cavendish. Tem porte médio, de 2,3 a 4,0m de altura e é muito produtivo. É altamente suscetível à sigatoka amarela, suscetível à sigatoka negra e altamente resistente ao mal do panamá. As recomendações de espaçamento são de 2,5m x 2,5m; 2,0m x 3,0m, ou 1.600 plantas por hectare. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.

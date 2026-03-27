@@ -1,0 +1,28 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - C) MANEJO DE PLANTAS NA PRODUÇÃO INTEGRADA - f) Desbrota
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02497&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2260%5D%7B338%7Dfigura_6.jpg
+
+-- Conceito: --
+A desbrota consiste na retirada dos brotos que surgem nas axilas das folhas, às vezes no ápice dos racimos (cachos) ou até mesmo nas folhas e frutos, e deve ser realizada para controlar o crescimento vegetativo acentuado do tomateiro. É uma prática fundamental para os cultivares de tomate de crescimento indeterminado, que devem ficar com duas hastes, mas também em casos especiais, dependendo do espaçamento, da densidade e do cultivar, com somente uma haste.
+
+-- Tamanho do broto para fazer a desbrota: --
+Os brotos laterais devem ser eliminados manualmente quanto atingirem três a 10cm de comprimento, quebrando-os e destacando-os a cerca de dois a três centímetros de altura (Figura 6B). A manutenção de parte do broto na planta promove a rápida cicatrização do ferimento no tecido, desfavorecendo a entrada de patógenos no sistema vascular principal das hastes.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2260%5D%7B509%7Dfigura_6.jpg
+Legenda: Planta de tomate no momento da definição da segunda haste: (A) seta amarela indica o broto mais vigoroso logo abaixo do primeiro cacho comparando com os demais brotos menos vigorosos (setas azuis). (B) Detalhe da retirada do broto mantendo cerca de dois centímetros de altura do caule (seta vermelha). Fonte: Sispit 2016.
+
+-- Frequência da desbrota: --
+A desbrota deve ser realizada uma a duas vezes por semana.
+
+-- Tratamento fitossanitário para realizar após a desbrota: --
+Após cada desbrota, deve-se pulverizar fungicida à base de cobre.
+
+-- Quando não realizar a desbrota: --
+A desbrota não deve ser realizada em dias de chuva ou em períodos de orvalho. Plantas com sintomas de virose não devem ser desbrotadas, a fim de evitar a disseminação de doenças.
+
+-- Cuidados diversos: --
+Deve-se evitar fumar na lavoura por ocasião dessa prática cultural para evitar contaminação por vírus do mosaico do tabaco.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

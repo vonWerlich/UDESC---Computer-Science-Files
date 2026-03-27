@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - MultiFort F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0110&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16%5D%7B28%7Dmultifort.jpg
+
+-- CARACTERÍSTICAS: --
+Empresa: Seminis; Finalidade: Porta-Enxerto; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: For - Fusarium oxysporum f.sp. radicis-lycopersici; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Pl - Podridão corticosa (Pyrenochaeta lycopersici); Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Porta-enxerto de tomate indicado para cultivo protegido em campo aberto. Confere resistência à raça 3 da Murcha de Fusarium. Confere vigor e longevidade à planta de tomate. Idade ideal para enxertia: Entre 18 a 22 dias após a semeadura, dependendo da técnica adotada e condições climáticas.
+
+-- RESISTÊNCIA: --
+HR - ToMV:0-2, Fol:1-3, For, Pl e Va:1/Vd:1 / IR - Ma/Mi/Mj.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.seminis.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.seminis.com.br.

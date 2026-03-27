@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Stewart F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0964&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B846%5D%7B66%7Dstewart_f1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Superseed; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Permite ao agricultor cultivar em áreas infestadas com geminivírus, vira-cabeça e fusarium raça 3, proporcionando maior proteção na lavoura. FRUTOS: Uniformes, de excelente tamanho, coloração e sabor. PLANTA: Bastante vigorosa e apresenta crescimento indeterminado. DESTAQUES: Resistência ao F3, TYLCV (geminivírus) e TSWV (vira-cabeça). Apresenta alta produtividade e uniformidade de frutos. Pós colheita: bom Tamanho Médio: 8,0 x 5,5 cm Peso Médio: 180g Ciclo Médio: 112 dias Tipo de fruto: Salada
+
+-- RESISTÊNCIA: --
+Fol:0-2, Pf, Ma, Mi, Mj, ToMV:0-2, TYLCV, TSWV, Va e Vd.
+
+-- Informações Complementares --
+Site: http://agristar.com.br/superseed/tomate-salada-ind-hibrido/stewart-f1/3763

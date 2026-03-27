@@ -1,0 +1,313 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=97&amp;isEdicao=N&amp;epagriTEC=S">Fitossanidade</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=10&amp;isEdicao=N&amp;epagriTEC=S">Pragas</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=72&amp;isEdicao=N&amp;epagriTEC=S">Broca-pequena-dos-frutos (Neoleucinoides elegantalis)</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="8">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="72">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[8]{36}2015-07-21_10.17.31_-_copia.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>FOTOS:</b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24685,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{301}img_20211124_160447393_hdr.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1639,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{449}52-1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1628,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{277}2015-09-21_15.07.06.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1629,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{89}2015-12-21_16.39.01.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1630,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{346}2015-12-28_14.29.51.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1631,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{301}2016-01-06_09.35.30.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1633,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{185}2016-01-06_09.35.35.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1634,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{440}2016-01-13_09.45.01.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1635,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{530}2016-01-13_09.45.08.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1636,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{278}2016-01-22_09.10.43.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1637,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{8}img-20161119-wa0018.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1627,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{214}2015-07-21_10.17.31_-_copia.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1626,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{206}2015-07-01_15.06.11.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1632,72,8,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8]{484}2015-12-21_16.39.16.jpg">  </a> 
+<br><br>
+<b>INFORMAÇÕES GERAIS:</b><br>
+<p class="p1"><div> Ataca a cultura do tomateiro principalmente no período chuvoso do ano, onde as altas temperaturas e umidades relativas são mais favoráveis ao crescimento populacional da praga.  <br> </div></p>
+<b>CARACTERÍSTICAS GERAIS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os ovos são depositados no pecíolo, no cálice ou diretamente na superfície do fruto. As lagartas recém-eclodidas raspam a casca do fruto e se alojam em seu interior, alimentando-se da polpa. Totalmente desenvolvida, a lagarta sai do fruto para transformar-se em pupa no solo, logo abaixo da planta. Os frutos infestados tornam-se impróprios para o consumo (1). <br><br>
+
+O adulto da broca pequena do tomateiro realiza suas atividades de cópula, alimentação e oviposição durante a noite, iniciando-as por volta das 19 horas. Essa mariposa de aproximadamente 25 mm de envergadura possui asas brancas e ligeiramente transparentes. As asas anteriores apresentam na parte mediana três manchas irregulares de coloração marrom e no ápice, uma de cor avermelhada. As asas posteriores são ornadas com alguns pontos escuros quase pretos e no ápice uma mancha de cor preta menos intensa (2). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ASPECTOS BIOLÓGICOS (2): </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - Período de pré-oviposição: dois dias; <br>
+- Oviposição: sete dias (com picos de postura no 5 e 6 dias após a emergência); <br>
+- Incubação: cinco dias; <br>
+- Período larval: 21 dias;<br>
+- Pré-pupa: 1,6 dias; <br>
+- Pupa: 12 dias; <br>
+- Longevidade de machos e fêmeas, respect.: quatro e seis dias;
+- Ciclo de ovo a adulto: 39,6 dias;<br>
+- Razão sexual 1:1. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>O QUE PODE ESTAR OCORRENDO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> 1- Ausência de inimigos naturais:<br>
+Solução: Evitar monocultivos.  Diversificar o ambiente produtivo, cultivando plantas com potencial para a atração e manutenção da fauna de predadores e parasitoides da broca-pequena-dos-frutos. Dar preferência a plantas que possuam floração contínua.<br><br>
+
+2- Monitoramento ausente ou feito de forma inadequada:<br>
+Solução: Monitorar a lavoura com frequência, conhecendo os danos reais causados pelo inseto para tomada de decisão, evitando surtos populacionais.<br><br>
+
+3- Manutenção de plantas hospedeiras ou restos da cultura anterior próximo ao cultivo:<br>
+Solução: Eliminar resíduos restantes de culturas anteriores, principalmente solanáceas que podem abrigar e manter populações da praga para a posterior contaminação do cultivo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>MONITORAMENTO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Consiste na avaliação semanal de pencas com frutos em fase inicial de desenvolvimento (2 cm de diâmetro) devendo-se percorrer toda a lavoura em zigue-zague e examinar, no mínimo, dez pontos de amostragem por talhão, sendo consideradas infestadas aquelas que apresentarem, pelo menos, um fruto com ovos ou com sinais de entrada de lagartas. Recomenda-se que o monitoramento comece no início do florescimento e seja intensificado durante a estação chuvosa e quente do ano. Efetuar o controle quando 5% das plantas amostradas apresentarem danos (1). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CONTROLE:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Cultural:<br>
+– Catação manual e destruição dos frutos perfurados, eliminar solanáceas silvestres, como juás e jurubeba. Não cultivar hospedeiras próximas ao cultivo. Podar os brotos terminais quando a planta apresentar seis a sete cachos.<br><br>
+
+Biológico:<br>
+– Utilização do parasitoide de ovos Trichogramma pretiosum em liberações inundativas duas vezes por semana. Aplicação de Bacillus thuringiensisi para o controle da broca.<br><br>
+
+Químico:<br>
+– Sempre dar preferência a inseticidas de classes toxicológicas menos tóxicas, fazendo sempre a rotação dos princípios ativos para evitar a indução da resistência dos organismos alvo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Controle cultural (Ensacamento de pencas): </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Ensacamento de pencas: O ensacamento de frutos é um método simples e prático de controle de pragas e não exige elevado investimento com materiais de consumo. Na cultura do tomateiro, o ensacamento está sendo proposto para ser associado ao método de controle químico convencional. Para confecção dos saquinhos optou-se pelo papel-manteiga por ser resistente ao rompimento e ao molhamento, por sua permeabilidade a trocas gasosas dos frutos, flexibilidade ao ser amarrado na penca sem danificá-la, disponibilidade no mercado local e baixo custo. As dimensões do saquinho foram de 35 x 30 cm. Foram ensacadas as primeiras pencas de tomates, com no mínimo os primeiros dois frutos da penca em início de desenvolvimento, para prevenir posturas. Para otimizar o efeito do ensacamento, pode-se colocar uma pastilha desodorante dentro do pacote para aumentar o efeito repelente. A pastilha desodorizante, com tamanhos de aproximadamente 90 mm3, consistiu em um material sólido que é utilizado como fragrância em vasos sanitários que, em contato com a umidade do ar e a água das irrigações, produz espuma e odores (3). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+(1) MORALES et al. 2019. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina (no prelo).<br>
+(2) CARNENO, J. da S.; HAJi, F.N.P.; SANTOS, F. de A.M. dos. Bioecologia e controle da broca pequena Neoleucinodes elegantalis. Teresina: Embrapa Meio-Norte, 1998, 14 p. (Embrapa Meio-Norte. Circular Técnica, 26).<br>
+(3) Aplicativo ADAMA Hortifruti Brasil. Para mais informações, consultar o site <a target="_blank" href="https://www.adama.com/brasil/pt/"> https://www.adama.com/brasil/pt/</a> ou diretamente pelo aplicativo <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.livetouch.adamahortifruti"> ADAMA HF</a>.
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 20/07/2017</font>
+<br> <font size="2"> Última atualização: 20/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=72&amp;cdElemento=8">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=8');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

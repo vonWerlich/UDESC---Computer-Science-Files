@@ -1,0 +1,12 @@
+Título: TOMATE - DIAGNOSE VISUAL - SINTOMAS NAS FOLHAS - Pintas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04673&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4534%5D%7B508%7Dpinta-bacteriana-doencas-do-tomateiro.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4538%5D%7B313%7Dss.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4673%5D%7B169%7Dscreenshot_20200330-123517_adama_hf.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4538%5D%7B102%7D1.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4673%5D%7B12%7Dpinta-bacteriana-doencas-do-tomateiro.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4673%5D%7B83%7D%5B1854%5D%7B284%7Dimg_20211021_104021963.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4673%5D%7B223%7Dscreenshot_20200330-123625_adama_hf.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4673%5D%7B57%7Dscreenshot_20200330-123741_adama_hf.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4673%5D%7B348%7D409.jpg

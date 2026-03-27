@@ -1,0 +1,19 @@
+Título: BIOFERTILIZANTE EEI - Introdução
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018794&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16378%5D%7B371%7Dfigura_1.manejo_sustentavel_de_producao_de_hortalicas.jpg
+
+-- INTRODUÇÃO: --
+O sistema sustentável de produção de hortaliças preconizado pelo Projeto Hortaliças da Epagri adota o manejo de produção orgânica baseado nas normas oficiais do Ministério da Agricultura, Pecuária e Abastecimento (Figura 1). Dentre as estratégias preconizadas está o uso do biofertilizante aeróbico, com objetivo de estimular comunidades microbianas benéficas que auxiliam na promoção do crescimento das plantas e/ou no antagonismo a fitopatógenos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16378%5D%7B113%7Dfigura_1.manejo_sustentavel_de_producao_de_hortalicas.jpg
+Legenda: Figura 1. Manejo Sustentável de Produção de Hortaliças. Foto: Alexandre Visconti
+
+-- O QUE SÃO BIOFERTILIZANTES? --
+O biofertilizante é um produto oriundo do processo de fermentação microbiana, aeróbia ou anaeróbia de diversos materiais orgânicos, resultando em uma matriz líquida que contém macro e micronutrientes, alta carga de comunidades microbianas e metabólitos que atuam na promoção do crescimento das plantas e na proteção contra fitopatógenos.
+
+-- UNIDADE PORTÁTIL: --
+A produção de biofertilizante aeróbico requer a injeção de ar no meio líquido e, para sua adoção pelo produtor rural, o Projeto Hortaliças da Epagri/EEI desenvolveu a Unidade Portátil de Produção de Biofertilizantes – UPPB.
+
+-- Informações Complementares --
+Visconti, A.; Schallenberger, E. Morales, R.G.F.; Cantú, R.R. Unidade Portátil de Produção de Biofertilizante Aeróbico, Modelo Epagri. Cartilha da Epagri, Florianópolis, Março de 2022.

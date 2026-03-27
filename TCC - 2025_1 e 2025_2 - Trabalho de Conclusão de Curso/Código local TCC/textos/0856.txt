@@ -1,0 +1,114 @@
+Título: TOMATE - Cultivares - Gold F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0856&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B734%5D%7B63%7Dgold.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Agrocinco; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a bactérias e nematoides: CB - Cancro Bacteriano (Clavibacter michiganensis); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a bactérias e nematoides: Pst - Pseudomonas syringae pv. tomato; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido vigoroso de crescimento determinado, conduzido com 3 hastes em fitilho ou meia estaca. Grande quantidade de pencas, produzindo frutos do tipo longa vida, com peso médio de 230g a 250g, de cor vermelha intensa e excelente sabor. Origem: Agrocinco Seeds of Value.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B87%7Dtomate_gold_%281%29.jpg
+Legenda: 1)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B405%7Dtomate_gold_%2810%29.jpg
+Legenda: 10)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B347%7Dtomate_gold_%2811%29.jpg
+Legenda: 11)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B71%7Dtomate_gold_%2812%29.jpg
+Legenda: 12)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B159%7Dtomate_gold_%2813%29.jpg
+Legenda: 13)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B362%7Dtomate_gold_%2814%29.jpg
+Legenda: 14)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B427%7Dtomate_gold_%2815%29.jpg
+Legenda: 15)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B104%7Dtomate_gold_%2816%29.jpg
+Legenda: 16)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B50%7Dtomate_gold_%2817%29.jpg
+Legenda: 17)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B454%7Dtomate_gold_%2818%29.jpg
+Legenda: 18)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B332%7Dtomate_gold_%2819%29.jpg
+Legenda: 19)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B532%7Dtomate_gold_%282%29.jpg
+Legenda: 2)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B36%7Dtomate_gold_%2820%29.jpg
+Legenda: 20)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B17%7Dtomate_gold_%2821%29.jpg
+Legenda: 21)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B435%7Dtomate_gold_%2822%29.jpg
+Legenda: 22)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B77%7Dtomate_gold_%2823%29.jpg
+Legenda: 23)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B37%7Dtomate_gold_%2824%29.jpg
+Legenda: 24)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B226%7Dtomate_gold_%2825%29.jpg
+Legenda: 25)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B165%7Dtomate_gold_%2826%29.jpg
+Legenda: 26)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B86%7Dtomate_gold_%2827%29.jpg
+Legenda: 27)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B185%7Dtomate_gold_%2828%29.jpg
+Legenda: 28)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B389%7Dtomate_gold_%2829%29.jpg
+Legenda: 29)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B257%7Dtomate_gold_%283%29.jpg
+Legenda: 3)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B379%7Dtomate_gold_%2830%29.jpg
+Legenda: 30)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B125%7Dtomate_gold_%2831%29.jpg
+Legenda: 31)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B86%7Dtomate_gold_%2832%29.jpg
+Legenda: 32)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B347%7Dtomate_gold_%2833%29.jpg
+Legenda: 33)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B482%7Dtomate_gold_%2834%29.jpg
+Legenda: 34)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B134%7Dtomate_gold_%2835%29.jpg
+Legenda: 35)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B71%7Dtomate_gold_%2836%29.jpg
+Legenda: 36)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B305%7Dtomate_gold_%2837%29.jpg
+Legenda: 37)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B251%7Dtomate_gold_%2838%29.jpg
+Legenda: 38)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B292%7Dtomate_gold_%2839%29.jpg
+Legenda: 39)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B396%7Dtomate_gold_%284%29.jpg
+Legenda: 4)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B229%7Dtomate_gold_%2840%29.jpg
+Legenda: 40)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B397%7Dtomate_gold_%2841%29.jpg
+Legenda: 41)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B230%7Dtomate_gold_%2842%29.jpg
+Legenda: 42)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B85%7Dtomate_gold_%2843%29.jpg
+Legenda: 43)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B411%7Dtomate_gold_%2844%29.jpg
+Legenda: 44)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B125%7Dtomate_gold_%2845%29.jpg
+Legenda: 45)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B203%7Dtomate_gold_%2846%29.jpg
+Legenda: 46)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B78%7Dtomate_gold_%2847%29.jpg
+Legenda: 47)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B514%7Dtomate_gold_%285%29.jpg
+Legenda: 5)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B108%7Dtomate_gold_%286%29.jpg
+Legenda: 6)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B100%7Dtomate_gold_%287%29.jpg
+Legenda: 7)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B339%7Dtomate_gold_%288%29.jpg
+Legenda: 8)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B734%5D%7B58%7Dtomate_gold_%289%29.jpg
+Legenda: 9)null
+
+-- RESISTÊNCIA: --
+Verticillium 1, Fusarium 1 e 2, Vírus do Mosaico do Tabaco, Vira Cabeça, Mancha de Estenfílio e Nematóide. Boa tolerância a Pinta Bacteriana, Mancha Bacteriana e Cancro Bacteriano.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.agrocinco.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.agrocinco.com.br/2013/produto_detalhes.asp?idprod=37&idcat=1&idsub=1

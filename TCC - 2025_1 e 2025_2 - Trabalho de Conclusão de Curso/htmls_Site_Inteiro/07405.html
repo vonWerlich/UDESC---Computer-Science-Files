@@ -1,0 +1,294 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2431&amp;isEdicao=N&amp;epagriTEC=S">Sistemas de Produção</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2435&amp;isEdicao=N&amp;epagriTEC=S">Produção Orgânica (TOMATORG)</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=12217&amp;isEdicao=N&amp;epagriTEC=S">h) Cultivo do tomateiro em abrigos</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7405&amp;isEdicao=N&amp;epagriTEC=S">7) Especificidades para a cultura do Tomateiro</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="6682">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="07405">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[6682]{345}35.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>INFORMAÇÕES GERAIS:</b><br>
+<p class="p1"><div> Devido à dificuldade de produção do tomate em algumas épocas do ano, principalmente durante o verão chuvoso e no inverno com alta umidade, a produção
+em abrigos de cultivo vem crescendo rapidamente, tornando-se a principal
+hortaliça-fruto cultivada dessa maneira no Brasil. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6188,07405,6682,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6682]{4}46.jpg">  </a> 
+<br><br>
+<b>VANTAGENS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - Possibilidade de produzir em período de entressafra ou fora da época ideal de cultivo;<br>
+- Aumento da produtividade por área num mesmo período de tempo;<br>
+- Prolongamento do ciclo de cultivo do tomateiro, possibilitando a colheita de um maior número de cachos;<br>
+- Proteção quanto a alguns fenômenos climáticos, como vento e chuva;<br>
+- Proteção do solo contra a lixiviação de nutrientes;<br>
+- Maior eficiência no uso da água;<br>
+- Redução dos custos com defensivos e fertilizantes;<br>
+- Garantia de produção;<br>
+- Menor incidência de doenças foliares.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>DESVANTAGENS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - Possibilidade de perda parcial ou total do empreendimento em função de adversidades climáticas;<br>
+- Elevado custo inicial para aquisição, instalação e manutenção;
+- Necessidade de limpeza periódica dos plásticos;<br>
+- Pode favorecer o aparecimento de determinadas pragas e doenças específicas com reprodução acelerada, como traça, mosca-branca e ácaros;<br>
+- Reduz a possibilidade de rotações de cultura devido ao seu uso intensivo;<br>
+- Se comporta insatisfatoriamente do ponto de vista térmico, uma vez que durante o período diurno ocorrem temperaturas elevadas superiores às observadas externamente.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Telas nas laterais dos abrigos de cultivo:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Muitos produtores acreditam que o uso de telas nas laterais no cultivo do tomateiro pode reduzir a polinização das flores e pega de frutos. Contudo, cabe ressaltar que no tomateiro predomina a autopolinização (95%), com uma pequena taxa de fecundação cruzada. Assim, mesmo que não haja insetos polinizadores dentro do cultivo, a polinização poderá ocorrer se as condições microclimáticas estiverem favoráveis. O que pode ocorrer é que a escolha de uma tela com malha muito fechada, como é o caso das
+telas antiafídicas, o que reduz consideravelmente a ventilação dentro do cultivo. Como o vento é um dos agentes microclimáticos que favorecem a autopolinização, nesse caso poderá haver redução na polinização e pega dos frutos. Outra situação similar a essa é
+observada em abrigos demasiadamente grandes e largos (mais de 12m de largura), e que não contam com sistema de exaustão de ar, em que o ar circula pouco dentro do cultivo, resultando em redução na eficiência da autopolinização.<br><br>
+
+Para maiores informações sobre abrigos de cultivo, <a href="/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&amp;epagriTEC=S&amp;cdEstrutura=5542">clicar aqui!</a> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Redução da polinização devido a fatores microclimáticos dentro do abrigo de cultivo: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Outro fator microclimático que influencia sobremaneira a autopolinização é a umidade relativa do ar. Assim, em dias chuvosos, com alta umidade relativa, ou no caso do manejo incorreto da irrigação, quando o ambiente fica muito úmido, também poderá ocorrer redução da autopolinização. Outro fator de difícil percepção está relacionado ao genótipo cultivado, pois algumas poucas cultivares são menos eficientes no processo de autopolinização e precisam da otimização dos fatores endógenos para um perfeito pegamento dos frutos (mais comum em cultivares do grupo cereja). Nesses casos, em que há redução da autopolinização, os produtores têm optado por duas medidas que atenuam a situação: a agitação manual de cada linha de cultivo e a utilização de sopradores de ar (aqueles utilizados na limpeza urbana), que facilitam a queda do pólen sobre o estigma e
+aumentam a fecundação das flores.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Telas de sombreamento: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Resultados positivos do uso dessas telas no cultivo do tomateiro foram observados no México (AYALA-TAFOYA, 2011) e Sérvia (ILÍC et al., 2012). No Brasil, Silva et al. (2013) relatam que as telas fotosseletivas (vermelha e cinza) não apresentam resultados de destaque sobre o acúmulo da biomassa e da produtividade na cultura do tomateiro; e, em Juazeiro, ROCHA (2007) testou diversas telas (aluminizada, fotosseletiva, preta e branca) com 40% de sombreamento no cultivo de dois híbridos de tomateiro e concluiu que a produção foi maior nos tratamentos sombreados, mas não houve diferenças entre as telas testadas. Contudo, como a resposta agronômica do cultivo ao uso da tela vai depender
+diretamente das condições climáticas do período de avaliação, estudos a longo prazo são necessários para avaliar os possíveis benefícios decorrentes da utilização desse tipo de tela no cultivo do tomateiro.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção
+de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019.
+176p. (Epagri. Sistemas de Produção, 53).
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 14/02/2020</font>
+<br> <font size="2"> Última atualização: 01/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=07405&amp;cdElemento=6682">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=6682');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

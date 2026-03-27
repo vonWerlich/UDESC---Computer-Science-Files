@@ -1,0 +1,15 @@
+get htmls from web - best
+
+get galerias from htmls
+
+script HTML to TXT
+
+extract links from txts
+
+save images from links
+
+add Descrições to TXTs
+
+embedding
+
+faiss for TCC

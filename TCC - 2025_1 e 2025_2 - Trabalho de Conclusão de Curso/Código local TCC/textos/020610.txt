@@ -1,0 +1,19 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Fungos - Branquimicose
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=020610&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17915%5D%7B233%7Dbranquio.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Doença causada pelo gênero Branchiomyces, descrita para diversas espécies. A sua evolução pode ocorrer de maneira muito rápida, causando mortalidades significativas. Desde 2019, os casos em tilápia vêm aumentando, tornando-se uma doença emergente para essa espécie.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17915%5D%7B331%7Dbranquio.jpg
+Legenda: Sintoma de ocorrência da doença. Fonte: Leal (2022).
+
+-- SINTOMAS: --
+De maneira geral o sintoma principal é a podridão branquial. As lesões causadas nas brânquias causam danos extensos e deficiência respiratória aguda, levando a risco de mortalidade.
+
+-- OCORRÊNCIA: --
+Os surtos têm se verificado principalmente em animais jovens, podendo chegar a mortalidade de até 85%de alevinos e juvenis. Estas mortalidades têm ocorrido nas estações de transição (variação de temperatura). A maioria dos casos ocorre com temperaturas mais elevadas, acima de 25oC. A má qualidade de água também parece ser um fator determinante para o surgimento da doença.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52). LEAL, C.A.G. 2020. Doenças branquiais emergentes para a tilapicultura: Branquiomicose. Parnorama da Aquicultura, 185, 52-57. Leal (2022). https://panoramadaaquicultura.com.br/doencas-branquiais-emergentes-para-a-tilapicultura-branquiomicose/ . Acesso em 09/03/2023.

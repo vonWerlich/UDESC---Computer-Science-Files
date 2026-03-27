@@ -1,0 +1,19 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Qualidade de água - Alcalinidade
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010059&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9155%5D%7B525%7Dalcalinidade.png
+
+-- O QUE É: --
+De forma resumida, a alcalinidade representa a quantidade de carbonatos (CO 3 -- ) e bicarbonatos (HCO 3 - ) presentes na água, sendo geralmente expressa em mg de CaCO 3 por litro.
+
+-- FUNÇÃO DA ALCALINIDADE: --
+Uma das funções da alcalinidade é exercer um efeito tampão (capacidade de manter o equilíbrio ácido-base) na água, evitando grandes variações diárias do pH. Além disso, os carbonatos são fontes de carbono para bactérias benéficas do solo, que auxiliam na ciclagem de nutrientes dentro do viveiro.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9155%5D%7B481%7Dkubitza.png
+Legenda: Variação diária do pH da água em viveiros com alta e baixa alcalinidade total. Fonte: Kubitza (1998) (1).
+
+-- RECOMENDAÇÕES: --
+Para piscicultura, a alcalinidade deverá se manter sempre acima de 30mg CaCO 3 por litro. Quando estes valores forem baixos, a alcalinidade deve ser corrigida com calcário. Contudo, em cultivos mais intensivos (>3 kg por m²) a recomendação é que essa alcalinidade seja mantida em valore acima de 50mg CaCO 3 por litro, e que a correção seja feita com cal hidratada, já que neste caso a correção por calcário pode fazer pouco efeito. É importante reforçar os cuidados durante a aplicação da cal hidratada, e atentar as dosagens recomendadas.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52). Kubitza, F. (1998). Qualidade da água na produção de peixes–Parte III (Final). Panorama Aquicult, 8, 35-43.

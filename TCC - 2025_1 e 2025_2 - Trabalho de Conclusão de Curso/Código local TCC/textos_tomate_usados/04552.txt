@@ -1,0 +1,59 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Pinta preta ou Mancha de alternária (Alternaria spp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04552&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1854%5D%7B138%7Dimg_20211021_104033786.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B526%7Dpinta_preta_-_tese.jpg
+Legenda: Detalhe das lesões de Alternaria no caule e pecíolos do tomateiro. Observe também os padrões concêntricos. Foto: Carlos Alberto Lopes
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B391%7Dalternaria_3.jpg
+Legenda: Lesão de pinta-preta (Alternaria sp.) no pedúnculo e frutos de tomateiro. Foto: Ricardo B. Pereira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B49%7Dalternaria_4.jpg
+Legenda: Lesão de pinta-preta (Alternaria sp.) no pedúnculo e frutos de tomateiro. Foto: Ricardo B. Pereira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B377%7Dfoto3.jpg
+Legenda: Lesões causadas por A. solani em caule de tomateiro. Fonte: Jesus Guerino Töfoli Ricardo J. Domingues (4)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B190%7Dfoto2.jpg
+Legenda: Lesões de pinta preta em pecíolo de tomateiro. Fonte: Jesus Guerino Töfoli Ricardo J. Domingues (4)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B492%7Dfoto_1.jpg
+Legenda: Sintoma de pinta preta em folíolo de tomateiro. Fonte: Jesus Guerino Töfoli Ricardo J. Domingues (4)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B284%7Dimg_20211021_104021963.jpg
+Legenda: Sintomas da doença. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B324%7D453.jpg
+Legenda: Sintomas da doença em frutos. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B521%7Dimg-20161014-wa0024.jpg
+Legenda: Sintomas da doença na junção do pedúnculo com o fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B321%7Dalternaria_1.jpg
+Legenda: Sintomas da pinta-preta (Alternaria sp.) nas folhas. Foto: Ricardo B. Pereira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B305%7Dantra.jpg
+Legenda: Uma Alternaria sp. oportunista na região distal de um fruto maduro. Os tecidos podres entram em colapso e um veludo preto os cobre.Foto: Rafael G. F. Morales
+
+-- INFORMAÇÕES PARA O ESPECIALISTA: --
+Alternaria tem um micélio septado que gradualmente se melaniza com a idade. Produz curtos conidióforos septados e marrons sobre os quais frequentemente formarão apenas um conídio. Os conídios são castanhos, multicelulares e muito alongados. Têm um longo apêndice hialino (bico), às vezes bifurcado e mais longo que o corpo do esporo, que tem entre 120 e 300 μm de comprimento (da base até o final do bico).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B278%7Dfoto_5.png
+Legenda: Ciclo da pinta-preta (Alternaria spp). em tomateiro. Ricardo B. Pereira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B384%7Dfig1.gif
+Legenda: Ciclo de vida de Alternaria solani nas culturas de tomate e batata. Fonte: Jesus Guerino Töfoli Ricardo J. Domingues (4)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B298%7Dfoto_4.png
+Legenda: Germinação de conídios de Alternaria sp. Frederick M. Aguiar
+
+-- INFORMAÇÕES GERAIS: --
+- Já foi uma doença mais importante no Brasil, mas, em muitas regiões tem sido considerada uma doença secundária (5). - No Brasil, a pinta-preta em tomateiro tem como agente etiológico fungos de solo do gênero Alternaria, entre eles Alternaria solani, Alternaria tomatophila e Alternaria cretica com ocorrência em praticamente todas as regiões onde o tomateiro é cultivado (1). - Os conídios do patógeno são disseminados principalmente pelo vento, chuva ou irrigação, insetos, trabalhadores e implementos agrícolas (1). - Sementes infectadas podem disseminar o patógeno a longas distâncias e constitui-se fonte de inóculo inicial (1). - Os conídios de Alternaria spp. sobrevivem em restos de cultivo infectados e outras solanáceas. Podem sobreviver ainda em equipamentos agrícolas, estacas e caixas usadas no transporte dos frutos, os quais também constituem fonte de inóculo inicial para cultivos subsequentes (1). - Alta carga de frutos e solo pobre em Nitrogênio são condições favoráveis para o aparecimento do patógeno (2).
+
+-- SINTOMAS: --
+- Aparecem primeiramente nas folhas mais velhas e progridem, posteriormente, para as partes mais altas da planta. Quando as condições ambientais são favoráveis, o patógeno também incide sobre as folhas mais novas. Nas folhas são observadas lesões necróticas de coloração marrom-escura a preta, com bordos bem definidos, podendo ser mais ou menos circulares e apresentar halo amarelado (1). - Lesões da pinta preta lembram um alvo de tiro, devido à presença de anéis concêntricos em sua parte central (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Cultivo em locais onde há acúmulo de umidade e ventos fortes constantes em épocas do ano de maior precipitação, o que favorece à ocorrência da doença. Cultivo a céu aberto. Solução: Utilizar o cultivo protegido (1) (Vai aumentar a eficiência de fungicidas, mas não irá impedir o estabelecimento da doença); - Utilização de sementes e mudas de baixa qualidade. Solução: A utilização de sementes e mudas sadias e/ou tratadas com fungicidas também é recomendado como medida inicial de controle (1).
+
+-- CONDIÇÕES QUE FAVORECEM A DOENÇA: --
+- Temperatura entre 20 e 30°C, com elevada umidade relativa (5). - Consultar o AGROCONNECT no site da Epagri/CIRAM para saber o grau de risco de ocorrência da doença. Clique aqui!
+
+-- CONTROLE: --
+- Os métodos de controle preventivo devem ser priorizados sempre que possível, pois após o estabelecimento da doença o controle é mais difícil e os prejuízos podem ser maiores (1). No tratamento preventivo sempre considerar o sistema de alerta para pinta preta, disponível no AgroConnect, que informa os períodos com maior predisposição à ocorrência da doença ( Clique aqui para acessar o site da Epagri/Agroconnect ). - Usar cultivares resistentes (Ver no próprio aplicativo no campo: Tomate/Cultivares). - Devido ao alto potencial destrutivo do patógeno, consagrou-se a utilização de fungicidas como uma das principais medidas de controle, em condições ambientais favoráveis à doença(1). - Tratamento com água quente á 50ºC por 25 minutos é o tempo de exposição necessário para erradicação do patógeno nas sementes de tomate (2). - Aplicação de Calda Viçosa (3). - Rotação com gramíneas para reduzir inoculo (3;6).
+
+-- CONTROLE QUÍMICO: --
+Antes da escolha do princípio ativo para controle químico, levar em consideração a tabela a seguir:
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1854%5D%7B366%7D%5B1854%5D%7B376%7Dtabela_antra_quimico.jpg
+Legenda: Ação preventiva, curativa, antiesporulante, resistência a chuvas e período de controle de fungicidas em plantas de tomate (Cv. Santa Clara) inoculadas com A. solani. Fonte: Töfoli, 2005 apud Jesus Guerino e Tofoli Ricardo J. Domingues (4).
+
+-- Informações Complementares --
+(1) Pereira, R.B.; Carvalho, A.D.F.; Pinheiro, J.B. Manejo da pinta preta: uma ameaça às lavouras de tomateiro a céu aberto. Brasília, DF: Embrapa Hortaliças, 2013. 5p. (Comunicado Técnico, 95). (2) ZAMBOLIM, L.; VALE; F. X. R. do; COSTA, H., Controle integrado das doenças de hortaliças. Viçosa : UFV, Departamento de Fitopatologia, 1997. (3) Vale, F.X.R.; Zambolim, L.; Zambolim, E.M.; Alvarenga, M.A.R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. UFLA, 2004. cap 9, pag 213-309. (4) Jesus Guerino Töfoli e Ricardo J. Domingues. Alternarioses em hortaliças: sintomas, etiologia e manejo integrado. Site: http://www.infobibos.com/Artigos/2006_3/Alternariose/Index.htm. (5) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Valdir Lourenço Junior. Tema: Manejo de doenças causadas por fungos e oomicetos da parte aérea do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: https://youtu.be/nbTgf6CdmcY

@@ -1,0 +1,29 @@
+Título: BANANA - Fitossanidade - Principais pragas da bananeira - TÉCNICAS DE MANEJO INTEGRADO DAS PRAGAS DA BANANEIRA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021703&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais pragas da bananeira
+TÉCNICAS DE MANEJO INTEGRADO DAS PRAGAS DA BANANEIRA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18393%5D%7B207%7Dmoleque_fungo.png
+Intervenção cultural precoce na bananicultura, focando no ensacamento de um cacho ainda em estágio imaturo e de coloração arroxeada, onde um saco de polietileno azulada e translúcida é amarrado firmemente ao pedúnculo para criar um microclima estável, protegendo os frutos desde a fase inicial contra pragas, danos físicos e intempéries, estabelecendo a base para um desenvolvimento acelerado e a obtenção de uma produção final de alta qualidade e uniformidade.
+FOTO: Fonte: Epagri
+
+-- APRESENTAÇÃO --
+A manipulação do ambiente é, sem dúvida, o mais importante passo para a construção de cultivos preparados para evitar/resistir ao ataque de insetos-praga.
+
+-- CORREÇÃO E ADUBAÇÃO DO SOLO --
+Além de contribuir para o melhor desenvolvimento da planta, áreas bem manejadas e solos com pH corrigido se tornam ambientes amigáveis ao desenvolvimento de fungos entomopatogênicos, tais como Metarhizium anisopliae e B. bassiana , ambos fungos de solo com ocorrência natural nos cultivos de Santa Catarina. A presença destes agentes de controle biológico favorece muito o controle natural das populações de pragas da bananeira.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18393%5D%7B46%7D20220120_101742.jpg
+Penca de bananas do subgrupo Cavendish apresentando sintomas avançados de podridão da coroa, onde o pedúnculo (coroa) exibe uma extensa área escurecida, de coloração marrom-escura a preta, com aspecto necrótico e possivelmente amolecido, indicando a decomposição dos tecidos; observa-se a presença de uma massa cotonosa e esbranquiçada, característica do crescimento de micélio fúngico, cobrindo parte significativa da coroa e estendendo-se para a base dos dedos (bananas); os frutos próximos à coroa também podem apresentar escurecimento e início de deterioração na região de inserção, e a coloração geral das bananas é predominantemente amarela com algumas áreas esverdeadas, sugerindo que a maturação estava em progresso quando a doença se manifestou severamente, comprometendo a qualidade e a integridade da penca.
+
+-- DIVERSIFICAÇÃO VEGETAL --
+Esta técnica consiste em quebrar o monocultivo do agroecossistema, inserindo nele outras espécies, o que pode ser feito primeiramente pela cobertura do solo. Quebra ventos, principalmente aqueles dotados de recursos florais, também são de extrema importância para o manejo integrado de pragas. Ambientes diversificados tendem a atrair maior quantidade de insetos benéficos, que contribuem para o controle biológico.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18393%5D%7B168%7Dfigura_4_a_cap_6.jpg
+Tabela técnica detalhada, adaptada de Ferraz et al. (2010), que cataloga 30 espécies de plantas, identificadas por nome científico e comum, e sua respectiva eficácia no controle das principais espécies de nematoides fitoparasitas que afetam a cultura da banana, servindo como uma ferramenta de manejo fitossanitário; a análise destaca a importância de plantas que combatem os nematoides mais prejudiciais à bananeira, como o nematoide perfurador Radopholus similis (Rs), o nematoide das lesões Pratylenchus coffeae (Pc) e o nematoide espiralado Helicotylenchus multicinctus (Hm), além dos nematoides das galhas Meloidogyne incognita (Mi) e M. javanica (Mj), e aponta espécies de alta performance como a Crotalaria juncea, que demonstra um amplo espectro de controle sobre Mi, Mj, Rs, Pc e Hm, a Crotalaria spectabilis (eficaz contra Mi, Mj, Pc, Hm) e o Sesamum indicum (Gergelim, eficaz contra Mi, Rs, Hm), indicando o uso estratégico dessas plantas em rotação de culturas, consórcio ou como adubação verde para reduzir as populações de nematoides no solo e mitigar os danos ao sistema radicular da bananeira.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+• Marcelo Mendes de Haro (Dr. - Epagri) Pesquisador - Epagri - Itajaí

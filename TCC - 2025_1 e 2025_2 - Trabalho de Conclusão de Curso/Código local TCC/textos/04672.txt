@@ -1,0 +1,16 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Danos causados ​​por pássaros
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04672&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B4231%5D%7B544%7Dataque_passaros_eei.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4231%5D%7B137%7D20190826_092458.jpg
+Legenda: Danos provocados por pássaros. Foto: Rafael G. F. Morales
+
+-- DESCRIÇÃO: --
+Frutos em estádio de maturação são muito suscetíveis ao ataque por pássaros. O dano causado na estrutura do fruto é a porta de entrada para microrganismos oportunistas que poderá levar a podridão do fruto. Deve-se colher os frutos no estádio breaker, que é o ponto de maturação o qual o fruto continua o amadurecimento na pós-colheita.
+
+-- CONTROLE: --
+- O uso de telas anti-inseto ao redor de todo o abrigo de cultivo elimina esse problema. - Em cultivos a céu aberto, em situação de grande intensidade de ataque, a alternativa é a utilização de telas anti-pássaros.
+
+-- Informações Complementares --
+Informações próprias do responsável técnico do tema.

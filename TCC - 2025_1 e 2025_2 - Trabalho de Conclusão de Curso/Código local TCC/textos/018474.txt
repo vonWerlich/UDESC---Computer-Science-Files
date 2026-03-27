@@ -1,0 +1,13 @@
+Título: COMPOSTAGEM - Qual sistema adotar?
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018474&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+
+-- QUAL SISTEMA ADOTAR: --
+O tipo de sistema a ser adotado deve levar em consideração principalmente as características dos materiais. Por exemplo, resíduos com elevada umidade e pastosos, sugere-se serem compostados com revolvimento automatizado, devido à alta frequência dos revolvimentos e a necessidade de elevada mão de obra. Os demais resíduos podem ser compostados em leira estática ou com ar forçado.
+
+-- CUSTOS A SEREM CONSIDERADOS: --
+Todavia, os custos devem ser considerados, uma vez que o sistema automatizado economiza mão de obra, mas apresenta um custo de implantação mais elevado que o da leira estática. Por outro lado, a leira estática apresenta um menor custo de implantação e de energia elétrica, contudo requer maior demanda de mão de obra no manejo e na implantação da compostagem. É recomendada a consulta técnica de um extensionista da Epagri, buscando o auxílio para a tomada de decisões para qual modelo adotar.
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

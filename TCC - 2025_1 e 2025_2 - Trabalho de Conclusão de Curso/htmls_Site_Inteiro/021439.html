@@ -1,0 +1,314 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21434&amp;isEdicao=N&amp;epagriTEC=S">TERMOTERAPIA PARA SUBSTRATOS</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21439&amp;isEdicao=N&amp;epagriTEC=S">  O Desinfestador de substratos – Modelo Epagri</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18332">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021439">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18332]{295}figura_3._unidade_geradora_de_vapor_d_agua.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Alexandre Visconti (Epagri/EEI) </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>MODELO EPAGRI: </b><br>
+<p class="p1"><div> A Epagri, na Estação Experimental de Itajaí (EEI), desenvolveu a unidade de termoterapia a vapor para substratos (Figura 3), uma estrutura de baixo custo de construção e manutenção.
+ <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28451,021439,18332,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{473}figura_3._unidade_geradora_de_vapor_d_agua.jpg">  </a> 
+<br><br>
+<b>DIMENSÕES: </b><br>
+<p class="p1"><div> O modelo foi concebido no formato de uma baia. Possui paredes de alvenaria com dimensões internas de 1,0m de largura, 3,5m de comprimento e altura variando entre 85 e 95cm (Figura 2) <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28449,021439,18332,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{216}figura_2._dimensoes_do_desinfestador.jpg">  </a> 
+<br><br>
+<b>FONTE DE CALOR: </b><br>
+<p class="p1"><div> Em uma das extremidades se encontra a fonte de calor, o vaporizador de água, equipamento utilizado em saunas residenciais, com resistência blindada de 9 kW (Figura 3).
+ <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28452,021439,18332,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{446}figura_3._unidade_geradora_de_vapor_d_agua.jpg">  </a> 
+<br><br>
+<b>EXTREMIDADE OPOSTA: </b><br>
+<p class="p1"><div> A extremidade oposta é fechada com uma portinhola de madeira dentro de uma guia móvel (Figura 4), facilitando a sua retirada para a descarga do substrato. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28453,021439,18332,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{547}figura_4._portinhola_na_extremidade_oposta_do_desinfestador.jpg">  </a> 
+<br><br>
+<b>ENERGIA E ÁGUA: </b><br>
+<p class="p1"><div> O vaporizador requer ligação à rede de energia elétrica e de abastecimento de água (Figura 5). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28454,021439,18332,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{40}figura_5._ligacao_eletrica_e_de_agua_do_vaporizador.jpg">  </a> 
+<br><br>
+<b>O INTERIOR DA BAIA: </b><br>
+<p class="p1"><div> O interior da baia contém um conjunto de seis canos de ferro, três na parte superior e três na parte inferior, dispostos nas laterais e ao centro, furados (broca 3mm) a cada 15–20cm de distância para a passagem do vapor no substrato (Figuras 6, 7 e 8).
+ <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28455,021439,18332,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{54}figura_6._canos_distribuidores_de_vapor_no_interior_da_baia.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28457,021439,18332,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{10}figura_7._canos_distribuidores_de_vapor_ligados_a_unidade_geradora_de_vapor_d_agua.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28458,021439,18332,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{141}figura_8._estrutura_dos_canos_e_conexoes_metalicas_para_distribuicao_do_vapor_d_agua.jpg">  </a> 
+<br><br>
+<b>DISTRIBUIÇÃO DO CALOR: </b><br>
+<p class="p1"><div> O conjunto de canos que distribui o vapor dágua está conectado entre si e ao vaporizador através de curvas, "tês", uniões e cruzetas de ferro que permitem desmontagem e manutenção do sistema (Figuras 9 e 10).
+ <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28460,021439,18332,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{62}figura_10._conexoes_do_sistema_de_distribuicao_de_vapor_que_fazem_ligadas_ao_final_do_sistema.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28459,021439,18332,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{539}figura_9._conexoes_do_sistema_de_distribuicao_de_vapor_ligadas_ao_vaporizador.jpg">  </a> 
+<br><br>
+<b>ACIONAMENTO ELÉTRICO: </b><br>
+<p class="p1"><div> O acionamento é elétrico em sistema trifásico, realizado por contactor (Figura 11) conectado a um controlador de temperatura (Figura 12A) com termopar (Figura 12B) inserido na parte superior e ao fundo da pilha de substrato, a 2cm da superfície 
+(Figura 13).
+ <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28461,021439,18332,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{28}figura_11._painel_eletrico.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28462,021439,18332,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{258}figura_12._controlador_eletronico_e_termopar.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28463,021439,18332,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{459}figura_13._ponto_de_coleta_da_temperatura.jpg">  </a> 
+<br><br>
+<b>FECHAMENTO SUPERIOR: </b><br>
+<p class="p1"><div> O fechamento superior é feito com um filme plástico transparente anti-UV de 100 micrômetros (Figura 14). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28464,021439,18332,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{419}figura_14._fechamento_superior_do_desinfestador.jpg">  </a> 
+<br><br>
+<b>FIXAÇÃO DO PLÁSTICO: </b><br>
+<p class="p1"><div> Fixa-se o plástico, colocando-o sobre o perfil de alumínio (Figura 15A) e aplicando em seguida a mola sobre o plástico, encaixando no perfil (Figura 15B). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28465,021439,18332,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18332]{121}figura_15._fechamento_superior_do_desinfestador.jpg">  </a> 
+<br><br>
+<b>CAPACIDADE DE DESINFESTAÇÃO: </b><br>
+<p class="p1"><div> A capacidade de desinfestação é de 3,3 metros cúbicos (m3), atingindo a temperatura de 70°C em todo o volume em 3 horas e doze minutos, para um substrato 3:1:1 de solo argiloso, cama de aves e areia fina. Para substratos com menor densidade o tempo de desinfestação será menor. <br> </div></p>
+<b>CONSUMO DE ENERGIA ELÉTRICA: </b><br>
+<p class="p1"><div> O consumo de energia elétrica para a desinfestação de 3,3m3 de substrato foi de R$ 10,85 ou R$ 0,03 por litro de substrato (valor em agosto de 2023). <br> </div></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+Visconti et al. Unidade de termoterapia a vapor para desinfestação de substratos. Cartilha. Epagri, 2023.
+ </div></p> </font> 
+<br><br><br> <font size="2"> Criado em: 24/11/2023</font>
+<br> <font size="2"> Última atualização: 24/11/2023</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021439&amp;cdElemento=18332">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18332');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

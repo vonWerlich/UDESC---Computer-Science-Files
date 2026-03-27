@@ -1,0 +1,31 @@
+Título: BANANA - Fitossanidade - Principais pragas da bananeira - TRAÇA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021702&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais pragas da bananeira
+TRAÇA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18392%5D%7B256%7Dtraca_adulto_1.png
+Fixação de um saco protetor de polietileno azulado, translúcido e perfurado ao engaço (pedúnculo) de um cacho de bananas, onde as mãos de um trabalhador realizam uma amarração firme com um fio escuro para criar um microclima que protege os frutos contra pragas, danos físicos e intempéries, além de promover um amadurecimento uniforme e acelerado, garantindo a qualidade superior do produto final.
+FOTO: Arquivo Epagri
+
+-- DESCRIÇÃO --
+NOME COMUM : traça-da-bananeira Espécie: Opogona sacchari (Bojer) Ordem: Lepidoptera Família: Tineidae Biologia: Mariposas de coloração levemente acinzentada, com corpo medindo cerca de 10mm de comprimento e 25mm de envergadura (com asas abertas). Possui asas posteriores franjadas. As fêmeas adultas colocam seus ovos preferencialmente na região da ponta dos frutos. Após a eclosão, as pequenas lagartas, medindo até 2mm, penetram o fruto e se desenvolvem, até atingirem aproximadamente 25mm, por um período de 30 dias (Figuras abaixo) . Para completar seu ciclo, as lagartas empupam, por um período que varia entre 15 e 20 dias.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18392%5D%7B184%7Dtraca_1.png
+Porção de folha de bananeira do subgrupo Prata, apresentando sintomas da infecção pelo Vírus do Estriamento da Bananeira (BSV), caracterizados por um padrão de clorose em estrias que se manifesta como faixas alongadas e irregulares de coloração verde-claro a amarelo-esverdeado, contrastando com o tecido foliar sadio, o que confere à lâmina um aspecto de mosaico ou mosqueado interveinal distintamente orientado de forma paralela às nervuras secundárias, evidenciando uma infecção sistêmica que compromete a capacidade fotossintética da planta sem apresentar, neste estágio, lesões necróticas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18392%5D%7B14%7Dtraca_4.png
+Penca de bananeira imatura apresentando sintomas severos e característicos de infecção por Banana Streak Virus (BSV), com a casca verde-clara demonstrando externamente múltiplas lesões necróticas de formato alongado e irregular, que variam de estrias finas a manchas maiores de coloração marrom-escura a preta, enquanto internamente, como revelado nos frutos seccionados, a polpa exibe extensas áreas de escurecimento, necrose do anel vascular e manchas marrons difusas que se estendem pelo parênquima, evidenciando o comprometimento sistêmico da qualidade e confirmando os sintomas da virose.
+
+-- DANOS --
+Todas as partes da bananeira podem ser atacadas por esta praga, com exceção dos rizomas e folhas. Porém, o ataque nos frutos se destaca, uma vez que as galerias abertas pelas lagartas, principalmente no pistilo, induzem a podridão e consequente inviabilização de sua venda (Figura abaixo) . Além disso, a simples presença destes indivíduos pode prejudicar a comercialização, dado o status de praga quarentenária que este inseto apresenta em países compradores de banana brasileira.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18392%5D%7B478%7Dtraca.png
+Corte transversal do engáço (pedúnculo) de um cacho de banana, demonstrando sintomas severos de infecção pelo Banana Streak Virus (BSV), evidenciados por uma necrose interna generalizada do parênquima, que se manifesta como extensas áreas de coloração marrom-escura a avermelhada em forma de pontos e estrias coalescentes, indicativas de acentuada descoloração vascular, além de uma fissura central com bordas necrosadas que compromete a integridade estrutural e a funcionalidade do órgão para a sustentação e nutrição do cacho.
+
+-- CONTROLE E MONITORAMENTO --
+Além do manejo do ambiente, o ensacamento dos frutos é um dos passos essenciais para o manejo integrado desta praga. O controle deve ser concentrado nos meses quentes do ano, entre janeiro e junho, quando ocorre o período de máxima atividade reprodutiva do inseto. A utilização de armadilhas luminosas para o monitoramento e coleta massal são recomendadas. O monitoramento pode ser feito também pela presença dos insetos nos restos florais de frutos em desenvolvimento. Caso seja encontrado, recomenda-se a eliminação do material afetado e sua queima, além do seccionamento do pseudocaule em pedaços pequenos a fim de acelerar sua decomposição, principalmente na região de detecção do inseto.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+• Marcelo Mendes de Haro (Dr. - Epagri) Pesquisador - Epagri - Itajaí

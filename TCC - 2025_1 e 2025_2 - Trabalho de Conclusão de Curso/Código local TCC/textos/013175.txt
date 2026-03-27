@@ -1,0 +1,21 @@
+Título: ARROZ IRRIGADO - 13. Tecnologia de aplicação de agrotóxicos em arroz irrigado - Preparo da calda de pulverização
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013175&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11432%5D%7B31%7D11_preparacalda_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Uma etapa de extrema importância da tecnologia de aplicação é o processo de preparo da calda de pulverização. A calda bem preparada evita a distribuição desuniforme do ingrediente ativo, sem ocasionar sub ou super dosagem nas áreas tratadas.
+
+-- FORMULAÇÕES PÓ-MOLHÁVEL E LÍQUIDAS DENSAS: --
+Os produtos nas formulações pó molhável e aquelas líquidas mais densas sempre precisam ser pré-diluídos em recipientes menores e somente devem ser adicionados ao tanque do pulverizador quando estiverem totalmente solubilizados. Esse procedimento deve ser realizado para cada produto em cada pulverização.
+
+-- FORMULAÇÕES LÍQUIDAS: --
+Os produtos líquidos, como nas formulações concentradas emulsionáveis, podem ser adicionados diretamente ao tanque, porém o tanque deve conter pelo menos 2/3 de água limpa de impurezas e suspensões de argilas. Tanto os produtos pré-diluídos como os puros deve ser adicionados individualmente ao tanque.
+
+-- DILUIÇÃO NA ÁGUA: --
+Para manter a calda em constante homogeneização, o trator deve estar com o cardan acionado, movimentando a bomba pela tomada de força em rotação menor que 540rpm. Após completado o volume total do tanque, a pulverização deve ser iniciada imediatamente.
+
+-- MISTURAS DE TANQUE: --
+O aproveitamento de um mesmo tratamento para a aplicação de mais de um produto pode ser vantajoso ou prejudicial, devendo-se observar critérios técnicos para este procedimento. Essa prática deve seguir orientações prescritas por profissionais habilitados As vantagens estão relacionadas à redução de custos, tempo, mão de obra, quantidade de água, óleo diesel, número de entradas de máquina na área, redução da exposição dos trabalhadores, entre outras. As desvantagens são os riscos de incompatibilidade entre as formulações, maior possibilidade de causar fitotoxicidade às plantas, redução de eficiência dos produtos, além de outros efeitos prejudiciais à lavoura. As misturas de tanque devem ser realizadas somente quando necessário e com produtos de compatibilidade conhecida. Utilizar somente as doses recomendadas e seguir a sequência correta de diluição e adicionamento ao tanque. De maneira geral, a sequência de adição de produtos com diferentes formulações à calda no tanque deve ser: • 1º - grânulos dispersíveis em água (WG); • 2º - pó solúvel em água (SP); • 3º - pó molhável (WP); • 4º - suspensão concentrada (SC); • 5º - emulsão óleo em água (EW); • 6º - emulsão de água em óleo (EO); • 7º - concentrado para emulsão (EC); • 8º- solução concentrada (SL); • 9º- adjuvantes, óleos, e outros.
+
+-- Informações Complementares --

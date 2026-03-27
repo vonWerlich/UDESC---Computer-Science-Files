@@ -1,0 +1,28 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - K) PRINCIPAIS PRAGAS E SEU CONTROLE - h) Mosca-minadora (Liriomyza spp)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03002&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2768%5D%7B221%7Dfigura_38.jpg
+
+-- Reconhecimento dos danos: --
+Os ovos são colocados no interior das folhas e as larvas constroem galerias no limbo foliar, as quais, em ataques intensos, formam grandes emaranhados. Essas galerias são irregulares e em forma de serpentina (Figura 38), geralmente mais estreitas que as causadas pela traça-do-tomateiro. O dano é mais significativo quando ocorre no início do desenvolvimento da planta.
+
+-- Monitoramento: --
+• Inspeção de folhas; • Instalação de armadilhas adesivas, de modo a auxiliar na tomada de decisão de controle da praga. As armadilhas podem ser confeccionadas com papel-cartão ou garrafas PET, pintadas na tonalidade amarelo-ouro.
+
+-- Método de amostragem: --
+Exame da última folha desenvolvida e/ou inspeção em armadilhas adesivas.
+
+-- Nível de ação: --
+Presença do inseto em 10% das plantas amostradas ou 25% das folhas com presença de larvas vivas.
+
+-- Principais inimigos naturais: --
+Vespas parasitoides (Diglyphus, Opius, Chrysocharis e Closterocerus).
+
+-- Métodos de controle: --
+• Evitar o plantio próximo a lavouras de feijão, batata, brócolis, couve-flor, berinjela, pimenta e melancia; • Utilizar armadilhas adesivas de coloração amarelo-ouro para o monitoramento e o controle de adultos; • Usar, quando necessário, inseticida com seletividade aos inimigos naturais; • Fazer rotação de agrotóxicos, conforme o modo de ação e o grupo químico.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2768%5D%7B296%7Dfigura_38.jpg
+Legenda: Folha de tomateiro danificada por mosca-minadora. Foto: Janaína Pereira dos Santos
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

@@ -1,0 +1,33 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - e) Adubação e manejo do solo - 5) Fertirrigação com biofertilizantes
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07384&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6665%5D%7B420%7Dcapa_tomatorg.jpg
+
+-- O QUE SÃO OS BIOFERTILIZANTES: --
+Os biofertilizantes líquidos são adubos orgânicos obtidos da fermentação de materiais orgânicos com água, na presença ou ausência de ar, resultando em uma matriz líquida composta de comunidades de micro-organismos benéficos, solubilizadores de nutrientes, promotores do crescimento de plantas e de antagonistas a insetos-praga e doenças. Compõem-se também de fonte de macro e micronutrientes.
+
+-- O QUE CONTÉM: --
+O biofertilizante contém uma complexa composição de nutrientes essenciais às plantas (principalmente nitrogênio e fósforo), podendo atuar como fertilizante dependendo da sua formulação (BARROS, 2014).
+
+-- APLICAÇÃO VIA SOLO OU FOLIAR: --
+Sua adoção está diretamente relacionada ao seu baixo custo de produção, sendo aplicado, na maioria das vezes, via foliar. Contudo, tem crescido a aplicação via solo pelos efeitos diretos à planta e pela ação fitossanitária, reduzindo o aparecimento de pragas, e pela indução de supressividade a fitopatógenos (MEDEIROS et al., 2001).
+
+-- O QUE FAVORECE: --
+Além da melhoria das características biológicas do solo, a aplicação de biofertilizante favorece também os atributos físicos (melhorando a estrutura dos agregados do solo) e químicos, como a capacidade de troca de cátions-CTC, o pH e a condutividade elétrica do solo e a disponibilidade de nutrientes às plantas (CAVALCANTE et al., 2008).
+
+-- VANTAGENS: --
+A vantagem dos biofertilizantes líquidos em relação aos fertilizantes orgânicos sólidos, que sofrem processo de decomposição, reside na possibilidade de aplicação via equipamento de irrigação, com a aplicação direta de água, nutrientes e micro-organismos benéficos sobre o sistema radicular, com baixo esforço do agricultor no manuseio da fração sólida e da água. Contudo, são necessárias adaptações para não danificar os sistemas e não causar o entupimento do equipamento.
+
+-- CUIDADOS E PROBLEMAS: --
+Uma característica inerente aos métodos de irrigação localizada é o processo de passagem da água nos emissores, que se dá por meio dos pequenos diâmetros do orifício seguindo a forma interna do emissor, com o intuito de evitar as perdas de carga e aplicar a baixas pressões. Consequentemente, a obstrução dos emissores pela fração sólida do biofertilizante é o maior problema associado a esses sistemas (FERNANDES & TESTEZLA, 2002). Outro problema associado é a formação de biofilmes microbianos, caracterizada por uma matriz polimérica extracelular, constituída de polissacarídeos, enzimas, proteínas, exoenzimas, ácidos nucleicos e lipídios que protegem o consórcio microbiano que ali se instala da ação de agentes físicos e químicos (ALBUQUERQUE et al., 2014).
+
+-- ADEQUAÇÕES NA INFRAESTRUTURA DE IRRIGAÇÃO: --
+Aconselha-se os produtores que adotarão nos sistemas de fertirrigação o uso de biofertilizantes que promovam adequações na infraestrutura de irrigação para facilitar o acesso ao sistema central de irrigação, sua diluição e a limpeza dos filtros, canos e conexões. Sugere-se, no mínimo: - Tanque próprio para o biofertilizante – permitindo desta forma o controle da concentração e da frequência de aplicação. Permite também a avaliação visual do biofertilizante, se o processo fermentativo ocorreu de maneira adequada; - Filtro para as frações sólidas entre o tanque de biofertilizante e o tanque de água, evitando ou diminuindo a possibilidade de entupimentos. Filtros feitos com canos de PVC contendo espuma ou feltro em seu interior têm apresentado boas vazões, facilidade de limpeza e poucos entupimentos. Filtros de tela ou de anéis corrugados utilizados em sistemas de fertirrigação com fertilizantes solúveis facilmente entopem, exigindo limpezas sucessivas, principalmente quando os biofertilizantes são aplicados em maiores concentrações.
+
+-- As variáveis mínimas que devem ser consideradas para a montagem do sistema de fertirrigação com o uso de biofertilizantes são: --
+o processo fermentativo, a densidade do biofertilizante, a concentração a ser aplicada, a frequência de aplicação e o ciclo da cultura. Estas informações definirão melhor o processo construtivo do sistema de aplicação de biofertilizante e sua conexão com o sistema de irrigação.
+PARA SABER MAIS SOBRE BIOFERTILIZANTES : clicar aqui!
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

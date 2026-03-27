@@ -1,0 +1,29 @@
+Título: BANANA - Fitossanidade - Principais pragas da bananeira - ÁCAROS
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021701&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais pragas da bananeira
+ÁCAROS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18391%5D%7B494%7Dacaro_3.jpg
+Prática do 'descarte do coração' ou 'desfloração', que, apesar de por vezes confundida com a 'retirada da penca', consiste na remoção do ápice masculino do cacho, onde duas mãos humanas de um operador executam a intervenção manual em um vasto cacho de bananas imaturas de tonalidade verde-clara, com a mão esquerda segurando firmemente o 'coração' cônico e verde-escuro recém-destacado do raquis central, cuja superfície de ruptura exibe um tecido claro e fresco, enquanto a mão direita estabiliza o robusto pedúnculo do cacho para garantir firmeza, beneficiando as inúmeras pencas em desenvolvimento helicoidal, cujos frutos ainda apresentam resquícios florais secos em seus ápices, ao redirecionar nutrientes para aumentar o calibre e a uniformidade comercial, tudo isso em um ambiente de bananal com iluminação natural que destaca a importância fitossanitária e produtiva desta operação.
+FOTO: Foto: Fonte Epagri
+
+-- DESCRIÇÃO --
+NOME COMUM: ácaro-de-teia Espécie: Tetranychus abacae (Baker & Printchard); Tetranychus desertorum (Banks) Ordem: Acari Família: Tetranychidae Biologia: Ácaros são pequenos aracnídeos (Arachnida), pertencentes à subclasse Acari, dotados da capacidade de tecer teias, sendo este um dos melhores indicativos de ataque por estes indivíduos. As fêmeas apresentam coloração vermelho intensa, medindo aproximadamente 0,5mm de comprimento. As formas jovens, ainda menores, apresentam coloração verde levemente amarelada (Figura B, abaixo) .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18391%5D%7B29%7Dacaro_de_teia.jpg
+Fruto de banana do Subgrupo Prata em avançado estado de maturação, apresentando um quadro severo e generalizado de antracnose (Colletotrichum musae), manifestado por extensas lesões necróticas de coloração marrom-escura a preta que se encontram coalescidas, deprimidas e distribuídas por quase toda a superfície da casca, com maior intensidade na região do pedúnculo, indicando um colapso tecidual avançado que torna o fruto impróprio para o consumo.
+
+-- DANOS --
+Estes artrópodes podem infestar todas as partes da planta, desde o pseudocaule, mas atacando principalmente folhas e frutos, onde causam os maiores problemas. Nas folhas, os ácaros formam colônias na parte inferior, iniciando próximo à nervura principal, onde tecem suas teias, provocando a queda prematura da folha (Figura A, abaixo) . Nos frutos, ao se alimentar das células da epiderme, causam lesões que depreciam sua qualidade para venda, mesmo sem afetar sua polpa.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18391%5D%7B278%7Ddanos_acaro.jpg
+Fruto de banana do Subgrupo Prata em maturação avançada, apresentando um sintoma patognomônico de antracnose (Colletotrichum musae), caracterizado por uma lesão necrótica solitária, deprimida e subcircular com margens bem definidas, de coloração marrom-escura a preta, localizada na porção mediana da casca, onde se observam no interior da lesão pontuações escuras que indicam a presença de acérvulos, denotando um estágio avançado da infecção fúngica.
+
+-- CONTROLE --
+Por serem pequenos e possuírem ciclo de vida curto e uma grande capacidade reprodutiva, seu controle preconiza técnicas de manipulação do ambiente, assim como para o controle do tripes (ver em "Principais pragas da bananeira - Tripes-da-ferrugem-dos-frutos). Em caso de infestações elevadas, o controle pode ser feito pela pulverização do fungo B. bassiana em uma concentração de 10g de produto comercial (contendo entre 1 x 108 a 1 x 109 unidades formadoras de colônia) por litro de água potável( 1 ). A pulverização deve ser feita no final do dia, apenas na reboleira onde existe o ataque, uma vez que este fungo é generalista e pode afetar também os inimigos naturais. Outra opção preventiva e de controle é a liberação de ácaros predadores, que podem ser adquiridos comercialmente, tais como Phytoseiulus spp. e Neoseiulus spp. (Acari: Phytoseiidae).
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )HARO, M.M.; BELTRAME, A.B. Qualidade dos produtos à base de Beauveria bassiana comercializados em Santa Catarina para o controle de brocas-da-bananeira. In: Simpósio de Controle Biológico, 16, 2019, Londrina. Anais… Santo Antônio de Goiás: SEB, 2019.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )HARO, M.M.; BELTRAME, A.B. Qualidade dos produtos à base de Beauveria bassiana comercializados em Santa Catarina para o controle de brocas-da-bananeira. In: Simpósio de Controle Biológico, 16, 2019, Londrina. Anais… Santo Antônio de Goiás: SEB, 2019.
+• Marcelo Mendes de Haro (Dr. - Epagri) Pesquisador - Epagri - Itajaí

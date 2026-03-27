@@ -1,0 +1,43 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Preparação do viveiro - Calagem do solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010156&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9162%5D%7B428%7Dcalagem.png
+
+-- IMPORTÂNCIA: --
+A calagem é a ação de corrigir o pH do solo com adição de cal ou calcário, e os benefícios da calagem do solo do viveiro são: a) Incremento do pH e alcalinidade da água; b) Beneficia os organismos fotossintéticos (microalgas); c) Diminuição da capacidade do lodo adsorver nutrientes importantes para as microalgas, como, por exemplo, o fósforo e o cálcio; d) Propicia um ambiente mais favorável para os organismos benéficos do lodo, facilitando a decomposição da matéria orgânica gerada pelo cultivo.
+
+-- CALAGEM EM QUATRO ETAPAS: --
+1) Coleta do solo; 2) Análise do solo; 3) Aplicação do calcário; 4) Incorporação do calcário ou gradagem.
+
+-- COLETA DO SOLO: --
+O piscicultor deverá coletar, de cada viveiro, de 5 a 10 amostras, dependendo do tamanho do viveiro. Em viveiros menores (1.000 a 3.000 m²), coletar apenas 5 amostras, já em viveiros maiores (10.000m²) coletar 10 amostras. As amostras devem ser coletadas de modo que represente toda a extensão do viveiro.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9162%5D%7B431%7Dcoleta_de_solo.jpg
+Legenda: As amostras devem ser coletadas de modo que represente toda a extensão do viveiro. Foto: Bruno Corrêa da Silva
+
+-- PROCEDIMENTOS APÓS A COLETA: --
+O solo deverá secar em local arejado e protegido do sol. Após secas as amostras, a necessidade de calagem pode ser calculada de duas formas: a) método geral , realizado pelo próprio técnico/piscicultor; ou b) método de saturação por bases , onde as amostras devem ser entregues a um escritório municipal da Epagri para serem enviadas ao laboratório, e, posteriormente, serem analisadas pelo técnico.
+
+-- Método geral: --
+O método geral para quantificação do calcário é mais simples e pode ser realizado pelo próprio produtor em sua propriedade, seguindo as seguintes etapas: Etapa 1 : Medir o pH do solo: Em um béquer coloque 20g de solo com 20 mL de água destilada, misture bem, e após 30min faça a medição do pH da solução. Se o pH do solo for maior que 5,9 não há necessidade de calagem. Se o pH do solo for menor ou igual a 5,9 é necessário realizar a próxima etapa do método. Etapa 2 : Medir o pH do solo em solução tampão: Em um béquer coloque 20g de solo com 40mL de solução tampão SMP (pH=7). Após uma hora de agitação, determina-se a queda do pH da solução, calculando a quantidade de calagem (QC) necessária pela seguinte fórmula: QC (kg/ha) = (7,0 - pH - SMP) x 6.000 x (100/PRNT%)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9162%5D%7B43%7Dcalcario_f1.jpg
+Legenda: Cálculo do calcário pelo pH do solo. Foto: Bruno Corrêa da Silva
+
+-- Método de saturação por bases: --
+Para o cálculo da quantidade de calcário por este método, são necessários os seguintes resultados da análise do solo do laboratório: Saturação por bases (V1) e a capacidade de troca de cátions (CTC) do solo a ser calado. A saturação por bases do solo refere-se à porcentagem de cátions trocáveis no solo, ou seja, a porcentagem disponível de cátions no solo, como K, Ca, Mg. Para efeito de cálculo, na piscicultura utiliza-se como a saturação por bases recomendada (V2) de 70%. Já o CTC corresponde à soma das cargas negativas nas partículas do solo (argila e matéria orgânica) retendo os cátions. A necessidade de calcário por este método calcula-se pela seguinte fórmula: QC (kg/ha) = 1000 x [((V2 - V1) x CTC) / PRNT%]
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9162%5D%7B330%7Dcalcario_f2.jpg
+Legenda: Cálculo do calcário pela saturação de bases do solo. Foto: Bruno Corrêa da Silva
+
+-- APLICAÇÃO E INCORPORAÇÃO DO CALCÁRIO NO SOLO: --
+O calcário deverá ser aplicado por toda superfície do solo do viveiro com auxílio do trator com implemento adequado, ou manualmente pelo piscicultor. Além disso, o calcário deverá ser incorporado aos primeiros 20 cm de solo, com auxilio do trator e enxada rotativa.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9162%5D%7B334%7Denxada_rotativa.jpg
+Legenda: Incorporação do calcário com enxada rotativa.Foto: Haluko Massago
+
+-- Observação 1: matéria orgânica --
+É recomendado após cada safra, encaminhar amostra do solo para análise em laboratório da porcentagem de matéria orgânica (%). Esse acompanhamento pode auxiliar nas tomadas de decisões futuras. É adequado que o solo tenha no máximo 4% de matéria orgânica, e solos com índices maiores devem ser raspados e destinados adequadamente. Uma utilização interessante para esse solo é a adubação de outras culturas, já que este é fico em fósforo. Solos com altas porcentagens de matéria orgânica ocasionam: níveis mais elevados de amônia e nitrito ao longo do cultivo; maior demanda biológica de oxigênio; florescimento de algas tóxicas (cianobactérias e dinoflagelados); favorecimento de doenças causadas por parasitos e bactérias.
+
+-- Observação 2: calagem pela dureza da água --
+Quando produtor não conseguir fazer a análise do solo poderá realizar a calagem de acordo com a dureza da água, seguindo a indicação abaixo: Dureza maior que 10 mg Ca CO 3 por litro: - 300 gramas/m² Dureza entre 10 e 20 mg Ca CO 3 por litro: - 200 gramas/m² Dureza maior que 20 mg Ca CO3 3 por litro: - 100 gramas/m²
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

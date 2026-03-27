@@ -1,0 +1,28 @@
+Título: CEBOLA - Manejo de doenças - Míldio (Peronospora destructor)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016651&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12407%5D%7B156%7D%5B12407%5D%7B278%7Dmildio_1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12407%5D%7B278%7Dmildio_1.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Edivânio R. de Araújo e Renata S. Resende
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12407%5D%7B432%7Dmildio_3.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Edivânio R. de Araújo e Renata S. Resende
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12407%5D%7B259%7Dmildio_2.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Edivânio R. de Araújo e Renata S. Resende
+
+-- SINTOMAS: --
+Os sintomas da doença podem ser observados em qualquer estádio de desenvolvimento da cultura, tanto em folhas como em hastes ﬂorais. Inicialmente observam-se manchas ovaladas de tonalidade verde-claro no sentido longitudinal das folhas. Um mofo violeta-acinzentado, correspondente às estruturas do patógeno, pode ser observado em condições de alta umidade nas primeiras horas da manhã.
+
+-- HOSPEDEIROS: --
+Plantas da família Aliaceae. Doença de grande importância para a cultura da cebola (Alllium cepa L.) e de menor importância para outras aliáceas.
+
+-- CONDIÇÕES CLIMÁTICAS FAVORÁVEIS: --
+- Doença favorecida por temperaturas amenas e elevada umidade relativa do ar. - Temperaturas menores que 24°C e umidade relativa maior que 90% favorecem a ocorrência da doença (Hidelbrand & Sutton, 1982).
+
+-- CONTROLE: químico --
+Uso de fungicidas com ação protetora (mancozebe e propinebe) e com ação sistêmica (metalaxil-M).
+
+-- CONTROLE: cultural --
+- Evitar plantios muito adensados. - Utilizar cultivares mais tolerantes (ex.: SCS379 Robusta). Não existem cultivares comerciais resistentes à P. destructor.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

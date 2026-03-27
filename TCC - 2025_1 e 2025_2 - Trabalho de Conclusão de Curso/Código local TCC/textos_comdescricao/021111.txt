@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 02. Caracterização da planta de arroz - Monitoramento do desenvolvimento da lavoura (Graus-Dia)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021111&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+02. Caracterização da planta de arroz
+Monitoramento do desenvolvimento da lavoura (Graus-Dia)
+
+-- INFORMAÇÕES GERAIS --
+A velocidade com que a planta de arroz atinge cada um dos principais estádios de seu desenvolvimento está diretamente relacionada com a temperatura do ar. Em função disso, o monitoramento do desenvolvimento da lavoura de arroz irrigado pode ser realizado com o uso do método GRAUS-DIA , o qual considera a resposta da planta de arroz às variações de temperatura da região de cultivo. Neste método, a duração de cada estádio é definida por uma quantidade específica de calor, chamada SOMA TÉRMICA (ST) , acumulada acima de uma temperatura de base (11°C). Com base nesta informação, pode-se prever, com segurança, as datas de ocorrência das ÉPOCAS CHAVE do desenvolvimento das plantas de arroz, de forma a potencializar a eficiência das principais operações de manejo da cultura. Na tabela abaixo é apresentada a SOMA TÉRMICA (ST) necessária para atingir as ÉPOCAS CHAVE do desenvolvimento das plantas de arroz. Os valores de soma térmica são apresentados por ciclo de cultivar, e foram ajustados para as principais cultivares adotadas em Santa Catarina.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18018%5D%7B294%7D02_tabgrausdia_2023.jpg
+
+-- Informações Complementares --
+• Marcos Lima Campos do Vale (Dr. em Solos e Nutrição de Plantas - Epagri) Cálculo de graus-dia

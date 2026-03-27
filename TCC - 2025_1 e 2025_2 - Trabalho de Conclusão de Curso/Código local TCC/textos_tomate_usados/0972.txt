@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Bonus F1 (Superseed)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0972&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B854%5D%7B258%7Dbonus_f1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Superseed; Finalidade: Copa; Grupo: Santa Cruz; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a bactérias e nematoides: Pst - Pseudomonas syringae pv. tomato; Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Muito Pequeno (menor que 170 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Primeira cultivar comercial com tolerância ao Vírus do Vira-cabeça (Tospovírus) no Brasil. Devido as suas tolerâncias, apresenta alta sanidade, podendo ser cultivado o ano todo. Necessita de raleio de pencas para melhorar a uniformidade do fruto. FRUTOS: Firmes e de excelente coloraçao. PLANTA: Crescimento indeterminado, bom vigor, precocidade e excelente pegamento de frutos. DESTAQUES: Alta produtividade e qualidade de frutos. Pós colheita: Boa Tamanho Médio: 7 x 6 cm Peso Médio: 160 g Ciclo Médio: 110 dias Tipo de fruto: Santa Cruz
+
+-- RESISTÊNCIA: --
+Fol: 0, Mi, Mj, Pst, Ss e TSWV
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://agristar.com.br/superseed/tomate-santa-cruz-ind-hib/bonus-f1/3090 ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://agristar.com.br/superseed/tomate-santa-cruz-ind-hib/bonus-f1/3090

@@ -1,0 +1,22 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Queda de flores e frutos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04602&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1514%5D%7B340%7Dqueda_de_flores_e_frutos.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1514%5D%7B438%7D%5B1514%5D%7B434%7Dqueda_de_flores_e_frutos.jpg
+Legenda: Penca de tomate com pequeno número de frutos. Foto: P. C. T. Melo
+
+-- OBSERVAÇÕES: --
+- A faixa ótima de temperatura para pegamento de frutos de tomate é de 14ºC a 17 ºC (1). - Em condições de ambiente protegido o problema se agrava (2) devido ao problema comum com a elevada temperatura.
+
+-- SINTOMAS: --
+Normalmente a planta apresenta pegamento de fruto bastante desigual (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Temperaturas elevadas (Noturnas superiores a 20 ºC e diurnas superiores a 30ºC) (1). - Deficiência de fosforo principalmente quando existe excesso de nitrogênio (2).
+
+-- CONTROLE: --
+- Adubação equilibrada com boa disponibilidade de fósforo, sem excesso de nitrogênio (2). - Evitar o plantio em épocas muito quentes (2).
+
+-- Informações Complementares --
+(1) LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005. (2) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Ufla, 2004.

@@ -1,0 +1,18 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Cálcio (Ca)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016700&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12701%5D%7B40%7Dfigura_14.jpg
+
+-- IMPORTÂNCIA DO NUTRIENTE: --
+O cálcio é componente dos pectatos que são constituintes da parede celular. Participa da estrutura e do funcionamento de membranas, da absorção iônica e da ativação enzimática. Por ser um elemento imóvel no floema, não ocorre sua redistribuição na planta (FAQUIN, 2005; MALAVOLTA, 2006).
+
+-- SINTOMAS DE DEFICIÊNCIA: --
+Em plantas com deficiência de Ca, as folhas novas, de aspecto aparentemente normal, tombam repentinamente sem se fraturarem e após alguns dias secam do ápice até a base (Figura 14). Com o progredir da carência, o fenômeno se repete nas folhas intermediárias e nas mais velhas (MENDES et al., 2008).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12701%5D%7B369%7Dfigura_14.jpg
+Legenda: Figura 14. À esquerda plantas com solução nutritiva completa e à direita plantas em solução nutritiva na ausência de Ca, apresentando deficiência com necrose das folhas mais novas. null
+
+-- RECOMENDAÇÃO DE CÁLCIO PARA CEBOLA: --
+De maneira geral os solos catarinenses corrigidos para elevar o pH para valores iguais ou superiores ao pH 5,5 apresentam teores de Ca alto no solo e suficientes para altas produtividades e qualidade dos bulbos de cebola. Desse modo, se os demais cátions não estiverem desequilibrados no solo e os teores de Ca situarem-se acima de 4,0cmolc dm-3, não há necessidade de aplicações adicionais desse nutriente via solo ou foliar para a cultura da cebola.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

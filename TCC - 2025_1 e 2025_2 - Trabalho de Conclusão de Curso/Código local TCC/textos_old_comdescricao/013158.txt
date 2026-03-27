@@ -1,0 +1,25 @@
+Título: ARROZ IRRIGADO - 09. Sementes e semeadura de arroz irrigado - Qualidade das sementes
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013158&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+09. Sementes e semeadura de arroz irrigado
+Qualidade das sementes
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11417%5D%7B372%7D08_qualisemente-caput.jpg
+FOTO: D.S.Eberhardt (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+As sementes possuem características específicas que definem sua qualidade. Dentre estas características, merecem maior destaque: • a pureza genética - é a ausência de mistura de variedades, permitindo identificar qual material está sendo cultivado; • a pureza física - garante a ausência de sementes de plantas daninhas prejudiciais a lavoura; • a qualidade fisiológica - define o percentual de germinação e o vigor da semente, determinantes no potencial produtivo de uma lavoura e; • a qualidade sanitária - que evita a disseminação de patógenos via sementes, evitando perdas na condução das lavouras.
+
+-- PADRÕES DE QUALIDADE: --
+Os padrões de qualidade de sementes são definidos e controlados por normas estabelecidas pelo Ministério da Agricultura, Pecuária e Abastecimento (MAPA). Em Santa Catarina, as ações relativas à inspeção da produção e certificação das sementes são realizadas por certificadores credenciados pelo MAPA e vinculados à Associação Catarinense dos Produtores de Semente de Arroz Irrigado (ACAPSA). Existem duas classes de sementes comerciais de arroz irrigado no Estado: a básica e a certificada. Na tabela abaixo há um resumo dos padrões de laboratório destas classes de sementes, de acordo com a Instrução Normativa nº 45 de 17 de setembro de 2013. Para a semente genética, não existem normas que regulamentam os padrões de qualidade, tendo em vista que a produção desta classe é de responsabilidade exclusiva da Epagri.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11417%5D%7B335%7D09_tabsementes.jpg
+
+-- CLASSES DE SEMENTES: --
+Esquematicamente, na figura abaixo , são apresentadas as classes de sementes e as possibilidades de multiplicação das mesmas no sistema de produção de sementes de arroz irrigado em Santa Catarina.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11417%5D%7B388%7D09_quadsementes.jpg
+
+-- Informações Complementares --
+• Gabriela Neves Martins (Dr. em Sementes - Epagri) Produção de sementes
+• Laerte Reis Terres (Dr. em Melhoramento - Epagri) Melhoramento e cultivares
+• Douglas George de Oliveira (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola

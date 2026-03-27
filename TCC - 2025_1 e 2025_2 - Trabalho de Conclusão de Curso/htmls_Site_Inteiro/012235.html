@@ -1,0 +1,361 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7338&amp;isEdicao=N&amp;epagriTEC=S">1) REGULAMENTAÇÃO</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_alface.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7345&amp;isEdicao=N&amp;epagriTEC=S">5) CERTIFICAÇÃO (Controle dos requisitos para a conformidade orgânica)</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="6631">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="7345">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[6631]{178}1.png"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>Controle dos requisitos para a conformidade orgânica:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Há três formas possíveis de regularização da produção orgânica: através de
+Organismos de Avaliação da Conformidade (OAC), Organizações Participativas de
+Avaliação da Conformidade Orgânica (OPAC) ou, ainda, através das Organizações de
+Controle Social (OCS). Nos dois primeiros casos, desde que atendidos os requisitos da
+legislação orgânica brasileira, resultam em uma certificação que permite o uso do selo
+SisOrg Orgânico Brasil. Já no terceiro, por não haver certificação, somente é permitida a
+venda direta de alimentos para o governo ou ao consumidor em feiras-livres. Todos os
+casos são fiscalizados pelo Mapa.
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Processo de Credenciamento Da Unidade de Produção Orgânica (UPO):</b><br>
+<p class="p1"><div> Síntese da forma de acesso ao mercado, forma de controle da conformidade e uso do selo Orgânico Brasil para cada tipo de regulamentação da produção. O detalhamento de cada um deles é feito em seguida. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6090,7345,6631,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6631]{458}1.jpg">  </a> 
+<br><br>
+<b>OPACs CREDENCIADAS PARA AVALIAÇÃO DA CONFORMIDADE ORGÂNICA EM SANTA CATARINA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A base para a certificação por uma OPAC é o controle social, modelo cujos próprios
+produtores, integrantes do organismo, assumem o protagonismo na verificação da
+conformidade, criando comissões de auditoria e inspeção. Destas, podem fazer parte
+integrantes externos ao organismo, mas a decisão sempre é interna do próprio grupo. O
+resultado final do processo de certificação, em caso de atendimento da legislação, resulta
+em certificado de conformidade orgânica. Para atuarem no Sistema Brasileiro de Avaliação
+da Conformidade Orgânica, todos os OPAC são credenciados junto ao Mapa, havendo 24
+OPACs credenciadas no Mapa em 2018. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>a) Associação Ecovida de Certificação Participativa – Rede Ecovida</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Escopo: produção primária animal, produção primária vegetal, processamento de
+produtos de origem animal, processamento de produtos de origem vegetal e extrati vismo
+sustentável orgânico.<br><br>
+
+Site: <a target="_blank" href="http://ecovida.org.br/">www.ecovida.org.br/</a> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6099,7345,6631,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6631]{360}9.jpg">  </a> 
+<br><br>
+<b>b) Associação de Agricultura Biodinâmica do Sul (ABD-Sul)</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal, extrativismo sustentável orgânico.<br><br>
+
+Site: <a target="_blank" href="https://abdsul.org.br/">www.abdsul.org.br/</a> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6100,7345,6631,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6631]{509}8.jpg">  </a> 
+<br><br>
+<b>OACs ATUANTES NO ESTADO DE SANTA CATARINA:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Nesta modalidade de certificação, a UPO recebe auditoria externa por terceira parte, popularmente conhecida como certificadora, acreditada pela Coordenação Geral de Acreditação (CGCRE) do Instituto Nacional de Metrologia, Qualidade e Tecnologia
+(Inmetro) segundo a ABNT NBR ISO/IEC 17065: Avaliação da Conformidade - Requisitos
+para organismos de certificação de produtos, processos e serviços e credenciada junto ao
+Ministério da Agricultura, Pecuária e Abastecimento.<br><br>
+
+O processo de certificação junto a uma dessas empresas é em geral iniciado com
+a solicitação formal de certificação por parte do cliente. Em seguida, a certificadora
+analisa a viabilidade da solicitação, definindo se possui ou não condições de realizar a
+certificação. Em caso positivo, o processo é continuado dentro da empresa, sendo gerado
+um contrato de prestação de serviços e solicitado o Plano do Manejo Orgânico da unidade
+de produção.<br><br>
+
+A inspeção é agendada pela certificadora, por meio de um inspetor contratado e
+designado que vai até a unidade de produção orgânica e verifica o atendimento à legislação
+orgânica brasileira, conforme o escopo de certificação. Em seguida, tais informações
+são encaminhadas a outro especialista, que fará a análise das informações ofertadas
+pelo inspetor. O resultado final, em caso de conformidade, é a emissão do certificado
+de conformidade orgânica. Caso o projeto não atenda aos requisitos de certificação, o
+produtor recebe uma notificação do resultado, podendo reclamar ou apelar contra práticas e decisões.<br><br>
+
+Um exemplo do processo de certificação pode ser observado na Figura abaixo: <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6091,7345,6631,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6631]{352}2.jpg">  </a> 
+<br><br>
+<b>a) Ecocert Brasil Certificadora Ltda.:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal e extrativismo
+sustentável orgânico.<br><br>
+
+Site: <a target="_blank" href="https://ecocert.com.br/">www.ecocert.com.br/</a>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6101,7345,6631,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6631]{442}7.jpg">  </a> 
+<br><br>
+<b>b) Cugnier Certificadora EIRELI:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal e extrativismo sustentável orgânico.<br><br>
+
+Site: <a target="_blank" href="https://cugnier.com/">www.cugnier.com/</a>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6102,7345,6631,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6631]{53}6.jpg">  </a> 
+<br><br>
+<b>c) Kiwa BCS Oko-Garantie do Brasil Ltda.</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal e extrativismo
+sustentável orgânico.<br><br>
+
+Site: <a target="_blank" href="https://kiwa.com/lat/pt-br/servicos-na-america-latina/certificacao-organica-brasil/">https://www.kiwa.com/lat/pt-br/servicos-na-america-latina/certificacao-organica-brasil/</a> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6103,7345,6631,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6631]{148}5.jpg">  </a> 
+<br><br>
+<b>d) Associação de Certificação Instituto Biodinâmico (IBD), IBD Certificações Ltda.:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal, extrativismo sustentável orgânico e processamento de insumos agrícolas.<br><br>
+
+Site: <a target="_blank" href="https://ibd.com.br/">www.ibd.com.br/</a> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6104,7345,6631,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6631]{179}4.jpg">  </a> 
+<br><br>
+<b>e) IMO Control do Brasil:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal e extrativismo
+sustentável orgânico.<br><br>
+
+Site: <a target="_blank" href="https://imocontrol.com.br/">www.imocontrol.com.br/</a> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6105,7345,6631,13);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6631]{317}3.jpg">  </a> 
+<br><br>
+<b>RELAÇÃO DOS ORGANISMOS CADASTRATOS NO MAPA:</b><br>
+<p class="p1"><div> Para baixar o pdf com a relação atualizada de todos os organismos cadastrados junto ao MAPA, basta <a target="_blank" href="https://www.gov.br/agricultura/pt-br/assuntos/sustentabilidade/organicos/arquivos-organicos/ENDEREOSDECERTIFICADORASEOPAC21.pdf">clicar aqui!</a>
+
+
+ <br> </div></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção
+de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019.
+176p. (Epagri. Sistemas de Produção, 53).
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 07/02/2020</font>
+<br> <font size="2"> Última atualização: 01/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=7345&amp;cdElemento=6631">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=6631');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

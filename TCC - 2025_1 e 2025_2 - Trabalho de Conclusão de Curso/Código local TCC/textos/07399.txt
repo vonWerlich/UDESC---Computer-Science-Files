@@ -1,0 +1,22 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - f) Manejo da irrigação - 1) Irrigação do tomateiro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07399&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6677%5D%7B6%7D30.jpg
+
+-- IRRIGAÇÃO POR GOTEJAMENTO: --
+A preocupação com a sustentabilidade ambiental orienta para o uso racional da água de irrigação por meio do emprego de formas mais eficientes e econômicas como o gotejamento. Este é um método de irrigação localizada que tem como principais componentes os gotejadores, desmontáveis ou não. A água é lançada pelos gotejadores na forma de gotas contínuas e em local desejado (Figura 30). Em virtude da milimétrica dimensão do diâmetro do orifício do gotejador, a água utilizada na irrigação deve ser filtrada para que não haja entupimentos. Nesse método de irrigação, cada fileira de planta recebe uma linha de gotejadores. O espaço entre os gotejadores deve ser o da distância das plantas na fila de plantio para solos argilosos até francos, e menor para solos francos até arenosos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6677%5D%7B181%7D40.jpg
+Legenda: Uso de fitas gotejadoras para a irrigação do tomateiro tutorado em cultivo orgânico dentro de abrigos. Fonte: Morales et al., 2019.
+
+-- VANTAGENS DO GOTEJAMENTO: --
+- Economia de água devido à menor perda por evaporação, percolação e escoamento superficial; - Não há interferência do vento; - Menor disseminação de patógenos; - Menor variação nos níveis de umidade no solo; - Adapta-se a diferentes solos e topografias; - Permite a distribuição de biofertilizantes na água de irrigação; - Minimiza a possibilidade de erosão; - Funciona com baixas pressões de serviço (4 a 8mca), que podem ser fornecidas por motobombas ou por gravidade; - Reduz drasticamente o período de molhamento foliar com diminuição de doenças foliares; - Apresenta de maneira geral alta eficiência (até 95%).
+
+-- QUALIDADE DA ÁGUA: --
+Em qualquer método de irrigação empregado a qualidade da água aplicada deve estar próxima da potabilidade para não provocar salinização e tampouco veicular nematoides e demais patógenos de solo, bem como contaminadores de solo e alimentos. Por outro lado, deve-se evitar o molhamento exagerado na base das plantas para prevenir infecções pela murcha-bacteriana (Ralstonia solanacearum). Deve-se evitar irrigação no final do dia para que o solo não fique encharcado durante a noite, a fim de preservar a sanidade das plantas, principalmente quando em abrigos de cultivo.
+
+-- CUIDADOS COM A SALINIDADE DO SOLO: --
+Como a única fonte de água para as culturas em abrigos de cultivo é a água de irrigação, a aplicação de uma fração de lixiviação se faz necessária para que a salinidade do solo não ultrapasse o limite tolerado pela cultura, mesmo quando a água utilizada for de boa qualidade. É assim que, mesmo quando se utilizam água de irrigação de boa qualidade e concentrações adequadas de fertilizantes, pode ocorrer o acúmulo de sais na região radicular. Tal realidade implica em ter que se basear sempre em análises de solo para se efetuar as adubações, de modo a não se agravar ainda mais a salinidade, seja nos cultivos em abrigos ou fora deles.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

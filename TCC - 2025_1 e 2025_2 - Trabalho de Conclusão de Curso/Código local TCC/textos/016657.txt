@@ -1,0 +1,9 @@
+Título: CEBOLA - DIAGNOSE VISUAL - Folhas - Seca/Necrose foliar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016657&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B301%7D%5B12408%5D%7B294%7Dqueima_das_pontas_2.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16657%5D%7B175%7D%5B12408%5D%7B417%7Dqueimas_das_pontas_principal.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16657%5D%7B157%7D%5B12408%5D%7B294%7Dqueima_das_pontas_2.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16657%5D%7B441%7D%5B12701%5D%7B40%7Dfigura_14.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16657%5D%7B15%7D%5B12699%5D%7B276%7Dfigura_11.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16657%5D%7B176%7D%5B12700%5D%7B310%7Dfigura_13.jpg

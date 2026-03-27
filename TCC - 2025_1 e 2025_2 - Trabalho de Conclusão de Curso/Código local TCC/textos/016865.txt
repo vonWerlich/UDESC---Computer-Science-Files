@@ -1,0 +1,7 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016865&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16865%5D%7B84%7Dchave_alavoura.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16865%5D%7B213%7Dchave_aplanta.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16865%5D%7B492%7Dchave_apraga.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16865%5D%7B107%7Dchave_adoenca.jpg

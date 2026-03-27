@@ -1,0 +1,50 @@
+Título: TOMATE - Fitossanidade - Pragas - Mosca-Minadora, Larva-Minadora ou Riscadeira
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04665&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1950%5D%7B432%7D229.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B410%7D228.jpg
+Legenda: Adulto de mosca-minadora. Foto: Luís Cláudio Paterno Silveira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B415%7D229.jpg
+Legenda: Galerias foliares deixadas pela larva da mosca minadora da folha. Foto: Luís Cláudio Paterno Silveira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B269%7D20170710_170931.jpg
+Legenda: Galerias foliares deixadas pela passagem da larva da mosca minadora da folha. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B108%7D20170710_171112.jpg
+Legenda: Galerias foliares deixadas pela passagem da larva da mosca minadora da folha. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B209%7D20181011_150645.jpg
+Legenda: Galerias foliares deixadas pela passagem da larva da mosca minadora da folha. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B195%7Dimg-20160321-wa0026.jpg
+Legenda: Galerias foliares deixadas pela passagem da larva da mosca minadora da folha. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B543%7Dimg-20160321-wa0027_%281%29.jpg
+Legenda: Galerias foliares deixadas pela passagem da larva da mosca minadora da folha. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B27%7Dimg-20160321-wa0028.jpg
+Legenda: Galerias foliares deixadas pela passagem da larva da mosca minadora da folha. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B366%7Dimg-20160412-wa0036.jpg
+Legenda: Galerias foliares deixadas pela passagem da larva da mosca minadora da folha. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B499%7D20170605_144636.jpg
+Legenda: Galerias foliares deixadas pela passagem da larva da mosca minadora da folha. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B331%7D2015-11-30_15.01.56.jpg
+Legenda: Galerias foliares deixadas pela passagem da larva da mosca minadora da folha. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1950%5D%7B276%7Dimg-20160321-wa0025.jpg
+Legenda: Galerias foliares deixadas pela passagem da larva da mosca minadora da folha. Foto: Rafael G. F. Morales
+
+-- IDENTIFIQUE A PRAGA CORRETAMENTE: --
+Os adultos são moscas de tamanho reduzido, medindo cerca de 2 mm de comprimento, tendo seu corpo de coloração escura, porém apresentam manchas amareladas no tórax e na face superior da cabeça. Suas asas de voo são transparentes. Cada fêmea pode ovipositar de 500 a 700 ovos durante sua vida, a qual podem viver cerca de 26 dias e apresentam o hábito de voo diurno (1).
+
+-- SINTOMAS: --
+As posturas são feitas isoladamente, onde os ovos são depositados endofiticamente, ou seja, no interior das folhas. As galerias deixadas pelas larvas são translúcidas de coloração amareladas, e o sentido de orientação é aleatório, de forma irregular, podendo algumas das vezes haver ramificações (1).
+
+-- HOSPEDEIROS: --
+Além do tomateiro, podem ocorrer em outras culturas tais como a da batata, feijão, berinjela, couve, cucurbitáceas, feijão-vagem, beterraba, fumo, pimentão, girassol, maracujá, couveflor, algodão, quiabo, alface, melão, melancia, etc (1).
+
+-- DANOS: --
+A maior incidência do ataque ocorre nos folíolos do terço mediano da planta. A destruição do limbo foliar afeta diretamente a taxa de fotossíntese da planta, o que traz como prejuízo o estresse fisiológico da planta, o qual reflete principalmente na qualidade dos frutos (1).
+
+-- CONTROLE: --
+Biológico: Os parasitoides de mosca minadora podem ser cenobiontes de larva-pupa, como os braconídeos do gênero Opius, que não paralisam a larva após o parasitismo, permitindo que essa continue seu desenvolvimento e os idiobiontes, representados pelos eulofídeos do gênero Diglyphus, que paralisam a larva após o parasitismo (3). Em condições naturais, a praga é controlada por parasitóides dos gêneros Diglyphus, Chrysocharis e Halticoptera e por predadores de pupas como as formigas. O uso continuado de produtos químicos elimina os predadores naturais, agravando o problema (2). Químico: O controle é feito com o uso adequado de inseticidas, quando forem observadas altas populações de adultos de Liriomyza e danos excessivos causados pelas larvas nas plantas novas. Os piretróides Deltamethrin, Permethrin ou Cypermethrin, ou os produtos Cyromazine (Trigard 750 PM), Abamectin e fosforados com boa ação de penetração têm sido eficientes (2).
+
+-- OBSERVAÇÕES: --
+No Brasil podem ocorrer várias espécies, sendo as mais comuns a Liriomyza huidobrensis, Liriomyza sativa e Liriomyza trifolii (1).
+
+-- Informações Complementares --
+(1) Dirceu Pratissoli e José Romário de Carvalho. GUIA DE CAMPO: Pragas da Cultura do Tomateiro. Guia de Campo: Pragas da Cultura do Tomateiro / Dirceu Pratissoli, José Romário de Carvalho. – Alegre, ES: NUDEMAFI, Centro de Ciências Agrárias, UFES, 2015. 35p. (Série Técnica / NUDEMAFI, ISSN 2359-4179). (2) João Bosco Carvalho da Silva. Cultivo do tomate para industrialização. Embrapa Hortaliças, Sistema de Produção n.3, Versão Eletrônica, Jan/2003. (3) Dr. Jorge Anderson Guimarães. Pesquisador da Embrapa Hortaliças e Coord. da Produção Integrada de Pimentão. Situação do manejo da mosca minadora na cultura do meloeiro. Disponível em: http://promip.agr.br/blog/2016/09/situacao-do-manejo-da-mosca-minadora-na-cultuera-do-meloeiro.

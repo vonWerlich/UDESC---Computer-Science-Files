@@ -1,0 +1,22 @@
+Título: TOMATE - Cultivares - Inox F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0726&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B607%5D%7B322%7Dinox_f1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: TSV Sementes; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Muito alta (antes dos 90 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Tamanho do fruto: Médio (201 a 230 g); Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido do tipo caqui longa vida, planta vigorosa, fruto que pesa de 180 a 220g, ótima firmeza, bom tamanho de fruto até o ponteiro, internós curtos e altíssimo potencial produtivo. Ciclo (nº de dias): 70 a 90 dias (DAT); Hábito de crescimento: Indeterminado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B607%5D%7B12%7D4.jpg
+Legenda: Folder de divulgação do produto.null
+
+-- RESISTÊNCIA: --
+Tolerâncias: V, Fol : 1, 2, N, ToMV e Ss.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br.

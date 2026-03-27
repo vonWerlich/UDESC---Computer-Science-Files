@@ -1,0 +1,29 @@
+Título: TOMATE - Cultivares - Sanni F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0313&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B208%5D%7B178%7Dsanni.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Feltrin; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: ToTV - Tomato torrado virus; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Cultivar: Tomate Sanni. Colheita (Dias): 100 A 115. Hábito De Crescimento: Indeterminado. Peso: 140 A 180 G. Uso: Mercado Fresco.
+
+-- DESTAQUE: --
+Alta Produtividade E Qualidade Dos Frutos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B208%5D%7B62%7Dsanni-4.jpg
+Legenda: DESCRIÇÃO DO CULTIVAR:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B208%5D%7B20%7Dsanni-5.jpg
+Legenda: DESCRIÇÃO DO CULTIVAR:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B208%5D%7B190%7Dsanni-1.jpg
+Legenda: DESCRIÇÃO DO CULTIVAR:null
+
+-- RESISTÊNCIA: --
+Tomv (Tomate Mosaico Vírus); Totv (Tomate Torado Vírus); F (Fusarium Oxysporum); V (Va – Verticillium Albo atrum, Vd – Verticillium Dahliae); N (Ma – Meloidogyne Arenaria, Mi – Meloidogyne Incógnita, Meloidogyne Javanica – Nematode).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sementesfeltrin.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sementesfeltrin.com.br.

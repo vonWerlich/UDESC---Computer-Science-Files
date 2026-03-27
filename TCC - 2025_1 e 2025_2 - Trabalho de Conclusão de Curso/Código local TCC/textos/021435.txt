@@ -1,0 +1,25 @@
+Título: TERMOTERAPIA PARA SUBSTRATOS - Introdução
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021435&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18329%5D%7B380%7Dfigura_1._o_controle_integrado_de_doencas.jpg
+
+-- PATÓGENOS HABITANTES DO SOLO: --
+Os patógenos habitantes do solo ou de substratos, causadores de podridões radiculares ou murchas em plantas, estão entre os principais problemas em sistemas de produção de mudas. Uma vez instalados no ambiente de produção, causam na maioria dos casos a morte das plantas ou as deixam com baixo padrão, inviabilizando para o comércio.
+
+-- ESTRATÉGIAS ALTERNATIVAS: --
+Para estes patógenos há poucos produtos químicos registrados. Por isso é necessário o uso de estratégias alternativas, dentre as quais o método físico com uso do calor, denominado de termoterapia.
+
+-- CONTROLE INTEGRADO: --
+A termoterapia, como estratégia para a desinfestação de substratos, é uma prática eficiente e deve constar no controle integrado de doenças de plantas (Figura 1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18329%5D%7B18%7Dfigura_1._o_controle_integrado_de_doencas.jpg
+Legenda: Figura 1. O controle integrado de doenças. Fonte: Alexandre Visconti (Epagri/EEI)
+
+-- NO QUE CONSISTE A TÉCNICA: --
+Esta prática se baseia no calor emitido por um equipamento, que induz a produção de ar ou vapor quente no solo ou substrato, reduzindo a carga dos patógenos ou esterilizando os mesmos.
+
+-- IMPORTÂNCIA DA TERMOTERAPIA: --
+A termoterapia torna-se muito mais importante à medida que produtores de mudas que formulam seu substrato reutilizam o mesmo material quando ocorre a morte da muda na embalagem sem o conhecimento de sua causa. Nesta situação o substrato contaminado de poucas embalagens será suficiente para infestar um lote inteiro de substrato saudável.
+
+-- Informações Complementares --
+Visconti et al. Unidade de termoterapia a vapor para desinfestação de substratos. Cartilha. Epagri, 2023.

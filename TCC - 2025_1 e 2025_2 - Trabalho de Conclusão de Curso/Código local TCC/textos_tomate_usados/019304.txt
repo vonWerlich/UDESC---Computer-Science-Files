@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Maggino
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019304&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16929%5D%7B70%7Dmaggino.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Rijk Zwaan; Tomate grape amarelo; Alta produtividade; Sabor diferenciado; Planta generativa de alto vigor; Boa pós-colheita; Boa continuidade e uniformidade de ciclo longo; Tipo de planta: Indeterminado; Resistência Alta (HR): ToMV:0-2/Fol:0/For; Cor: Amarelo.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.rijkzwaan.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.rijkzwaan.com.br.

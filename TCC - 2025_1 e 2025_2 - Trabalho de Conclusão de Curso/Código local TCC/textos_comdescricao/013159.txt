@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - 09. Sementes e semeadura de arroz irrigado - Categorias de sementes
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013159&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+09. Sementes e semeadura de arroz irrigado
+Categorias de sementes
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11418%5D%7B92%7D08_categsementes_caput.jpg
+
+-- SEMENTE GENÉTICA DE CULTIVARES EPAGRI: --
+É aquela produzida exclusivamente sob a responsabilidade da Epagri na Estação Experimental de Itajaí. Para a produção de semente genética são utilizadas apenas algumas panículas representativas do cultivar, cujas sementes são utilizadas para produção de mudas. Estas mudas são transplantadas individualmente, muda a muda, a fim de manter a pureza varietal e a identidade de cada cultivar.
+
+-- SEMENTE BÁSICA DE CULTIVARES EPAGRI: --
+Resulta da multiplicação da semente genética, sendo produzida sob responsabilidade da Epagri - Estação Experimental de Itajaí. Esta é a semente fornecida aos produtores de sementes comerciais. Toda a produção de semente básica é obtida por transplante mecânico de mudas, como forma de garantir a pureza varietal e a identidade de cada cultivar.
+
+-- SEMENTE CERTIFICADA: --
+É uma classe de semente comercial resultante da multiplicação da semente genética ou básica, produzida por produtores credenciados sob as normas e padrões estabelecidos pelo MAPA e Epagri/Acapsa. A semente certificada pode ser de 1ª geração (C1) ou certificada de 2ª geração (C2), produzida a partir de C1.
+
+-- Informações Complementares --
+• Gabriela Neves Martins (Dr. em Sementes - Epagri) Produção de sementes
+• Laerte Reis Terres (Dr. em Melhoramento - Epagri) Melhoramento e cultivares
+• Douglas George de Oliveira (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola

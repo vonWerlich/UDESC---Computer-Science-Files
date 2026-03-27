@@ -1,0 +1,43 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Verme-de-sangue (Chironomusspp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021461&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11357%5D%7B354%7Dvsangue_fig12.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11357%5D%7B294%7Dvsangue_fig01.jpg
+Legenda: 01. Pernilongo do gênero Chironomus. Fonte: PBase (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11357%5D%7B29%7Dvsangue_fig13.jpg
+Legenda: 13. Vermes-de-sangue. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11357%5D%7B476%7Dvsangue_fig14.jpg
+Legenda: 14. Vermes-de-sangue entre raízes. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11357%5D%7B129%7Dvsangue_fig21.jpg
+Legenda: 21. Solo de arrozeira infestado por verme-de-sangue. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11357%5D%7B548%7Dvsangue_fig22.jpg
+Legenda: 22. Detalhe do solo de arrozeira infestado. Composição: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11357%5D%7B362%7Dvsangue_fig23.jpg
+Legenda: 23. Tubos de barro produzidos pelas larvas de Chironomus. Fonte: D.S.Eberhardt (remasterizada)
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie(s): Chironomus spp. Ordem: Diptera Família: Chironomidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11357%5D%7B409%7Dvsangue_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+• Os adultos são pernilongos comuns, de pernas compridas e que pousam rente a uma superfície, normalmente folhas, esticando as pernas. • As larvas têm corpo vermiforme, esguio e visivelmente segmentado; são de coloração vermelha intensa (pela presença de hemoglobina na hemolinfa), donde se originaram os nomes "verme-de-sangue" ou "minhoquinha-vermelha".
+
+-- CICLO DE VIDA: --
+A duração dos ciclos de vida é muito variável e depende da espécie e, sobretudo, da temperatura da água e da disponibilidade de alimento. No Brasil, as condições climáticas parecem determinar ciclos de vida curtos, variando de 10 a 20 dias o período de ovo a adulto.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11357%5D%7B319%7Dvsangue_ciclo.jpg
+Legenda: Ciclo de vida genérico do verme-de-sangue, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de setembro a março. Crítico: outubro. Lavoura: da semeadura aos 40 a 50 dias.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11357%5D%7B532%7Dvsangue_fenologia.jpg
+Legenda: Fenologia da ocorrência do verme-de-sangue na lavoura de arroz em Santa Catarina.
+
+-- DANOS: --
+As larvas vivem na água, enterradas nas camadas superficiais do solo lodoso, onde escavam galerias. Alimentam-se de diversas substâncias orgânicas em decomposição, porém ao percorrerem o solo em busca de alimento, podem cortar as radículas das plântulas, raspar a coifa da raiz e, muitas vezes, o ponto de crescimento do epicótilo, comprometendo o processo de germinação das sementes. O revolvimento do lodo pelas larvas também ocasiona o aprofundamento das sementes no solo, dificultando ou mesmo impedindo a germinação.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Executar bom manejo da palha do arroz, incorporando esses resíduos com antecedência, para não fermentarem em solo alagado. • Bom preparo e nivelamento do solo. • Drenar a área por 2 a 5 dias, efetuando isto pouco tempo após a semeadura.
+
+-- Informações Complementares --
+FREITAS, T.F.S.; OLIVEIRA, J.V. "Minhocas" e "Minhoquinhas” da lavoura: uma nova preocupação dos arrozeiros. Lavoura Arrozeira , v.58, n.455, p.23-24, 2010.

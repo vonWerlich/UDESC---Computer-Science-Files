@@ -1,0 +1,31 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares fora da recomendação - Empasc 100
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013210&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11464%5D%7B119%7Dempasc100_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar Empasc 100 foi introduzido na Empasc/EEI em 1976, como linhagem P 69-205, oriunda do cruzamento entre IAC 435 e Taichung 24, realizado no IAC. A linhagem foi avaliada durante quatro anos em ensaios regionais e lançada como cultivar em 1980. É um cultivar do tipo tradicional (porte alto, pouco perfilhamento, folhas longas e decumbentes, grãos longos e espessos), ciclo médio, com boa qualidade de grãos, e foi cultivada no Estado durante pouco tempo (aproximadamente 1981/82).
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: 4,15t/ha • Altura da planta: 111cm • Ciclo: Médio (135 dias) • Acamamento: Médio-Resistente • Reação à toxidez por ferro: Suscetível • Reação à brusone: Suscetível • Reação a baixas temperaturas (13°C): Suscetível
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 2 • Classe: Longo
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: 26cm • Largura: 1,6cm • Pubescência: Glabra (ausente) • Ângulo das folhas: Intermediário • Ângulo da folha bandeira: Horizontal (entre 61 e 90°) • Cor da bainha: Verde • Cor da lígula: Branca a verde • Cor da aurícula: Incolor a verde • Cor do colo: Verde-clara
+
+-- COLMO: --
+• Comprimento: 86cm • Espessura: 0,6cm • Perfilhamento: Pobre • Ângulo dos perfilhos: Intermediário (entre 30 e 60°) • Cor do internó: Verde
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Intermediário (21,3cm) • Exserção: Completa • Degrane: Difícil • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Verde • Cor do apículo na maturação: Púrpura • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,8mm • Espessura: 2mm • Largura: 2,5mm • Relação C/L: 3,12 • Forma do grão: Alongado • Peso de mil grãos: 33,3g • Pilosidade: Liso
+
+-- Informações Complementares --
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).

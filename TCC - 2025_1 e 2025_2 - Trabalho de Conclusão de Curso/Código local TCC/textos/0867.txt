@@ -1,0 +1,40 @@
+Título: TOMATE - Nutrição Mineral - Cálcio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0867&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B747%5D%7B527%7D2015-12-28_15.42.16.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B747%5D%7B461%7D106.jpg
+Legenda: Sintomas típicos da deficiência de cálcio. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B747%5D%7B168%7D2016-01-06_09.38.59.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B747%5D%7B8%7Dimg-20160412-wa0008.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B747%5D%7B54%7Dimg-20160415-wa0013.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B747%5D%7B143%7Dzap_grupo_morango_1.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B747%5D%7B155%7Dzap_grupo_morango_2.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B747%5D%7B385%7Dzap_grupo_morango_3.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B747%5D%7B93%7Dzap_grupo_morango_4.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B747%5D%7B157%7D2015-12-28_15.42.16.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B747%5D%7B449%7Dimg-20160415-wa0014.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+
+-- INFORMAÇÕES GERAIS: --
+A forma iônica Ca2+ é absorvida pelas raízes das plantas, no entanto, altas concentrações de K+, Mg2+ e N-NH4+ no meio de cultivo podem reduzir a absorção de cálcio (3). O cálcio é componente dos pectatos, constituintes da parede celular. Além da função estrutural, o Ca também é um regulador enzimático (2). A germinação do grão de pólen e o crescimento do tubo polínico são afetados pela deficiência de Ca. É um elemento imóvel via floema, portanto não há redistribuição na planta. O cálcio é um nutriente muito importante para a produção e a qualidade dos frutos de tomate (4).
+
+-- COMO IDENTIFICAR: --
+A deficiência de Ca no tomateiro é identificada principalmente pela Podridão Apical ou estilar dos frutos, ou seja, os frutos apresentam uma mancha preta, deprimida, coriácea, seca e firme no ápice. Esses sintomas aparecem quando a deficiência nutricional está no fruto podendo a parte aérea apresentar altos teores de Ca, portanto, nesses casos não é possível fazer a avalição do estado nutricional para predizer a ocorrência de prodridão apical (4). Quando os sintomas são agudos, podem ocorrer necrose das pontas e margens dos folíolos. As faces inferiores das folhas apresentam coloração arroxeada e os folíolos, pequenos e deformados. As raízes ficam pouco desenvolvidas e com coloração amarronzada.
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Baixa quantidade do nutriente no solo e/ou relação inadequada com os demais nutrientes catiônicos, principalmente potássio e magnésio, devido ao excesso desses nutrientes na solução do solo. A ocorrência de frutos com podridão apical geralmente é associada a deficiência de Ca e excesso de K ou NH4 (5). - Os sintomas podem estar relacionados a falta de água no solo, ou até mesmo a variação nessa disponibilidade de água. A baixa umidade relativa do ar associada a altas temperaturas e vento elevam a taxa de transpiraçao e consequentemente favorece a alocação de Ca para a folhas e o aparecimento da podridão apical (4). - Existem cultivares mais sensíveis e outras mais tolerantes a esse estresse fisiológico (1). - Elevada salinidade no meio radicular (4).
+
+-- CONTROLE: --
+- Correção do solo em pré-plantio com adubos ricos em cálcio. - Controle da irrigação e da umidade do solo. - Uso de cultivares mais tolerantes. - Pulverizações foliares com Ca semanalmente a partir do pleno florescimento até que os frutos atinjam 70 % do seu tamanho final (4). Contudo, vale ressaltar que esse tema é controverso. Em pesquisas realizadas no estado de Santa Catarina não foi observada a redução da ocorrência desse distúrbio em função da aplicações foliares de Ca (6)(Trabalho em anexo).
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) MALAVOLTA, E. Manual de nutrição mineral de plantas. 1. ed. São Paulo: Editora Agronômica Ceres, 2006. (3) LIMA, E. et al. Cálcio e magnésio. In: FERNANDES, M. S.; SOUZA, S. R. DE; SANTOS, L. A. (Ed.). Nutrição mineral de plantas. 2. ed. Viçosa: Sociedade Brasileira de Ciência do Solo, 2018. p. 465–490. (4) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474. (5) TAKAHASHI, H.W.; ANDRADE, B.L.G. Diagnose foliar na cultura do tomate. In: PRADO, R. M.; CECÍLIO FILHO, A. B.; CORREIA, M. A. R.; PUGA, A. P. (Ed.). Nutrição de plantas: diagnose foliar em hortaliças. 1. ed. Jaboticabal: FCAV/CAPES/FAPESP/FUNDUNESP, 2010. p. 313–342. (6) Leandro Hahn et al. Aplicação de formulações de cálcio e boro na cultura do tomateiro tutorado. Agropecuária Catarinense, Florianópolis, v.30, n.3, p.61-66, set./dez. 2017.

@@ -1,0 +1,6 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas - As folhas estão comidas ou raspadas - O limbo foliar está inteiro, apesar de haver porções raspadas - A raspagem na folha é retilínea e restrita aos espaços internervais - A raspagem é fina entre duas nervuras apenas - A raspagem é esbranquiçada, sem rompimento do limbo foliar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021544&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17022%5D%7B299%7Dpl17_raspabranca.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21544%5D%7B130%7Dplt_bicheiraraspa.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21544%5D%7B212%7Dplt_acaro.jpg

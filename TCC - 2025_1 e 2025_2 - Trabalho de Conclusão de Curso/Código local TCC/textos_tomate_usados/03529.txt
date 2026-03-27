@@ -1,0 +1,17 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - M) PROCEDIMENTOS DE COLHEITA, BENEFICIAMENTO, CLASSIFICAÇÃO E ROTULAGEM - c) Embalagem
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03529&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B3270%5D%7B392%7Dcapa_1.jpg
+
+-- Regulamentação: --
+A embalagem é o instrumento de proteção, movimentação e exposição do produto. A instrução normativa conjunta SARC/ANVISA/INMETRO no 009, de 12 de novembro de 2002, estabelece as exigências para as embalagens de frutas e hortaliças frescas.
+
+-- Embalagens descartáveis ou retornáveis: --
+As embalagens podem ser descartáveis ou retornáveis. Se retornáveis, devem ser higienizadas a cada uso; se descartáveis, devem ser recicladas ou incineradas adequadamente.
+
+-- Dimensão da embalagem: --
+As embalagens devem apresentar medidas “paletizáveis”, o seu comprimento e a sua largura devem ser submúltiplos de 1m por 1,2m, a medida do palete padrão brasileiro (PBR).
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

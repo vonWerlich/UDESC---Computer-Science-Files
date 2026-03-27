@@ -1,0 +1,22 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - H) MANEJO DAS PRINCIPAIS DOENÇAS BACTERIANAS - c) Cancro-bacteriano
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02947&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2708%5D%7B254%7Dfigura_22.jpg
+
+-- Cancro-bacteriano (Clavibacter michiganensis subsp. michiganensis; sin: Corynebacterium michiganensis subsp. michiganensis): --
+O cancro-bacteriano é uma doença bastante comum, encontrada no tomateiro estaqueado no sul do Brasil e que ocorre em reboleiras. Ela é dependente de temperaturas amenas (abaixo de 24°C) e alta umidade. Tem sua disseminação dentro da lavoura por respingos da chuva e pelos tratos culturais durante a operação de amarração e desbrota.
+
+-- A infecção e multiplicação: --
+A infecção pode ocorrer em qualquer estádio de desenvolvimento do tomateiro, atacando qualquer órgão da planta através de ferimentos provocados por equipamentos ou granizo, ou através dos estômatos e hidatódios. As bactérias vivem e se multiplicam exclusivamente nos tecidos condutores, o que impede a circulação da seiva.
+
+-- Ataque sistêmico: --
+Os tomateiros que sofrem colonização sistêmica têm seu sintoma, no sistema vascular, favorecido pela operação de desbrota e de amarrio. As plantas apresentam murcha total ou unilateral das folhas mais velhas, queima dos bordos dos folíolos e descoloração vascular. Isso pode ser observado pelo corte ou quebra do pecíolo de folhas mais velhas na sua junção com o caule, no qual o córtex tende a liberar com facilidade. É comum ocorrer intensa queda de frutos, os quais podem apresentar escurecimento vascular no pedúnculo devido à colonização do caule para o pecíolo e as sementes.
+
+-- Colonização localizada: --
+Na colonização localizada, comum em épocas chuvosas, formam-se pequenas lesões no pedúnculo, frutos e nas folhas, caracterizadas pela queima das bordas dos folíolos, de cor de palha (Figura 22). Nos frutos verdes essas lesões são inicialmente esbranquiçadas, com o centro mais escuro, adquirindo um aspecto de “olho de perdiz” ou “olho de passarinho” (Figura 22), que variam de 1 a 3mm de diâmetro. Quando em grande número, as manchas podem ficar deformadas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2708%5D%7B127%7Dfigura_22.jpg
+Legenda: Sintoma do cancro-bacteriano do tomateiro: (A) nas folhas e (B) no fruto Fotos: Acervo Embrapa Hortaliças). Foto: Walter Ferreira Becker
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

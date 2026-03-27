@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Fungicidas registrados para o controle de doenças na cultura do arroz - Priori Top
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017177&isEdicao=N&epagriTEC=S
+
+
+-- INFORMAÇÕES GERAIS: --
+Nome comercial: Priori Top; Ingrediente ativo: azoxistrobina + difenoconazol; Formulação: SC (suspensão concentrada); Dose (p.c./ha): 500 a 600 mL; Carência: 45 dias; Classificação toxicológica: 5 = improvável de causar dano agudo (faixa azul); Classificação ambiental: II = muito perigoso.
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+As recomendações estão de acordo com os registros obtidos do AGROFIT, acessado em 14/05/2020 (www.agricultura.gov.br), onde se encontra a listagem completa dos fungicidas registrados para a cultura do arroz. Carência = Tempo entre a última aplicação do produto e a colheita.
+
+-- RECOMENDAÇÕES DE CONTROLE DE DOENÇAS NO ARROZ: --
+- Brusone (Pyricularia oryzae)
+
+-- Informações Complementares --

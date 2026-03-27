@@ -1,0 +1,6 @@
+Título: CEBOLA - DIAGNOSE VISUAL - Folhas - Deformação
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016699&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B76%7D%5B12706%5D%7B296%7Dfigura_19a.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16699%5D%7B408%7D%5B12706%5D%7B296%7Dfigura_19a.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16699%5D%7B450%7D%5B12700%5D%7B310%7Dfigura_13.jpg

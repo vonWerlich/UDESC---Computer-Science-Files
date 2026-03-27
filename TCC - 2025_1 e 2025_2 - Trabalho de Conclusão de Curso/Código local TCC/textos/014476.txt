@@ -1,0 +1,10 @@
+Título: CEBOLA - Escolha do cultivar - Aurora
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014476&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12563%5D%7B363%7Daurora.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Embrapa, Feltrin Polinização: Polinização aberta Ciclo maturação/dias: Precoce/150-170 Formato do bulbo: Globular alongado Cor da película do bulbo: Amarela Cor da polpa do bulbo: Branca Região/Época de plantio: Sul e Sudeste: Março a Junho
+
+-- Informações Complementares --
+Informações coletadas e organizadas pelo autor

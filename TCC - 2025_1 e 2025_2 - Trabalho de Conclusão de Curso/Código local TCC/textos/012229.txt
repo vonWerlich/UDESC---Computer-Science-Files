@@ -1,0 +1,25 @@
+Título: 1) TIPOS DE ABRIGOS DE CULTIVO - 2) Abrigos de cultivo híbridos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012229&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6686%5D%7B133%7Dimg_4669.jpg
+
+-- HÍBRIDO (Madeira; Concreto; Aço Galvanizado): --
+Um tipo de abrigo que está ficando cada vez mais popular é um híbrido entre os antigos de madeira e os novos metálicos. Isto porque os produtores têm optado por fazer os esteios de concreto ou com tora de eucalipto tratada, com arcos metálicos do tipo simples. Esses arcos são fixados na madeira ou no concreto, por meio de um parafuso central de 20mm de espessura e que fica 10cm para fora do esteio. Esses abrigos possuem normalmente 6m de largura e apenas um travamento central dos arcos na cobertura. A popularização desse tipo de estrutura está relacionada com o baixo custo da instalação. Contudo, para o cultivo de culturas tutoradas, como é o caso do tomateiro, a limitação em construir estruturas altas inviabiliza o seu uso.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6686%5D%7B38%7Dimg_4212.jpg
+Legenda: Abrigo de cultivo feito com pé direito de concreto e arcos em aço galvanizado a fogo. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6686%5D%7B257%7D68.jpg
+Legenda: Colocação do plástico em abrigo de cultivo feito com pé direito de concreto e arcos em aço galvanizado a fogo. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6686%5D%7B271%7Dimg_20170316_152914387_hdr.jpg
+Legenda: Modelo de abrigo de cultivo feito com pé direito de madeira e arco metálico. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6686%5D%7B177%7Dimg-20190126-wa0015.jpg
+Legenda: Modelo de abrigo de cultivo geminado feito com pé direito de madeira e arco em aço galvanizado. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6686%5D%7B55%7Dimg_4669.jpg
+Legenda: Visão detalhada da amarração lateral do metal no concreto após a colocação do plástico, formando um beirado lateral para proteção da água da chuva. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6686%5D%7B483%7Dimg_4655.jpg
+Legenda: Visão detalhada da amarração lateral do metal no concreto, formando um beirado lateral para proteção da água da chuva. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6686%5D%7B171%7Dimg_4357.jpg
+Legenda: Visão superior da estrutura híbrida finalizada. Foto: Rafael G. F. Morales
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

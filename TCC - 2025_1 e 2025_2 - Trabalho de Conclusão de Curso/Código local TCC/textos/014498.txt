@@ -1,0 +1,10 @@
+Título: CEBOLA - Escolha do cultivar - Boreal
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014498&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12571%5D%7B202%7Dboreal.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Hortec Polinização: Polinização aberta Ciclo maturação/dias: Super precoce/130-140 Formato do bulbo: Globular; Globular arredondado Cor da película do bulbo: Amarela Cor da polpa do bulbo: Branca Região/Época de plantio: Sul: Abril a Junho Sudeste: Março a Junho Nordeste: Abril a Agosto
+
+-- Informações Complementares --
+Informações coletadas e organizadas pelo autor

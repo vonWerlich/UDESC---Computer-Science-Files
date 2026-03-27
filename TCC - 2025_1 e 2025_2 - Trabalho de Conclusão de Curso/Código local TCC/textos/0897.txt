@@ -1,0 +1,22 @@
+Título: TOMATE - Cultivares - Shanty F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0897&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B779%5D%7B152%7Dshanty_1.jpeg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Hazera Brasil; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Resistência a bactérias e nematoides: Pst - Pseudomonas syringae pv. tomato; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Sl - Stemphylium lycopersici; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B779%5D%7B246%7Dshanty.jpg
+Legenda: -Fonte: Site da empresa
+
+-- INFORMAÇÕES DA EMPRESA: --
+Variedade com extraordinária produtividade e precoce inclusive em altas temperaturas. Fruto vermelho intenso, muito firme e com excelente sabor. Apresenta vida longa pós-colheita. Formato do Fruto: Oval Peso Médio (gr): 140-170 Sistema de Produção: Campo aberto, rasteiro ou meia estaca, plantio o ano todo Resistência: HR: Vd, Fol (1 e2), Pst IR: TSWV, Sl, TYLCV
+
+-- RESISTÊNCIA: --
+HR: Vd, Fol (1 e2), Pst IR: TSWV, Sl, TYLCV
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.hazera.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.hazera.com.br.

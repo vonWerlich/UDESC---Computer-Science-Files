@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 04. Sistemas de cultivo - Escolha do sistema de cultivo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013187&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+04. Sistemas de cultivo
+Escolha do sistema de cultivo
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11443%5D%7B294%7D04_selsistema_caput.jpg
+FOTO: D.S.Eberhardt (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+Sistemas de cultivos são conjuntos de informações técnicas que definem a forma de implantação e condução das lavouras, a ordem e descrição das atividades e as práticas visando à produção de arroz. A partir do sistema escolhido, define-se o padrão e requerimentos tecnológicos necessários para a sua condução. Em Santa Catarina são predominantemente utilizados o sistema pré-germinado, que ocupa cerca de 80% da área cultivada, e os sistemas com semeadura em solo seco, que ocupam cerca de 20% da área. As principais diferenças entre os dois sistemas se dão na forma de preparo do solo e de semeadura ( figura abaixo ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11443%5D%7B349%7D04.sistemascult_01.jpg
+
+-- ESCOLHA DO SISTEMA DE CULTIVO: --
+Para escolher o sistema de cultivo, o produtor deve considerar os maiores desafios a serem superados nas suas lavouras, com destaque para: • Disponibilidade de água (volume disponível e nível de conflitos pelo uso). • Espécies predominantes e intensidade de infestação de plantas daninhas, doenças e pragas. • Adaptabilidade dos cultivares de arroz disponíveis. • Capacidade operacional da propriedade (disponibilidade de mão-de-obra, máquinas e implementos).
+
+-- Informações Complementares --
+• Douglas George de Oliveira (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola

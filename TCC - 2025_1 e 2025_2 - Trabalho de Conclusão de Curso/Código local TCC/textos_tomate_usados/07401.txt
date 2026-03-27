@@ -1,0 +1,20 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - f) Manejo da irrigação - 3) Consumo de água pelo tomateiro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07401&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6679%5D%7B46%7Dcapa_tomatorg.jpg
+
+-- ESTÁDIO INICIAL: --
+O estádio inicial do tomateiro compreende o período pós-transplantio até o pegamento e o desenvolvimento inicial das mudas (10 a 12 dias após o transplante). O transplante de mudas deve ser feito em solo úmido, seguido de irrigação. Recomenda-se transplantar as mudas no final da tarde, ou em dias nublados, para reduzir o estresse inicial do plantio. Para esse estádio, as irrigações devem ser leves e frequentes, procurando manter a umidade próxima à capacidade de campo.
+
+-- ESTÁDIO VEGETATIVO: --
+O estádio vegetativo, que vai do estabelecimento das mudas até o início da frutificação, é a fase em que a planta mais tolera o déficit de água no solo. Submeter as plantas a condições de deficiência hídrica moderada, no início do estádio vegetativo, é uma estratégia de manejo que favorece o aprofundamento das raízes do tomateiro, permitindo maior eficiência futura na absorção de água e de nutrientes pelas raízes. Quando aplicada durante todo o estádio vegetativo, tal estratégia minimiza a ocorrência de algumas doenças causadas por patógenos de solo (MAROUELLI et al., 2014).
+
+-- FRUTIFICAÇÃO: --
+Ao contrário do estádio vegetativo, a frutificação é o estádio que exige maiores cuidados quanto ao fornecimento de água. Ainda que moderada, a ocorrência de déficit hídrico reduz o tamanho dos frutos, ocasiona a deficiência de cálcio (fundo preto) e compromete a produtividade. Por outro lado, o excesso hídrico favorece a ocorrência de doenças, principalmente aquelas vinculadas ao solo. Assim, o manejo da irrigação durante a frutificação exige muita atenção por parte dos produtores, sendo uma fase decisiva para o sucesso da lavoura.
+
+-- MATURAÇÃO DOS FRUTOS: --
+No último estádio de desenvolvimento da cultura, que é a maturação dos frutos, compreendido entre a frutificação até a última colheita, ocorre uma redução no uso de água pelas plantas, que pode chegar a 50% em relação ao estádio de frutificação. Assim, nesta fase, recomenda-se fazer um turno de rega mais espaçado do que aquele adotado durante a frutificação.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

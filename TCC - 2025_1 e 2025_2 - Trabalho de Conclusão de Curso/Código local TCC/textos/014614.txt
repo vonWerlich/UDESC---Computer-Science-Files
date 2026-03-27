@@ -1,0 +1,30 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Enxofre (S)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014614&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12703%5D%7B60%7Dfigura_16a.jpg
+
+-- IMPORTÂNCIA DO NUTRIENTE: --
+O enxofre é constituinte importante de alguns aminoácidos, como a cistina, metionina, cisteína e triptofano, constituinte de todas as proteínas vegetais e precursor de compostos sulfurados voláteis responsáveis pelo aroma característico da cebola (TRANI et al., 2014). Este nutriente também tem funções em reações enzimáticas, como na fotossíntese e na fixação biológica de nitrogênio pelas plantas leguminosas (MALAVOLTA, 2006).
+
+-- SINTOMAS DE DEFICIÊNCIA: --
+Os sintomas nas plantas se caracterizam pelo amarelecimento das folhas mais novas que se tornam finas e tortas pela redução drástica no crescimento da parte aérea e radicular e pela bulbificação precoce, podendo levar à morte das plantas afetadas após alguns dias (Figura 16).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12703%5D%7B504%7Dfigura_16.jpg
+Legenda: Figura 16. Na primeira foto à esquerda, vaso com plantas apresentando nutrição adequada de S; à direita, vaso com plantas apresentando deficiência de S, com clorose das folhas mais novas. Na segunda foto, visão de plantas em lavoura com deficiência de enxofre e progressão dos sintomas da esquerda para a direita. null
+
+-- RECOMENDAÇÃO DE ENXOFRE PARA CEBOLA: --
+Com base nos trabalhos de pesquisa realizados pela Epagri em parceria com a UFPR, recomenda-se a reposição desse elemento quando os teores no solo forem inferiores a 20mg dm-3 para os solos Cambissolos e menores de 10mg dm-3 para Nitossolos. Com base nessas pesquisas, recomenda-se nos Cambissolos a dose de 60kg ha-1 de S quando os teores do nutriente no solo forem inferiores a 15mg dm-3 e a adição de 30kg ha-1 de S quando os teores estiverem na faixa 15 a 20mg dm-3. De modo geral, as doses recomendadas para as diversas regiões e culturas ficam em média entre 30 e 60kg ha-1, sendo a maior dose em solos arenosos ou pobres em matéria orgânica.
+
+-- ADUBAÇÃO COM ENXOFRE = Disponibilidade x Custos --
+O produtor deve planejar a adubação com S em função da disponibilidade das fontes citadas e dos custos de aquisição dos produtos no mercado regional. Os custos da adubação com o S normalmente são menores em relação ao NPK, pois é menor a quantidade exigida pelas plantas e pelo fato de ser um nutriente acompanhante de outros nutrientes usados na adubação.
+
+-- CORREÇÃO DA DEFICIÊNCIA QUANDO DIAGNOSTICADA NO CAMPO: --
+Para corrigir a deficiência de enxofre quando diagnosticada na fase de lavoura, recomenda-se fazer a reposição do nutriente via solo (a lanço) com fórmulas de adubos solúveis como o sulfato de amônio (22% S e 20% N), fórmula facilmente encontrada no mercado e que apresenta alta concentração do elemento. Também podem ser usadas outras fontes como o gesso agrícola (sulfato de cálcio) (~ 16% S; ~ 20% Ca), sulfato de potássio (15% S e 50 % K2O), sulfato de magnésio (11% S; 10% Mg), bem como outras formulações comerciais contendo o enxofre na forma de sulfato.
+
+-- FONTES DE ENXOFRE PARA ADUBAÇÃO: --
+A reposição do nutriente também pode ser realizada por ocasião do plantio ou semeadura usando formulações de adubos mistas que contenham NPK + S ou formulações simples como superfosfato simples (13% S e 18% P2O5), enxofre elementar (95 - 100% S), gesso agrícola, entre outras. O gesso agrícola normalmente tem custo baixo por ser um resíduo industrial da fabricação de adubos fosfatados. A adubação foliar com o enxofre, embora possa auxiliar na recuperação das plantas deficientes, não é eficaz na correção da carência por ser um nutriente exigido em quantidades relativamente altas. Resultados de pesquisas indicam que a exportação de S através da colheita da cebola fica ao redor de 30kg ha-1 (PÔRTO et al., 2007; MAY et al., 2008).
+
+-- ENXOFRE ELEMENTAR COMO FONTE DE ENXOFRE: --
+Ainda em relação às fontes de enxofre, é importante destacar que o enxofre elementar precisa ser transformado por microrganismos presentes no solo (Thiobacillus sp.) em sulfato (SO42-) para ser absorvido pelas plantas. Esse processo promove reações de acidificação do solo e necessita de aproximadamente 50 dias para máxima disponibilidade de sulfato na solução do solo (SOUZA, 2013). Portanto, essa fonte não é adequada quando há sintomas de deficiência em lavouras e necessita-se da disponibilidade imediata de S na forma de sulfato.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - M) PROCEDIMENTOS DE COLHEITA, BENEFICIAMENTO, CLASSIFICAÇÃO E ROTULAGEM - d) Rotulagem
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03531&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B3272%5D%7B45%7Dcapa_1.jpg
+
+-- Informações que devem constar no rótulo: --
+Na rotulagem deve-se obedecer à regulamentação do Mapa. Rotulagem significa identidade do produto e identificação do produtor. O rótulo identifica o responsável pelo produto e a sua origem. Descreve o produto, utilizando as características estabelecidas pela norma de classificação. • Nome do cultivar da fruta ou hortaliça; • Nome do produtor; • Endereço – Bairro – Município – Estado – CEP; • Grupo de formato; • Grupo de coloração; • Grupo de durabilidade; • Subgrupo; • Apresentação; • Classe; • Categoria; • Data de embalagem; • Peso líquido; • Código EAN (opcional). O código de barras é opcional, mas é fundamental para a obtenção dos dados do rótulo nos processos automatizados.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

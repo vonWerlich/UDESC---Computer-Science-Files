@@ -1,0 +1,19 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Qualidade de água - Amônia
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010060&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9156%5D%7B416%7Damonia.png
+
+-- IMPORTÂNCIA: --
+A amônia é proveniente da excreção dos peixes após metabolização das proteínas e devido à decomposição de matéria orgânica presente no solo (resto de ração, fezes, adubo orgânico). Ela está presente na água sob duas formas: íon amônio ou amônia ionizada (NH 4 + ), e amônia ou amônia não ionizada (NH 3 ).
+
+-- TOXICIDADE: --
+A forma tóxica da amônia é somente a amônia não ionizada (NH 3 ). Os kits de análise de água apresentam o resultado em nitrogênio amoniacal total (amônia ionizada + amônia não ionizada). Contudo, é necessário conhecer o valor de amônia não ionizada. A toxicidade de amônia vai alterar de acordo com a espécie e a fase (idade) do peixe. Porém, de modo geral recomenda-se que a amônia não ionizada permaneça na água dos viveiros escavados em valores abaixo 0,1mg N NH 3 por litro. Acima desse valor, o peixe não aproveitará bem o alimento ingerido, aumentando muito a conversão alimentar, sendo indicado a diminuição temporária da alimentação.
+
+-- CARTILHA: --
+A Epagri lançou uma cartilha de qualidade de água para tilápia com os seguintes parâmetros de toxicidade de amônia específico para esta espécie (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9156%5D%7B271%7Damonia.png
+Legenda: Concentração do nitrogênio amoniacal tóxico (mg N-NH3 L-1) e níveis de risco para tilápia-do-nilo em relação ao pH e concentração de amônia total a 28ºC. Bruno Corrêa da Silva, Haluko Massago e Silvano Garcia.
+
+-- Informações Complementares --
+(1) MARCHIORI, N. C.;MASSAGO, H.;SILVA, B. C. O que fazer quando são observados parâmetros inadequados de qualidade de água em viveiros de tilápia?. Florianópolis: Epagri, 2021. 2 p. SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

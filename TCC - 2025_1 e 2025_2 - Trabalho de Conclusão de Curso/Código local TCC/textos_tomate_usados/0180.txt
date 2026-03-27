@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - SM16 F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0180&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B84%5D%7B240%7Dsm16.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Seminis; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a bactérias e nematoides: Pst - Pseudomonas syringae pv. tomato; Resistência a fungos: Aal - Alternaria alternata f. sp. lycopersici; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Tamanho do fruto: Muito Pequeno (menor que 170 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Plantas vigorosas, com excelente pegamento de frutos. Frutos tipo pera e firmes. Alta produtividade. Ideal para mercado fresco.
+
+-- DESCRIÇÃO DO PRODUTO: --
+Peso médio do fruto: 140 a 160 g. Tipo do fruto: Saladete. Tipo da planta: Determinada. Ciclo médio: 105 a 115 dias.
+
+-- RESISTÊNCIA: --
+HR – Aal, Fol:1,2, Sbl/Sl/Ss e Va:1/Vd:1 / IR - Pst:0 e Ma/Mi/Mj.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.seminis.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.seminis.com.br.

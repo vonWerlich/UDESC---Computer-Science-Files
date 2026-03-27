@@ -1,0 +1,77 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Murcha de verticílio (Verticillium dahliae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04931&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1268%5D%7B286%7D414.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B168%7D410.jpg
+Legenda: a) Amarelecimento unilateral do limbo - estádio 1. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B143%7D411.jpg
+Legenda: b) Amarelecimento unilateral do limbo - estádio 2. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B90%7D412.jpg
+Legenda: c) Amarelecimento unilateral do limbo - estádio 3. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B542%7D413.jpg
+Legenda: d) Amarelecimento unilateral do limbo - estádio 4. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B418%7D414.jpg
+Legenda: e) Amarelecimento unilateral do limbo - estádio 5. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B198%7D3.jpg
+Legenda: Escurecimento vascular causado por Verticillium dahliae em tomate. Fonte: Reis & Boiteux (2006).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B298%7D419.jpg
+Legenda: Este caule, em seção transversal, mostra áreas bronzeadas relacionadas à presença de Verticillium dahliae. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B436%7D415.jpg
+Legenda: Estes dois folíolos num lado de uma folha são afetados pela murcha de verticillium. O amarelecimento invertido em forma de V e o secamento foliar ficam visíveis. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B61%7D421.jpg
+Legenda: Os vasos do caule da haste superior são mais ou menos marrom-claros e contrastam com os sadios da haste de baixo. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B272%7D1.jpg
+Legenda: Sintoma da murcha-de-verticillium em plantas de tomate estaqueado, causado por Verticillium dahliae. Fonte: Reis & Boiteux (2006).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B435%7D2.jpg
+Legenda: Sintoma de necrose, em forma de V. Fonte: Reis & Boiteux (2006).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B115%7Dscreenshot_20200330-123617_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura (3).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B419%7Dscreenshot_20200330-123612_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura (3).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B425%7Dscreenshot_20200330-123615_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura (3).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B351%7D420.jpg
+Legenda: Uma seção longitudinal do caule revela vasos acinzentados a levemente marrons. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B69%7D418.jpg
+Legenda: Uma seção transversal do caule mostra que algumas partes dos vasos são acinzentadas a levemente amarronzadas, mostrando o início de uma infecção por verticilium. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B318%7D417.jpg
+Legenda: Vários folíolos desta folha têm as mesmas lesões necróticas em forma de V com uma margem clorótica. Fonte: D. Blancard (INRA)
+
+-- INFORMAÇÕES PARA O ESPECIALISTA: --
+O fungo apresenta, em meio de cultura, hifa inicialmente hialina, septada e ramificada e conidióforos com ramificações verticiladas em cujas extremidades são produzidos conídios unicelulares, hialinos e ovóides. A medida que a cultura envelhece, formam-se clamidósporos em grande número que aglutinam-se, constituindo microescleródios de cor preta. A formação de microescleródios é favorecida por temperaturas na faixa de 10 a 20°C.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B152%7D426.jpg
+Legenda: Aparecimento de micélio e conídios de Verticillium dahliae. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B133%7D425.jpg
+Legenda: Close de alguns conidióforos de Verticillium dahliae no final dos quais ainda estão presentes conídios elipsoides deste fungo. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B288%7D427.jpg
+Legenda: Colônias jovens de Verticillium dahliae crescendo em meio nutriente em placa de Petri a partir de seções de vasos de caule de tomateiro. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B457%7D424.jpg
+Legenda: Conidióforos de Verticillium dahliae. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B437%7D423.jpg
+Legenda: Detalhe sob um microscópio de luz de microsclerocio formado por Verticillium dahliae. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B475%7D422.jpg
+Legenda: Verticillium dahliae produz microescleródios negros (70-200 uM) globular ou alongado, que a distingue particularmente de Verticillium albo-atrum , que produz apenas o micélio. Fonte: D. Blancard (INRA)
+
+-- INFORMAÇÕES GERAIS: --
+- A murcha de Verticillium ocorre em todas as regiões onde se cultiva o tomateiro. A severidade dos sintomas e a redução na produtividade variam muito com o local e época do ano. - Além disso, o fungo pode sobreviver no solo em forma de microescleródios por vários anos. Desta forma, o patógeno pode estar presente com frequência e ocasionar prejuízos, principalmente em locais onde já tenham sido plantadas solanáceas, malváceas, fabáceas e plantas de outras famílias. - Dispersão: Sementes (mudas), água de irrigação, máquinas e implementos (4).
+
+-- SINTOMAS: --
+Os sintomas da doença podem variar com as variedades, estado nutricional, temperatura e umidade do ar e solo. Os sintomas típicos da doença são manchas sempre localizadas no ápice ou lateralmente aos folíolos, com o contorno externo em forma de V e vértice voltado para a nervura principal. As áreas amareladas tendem a necrosar num estádio mais avançado da doença e, em condições mais úmidas, o processo é acelerado pelo ataque de outros organismos como Alternaria . O progresso da área amarelada nos folíolos e o avanço às folhas mais novas dependem de alguns fatores, sendo o mais importante o nível de resistência de variedades ou híbridos. Em variedades altamente suscetíveis, o progresso da doença é rápido, podendo levar as plantas à murcha e morte. Em geral, no entanto, as plantas não morrem, mas apresentam menor desenvolvimento e redução no tamanho dos frutos. Embora seja uma doença vascular, não é comum ocorrer alteração da cor do sistema vascular do caule e dos pecíolos de folhas com sintomas da doença. Um exame mais acurado do sistema vascular da região próxima ao colo ou mesmo do pecíolo, porém, pode revelar descoloração que varia de leve escurecimento de cor pardo-clara até pardo-escura. IMPORTANTE: A medula nunca é afetada diretamente pelo fungo. . Mesmo sem sintoma visível no sistema vascular, o fungo pode ser facilmente isolado em meio de cultura, tanto do caule como dos pecíolos de folhas que apresentam sintomas externos. Esta doença é facilmente diferenciada da murcha de Fusarium , pois o fusarium provoca amarelecimento “gema de ovo” dos folíolos e não em forma de V, além de causar descoloração bem visível no sistema vascular.
+
+-- PLANTAS HOSPEDEIRAS: --
+Verticillium dahliae é um patógeno polífago que parasita cerca de 200 espécies de plantas, tanto cultivadas como silvestres. São exemplos de espécies atacadas pelo fungo: solanáceas, como berinjela, jiló, e espécies cultivadas como algodão, morango, girassol, mamona, etc. Também ataca as plantas invasoras, como botão de ouro , mentrasto , guanxuma , cordão de frade , agrião do brejo (4).
+
+-- ETIOLOGIA: --
+Na literatura, são citadas as espécies V albo-atrum e V. dahliae. Há muita controvérsia sobre a identificação de cada espécie, pois, durante muitos anos, V. dahliae foi classificado como uma linhagem de V. albo-atrum que forma microescleródios. Embora muitos pesquisadores adotem V albo-atrum como agente causal da murcha de Verticillium, a tendência é usar V. dahliae por prevalecer em diversas partes do mundo. A doença é mais importante em condições de temperatura de 22 a 25°C, em alta umidade do solo e em solos levemente ácidos a neutros. Os danos causados à cultura dependem da uniformidade de distribuição do fungo no solo e da concentração de inóculo. O ótimo de umidade para a planta favorece também o progresso da doença, pois o fungo penetra pelas raízes. Após a penetração, o fungo coloniza os vasos lenhosos de forma ascendente. A velocidade no processo de colonização pode ser influenciada pelo nível de resistência genética, estado nutricional da planta e temperatura ambiente. Estudos recentes mostraram que, no Brasil, existem pelo menos duas raças fisiológicas do fungo (raças 1 e 2) e possivelmente uma terceira (raça 3).
+
+-- CONTROLE: --
+- O método mais eficiente e seguro de controle da murcha de Verticillium é o emprego de variedades resistentes. Existem uma grande quantidade de cultivares com genes de resistência a V. dahliae (Vd) e V. albo-atrum (Va). Assim, recomenda-se nesse caso pesquisar as cultivares de tomate com esses genes de resistência usando o sistema de filtro de cultivares dentro do próprio aplicativo ( clicar aqui ). - Rotação de culturas é útil, mas os resultados são limitados porque o fungo sobrevive no solo por muitos anos e afeta grande número de espécies vegetais (em anexo as culturas afetadas pelo fungo (2)); - Evitar solos onde já tenha sido constatada a doença; - A solarização do solo é um tratamento bastante eficiente pois o fungo é eliminado a temperaturas acima de 51°C.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1268%5D%7B135%7D123.jpg
+Legenda: Algumas hospedeiras de Verticillium dahliae, relatadas na literatura. Fonte: Reis & Boiteux (2006).
+
+-- PODE SER CONFUNDIDA COM: --
+Murcha de fusarium . Uma das diferenças entre ambas é que a murcha de verticilium apresenta um amarelecimento mais branco das folhas baixeiras, não tão intenso como a murcha de fusarium. Igualmente ocorre com o escurecimento do sistema vascular, que é mais brando também. Outra característica é a presença de necrose em V nas bordas das folhas, ocasionada pelo Verticilium (4).
+
+-- Informações Complementares --
+(1) C. Kurozawa & M. A. Pavan. Manual de fitopatologia/editado por Hiroshi Kimari ... [et al]. - 3. ed. São Paulo: Agronômica Ceres. 1995- 1997. 2v.: il. (2) Ailton Reis & Leonardo S. Boiteux. Murcha-de-Verticillium: um sério problema para o cultivo de hortaliças no Brasil. Circular Técnica n.40, Brasília, DF, Dezembro, 2006. ISSN 1415-3033. (3) Aplicativo ADAMA Hortifruti Brasil. Para mais informações, consultar o site https://www.adama.com/brasil/pt/ ou diretamente pelo aplicativo ADAMA HF . (4) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Ailton Reis. Tema: Manejo de doenças causadas por fungos e oomicetos da parte radicular do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: https://youtu.be/CChRRIZ99FM

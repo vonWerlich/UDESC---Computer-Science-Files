@@ -1,0 +1,11 @@
+Título: BIOFERTILIZANTE EEI - Como limpar o sistema
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018803&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16387%5D%7B53%7Dfigura_27._lavacao_da_uppb.jpg
+Para realizar a limpeza da UPPB, retire o sistema de bombeamento e descarga afrouxando a união inferior e a superior (Figura 27). Faça a limpeza da bombona com água corrente e limpa, retirando toda a parte sólida do fundo. Recoloque novamente o sistema de bombeamento e descarga e, com isso, a UPPB estará pronta para ser utilizada novamente.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16387%5D%7B92%7Dfigura_27._lavacao_da_uppb.jpg
+Legenda: Figura 27. Destacando a bomba elétrica para lavação do sistema. Autor: Alexandre Visconti
+
+-- Informações Complementares --
+Visconti, A.; Schallenberger, E. Morales, R.G.F.; Cantú, R.R. Unidade Portátil de Produção de Biofertilizante Aeróbico, Modelo Epagri. Cartilha da Epagri, Florianópolis, Março de 2022.

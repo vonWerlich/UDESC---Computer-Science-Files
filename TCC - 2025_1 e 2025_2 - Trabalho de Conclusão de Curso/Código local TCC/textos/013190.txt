@@ -1,0 +1,25 @@
+Título: ARROZ IRRIGADO - 04. Sistemas de cultivo - Transplante de mudas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013190&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11448%5D%7B292%7D04_transpl_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Este sistema é largamente utilizado em países asiáticos, tendo sido iniciado pelo transplante manual, ainda utilizado em muitas áreas, e mais recentemente com o uso de máquinas desenvolvidas especialmente para este fim (figura abaixo). No Brasil, o sistema é utilizado exclusivamente para a produção de sementes genéticas e básicas, pois permite a fácil identificação e supressão de plantas diferentes das que se pretende cultivar, garantindo alta pureza genética das sementes produzidas. Além disso, o sistema exige a disponibilidade de infraestrutura específica de alto custo e baixo rendimento operacional (cerca de 3ha/dia no transplante), inviabilizando seu uso na produção de grãos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11448%5D%7B191%7D04_transpl_fig01.jpg
+Legenda: 01. Máquina de transplante de mudas Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11448%5D%7B517%7D04_transpl_fig02.jpg
+Legenda: 02. Lavoura de mudas transplantadas. Fonte: D.S.Eberhardt (remasterizada)
+
+-- PREPARO DO SOLO: --
+O preparo do solo segue as mesmas práticas do sistema pré-germinado. A lâmina de água deve ser rebaixada para a realização da operação de transplante, ficando apenas uma quantidade suficiente para manutenção da saturação do solo. No dia seguinte ao transplante, a lâmina deve ser gradativamente elevada, evitando assim que as mudas transplantadas boiem.
+
+-- MANEJO DAS PLANTAS DANINHAS: --
+O manejo de plantas daninhas deve prever o uso do rouguing , ou arranquio das plantas daninhas, em adição às demais práticas, visando, principalmente, a completa supressão do arroz-daninho e de plantas de arroz de outros cultivares que possam ter germinado.
+
+-- VANTAGENS DO TRANSPLANTE DE MUDAS: --
+• Forte redução da quantidade de sementes necessária por hectare. • Alta eficiência do controle de plantas daninhas e indesejadas. • Maior controle da população e alta homogeneidade da distribuição de plantas na lavoura. • Maior capacidade de inativação do banco de sementes, reduzindo a infestação por plantas daninhas na implantação da lavoura de arroz.
+
+-- CUIDADOS NA CONDUÇÃO DO TRANSPLANTE DE MUDAS --
+• Atenção à sanidade e condição nutricional das mudas a serem transplantadas.
+
+-- Informações Complementares --

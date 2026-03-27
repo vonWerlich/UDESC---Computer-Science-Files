@@ -1,0 +1,30 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas - As folhas estão comidas ou raspadas - O limbo foliar está cortado ou esfiapado - O limbo foliar está cortado de forma irregular, normalmente a partir dos bordos da folha - Folhas comidas pelas bordas, sem cartucho resultante da união dos bordos da folha, no limbo foliar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017017&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17013%5D%7B55%7Dplt_lagartas.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano está restrito às folhas
+As folhas estão comidas ou raspadas
+O limbo foliar está cortado ou esfiapado
+O limbo foliar está cortado de forma irregular, normalmente a partir dos bordos da folha
+Folhas comidas pelas bordas, sem cartucho resultante da união dos bordos da folha, no limbo foliar
+Verifique no local: LAGARTA-MILITAR
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17017%5D%7B498%7Ddano_lagmil.jpg
+Legenda: Verifique no local: LAGARTA-MILITAR
+17015
+Verifique no local: LAGARTA-MILITAR
+LAGARTA-DAS-PANÍCULAS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17017%5D%7B517%7Ddano_lagpan.jpg
+Legenda: LAGARTA-DAS-PANÍCULAS
+17016
+LAGARTA-DAS-PANÍCULAS
+CURUQUERÊ-DOS-CAPINZAIS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17017%5D%7B491%7Ddano_curuqre.jpg
+Legenda: CURUQUERÊ-DOS-CAPINZAIS
+21543
+CURUQUERÊ-DOS-CAPINZAIS

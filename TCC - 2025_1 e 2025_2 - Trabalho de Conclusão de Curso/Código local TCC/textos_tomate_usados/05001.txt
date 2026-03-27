@@ -1,0 +1,69 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Mofo cinzento (Botrytis cinerea)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=05001&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1269%5D%7B294%7Dfoto_14.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B422%7Dfoto_7.png
+Legenda: Alteração castanho-escura tomado pela esporulação característica do fungo. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B231%7Dfoto_12.png
+Legenda: Anéis brancos bem marcados com um pequeno ponto marrom no centro. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B550%7Dfoto_13.png
+Legenda: Anéis brancos-amarelados em frutos maduros. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B533%7Dfoto_11.png
+Legenda: As flores infectadas por Botrytis cinerea tornaram-se marrons e cobertas com um característico mofo cinzento. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B165%7Dfoto_15.png
+Legenda: Depois de colonizar o pecíolo de uma folha, Botrytis cinerea inicia um cancro no caule. O pecíolo atacado é acastanhado e abundantemente coberto por um molde cinzento muito visível (mofo cinzento).Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B259%7Dfoto_5.png
+Legenda: Detalhe dos padrões concêntricos visíveis em uma lesão necrótica causada por Botrytis cinerea em folhas de tomate. Este fungo possui leve esporulação nos tecidos lesionados. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B33%7Dfoto_8.png
+Legenda: Em todos os órgãos afetados, Botrytis cinerea forma uma massa cinzenta a bege que caracteriza a sua presença. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B200%7Dfoto_4.png
+Legenda: Grande mancha necrótica localizada na ponta de um folíolo. Aros concêntricos são visíveis. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B43%7Dfoto_9.png
+Legenda: Início de alteração no caule, marrom escuro coberto com uma massa cinza escuro. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B106%7Dfoto_2.png
+Legenda: Lesão marrom claro, seco, no colo de uma planta jovem de tomateiro. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B296%7Dfoto_3.png
+Legenda: Lesão necrótica em desenvolvimento na lâmina foliar. Padrões concêntricos castanho-escuros são claramente visíveis nos tecidos infectados, bem como alguns conidióforos discretos. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B199%7Dfoto_14.png
+Legenda: Podridão mole, cinza-bege, muito coberta com uma massa cinzenta em um fruto verde. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B400%7Dfoto_18.png
+Legenda: Seus escleródios têm um tamanho irregular e são bastante planos. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B472%7Dscreenshot_20200330-123556_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura (3).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B336%7Dscreenshot_20200330-123550_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura (3).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B166%7Dscreenshot_20200330-123552_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura (3).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B423%7Dscreenshot_20200330-123554_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura (3).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B77%7Dfoto_6.png
+Legenda: Vários folíolos desta folha de tomate estão infectados por Botrytis cinerea. A colonização do pecíolo central por este fungo está na origem da murcha e do amarelecimento. Fonte: D. Blancard (INRA)
+
+-- INFORMAÇÕES PARA O ESPECIALISTA: --
+Botrytis cinerea emite conidióforos robustos e longos, irregularmente ramificados, melanizando gradualmente na base. Os conídios são formados em conidióforos no final dos estigmas. Eles são monocelulares, ovóides a elípticos e hialinos a levemente pigmentados (6-18 x 4-11 μm).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B382%7Dfoto_17.png
+Legenda: Botrytis cinerea emite conidióforos robustos e longos, irregularmente ramificados, melanizando gradualmente na base. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1269%5D%7B36%7Dfoto_16.png
+Legenda: Os conidióforos de Botrytis cinerea são arbustos e produzem esporos hialinos e ovóides. Fonte: D. Blancard (INRA)
+
+-- INFORMAÇÕES GERAIS: --
+Em geral, ocorre sob condições de alta umidade e temperatura amena. Os órgãos afetados apresentam-se necrosados e com abundante mofo cinzento, constituído por micélio, conidióforos e conídios unicelulares (1). Os agrotêxteis usados ​​às vezes para proteger as plantas dos insetos levam a um aumento da umidade, agravando o dano (2). A esporulação pode começar em 3 dias após a contaminação inicial. A disseminação é efetuada pelo vento e correntes de ar e, em menor grau, pela chuva (salpicos de água). Também pode ser disseminado pelos trabalhadores durante os tratos culturais.
+
+-- SINTOMAS: --
+Todos os órgãos aéreos do tomate podem ser afetados a qualquer momento de seu desenvolvimento. Quaisquer que sejam os órgãos afetados, os tecidos são cobertos com um denso fungo cinzento muito característico, constituído por conidióforos e conídios do fungo (2). Os cotilédones senescentes permitem que o patógeno infecte os caules jovens; os cancros do caule podem então se desenvolver e prejudicar o desenvolvimento de plantas jovens nas semanas seguintes ao plantio (2). Os folíolos têm frequentemente anéis concêntricos. Eles evoluem rapidamente e causam a secagem de importantes áreas foliares. Essas alterações podem levar ao apodrecimento, que se espalha e, eventualmente, prejudica as folhas inteiras, com o colapso do tecido e progressivamente necroses. Pode avançar para o pecíolos e infectar o caule (2). As pétalas senescentes são particularmente vulneráveis. Elas permitem que o fungo se instale nas inflorescências e as faz apodrecer, usando-as como base nutritiva em primeiro lugar, a fim de assegurar infecções subsequentes em folhas e frutos (2). O fruto verde, e, mais raramente maduros, têm anéis finos esbranquiçados, 2 a 10 mm de diâmetro, que rodeia uma lesão necrótica pequena central. Estes anéis, conhecidos como "pontos mortos" ( ponto fantasma ) são um pouco amarelados nos frutos maduros. Isso ocorre devido a uma reação nos frutos muito jovens após infecções, depois que os esporos germinaram e os filamentos germinativos penetraram nos tecidos (2). Uma podridão macia e úmida pode ocorrer na cicatriz da haste da fruta e, em menor grau, na ponta. As lesões são bastante circulares e esbranquiçadas, de marrom claro a cinza; em muitos casos, o tecido finalmente entra em colapso e o fruto pode mumificar (2). B. cinerea pode produzir escleródios pretos com 2-5 mm de diâmetro, raramente visíveis nas lesões (2).
+
+-- ETIOLOGIA: --
+Como muitos fungos que atacam a parte aérea, ele é favorecido por ambientes úmidos. A umidade relativa de cerca de 95% e temperaturas que variam entre 17 e 23 ° C são condições favoráveis para o ataque. Estes parâmetros são encontrados principalmente sob abrigo, mas também em campo aberto durante períodos chuvosos ou como resultado de irrigações por aspersão. Plantas estioladas são particularmente vulneráveis (2).
+
+-- Medidas preventivas de controle: --
+- Os abrigos devem ser ventilados ao máximo, a fim de diminuir a higrometria do ambiente e, em particular, evitar a presença de água livre nas plantas (2). - A remoção precoce de brotos axilares evitará feridas grandes, minimizando os riscos da infecção pelo fungo (2). - O trabalho de remoção dos brotos deverá ser feito pela manhã, porque naquele momento os tecidos, mais túrgidos, cortam mais facilmente. Além disso, as feridas têm mais tempo para secar durante o dia. Não é desejável desbrotar durante períodos úmidos. As feridas no caule, embora aparentemente secas, permanecem receptivas a B. cinerea por tempo suficiente. - As feridas devem ser protegidas com um fungicida protetor, tal como a Calda Bordalesa . - A irrigação deve ser por gotejamento. Em caso de irrigação por aspersão, esta deverá ser realizada pela manhã, e nunca ao entardecer, e muito menos à noite, o que permitirá que as plantas sequem o mais rápido possível. - A adubação nitrogenada deve ser muito bem dosada. Assim, evitará tecidos suculentos muito receptivos (quando em excesso de N) e folhas cloróticas que constituem bases nutritivas ideais para B. cinerea (Quando o teor de N é baixo). - Detritos das plantas atacadas devem ser eliminados muito rapidamente durante o cultivo, especialmente plantas com um ou mais cancros na haste e frutos podres com esporulação de B. cinerea.
+
+-- Controle biológico: --
+Os produtos biológicos cadastrados na ABCBio (Associação Brasileira das Empresas de Controle Biológico) em 23/08/2019 e que possuem em sua bula indicação de controle do B. cinerea são: - Biobac (Bacillus subtilis); - Ecoshot (Bacillus amyloliquefaciens); - Serenade (Bacillus subtilis); - Sonata (Bacillus pumilus);
+
+-- Controle químico e genético: --
+- Não há produtos registrados para o controle da doença no tomateiro (4). - Não há cultivares resistentes (4).
+
+-- Informações Complementares --
+(1) C. Kurozawa & M. A. Pavan. Manual de fitopatologia/editado por Hiroshi Kimari ... [et al]. - 3. ed. São Paulo: Agronômica Ceres. 1995- 1997. 2v.: il. (2) Le portail INRA e-phytia héberge plusieurs applications en santé des plantes. Site: http://ephytia.inra.fr/fr/Home/index. Acesso em 23/08/2019. (3) Aplicativo ADAMA Hortifruti Brasil. Para mais informações, consultar o site https://www.adama.com/brasil/pt/ ou diretamente pelo aplicativo ADAMA HF . (4) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Valdir Lourenço Junior. Tema: Manejo de doenças causadas por fungos e oomicetos da parte aérea do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: href="https://youtu.be/nbTgf6CdmcY

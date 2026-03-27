@@ -1,0 +1,509 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7983&amp;isEdicao=N&amp;epagriTEC=S">BANANA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_banana_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21659&amp;isEdicao=N&amp;epagriTEC=S">    Pós-colheita da banana</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18384">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021659">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18384]{402}img_7248.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: ABLA - Associação dos Bananicultores de Luiz Alves </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  EXPEDIÇÃO DE BANANAS EM UMA CASA DE EMBALAGEM 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>DESCRIÇÃO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Pós-colheita é a manutenção da qualidade obtida no campo até a mesa do consumidor. Todas as etapas anteriores à colheita têm por objetivo a obtenção de uma fruta sadia, 
+com boa aparência e sabor. <br><br>A colheita, portanto, constitui a etapa de maior significado para 
+o produtor, pois o cacho de bananas em boas condições representa o resultado de todo o esforço empregado no campo.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28607,021659,18384,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{297}img_7247.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28608,021659,18384,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{129}penca_pos_colheita.jpg">  </a> 
+<br><br>
+<b>FATOR PRÉ-COLHEITA QUE INTERFERE NA PÓS-COLHEITA - GESTÃO DE NUTRIENTES</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A qualidade dos frutos está diretamente relacionada ao equilíbrio e atendimento 
+às exigências nutricionais e hídricas da planta.O manejo inadequado de nutrientes tende a aumentar a ocorrência de distúrbios fisiológicos devido à deficiência de alguns nutrientes ou aumento de outros, levando à 
+fitotoxicidade(<sup>1</sup>).<br><br> A deficiência e o excesso de nitrogênio reduzem o tamanho do cacho e dos frutos, 
+que tendem a ser malformados e ter vida verde reduzida, ou seja, demoram mais para 
+iniciar o amadurecimento(<sup>2</sup>). O potássio desempenha papel importante na fotossíntese e no transporte de 
+fotoassimilados e está relacionado ao aumento do número de frutos, seu peso, o teor de 
+sólidos solúveis totais, açúcares e amido(<sup>3</sup>). Sua deficiência não somente 
+limita o crescimento dos frutos, induzindo à formação de cacho raquítico, com frutos 
+finos e leves(<sup>4</sup>).<br><br>
+No manejo nutricional da bananeira, os fertilizantes potássicos são frequentemente 
+fornecidos em taxas suficientes ou, às vezes, excessivas(<sup>5</sup>), o que pode acarretar deficiência de Ca e Mg. <br><br> Além disso, os corretivos comumente usados nos bananais (calcário) são as principais fontes de Ca e Mg, nutrientes importantes para a produção e qualidade 
+de frutos. O Ca é conhecido por fortalecer as paredes celulares do fruto, tornando-a mais espessa, mas também participa da estabilização das membranas celulares. Seu teor na 
+polpa da banana foi associado a maior vida verde do fruto, pois 
+tanto o amadurecimento quanto a senescência envolvem alterações na estabilidade da 
+membrana. Por isso, quando há deficiência de Ca, a qualidade do fruto é inferior e a casca 
+racha. Já o Mg tem efeito direto na fotossíntese e na partição dos fotoassimilados, sendo 
+que sua deficiência causa acúmulo de açúcares nas folhas (fonte) em decorrência do 
+prejuízo ao transporte no floema para os drenos (por exemplo, frutos). <br><br>
+Por outro lado, o excesso de Mg nas folhas reduz a vida verde da banana.
+Existem muitas evidências de que a pressão de doenças e pragas está diretamente 
+relacionada ao desequilíbrio de nutrientes na planta, e essa relação provavelmente se 
+estende aos frutos.<br><br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>FATOR PRÉ-COLHEITA - DESFOLHA</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O desfolhamento provocado por doenças como o complexo de Sigatoka afeta a 
+produção de fotoassimilados. Além disso, faz com que as frutas levem um tempo maior para 
+crescerem e, por outro lado, se mantenham por menos tempo no estádio de maturação 
+verde (muitas vezes fazendo com que a maturação do cacho se inicie antes da colheita 
+e de forma não homogênea)(<sup>6</sup>).<br><br> A planta deve ter um número mínimo de dez folhas na floração 
+para assegurar não apenas uma boa produção, mas também incrementar a vida verde das 
+frutas. <br><br>Para bananas de variedades do subgrupo Cavendish, observa-se uma correlação 
+linear entre número de folhas e vida verde do fruto, mas a mesma correlação não foi 
+observada para a variedade Prata(<sup>7</sup>)(<sup>8</sup>).<br><br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28610,021659,18384,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{377}desfolha_-_pos-colheita._1.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28609,021659,18384,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{549}desfolha_-_pos-colheita.png">  </a> 
+<br><br>
+<b>FATOR PRÉ-COLHEITA - REMOÇÃO DOS RESTOS FLORAIS, PODA DO CORAÇÃO E PODA DE PENCAS</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Essas operações devem ser realizadas de modo que o látex exsudado não atinja a 
+casca dos frutos e possa manchá-los.<br><br> A remoção de duas pencas do cacho 
+(a última e a incompleta) das variedades dos subgrupos Cavendish e Prata proporciona 
+uma maior uniformidade no comprimento dos frutos das pencas remanescentes. <br><br>Antracnose e podridão da coroa são as doenças de maior relevância na pós-colheita de bananas e sua maior ocorrência está condicionada à presença de folhas não 
+funcionais e manutenção de restos florais no cacho. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28614,021659,18384,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{282}despistilagem_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28612,021659,18384,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{302}poda_de_penca_3.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28611,021659,18384,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{192}coracao_3.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28613,021659,18384,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{134}despistilagem.png">  </a> 
+<br><br>
+<b>FATOR PRÉ-COLHEITA - ENSACAMENTO DE CACHOS</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O ensacamento dos cachos impacta diretamente a qualidade da fruta, uma vez que 
+promove inúmeros benefícios, como proteção ao ataque de insetos, danos físicos por folhas, aves e outros animais, proteção do sol, granizo, ou geadas leves, sujidades diversas(<sup>9</sup>). <br><br>Todavia, há de se tomar cuidado para que esses 
+materiais não causem a queimadura da casca quando a primavera se inicia ou em períodos 
+quentes do próprio inverno.<br><br>
+O ensacamento do cacho, independentemente do material 
+utilizado e do clima, eleva a temperatura do ambiente de crescimento do fruto e, portanto, 
+a velocidade de enchimento, fazendo com que atinja a maturidade fisiológica de forma 
+mais rápida. 
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28619,021659,18384,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{480}img_5797.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28615,021659,18384,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{283}ensacamento_do_cacho_5.jpg">  </a> 
+<br><br>
+<b>RETIRADA DO CACHO DA PLANTA</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Nesta etapa, é bastante 
+comum a ocorrência de danos mecânicos, seja por abrasão, impacto, compressão ou por 
+corte, que reduzem drasticamente o valor comercial.<br><br> As deformações/defeitos decorrentes 
+desses danos provocam alteração na respiração da fruta, abrem portas de entrada para 
+infecções de microrganismos, alteram sua firmeza através da aceleração da perda de água 
+e escurecem seu tecido, comprometendo muitas vezes não apenas a aparência da casca, 
+mas também o tecido interno (polpa).<br><br> Por mais leves que sejam as batidas na casca da 
+fruta, os danos causados induzem ao escurecimento da casca após a maturação. A técnica de colheita deve minimizar danos físicos, pois estes causam aumento 
+da permeabilidade da casca e fluxo de água, além de estimular a síntese de etileno, e, 
+portanto, reduzir a vida verde do fruto.<br><br> Deve-se evitar ao máximo 
+possível o impacto do cacho nas superfícies, razão pela qual a melhor forma de transporte 
+são os cabos aéreos. Todavia, estes nem sempre são acessíveis, em termos de custo, ou 
+possíveis de serem utilizados, por conta da declividade da área de produção.<br><br>
+
+A colheita na maturidade imprópria leva 
+a uma qualidade inferior, falha no amadurecimento ou amolecimento excessivo. Como 
+regra geral, quanto maior for a idade fisiológica, menor será a vida verde; portanto, frutos 
+“magros”, ou seja, jovens e menores, têm vida pós-colheita mais longa, enquanto frutos 
+“gordos”, mais velhos e maiores, mais curta. Dependendo da demanda e exigência de 
+qualidade do mercado e do tempo para distribuição, o ponto de colheita pode ser ajustado(<sup>10</sup>).
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28616,021659,18384,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{398}colheita.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28617,021659,18384,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{183}figura_16_-_superior.png">  </a> 
+<br><br>
+<b>FATOR PÓS-COLHEITA - TRANSPORTE NA LAVOURA</b><br>
+<p class="p1"><div> O empilhamento de cachos e sua exposição ao chão e ao sol não devem ser feitos. Depois de colhidos, eles devem seguir para a carreta agrícola – principal forma de transporte 
+dos cachos no bananal –, onde devem ser gentilmente dispostos em 
+camada única sobre a plataforma forrada com materiais de proteção (espuma, 
+plástico bolha). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28621,021659,18384,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{7}cabo_aereo.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28623,021659,18384,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{176}distanciador.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28618,021659,18384,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{351}transporte_cachos_2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28620,021659,18384,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{287}transporte_cachos_3.jpg">  </a> 
+<br><br>
+<b>CASA DE EMBALAGEM OU UNIDADE DE BENEFICIAMENTO</b><br>
+<p class="p1"><div> É o local onde se realiza uma série de procedimentos que visam à melhoria da aparência e conservação da banana, não sendo solução para danos que ocorreram anteriormente(<sup>11</sup>). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28631,021659,18384,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{270}casa_de_embalagem_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28622,021659,18384,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{441}casa_de_embalagem_.jpg">  </a> 
+<br><br>
+<b> RECEPÇÃO E DESPISTILAGEM </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os cachos devem ser dispostos sob a sombra ao chegarem do bananal. Pendurados em ganchos com roldanas por cordas; esses ganchos são presos a roldanas (preferencialmente duplas, para evitar os trancos) que, por sua vez, correm em cabos ou barras de ferro e são espaçadas entre si por barras de ferro menores, conhecidas como espaçadores. <br><br>O uso de espaçador evita batidas entre os cachos e facilita a movimentação feita pelos operários para a retirada dos sacos plásticos e detritos mais grosseiros (frutos queimados pelo sol, geminados, podres, abortados, pedaços de folhas, 
+etc.) e a despistilagem. <br><br>A despistilagem compreende a retirada dos restos florais nas pontas das frutas. É importante que as pessoas envolvidas nessas etapas tenham suas unhas aparadas ou utilizem luvas para evitar danos.  <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28625,021659,18384,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{81}recepcao_2.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28628,021659,18384,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{193}despistilagem_sozinho.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28627,021659,18384,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{214}despistilagem_5.jpg">  </a> 
+<br><br>
+<b>DESPENCAMENTO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Deve ser realizado em frente aos tanques de lavação da casa de embalagem. Ainda pendurados nos cabos e após de despistilagem dos frutos, os cachos são 
+submetidos ao despencamento. <br><br>Deve-se utilizar ferramenta apropriada – despencador 
+helicoidal –, para um corte preciso e bem rente à ráquis. Após o despencamento as pencas são acondicionadas cuidadosamente nos tanques de lavação para evitar o choque entre elas.  <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28629,021659,18384,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{438}despencamento_2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28630,021659,18384,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{143}despencanto_1.jpg">  </a> 
+<br><br>
+<b>HIGIENIZAÇÃO DAS PENCAS</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A higienização das pencas e os tratamentos fitossanitários  são medidas para remover sujidades, vetores de 
+patógenos pós-colheita e outros organismos advindos do campo, assim como deter a 
+seiva decorrente do processo de colheita e subdivisão das pencas em buquês.<br><br> O tanque de lavação deve conter detergente neutro diluído em água nas concentrações de 200mL de detergente para cada 1.000L de água, no inverno, e 400mL de 
+detergente para cada 1.000L de água, no verão. <br><br>Para a cicatrização dos cortes nas almofadas 
+das pencas e para a floculação e precipitação de resíduos orgânicos (mantendo a água 
+limpa na superfície), utiliza-se o sulfato de alumínio. Durante o inverno, são suficientes 
+200g deste produto para cada 1.000L de água; no verão, esta quantidade é elevada para 
+400g por 1.000L de água. <br><br>É fundamental que se utilize água clorada para a lavação das 
+frutas, o que pode ser obtido pela adição de cloro líquido. Em tanques de lavação que permitem a recirculação da água é preciso considerar a manutenção das dosagens recomendadas de sanitizantes e agente floculante.<br><br>
+
+
+Após a lavação das pencas, deve-se subdividi-las em buquês. Os buquês contêm de 
+cinco a sete frutos, unidos pela almofada. Nesta etapa, é importante que os cortes sejam 
+retos e precisos, de forma a não deixar “fiapos” na almofada nem danos profundos que 
+possam comprometer sua aparência e ainda atuar como porta de entrada para patógenos, 
+favorecendo a ocorrência de podridões.<br><br>
+Os tipos de tratamentos das frutas mais recomendados são a pulverização e a 
+nebulização, por usarem menor volume de calda. Os ingredientes ativos registrados para este fim são: 
+tiabendazol e imazalil. <br><br>No sistema orgânico de produção, os tratamentos antifúngicos 
+podem ser realizados através do uso de óleos essenciais, ceras naturais e termoterapia. 
+
+
+
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28633,021659,18384,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{220}2012-02-17_13.50.01.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28634,021659,18384,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{480}lavacao.png">  </a> 
+<br><br>
+<b>EMBALAGEM DOS FRUTOS PARA TRANSPORTE</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Devem-se utilizar caixas plásticas higienizadas acompanhadas de declaração de 
+higienização emitida por empresa credenciada pelo Órgão Estadual de Defesa Sanitária 
+Vegetal (OEDSV), caixas de madeira (somente novas e não retornáveis) ou caixas de papelão 
+descartáveis.<br><br> Recomenda-se utilizar materiais de proteção como plástico e papelão para 
+separação dos buquês no interior das caixas. <br><br>Além do acondicionamento em embalagens adequadas, é muito importante 
+colocar o volume indicado para cada tipo de embalagem, dispondo os buquês de forma 
+a evitar ferimentos por atrito. Respeitar o volume indicado permite também uma correta 
+paletização. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28635,021659,18384,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{191}caixas_de_madeira_novas_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28636,021659,18384,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{318}caixas_plasticas.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28639,021659,18384,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{358}dano_2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28637,021659,18384,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{5}figura_4.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28638,021659,18384,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{1}figura_2_-_b.jpg">  </a> 
+<br><br>
+<b>CLASSIFICAÇÃO E RASTREABILIDADE</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Classificar significa separar e enquadrar o produto em grupos, de acordo com suas 
+características. <br><br>Para a banana, existem normas de adesão voluntária, como a proposta 
+pela Companhia de Entrepostos e Armazéns Gerais de São Paulo (Ceagesp), denominada 
+Programa Brasileiro para a Modernização da Horticultura (PBMH)(<sup>13</sup>), e a Produção Integrada 
+de Banana (PIB), desenvolvido sob a coordenação do Mapa - Ministério da Agricultura, Pecuária e Abastecimento.<br><br> Embora 
+não se trate de regulamentos específicos para a banana, na esfera legal, sua classificação está pautada na <b>Lei Federal nº 9.972/2000(<sup>12</sup>) e no Decreto Estadual nº 
+6.268/2007</b>. Este, por sua vez, exige que a fruta – um produto 
+vegetal – deva ser classificado e fiscalizado pela <b>Instrução Normativa nº 69/2018</b>.<br><br>
+No que compete à questão da rastreabilidade, esta se tornou obrigatória com a publicação da <b>Portaria Conjunta SES/SAR nº 459 de 07 de junho de 2016</b>.<br><br> Resumidamente, por intermédio do <b>cadastro de produção primária Sigen+ 
+(e-origem)</b>, o bananicultor deve informar, além de seus dados pessoais, sobre seu produto 
+comercial (locais de produção, tecnologia adotada, área, estimativa, época de produção 
+etc.). Desse modo, o produtor terá acesso, eletronicamente, via sistema do programa, a 
+caderno de campo, código de rastreabilidade, rótulo e cartaz para exposição de produtos. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28641,021659,18384,13);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18384]{157}normas_classificacao_banana.png">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+ 
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.<br><br>
+
+(<sup>8</sup>)LIMA, J.D.; FLORENCIO, J. A.; MORAES, W. S.; ROZANE, D. E.; NARDINI, E.; MODENESEGORLA DA SILVA, S. H. Effect of defoliation on the yield and quality of Prata Comum 
+banana fruits. Revista Brasileira de Fruticultura, v.39, p.1-9, 2017b.<br><br>
+
+(<sup>7</sup>)LIMA, J.D.; FLORENCIO, J. A.; MORAES, W. S.; MODENESE-GORLA DA SILVA, S. H.; ROZANE, 
+D. E.; NARDINI, E. Simulation of defoliation caused by Black Sigatoka in the yield and 
+quality of banana ‘Nanica ‘ fruits. Ciência Rural, v.47, n.1, 2017a.<br><br>
+
+(<sup>3</sup>)BHARGAVA, B.S.; SINGH, H.P.; CHADHA, K.L. Role of potassium in development of fruit 
+quality. In: Chadha, K.L.; Pareek, O. Advances in Horticulture: Fruit Crops. New Delhi, 
+Malhotra Publishing House, 1993. p.947-960.<br><br>
+
+(<sup>5</sup>)ZHANG, J.; LI, B.; ZHANG, J.; CHRISTIE, P.; LI, X. Organic fertilizer application and Mg 
+fertilizer promote banana yield and quality in an Udic Ferralsol. Plos One, v.15, n.3, 
+e0230593, 2020.<br><br>
+
+(<sup>6</sup>)CASTELAN, F.P.; SARAIVA, L.; LANGE, F.; DE BELLAIRE, L.; CORDENUNSI, B.R.; CHILLET, M. 
+Effects of black leaf streak disease and Sigatoka disease on fruit quality and maturation 
+process of bananas produced in the subtropical conditions of southern Brazil. Crops 
+Protection, v.35, p.127-131. 2012.<br><br>
+
+
+
+(<sup>11</sup>)LIVRAMENTO, G.; NEGREIROS, R. J. Z. Banana: Recomendações técnicas para o cultivo 
+no litoral norte de Santa Catarina. Florianópolis: Epagri, 2017. 101p. (Epagri. Sistema de 
+Produção, 49).<br><br>
+
+(<sup>13</sup>)PBMH &amp; PIF – PROGRAMA BRASILEIRO PARA A MODERNIZAÇÃO DA HORTICULTURA &amp; 
+PRODUÇÃO INTEGRADA DE FRUTAS. Normas de Classificação de Banana. São Paulo: 
+CEAGESP, 2006. (Documentos, 29)<br><br>
+
+
+(<sup>10</sup>)NEGREIROS, R. J. Z.; STUKER, H.; HINZ, R. H. Exigência térmica e número de dias entre 
+a floração e a colheita para a bananeira Grande Naine em condições subtropicais.
+Agropecuária Catarinense, v. 27, n. 01, p. 76-79, 2014.<br><br>
+
+(<sup>9</sup>)DONATO, S.L.R.; RODRIGUES, M.G.V.; LICHTEMBERG, L.A. Manejo cultural. In: DONATO, 
+S.L.R.; BORÉM, A.; RODRIGUES, M.G.V. Banana: do plantio à colheita. Belo Horizonte: 
+Epamig, 2021. p.275-312.<br><br>
+
+(<sup>2</sup>)ROBINSON, J.C.; GALÁN SAÚCO, V. Plátanos y bananas. 3 Ed. Madrid: Eujoa Artes 
+Gráficas, 2012. 321p.<br><br>
+
+
+(<sup>1</sup>)TYAGI, S.; SAHAY, S.; IMRAN, M.; RASHMI, K.; MAHESH, S. Pre-harvest factors influencing 
+the postharvest quality of fruits: a review. Current Journal of Applied Science and 
+Technology, v.23, n.4, p.1-12, 2017.<br><br>
+
+
+(<sup>4</sup>)SILVA, J.T.A. Solo, adubação e nutrição. In: DONATO, S.L.R.; BORÉM, A.; RODRIGUES, 
+M.G.V. Banana: do plantio à colheita. Belo Horizonte: Epamig, 2021. p.77-97<br><br>
+
+
+
+(<sup>12</sup>)BRASIL. Lei nº 9.972 de 25 de maio de 2000. Institui a classificação de produtos vegetais, 
+subprodutos e resíduos de valor econômico, e dá outras providências. Diário oficial da 
+união, Brasília, DF, de 26 de maio de 2000, Seção 1, p. 1.<br><br>
+
+
+
+
+
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Luana Aparecida Castilho Maro (Dra. - Epagri)<br> &nbsp;&nbsp; Pesquisadora - Epagri - Itajaí </font> 
+<br> <font size="2">• Ricardo José Zimmermann de Negreiros (Msc. - Epagri)<br> &nbsp;&nbsp; Pesquisador - Epagri - Itajaí </font> 
+<br><br><br> <font size="2"> Criado em: 29/02/2024</font>
+<br> <font size="2"> Última atualização: 25/04/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021659&amp;cdElemento=18384">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18384');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

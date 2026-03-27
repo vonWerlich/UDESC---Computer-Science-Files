@@ -1,0 +1,22 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Uso de condicionador de solo - Biocarvão
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015065&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B13058%5D%7B41%7Daplicacao_manual_de_biocarvao_antes_da_incorporacao_com_grade..jpg
+
+-- INTRODUÇÃO --
+Biocarvão é a denominação dada ao carvão utilizado como condicionador de solo. Os pedaços de carvão que não possuem valor comercial, após o processo de fabricação, podem ser utilizados como condicionador de solo para melhorar a qualidade do solo e também para aumentar a produtividade de cebola. O uso de biocarvão no cultivo de cebola é uma forma de reduzir o passivo ambiental que proporciona ao mesmo tempo benefícios agronômicos. Esse material é mais resistente à decomposição e permanece no solo por mais tempo que outras formas de matéria orgânica. Deste modo, proporciona benefícios mais duradouros ao sistema de plantio. O biocarvão pode ser utilizado tanto em cultivos com preparo convencional do solo quanto em plantio direto.
+
+-- APLICAÇÃO DO BIOCARVÃO --
+Em sistema de plantio direto já implantado e para doses menores (até 10 t/ha), indica-se a aplicação superficial do biocarvão (< 2mm) sob a palhada e sem incorporação. No sistema plantio direto a palhada protege e reduz as perdas de biocarvão por escoamento superficial da água. A incorporação de biocarvão com grade é indicada para aplicação de doses maiores de biocarvão e em solos com baixa fertilidade e deve ser feita antes da implantação do sistema plantio direto da cebola.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13058%5D%7B268%7Daplicacao_manual_de_biocarvao_antes_da_incorporacao_com_grade..jpg
+Legenda: Aplicação manual de biocarvão antes da incorporação com grade.Higashikawa, FS
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13058%5D%7B478%7Dnesse_caso_nao_ha_incorporacao_do_biocarvao_aplicado_sobre_a_palhada..jpg
+Legenda: Aplicação manual e anual de biocarvão com granulometria menor que 2 mm sobre palhada de adubação verde antes do plantio da cebola. Nesse caso não há incorporação do biocarvão aplicado sobre a palhadaHigashikawa, FS
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13058%5D%7B204%7Dparcela_com_aplicacao_de_biocarvao_sobre_palhada_de_adubacao_verde_antes_do_plantio_de_cebola_em_sistema_de_plantio_direto._nao_e_feita_a_incorporacao_de_biocarvao..jpg
+Legenda: Parcela com aplicação de biocarvão sobre palhada de adubação verde antes do plantio de cebola em sistema de plantio direto. Não é feita a incorporação de biocarvão.Higashikawa, FS
+
+-- DOSE E EFEITOS DO BIOCARVÃO --
+Os efeitos dependem da interação entre o tipo do biocarvão, da dose de biocarvão (a partir de 1 t/ha), do tipo de solo e do sistema de plantio. EFEITOS: - Aumento do teor de matéria orgânica do solo; - Aumento do teor de carbono do solo; - Reciclagem de nutrientes; - Melhoria da fertilidade do solo; - Possibilidade de aumento do rendimento da cebola em anos com condições climáticas favoráveis para o desenvolvimento da cultura.
+
+-- Informações Complementares --
+HIGASHIKAWA, F. S.;KURTZ, C.;MENEZES JÚNIOR, F. O. G. Uso de biocarvão como condicionador de solo no cultivo de cebola. Florianópolis: Epagri, 2020. 2 p. Folder técnico. https://www.epagri.sc.gov.br/index.php/solucoes/publicacoes/folder-tecnico/

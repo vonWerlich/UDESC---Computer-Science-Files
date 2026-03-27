@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - 14. Colheita, secagem e armazenamento - Armazenamento
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013168&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+14. Colheita, secagem e armazenamento
+Armazenamento
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11425%5D%7B126%7D12_armazen_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O sucesso da etapa de armazenamento dos grãos está diretamente ligado à redução de danos mecânicos e percentual de impurezas, e à manutenção de níveis adequados de umidade e temperatura da massa de grãos.
+
+-- UMIDADE E TEMPERATURA NO ARMAZENAMENTO: --
+Na tabela abaixo é apresentada a relação entre a umidade e temperatura da massa de grãos e os indicadores de eficiência do armazenamento.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11425%5D%7B351%7D12_tabtempurarmazena_2021.jpg
+
+-- FORMAS DE ARMAZENAMENTO: --
+O armazenamento pode ser em sacaria ou à granel. Em sacaria recomenda-se reduzir a umidade a 12%, manter em torno de 0,5m entre pilhas, utilizar estrados com altura mínima de 12cm e limitar a altura da pilha em 4,5m para boa ventilação. No armazenamento a granel, os cabos termométricos e/ou acompanhamento do monitoramento da umidade e temperatura são imprescindíveis, devendo os grãos ser mantidos com teor de umidade em torno de 13% e temperatura abaixo de 25°C. Os silos devem ser equipados com sistema de aeração. A dose de ar recomendada é, em média, de 1.200m³/m³ de grão. O acionamento do sistema de aeração deve ser feito sempre que a temperatura da massa de grãos estiver entre 5 a 6°C acima da temperatura ambiente e umidade relativa do ar abaixo de 96%. Não se deve acionar o sistema de aeração em condições de neblina. Dependendo de capacidade, os silos devem possibilitar a transilagem/ intransilagem, para eliminação de pontos de anaerobiose e efeitos da compactação.
+
+-- Informações Complementares --
+• Ricieri Verdi (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola
+• Fabrício Campos Masiero (Dr. Pós-colheita e armazenagem - IFC/Campus Rio do Sul) Manejo pós-colheita e armazenagem

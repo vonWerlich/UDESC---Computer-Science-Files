@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo) - A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo - A praga é uma lagarta, com falsas pernas no abdome. Pode estar nas folhas, abrigada num cartucho ou dentro do colmo das plantas - A lagarta se alimenta de folhas do arroz
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016988&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16957%5D%7B81%7Dchave_fig37.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo)
+A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo
+A praga é uma lagarta, com falsas pernas no abdome. Pode estar nas folhas, abrigada num cartucho ou dentro do colmo das plantas
+A lagarta se alimenta de folhas do arroz
+A lagarta habita um cartucho feito com folha de arroz
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16988%5D%7B506%7Dchave_fig38.jpg
+Legenda: A lagarta habita um cartucho feito com folha de arroz
+16993
+A lagarta habita um cartucho feito com folha de arroz
+A lagarta ocorre livre sobre as folhas
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16988%5D%7B57%7Dchave_fig39.jpg
+Legenda: A lagarta ocorre livre sobre as folhas
+16994
+A lagarta ocorre livre sobre as folhas

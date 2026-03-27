@@ -1,0 +1,38 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Plantas daninhas em arroz irrigado - Capim-macho (Ischaemum rugosum)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0526&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+10. Plantas daninhas
+Plantas daninhas em arroz irrigado
+Capim-macho ( Ischaemum rugosum )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B419%5D%7B371%7Dpldan_capimmacho_caput.jpg
+FOTO: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B351%7Dscreenshot_20200331-134313_agrobase.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B323%7Dischaemum_rugosum83.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B386%7Dischaemum_rugosum84.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B460%7Dpldan_capimmacho_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B480%7Dpldan_capimmacho_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B216%7Dpldan_capimmacho_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B524%7Dpldan_capimmacho_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B97%7Dpldan_capimmacho_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B50%7Dpldan_capimmacho_fig06.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B497%7Dpldan_capimmacho_fig07.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B53%7Dpldan_capimmacho_fig11.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B419%5D%7B435%7Dpldan_capimmacho_fig12.jpg
+
+-- Descrição Botânica: --
+Autor da Descrição: Horlandezan Bragança (1) Características da Planta: Família: Poaceae (Gramineae) Divisão e Classe: Angyospermae Monocotyledoneae Ciclo: Anual Reprod./Propagação: Fruto; Habitat/Tipologia: Aéreo - Colmo Adaptações: Colmo cespitoso; Colmo ereto; Altura(cm): 50-120 Características das Folhas: Filotaxia: Alternada dística Forma do Limbo: Lanceoladas: Linear Superfície: Pilosas Consistência: Herbácea Nervação/Venação: Paralelinérveas Comprimento (cm): 20-30 Características das Flores e do fruto: Inflorescência: Cacho ou Rácemo Perianto: Aperiantada, Hermafrodita Tipologia do Fruto: Cariópse
+
+-- Observações: --
+Espécie encontrada com frequência nas áreas sob cultivo de arroz. Estas áreas cultivadas com arroz têm sido abandonadas pelo fato da agressividade desta infestante. Principal infestante em áreas irrigadas. No estado do Maranhão, é a invasora mais importante da cultura de arroz irrigado (1).
+
+-- Produtos com reconhecido controle da invasora: --
+Aura ; Gamit ; Herbadox/Prowl ; Nominee ; Only(Constatada resistência ao herbicida) ; Kifix(Constatada resistência ao herbicida) ; Propanil* ; Ricer ; Starice ; Strike ; *Controle obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento (plântulas com até uma folha – V1).
+
+-- Produtos com controle médio (70% a 90%): --
+Ricer
+
+-- Informações Complementares --
+(1) AGROFIT. Site: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html (2) Agrolink. Site: https://www.agrolink.com.br/problemas/capim-macho_634.html
+(1) AGROFIT. Site: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html (2) Agrolink. Site: https://www.agrolink.com.br/problemas/capim-macho_634.html

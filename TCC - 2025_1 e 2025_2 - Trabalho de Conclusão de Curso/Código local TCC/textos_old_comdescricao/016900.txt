@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas) - A praga é um inseto (tem três pares de pernas, antenas e asas) - A praga não é um besouro. É outro tipo de inseto - A praga não tem a boca modificada em agulha. A boca pode ser do tipo tromba enrolada, língua ou então com mandíbulas para mastigar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016900&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16891%5D%7B37%7Dchave_fig08.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas)
+A praga é um inseto (tem três pares de pernas, antenas e asas)
+A praga não é um besouro. É outro tipo de inseto
+A praga não tem a boca modificada em agulha. A boca pode ser do tipo tromba enrolada, língua ou então com mandíbulas para mastigar
+A praga é do tipo mariposa. Tem asas de formato triangular, cheias de escamas
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16900%5D%7B196%7Dchave_fig16.jpg
+Legenda: A praga é do tipo mariposa. Tem asas de formato triangular, cheias de escamas
+16909
+A praga é do tipo mariposa. Tem asas de formato triangular, cheias de escamas
+A praga é um gafanhoto de coloração verde, com cabeça oblíqua e longas antenas filiformes - GAFANHOTO-VERDE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16900%5D%7B210%7Dchv_gafverdea.jpg
+Legenda: A praga é um gafanhoto de coloração verde, com cabeça oblíqua e longas antenas filiformes - GAFANHOTO-VERDE
+16908
+A praga é um gafanhoto de coloração verde, com cabeça oblíqua e longas antenas filiformes - GAFANHOTO-VERDE

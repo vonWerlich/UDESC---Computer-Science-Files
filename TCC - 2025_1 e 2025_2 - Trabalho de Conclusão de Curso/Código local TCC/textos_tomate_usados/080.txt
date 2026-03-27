@@ -1,0 +1,79 @@
+Título: TOMATE - Fitossanidade - Pragas - Tripes (Frankliniella schultzei, Trips palmi e Thrips tabaci)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=080&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1949%5D%7B446%7Dfrankliniella_schultzei.jpg
+
+-- Frankliniella schultzei --
+É praga principal do algodoeiro, porém pode utilizar o tomateiro como hospedeiro alternativo, no qual quando infectado transmite um vírus denominado de “vira cabeça do tomateiro”, que tem por característica tornar as folhas bronzeadas e a ponteira do tomateiro fica recurvada. Quando o vírus se instala nos frutos o sintoma é o aparecimento de anéis concêntricos tanto nos verdes quanto nos maduros (1).
+
+-- Identificação: --
+Ovo: Alongado, reniforme, amarelo-pálido a amarelo-forte até se tornar transparente pouco antes da eclosão da larva (2). Larva: Dois instares larvais. Assemelham-se com os adultos exceto pela ausência de asas, olhos pigmentados vermelhos e menor número de antenômeros (2). Pré-pupa: inativos, antenas posicionadas para frente da cabeça e tecas alares curtas (2). Pupa: inativo, antenas posicionadas para trás e para baixo da cabeça, tecas alares alongadas (2). Adulto: Corpo alongado com asas franjadas e translúcidas. As fêmeas medem 1,4 mm de comprimento e os machos 1,0 a 1,2 mm. Coloração marrom-escura (2).
+
+-- Bioecologia: --
+Os ovos são depositados no interior do tecido epidérmico das folhas. Fase larval, pré-pupa e pupa dura em média de 8,3 dias. A longevidade das fêmeas e machos adultos é de aproximadamente 15 dias. Os adultos se abrigam dentro das flores e embaixo das folhas e brotos. Fêmeas depositam de vinte a cem ovos nas folhas. Transmissor das viroses Tomato spotted wilt virus (TSWV) e do Tomato chlorotic spot virus (TCSV). Não utilizar a planta de milho como barreira para a cultura alvo pois ela serve de abrigo (2).
+
+-- Danos: --
+Raspam a superfície foliar e sugam a seiva que extravasa. Causam dobramento dos bordos das folhas para cima, tornando-se quebradiças e a de coloração esbranquiçada ou prateada. Atacam as inflorescências causando coloração avermelhada e pode resultar em esterilidade das flores (2).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B165%7Dtt_artboard_1-02.png
+Legenda: Adulto. Fonte: Sonya Broughton/Marilyn Steiner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B356%7Dfrankliniella_schultzei52.jpg
+Legenda: Danos nos frutos devido ao ataque de tripes. Fonte: https://www.agrolink.com.br/problemas/tripes_407.html
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B88%7Dcaptura_de_tela_2019-02-06_13.35.23.png
+Legenda: Fonte: GUIA DE CAMPO: Pragas da Cultura do Tomateiro. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B360%7Dfrankliniella-schultzei-02.jpg
+Legenda: Fonte: http://br.viarural.com/agricultura/plagas/insetos/frankliniella-schultzei-02.htm. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B325%7Dfrankliniella_schultzei.jpg
+Legenda: Fonte: http://www.agencia.cnptia.embrapa.br/gestor/soja/arvore/CONT000fznzu9ia02wx5ok0cpoo6a3a8y7vo.html. Foto: Ivan Carlos Corso
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B27%7Dimg_20211021_110228754_-_copia.jpg
+Legenda: Imagem da praga. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B448%7Dtt_artboard_1-02_-_copia.png
+Legenda: Larvas e adultos. Fonte: Sonya Broughton/Marilyn Steiner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B171%7Dimg_20211021_105219023.jpg
+Legenda: Raspagem de folhas causadas pelo tripes. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B428%7Dimg_20211021_105247011.jpg
+Legenda: Raspagem de folhas causadas pelo tripes. Notar a presença de pontos pretos em cima das folhas, que são excrementos do tripes. Foto: Rafael G. F. Morales
+
+-- Trips palmi --
+É uma praga muito encontrada nas plantações de batata, pepino, além de muitas outras culturas, tais como a alface e berinjela (1).
+
+-- Identificação: --
+Ovo: Branco-amarelado (2). Ninfa: Dois estádios ninfais de coloração amarelo-claro. Ápteros (2). Pupa: Dois estádios pupais de coloração amarela (2). Adulto: Medem de 1 a 1,2 mm de comprimento, com coloração amarelo-clara e dourada (2). Alados: asas franjadas (2).
+
+-- Bioecologia: --
+Ovos: depositados nas folhas e flores. Esse estádio dura cerca de 6,3 dias. Pré-pupa: pouca mobilidade. Pupa: Imóvel e ficam no solo. Esse estádio dura cerca de 4,8 dias. Ninfas e adultos se alimentam das folhas e flores. Esse estádio dura cerca de 14 dias. Adulto: Fêmeas maiores que os machos. Cerdas pretas pelo corpo.
+
+-- Danos: --
+Folhas esbranquiçadas, as vezes tornando-se prateadas. Cicatriz de alimentação pode ser vista ao longo das nervuras. As plantas se tornam amareladas até secarem. Folhas e brotos atrofiados. Desenvolvimento retardado da planta. Frutos com cicatrizes e deformações.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B329%7D60180_b.jpg
+Legenda: Adulto do Thrips palmi. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B336%7Dcaptura_de_tela_2019-02-06_13.45.44.png
+Legenda: Adulto do Thrips palmi. Foto: Renata Monteiro
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B109%7Dthrips_palmi56.jpg
+Legenda: Fonte: https://www.agrolink.com.br/problemas/tripes_322.html. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B342%7Dthrips_palmi53.jpg
+Legenda: Fonte: https://www.agrolink.com.br/problemas/tripes_322.html. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B490%7Dthrips_palmi51.jpg
+Legenda: Fonte: https://www.agrolink.com.br/problemas/tripes_322.html. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B38%7Dthrips_palmi52.jpg
+Legenda: Fonte: https://www.agrolink.com.br/problemas/tripes_322.html. null
+
+-- Thrips tabaci --
+Esse inseto apesar de ocorrer em outras liliáceas, é a principal praga para as cebolas. Outras culturas de importância econômica em que a espécie tem ocorrência: Milho; Cevada; Alho; Tomateiro; Fumo; Feijoeiro; Algodoeiro; Batata (1).
+
+-- Identificação: --
+Ovos: Microscópicos, elípticos e esbranquiçados (2). Ninfas: Coloração amarelo-esverdeado. Cerca de 1 mm de comprimento. Não possui asas (2). Adulto: Corpo alongado com cerca de 1 mm de comprimento. Coloração amarelo-claro a marrom. Asas franjadas (2).
+
+-- Bioecologia: --
+Ovos: duração de quatro dias nesse estádio. Podem ser depositados nas folhas e flores (2). Ninfas: preferem se alimentar de folhas novas. Ciclo completo, de ovo a adulto, tem duração aproximada de 15 dias, variando com a temperatura (2). Fêmea adulta pode viver cerca de 20 dias e ovopositar de 20 a 100 ovos. Altas temperaturas e poucas chuvas favorecem o aumento populacional (2). Vetor do Tomato Spotted Virus (TSWV), Tomato chlorotic spot virus (TCSV), Groundnut ringspot virus (GRSV) e Chrysanthemum stem necrosis virus (CSNV) (2).
+
+-- Sintomas: --
+Alimentam-se da seiva, raspando-sugando o limbo foliar. Podem prejudicar tamanho e peso dos frutos (2).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1949%5D%7B447%7Dcaptura_de_tela_2019-02-06_13.57.01.png
+Legenda: Thrips tabaci (Onion thrips) female on an onion leaf. Foto: Manfred Ulitzka
+
+-- MEDIDAS GERAIS DE CONTROLE DE TRIPES: --
+- Plantar na época de menor incidência da praga. - Instalar o viveiro longe de áreas de culturas que possam ser atacadas pelo tripes. - Manter o viveiro limpo, bem como o plástico bem transplante. - Arrancar e queimar as plantas com sintomas da doença. - Realizar pulverizações com inseticidas específicos, registrados para as culturas.
+
+-- Informações Complementares --
+(1) Dirceu Pratissoli e José Romário de Carvalho. GUIA DE CAMPO: Pragas da Cultura do Tomateiro. Guia de Campo: Pragas da Cultura do Tomateiro / Dirceu Pratissoli, José Romário de Carvalho. – Alegre, ES: NUDEMAFI, Centro de Ciências Agrárias, UFES, 2015. 35p. (Série Técnica / NUDEMAFI, ISSN 2359-4179). (2) Fonte: Andreza Fantine. http://www.defesavegetal.net/fransc.

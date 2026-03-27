@@ -1,0 +1,17 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Qualidade de água - Oxigênio dissolvido
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010056&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9134%5D%7B378%7Doxigenio_dissolvido.png
+
+-- IMPORTÂNCIA --
+O oxigênio dissolvido na água é essencial para as funções vitais dos peixes. O consumo de oxigênio pelos peixes é maior em animais menores e em temperaturas mais altas.
+
+-- VALOR LIMITE: --
+O limite inferior de oxigênio para cada espécie pode ser diferente, o ideal é que no viveiro escavado o oxigênio dissolvido esteja sempre acima de 4 mg por litro, ou acima de 50% de saturação.
+
+-- PROBLEMAS DOS BAIXOS NÍVEIS DE OXIGÊNIO: --
+Baixos níveis de oxigênio, principalmente pela manhã podem prejudicar a conversão alimentar, além de serem gatilhos para queda na imunidade dos peixes, abrindo portas para enfermidades.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

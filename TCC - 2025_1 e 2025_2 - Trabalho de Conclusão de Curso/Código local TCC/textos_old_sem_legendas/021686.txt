@@ -1,0 +1,26 @@
+Título: BANANA - Manejo do bananal - Desbaste de perfilhos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021686&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Manejo do bananal
+Desbaste de perfilhos
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18373%5D%7B215%7Dperfilhos_1.png
+FOTO: Arquivo Epagri
+
+-- DESCRIÇÃO --
+Manejo que tem por objetivo principal manter a densidade de plantas original e o alinhamento das mesmas no bananal. Na primeira safra devem estar presentes na família a planta mãe, o primeiro seguidor (filho) e o segundo seguidor (neto) . Na segunda safra, devem estar presentes a planta filho, o neto e o terceiro seguidor (bisneto), e assim por diante( 1 )( 2 ). Nos bananais instalados em encostas de morros, escolhe-se sempre como seguidor o melhor filho, localizado no lado mais alto da encosta( 1 ). Esta prática induz a uma maior e melhor permanência dos rizomas dentro do solo, reduzindo problemas de afloramento de rizomas e tombamentos. Nos bananais instalados em áreas planas, escolhem-se como seguidores perfilhos direcionados para o sentido norte-sul, permitindo assim maior entrada de luz nas entrelinhas. Em última análise, o desbaste mantém a produtividade por touceira e a produção do bananal.( 3 )( 4 )
+
+-- FERRAMENTAS PARA DESBASTE --
+Para o desbaste, utiliza-se as seguintes ferramentas: o penado (facão de lâmina curva), facão, ou o desbrotador (sacador de gemas chamado Lurdinha). A eliminação dos filhotes indesejados é feita cortando-os rente ao solo e eliminando-se a gema apical com ferramenta adequada.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18373%5D%7B196%7Dlurdinha_1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18373%5D%7B38%7Dlurdinha_2.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18373%5D%7B270%7Dlurdinha_3.jpg
+
+-- FORMAS DE DESBASTE --
+Outra modalidade de desbaste é o simples corte dos filhotes indesejados rentes ao solo com o uso do facão ou penado. Nesta modalidade, não há a retirada da gema apical, de forma que ocorrerão rebrotações e, em consequência, haverá a necessidade de repasses. Este procedimento, apesar do retrabalho, é um processo mais leve e bem mais rápido do que a utilização do desbrotador.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p. ( 3 )BORGES, A.L. & SOUZA, L.S. O cultivo da bananeira. Cruz das Almas: Embrapa Mandioca e Fruticultura, 2004. 279p. ( 2 )LIVRAMENTO, G.; NEGREIROS, R. J. Z. Banana: Recomendações técnicas para o cultivo no litoral norte de Santa Catarina. Florianópolis: Epagri, 2016. 101p. (Epagri. Sistema de Produção, 49). ( 4 )ALVES, E.J. A cultura da banana: aspectos técnicos, socioeconômicos e agroindustriais. Brasília: Embrapa/SPI, 1997. 585p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p. ( 3 )BORGES, A.L. & SOUZA, L.S. O cultivo da bananeira. Cruz das Almas: Embrapa Mandioca e Fruticultura, 2004. 279p. ( 2 )LIVRAMENTO, G.; NEGREIROS, R. J. Z. Banana: Recomendações técnicas para o cultivo no litoral norte de Santa Catarina. Florianópolis: Epagri, 2016. 101p. (Epagri. Sistema de Produção, 49). ( 4 )ALVES, E.J. A cultura da banana: aspectos técnicos, socioeconômicos e agroindustriais. Brasília: Embrapa/SPI, 1997. 585p.
+• Jorge Luiz Malburg (Msc. - Epagri) Pesquisador - Epagri - Itajaí

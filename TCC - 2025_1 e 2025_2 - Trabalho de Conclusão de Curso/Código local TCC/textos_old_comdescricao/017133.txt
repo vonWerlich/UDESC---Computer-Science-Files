@@ -1,0 +1,17 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Etiprole
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017133&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Etiprole
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Etiprole; Nome comercial: Curbix; Grupo químico: Fenilpirazol; Dose de produto comercial (pulverização foliar): 125-250mL/ha; Carência (dia): 75 Classe Toxicológica: 5 = improvável de causar dano agudo (faixa azul); Classe ambiental: II = muito perigoso;
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”.
+
+-- PRAGAS QUE CONTROLA: --
+Bicheira-da-raiz (Oryzophagus oryzae)
+
+-- Informações Complementares --

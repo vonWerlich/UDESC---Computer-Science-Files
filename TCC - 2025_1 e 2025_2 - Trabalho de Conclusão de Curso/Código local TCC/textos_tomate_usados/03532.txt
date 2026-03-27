@@ -1,0 +1,20 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - M) PROCEDIMENTOS DE COLHEITA, BENEFICIAMENTO, CLASSIFICAÇÃO E ROTULAGEM - e) Saúde e higiene dos trabalhadores e instalações sanitárias
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03532&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B3273%5D%7B220%7Dcapa_1.jpg
+
+-- Cuidados: --
+A saúde e o asseio pessoal de todos os trabalhadores que entram em contato direto com o tomate devem ser monitorados periodicamente. As instalações sanitárias devem estar disponíveis no galpão de beneficiamento e no campo, a fim de possibilitar a higiene pessoal dos trabalhadores. Essas instalações devem: a) estar localizadas em locais de fácil acesso; b) possuir projeto adequado de forma a permitir a retirada periódica de dejetos sem contaminar o meio ambiente; c) possibilitar a higiene pessoal dos trabalhadores; d) ser mantidas em boas condições de funcionamento e limpeza.
+
+-- Necessidades gerais: --
+Os trabalhadores nos galpões de beneficiamento devem possuir local apropriado onde eles possam trocar de roupa confortavelmente, que deve ser provido de armários onde também possam guardar seus pertences pessoais. Os banheiros devem possuir uma fonte de água limpa, que não seja proveniente de nenhum sistema de recirculação; sabão; toalhas descartáveis; e, quando possível, líquido sanificante a ser utilizado em conjunção com outras práticas de higiene.
+
+-- Problemas comuns: --
+Moléstias muito comuns, como infecção de ferimentos superficiais, diarreia, gripe e vômitos, devem ser informadas aos supervisores, e os trabalhadores portadores devem ser afastados de suas atividades.
+
+-- Contaminação da produção: --
+Os trabalhadores devem evitar atitudes que possam resultar na contaminação das hortaliças, como cuspir, fumar e espirrar ou tossir sobre os frutos não embalados.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

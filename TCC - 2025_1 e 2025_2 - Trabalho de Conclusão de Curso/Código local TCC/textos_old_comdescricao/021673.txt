@@ -1,0 +1,20 @@
+Título: BANANA - Cultivares - Grande Naine
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021673&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Grande Naine
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18356%5D%7B352%7Dcap_3_-_fig_2_-_letra_d_-_buques_maduro_de_grande_naine_-_autoria_eliseu_emanoel_dos_santos.jpg
+Tabela revela uma segmentação técnica precisa para o manejo pós-colheita de cultivares de bananeira, dividida em dois protocolos de climatização principais: um a 18°C, aplicado a cultivares do subgrupo Cavendish como Nanicão, Grande Naine e Williams, que são colhidas no ponto '¾ normal' e destinadas ao consumo nos graus de maturação 5 (casca amarela com pontas verdes) a 6 (totalmente amarela), visando principalmente os mercados do Sul do Brasil e Mercosul; e outro protocolo mais frio, a 16°C, para um grupo diversificado que inclui híbridos da Embrapa/Epagri como BRS Platina (colheita '¾ magra'), BRS Fhia Maravilha (colheita '¾ magra'), BRS Tropical (colheita '¾ normal') e BRS Thap Maeo (colheita '¾ gorda'), além de cultivares como a Ouro, todos direcionados ao mercado brasileiro e com ponto de consumo ideal nos graus 6 a 7 (casca amarela com pontuações achocolatadas), o que demonstra que o ponto de colheita e a temperatura são ajustados para modular o amadurecimento, maximizar a vida de prateleira e atender às exigências de qualidade de mercados específicos, ressaltando a importância de um manejo customizado para cada genótipo.
+FOTO: Eliseu E. dos Santos
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAA, subgrupo Cavendish. Bananeira de porte médio, com 2,0 a 3,4 m de altura. É altamente suscetível à sigatoka amarela, suscetível à sigatoka negra e altamente resistente ao mal do panamá. As recomendações de espaçamento são de 2,5m x 2,5m; 2,0m x 3,0m, ou 1.600 plantas por hectare. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18356%5D%7B276%7Dcap_3_-_fig_2_-_letra_a_-_grande_naine_-_autoria_keny_henrique_marigueli.jpg
+ESQUEMA DO MÉTODO DO CÍRCULO ALEATÓRIO PARA ESTIMATIVA DA DENSIDADE DE PLANTAS DO BANANAL'; Representação do Bananal: A área cinza simboliza a plantação, com as figuras verdes representando as plantas de banana; Parcela de Amostragem Circular: O círculo com linha tracejada representa a parcela amostral lançada aleatoriamente no campo; Ponto Central e Raio: O marcador cinza é a estaca de referência, de onde parte uma seta vermelha indicando o raio de 8 metros; Cálculo da Área Amostral: A área da parcela circular é de aproximadamente 201,06 m²; Contagem de Plantas: O método consiste em contar as plantas dentro do círculo; Extrapolação da Densidade: A contagem é extrapolada para 1 hectare para estimar a densidade total; Informação Contextual: A anotação '25 x 50 = 1.250 unidades de produção /ha' indica uma densidade de referência; Síntese da Metodologia:
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

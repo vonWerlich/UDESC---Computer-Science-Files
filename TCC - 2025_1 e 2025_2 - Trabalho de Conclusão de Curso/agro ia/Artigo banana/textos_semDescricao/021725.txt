@@ -1,0 +1,23 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - DOENÇAS QUARENTENÁRIAS - MOSAICO DAS BRÁCTEAS
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021725&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+DOENÇAS QUARENTENÁRIAS
+MOSAICO DAS BRÁCTEAS
+
+-- DESCRIÇÃO --
+O Banana bract mosaic virus (BBrMV) , conhecido como mosaico-das-brácteas, foi relatado originalmente nas Filipinas, causando perdas de até 40% na produção de banana. Está presente em vários países da Ásia e da África( 1 ), mas não ocorre no Brasil. O BBrMV pertence à família Potyviridae, gênero Potyvirus , e possui partículas alongadas flexuosas medindo cerca de 750nm de comprimento e 11nm de diâmetro. O genoma é constituído de um RNA de fita simples. O BBrMV não é transmitido por inoculação mecânica. Possui um círculo de hospedeiros restrito às espécies de Musaceae, mas pode infectar plantas de cardamomo como hospedeiro alternativo. Não há transmissão mecânica, mas esta se dá eficientemente por material de propagação vegetativa e mesmo em mudas obtidas por cultura de meristemas. Na natureza, é transmitido de modo não persistente pelos afídeos A. gossypii e P. nigronervosa . Devido a sua distribuição limitada e capacidade de transmissão rápida, o BBrMV é motivo de alerta para o sistema de pragas quarentenárias.
+
+-- SINTOMAS --
+Os principais sintomas são o mosaico e as estrias nas brácteas das inflorescências e nos pecíolos. As plantas doentes exibem estrias de coloração rosadas a avermelhadas em forma de fuso no pseudocaule, nervura central e pedúnculo. Nos frutos, causa sintomas de malformação e diminuição e, nos cachos, causa redução do tamanho
+
+-- CONTROLE --
+Nos países como o Brasil, onde esses vírus não ocorrem, a melhor medida é a exclusão por meio da interceptação de mudas e meristemas de bananeiras importadas, concomitantemente à adoção de medidas quarentenárias para a importação de germoplasma. Embora o BBrMV não ocorra no País, é importante lembrar que os afídeos vetores do vírus estão presentes em nosso território. Portanto, cumpre ressaltar a importância de adotar medidas preventivas e de alertar os laboratórios que executam diagnóstico em mudas importadas pela necessidade de realizar a indexação deste vírus.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )SINGH, V.; KOCHE, V.; QURAISHI, A. Viral Elimination Strategies for Musa spp. Research & Reviews: A Journal of Microbiology and Virology, v.8, n.1, p.7-14. 2018.GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )SINGH, V.; KOCHE, V.; QURAISHI, A. Viral Elimination Strategies for Musa spp. Research & Reviews: A Journal of Microbiology and Virology, v.8, n.1, p.7-14. 2018.GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+• André Boldrin Beltrame (Dr. - Epagri) Pesquisador - Epagri - Itajaí

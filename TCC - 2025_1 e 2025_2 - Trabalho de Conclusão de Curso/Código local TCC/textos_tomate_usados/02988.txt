@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - I) DOENÇAS CAUSADAS POR VÍRUS - c) Risca-do-tomateiro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02988&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2755%5D%7B175%7Dfigura_28.jpg
+
+-- Risca-do-tomateiro (Potyvirus: PVY): --
+Forma-se um mosaico leve nas folhas com nervuras verde-escuras. Pode ocorrer necrose das nervuras e os folíolos terminais podem apresentar necrose severa. A transmissão é efetuada por pulgões e mecanicamente, mas não é transmitido por sementes. Pimentão, fumo, batata, maria-pretinha e juá também podem ser infectados pelo PVY. Espécie relacionada: Potato virus Y.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

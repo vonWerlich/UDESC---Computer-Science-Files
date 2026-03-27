@@ -1,0 +1,22 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - c) Escolha dos cultivares, produção de mudas e plantio - 1) Escolha do material genético para cultivo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07357&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6642%5D%7B350%7D11-1.jpg
+Os híbridos são mais produtivos que as variedades e apresentam resistência genética a diversas pragas e doenças (Tabela 3), o que favorece a sua escolha pelo produtor. Existe uma infinidade de híbridos e empresas no mercado de sementes de híbridos de tomate, os quais atendem diferentes demandas em todo o território nacional. Na maioria dos casos, esses híbridos são obtidos pelo sistema convencional de produção de sementes, passando pelo processo de tratamento químico com agrotóxicos antes do envelopamento. Porém, segundo a Instrução Normativa Nº 38 de 02 de Agosto de 2011 (Sementes e Mudas Orgânicas), capítulo III, art.8, caso o produtor de sementes e mudas orgânicas necessite adquirir material de propagação oriundo de sistemas de produção convencional, ele terá que respeitar um período de conversão que compreende uma geração completa com manejo orgânico para culturas anuais, além de dois períodos vegetativos ou 12 meses (considerando o período mais longo) para as culturas perenes, para que a semente ou muda produzida possa ser considerada orgânica. Contudo, devido à falta de material genético disponível para o cultivo de tomate orgânico, o Ministério da Agricultura, Pecuária e Abastecimento (Mapa), que regulamenta a agricultura orgânica, permitiu a utilização de sementes híbridas de tomate, com último prazo para adequação dos produtores para 2018. Assim, enquanto não houver alteração nas normas, o produtor poderá utilizar sementes híbridas advindas do sistema convencional.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6642%5D%7B106%7D11.jpg
+Legenda: Sugestões de híbridos comerciais de tomate que apresentam boa produtividade quando cultivados no sistema orgânico. Fonte: Morales et al., 2019.
+
+-- Por que via de regra se cultivam os híbridos: --
+O lançamento de variedades, por sua vez, não é o objetivo das empresas de melhoramento, que preferem resguardar o material genético para si por meio do uso de híbridos. Assim, remanescem hoje no mercado poucas e antigas variedades de polinização aberta lançadas nas décadas passadas, muitas vezes pouco produtivas quando comparadas com os híbridos.
+
+-- Cultivar desenvolvida para sistemas orgâncos: SCS375 Kaiçara --
+Para atender essa demanda, desde o ano 2000, o Programa de Pesquisa em Hortaliças da Epagri de Itajaí avaliou 57 acessos de tomate de polinização aberta, quanto a produtividade, incidência de insetos-praga e doenças e qualidade dos frutos. Num processo de seleção ao longo dos anos, chegou-se em um cultivar com características de interesse para cultivo no sistema orgânico e, em outubro de 2016, foi lançado com o nome de SCS375 Kaiçara . A Epagri abriu em janeiro de 2019 oferta pública para identificar empresas interessadas em produzir e comercializar a semente do ‘Kaiçara’. A empresa Isla Sementes Ltda. adquiriu o direito de comercialização até o ano de 2024.
+
+-- Descrição do cultivar SCS375 Kaiçara: --
+A planta do cultivar SCS375 Kaiçara é de crescimento indeterminado, com entrenó médio, ausência de abscisão do pedúnculo, folhas curtas, horizontais e de largura média (Tabela 4). Apresenta características desejáveis do ponto de vista de facilidade nos tratos culturais e manejo fitossanitário, melhorando também a aeração do cultivo e propiciando condições desfavoráveis para o surgimento de doenças foliares (Figura 11).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6642%5D%7B281%7D12.jpg
+Legenda: Planta em cultivo e frutos do cultivar de tomate SCS375 Kaiçara. Fonte: Morales et al., 2019.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

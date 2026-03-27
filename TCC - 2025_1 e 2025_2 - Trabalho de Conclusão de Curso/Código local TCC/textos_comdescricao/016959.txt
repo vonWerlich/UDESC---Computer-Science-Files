@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo) - A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo - A praga é outro tipo de larva (sem pernas no abdome) ou outro tipo de bicho - A praga é uma larva, de corpo amarelado ou vermelho, que habita o interior da planta ou o solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016959&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16958%5D%7B139%7Dchave_fig40.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo)
+A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo
+A praga é outro tipo de larva (sem pernas no abdome) ou outro tipo de bicho
+A praga é uma larva, de corpo amarelado ou vermelho, que habita o interior da planta ou o solo
+A larva tem o corpo amarelado, arqueado em forma de C ou sem cabeça aparente. Vive aprisionada à planta
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16959%5D%7B467%7Dchave_fig42.jpg
+Legenda: A larva tem o corpo amarelado, arqueado em forma de C ou sem cabeça aparente. Vive aprisionada à planta
+16982
+A larva tem o corpo amarelado, arqueado em forma de C ou sem cabeça aparente. Vive aprisionada à planta
+A larva é vermelha da cor do sangue, com corpo fino e comprido. Vive livre no solo lodoso - VERME-DE-SANGUE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16959%5D%7B162%7Dchv_vsanguel.jpg
+Legenda: A larva é vermelha da cor do sangue, com corpo fino e comprido. Vive livre no solo lodoso - VERME-DE-SANGUE
+16981
+A larva é vermelha da cor do sangue, com corpo fino e comprido. Vive livre no solo lodoso - VERME-DE-SANGUE

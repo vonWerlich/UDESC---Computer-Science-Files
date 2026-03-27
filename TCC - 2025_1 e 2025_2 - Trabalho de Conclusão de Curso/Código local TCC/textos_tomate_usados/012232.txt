@@ -1,0 +1,29 @@
+Título: 1) REGULAMENTAÇÃO - 2) Conversão total, conversão parcial e produção paralela das UPO
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012232&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_alface.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6625%5D%7B542%7Dcapa_tomatorg.jpg
+
+-- Período de conversão: --
+Para que uma unidade de produção seja certificada pela primeira vez, em geral é preciso passar por um período de conversão. Isso significa que, por determinado período, a unidade ficará sob comprovado manejo orgânico para que a produção seja certificada ou comercializada em venda direta como orgânica. Este é um período de segurança que visa assegurar a qualidade orgânica do produto, durante o qual a unidade de produção deve tornar-se apta a produzir em conformidade com os regulamentos técnicos da produção orgânica, incluindo a capacitação dos produtores e trabalhadores, para garantir a implantação de um sistema de manejo orgânico.
+
+-- Início e duração do período de conversão: --
+Tanto o início quanto a duração do período de conversão deverão ser estabelecidos pelo Organismo de Avaliação da Conformidade Orgânica (OAC), Organismo Participativo de Avaliação da Conformidade (OPAC) ou pela Organização de Controle Social (OCS). A decisão da data a ser considerada como ponto de partida do período de conversão terá como base as informações levantadas nas inspeções ou visitas de controle interno que deverão verificar a compatibilidade da situação encontrada com os regulamentos técnicos, por meio de elementos comprobatórios, tais como: I - declarações de órgãos oficiais relacionados às atividades agropecuárias; II - declarações de órgãos ambientais oficiais; III - declarações de vizinhos, associações e outras organizações envolvidas com a rede de produção orgânica; IV - análises laboratoriais; V - fotos aéreas e imagens de satélite; VI - documentos de aquisição de animais, sementes, mudas e outros insumos; VII - verificação do conhecimento dos produtores e trabalhadores da unidade produtiva quanto aos princípios, as práticas e a regulamentação da produção orgânica.
+
+-- Duração do período de conversão: --
+A duração mínima do período de conversão do é de pelo menos 12 (doze) meses. Tal período pode ser ampliado pelo organismo de controle, caso percebido risco à qualidade e à integridade orgânica do produto; ou, reduzido ou excluído, caso comprovado o manejo orgânico anterior que exclua risco à sua qualidade e integridade orgânica.
+
+-- Conversão total da área ou parcial: --
+A legislação orgânica brasileira prevê que toda a unidade de produção deve ser convertida em orgânica, possibilitando que seja feita a conversão total da área, a qual estará sob manejo orgânico para ser regularizada; ou parcial, quando somente parte da unidade de produção é submetida ao processo de conversão. Nesse caso, o plano de manejo deve prever para os próximos ciclos a conversão de toda a unidade de produção para o manejo orgânico.
+
+-- Conversão parcial e produção paralela: --
+Enquanto existir produção do mesmo produto sob manejo orgânico e não orgânico, esta é chamada de produção paralela. Tanto a conversão parcial quanto a produção paralela devem ser autorizadas pelo OAC, OPAC ou pela OCS, devendo ser concedida em função dos seguintes critérios: I - distância entre as áreas sob manejo orgânico e não orgânico; II - posição topográfica das áreas, incluindo o percurso da água; III - insumos utilizados nas áreas não orgânicas, forma de aplicação e controle; IV - demarcação específica da área não-orgânica; V - facilidade de acesso para inspeção. Enquanto a unidade estiver em conversão parcial ou produção paralela, deverão ser cultivadas espécies diferentes ou variedades que apresentem diferenças visuais em áreas distintas e demarcadas para que os cultivos possam ser facilmente identificados. Além disso, a unidade de produção deverá ser dividida em talhões, com demarcações definidas, sendo vedada a alternância de práticas de manejo orgânico e não orgânico numa mesma área.
+
+-- Limpeza de equipamentos: --
+Os equipamentos de pulverização empregados em áreas sob o manejo não orgânico não poderão ser usados em áreas sob o manejo orgânico. No caso de implementos agrícolas, deverão passar por limpeza para uso em manejo orgânico.
+
+-- Insumos para orgânicos e não orgânicos: --
+Quanto aos insumos utilizados em cada uma das áreas, sob manejo orgânico e não orgânico, devem ser armazenados separadamente, perfeitamente identificados, e os não permitidos para uso na agricultura orgânica não poderão ser armazenados na área de produção orgânica. O produtor deverá comunicar previamente ao organismo de controle dados sobre a previsão de período e o volume estimado de colheita dos produtos orgânicos e não orgânicos.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

@@ -1,0 +1,36 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Berçário
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010506&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17917%5D%7B267%7Dbercario.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O berçário é caracterizado por um viveiro escavado com a finalidade de realizar a recria de alevinos I, possibilitando a produção de juvenis com maior peso, para ser estocado na fase de crescimento.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17917%5D%7B273%7Dbercario.jpg
+Legenda: Sistema monofásico e bifásico. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17917%5D%7B95%7Dbercario_1.jpg
+Legenda: Viveiro de 600m² utilizado como berçário de tilápia em Massaranduba-SC. Foto: Bruno Corrêa da Silva
+
+-- IMPORTÂNCIA: --
+A utilização de um sistema bifásico, utilizando o berçário como a primeira fase, anterior a engorda, trás importantes vantagens listadas a seguir:
+
+-- Maior taxa de sobrevivência: --
+Possibilita uma maior taxa de sobrevivência e melhor previsão da quantidade existente de peixes no viveiro ao longo da fase de crescimento.
+
+-- Melhor conversão alimentar: --
+Possibilita melhor ajuste dos cálculos da biomassa do viveiro e, consequentemente, das quantidades de ração e manejo de aeração com uma maior precisão, obtendo uma melhor conversão alimentar e um maior lucro;
+
+-- Otimização da área: --
+Otimização da área de produção e o aumento do número de ciclos/ano.
+
+-- Aumento da voracidade do peixe: --
+A maior densidade na fase inicial do cultivo também aumenta a voracidade do peixe, melhorando os parâmetros zootécnicos.
+
+-- Uniformidade do lote: --
+Possibilita a classificação, aumentando a uniformidade do lote.
+
+-- RECOMENDAÇÕES: --
+- A área de viveiros de berçários deverá ser de aproximadamente 5 a 10% da área total alagada na propriedade. - A área de viveiros de berçários terá aproximadamente 500 a 2.000m², viveiros maiores dificultarão o manejo de transferência. - No berçário é possível utilizar telas de proteção para evitar pássaros com malhas de 30 a 50mm entre nó, já que é nessa fase em que acontecem as maiores perdas devido à predação de pássaros. - O tamanho que a tilápia pode atingir no berçário (fase 1) varia de acordo com a estratégia do produtor, mas recomendamos que fique entre 20 a 100g. Importante ressaltar que, quanto maior a densidade no berçário, menor deve ser o peso de transferência, e, consequentemente, menor o tempo de cultivo nesta fase. - O recomendado é que a fase de berçário dure de 30 a 60 dias. A realização da recria por um período de tempo muito maior nas densidades recomendadas, ocasionará uma biomassa alta no viveiro berçário, o que resultará em problemas na qualidade de água e, consequentemente, perda de crescimento do peixe. - Quanto maior o animal, mais trabalhoso e estressante para o peixe será a transferência. Por isso, durante a transferência do juvenil do berçário para fase de crescimento, é recomendado que se tome cuidado no manejo do peixe para evitar perdas.
+
+-- Informações Complementares --
+SILVA, B.C.; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

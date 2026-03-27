@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Fungicidas registrados para o controle de doenças na cultura do arroz - Vitavax-Thiram 200 SC
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017180&isEdicao=N&epagriTEC=S
+
+
+-- INFORMAÇÕES GERAIS: --
+Nome comercial: Vitavax-Thiram 200 SC; Finalidade: Produto para tratamento de sementes; Ingrediente ativo: carboxina + tiram; Formulação: SC (suspensão concentrada); Dose (p.c./ha): 250 a 300 mL (Dose para 100 kg de sementes); Carência: ND = não determinado; Classificação toxicológica: 5 = improvável de causar dano agudo (faixa azul); Classificação ambiental: II = muito perigoso.
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+As recomendações estão de acordo com os registros obtidos do AGROFIT, acessado em 14/05/2020 (www.agricultura.gov.br), onde se encontra a listagem completa dos fungicidas registrados para a cultura do arroz. Carência = Tempo entre a última aplicação do produto e a colheita. Dose para 100 kg de sementes.
+
+-- RECOMENDAÇÕES DE CONTROLE DE DOENÇAS NO ARROZ: --
+- Brusone (Pyricularia oryzae) - Mancha parda (Bipolaris oryzae) .
+
+-- Informações Complementares --

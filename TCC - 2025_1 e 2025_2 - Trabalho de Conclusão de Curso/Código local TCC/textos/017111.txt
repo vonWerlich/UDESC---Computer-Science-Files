@@ -1,0 +1,49 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Persequito (Collaria scenica)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017111&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11366%5D%7B102%7Dperseq_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B409%7Dperseq_fig01.jpg
+Legenda: 01. Persequito adulto.Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B453%7Dperseq_fig12.jpg
+Legenda: 12. Ninfa de estágio inicial do persequito.Composição: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B311%7Dperseq_fig20.jpg
+Legenda: 20. Persequitos na lavoura.Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B429%7Dperseq_fig21.jpg
+Legenda: 21. Sintoma de persequito em folha de arroz. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B178%7Dperseq_fig22.jpg
+Legenda: 22. Sintoma de persequito em folha de arroz. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B29%7Dperseq_fig23.jpg
+Legenda: 23. Folha de arroz atacada por persequito. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B246%7Dperseq_fig24.jpg
+Legenda: 24. Folha de capim-arroz atacada por persequito. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B5%7Dperseq_fig25.jpg
+Legenda: 25. Plantas de arroz atacadas por persequito. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B66%7Dperseq_fig26.jpg
+Legenda: 26. Reboleira de persequito em lavoura de arroz irrigado. Fonte: D.S.Eberhardt (remasterizada)
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie: Collaria scenica Stål Ordem: Hemiptera Família: Miridae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B456%7Dperseq_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+Tanto adultos quanto ninfas têm o corpo fino, variando de 5 a 7mm de comprimento, sendo menor nos machos. A coloração geral é marrom escura, com as pernas mais claras. As pernas e antenas são longas e finas, o que confere aos indivíduos alguma similaridade com pernilongos ou mosquitos.
+
+-- CICLO DE VIDA: --
+Completa-se em cerca de 34 dias, sendo o período ninfal em torno de 20 dias e 14 dias a incubação dos ovos. A longevidade de adultos varia de 32 a 37 dias. Fêmeas adultas têm um período de pré-oviposição de 6 dias e podem por até 196 ovos durante a vida.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B514%7Dperseq_ciclo.jpg
+Legenda: Ciclo de vida do persequito, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de setembro a março. Crítico: novembro. Lavoura: do perfilhamento à maturação. O percequito é de ocorrência cíclica e surge em focos na lavoura, a partir do período de perfilhamento e, de preferência, onde as plantas estão mais vigorosas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11366%5D%7B486%7Dperseq_fenologia.jpg
+Legenda: Fenologia da ocorrência do persequito na lavoura de arroz em Santa Catarina.
+
+-- DANOS: --
+Este percevejo, ao se alimentar, rompe as células do tecido foliar, provocando o aparecimento de estrias esbranquiçadas, semelhantes àquelas produzidas por tripes ou ácaros. Em plantas de arroz, estas estrias seguem o alinhamento das nervuras, sendo mais atacadas as folhas inferiores, que, sob alta infestação, ficam amareladas ou mesmo alaranjadas e, normalmente, com as pontas secas. Há uma nítida preferência do percequito por gramíneas de folhas glabras.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Promover um bom controle das plantas daninhas do arroz. Lavouras com plantas hospedeiras do inseto, como o capim-arroz ( Echinoclhoa spp.) e o papuã ( Brachiaria spp.), podem sofrer infestações mais intensas. • Nas áreas com sintomas, incrementar a adubação nitrogenada em até 50% da dose usual de N/ha. • Eliminar restos culturais e plantas hospedeiras das áreas de lavoura.
+
+-- Informações Complementares --
+CHIARADIA, L.A.; POLETTO, E.J. Danos e manejo do percevejo-raspador-das-pastagens. Agropecuária Catarinense , v.25, n.3, p.39-41, 2012.

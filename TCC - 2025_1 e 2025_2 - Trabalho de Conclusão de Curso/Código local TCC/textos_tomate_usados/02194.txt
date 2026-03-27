@@ -1,0 +1,15 @@
+Título: TOMATE - Tratos Culturais - Irrigação - 5) Emprego de água da chuva
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02194&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1986%5D%7B171%7D31-1.jpg
+
+-- Conceito: --
+Em Santa Catarina, em virtude da boa qualidade do ar, a melhor e mais econômica água para irrigação por gotejo é a coletada a partir das chuvas (Figura 31). Se considerarmos um consumo exagerado de 1,5L diário de água por tomateiro no ciclo de cultivo, que é de no máximo 180 dias, 2.000 plantas em um abrigo de 1000m2 consumirão cerca de 540.000L de água (2.000 plantas x 1,5L x 180dias). Sabendo-se que a precipitação média anual em Santa Catarina é de 1.500mm, em seis meses choverá 750mm, ou 750L de água por m2. Então poder-se-ão recolher de um abrigo de 1.000m2 cerca de 750.000L, o que significa uma sobra de água de 210.000L (coleta de 750.000L – consumo de 540.000L), que poderá ser empregada em outros cultivos ou atividades da propriedade. Para usufruir regularmente deste recurso natural, o agricultor deverá reservar certo volume para dispô-lo em época de estiagem, já que as chuvas são de frequência irregular.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1986%5D%7B49%7D31-2.jpg
+Legenda: Coleta da água da chuva por meio de calhas laterais instaladas em abrigos de cultivo. Foto: José Angelo Rebelo
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1986%5D%7B337%7D31-1.jpg
+Legenda: Coleta da água da chuva por meio de calhas laterais instaladas em abrigos de cultivo. Foto: José Angelo Rebelo
+
+-- Informações Complementares --
+Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019.

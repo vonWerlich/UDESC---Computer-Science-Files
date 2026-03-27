@@ -1,0 +1,65 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Cigarrinhas-das-pastagens (Deoisspp.;Mahanarva fimbriolata;Notozulia entreriana)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021487&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18336%5D%7B513%7Dcigpasto_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B230%7Dcigpasto_fig01.jpg
+Legenda: 01. Cigarrinha Deois flavopicta. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B304%7Dcigpasto_fig02.jpg
+Legenda: 02. Cigarrinha Deois flavopicta. Fonte: I. Cruz (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B184%7Dcigpasto_fig03.jpg
+Legenda: 03. Cigarrinha Deois flexuosa. Fonte: M. Delaloye (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B407%7Dcigpasto_fig04.jpg
+Legenda: 04. Cigarrinha Deois flexuosa.Fonte: F. Pampeanas (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B232%7Dcigpasto_fig05.jpg
+Legenda: 05. Cigarrinha Deois incompleta. Fonte: J.R. Valerio (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B360%7Dcigpasto_fig06.jpg
+Legenda: 06. Cigarrinha Deois schach. Fonte: F.T. Stautter (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B392%7Dcigpasto_fig07.jpg
+Legenda: 07. Cigarrinha Deois schach.Fonte: A.C. Fiorito Jr. (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B449%7Dcigpasto_fig08.jpg
+Legenda: 08. Cigarrinha Deois knoblauchii.Fonte: A. Earnshaw (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B73%7Dcigpasto_fig09.jpg
+Legenda: 09. Cigarrinha Mahanarva fimbriolata. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B259%7Dcigpasto_fig10.jpg
+Legenda: 10. Cigarrinha Mahanarva fimbriolata.Fonte: AgroBayer (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B413%7Dcigpasto_fig11.jpg
+Legenda: 11. Cigarrinha Notozulia (=Zulia) entreriana. Fonte: G.F. Brahamian (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B134%7Dcigpasto_fig12.jpg
+Legenda: 12. Cigarrinha Notozulia (=Zulia) entreriana, com menos litras nas asas. Fonte: BioMip (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B289%7Dcigpasto_fig21.jpg
+Legenda: 13. Deois flavopicta em pastagem. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B280%7Dcigpasto_fig22.jpg
+Legenda: 14. Deois schach sobre folha de mato. Fonte: C. Timm (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B496%7Dcigpasto_fig23.jpg
+Legenda: 15. Notozulia (=Zulia) entreriana sobre folha de mato. Fonte: A.A. Gabucci
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B450%7Dcigpasto_fig31.jpg
+Legenda: 16. Espuma na base da planta boiando na água. Fonte: E.R. Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B64%7Dcigpasto_fig32.jpg
+Legenda: 17. Espumas na lavoura irrigada. Fonte: E.R. Hickel
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécies: Deois flavopicta (Stall), Deois flexuosa (Walker), Deois incompleta (Walker), Deois schach (F.), Mahanarva frimbiolata (Stal) e Notozulia (= Zulia ) entreriana (Berg) Ordem: Hemiptera Família: Cercopidae Outras espécies de Deois podem ocorrer, dependendo das condições regionais.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B440%7Dcigpasto_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+• Os adultos são similares entre si, apresentando o corpo ovalado, de coloração marrom escura a preta, geralmente com algumas listras amareladas no dorso. Por baixo, o ventre e as pernas são avermelhados. A cabeça é bojuda, com o bulbo de sucção de seiva bem avantajado à frente dos olhos. O tamanho varia com a espécie, mas situa-se entre 8 e 13mm de comprimento. • Os ovos são postos na base da planta ou em palhas junto ao solo. São alongados e de coloração amarelada, semelhantes a minúsculos grãos de arroz. • As ninfas são amareladas e se alojam na base do colmo, rentes ao solo, onde produzem a massa espumosa que as envolve. Essa espuma é facilmente visível, mesmo em cultivo irrigado, e serve para evitar a dessecação das ninfas e protegê-las dos inimigos naturais.
+
+-- CICLO DE VIDA: --
+O ciclo de vida de D. flavopicta em arroz perfaz-se em cerca de 55 dias, havendo um período de pré-oviposição de 10 dias (veja figura abaixo). O ciclo de N. entreriana em pastagem dura cerca de 38 dias, sendo 14 dias a incubação dos ovos e 24 dias o período ninfal. M. fimbriolata , em cana-de-açúcar, tem ciclo de vida médio de 59 dias, sendo 21 dias a incubação dos ovos e 38 o período ninfal. Os adultos vivem 15 dias, com um período de pré-oviposição de 6 dias. Dependendo das condições ambientais (frio hibernal ou seca), os ovos entram em diapausa, só retomando o desenvolvimento embrionário quando estas condições tornam-se propícias. A diapausa de ovos pode durar de 200 a 380 dias.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B445%7Dcigpasto_ciclo.jpg
+Legenda: Ciclo de vida da cigarrinha Deois flavopicta, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de setembro a novembro. Crítico: outubro. Lavoura: da emergência ao perfilhamento. Praga de semeadura em solo seco. As infestações em arroz têm origem nos indivíduos que se criaram em pastagens, que migram, nos surtos populacionais, para outros hospedeiros. O surto primaveril de cigarrinhas geralmente é o mais prejudicial, pois coincide com as plantas em fase inicial de crescimento e mais sensíveis à sucção de seiva. As cigarrinhas-das-pastagens não costumam ser pragas em arroz irrigado, principalmente quando cultivado em sistema pré-germinado. A presença da lâmina d’água sobre o solo é impeditiva ao desenvolvimento das ninfas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18336%5D%7B394%7Dcigpasto_fenologia.jpg
+Legenda: Fenologia da ocorrência da cigarrinha-das-pastagens na lavoura de arroz em Santa Catarina.
+
+-- DANOS: --
+• Tanto adultos quanto ninfas sugam a seiva da planta nas folhas e nas bainhas rente ao solo, respectivamente. Contudo, o maior dano é provocado pelos adultos. As populações de ninfas normalmente são baixas devido ao alagamento dos quadros. • As cigarrinhas, ao se alimentarem, injetam saliva na planta, ocasionando a queima dos tecidos vegetais. Disto resulta amarelecimentos e seca de folhas e, eventualmente, morte de plantas. Uma cigarrinha pode ocasionar a morte de até 10 plantas com uma semana de idade. As cultivares de arroz com crescimento inicial mais vigoroso, como as cultivares Epagri, toleram melhor eventuais infestações de cigarrinha-das-pastagens.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Inundação antecipada dos quadros, tornando o ambiente inóspito aos indivíduos. • Usar sementes tratadas em áreas com histórico de ocorrência de cigarrinhas. • Pulverização a alto volume de inseticida sistêmico, dirigida à base das plantas, quando se atingir o limiar de um ou mais indivíduos ou espumas por 30 colmos até o início do perfilhamento, e dois ou mais após este estágio. O controle biológico é primordialmente feito por aranhas, porém tende a ser ineficaz nos surtos populacionais de adultos, especialmente naqueles que ocorrem no início da primavera, quando as populações de aranhas ainda são baixas nas lavouras. Os adultos têm cores aposemáticas, que inibem a predação por pássaros. As ninfas, por sua vez, estão protegidas pela espuma.
+
+-- Informações Complementares --
+FERREIRA, E.; BARRIGOSSI, J.A.F.; CASTRO, E.M.. Homópteros associados ao arroz . Santo Antônio de Goias: Embrapa Arroz e Feijão, 2003. (Embrapa Arroz e Feijão. Documentos, 152). RIBEIRO, L.P.; CASTILHOS, R.V. Manejo integrado de pragas em pastagens: ênfase em pragas-chave das gramíneas perenes de verão . Florianópolis: Epagri, 2018 52p. (Epagri. Boletim Técnico, 185). VALÉRIO, J.R. Cigarrinha-das-pastagens . Campo Grande: Embrapa Gado de Corte. 2009. 51p. (Embrapa Gado de Corte. Documentos, 179).

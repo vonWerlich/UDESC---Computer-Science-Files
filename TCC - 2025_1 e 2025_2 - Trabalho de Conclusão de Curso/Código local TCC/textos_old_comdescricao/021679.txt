@@ -1,0 +1,18 @@
+Título: BANANA - Cultivares - Williams
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021679&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Williams
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18365%5D%7B274%7Dwillians.jfif
+Folha de bananeira exibindo sintomas patognomônicos da virose do Mosaico da Bananeira (causada por vírus como o BMV - Banana Mosaic Virus), caracterizada por um padrão de mosqueamento com estrias e manchas cloróticas irregulares, de coloração verde-claro a amarelo-esverdeado, que contrastam nitidamente com o tecido verde-escuro sadio da lâmina foliar, evidenciando uma desorganização da clorofila que compromete a capacidade fotossintética da planta.
+FOTO: Foto: Ricardo J. Z. de Negreiros
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAA, subgrupo Cavendish. Planta de porte médio, produtividade alta e frutos grandes. Altamente resistente ao mal do panamá (raça 1), altamente suscetível a nematoides e às sigatokas amarela e negra. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

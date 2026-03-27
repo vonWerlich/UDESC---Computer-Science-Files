@@ -1,0 +1,23 @@
+Título: BANANA - Avaliação de cultivares para o Estado de Santa Catarina
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014987&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Avaliação de cultivares para o Estado de Santa Catarina
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12985%5D%7B44%7Drecomendacao_cultivares.png
+FOTO: Arquivo Epagri
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B7%7Dta1.gif
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B441%7Dta2.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B246%7Dta3.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B341%7Dta4.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B86%7Dta5.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B335%7Dta6.png
+
+-- Informações Complementares --
+• André Boldrin Beltrame (Eng-agrônomo, Dr., Epagri / Itajaí - Epagri)
+• Jorge Luiz Malburg ( Eng-agrônomo, M.Sc., Epagri /Itajaí - Epagri)
+• Gelton Geraldo Fernandes Guimaraes (Eng-agrônomo, Dr., Epagri / Itajaí - Epagri)
+• Ricardo José Zimmermann de Negreiros (Eng-agrônomo, M.Sc., Epagri /Itajaí - Epagri)
+• Marcelo Mendes de Haro (Eng-agrônomo, Dr., Epagri / Itajaí - Epagri)
+• Márcio Sônego (Eng-agrônomo, Dr., Epagri / Itajaí - Epagri)
+• Luana Aparecida Castilho Maro (Eng-agrônoma, Dra., Epagri / Itajaí - Epagri)

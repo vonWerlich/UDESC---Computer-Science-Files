@@ -1,0 +1,286 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13031&amp;isEdicao=N&amp;epagriTEC=S">ARROZ IRRIGADO</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13124&amp;isEdicao=N&amp;epagriTEC=S">01. Caracterização do ambiente de cultivo</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13125&amp;isEdicao=N&amp;epagriTEC=S">Clima</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="11394">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="013125">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11394]{358}mapasc_relevo.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  Caracterização do ambiente de cultivo - Clima 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>INFORMAÇÕES GERAIS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O clima é extremamente importante para o desenvolvimento da cultura do arroz, principalmente fatores como a temperatura, precipitação e radiação. A variabilidade inter-anual desses fatores promove em alguns anos a redução na produtividade da cultura, principalmente quando as baixas temperaturas e radiação solar coincidem com fases fenológicas importantes da planta. No caso dos cultivares adaptados a região ou, aqueles provenientes de melhoramento, o fotoperíodo normalmente não configura como fator limitante, desde que respeitadas os períodos recomendados para o plantio. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>TEMPERATURA:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> As temperaturas adequadas em cada estádio fenológico da cultura são fundamentais para o bom desenvolvimento, com reflexo positivo nas produtividades do arroz.<br> 
+Na <b>tabela abaixo</b>, estão listadas as temperaturas críticas e ótimas para as diferentes fases de desenvolvimento do arroz. Os limites de temperaturas críticas inferiores e superiores são importantes para definição da possibilidade do cultivo em microclimas ou regiões consideradas toleradas.<br>
+Nas condições do Sul do Brasil, a ocorrência de baixas temperaturas entre os meses de maio a setembro constitui fator limitante para a cultura do arroz irrigado; sendo assim, o cultivo normalmente se desenvolve fora desse período. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23400,013125,11394,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11394]{437}tabtempera_2021.jpg">  </a> 
+<br><br>
+<b>RADIAÇÃO SOLAR:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A necessidade da planta em relação à quantidade de radiação disponível está associada à fase fenológica, sendo a reprodutiva a mais exigente. Vários componentes da produção como, número de grãos por panícula, peso de grãos, número de panículas por m², número de espiguetas por panículas e outros, são influenciados pela quantidade de radiação disponível e esta disponibilidade reduz em dias nublados e chuvosos. Indica-se, portanto, que a época de plantio de cada cultivar leve em consideração os momentos críticos da cultura em relação à radiação e que estes coincidam com os meses de maior quantidade de radiação solar, normalmente os meses de dezembro e janeiro. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PRECIPITAÇÃO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A precipitação pluviométrica está relacionada ao atendimento do requerimento de água da lavoura de arroz e também ao manejo e preparo da área de plantio. Em anos de normalidade climatológica a necessidade de água pelas lavouras de arroz e a reserva de água nos mananciais são atendidas em Santa Catarina. Já em anos de estiagem, o atendimento à demanda hídrica da cultura pode ficar seriamente comprometido.<br>
+A média anual de precipitação pluvial varia de 1.200mm no Litoral Sul a 1.900mm no Litoral Norte. Os meses de abril, maio, junho e julho são de menor precipitação e em outubro, novembro, dezembro e janeiro ocorrem as maiores precipitações. Estas, por sua vez, coincidem com as épocas de maior demanda hídrica da cultura. A frequência de ocorrência de estiagens, no período de maior demanda de água na lavoura, é em média 50%. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CLIMA NAS REGIÕES PRODUTORAS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Na <b>tabela abaixo</b> são apresentados os valores médios de temperatura média, máxima e mínima, de radiação total e de precipitação total para o período de agosto a fevereiro (época de cultivo) em quatro regiões produtoras no Estado, em função das áreas mapeadas de produção de arroz. Essas variáveis foram estimadas com base em modelos estatísticos e matemáticos e observa-se que a variação existente é pequena, dada a concentração da produção de arroz irrigado na parte leste do Estado; em áreas com condições semelhantes de relevo nas regiões de cultivo e já enquadradas nas condições climáticas ideais ao desenvolvimento do arroz. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23401,013125,11394,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11394]{411}tabcondregiao_2021.jpg">  </a> 
+<br><br>
+<b>CLIMA E SEMEADURA:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> De modo geral, a melhor época de semeadura é aquela em que o período reprodutivo das plantas de arroz coincide com a maior disponibilidade de radiação e temperatura. Na maioria das regiões de cultivo de Santa Catarina a maior incidência de radiação solar ocorre no período de dezembro a fevereiro, sendo a semeadura entre final de setembro e início de novembro a mais indicada para a maior parte das regiões produtoras do Estado.<br>
+A análise em conjunto das variáveis de solo e clima, permite a definição dos períodos de cultivo do arroz irrigado em Santa Catarina e as datas recomendadas são publicadas em portarias específicas para cada safra no Ministério na Agricultura, Pecuária a Abastecimento em função do ciclo da cultura e município. Na <b>tabela abaixo</b> são apresentados os períodos de plantio praticados atualmente nas quatro regiões produtoras do Estado.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23461,013125,11394,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11394]{26}01_tabepocaplantio_2021.jpg">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+FICK, S.E.; HIJMANS, R.J. WorldClim 2: new 1km spatial resolution climate surfaces for global land areas. <b>International Journal of Climatology</b>, v.37, n.12, p.4302-4315, 2017.<br>
+FU, P.; RICH, P.M. A geometric solar radiation model with applications in agriculture and forestry. <b>Computers and Electronics in Agriculture</b>, v.37, p.25–35,  2002.<br>
+MASSIGNAM, A.M.; PANDOLFO, C. <b>Estimativa das médias das temperaturas máximas, médias e mínimas do ar decendiais e anuais do Estado de Santa Catarina</b>. Florianópolis: Epagri. Série Documentos. n.224, 2006.<br>
+YOSHIDA, S. <b>Fundamentals of rice crop science</b>. Los Baños, Laguna, Philippines: IRRI, 1981. p. 72. 269p.
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Cristina Pandolfo (Dr. em Climatologia - Epagri)<br> &nbsp;&nbsp; Clima e zoneamento agroclimático </font> 
+<br> <font size="2">• Marcos Lima Campos do Vale (Dr. em Solos e Nutrição de Plantas - Epagri)<br> &nbsp;&nbsp; Solos e adubação </font> 
+<br><br><br> <font size="2"> Criado em: 23/07/2021</font>
+<br> <font size="2"> Última atualização: 13/06/2023</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=013125&amp;cdElemento=11394">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=11394');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

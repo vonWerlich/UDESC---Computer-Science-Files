@@ -1,0 +1,6 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas) - A praga é um inseto (tem três pares de pernas, antenas e asas) - A praga não é um besouro. É outro tipo de inseto - A praga é um inseto sugador. Tem uma espécie de agulha na cabeça, para picar as plantas - A praga é um percevejo. A agulha se origina no topo da cabeça - O percevejo tem o corpo robusto, em forma de escudo triangular, de coloração marrom, com ou sem manchas amarelas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016905&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16901%5D%7B319%7Dchave_fig14.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16905%5D%7B249%7Dchv_pcolmoa.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16905%5D%7B73%7Dchv_pgraoa.jpg

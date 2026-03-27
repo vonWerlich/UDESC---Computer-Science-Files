@@ -1,0 +1,23 @@
+Título: COMPOSTAGEM - Manejo da compostagem - Temperatura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018472&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16102%5D%7B531%7Dfigura_8a.jpg
+
+-- MANEJO DA COMPOSTAGEM: --
+Para o manejo da pilha de compostagem, depois de instalada, deve-se monitorar a temperatura, a umidade e a aeração.
+
+-- TEMPERATURA: --
+A temperatura da compostagem é um indicador para verificar se a mistura dos materiais e o manejo da umidade e aeração estão adequados. O esperado de uma compostagem é que logo no início se atinja temperaturas próximas a 60 e 70oC, que vai declinando lentamente com o passar do tempo, conforme a Figura 7. Caso haja alterações nesse padrão de temperatura, deve-se rever a mistura realizada, as aerações e a umidade das pilhas de compostagem.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16102%5D%7B370%7Dfigura_7.jpg
+Legenda: Figura 7. Dinâmica da temperatura de três leiras de compostagem formadas por esterco de aves com resíduos de palmito, capim-elefante e resteva de milho. Setas indicam o momento de revolvimento manual das pilhas. Foto: Rafael Ricardo Cantú
+
+-- TEMPERATURA: monitoramento --
+A temperatura das leiras de compostagem pode ser monitorada por meio de termômetros convencionais (Figura 8A) ou por equipamentos de leituras automáticas com maior precisão e capacidade de armazenamento de dados (Figura 8B).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16102%5D%7B272%7Dfigura_8a.jpg
+Legenda: Figura 8A. Monitoramento da temperatura nas pilhas de compostagem com termômetro convencional (A) e por datalogger (B). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16102%5D%7B196%7Dfigura_8b.jpg
+Legenda: Figura 8B. Monitoramento da temperatura nas pilhas de compostagem com termômetro convencional (A) e por datalogger (B). Foto: Rafael Ricardo Cantú
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

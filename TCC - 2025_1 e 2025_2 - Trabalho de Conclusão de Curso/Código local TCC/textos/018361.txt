@@ -1,0 +1,13 @@
+Título: CEBOLA - Escolha do cultivar - Serengeti
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018361&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16008%5D%7B102%7Dserengeti.png
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Nunhems Polinização: Híbrido Cor da película do bulbo: Amarela Cor da polpa do bulbo: Branca
+
+-- OBSERVAÇÃO: --
+- Pungência suave; - Boa tolerância ao Fusarium; - Excelente tolerância à raiz rosada.
+
+-- Informações Complementares --
+Informações coletadas no site da empresa ( https://www.nunhems.com/br/pt.html ).

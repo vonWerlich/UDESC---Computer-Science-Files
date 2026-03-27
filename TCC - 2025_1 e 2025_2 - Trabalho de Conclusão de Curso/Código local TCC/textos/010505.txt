@@ -1,0 +1,73 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Povoamento
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010505&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17919%5D%7B163%7Dalevino_1.jpg
+
+-- ORIGEM DOS ALEVINOS (GENÉTICA): --
+A linhagem GIFT: Conhecer o fornecedor dos alevinos é fundamental. A primeira questão é a linhagem dos alevinos. Em Santa Catarina, as principais linhagens de tilápia são derivadas da GIFT, sigla em inglês que significa “Genetic Improvement Farmed Tilapia”. A linhagem GIFT é uma variedade da tilápia-do-nilo desenvolvida por meio de melhoramento genético por seleção nas Filipinas pela empresa World Fish Center. O melhoramento dessa espécie teve início nos anos 80 e foi amplamente difundido na Ásia no ano 2000, tendo sido introduzida no Brasil cinco anos após pela Universidade Estadual de Maringá (UEM) com auxílio da antiga Secretaria de Aquicultura e Pesca (SEAP). A UEM deu continuidade ao melhoramento dessa linhagem no Brasil, difundindo para diversos produtores de alevinos de Santa Catarina e do país.
+
+-- Empresas envolvidas no melhoramento: --
+Algumas empresas privadas e governamentais adquiriram esta genética e estão realizando programas de melhoramento. As duas principais origens de linhagens derivadas da GIFT que estão fornecendo matrizes para produtores de alevinos são: a empresa Realfish, sediada no Paraná (linhagem TILAMAX), e a Epagri, cujo Centro de Desenvolvimento em Aquicultura e Pesca (Cedap) inclui o Campo Experimental de Piscicultura de Itajaí (Cepit) localizada no município de Itajaí-SC (linhagem Epagri SC).
+
+-- A Epagri: --
+A Epagri vem trabalhando na seleção de tilápias mais adaptadas às condições de temperatura (clima subtropical) e sistema de cultivo (viveiro escavado) utilizado em Santa Catarina. Pesquisas da Epagri comprovaram um ganho no peso final das tilápias selecionadas ao longo das gerações em relação à geração anterior. Hoje, o programa já se encontra em sua quarta geração. Além disso, o programa tem realizado estudos de genotipagem do DNA, estudos morfométricos e avaliação do desempenho a campo desse material genético, com o intuito de assegurar a qualidade do material entregue aos produtores.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17919%5D%7B68%7Dtilapia_1.jpg
+Legenda: Tilápia do programa de melhoramento da Epagri. Foto: Haluko Massago
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17919%5D%7B116%7Dtilapia_3.jpg
+Legenda: Tilápia do programa de melhoramento da Epagri. Foto: Haluko Massago
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17919%5D%7B444%7Dtilapia_2.jpg
+Legenda: Tilápia do programa de melhoramento da Epagri. Foto: Haluko Massago
+
+-- QUALIDADE DO ALEVINO: --
+Abaixo apresentamos na tabela a seguir algumas características que podem ser observada para avaliar a qualidade do alevino: Inversão sexual: maior que 99%. A cada 1.000 alevinos o lote deverá possuir no máximo nove indivíduos não machos (fêmeas ou intersexos). Aspectos sanitários (visual): - Alevinos com aspectos saudáveis, sem sinais de doenças bacterianas (columnariose e septicemia); - Brânquias com cor vermelho vivo, sem sinais de lesões e necroses; - Baixa presença de trichodina e monogenea no muco e brânquia (análise a fresco no microscópio). Aspectos nutricionais (visual): - Alevino I > maior que 2cm; - Região dorsal bem desenvolvida; - Brânquia com coloração vermelho vivo. Uniformidade: - Alevinos classificados em uma faixa de tamanho de abertura de malha com variação máxima de 2 a 4mm entre elas. Por exemplo, alevinos que passaram na malha 12mm, classificar em no máximo uma malha 8mm.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17919%5D%7B143%7Dalevino_1.jpg
+Legenda: Qualidade do alevino. Foto: Leandro Bortoli
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17919%5D%7B205%7Dalevino_4.jpg
+Legenda: Qualidade do alevino. Foto: Haluko Massago
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17919%5D%7B301%7Dalevino_3.jpg
+Legenda: Qualidade do alevino. Foto: Haluko Massago
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17919%5D%7B6%7Dalevino_2.jpg
+Legenda: Qualidade do alevino. Foto: Haluko Massago
+
+-- PERÍODO DE POVOAMENTO: --
+- O período mais indicado para o povoamento dessa espécie em viveiro escavado fica entre os meses de outubro a abril. - Considerar a temperatura mínima de 20°C da água do viveiro para realizar o povoamento; - Devido ao clima subtropical, o estado de Santa Catarina acaba naturalmente limitando a oferta natural de alevinos de tilápia para os meses mais quentes do ano (início da primavera ao outono); - A transferência dos peixes do viveiro berçário para o de engorda seja feita antes da chegada do inverno (ou de uma mudança brusca de temperatura, entrada de sistemas de baixa pressão, etc.); - Os alevinos são mais sensíveis ao frio e, por isso, são mais suscetíveis às doenças relacionadas a essa época de grandes variações de temperatura.
+
+-- TRANSPORTE E ACLIMATAÇÃO: --
+Há dois tipos de transportes comumente utilizados para tilápia: o transporte em sacos plásticos ; ou em caixas de transporte, popularmente chamadas de “transfish” .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17919%5D%7B169%7Dcaixa_-_copia.jpg
+Legenda: (A) Caixas de transporte (transfish). Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17919%5D%7B35%7Dcaixa.jpg
+Legenda: (B) Sacos plásticos.Foto: Bruno Corrêa da Silva
+
+-- RECOMENDAÇÕES: --
+Depuração: Para o transporte os alevinos devem estar depurados de 24 a 48h, ou seja, mantidos em água limpa com renovação, evitando a ingestão das fezes pelo peixe, sem contato com o solo e sem alimentação (inerte ou natural) para o total esvaziamento do estômago e trato intestinal, evitando, assim, problemas por excesso de fezes e compostos tóxicos (amônia, sulfetos e CO 2 ) na água do transporte.
+
+-- Quantidade: --
+As quantidades adequadas de peixe para o transporte em cada sistema estão apresentadas na tabela a seguir:
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17919%5D%7B242%7Dquantidade_de.jpg
+Legenda: Quantidades adequadas de peixe para o transporte em cada sistema. Fonte: Bruno Corrêa da Silva
+
+-- Horário: --
+Recomenda-se que o transporte seja realizado preferencialmente nas primeiras horas da manhã, quando a temperatura está mais amena.
+
+-- Aparência dos animais: --
+Examinar a aparência geral dos animais: natação ativa, integridade das nadadeiras e ausência de feridas no corpo.
+
+-- Ar nos sacos plásticos: --
+Em caso do transporte em sistema fechado, os sacos plásticos devem chegar no local de destino estufados, isto é, contendo ar.
+
+-- Produtos para transporte: --
+É indicado para o transporte, o uso de alguns produtos como sal (4 kg/m³), pastilhas efervescentes, e/ou produtos antimicrobianos (por exemplo o Biogermex), com intuito de diminuir o estresse do transporte e prevenir doenças e/ou mortalidades durante e após o transporte.
+
+-- ACLIMATAÇÃO E SOLTURA EM SACO PLÁSTICO: --
+Para que os peixes não sofram um choque de temperatura nem de pH no momento da soltura, é importante o produtor seguir alguns passos conforme o sistema adotado: - Acondicionar os sacos plásticos fechados dentro do viveiro por um período de 20 a 40 minutos, é esperado que a temperatura da água do saco se equilibre com a do viveiro (a diferença na temperatura da água não deve ser superior a 2°C); - O produtor deve abrir o saco plástico e adicionar um pouco da água do viveiro para dentro do saco (a quantidade deve ser pelo menos o dobro do volume de água já existente dentro do saco). Essa medida evitará que os peixes sofram um choque por pH, cujos valores tendem a reduzir nos transportes por saco plástico acima de 4h; - Aguardar mais alguns minutos, retirar os peixes com o auxílio de um puçá e os libertar no viveiro.
+
+-- ACLIMATAÇÃO E SOLTURA NO TRANSFISH: --
+- A aclimatação deve ser feita na própria caixa de transporte, liberando aproximadamente 60% da água de transporte e completando lentamente com a água do viveiro receptor; - Aguarde por aproximadamente 30 minutos e, após, liberte os peixes com auxílio de puçá.
+
+-- QUAL DENSIDADE UTILIZAR EM CADA FASE: --
+IMPORTÂNCIA: O povoamento de peixes é realizado em termos de número de alevinos por metro quadrado. Portanto, é fundamental que o produtor saiba exatamente a área do seu viveiro para não correr risco de colocar mais peixes do que o seu sistema suporta. Aspectos como: as características do viveiro e disponibilidade de água; manejos da qualidade de água e aeradores; o tamanho de comercialização; o conhecimento do técnico ou produtor responsável pela propriedade; e a capacidade financeira de custeio; todos esses fatores nortearão quanto o produtor terá capacidade de produzir. DENSIDADE NO BERÇÁRIO: As densidades nos berçários podem variar de 30 a 100 peixes por m², dependendo dos fatores citados acima. Sendo assim, nos berçários poderemos obter biomassa final de 10 a 30 toneladas por hectare (1 a 3 kg por m²). DENSIDADE NA ENGORDA: A Epagri preconiza que produtores com pouca experiência e/ou baixo recurso hídrico, dependendo da capacidade financeira para o custeio, produzam, por safra, cerca de 15 a 20 toneladas por hectare (1,5 a 2kg por m²). Contudo, se o produtor ou técnico responsável já possui experiência na atividade, a propriedade possui adequado recurso hídrico e o produtor possui capacidade de custeio adequada para tal, a Epagri recomenda que a produção seja de 20 a 50 toneladas por hectare (2 a 5kg por m²).
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

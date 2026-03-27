@@ -1,0 +1,23 @@
+Título: BANANA - Manejo do bananal - Desvio de filhotes e de cachos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021692&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Manejo do bananal
+Desvio de filhotes e de cachos
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18379%5D%7B388%7Ddesvio_de_perfilhos.jpg
+Trata-se de um cacho vertical, robusto e alongado da cultivar de banana BRS SCS Belluna, em estágio de pré-maturação, caracterizado por múltiplas pencas (mãos) organizadas de forma radial em torno de um ráquis central espesso e fibroso de tonalidade verde-acinzentada; cada fruto individual (dedo) apresenta um formato curto e levemente curvo, com uma coloração verde vibrante e uniforme, finalizando em ápices bem definidos que frequentemente exibem um pequeno remanescente floral escuro ou um anel acastanhado, sustentados por pedúnculos curtos e grossos.
+FOTO: Keny H. Marigueli
+
+-- DESCRIÇÃO --
+Prática utilizada para evitar o contato direto das folhas do perfilho seguidor com as frutas do cacho da plana mãe, em situações de manejo incorreto do desbastes de perfilhos, ou quando não se tem outra opção de seleção do melhor perfilho seguidor.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18379%5D%7B332%7Ddesvio_de_perfilhos_1.jpg
+Galpão industrial onde centenas de caixas plásticas de polipropileno, predominantemente verdes, são utilizadas para o armazenamento e transporte de pencas de banana destinadas ao consumidor final, apresentando um design técnico com estrutura vazada e múltiplas perfurações estrategicamente projetadas para otimizar a ventilação interna, controlar a temperatura, dissipar o gás etileno (fitorregulador de amadurecimento) e, consequentemente, preservar a integridade física, a qualidade e prolongar a vida útil da fruta durante a logística pós-colheita, estando as mesmas organizadas em pilhas elevadas sobre paletes de madeira para otimizar o espaço e facilitar o manuseio mecanizado.
+
+-- COMO E QUANDO FAZER --
+Os cachos devem ser desviados após a abertura total das pencas, pois o deslocamento antes disso pode deformá-los. Para o desvio, ata-se um fitilho entre dois nós da ráquis, abaixo da última penca do cacho a ser desviado, tensionando-o e atando-o numa planta vizinha. Os filhotes podem ser afastados (empurrados) com utilização de roletes de pseudocaule, pedaços de bainhas foliares verdes ou ainda serem tensionados com bainhas foliares secas. Estes materiais não ferem os perfilhos e se degradam em tempo adequado para a retomada de crescimento dos mesmos em melhores posições( 1 )( 2 ).
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p. ( 2 )LICHTEMBERG, L.A.; MALBURG, J.L. Desvio de cachos e filhotes da bananeira. Informativo SBF, Brasília, DF, v.16, n.3, p.24-27, 1997.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p. ( 2 )LICHTEMBERG, L.A.; MALBURG, J.L. Desvio de cachos e filhotes da bananeira. Informativo SBF, Brasília, DF, v.16, n.3, p.24-27, 1997.
+• Jorge Luiz Malburg (Msc. - Epagri) Pesquisador - Epagri - Itajaí

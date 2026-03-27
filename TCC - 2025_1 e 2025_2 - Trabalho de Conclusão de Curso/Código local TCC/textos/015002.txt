@@ -1,0 +1,18 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Traça-do-tomateiro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015002&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B13000%5D%7B512%7D54-2_-_copia.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13000%5D%7B436%7D54-2.jpg
+Legenda: Danos causados pela traça-do-tomateiro nos frutos. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13000%5D%7B253%7D54-1.jpg
+Legenda: Lagarta da traça-do-tomateiro se alimentando em folhas de tomateiro. null
+
+-- IDENTIFICAÇÃO DA PRAGA: --
+A traça-do-tomateiro (Tuta absoluta) – (Meyrick, 1917) (Lepidoptera: Gelechiidae) é uma pequena mariposa de coloração cinza e cerca de 10 mm de envergadura e tem se mostrado um dos grandes problemas mundiais da tomaticultura moderna. Suas lagartas medem menos de 10 mm, apresentam coloração esverdeada e uma mancha parda no dorso.
+
+-- DANOS: --
+Se alimentam tanto da planta de tomate durante todos os seus estádios de desenvolvimento, nas folhas, ramos e brotações. Porém, no fruto o ataque deste inseto causa depreciação imediata do fruto comercial, perfazendo um prejuízo irreversível.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

@@ -1,0 +1,47 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Caramujo-pequeno (Physa acuta)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016979&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11350%5D%7B456%7Dcmujpequeno_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B469%7Dcmujpequeno_fig01.jpg
+Legenda: 01. Caramujos-pequenos. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B236%7Dcmujpequeno_fig02.jpg
+Legenda: 02. Caramujo-pequeno. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B380%7Dcmujpequeno_fig03.jpg
+Legenda: 03. Caramujo-pequeno (vivo) e concha.Composição: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B197%7Dcmujpequeno_fig03b.jpg
+Legenda: 04. Visão inferior mostrando a ausência de opérculo. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B152%7Dcmujpequeno_fig06.jpg
+Legenda: 06. Postura do caramujo-pequeno em planta aquática. Fonte: NLY (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B461%7Dcmujpequeno_fig41.jpg
+Legenda: 11. Caramujos-pequenos em lavoura de arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B22%7Dcmujpequeno_fig42.jpg
+Legenda: 12. Acúmulo de caramujos-pequenos na entrada de água da quadra. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B501%7Dcmujpequeno_fig43.jpg
+Legenda: 13. Caramujos-pequenos agrupados em lavoura de arroz. Fonte: D.S.Eberhardt (remasterizada)
+
+-- INFORMAÇÕES GERAIS: Espécie neutra --
+Espécie: Physa acuta (Draparnaud) Ordem: Pulmonata Família: Physidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B417%7Dcmujpequeno_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+• Pequeno caramujo de cor escura com 1 a 1,5cm de comprimento. A concha é espiral alongada de coloração pardo-escura, quase preta. • Os ovos são postos agrupados dentro da água, em massas mucilaginosas aderidas a substratos diversos, inclusive na concha de coespecíficos.
+
+-- CICLO DE VIDA: --
+Esses caramujos chegam na maturidade sexual aos 60 dias, quando atingem de 5 a 7mm de comprimento. A incubação dos ovos varia de 3 a 5 dias e a longevidade dos adultos pode chegar a um ano. Esse caramujo pode sobreviver por até 36h fora da água, retraído na concha.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B417%7Dcmujpequeno_ciclo.jpg
+Legenda: Ciclo de vida do caramujo-pequeno, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de agosto a março. Crítico: setembro/outubro. Lavoura: da semeadura à maturação.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B514%7Dcmujpequeno_fenologia.jpg
+Legenda: Fenologia da ocorrência do caramujo-pequeno na lavoura de arroz em Santa Catarina
+
+-- DANOS: --
+O caramujo-pequeno não chega a ser nocivo ao arroz irrigado, embora ocorra em altas populações nas lavouras. Alguns indivíduos podem, eventualmente, roer algumas radículas na época da semeadura, porém sem comprometer o desenvolvimento da plântula.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Não é necessário planejar estratégias de controle para essa espécie de caramujo. • Alternar sistemas de cultivo do arroz, adotando semeadura em solo seco com alguma cultivar CL.
+
+-- Informações Complementares --
+DAL ZOTTO, D; HICKEL, E.R.; MARTINS, G.N. Predação de sementes e plântulas de arroz pelos caramujos Biomphalaria tenagophila e Physa acuta . In: CONGRESSO BRASILEIRO DE ARROZ IRRIGADO, 11., 2019, Balneário Camboriú. Anais ... Itajaí: Epagri, 2019.

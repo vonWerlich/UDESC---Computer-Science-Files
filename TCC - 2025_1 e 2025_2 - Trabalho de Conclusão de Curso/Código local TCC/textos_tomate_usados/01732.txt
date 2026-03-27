@@ -1,0 +1,36 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Antracnose (Colletotrichum spp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=01732&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1555%5D%7B317%7Dcole3.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1555%5D%7B529%7D448.jpg
+Legenda: As lesões radiculares são muito importantes, o córtex fortemente alterado tem uma tonalidade marrom. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1555%5D%7B492%7D56.jpg
+Legenda: Estas estruturas negras, cujo diâmetro é inferior a um milímetro, são na verdade microscleródios de Colletotrichum (antracnose). Eles estão mais ou menos imersos nos tecidos sob a epiderme deste fruto de tomate. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1555%5D%7B284%7D450.jpg
+Legenda: Nesta porção da raiz, pode-se perceber facilmente os pontos pretos. Lesões marrons profundas estão progredindo em todo o sistema radicular. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1555%5D%7B216%7D451.jpg
+Legenda: No final da evolução, o córtex pode ter microscleródios pretos que são claramente visíveis no cilindro central (pontos pretos). Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1555%5D%7B330%7Dcole2.jpg
+Legenda: Sintomas típicos da doença. Foto: Ailton Reis (Circular Técnica- Embrapa)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1555%5D%7B493%7Dcole3.jpg
+Legenda: Sintomas típicos da doença. Foto: Fagro
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1555%5D%7B506%7D449.jpg
+Legenda: Uma observação mais aproximada permite distinguir partes necróticas marrons cobertas com manchas pretas. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1555%5D%7B263%7D55.jpg
+Legenda: Várias manchas amareladas ligeiramente deprimidas são visíveis neste fruto. Seu centro gradualmente se torna marrom. Fonte: D. Blancard (INRA)
+
+-- SINTOMAS: --
+A antracnose dos frutos, aparece inicialmente, com pequenas pontuações de coloração marrom, que aumentam de tamanho e podem coalescer, formando extensa área circular e deprimida. Esporos de coloração salmão são liberadas pelas lesões e pequenos escleródios pretos são produzidos por lesões velhas (2). O fungo pode infectar os frutos ainda verdes (3). Nas raízes, esse fungo é responsável principalmente por lesões marrons. Radicelas ficam em pequena quantidade porque a podridão cortical marrom acaba com tudo. O córtex das raízes principais apresenta lesões castanho-escuras, mais ou menos suberizadas. Uma podridão da base do caule pode ser observada. Uma observação mais aproximada permite distinguir partes necróticas marrons cobertas com manchas pretas (4).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+1. Condições climáticas favoráveis. Este fungo é capaz de se desenvolver numa ampla faixa de temperatura, com temperatura ótima para germinação de seus conídios em 30°C. Nesta temperatura, os apressórios são formados após 6 horas. Não ocorre a infecção em temperaturas inferiores a 7°C e é fortemente desacelerado com temperaturas abaixo de 10°C e acima de 35°C. A esporulação em frutos é ótima a 28°C. Alta higrometria e a presença de água líquida é necessária para a germinação de esporos. Períodos de chuva e irrigação por aspersão favorecem a antracnose. A água livre no fruto durante várias horas, relacionada com a duração e frequência das chuvas e irrigação por aspersão, aumenta consideravelmente o seu impacto na cultura. Solos úmidos e excesso de salinidade predispõem as plantas a ataques por Colletotrichum.
+
+-- CONTROLE: --
+- Fazer plantio de tomate estaqueado, pois a ocorrência da doença é menor (2). - Manejo correto da irrigação, para evitar molhamento da parte aérea (2). - Retirar plantas doentes para evitar disseminação (2). - Pulverizar a cultura, preventivamente, desde o início da frutificação, com fungicidas registrados no Ministério da Agricultura, Pecuária e Abastecimento (MAPA)(2).
+
+-- OBSERVAÇÕES: --
+- Não existe variedades comerciais com resistência. - O Colletotrichum spp. é o principal agente causal de doenças na família Solanaceae. É um fungo de solo e pode sobreviver na área por vários anos. Produzem conídios que são disseminados por chuva, irrigação, vento, sementes e implementos contaminados (1).
+
+-- Informações Complementares --
+(1) Marek, J.; Azevedo, D. Campo e negócios: Controle da antracnose em solanáceas. Nov. 2016. (2) Reis, A.; Boiteux, L.S.; Henz, G. P. Circular Técnica: Antracnose em hortaliças da família solanaceae. Brasília: Embrapa: 2009. (3) Lopes C.A.; Santos J.R.M. Doenças do tomateiro. Brasília: Embrapa; 1994. (4) Le portail INRA e-phytia héberge plusieurs applications en santé des plantes. Site: http://ephytia.inra.fr/fr/Home/index. Acesso em 28/08/2019.

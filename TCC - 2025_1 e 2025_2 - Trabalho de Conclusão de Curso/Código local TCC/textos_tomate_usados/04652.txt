@@ -1,0 +1,26 @@
+Título: TOMATE - Nutrição Mineral - Zinco
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04652&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B774%5D%7B431%7D109.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B774%5D%7B44%7D109.jpg
+Legenda: Sintomas de deficiência de Zinco. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B774%5D%7B424%7Dcaptura_de_tela_2019-02-21_13.55.38.png
+Legenda: Sintomas de deficiência de zinco em folhas de tomateiro. Foto: Rosa Honorato de Oliveira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B774%5D%7B104%7Dcaptura_de_tela_2019-02-21_13.55.38_-_copia.png
+Legenda: Sintomas de deficiência de zinco em folhas de tomateiro. Foto: Rosa Honorato de Oliveira
+
+-- Informações gerais: --
+Em solos de regiões tropicais o zinco juntamente com o boro são os micronutrientes que mais promovem deficiências nas culturas (5) (7).
+
+-- Como identificar: --
+Os sintomas de deficiência manifestam-se nas partes novas das plantas, com o encurtamento de entrenós, leve clorose nas folhas (1), sendo que as folhas permanecem verde escuro com branqueamento clorótico ao longo da nervura principal (2), e deformação e redução do tamanho das folhas quando a deficiência é mais intensa (1). Os tecidos permanecem fortes e coriáceos, porém com uma leve curvatura para baixo (2). As raízes ficam escuras, grossas e sem ramificações laterais (6).
+
+-- O que pode estar ocorrendo: --
+- Solos arenosos e com excesso de calagem e altas concentrações de fósforo na solução favorecem o aparecimento do problema (1). - O problema é mais comum em solos orgânicos e solos erodidos (1). - Fertilização inadequada para o fornecimento de zinco (6). - Baixas concentrações de zinco na solução do solo (6). - Baixo teor de matéria orgânica (6). - Baixa temperatura (7). - Altas concentrações de Mg, Cu, Fe, Mn e Mo na solução do solo podem afetar a disponibilidade e absorção de Zn (7).
+
+-- Controle: --
+- Controle preventivo com sulfato de zinco (5 a 10 kg ha-1) (1). - Correção por meio de pulverizações semanais com sulfato de zinco, na concentração de 0,15% (1).
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) YARA. Disponível em: https://www.yarabrasil.com.br/nutricao-de-plantas/tomate/deficiencias---tomate/deficiencia-de-zinco---tomate/ (3) Embrapa hortaliças. Disponível em: https://sistemasdeproducao.cnptia.embrapa.br/FontesHTML/Tomate/TomateIndustrial_2ed/deficiencias.htm (4) Rosa Honorato de Oliveira et al. Caracterização de sintomas visuais de deficiência de micronutrientes em tomateiro do grupo salada. Semina: Ciências Agrárias, Londrina, v. 30, suplemento 1, p. 1093-1100, 2009. (5) FAQUIN, V. Nutrição Mineral de Plantas. Lavras: UFLA/FAEPE, 2005. (6) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474. (7) MALAVOLTA, E. Manual de nutrição mineral de plantas. 1. ed. São Paulo: Editora Agronômica Ceres, 2006.

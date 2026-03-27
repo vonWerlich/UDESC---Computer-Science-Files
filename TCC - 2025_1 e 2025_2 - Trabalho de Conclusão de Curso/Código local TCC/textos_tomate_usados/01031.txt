@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Sagatan F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=01031&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B913%5D%7B191%7Dsagatan_red.jpg
+
+-- FICHA TÉCNICA: --
+Crescimento: Determinado. Planta: Vigorosa com excelente cobertura foliar e proteção dos frutos. Fruto: Redondo, levemente achatado, Multilocular, Longa vida (superior a 15 dias em fruto vermelho) . Peso: 200-220 gramas. Colheita: 105 a 115 dias após a semeadura.
+
+-- RESISTÊNCIAS: --
+Fol: 0 (US1): Fusarium oxysporum f. sp. lycopersici race 0 (ex 1)* 9-HR Fol: 1 (US2) : Fusarium oxysporum f. sp. lycopersici race 1 (ex 2)* 9-HR Pi: Phytophthora infestans* 8-IR S: Stemphylium spp.* 9-HR Ss: Stemphylium solani* 9-HR Va: Verticillium albo-atrum* 9-HR Vd: Verticillium dahliae* 9-HR TMV 0: Tobacco Mosaic Virus race 0* 9-HR ToMV 0: Tomato Mosaic Virus strain 0* 9-HR ToMV 1: Tomato Mosaic Virus strain 1* 9-HR ToMV 1.2: Tomato Mosaic Virus strain 1.2* 9-HR ToMV 2: Tomato Mosaic Virus strain 2* 9-HR TSWV: Tomato Spotted Wilt Virus* 9-HR 9-HR* - Alta tolerância 8-IR** – Intermediária tolerância
+
+-- RECOMENDAÇÕES AGRONÔMICAS: --
+Época de Plantio: Ano todo. Condições de Cultivo: Campo Aberto. Espaçamento para Cultivo: 1,0-1,4m x 0,4-0,8m (linha simples). Desbrota: Recomenda-se a retirada dos brotos laterais apenas antes do surgimento da 1ª. Penca. Acima da primeira penca não se recomenda fazer desbrota. Nutrição: Realizar boa adubação no Plantio (NPK), com especial atenção para o Fósforo (P) . Sugestão para as adubações de cobertura: observar relação N:K de 1:1 até 1ª colheita em seguida aumentando K até chegar 1:2 (N:K) no final da colheita. Atenção para o período de formação dos frutos, onde há grande demanda dos nutrientes Cálcio (Ca) e Boro (B) . Estágio de Colheita: Frutos podem ser colhidos no estágio verde ou transição para vermelho (cor de cana ou pintando).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.syngenta.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.syngenta.com.br.

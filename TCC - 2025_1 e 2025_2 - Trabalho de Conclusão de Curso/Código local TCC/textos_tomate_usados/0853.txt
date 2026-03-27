@@ -1,0 +1,72 @@
+Título: TOMATE - Cultivares - BRS Portinari F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0853&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B730%5D%7B519%7Dportinari.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agrocinco; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: C1-5 - Cladosporium 1-5; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: Ty1 - Tomato yellow leaf curl virus 1 (ToLCV); Tamanho do fruto: Grande (231 a 250 g); Tamanho do fruto: Médio (201 a 230 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido longa vida indeterminado de alto rendimento, ótimo enfolhamento, frutos longa vida, pesados (220g a 240g). Fruto com excelente coloração e com ótimo comportamento sob chuvas. Boa tolerância de campo a bactérias. Origem: Agrocinco Seeds of Value e Embrapa Hortaliças.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B355%7Dportinari_01.jpg
+Legenda: 1)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B350%7Dportinari_10.jpg
+Legenda: 10)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B234%7Dportinari_11.jpg
+Legenda: 11)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B433%7Dportinari_12.jpg
+Legenda: 12)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B325%7Dportinari_13.jpg
+Legenda: 13)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B251%7Dportinari_14.jpg
+Legenda: 14)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B314%7Dportinari_15.jpg
+Legenda: 15)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B174%7Dportinari_16.jpg
+Legenda: 16)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B440%7Dportinari_17.jpg
+Legenda: 17)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B272%7Dportinari_18.jpg
+Legenda: 18)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B367%7Dportinari_19.jpg
+Legenda: 19)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B256%7Dportinari_02.jpg
+Legenda: 2)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B412%7Dportinari_20.jpg
+Legenda: 20)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B251%7Dportinari_21.jpg
+Legenda: 21)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B360%7Dportinari_22.jpg
+Legenda: 22)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B544%7Dportinari_23.jpg
+Legenda: 23)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B87%7Dportinari_24.jpg
+Legenda: 24)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B212%7Dportinari_25.jpg
+Legenda: 25)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B363%7Dportinari_26.jpg
+Legenda: 26)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B257%7Dportinari_03.jpg
+Legenda: 3)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B490%7Dportinari_04.jpg
+Legenda: 4)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B363%7Dportinari_05.jpg
+Legenda: 5)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B538%7Dportinari_06.jpg
+Legenda: 6)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B305%7Dportinari_07.jpg
+Legenda: 7)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B483%7Dportinari_08.jpg
+Legenda: 8)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B730%5D%7B117%7Dportinari_09.jpg
+Legenda: 9)null
+
+-- RESISTÊNCIA: --
+Verticillium 1, Fusarium 1 e 2, Cladosporium 2, Vírus do Mosaico do Tabaco, TY, Nematóide.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.agrocinco.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.agrocinco.com.br/2013/produto_detalhes.asp?idprod=72&idcat=1&idsub=1

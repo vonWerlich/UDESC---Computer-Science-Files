@@ -1,0 +1,6 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas) - A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora) - A praga é um invertebrado (artrópode ou molusco) - A praga é um molusco (caramujo ou lesma)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016928&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16926%5D%7B84%7Dchave_fig25.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16928%5D%7B67%7Dchave_fig26.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16928%5D%7B339%7Dchv_lesma.jpg

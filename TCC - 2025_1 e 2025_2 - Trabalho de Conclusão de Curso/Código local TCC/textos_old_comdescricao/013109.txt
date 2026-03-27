@@ -1,0 +1,27 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Resistência de plantas daninhas a herbicidas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013109&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+10. Plantas daninhas
+Resistência de plantas daninhas a herbicidas
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11388%5D%7B254%7Dpldan_resiste_caput.jpg
+FOTO: J.A.Noldin (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+Entende-se por resistência a herbicidas o fato de espécies de plantas daninhas, antes controladas por um determinado herbicida, desenvolverem biótipos ou populações não mais controladas pelos mesmos produtos, mesmo quando aplicados em doses muito superiores às recomendadas. O principal fator responsável por essa ocorrência é o uso contínuo de herbicidas com o mesmo mecanismo de ação para o controle da espécie.
+
+-- ESPÉCIES RESISTENTES: --
+Em Santa Catarina, já foi constatada resistência de sete espécies de plantas daninhas a diversos herbicidas: • Sagitária – resistente aos herbicidas inibidores da ALS (enzima acetolactato sintase) (Ally, Gladium, Gulliver, Invest, Nominee, Only, Kifix, Ricer e Sirius) e da inibição da fotossíntese no fotossistema II (Basagran). • Cuminho e tiririca ( C. difformis e C. iria ) – resistentes aos herbicidas inibidores da ALS. • Capim-arroz – resistente aos herbicidas inibidores da ACCase (Clincher), inibidores da parede celular (Facet) e inibidores da ALS (Nominee, Only, Kifix e Ricer). • Capim-macho - resistente aos herbicidas inibidores da ALS. • Arroz-daninho – resistente aos herbicidas Kifix e Only.
+
+-- PREVENÇÃO À RESISTÊNCIA DE PLANTAS DANINHAS --
+Algumas medidas podem ser tomadas, preventivamente, para evitar ou minimizar os riscos do desenvolvimento de resistência de plantas daninhas aos herbicidas: • Seguir rigorosamente a dose recomendada dos herbicidas, evitando sub e superdoses. Nesse sentido, a regulagem e calibração do pulverizador são fundamentais. • Evitar o uso continuado de herbicidas com o mesmo mecanismo de ação em uma mesma área. Exemplo: Sirius, Ally, Invest, Gladium, Nominee, Ricer, Only e Kifix possuem o mesmo mecanismo de ação (inibidores da enzima ALS) (veja tabela abaixo ). • Acompanhar os resultados das aplicações de herbicidas, atentando para quaisquer tendências ou mudanças das populações de plantas daninhas presentes na lavoura. • Não depender apenas do controle químico das plantas daninhas, utilizando o manejo integrado, com o emprego de diferentes métodos de controle, principalmente quando houver escapes do controle químico de determinada espécie.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11388%5D%7B215%7Dplantadan_tabmodoacao.jpg
+
+-- MANEJO DA RESISTÊNCIA: --
+Em áreas nas quais é constatada a ocorrência de resistência a herbicidas, recomenda-se a adoção das seguintes medidas: • Utilizar a rotação de culturas (ex.: soja) onde as condições de solo e clima permitirem. • Evitar o aumento do banco de sementes, especialmente de arroz-daninho, atentando para as operações de manejo de entressafra, principalmente quanto à incorporação da resteva e dessecação das plantas estabelecidas. • Evitar o plantio antecipado, que favorece a planta daninha e desfavorece o arroz, tornando mais difícil o seu controle. • Maior atenção na limpeza dos equipamentos de preparo do solo, semeadura e colheita ao sair de uma área infestada com planta daninha resistente. • Não utilizar os herbicidas para os quais a resistência foi confirmada. • Evitar que as plantas resistentes produzam sementes, fazendo o monitoramento e controle mais efetivos dos escapes.
+
+-- Informações Complementares --
+NOLDIN, J.A.; EBERHARDT, D.S. Manejo das plantas daninhas. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.36-51.
+NOLDIN, J.A.; EBERHARDT, D.S. Manejo das plantas daninhas. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.36-51.
+• José Alberto Noldin (PhD Herbologia - Epagri) Manejo de plantas daninhas

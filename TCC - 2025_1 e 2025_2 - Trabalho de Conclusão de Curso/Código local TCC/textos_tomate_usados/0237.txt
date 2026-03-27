@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Cascade F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0237&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B134%5D%7B335%7Dcascade.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Feltrin; Finalidade: Copa; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a viroses: TMV - Tobacco mosaic virus; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Cultivar: Tomate Cereja Cascade. Colheita (Dias): 100 a 115. Hábito de crescimento: Indeterminado. Peso: 10 a 12 g. Uso: Mercado fresco. DESTAQUE: Alta produtividade e vigor da planta, cultivar de alta adaptação.
+
+-- RESISTÊNCIA: --
+Tmv (Tobacco Mosaic Tobamovirus - Vírus do Mosaico do Tabaco); F1 (Fusarium Oxysporum Raça 1).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sementesfeltrin.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sementesfeltrin.com.br.

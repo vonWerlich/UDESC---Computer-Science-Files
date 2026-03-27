@@ -1,0 +1,25 @@
+Título: TOMATE - Nutrição Mineral - Enxofre
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=036&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B749%5D%7B18%7D107.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B749%5D%7B143%7D107.jpg
+Legenda: Sintomas típicos da deficiência de enxofre. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+
+-- Informações gerais: --
+O sulfato absorvido pelas raízes é a fonte mais importante de enxofre para as plantas sendo que mais de 95 % do enxofre do solo está relaciona à matéria orgânica (5). O tomate não está entre as plantas mais exigentes em enxofre, no entanto, há diferenças na respostas de cultivares para as doses deste nutriente em relação ao crescimento, produtividade e qualidade do fruto (4) O enxofre é constituinte de aminoácidos, proteínas, glicosídeos, vitaminas e coenzimas. Sendo assim, as plantas deficientes desse nutriente apresentam desordem das estruturas dos cloroplastos, diminuição da atividade fotossintética e aumento da relação N solúvel/N proteico (1). Os sintomas são parecidos com aqueles observados com o Ferro.
+
+-- Como identificar: --
+Como principais sintomas, as folhas mais novas apresentam coloração verde-clara, tornando-se amarelas, finas e menos desenvolvidas (1). As folhas são verde-claras a amarelas, uniformemente na planta (3).
+
+-- O que pode estar ocorrendo: --
+Os sintomas visuais de deficiência de enxofre são manifestações morfológicas provocadas por alterações fisiológicas sucedidas no interior da planta (5). Por ser um elemento pouco móvel no floema, o uso de adubos concentrados e o menor uso de defensivos que contenham enxofre, têm provocado o aparecimento de deficiência (1). O baixo teor de matéria orgânica (MO) no solo e a não utilização de fontes de matéria orgânica como adubo de base tende a acelerar o aparecimento do problema, pois a MO é um grande fornecedor do nutriente nos cultivos.
+
+-- Controle: --
+Uso de gesso agrícola, na concentração de 800 kg ha-1, aplicado antes do plantio, juntamente com a calagem, ou a aplicação de sulfato de potássio ou de magnésio, no plantio (2). Uso de adubos orgânicos na adubação pré-plantio.
+
+-- Excesso: --
+Pode causar fitotoxicidade nas folhas, nas quais aparecem pontos amarelos que subsequentemente se tornam necróticos. A planta mostra uma falta de crescimento.
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) DA SILVA, J. C. et al. Cultivo de tomate para Industrialização. Revista Eletrônica Embrapa Hortaliças. v. 27, 2006. (3) YARA. Disponível em:< https://www.yarabrasil.com.br/nutricao-de-plantas/tomate/deficiencias---tomate/deficiencia-de-enxofre---tomate/>. Acesso em: 18/10/2018. (4) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474. (5) VITTI, G.C.; OTTO, R.; SAVIETO, J.; LIMA, E.; SANTOS, L.A. Enxofre. In: FERNANDES, M. S.; SOUZA, S. R. DE; SANTOS, L. A. (Ed.). Nutrição mineral de plantas. 2. ed. Viçosa: Sociedade Brasileira de Ciência do Solo, 2018. p. 377–400.

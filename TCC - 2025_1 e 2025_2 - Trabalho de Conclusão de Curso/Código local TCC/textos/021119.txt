@@ -1,0 +1,49 @@
+Título: FORMIGAS EM PINUS E EUCALIPTO - Recomendações para o manejo - Como fazer o controle de formigas cortadeiras - Aplicações de isca granulada
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021119&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18026%5D%7B397%7Disca.jpg
+
+-- PRODUTOS REGISTRADOS NO MAPA: --
+Somente utilize produtos registrados no Ministério da Agricultura, Pecuária e Abastecimento (MAPA), disponível no site https://agrofit.agricultura.gov.br/agrofit_cons/principal_agrofit_cons . Recomenda-se seguir as indicações de aplicação e dosagem sugeridas pelo fabricante. Abaixo, estão algumas recomendações específicas:
+
+-- Quenquéns que fazem ninhos de monte-de-cisco: --
+No caso das quenquéns que fazem ninhos de monte-de-cisco (como é o caso da espécie Acromyrmex crassispinus – quenquém-de-cisco), deve-se aplicar de 5 a 10 gramas de iscas por ninho;
+
+-- Quenquéns que fazem ninhos de monte de terra solta: --
+No caso das quenquéns que fazem ninhos de monte de terra solta (como é o caso da espécie Acromyrmex subterraneus - quenquém-mineira), deve-se aplicar de 5 a 10 gramas por olheiro ativo. Se a distância entre dois olheiros ativos for menor que 40 cm, deve-se utilizar uma única dose para esses olheiros;
+
+-- Ninho de saúva, em estágio inicial: --
+Se for ninho de saúva, em estágio inicial (apenas um olheiro), não é necessário aplicar iscas, pois a maioria das colônias morrem naturalmente no primeiro ano, mas se a colônia apresentar uma trilha de forrageamento ativa, deve-se aplicar de 5 a 10 gramas;
+
+-- Ninho de saúva, com mais de um olheiro: --
+Se for ninho de saúva, com mais de um olheiro (acima de 1 m2 de terra solta), fazer o cálculo da área de terra solta, para estimar a quantidade de isca a ser aplicada. Medir o maior comprimento e a maior largura do monte de terra solta, multiplicando as duas medidas. Aplicar 10 g de isca por m2 de terra solta, distribuindo as iscas nos olheiros de alimentação;
+
+-- ONDE COLOCAR A ISCA: --
+Em todos os casos, a isca deve ser colocada ao lado da trilha de forrageamento das formigas (caminho por onde as formigas transitam), sem interromper o fluxo delas;
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18026%5D%7B119%7Disca.jpg
+Legenda: Aplicação de isca granulada ao lado da trilha de forrageamento. Foto: Mariane Aparecida Nickele
+
+-- ONDE NÃO COLOCAR A ISCA: --
+Nunca colocar a isca em cima do ninho ou em cima da trilha de forrageamento, pois para a isca ser atrativa, ela deve ser encontrada pelas formigas por acaso. Se a isca estiver em cima da trilha, as formigas poderão apenas retirá-la da trilha durante as atividades de manutenção e poderão não carregá-la para o ninho.
+
+-- APLICAÇÃO DE ISCA NO GRUPO DE PLANTAS ATACADAS: --
+Quando observar plantas atacadas por formigas, deve-se primeiramente procurar o ninho. Se localizado, aplicar a isca por ninho encontrado, conforme descrito no item anterior; Se não for possível encontrar o ninho, deve-se aplicar uma dose de 5 a 10 g de isca a cada grupo de até 3 plantas atacadas.
+
+-- Não aplicar em dia de chuva: --
+Não aplicar iscas a granel convencional em dias chuvosos, pois elas não toleram umidade, podendo mofar; se isto acontecer, as formigas não irão carregar a isca para seus ninhos;
+
+-- Não aplicar sob baixas temperaturas: --
+As quenquéns não forrageiam quando a temperatura é inferior a 10-11°C. Evitar realizar a aplicação de iscas nessas condições, para garantir o máximo da coleta de iscas pelas formigas.
+
+-- Reaplicar uma nova isca se ela não for efetiva: --
+Se o controle não for efetivo, ou seja, se houver atividade de forrageamento alguns dias após a aplicação da isca, deve-se reaplicar o formicida, porém com uma outra formulação, pois a formiga não aceita a mesma isca em um prazo de pelo menos 120 dias da sua aplicação;
+
+-- Cuidados ao manipular a isca: --
+Não manipular a isca sem luvas apropriadas, pois trata-se de um inseticida que pode oferecer risco à saúde do operador e além disso, a manipulação sem luvas pode fazer com que as formigas rejeitem e devolvam a isca; o mesmo pode acontecer se a isca for armazenada com produtos que repelem as formigas (combustível, solventes, graxa e similares);
+
+-- Uso de EPIs: --
+O uso de EPIs (equipamentos de proteção individual) se torna indispensável aos trabalhadores envolvidos na aplicação de produtos químicos. Para a aplicação de iscas formicidas é imprescendivel o uso de macacão com mangas compridas, luvas de borracha, máscara descartável e botas de borracha.
+
+-- Informações Complementares --
+Todo o material bibliográfico utilizado neste sistema pode ser consultado ao clicar AQUI!

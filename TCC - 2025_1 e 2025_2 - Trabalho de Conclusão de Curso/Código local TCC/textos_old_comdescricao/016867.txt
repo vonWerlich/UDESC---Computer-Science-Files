@@ -1,0 +1,20 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 4. Diagnóstico a partir da doençaInicie por aqui, caso saiba que se trata de doença, mas tenha dúvida.Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais. - As folhas estão com manchas, que podem ser de diversos tipos, e são as manchas foliares que predominam na planta - As manchas são pequenas e arredondadas ou finas no sentido das nervuras
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016867&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16866%5D%7B17%7Dpl04_manchapequena.jpg
+DIAGNOSE VISUAL
+4. Diagnóstico a partir da doença Inicie por aqui, caso saiba que se trata de doença, mas tenha dúvida. Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais.
+As folhas estão com manchas, que podem ser de diversos tipos, e são as manchas foliares que predominam na planta
+As manchas são pequenas e arredondadas ou finas no sentido das nervuras
+Manchas de cor marrom, arredondadas ou finas no sentido das nervuras
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16867%5D%7B360%7Dpl09_manchamarrom.jpg
+Legenda: Manchas de cor marrom, arredondadas ou finas no sentido das nervuras
+16871
+Manchas de cor marrom, arredondadas ou finas no sentido das nervuras
+Manchas pretas pequenas, semelhantes à sujeira de mosca - CARVÃO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16867%5D%7B287%7Dchv_carvaofolha.jpg
+Legenda: Manchas pretas pequenas, semelhantes à sujeira de mosca - CARVÃO
+16872
+Manchas pretas pequenas, semelhantes à sujeira de mosca - CARVÃO

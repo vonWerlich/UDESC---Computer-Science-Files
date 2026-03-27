@@ -1,0 +1,39 @@
+Título: TOMATE - Fitossanidade - Pragas - Broca-grande-do-fruto (Helicoverpa zea)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=071&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1624%5D%7B501%7D214.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1624%5D%7B11%7D1511267530_1744192837.png
+Legenda: Adulto e ovo de Helicoverpa zea. Foto: Ivan Cruz
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1624%5D%7B378%7D2015-12-28_15.45.28.jpg
+Legenda: Danos típicos causados pelo ataque de broca-grande-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1624%5D%7B498%7Dimg-20161109-wa0044.jpg
+Legenda: Danos típicos causados pelo ataque de broca-grande-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1624%5D%7B206%7Dsam_2212.jpg
+Legenda: Danos típicos causados pelo ataque de broca-grande-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1624%5D%7B57%7Dhelize_1456240143_2044451667.jpg
+Legenda: Helicoverpa zea. Foto: R. SUGAYAMA
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1624%5D%7B489%7Dhelize_1456240143_1346940598.jpg
+Legenda: Helicoverpa zea. Foto: R. SUGAYAMA
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1624%5D%7B224%7Dhelize_1456240143_174744822.jpg
+Legenda: Helicoverpa zea. Foto: R. SUGAYAMA
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1624%5D%7B186%7Dimg-20161119-wa0019.jpg
+Legenda: Lagarta da broca grande (Helicoverpa zea)Foto: Rafael G. F. Morales
+
+-- IDENTIFIQUE A PRAGA CORRETAMENTE: --
+O adulto é uma mariposa que mede de 30 a 40 mm de envergadura, tendo suas asas anteriores de coloração que varia do amarelo ao verde-amarelo e apresenta próximo ao centro da asa, uma mancha marrom-escura. Uma fêmea dessa praga pode colocar em média 1000 ovos e vive entorno de 12 a 15 dias. As posturas são feitas em qualquer parte da planta e sempre no período noturno (1). As lagartas possuem uma coloração esverdeada com três listras ao longo do corpo, sendo uma no dorso e as duas nas laterais do corpo, sendo essas acompanhadas de pontuações pretas. As lagartas recém-eclodidas raspam as folhas e posteriormente deslocam-se para os frutos, onde, alimentam-se da polpa provocando grandes deformações em forma de buracos ou furos (1). O ciclo biológico varia de 35 a 45 dias (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+As maiores incidências ocorrem quando coincide com o período de cultivo de milho ou que nas proximidades esteja sendo cultivada essa cultura (1).
+
+-- MONITORAMENTO: --
+Deve-se realizar amostragens semanais da parte superior das plantas, para se verificar a presença de ovos nas folhas do tomateiro e de frutos broqueados pela praga. Recomenda-se que o monitoramento comece no início do florescimento e seja intensificado quando da ocorrência de veranicos e durante a estação seca e quente do ano (2).
+
+-- CONTROLE: --
+Biológico: Trichogramma pretiosum é um parasitóide de ovo, que, em associação com Bacillus thuringiensis tem reduzi-do significativamente os danos da traça-do-tomateiro e pode ser empregado também para o controle da broca-grande (4). Cultural (Ensacamento de pencas): Ensacamento de pencas: O ensacamento de frutos é um método simples e prático de controle de pragas e não exige elevado investimento com materiais de consumo. Na cultura do tomateiro, o ensacamento está sendo proposto para ser associado ao método de controle químico convencional. Para confecção dos saquinhos optou-se pelo papel-manteiga por ser resistente ao rompimento e ao molhamento, por sua permeabilidade a trocas gasosas dos frutos, flexibilidade ao ser amarrado na penca sem danificá-la, disponibilidade no mercado local e baixo custo. As dimensões do saquinho foram de 35 x 30 cm. Foram ensacadas as primeiras pencas de tomates, com no mínimo os primeiros dois frutos da penca em início de desenvolvimento, para prevenir posturas. Para otimizar o efeito do ensacamento, pode-se colocar uma pastilha desodorante dentro do pacote para aumentar o efeito repelente. A pastilha desodorizante, com tamanhos de aproximadamente 90 mm3, consistiu em um material sólido que é utilizado como fragrância em vasos sanitários que, em contato com a umidade do ar e a água das irrigações, produz espuma e odores (3).
+
+-- OBSERVAÇÕES: --
+A ocorrência dessa praga na cultura do tomateiro pode ser constatada durante todo o ano (1).
+
+-- Informações Complementares --
+(1) Guia de Campo: Pragas da Cultura do Tomateiro / Dirceu Pratissoli, José Romário de Carvalho. – Alegre, ES: NUDEMAFI, Centro de Ciências Agrárias, UFES, 2015. 35p. (Série Técnica / NUDEMAFI, ISSN 2359-4179; 1). (2) Alexandre Pinho de Moura et al. Manejo integrado de pragas do tomateiro para processamento industrial. Circular Técnica 129, Brasília, DF, Fevereiro, 2014. ISSN 1415-3033. (3) ALEXANDRE L. JORDÃO E OCTÁVIO NAKANO. Controle de Lagartas dos Frutos do Tomateiro Pelo Ensacamento das Pencas. An. Soc. Entomol. Brasil 29(4), Dezembro, 2000. (4) CASTELO BRANCO, M.; PONTES, L.A.; AMARAL, P.S.T.; MESQUITA FILHO, M.V.. Inseticidas para o controle da traça-do-tomateiro e broca-grande e seu impacto sobre Trichogramma pretiosum. Horticultura Brasileira, Brasília, v. 21, p. 652-654, outubro-dezembro 2003.

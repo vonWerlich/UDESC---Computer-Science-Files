@@ -1,0 +1,47 @@
+Título: PLANTAS PARA ADUBAÇÃO VERDE - Leucena (Leucaena leucocephala)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012879&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11185%5D%7B422%7Dleucena%2C_epagri-cepaf%2C_expodireto_2006.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11185%5D%7B355%7Dimg-20221012-wa0113.jpg
+Legenda: Folhas e vagens. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11185%5D%7B476%7Dleucena%2C_epagri-cepaf%2C_expodireto_2006.jpg
+Legenda: Leucena, Epagri-Cepaf, EXPODIRETO 2006. Foto: Leandro Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11185%5D%7B332%7Dleucena%2C_epagri-cepaf%2C_1999..jpg
+Legenda: Leucena, Epagri-Cepaf, 1999. Foto: Leandro Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11185%5D%7B120%7Dleucena_set2022_foto_leandro_do_prado_wildner.jpg
+Legenda: Sementes. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11185%5D%7B227%7Dimg-20221012-wa0114.jpg
+Legenda: Vagens. Foto: Leandro do Prado Wildner
+
+-- INFORMAÇÕES GERAIS: --
+OUTROS NOMES COMUNS: Leucaena, esponjeira, árvore-do-conflito, deserto-verde. NOME CIENTÍFICO: Leucaena leucocephala (Lam.) de Wit. FAMÍLIA: Fabaceae (Leguminosas). ORIGEM: América Central.
+
+-- CARACTERÍSTICAS BOTÂNICAS: --
+PORTE: Arbórea/arbustiva. HÁBITO DE CRESCIMENTO: Ereto. CAULE: Ereto, com ramificações desde a base. ALTURA DE PLANTA (m): 2 a 3 (*pode chegar a 15 metros). SISTEMA RADICULAR: Pivotante. PROFUNDIDADE DE RAIZ: até 200cm.
+
+-- INFORMAÇÕES FENOLÓGICAS: --
+CICLO VEGETATIVO: Semi Perene/perene. ÉPOCA IDEAL DE PLANTIO: Primavera/verão. ÉPOCA PREFERENCIAL DE PLANTIO: Outubro e novembro. ÉPOCA POSSÍVEL DE PLANTIO: Setembro a janeiro. CICLO PARA FLORESCIMENTO (dias): 135 a 185.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+PRODUÇÃO DE FITOMASSA (MS t/ha): 6 a 15. PRODUÇÃO DE FITOMASSA (MV t/ha): 20 a 50. TOLERÂNCIA À GEADA: Suscetível. TOLERÂNCIA A SOLOS ÁCIDOS: Baixa. TOLERÂNCIA À BAIXA FERTILIDADE DO SOLO: Baixa a média. TOLERÂNCIA AO DÉFICIT HÍDRICO: Alta. TOLERÂNCIA AO ENCHARCAMENTO: Baixa. TOLERÂNCIA A BAIXA TEMPERATURA: Média. TOLERÂNCIA AO SOMBREAMENTO TEMPORÁRIO: Baixa. VELOCIDADE DE COBERTURA INICIAL DO SOLO: Lenta. APTIDÃO PARA PASTAGEM: Forte.
+
+-- SEMENTES: --
+PRODUTIVIDADE DE SEMENTES (kg/ha): 300 a 800. PESO DE MIL SEMENTES (gramas): 45. PRESENÇA DE SEMENTES DURAS: Sim.
+
+-- SEMEADURA: --
+ESPAÇAMENTO ENTRE LINHAS (metros): 0,5 a 1,0. DENSIDADE DE SEMEADURA (kg/ha, em linha): 20 a 25. DENSIDADE DE SEMEADURA (kg/ha, a lanço): 25 a 30. DENSIDADE DE PLANTAS POR ÁREA (pl/m2): 35 a 40.
+
+-- COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: --
+QUANTIDADE ACUMULADA DE NITROGÊNIO (kg/ha): 450 a 550. RELAÇÃO C/N: 17. NITROGÊNIO (% na massa seca): 3,18 a 4,43. FÓSFORO (P2O5 % na massa seca): 0,17 a 0,28. POTÁSSIO (K2O % na massa seca): 1,00 a 1,94.
+
+-- INDICAÇÃO DE USO / CULTIVO: --
+CONSÓRCIO COM CULTURAS (sucessão/intercalares): Feijão, milho ou pastagens em sistema de aléias (alleycropping).
+
+-- INFORMAÇÕES FITOSSANITÁRIAS: --
+SUSCEPTIBILIDADE A PRAGAS E DOENÇAS: As plantas jovens da leucena são muito susceptíveis ao ataque de formigas, cupins e lagartas; cigarrinha ( Heterophylla cubana ). Lesões necróticas causadas por Botryodiplodia theobromae e Cladosporium ; Pseudomonas fluorescens ; Cercospora leucaena ; Corticium salmonicolor ; Fusarium sp p; doença na raiz causada por Ganoderma lucidum .
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+DICAS: O melhor desempenho ocorre em regiões com precipitação entre 600 e 3000 mm (tolerante a seca); altamente nutritiva, com elevado teor de caroteno; eficiente na alimentação de aves, coelhos, ovinos e bovinos. Utilizada para cultivo em aléias (alley cropping) com culturas de grãos (feijão e milho) ou forrageiras e intercalada ao cafeeiro funcionando como quebra-vento ou proporcionando sombreamento parcial. ATENÇÃO: Prefere insolação direta, perdendo as folhas quando sombreada. CARACTERÍSTICA DESTAQUE: Contribui para a melhoria dos atributos do solo através de seu sistema radicular bastante profundo que além de absorver água das camadas mais profundas, também promove reciclagem de nutrientes.
+
+-- Informações Complementares --
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, CLIQUE AQUI!

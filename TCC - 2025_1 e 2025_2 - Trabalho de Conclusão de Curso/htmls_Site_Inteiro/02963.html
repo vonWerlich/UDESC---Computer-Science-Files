@@ -1,0 +1,291 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2431&amp;isEdicao=N&amp;epagriTEC=S">Sistemas de Produção</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2434&amp;isEdicao=N&amp;epagriTEC=S">Produção Integrada de Tomates (SISPIT)</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2944&amp;isEdicao=N&amp;epagriTEC=S">H) MANEJO DAS PRINCIPAIS DOENÇAS BACTERIANAS</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2963&amp;isEdicao=N&amp;epagriTEC=S">h) Medidas gerais para o manejo de doenças bacterianas</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="2731">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="02963">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[2731]{323}capa_1.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Sistema de Produção Integrada para o Tomate Tutorado em Santa Catarina. 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>Medidas gerais para o manejo de doenças bacterianas:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Em doenças causadas por fitobactérias, a prevenção constitui-se um dos fatores para seu controle. Entre as medidas, a mais efetiva e econômica seria o emprego de variedades resistentes, o que nem sempre é possível, havendo necessidade de outros métodos de controle. Esses métodos de controle atuam no sistema patógeno-hospedeiro-ambiente. São relacionados a seguir alguns, entre os mais importantes: <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Sementes e mudas:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O material propagativo sadio ou isento de patógenos é primordial para o sucesso da cultura. A disseminação de doenças a longas distâncias, bem como sua introdução, ocorrem na maioria dos casos pelas sementes ou mudas infectadas. Por esse motivo, a escolha de sementes deve ser cuidadosa, preferindo-se sementes fiscalizadas, selecionadas, certificadas e tratadas quimicamente. Ao adquirir mudas de terceiros, é importante certificar-se de que tenham registro de procedência e certificado fitossanitário assinado por responsável técnico. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Local e época de plantio:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Na produção de mudas, deve-se escolher local isolado, longe de outras solanáceas ou plantações de tomateiro. O local deve ser bem drenado e arejado. A utilização de substrato, isento de patógeno, bem como a desinfestação das bandejas, são obrigatórios. O local de plantio deve ser preferencialmente com exposição norte e a orientação de linhas leste-oeste, evitando-se locais de baixada devido ao acúmulo de umidade e à formação de neblina. Na instalação da cultura deve-se levar em consideração que as bactérias fitopatogênicas podem sobreviver no solo, como a Ralstonia Solanacearum e Pectobacterium sp, estacas como C.m. subsp. michiganensis, arames, restos culturais, plantas voluntárias de tomateiro ou ainda sobreviver epifiticamente em ervas daninhas, como no caso de Xanthomonas spp. No caso específico de R. solanacearum deve-se evitar o plantio em áreas recém desmatadas que tenham bracatinga (Mimosa scrabella), pois a bactéria sobrevive e se multiplica nessas plantas. Em geral é recomendado um período de pelo menos três anos sem cultivo de solanáceas, incluindo solanáceas infestantes, indicando-se o plantio de gramíneas durante esse tempo. Portanto, nenhuma outra solanácea cultivada ou solanácea infestante deve estar presente na área. A época de plantio deve ser conforme o zoneamento agroclimático e a recomendação do cultivar. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Cultivares resistentes:</b><br>
+<p class="p1"><div> Na escolha de cultivares, sugere-se dar preferência para as resistentes. É permitido o uso de porta-enxerto resistente à murchadeira, como ‘Guardião’ e ‘Muralha’. O uso de porta-enxerto é obrigatório em área com histórico da doença. <br> </div></p>
+<b>Irrigação: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Bactérias fitopatogênicas são dependentes de alta umidade (incluindo orvalho, chuva e irrigação) para sua disseminação bem como sua multiplicação. A irrigação por aspersão e por sulco (proibido na produção integrada de tomate estaqueado), além de aumentar a umidade relativa e reduzir a temperatura, favorece a disseminação de bactérias foliares e do solo. Portanto, o uso de irrigação por gotejamento é obrigatório, pois evita a disseminação de doenças bacterianas. A água utilizada para irrigação deve ser de boa qualidade e que não passe por lavouras contaminadas. No caso da murcha-bacteriana causada por Ralstonia solanacerum, a irrigação localizada evita que os propágulos bacterianos sejam disseminados no sulco de irrigação, tal como utilizado na produção convencional. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Práticas culturais: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A penetração de bactérias se dá por meio de aberturas naturais (principalmente estômatos e hidatódios) ou por ferimentos. A adoção de barreiras como quebra vento e a condução da cultura de modo que receba maior insolação e ventilação (condução vertical no sentido leste-oeste) diminuem as condições climáticas favoráveis. A calagem e a adubação devem ser realizadas de acordo com critérios técnicos, já que a resistência da planta às bacterioses é influenciada por excesso ou deficiência de nutrientes, principalmente de nitrogênio. Com excesso desse elemento, os tecidos ficam suculentos e mais sensíveis à infecção bacteriana. Os mourões e as estacas (quando não se usar fitilho) devem ser novos ou tratados com hipoclorito de sódio 1% ou outro desinfetante (500g de oxicloreto a 50% em 100 litros de água mais 50ml de espalhante adesivo). No caso de arames, usar hipoclorito de sódio 1% para evitar a oxidação causada pelo cobre. Os tratos culturais de amarração, desbrota, pulverização e capinas devem ser iniciados sempre por onde a cultura 94estiver mais sadia, deixando para o final as áreas onde forem observados focos da doença; plantas doentes devem ser arrancadas e eliminadas da lavoura; dar preferência ao fazer a desbrota quando o clima estiver seco; é recomendando que se retire os brotos da lavoura para diminuir a fonte de inóculo; diminuir o trânsito de pessoas e máquinas em áreas com a doença; em ano em que houver previsão de verões chuvosos, aumentar o espaçamento entre plantas, o que permite melhor aeração do cultivo; as duas primeiras folhas baixeiras em estádio avançado de maturação fisiológica (em torno dos 50 dias após o transplante) devem ser retiradas da planta e do local, a fim de diminuir o inóculo e aumentar o arejamento na base da planta; o controle de ervas daninhas é obrigatório na produção integrada durante o ciclo da cultura, pois além de comprometer a eficácia de aplicação de produtos químicos, serve de um repositório de inóculo para o tomateiro, já que as bactérias têm capacidade de sobreviver epifiticamente na superfície foliar de ervas daninhas. Isso foi observado por Marcuzzo &amp; Becker (dados não publicados) em amostragem de algumas plantas daninhas presentes numa lavoura de tomate em Lebon Régis na safra 2008/2009, as quais apresentaram população epifítica de Xanthomonas spp. (Tabela 14).<br><br>
+
+Segundo a Instrução Normativa no 24/DAS, deve-se eliminar os restos culturais até 10 dias após a última colheita de cada talhão. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2948,02963,2731,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[2731]{96}tabela_14.jpg">  </a> 
+<br><br>
+<b>Controle biológico:</b><br>
+<p class="p1"><div> Existem diversos relatos de agentes de controle biológico que apresentam eficiência razoável contra fitobactérias do tomateiro. Comercialmente existe uma estirpe de Ralstonia solanacearum avirulenta com nome comercial de PSSOL (Natural Plant Protection) que pode ser utilizada no manejo de Ralstonia solanacearum. <br> </div></p>
+<b>Controle químico:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para o controle químico de fitobactérias em tomateiro tem-se um reduzido número de produtos eficientes ou registrados. Nessa forma de controle devem ser levadas em consideração as medidas anteriores para o seu manejo. Também é importante saber se o agente causal (patógeno) atua de forma sistêmica ou não. Nos patógenos não sistêmicos, de uma forma geral, a eficácia de controle é maior.<br><br>
+
+Na produção integrada é proibido o uso de antibióticos. Alguns produtos com ação bactericida registrados no Mapa são o hidróxido de cobre, o oxicloreto de cobre e o óxido cuproso, os quais, em mistura com o fungicida mancozebe, apresentam efeito sinérgico sobre bactérias. O uso de indutor de resistência sistêmica adquirida como o acibenzolar-S-methyl é registrado para a cultura, apesar de ter resultados contraditórios quanto a sua eficiência. Os produtos à base de cobre ou em mistura ocupam posição de destaque e o modo de ação desses 95produtos pode ser bactericida (agindo quando as bactérias estão em fase de multiplicação e provocando sua morte) ou bacteriostático (inibindo o crescimento ou multiplicação celular). Eles são utilizados no tratamento de sementes e principalmente como protetores da parte aérea. Na produção integrada é obrigatório o tratamento dirigido com cúprico após a desbrota.<br><br>
+
+Nem sempre é possível um controle satisfatório, mesmo usando produtos registrados para a cultura, pois alguns resultados utilizando o método químico com produtos cúpricos são contraditórios. A dosagem, o equipamento de aplicação, a forma de aplicar na planta, o momento para o início do controle, as condições climáticas, as estirpes bacterianas resistentes e a fonte de inóculo próximo ao local são outros fatores que podem interferir no controle.<br><br>
+
+Herbicidas e inseticidas podem também atuar indiretamente no controle pela eliminação de vetores ou de hospedeiros intermediários, erradicando a população epifítica em ervas daninhas conforme demonstrado no item 5. O álcool a 70%, o álcool iodado, a amônia quaternária ou o hipoclorito de sódio 1% contribuem para diminuir a possibilidade de infecção durante os tratos culturais. A amônia quaternária ou hipoclorito de sódio 1% devem ser utilizados na desinfestação de ferramentas e embalagem plástica.<br><br>
+
+Alguns produtos, empregados primariamente como fungicidas, tais como o captan, famoxadone + carbamato e principalmente mancozeb + cobre apresentam também uma ação bactericida.<br><br>
+
+Na produção integrada, os produtos e as dosagens utilizados devem ser aqueles registrados no Mapa, onde se recomenda produtos de classe toxicológica III e IV, respeitando-se o período de carência de cada produto. A utilização de produtos não registrados, bem como a sua forma de armazenamento, o uso inadequado de equipamentos para aplicação, o uso de EPIs, a forma do preparo e a sua aplicação resultam em não conformidade durante a auditoria e consequentemente a não certificação do produto.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+Walter Ferreira Becker in: <br>
+BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.
+
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 16/05/2019</font>
+<br> <font size="2"> Última atualização: 05/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=02963&amp;cdElemento=2731">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=2731');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

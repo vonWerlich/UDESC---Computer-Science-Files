@@ -1,0 +1,34 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Boas práticas de manejo - Cuidados na compra de ração
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010484&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17904%5D%7B130%7Darmazenamento.jpg
+
+-- IMPORTÂNCIA: --
+Os cuidados com o manejo alimentar já iniciam na hora da compra das rações comerciais. Abaixo algumas observações a serem atentadas na hora de comprar, receber e armazenar a ração.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17904%5D%7B221%7Darmazenamento.jpg
+Legenda: Exemplo do armazenamento de ração. Foto: Bruno Corrêa da Silva
+
+-- ANÁLISE VISUAL: --
+A primeira análise a ser feita é visual, o produtor deverá verificar se o saco de ração está seco, sem sinais de que tenha pego chuva durante o transporte; se a ração apresenta odor ou bolores.
+
+-- FLUTUABILIDADE INICIAL: --
+A ração utilizada deverá apresentar boa flutuabilidade, onde, no máximo, 0,5% dos péletes poderão afundar. Para isso, o produtor poderá realizar o seguinte teste: em um balde com água adicionar 200 péletes de ração, e instantaneamente verificar quantos péletes afundaram. Se dois péletes ou mais afundarem, a ração não apresenta flutuabilidade adequada. O ideal é repetir o teste em pelo menos três sacos diferentes do mesmo lote.
+
+-- PORCENTAGEM DE FINOS: --
+A presença de finos (pó) na ração granulada deverá ser menor do que 1%, ou seja, se o produtor peneirar um saco de ração de 25kg em uma peneira de malha de 1 mm, o máximo que poderá passar pela peneira será 250g.
+
+-- TAMANHO DO PÉLETE: --
+A ração deverá obedecer ao limite máximo e mínimo do tamanho do pélete indicado no rótulo. Este parâmetro é possível de ser avaliado de forma rápida e com auxílio de um paquímetro. Ração com tamanho de pélete fora do rótulo pode ajudar a causar problemas de desuniformidade no lote.
+
+-- PESO DO SACO: --
+Com auxílio de uma balança digital com gancho (capacidade máxima de 50kg), o produtor poderá pesar alguns sacos de ração para aferir se o peso corresponde com o indicado no rótulo.
+
+-- ARMAZENAMENTO: --
+Além dos cuidados na hora da compra e entrega da ração, é essencial o cuidado do produtor com o armazenamento: - A ração deverá ser armazenada em lugares arejados e protegidos da luz solar; - Os sacos devem ser empilhados em cima de paletes, nunca diretamente no chão; - As pilhas de saco devem apresentar um espaço entre si para facilitar a circulação de ar entre os sacos, e esses devem estar a uma distância de, pelo menos, 50cm da parede e do teto; - Ao redor do local onde é armazenada a ração, realizar algum tipo de controle contra roedores, evitando assim que estes consumam e contaminem as rações; - Os prazos de validades das rações comerciais devem ser respeitados. Contudo, o ideal é que o produtor estoque ração por no máximo 15 a 30 dias.
+
+-- Anexo: Cartilha de alimentação de tilápia em viveiro escavado --
+Para acessar a cartilha, clique aqui!
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

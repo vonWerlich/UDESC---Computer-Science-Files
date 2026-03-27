@@ -1,0 +1,11 @@
+Título: TOMATE - Calagem e Adubação - Adubação - Programa AdubaTomate 1.0
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021441&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18334%5D%7B25%7Dadubatomate.jpg
+
+-- SOBRE O PROGRAMA: --
+O programa AdubaTomate foi desenvolvido em linguagem Delphi 10.3, programado para ambiente Windows, ou seja, não é possível utilizar no celular, necessitando de um computador para a sua plena utilização. Ele está disponível para “download” no sítio da Epagri (CLIQUE AQUI PARA DOWNLOAD) . OBS: O programa não necessita de instalação, no entanto, deve ser salvo em qualquer unidade de memória do computador. PARA MAIS INFORMAÇÕES SOBRE COMO USAR O PROGRAMA CONSULTAR O MANUAL EM ANEXO.
+
+-- Informações Complementares --
+BACK, Á. J.; HAHN, L. Manual do programa para recomendação de adubação da cultura do tomate AdubaTomate 1.0. Florianópolis: Epagri, 2022, 60p. (Epagri. Boletim Técnico, 207).

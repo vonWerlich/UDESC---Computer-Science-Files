@@ -1,0 +1,10 @@
+Título: CEBOLA - Escolha do cultivar - Rio Vermelho
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014560&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12655%5D%7B258%7Dcebola-rio-vermelho.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Hazera Polinização: Híbrido Ciclo maturação/dias: Normal/135-160 Formato do bulbo: Globo Achatado Cor da película do bulbo: Roxa Cor da polpa do bulbo: Branca com anéis Roxo Região/Época de plantio: Centro-oeste: Julho a Setembro
+
+-- Informações Complementares --
+Informações coletadas e organizadas pelo autor

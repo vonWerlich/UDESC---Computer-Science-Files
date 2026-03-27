@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Muralha
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019556&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17134%5D%7B52%7Dmuralha.png
+
+-- INFORMAÇÕES GERAIS: --
+Porta enxerto de médio/baixo vigor; Alta resistência a Murcha bacteriana (Ralstonia), Verticillium, Murcha de Fusarium (Fusarium oxysporum f.sp. lycopersici raças 1 e 2 e Fusarium oxysporum f.sp. radicis-lycopersici), Virus do Mosaico do Tomate (Tm-2a) e Nematoides (Meloidogyne arenaria, M. incognita, M. javanica).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://takii.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://takii.com.br.

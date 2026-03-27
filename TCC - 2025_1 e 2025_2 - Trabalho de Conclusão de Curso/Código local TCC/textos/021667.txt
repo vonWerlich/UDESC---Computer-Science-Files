@@ -1,0 +1,10 @@
+Título: BANANA - Cultivares - BRS Platina
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021667&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18362%5D%7B265%7Dcap_3_-_fig_5_-_letra_f_-_buque_maduro_platina_-_autoria_eliseu_emanoel_dos_santos.jpg
+
+-- DESCRIÇÃO DO CULTIVAR --
+Híbrido tetraploide do grupo genômico AAAB, 75% Prata, gerado na Embrapa Mandioca e Fruticultura, em Cruz das Almas, BA, apresenta porte médio, desenvolvimento e rendimento semelhantes à Prata Anã. É resistente à Sigatoka amarela e ao mal do panamá. Produtividade média de 20 ton/ha/ano, podendo chegar à 40 ton/ha/ano em condições de solo de boa fertilidade. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.

@@ -1,0 +1,31 @@
+Título: CEBOLA - Escolha do cultivar - Critérios para escolha do cultivar - Fotoperíodo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014577&isEdicao=N&epagriTEC=S
+
+
+=== CRITÉRIOS PARA ESCOLHA DO CULTIVAR ===
+
+-- INFORMAÇÕES GERAIS: --
+O sucesso de uma lavoura depende de diversos fatores, sendo a escolha de um cultivar adequado um dos principais pontos a serem observados. A escolha equivocada de um cultivar certamente comprometerá o restante do sistema produtivo, culminando com perdas ou até mesmo inviabilizando a lavoura. Cultivares mal adaptados às condições edafoclimáticas, com ciclo vegetativo irregular ou muito suscetíveis a doenças e pragas, contribuem para redução da produção e tornam necessário o aumento das aplicações de agrotóxicos (Lopes & Simões, 2007). A adaptação do cultivar à região de plantio é o fator que mais limita o uso de um mesmo cultivar em diferentes regiões, principalmente pela peculiaridade da cultura no que se refere ao binômio fotoperíodo e temperatura.
+
+-- DEFINIÇÃO DE FOTOPERÍODO: --
+O fotoperíodo é definido como sendo o intervalo de tempo transcorrido entre o nascimento e o ocaso do sol, estando o disco solar visível ou não (Varejão-Silva,2006).
+
+-- FOTOPERÍODO COMO FATOR MAIS LIMITANTE: --
+Dentre os fatores ambientais que influenciam o desenvolvimento e a adaptação de cultivares de cebola a diferentes regiões geográficas, o fotoperíodo é um dos mais limitantes, considerando-se que a planta de cebola só formará bulbos se o comprimento do dia for igual ou superior a um mínimo fisiologicamente exigido (Brewster, 2008).
+
+-- CLASSIFICAÇÃO PELO COMPRIMENTO DO DIA: --
+Quanto à exigência de luz para que ocorra a bulbificação, os cultivares de cebola são classificados em três grupos: cebolas de dias curtos (DC), cebolas de dias intermediários (DI) e cebolas de dias longos (DL). Os cultivares de DC são aqueles que requerem um fotoperíodo de 10 a 12 horas para que a bulbificação seja induzida. Os cultivares de DI requerem um fotoperíodo de 12 a 14 horas para que haja bulbificação, e os cultivares de DL exigem um fotoperíodo igual ou superior a 14 horas (Brewster, 2008).
+
+-- CLASSIFICAÇÃO EM PRECOCE, MÉDIO E TARDIO: --
+Comumente os cultivares de cebola também são denominados como precoces, médios e tardios. Seguindo essa classificação, os cultivares precoces são sinônimos de DC, os médios de DI, e os tardios de DL (Leite, 2007). Na prática essa denominação se refere ao ciclo de maturação da cebola podendo haver subdivisões, por exemplo: super precoce, hiperprecoce e semitardio. Estas divisões servem para agrupar melhor os cultivares, em função das faixas de fotoperíodo utilizadas para a classificação ser ampla. Sendo assim, um cultivar de DI, que necessita de mais horas de luz para bulbificar, pode ser denominado como de ciclo tardio. Também um cultivar de DI, mas com fotoperíodo próximo ao limite menor da classe, pode ser chamado de precoce.
+
+-- INFLUÊNCIA DA LATITUDE NO FOTOPERÍODO: --
+A escolha do cultivar deve ser realizada em concordância com o fotoperíodo do local de cultivo, sabendo-se que o fotoperíodo varia com a latitude e a época do ano (Tabela 1). O plantio de cultivares em locais ou em épocas do ano em que o fotoperíodo não esteja de acordo com as necessidades do cultivar poderá comprometer toda produção. Assim, se um cultivar de DL for plantado em Goiás (15° Latitude Sul) um elevado número de plantas irá vegetar por muito tempo não formando bulbos, ou irá formar os chamados “charutos”, bulbos que não se desenvolveram devido à insuficiência de luz para induzir a bulbificação. Por sua vez, se um cultivar de DC for cultivado em outubro na cidade de São José do Norte, RS (32° Latitude Sul), onde o fotoperíodo é muito superior, haverá uma bulbificação prematura, obtendo-se bulbos pequenos e possivelmente sem valor comercial.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12550%5D%7B301%7Dtabela_1_-_latitude.jpg
+Legenda: Tabela 1: Fotoperíodo mensal, em horas, em diversas latitudes do hemisfério Sul. Fonte: Adaptado de Varejão-Silva, 2006.
+
+-- ÉPOCA DE SEMEADURA DOS CULTIVARES PRECOCES, MÉDIOS E TARDIOS: --
+Em termos gerais, os cultivares de DC (precoces) são semeados entre meados do verão e meados do outono, sendo a colheita realizada entre meados do inverno e meados da primavera. Os cultivares de DI (médios) são semeados normalmente em meados a final do outono e a colheita na primavera a início do verão. Os cultivares de DL (tardios) são geralmente semeados no início da primavera e colhidas entre final do verão e final do outono.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

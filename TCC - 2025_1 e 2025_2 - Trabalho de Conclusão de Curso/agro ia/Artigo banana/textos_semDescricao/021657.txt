@@ -1,0 +1,46 @@
+Título: BANANA - Manejo do bananal
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021657&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Manejo do bananal
+Controle de vegetação espontânea
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18381%5D%7B132%7Dplantas_invaroras_1.jpg
+21694
+Controle de vegetação espontânea
+Densidade de plantio
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18382%5D%7B514%7Dfigura_13_-_b.jpg
+21685
+Densidade de plantio
+Desbaste de perfilhos
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18373%5D%7B215%7Dperfilhos_1.png
+21686
+Desbaste de perfilhos
+Desfollha
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18374%5D%7B255%7D2014-02-14_10.22.12.jpg
+21687
+Desfollha
+Desvio de filhotes e de cachos
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18379%5D%7B388%7Ddesvio_de_perfilhos.jpg
+21692
+Desvio de filhotes e de cachos
+Ensacamento dos cachos
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18378%5D%7B543%7Densacamento.jpg
+21691
+Ensacamento dos cachos
+Escoramento ou amarração da bananeira
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18375%5D%7B171%7Descoramento.png
+21688
+Escoramento ou amarração da bananeira
+Manejo do pseudocaule após a colheita
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18380%5D%7B180%7Dpseudocaule_1.png
+21693
+Manejo do pseudocaule após a colheita
+Poda de coração
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18376%5D%7B58%7Dpoda_coracao.jpg
+21689
+Poda de coração
+Poda de pencas
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18377%5D%7B149%7Dpoda_de_penca_1.jpg
+21690
+Poda de pencas

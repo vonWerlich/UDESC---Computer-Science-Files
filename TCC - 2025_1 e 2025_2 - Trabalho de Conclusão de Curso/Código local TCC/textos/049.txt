@@ -1,0 +1,38 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Podridão apical, estilar ou necrose apical
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=049&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1502%5D%7B64%7D2016-01-06_09.38.59.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1502%5D%7B450%7D2016-01-06_09.38.59.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1502%5D%7B511%7D2015-12-28_15.42.16.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1502%5D%7B186%7Dimg-20160412-wa0008.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1502%5D%7B488%7Dimg-20160415-wa0013.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1502%5D%7B143%7Dzap_grupo_morango_2.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1502%5D%7B146%7Dzap_grupo_morango_1.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1502%5D%7B405%7Dzap_grupo_morango_3.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1502%5D%7B440%7Dzap_grupo_morango_4.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1502%5D%7B214%7Dimg-20160415-wa0014.jpg
+Legenda: Sintomas típicos de frutos com podridão apical. Foto: Rafael G. F. Morales
+
+-- INFORMAÇÕES GERAIS: --
+- Essa doença fisiológica é atribuída a baixa quantidade de Cálcio no solo. Contudo, em muitos casos, não é a falta de cálcio diretamente que provoca essa doença, e sim outros fatores indiretos. - No fruto o teor de cálcio tem que ser superior a 0,12%; - Pode provocar a queda de flores; - Noites subsequentes quentes podem agravar os sintomas (o Ca chega nas inflorescências no período noturno devido a menor transpiração foliar).
+
+-- SINTOMAS: --
+Os frutos apresentam uma mancha preta, deprimida, coriácea, seca e firme no ápice. Em casos extremos, a parte central do fruto fica preta e o fruto mal formado. Quando os sintomas são agudos, podem ocorrer necrose das pontas e margens dos folíolos. As faces inferiores das folhas apresentam coloração arroxeada e os folíolos, pequenos e deformados. As raízes ficam pouco desenvolvidas e com coloração amarronzada.
+
+-- O QUE PODE ESTAR OCORRENDO: --
+1- Problemas com o sistema de irrigação. Solução: Irrigações uniformes durante toda a produção, principalmente na fase final de produção, pois os frutos do quarto cacho em diante são os que mais manifestam os sintomas. 2- Altas doses de adubos potássicos e nitrogenados, principalmente os amoniacais. Excesso de sais solúveis na solução do solo, como K, N, Mg, S, Cl, Na (salinidade excessiva). Solução: parcelamento das adubações de cobertura. Cuidar com adubos amoniacais. 3- Deficiência de cálcio no solo; Solução: calagem com antecedência ao plantio. Pelo menos 4 cmol/dm3, e 70 e 80% a saturação por bases. O controle curativo, segundo ROLAS 2004, pode ser feito com cloreto de cálcio (CaCl2) ou nitrato de cálcio na dosagem de 500 a 600g por 100 L de água, com pulverizações a cada 5-7 dias. Deve-se dar preferência ao nitrato de cálcio, pois o CaCl2 quando aplicado nas horas quentes do dia pode causar queima de folhas, flores e frutos. **(A eficiência dessa correção de Ca via foliar é questionável). 4- Propensão genética; Solução: procurar por cultivares mais tolerantes ou resistentes. Cultivares de frutos alongados normalmente são mais sensíveis.
+
+-- CONTROLE: --
+- Correção do solo em pré-plantio com adubos ricos em cálcio. - Controle da irrigação e da umidade do solo.
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA.

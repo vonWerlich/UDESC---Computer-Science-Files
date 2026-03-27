@@ -1,0 +1,105 @@
+Título: CALDA BORDALESA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=2181&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1969%5D%7B221%7Dcalda_bordalesa.jpg
+
+-- Informações gerais: --
+Dentre os fungicidas tradicionais utilizados na agricultura, destaca-se a calda bordalesa, que é elaborada e aplicada em diversos sistemas de produção por mais de 100 anos. É empregada em caráter preventivo em pulverização sobre os órgãos verdes das plantas, sendo considerado um biocida de amplo espectro. Ela também tem efeito fungistático, agindo sobre o esporo em germinação. A eficiência comprovada dessa calda contra diversos fitopatógenos faz com que ela seja a principal estratégia de manejo de doenças foliares em cultivos no sistema orgânico. Receitas de preparo e uso desta calda estão disponíveis em abundância na literatura, porém, em muitos casos, contém erros básicos de preparo, o que compromete a sua eficiência. Serão descritos nos tópicos seguintes o material necessário e o passo a passo para o preparo e uso, de tal forma que se obtenha um produto de excelente qualidade.
+
+-- Material Empregado: --
+• Vasilha não metálica com capacidade igual ou superior a 20% do volume final da calda; • Vasilha com capacidade igual ou superior à metade do volume final da calda; • Balança com precisão de uma grama; • Pano ou peneira de plástico para coar cal apagado; • Pás de madeira para agitação; • Tiras de papel tornassol ou peagâmetro; • Cal virgem; • Sulfato de cobre em forma de cristais moídos.
+
+-- Concentração de sulfato de cobre: --
+A concentração de sulfato de cobre na calda bordalesa, seja para ser aplicada durante a fase vegetativa ou não de hortaliças, varia de 0,25 a 1%. Isto significa empregar de 250g a 1kg do produto para 100L de calda. Como via de regra, utiliza-se a concentração de 0,3% de sulfato de cobre, o que evita o acréscimo de cobre no solo, além de fitotoxicidade, até porque, a efetividade no controle de doenças está na qualidade da calda e da aplicação e não na excessiva concentração de cobre. O sulfato de cobre (25% de cobre) deve ter pureza maior que 99%.
+
+-- Preparo: --
+Para o preparo de 10 litros de calda bordalesa a 0,3% de concentração, deve-se preparar inicialmente duas soluções, sendo: 5 litros de solução de sulfato de cobre e outros 5 litros de “leite” de cal.
+
+-- Preparo da solução de sulfato de cobre: --
+Para o preparo da solução de cobre, dilui-se 30g do sulfato de cobre em vasilha não metálica e em água apenas o suficiente para dissolvê-lo. É importante dar preferência ao sulfato de cobre em forma de cristais moídos, que se dissolvem quase que imediatamente em água, mesmo fria. Quando na forma de pedras, precisa ser moído e posto a dissolver por certo tempo em água morna ou quente. Depois de dissolvida, deve ser acrescida água, de modo que o volume final seja a metade da quantidade de calda a ser obtida, neste caso 5 litros (5L da solução de cobre + 5L da solução da cal = 10 L de calda bordalesa). Essa vasilha deve ser capaz de receber cerca de 20% a mais do volume final da calda. Essa folga permitirá que a calda seja transportada e constantemente agitada sem derramamentos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B492%7D%5B1969%5D%7B363%7D66-4.jpg
+Legenda: Diluição do cobre em metade do volume final da calda bordalesa. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B83%7D%5B1969%5D%7B363%7D66-4.jpg
+Legenda: Diluição do cobre em metade do volume final da calda bordalesa. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B55%7D%5B1969%5D%7B420%7D66-6.jpg
+Legenda: Medição do pH da calda com peagâmetro digital. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B216%7D%5B1969%5D%7B36%7D67-8.jpg
+Legenda: Medição do pH do “leite” de cal. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B289%7D%5B1969%5D%7B134%7D66-1.jpg
+Legenda: Pesagem do sulfato de cobre moído para o preparo da calda. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B39%7D%5B1969%5D%7B270%7D66-2.jpg
+Legenda: Pesagem do sulfato de cobre moído para o preparo da calda. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B245%7D%5B1969%5D%7B240%7D66-5.jpg
+Legenda: Vasilha com capacidade superior a 20% do volume final da calda. Foto: Rafael G. F. Morales
+
+-- Preparo da solução de hidróxido de cálcio: --
+A quantidade a empregar de hidróxido de cálcio variará de 50 a 80% da quantidade de sulfato de cobre a empregar. Esta variação ocorre devido ao uso de óxido de cal (cal virgem) a apagar ou de hidróxido de cálcio recentemente preparado por estar relacionada à capacidade de ambos em reagir com o sulfato de cobre. A cal utilizada deve ter teor de óxido de cálcio maior que 90%, ou seja, a cal deve ser nova. Considerando a quantidade de cal em 50% da quantidade de sulfato de cobre, são necessárias 15 g de cal virgem para o preparo de 10 litros de calda bordalesa a 0,3%. A cal passará pelo processo de apaga, em 500mL de água. A cal virgem produz calor quando hidratada (CaO + H2O ==> Ca[OH]2 + calor), o que não acontece com o hidróxido de cálcio. A cal, quando dissolvida na água, dissocia-se em íons cálcio (Ca++) e íons hidroxilas (Ca[OH]2 ==> Ca++ + 2OH-). Neste processo se observa o aquecimento e evaporação da água com resfriamento gradual, a medida que a reação se finda, formando-se a cal hidratada. Após resfriamento, deve-se fazer a filtragem da mistura saturada de cal e água, utilizando pano, filtro de plástico ou peneira inox de malha fina, sendo descartado o material que fica no filtro. Para finalizar o preparo da cal, deve-se adicionar o restante do volume de água para completar os 5 litros.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B136%7D%5B1969%5D%7B311%7D67-3.jpg
+Legenda: Diluição da cal. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B331%7D%5B1969%5D%7B23%7D67-6.jpg
+Legenda: Diluição da cal queimada no volume inicial pré-estabelecido. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B147%7D%5B1969%5D%7B233%7D67-4.jpg
+Legenda: Filtragem. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B176%7D%5B1969%5D%7B36%7D67-8.jpg
+Legenda: Medição do pH do leite de cal. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B307%7D%5B1969%5D%7B103%7D67-1.jpg
+Legenda: Pesagem da cal em copo plástico. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B364%7D%5B1969%5D%7B443%7D67-2.jpg
+Legenda: Queima da cal com um pouco de água. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B426%7D%5B1969%5D%7B27%7D67-5.jpg
+Legenda: Resíduo de cal na peneira. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B277%7D%5B1969%5D%7B346%7D67-7.jpg
+Legenda: Volume final do leite de cal. Foto: Rafael G. F. Morales
+
+-- Mistura do leite de cal na solução de sulfato de cobre: --
+Agitando cada um dos componentes da calda bordalesa, derramar vagarosamente, jamais de forma abrupta, a suspensão de hidróxido de cálcio (“leite” de cal) na solução de sulfato de cobre (NUNCA FAZER O INVERSO) . A mistura também deve ser agitada durante o processo de preparo da calda. Note-se que o azul da solução de cobre vai clareando até obter a tonalidade azul celeste. Nesse momento, interrompe-se a aplicação do “leite” de cal para a medição do pH da calda.
+
+-- Controle do pH: --
+O pH deve ser levemente ácido (entre 6,5 e 6,8). Torna-se necessário parar a reação antes do pH atingir índice 7, porque mesmo após parar de derramar o “leite” de cal, o pH continua subindo vagarosamente, ao passo que no momento da aplicação a calda estará alcalina. Se preciso for, aplica-se mais “leite” de cal e tantas interrupções, sob agitação, e medições para se garantir a obtenção do pH recomendado. O ideal é o emprego de um peagâmetro digital para o controle do pH ou fitas indicadoras de pH. O emprego de lâminas de ferro, facas ou pregos para estimar o pH da calda não é recomendado, pois apenas indica que a calda está ácida ou alcalina, mas sem quantificação. Em calda ácida metais escurecem, e em calda alcalina nenhuma reação ocorre. Obs: Existem publicações que recomendam calda bordalesa com pH acima de 10. Contudo, as recomendações são embasadas em observações práticas, e não se sabe ao certo a qualidade da calda preparada, o forma que foi mensurado o pH e a reprodutibilidade dessa recomendação. Assim, recomenda-se o pH próximo da neutralidade, tal como relatado nesse item.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B123%7D%5B1969%5D%7B312%7D68-2.jpg
+Legenda: Controle do pH com peagâmetro digital. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B363%7D%5B1969%5D%7B135%7D68-3.jpg
+Legenda: Uso de fitas indicadoras para o controle do pH durante o preparo da calda bordalesa. Foto: José Angelo Rebelo
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B226%7D%5B1969%5D%7B384%7D68-1.jpg
+Legenda: Uso do “leite” de cal na solução de sulfato de cobre. Foto: Rafael G. F. Morales
+
+-- Etapa final do preparo da calda bordalesa: --
+Se, ao atingir o pH buscado, houver sobra de “leite” de cal, que deverá ser mínima, completa-se o volume final da calda bordalesa com água pura e o “leite” de cal restante deve ser descartado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B300%7D%5B1969%5D%7B477%7D69-1.jpg
+Legenda: Complemento do volume da calda com água para compensar a sobra (se houver) de “leite” de cal após a obtenção de pH desejado. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B89%7D%5B1969%5D%7B301%7D69-2.jpg
+Legenda: Obtenção do volume final pré-estabelecido. Foto: Rafael G. F. Morales
+
+-- Coloração da calda bordalesa: --
+A cor da calda orienta para seu pH: quando esverdeada, indica excesso de cobre (ácida: pH < 7) e tem menor tenacidade; quando esbranquiçada, indica excesso de cal (alcalina: pH > 7) e tem maior tenacidade, porém muito gesso, o que não interessa. O tom azul-celeste indica pH neutro (pH = 7) ou próximo dele.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B459%7D%5B1969%5D%7B77%7D70.jpg
+Legenda: Coloração azul-celeste da calda bordalesa indicando que o pH está próximo a neutro. Foto: Rafael G. F. Morales
+
+-- Uso em pulverizadores: --
+Uma vez pronta, a calda deve ser transferida para os pulverizadores, passando por peneira para a última filtragem de resíduos. Quando da aplicação, o agricultor deverá utilizar os equipamentos de proteção individual, bem como deverá banhar-se após as pulverizações. Deve-se atentar para o fato de lavar bem os equipamentos de pulverização após o uso como garantia para sua conservação, evitando fazê-lo em nascentes, cursos d’água, açudes, etc., onde também não fará o descarte de excedentes de calda. A aplicação em grande volume deve ser feita na parte aérea da planta, empregando-se equipamentos terrestres manuais ou motorizados, sejam pulverizadores de barra, sejam pistolas ou costais com pressão acima de 40lb pol-2, provido de bico cone em cerâmica ou em aço inoxidável, obtendo-se microgotículas que façam plena cobertura da folha a ser protegida.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B505%7D%5B1969%5D%7B245%7D71-2.jpg
+Legenda: Aplicação de calda bordalesa em tomateiros em abrigos de cultivo. Foto: José Angelo Rebelo
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B292%7D%5B1969%5D%7B218%7D71-1.jpg
+Legenda: Detalhe da cobertura da calda sobre a folha. Foto: Rafael G. F. Morales
+
+-- Carência para uso: --
+A calda, por ser quimicamente considerada uma suspensão coloidal, é instável, por isso deve ser aplicada pura e no mesmo dia do preparo. Após 24 horas da sua elaboração, a calda experimenta transformações no precipitado, que passa do gelatinoso ao cristalino, o que reduz a tenacidade e o valor biocida.
+
+-- Condições ambientais para aplicação: --
+A pulverização da calda bordalesa deve ser feita em dias calmos, não muitos secos (UR > 65%) e no período com temperatura entre 25 e 30ºC. Deve-se evitar a aplicação em folhagem molhada. Durante a pulverização, a calda dever ser agitada continuamente.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B81%7D%5B1969%5D%7B477%7D72.jpg
+Legenda: Agitação constante da calda bordalesa enquanto ocorre a aplicação nas plantas. Foto: José Angelo Rebelo
+
+-- Cuidados com produtos à base de enxofre: --
+Produtos à base de enxofre aplicados antes ou depois da aplicação de calda bordalesa podem causar fitotoxidade. Recomenda-se que se observe intervalo de pelo menos 25 dias entre uma aplicação e outra. Em cultivo protegido, o período de permanência dos produtos nas plantas é maior. Assim, o controle do intervalo de aplicações deverá ser melhor observado.
+
+-- Qualidade da calda bordalesa e a suspensibilidade: --
+À medida que se acrescenta o “leite” de cal, o sulfato de cobre reage, formando membranas de precipitação em torno das partículas de hidróxido de cálcio. Quanto melhor a qualidade da cal, menores as vesículas de precipitação e melhores as propriedades físico-químicas da calda bordalesa. A suspensibilidade da calda indica sua qualidade. A avaliação é feita tomando-se uma porção em um copo de vidro para avaliar a velocidade do precipitado, que em uma boa calda tem velocidade média. Caldas ácidas têm precipitação mais rápida que neutra, baixa persistência na planta e são fitotóxicas em face da presença de cobre livre. Caldas muito alcalinas têm lenta precipitação, são também fitotóxicas e, por terem as fontes de cobre bloqueadas, têm pouco efeito biocida.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B51%7D%5B1969%5D%7B177%7D73.jpg
+Legenda: Grumos ou membranas de precipitação em torno das partículas de hidróxido de cálcio na calda bordalesa. Foto: José Angelo Rebelo
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1969%5D%7B457%7D%5B1969%5D%7B542%7D74-5.jpg
+Legenda: Velocidade de precipitação da calda bordalesa com pH 7,0 após 20 min. Foto: Rafael G. F. Morales
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53). REBELO, J.A.; REBELO, A.M.; SCHALLENBERGER, E. Calda bordalesa: componentes, obtenção e características. Florianópolis: Epagri, 2015. 36p. (Boletim Técnico, 166).

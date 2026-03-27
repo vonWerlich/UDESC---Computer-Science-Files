@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Mero
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019788&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17327%5D%7B527%7Dmero.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Código: 269; Cultivar: Mero; Categoria: Solanáceas; Híbrido de crescimento determinado “meia estaca” de plantas com alto vigor e cobertura foliar. Produz frutos de ótimo padrão comercial, com excelentes formato e coloração; - Ciclo: 90 a 100 dias (DAS); - Hábito de crescimento: Determinado; - Tolerâncias: TSWV, N, TMV, F1,2,3 e tolerância intermediária ao TYLCV (Geminivirus).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br/produto/ver/458/tomate-mero">https://www.tsvsementes.com.br/produto/ver/458/tomate-mero

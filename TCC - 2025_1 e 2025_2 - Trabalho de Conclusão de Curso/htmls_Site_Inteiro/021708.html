@@ -1,0 +1,307 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7983&amp;isEdicao=N&amp;epagriTEC=S">BANANA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7984&amp;isEdicao=N&amp;epagriTEC=S">     Fitossanidade</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21661&amp;isEdicao=N&amp;epagriTEC=S">Principais doenças da bananeira</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21708&amp;isEdicao=N&amp;epagriTEC=S">MAL-DO-PANAMÁ</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18398">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021708">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18398]{365}panama_1.png"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Arquivo Epagri </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  PSEUDOCAULE DE BANANEIRA COM MAL-DO-PANAMÁ 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>DESCRIÇÃO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <i>Fusarium oxysporum f</i>. sp. <i>cubense</i> é um fungo veiculado pelo solo capaz de sobreviver na ausência do hospedeiro primário na forma de estrutura de resistência chamada de clamidósporo, bem como em restos culturais e em hospedeiros secundários, como capim-do-Pará (<i>Panicum purpurascens</i>), capim mori (<i>Paspalum fasciculatum</i>), <i>Ixophorus unisetus</i> (<i>Poaceae</i>), trapoeraba (<i>Commelina diffusa</i>) e caruru (<i>Amaranthus</i> sp.)(<sup>1</sup>) <br><br>
+Uma das principais ameaças da bananicultura mundial é a doença conhecida como mal-do-Panamá, ou murcha de Fusarium ou fusariose da bananeira, que tem como agente causal o fungo <i>Fusarium oxysporum f</i>. sp. <i>cubense</i>. Esse fitopatógeno foi descrito pela 
+primeira vez na Austrália, em 1876. No Brasil, essa doença foi identificada pela primeira vez em Piracicaba, SP, em 1930, que em poucos anos matou aproximadamente um milhão de bananeiras dos subgrupos Maçã e Prata. Atualmente, essa doença ocorre em todo o 
+território nacional(<sup>2</sup>)(<sup>3</sup>).<br><br>
+A disseminação do fungo pode ser de curta ou longa distância. Plantas doentes produzem e liberam estruturas do fitopatógeno que podem servir para a infecção de plantas vizinhas. O respingo de chuva também pode disseminar <i>F. oxysporum f</i>. sp. <i>cubense</i>
+a curta distância. O fungo pode ser disseminado pela água de escorrimento de áreas afetadas para áreas sadias. Animais domésticos e o moleque-da-bananeira podem auxiliar na dispersão do fitopatógeno. Finalmente, o homem pode estar envolvido 
+com a disseminação do fungo a curta e longa distância de diferentes modos, como o plantio de mudas doentes e carregamento de estruturas do fungo em maquinário, ferramentas, sapatos e roupas.<br><br>
+São conhecidas quatro raças fisiológicas de <i>F. oxysporum f</i>. sp. <i>cubense</i>. As raças 1, 2 e 4 têm como plantas indicadoras bananeiras ‘Gros Michel’, ‘Bluggoe’ (banana-figo) e 
+‘Cavendish’, respectivamente. Já a raça 3 afeta as helicônias. Além das plantas indicadoras, a raça 1 pode causar doenças em plantas pertencentes aos subgrupos Prata e Maçã, e a raça 4 também causa doença nos cultivares suscetíveis às raças 1 e 2. Além disso, raça 4 é dividida em dois grupos: tropical (TR4) e subtropical (STR4), sendo que STR4 afeta bananeiras ‘Cavendish’ apenas em condições subtropicais e TR4 em condições tropicais e 
+subtropicais. <br><br>A STR4 está relatada em cinco países, inclusive em Santa Catarina (Figuras abaixo). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28710,021708,18398,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18398]{245}figura_6a_sintomas_externos.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28711,021708,18398,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18398]{379}figura_6b_sintomas_externos.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28712,021708,18398,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18398]{222}figura_6c_sintomas_expernos.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28713,021708,18398,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18398]{122}figura_6d_sintomas_pseudocaule.jpg">  </a> 
+<br><br>
+<b>SINTOMAS</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O mal-do-Panamá é uma doença vascular, que apresenta sintomas externos caracterizados pelo amarelecimento progressivo a partir das folhas mais velhas, começando do bordo do limbo foliar em direção à nervura central. Em seguida, ocorre a murcha e quebra do pecíolo foliar junto ao pseudocaule, deixando a planta com a aparência de um guarda-chuva fechado, e necrose da folha. Nas folhas mais novas, observa-se redução e distorção do limbo, bem como engrossamento das nervuras secundárias, seguido por 
+necrose, até que todas as folhas morram.<br><br> No feixe da bainha, próximo ao solo, pode ser visualizado um fendilhamento vertical. Cortes no pseudocaule mostram necroses pardo-avermelhadas nas bainhas mais externas e com centro claro. No rizoma, observam-se 
+pontuações escuras que correspondem aos vasos condutores.<br><br> Brotos produzidos por plantas doentes podem se desenvolver sem o aparecimento de sintomas sistêmicos, mas podem conter <i>F. oxysporum f</i>. sp. <i>cubense</i> na forma latente em seus tecidos <b>(Figuras abaixo)</b>. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28719,021708,18398,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18398]{351}figura_5a_sintomas_externos.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28718,021708,18398,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18398]{169}figura_5b_fendilhamento_mal_do_panama.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28720,021708,18398,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18398]{52}figura_5c_sintyomas_pseudocaule.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28721,021708,18398,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18398]{532}figura_5d_sintoma_rizoma.jpg">  </a> 
+<br><br>
+<b>CONTROLE</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Uma vez que <i>F. oxysporum f</i>. sp. <i>cubense</i> se estabelece na área, o plantio de cultivares resistentes é a forma mais eficiente para evitar os danos provocados pelo fungo.<br><br>
+Além disso, outras práticas podem ser utilizadas para controlar a doença, como: <br><br> Plantar mudas provenientes de cultura de tecidos produzidas por empresas registradas no Ministério da Agricultura Pecuária e Abastecimento (Mapa);<br><br> Plantar em áreas sem histórico 
+de ocorrência da doença; <br><br>Analisar o solo antes do plantio e corrigir a acidez com elevação do pH para faixa de 6,0 a 6,5 e a saturação de bases (V) para valores entre <b>70 a 80%</b>.<br><br> Adubar com base em análise de solo, inclusive de micronutrientes como zinco <b>(Zn)</b> e evitar o uso excessivo da ureia como fonte exclusiva de N; e evitar solos sujeitos a alagamento, instalar drenos e evitar o escorrimento de água da chuva no bananal, que pode transportar inóculo do fungo.<br><br> Além disso, recomenda-se controlar nematoides e brocas; evitar a aplicação de herbicidas; desinfestar as ferramentas após o manejo de plantas em áreas com histórico da doença; evitar a entrada de veículos e pessoas não autorizadas, bem como a presença de animais domésticos ou selvagens nos bananais; dispor os rejeitos da colheita de banana 
+em local que não atraia animais e evitar locais sujeitos a inundação; cultivar plantas de cobertura; e aplicar biofertilizante, matéria orgânica e/ou agentes de controle biológico.(<sup>1</sup>)(<sup>2</sup>)
+
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.<br><br>
+
+(<sup>1</sup>)DITA, M.; BARQUERO, M.; HECK, D.; MIZUBUTI, E.S.G; STAVER, C.P. Fusarium Wilt of 
+Banana: Current knowledge on epidemiology and research needs toward sustainable 
+disease management. Frontiers in Plant Science, v. 9, n. 1468, 2018.<br><br>
+
+(<sup>2</sup>)CORDEIRO, Z.J.M.; MATOS, A.P.; KIMATI, H. Doenças da bananeira (Musa sp.) In: KIMATI, 
+H.; AMORIM, L.; BERGAMIN FILHO, A.; CAMARGO, L.E.A. (Ed.). Manual de fitopatologia.
+4.ed. São Paulo: Agronômica Ceres, 2005. v.2. p.99-117.<br><br>
+
+
+
+(<sup>3</sup>)JONES, D.R. Handbook of diseases of banana, abacá and enset. Wallingford: CABI 
+Publishing, 2000. 544 p.
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• André Boldrin Beltrame (Dr. - Epagri)<br> &nbsp;&nbsp; Pesquisador - Epagri - Itajaí </font> 
+<br><br><br> <font size="2"> Criado em: 15/03/2024</font>
+<br> <font size="2"> Última atualização: 26/04/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021708&amp;cdElemento=18398">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18398');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

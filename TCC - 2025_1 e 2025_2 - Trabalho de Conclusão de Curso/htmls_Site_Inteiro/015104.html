@@ -1,0 +1,1123 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+
+    
+    
+            
+
+    <script>
+        var acaoBotao = '0';
+        var palavraChave = 0;
+        
+        function selecionado(cdEstrutura, nmEstrutura) {
+            var isEdicao = 'N';
+            var paramEpagriTEC = '&epagriTEC=S';
+            if ( acaoBotao === '0' ) {
+               //jqTravaPagina(null,null,null);                
+               location.href='../sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao + paramEpagriTEC;
+            } 
+            if ( acaoBotao === 'inserirEstrutura' ) {
+               acaoBotao = '0';                
+               url = '/sedimob/sedimob/cadastroGenericoCampoTexto.jsp?cdEstrutura=' + cdEstrutura.toString().trim() + '&dsTabela=agrowiki_estrutura';
+               abreDialog(true, 'Inserir subnível', url, 'Fechar', false,600,220);                  
+            } 
+            if ( acaoBotao === 'renomearEstrutura' ) {
+               acaoBotao = '0';                
+               url = '/sedimob/sedimob/cadastroGenericoCampoTexto.jsp?cdEstrutura=015104&cdChave=' + cdEstrutura.toString().trim() + '&dsTabela=agrowiki_estrutura';
+               abreDialog(true, 'Renomear item', url, 'Fechar', false,600,220);                  
+            }     
+            if ( acaoBotao === 'alterarEstruturaHierarquia' ) {
+               acaoBotao = '0';                
+               url = '/sedimob/sedimob/manutencaoElementoHierarquia.jsp?cdEstrutura=015104&cdChave=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao;
+               abreDialog(true, 'Reposicionar Hierarquia', url, 'Fechar', false,600,250);                  
+            }               
+            if ( acaoBotao === 'removerEstrutura' ) {
+               acaoBotao = '0';
+               var cdEstruturaSuperior = '0';
+               cdEstruturaSuperior=015104;
+
+               if ( confirm('Deseja realmente remover o item?') ) {
+                  location.href='../sedimob/consulta.action?subFuncao=removerEstrutura&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao + 
+                                '&cdEstruturaSuperior=' + cdEstruturaSuperior; 
+               }
+            }   
+            if ( acaoBotao === 'inserirElemento' ) {
+               acaoBotao = '0';
+               
+                     if ( confirm('Deseja realmente cadastrar conteúdo dentro deste item?') ) {
+                        location.href='../sedimob/consulta.action?subFuncao=inserirElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao;
+                     } 
+                   
+            } 
+
+            if ( acaoBotao === 'vincularElemento' ) {
+                acaoBotao = '0';
+                url = '/sedimob/sedimob/cadastroGenericoCampoTexto.jsp?cdEstrutura=' + cdEstrutura.toString().trim() + '&dsTabela=agrowiki_estrutura_associa_elemento';
+                abreDialog(true, 'Vincular Elemento', url, 'Fechar', false,600,250);                     
+            } 
+
+            if ( acaoBotao === 'trocarImagemElemento' ) {
+                  acaoBotao = '0';
+                  var cdEstruturaSuperior = '0';
+                  cdEstruturaSuperior=015104;
+
+                  url = '/sedimob/sedimob/cadastroEstruturaImagem.jsp?cdEstrutura=' + cdEstruturaSuperior + '&cdEstruturaParaAtualizar=' + cdEstrutura.toString().trim();                
+                  abreDialog(true, 'Trocar imagem', url, 'Fechar', false,600,250);                  
+            }
+
+            if ( acaoBotao === 'cadastrarPalavraChave' ) {
+                  acaoBotao = '0';
+                  url = '/sedimob/sedimob/janelaSelecionaPalavrasChave.jsp?cdEstrutura=' + cdEstrutura + '&cdEstruturaSuperior=015104';                  
+                  abreDialog(true, 'Palavras-Chave: ' + nmEstrutura, url, 'Fechar', false,800,650);                  
+            }
+            if ( acaoBotao === 'visibilidadeEstrutura' ) {
+               acaoBotao = '0';
+               var cdEstruturaSuperior = '0';
+               cdEstruturaSuperior=015104;
+
+               if ( confirm('Deseja realmente alterar a visibilidade do item?') ) {
+                  location.href='../sedimob/consulta.action?subFuncao=visibilidadeEstrutura&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao + 
+                                '&cdEstruturaSuperior=' + cdEstruturaSuperior; 
+               }
+            }   
+            if ( acaoBotao === 'visibilidadeEstruturaEpagriTEC' ) {
+               acaoBotao = '0';
+               var cdEstruturaSuperior = '0';
+               cdEstruturaSuperior=015104;
+
+               if ( confirm('Deseja realmente alterar a visibilidade do item no EpagriTEC?') ) {
+                  location.href='../sedimob/consulta.action?subFuncao=visibilidadeEstruturaEpagriTEC&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao + 
+                                '&cdEstruturaSuperior=' + cdEstruturaSuperior; 
+               }              
+            }   
+            if ( acaoBotao === 'vinculaEpagriTec' ) {
+               acaoBotao = '0';
+               var cdEstruturaSuperior = '0';
+               cdEstruturaSuperior=015104;
+
+               url = '/sedimob/sedimob/cadastroVinculaEpagriTecEstrutura.jsp?cdEstrutura=' + cdEstruturaSuperior + '&cdEstruturaParaAtualizar=' + cdEstrutura.toString().trim();                
+               abreDialog(true, 'EpagriTEC ' + nmEstrutura, url, 'Fechar', false,600,250);                  
+            }               
+        }
+        
+        function editarElemento() {
+           // alert('Editar elemento');
+           // Não é necessário fazer nenhuma ação. O sistema já direciona para a tela de edição.
+        }
+        function cadastrarElemento() {
+           acaoBotao = 'inserirElemento'; 
+        }
+        function vincularElemento() {
+           acaoBotao = 'vincularElemento'; 
+        }        
+        function trocarImagemElemento() {
+           acaoBotao = 'trocarImagemElemento';             
+        }
+        
+        function inserirEstrutura() {
+           acaoBotao = 'inserirEstrutura';      
+        }
+        
+        function removerEstrutura() {
+           acaoBotao = 'removerEstrutura';      
+        }
+        function renomearElemento() {
+           acaoBotao = 'renomearEstrutura'; 
+        }        
+        function alterarEstruturaHierarquia() {
+           acaoBotao = 'alterarEstruturaHierarquia'; 
+        }      
+        
+        function cadastrarPalavraChave() {
+           acaoBotao = 'cadastrarPalavraChave';      
+        }
+        function visibilidadeEstrutura() {
+           acaoBotao = 'visibilidadeEstrutura';      
+        }
+        function visibilidadeEstruturaEpagriTEC() {
+           acaoBotao = 'visibilidadeEstruturaEpagriTEC';      
+        }        
+        function vinculaEpagriTec() {
+           acaoBotao = 'vinculaEpagriTec';      
+        }        
+        
+        function removePalavraChave(cdPalavraChave) {
+           var cdEstruturaSuperior = '0';
+           cdEstruturaSuperior=015104;
+
+           if ( confirm('Deseja realmente remover a palavra-chave?') ) {
+                  location.href='../sedimob/consulta.action?subFuncao=removerEstruturaPalavraChave&cdPalavraChave=' + cdPalavraChave + '&isEdicao=S' + 
+                                '&cdEstruturaSuperior=' + cdEstruturaSuperior; 
+           } else {
+              location.href='consulta.action?subFuncao=consultaDiagnostico&cdEstrutura='+ cdEstruturaSuperior +'&isEdicao=S';    
+           }    
+        }
+        
+        function inserirNaListaAtual(cdEstruturaSuperior) {
+            
+                url = '/sedimob/sedimob/cadastroGenericoCampoTexto.jsp?cdEstrutura=' + cdEstruturaSuperior + '&dsTabela=agrowiki_estrutura';
+                
+            abreDialog(true, 'Inserir item na lista', url, 'Fechar', false,600,220);                  
+        }
+        
+        function inserirDiagnoseVisual(cdEstruturaSuperior) {
+            url = '/sedimob/consulta.action?subFuncao=salvarDiagnoseVisual&cdEstruturaSuperior=' + cdEstruturaSuperior;
+            if ( confirm('Deseja realmente criar a DIAGNOSE VISUAL aqui?') ) {            
+               location.href = url;
+            }
+        }
+        
+    dadosTabela = [
+
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz à bolonhesa </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15262 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz à bolonhesa   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz a cavalo </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15263 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz a cavalo   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz a la Diva </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13159]{393}2_arroz_a_la_diva.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15179 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz a la Diva   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz à parmegiana </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15265 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz à parmegiana   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz ao creme de atum </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13244]{24}11_arroz_ao_creme_de_atum.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15266 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz ao creme de atum   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz ao molho cremoso </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15267 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz ao molho cremoso   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz caipira da Magna </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13116]{223}13_arroz_caipira_da_magna.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15125 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz caipira da Magna   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz carreteiro </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13170]{503}13_arroz_carreteiro.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15190 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz carreteiro   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz com abobrinha e maracujá </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13177]{468}21_arroz_com_abobrinha_e_maracuja.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15197 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz com abobrinha e maracujá   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz com bacon </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13246]{382}12_arroz_com_bacon.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15268 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz com bacon   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz com calabresa </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13158]{34}1_arroz_com_calabresa.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15178 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz com calabresa   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz com costelinha suína  </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13117]{550}14_._arroz_com_costelinha_suina.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15126 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz com costelinha suína    </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz com creme de cebola </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13247]{318}13_arroz_com_creme_de_cebola.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15269 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz com creme de cebola   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz com filé de peixe (tilápia) </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13160]{493}3_arroz_com_file_de_peixe.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15180 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz com filé de peixe (tilápia)   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz com frango e brócolis </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13119]{111}16_arroz_com_frango_e_brocoliiis.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15128 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz com frango e brócolis   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz com frango e pupunha </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13248]{238}14_arroz_com_frango_e_pupunha.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15270 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz com frango e pupunha   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz com linguiça e requeijão </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13114]{548}1.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15123 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz com linguiça e requeijão   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz com uva passa </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13249]{314}15_aeeoz_com_uva_passa.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15271 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz com uva passa   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz da mama </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13229]{71}1_arroz_da_mama.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15250 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz da mama   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz de forno </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13292]{302}11_arroz_de_forno.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15315 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz de forno   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz de forno </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13297]{69}16_arroz_de_forno.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15320 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz de forno   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz de forno com carne moída e legumes </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13231]{81}3_arroz_de_forno_com_carne_moida_e_legumes.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15252 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz de forno com carne moída e legumes   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz de forno com cenoura </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13096]{318}1.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15105 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz de forno com cenoura   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz de micro-ondas </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15264 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz de micro-ondas   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz doce com limão </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13104]{294}8_arroz_doce_com_limao.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15113 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz doce com limão   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz doce cremoso </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13166]{433}9_arroz_doce_cremoso.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15186 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz doce cremoso   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz em camadas </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15272 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz em camadas   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz integral com sardinha </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13230]{544}2_arroz_integral_com_sardinha.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15251 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz integral com sardinha   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz na panela de pressão </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15273 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz na panela de pressão   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz sabor da amizade </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15274 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz sabor da amizade   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz saboroso </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15275 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz saboroso   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arroz tropical </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13103]{525}7_arroz_tropical.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15112 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arroz tropical   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Arrozildo da vovó Darci </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13176]{359}20_arrozilde_vovo_darci.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15196 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Arrozildo da vovó Darci   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Assado de arroz com frango e legumes </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15409 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Assado de arroz com frango e legumes   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolinho assado de arroz integral </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15410 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolinho assado de arroz integral   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolinho de arroz com banana </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13168]{531}11_bolinho_de_arroz_com_banana.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15188 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolinho de arroz com banana   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolinho de arroz com batata </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13172]{347}16_bolinho_de_arroz_com_batata.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15192 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolinho de arroz com batata   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolinho de arroz com batata e queijo </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13254]{116}16_bolinho_de_arroz_com_batata_e_queijo.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15276 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolinho de arroz com batata e queijo   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolinho de arroz com camarão </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13122]{476}19_bolinho_de_arroz_com_camarao.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15131 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolinho de arroz com camarão   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolinho de arroz com feijão </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13162]{523}5_bolinho_de_arroz_com_feijao.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15182 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolinho de arroz com feijão   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolinho de arroz com taiá </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13120]{23}17_bolinho_de_arroz_com_taia.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15129 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolinho de arroz com taiá   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13161]{530}4_bolo_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15181 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de arroz cru </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13098]{448}2_bolos_de_arroz_cru.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15107 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de arroz cru   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de arroz sem glúten </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13293]{228}12_bolo_sem_gluten.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15316 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de arroz sem glúten   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de banana com farinha de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13163]{172}6_bolo_de_banana_com_arinha_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15183 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de banana com farinha de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de castanhas e bananas sem glúten </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13118]{137}15_bolo_de_castanhas_e_bananas_sem_gluten.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15127 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de castanhas e bananas sem glúten   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de cenoura sem glúten e sem lactose </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13300]{496}18_bolo_de_cenoura_sem_glutem_e_sem_lactose.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15323 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de cenoura sem glúten e sem lactose   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de chocolate com arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13295]{47}14_bolo_de_chocolate_com_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15318 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de chocolate com arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de chocolate sem glúten </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13291]{48}10_bolo_de_chacolate_sem_gluti.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15314 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de chocolate sem glúten   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de coco sem glúten </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13099]{44}3_bolo_de_coco_sem_gluten.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15108 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de coco sem glúten   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de laranja sem glúten e sem lactose </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13301]{186}19_bolo_de_laranja_sem_gluten_e_sem_lactose.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15324 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de laranja sem glúten e sem lactose   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo de milho e farinha de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13294]{236}13_bolo_de_milho_com_farinha_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15317 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo de milho e farinha de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo pudim de chocolate com arroz </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15261 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo pudim de chocolate com arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Bolo sem gordura, sem açúcar e sem lactose </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15411 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Bolo sem gordura, sem açúcar e sem lactose   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Broinhas de arroz sem glúten </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13106]{89}10_broinhas_de_arroz_sem_gluten.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15115 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Broinhas de arroz sem glúten   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Carreteiro de calabresa </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13290]{369}9_carreteiro_de_calabresa.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15313 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Carreteiro de calabresa   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Coroa de arroz de micro-ondas </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15311 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Coroa de arroz de micro-ondas   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Cuca de arroz (com sugestão de 6 coberturas) </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13179]{222}23_cuca_de_arroz_(com_sugestao_de_6_coberturas).jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15199 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Cuca de arroz (com sugestão de 6 coberturas)   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Cuca de banana sem glúten e sem lactose </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13298]{501}17_cuca_de_banana_sem_glutem_e_sem_lactose.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15321 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Cuca de banana sem glúten e sem lactose   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Cupcake de arroz com cobertura de banana </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13278]{184}sem_titulo.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15301 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Cupcake de arroz com cobertura de banana   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Cuscuz de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13279]{401}2_cuscuz_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15302 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Cuscuz de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Delícia de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13171]{282}delicia_de_arroz_15.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15191 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Delícia de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Escondidinho de arroz e legumes </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13178]{472}22_escondididnho_de_legumes.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15198 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Escondidinho de arroz e legumes   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Farofão de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13280]{129}3_farofao_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15303 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Farofão de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Feijão com arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13233]{530}5_feijao_com_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15254 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Feijão com arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Frango recheado com arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13281]{466}4_frango_recheado.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15304 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Frango recheado com arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Fricassê com arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13289]{427}8_fricasse_com_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15312 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Fricassê com arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Frigideira de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13180]{270}24_frigideira_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15200 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Frigideira de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Lasanha de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13167]{245}10_lasanha_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15187 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Lasanha de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Lasanha de arroz integral </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13164]{129}7_lasanha_de_arroz_integral.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15184 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Lasanha de arroz integral   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Maionese de arroz branco ou arroz integral </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13105]{278}9_maionese.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15114 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Maionese de arroz branco ou arroz integral   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Manjar de arroz com coco e morango </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13234]{442}6_manjar_de_arroz_com_coco_e_morango.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15256 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Manjar de arroz com coco e morango   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Massa básica para pastel e mini pizza </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13173]{251}17_massa_basica_para_pastel_e_mini_pizza.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15193 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Massa básica para pastel e mini pizza   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Nhoque de arroz italiano </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13181]{308}25_nhoque_de_arroz_italiano.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15201 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Nhoque de arroz italiano   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Panqueca de arroz com carne moída </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13110]{462}12_panqueca_de_arroz_com_carne_moida.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15118 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Panqueca de arroz com carne moída   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Panqueca de chocolate </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13107]{268}11_panqueca_de_chacolate.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15116 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Panqueca de chocolate   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pão de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13174]{519}18_pao_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15194 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pão de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pão de arroz e cará sem glúten </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13175]{332}19_pao_de_arroz_e_cara_sem_gluten.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15195 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pão de arroz e cará sem glúten   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pão de ló de arroz sem glúten </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13282]{268}5_pao_de_lo_de_arroz_sem_gluten.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15305 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pão de ló de arroz sem glúten   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pão de queijo com arroz </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15306 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pão de queijo com arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pastel de arroz com carne moída </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13235]{424}7_pastel_de_arroz_com_carne_moida.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15257 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pastel de arroz com carne moída   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pastel de arroz com peito de frango </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13236]{159}8_pastel_de_arroz_com_peito_de_frango.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15258 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pastel de arroz com peito de frango   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pastelão de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13182]{89}26_pastelao_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15202 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pastelão de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pastelão de arroz e frango </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13101]{506}5_pastelao_de_arroz_de_frango.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15110 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pastelão de arroz e frango   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pastelão de farinha de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13165]{89}8_pastelao_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15185 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pastelão de farinha de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pimentão recheado com arroz </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15307 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pimentão recheado com arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pizza de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13296]{207}15_pizza_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15319 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pizza de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Pudim banho-maria com arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13237]{395}9_pudim_banho_maria_com_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15259 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Pudim banho-maria com arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Risoto de frango </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13169]{136}11_risoto_de_frango.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15189 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Risoto de frango   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Risoto de linguiça Blumenau </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13102]{347}6_risoto_de_linguica.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15111 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Risoto de linguiça Blumenau   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Rocambole de arroz cozido </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13285]{537}6_rocambole_de_arroz_cozido.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15308 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Rocambole de arroz cozido   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Salada de arroz (arroz integral) </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13238]{263}10_salada_de_arroz_(arroz_integral).jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15260 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Salada de arroz (arroz integral)   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Sobremesa de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13232]{313}4_sobremesa_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15253 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Sobremesa de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Sopa doce de arroz </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13287]{71}7_sopa_doce_de_arroz.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15310 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Sopa doce de arroz   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Suflê de arroz de liquidificador </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13100]{179}4_sufle_de_liquidificador.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15109 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Suflê de arroz de liquidificador   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Torta de camarão </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13121]{210}18_tortar_de_camarao.png'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15130 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Torta de camarão   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Torta de frango sem glúten </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13302]{74}20_torta_de_frango_sem_gluten.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15325 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Torta de frango sem glúten   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>Waffer de arroz </b> </td><td style='width: 100%;'>  </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 15309 </font>",
+                  "nome":   "<font style='font-size: 0px;'> Waffer de arroz   </font>"               
+                }
+         
+ 
+    ];
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           // Mostra a quantidade de itens selecionados no accordion superior quando a tela tem filtro avançado
+           $("body").on('DOMSubtreeModified', "#consultaEstruturaTable_info", function() {
+               document.getElementById("accordionTop").innerHTML = document.getElementById("consultaEstruturaTable_info").innerHTML.replace('itens','ocorrências');                        
+           });                
+           $("#consultaEstruturaTable").DataTable( {
+             "aaData": dadosTabela,               
+             "order": [],               
+             "paging":    false,
+             "info":      true,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " ", "sInfo": " _TOTAL_ itens", sInfoFiltered:"(de um total de _MAX_ )", sInfoEmpty:" 0 itens" },
+             "aoColumns": [
+                   { "mDataProp": "texto" },
+                   { "mDataProp": "codigo" },
+                   { "mDataProp": "nome" }                   
+              ],             
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill",
+                 collapsible: true                 
+                 //,activate: function( event, ui ) {
+                 //   if(!$.isEmptyObject(ui.newHeader.offset())) {
+                 //    $('html:not(:animated), body:not(:animated)').animate({ scrollTop: ui.newHeader.offset().top - 100}, 'fast');
+                 //  }
+                 //}                 
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 100,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });              
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Filtrar lista').
+              css({'padding-left':'25px','width':'95vw','display':'inline-block','background-image':'url("../sedimob/img/lupaSearchBox.png")','background-repeat':'no-repeat','background-position':'3px 7px'});         
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaEstruturaTable tr").css('cursor', 'pointer');           
+           $('#consultaEstruturaTable tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                var nomeSel2 = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(2);                    
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel, nomeSel2);
+           });             
+      
+        });    
+     
+  
+        
+      // SCRIPTS seleção de palavra-chave  
+        var itensSelecionados = "";
+        var retornoSelecionados = "";
+        function selecionadoPChave(cdSel) {
+            var novoItem = "[" + cdSel + "] ";
+            // Impede que insira um mesmo item duas vezes
+            if (itensSelecionados.indexOf(novoItem) === -1) {
+               itensSelecionados = itensSelecionados + novoItem;
+               retornoSelecionados = retornoSelecionados + cdSel + "\n";            
+            }
+            document.getElementById("selecionados").innerHTML = itensSelecionados ;
+        }
+        function removerItem(itemRemover) {
+            itensSelecionados = itensSelecionados.replace("[" + itemRemover + "] ","");    
+            retornoSelecionados = retornoSelecionados.replace(itemRemover + "\n","");
+            if ( itensSelecionados.length > 3 ) {
+              document.getElementById("selecionados").innerHTML = itensSelecionados ;    
+            } else {
+              document.getElementById("selecionados").innerHTML = "nenhum item";                           
+            }  
+        }
+        
+        function selecionaItem(id, idGrupo) {
+           //alert( document.getElementById(id).style.backgroundColor.toString() == '' || document.getElementById(id).style.backgroundColor.toString() === 'rgb(255, 255, 255)'); 
+           if ( document.getElementById(id).style.backgroundColor.toString() === '' || document.getElementById(id).style.backgroundColor.toString() === 'rgb(255, 255, 255)' ) {
+              document.getElementById(id).style.backgroundColor='#addbbb';
+              selecionadoPChave(id);                            
+           } else {  
+              document.getElementById(id).style.backgroundColor='#ffffff';               
+              removerItem(id);                            
+           }
+           // O espaço é adicionado abaixo para que o texto com os códigos não apareça no campo de busca da tabela
+           var searchText = '                                                                                                                                                                          ' + itensSelecionados;
+           var table = $("#consultaEstruturaTable").DataTable();
+           table.search(searchText).draw();
+        
+        }
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -20px; width: 100%;  height: 84vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead { display:none;}    
+       
+        #consultaEstruturaTable .even { background-color: #FFFFFF }
+        #consultaEstruturaTable .odd { background-color: #FFFFFF }       
+    </style>
+    
+<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+<style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }            @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                   @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+</style> 
+
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+ 
+
+ <div data-role="header" style="background-color: white; height: 55px;  box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td> 
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>            
+        </tr> 
+    </tbody></table>
+ </div>  
+
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13031&amp;isEdicao=N&amp;epagriTEC=S">ARROZ IRRIGADO</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=15104&amp;isEdicao=N&amp;epagriTEC=S">17. Receitas à base de arroz</a> </font><br> </div>
+
+  
+  
+   
+  
+
+  <div style="padding-left: 5px; padding-top: 0px; padding-bottom: 0px; font-family: Arial; font-weight: bold; font-size: 16px;"> 
+      <div id="consultaEstruturaTable_wrapper" class="dataTables_wrapper no-footer"><div id="consultaEstruturaTable_filter" class="dataTables_filter"><label> <input type="search" class="" placeholder="Filtrar lista" aria-controls="consultaEstruturaTable" style="padding-left: 25px; width: 95vw; display: inline-block; background-image: url(&quot;../sedimob/img/lupaSearchBox.png&quot;); background-repeat: no-repeat; background-position: 3px 7px;"></label></div><table id="consultaEstruturaTable" class="display dataTable no-footer" cellspacing="0" width="100%" style="font-family: Arial; font-size: 14px; color: green; width: 100%;" role="grid" aria-describedby="consultaEstruturaTable_info">    
+       <thead>
+           <tr style="height: 0px; font-size: 0px; cursor: pointer;" role="row"><td style="width: 0px;" class="sorting" tabindex="0" aria-controls="consultaEstruturaTable" rowspan="1" colspan="1" aria-label=" : activate to sort column ascending"> </td><td style="width: 0px;" class="sorting" tabindex="0" aria-controls="consultaEstruturaTable" rowspan="1" colspan="1" aria-label="  : activate to sort column ascending">  </td><td style="width: 0px;" class="sorting" tabindex="0" aria-controls="consultaEstruturaTable" rowspan="1" colspan="1" aria-label="  : activate to sort column ascending">  </td></tr>              
+       </thead>
+       <tbody>
+                    
+       <tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz à bolonhesa </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15262 </font></td><td><font style="font-size: 0px;"> Arroz à bolonhesa   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz a cavalo </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15263 </font></td><td><font style="font-size: 0px;"> Arroz a cavalo   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz a la Diva </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13159]{393}2_arroz_a_la_diva.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15179 </font></td><td><font style="font-size: 0px;"> Arroz a la Diva   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz à parmegiana </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15265 </font></td><td><font style="font-size: 0px;"> Arroz à parmegiana   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz ao creme de atum </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13244]{24}11_arroz_ao_creme_de_atum.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15266 </font></td><td><font style="font-size: 0px;"> Arroz ao creme de atum   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz ao molho cremoso </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15267 </font></td><td><font style="font-size: 0px;"> Arroz ao molho cremoso   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz caipira da Magna </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13116]{223}13_arroz_caipira_da_magna.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15125 </font></td><td><font style="font-size: 0px;"> Arroz caipira da Magna   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz carreteiro </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13170]{503}13_arroz_carreteiro.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15190 </font></td><td><font style="font-size: 0px;"> Arroz carreteiro   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz com abobrinha e maracujá </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13177]{468}21_arroz_com_abobrinha_e_maracuja.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15197 </font></td><td><font style="font-size: 0px;"> Arroz com abobrinha e maracujá   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz com bacon </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13246]{382}12_arroz_com_bacon.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15268 </font></td><td><font style="font-size: 0px;"> Arroz com bacon   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz com calabresa </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13158]{34}1_arroz_com_calabresa.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15178 </font></td><td><font style="font-size: 0px;"> Arroz com calabresa   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz com costelinha suína  </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13117]{550}14_._arroz_com_costelinha_suina.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15126 </font></td><td><font style="font-size: 0px;"> Arroz com costelinha suína    </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz com creme de cebola </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13247]{318}13_arroz_com_creme_de_cebola.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15269 </font></td><td><font style="font-size: 0px;"> Arroz com creme de cebola   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz com filé de peixe (tilápia) </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13160]{493}3_arroz_com_file_de_peixe.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15180 </font></td><td><font style="font-size: 0px;"> Arroz com filé de peixe (tilápia)   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz com frango e brócolis </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13119]{111}16_arroz_com_frango_e_brocoliiis.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15128 </font></td><td><font style="font-size: 0px;"> Arroz com frango e brócolis   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz com frango e pupunha </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13248]{238}14_arroz_com_frango_e_pupunha.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15270 </font></td><td><font style="font-size: 0px;"> Arroz com frango e pupunha   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz com linguiça e requeijão </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13114]{548}1.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15123 </font></td><td><font style="font-size: 0px;"> Arroz com linguiça e requeijão   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz com uva passa </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13249]{314}15_aeeoz_com_uva_passa.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15271 </font></td><td><font style="font-size: 0px;"> Arroz com uva passa   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz da mama </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13229]{71}1_arroz_da_mama.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15250 </font></td><td><font style="font-size: 0px;"> Arroz da mama   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz de forno </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13292]{302}11_arroz_de_forno.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15315 </font></td><td><font style="font-size: 0px;"> Arroz de forno   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz de forno </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13297]{69}16_arroz_de_forno.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15320 </font></td><td><font style="font-size: 0px;"> Arroz de forno   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz de forno com carne moída e legumes </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13231]{81}3_arroz_de_forno_com_carne_moida_e_legumes.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15252 </font></td><td><font style="font-size: 0px;"> Arroz de forno com carne moída e legumes   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz de forno com cenoura </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13096]{318}1.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15105 </font></td><td><font style="font-size: 0px;"> Arroz de forno com cenoura   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz de micro-ondas </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15264 </font></td><td><font style="font-size: 0px;"> Arroz de micro-ondas   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz doce com limão </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13104]{294}8_arroz_doce_com_limao.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15113 </font></td><td><font style="font-size: 0px;"> Arroz doce com limão   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz doce cremoso </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13166]{433}9_arroz_doce_cremoso.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15186 </font></td><td><font style="font-size: 0px;"> Arroz doce cremoso   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz em camadas </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15272 </font></td><td><font style="font-size: 0px;"> Arroz em camadas   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz integral com sardinha </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13230]{544}2_arroz_integral_com_sardinha.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15251 </font></td><td><font style="font-size: 0px;"> Arroz integral com sardinha   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz na panela de pressão </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15273 </font></td><td><font style="font-size: 0px;"> Arroz na panela de pressão   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz sabor da amizade </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15274 </font></td><td><font style="font-size: 0px;"> Arroz sabor da amizade   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz saboroso </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15275 </font></td><td><font style="font-size: 0px;"> Arroz saboroso   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arroz tropical </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13103]{525}7_arroz_tropical.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15112 </font></td><td><font style="font-size: 0px;"> Arroz tropical   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Arrozildo da vovó Darci </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13176]{359}20_arrozilde_vovo_darci.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15196 </font></td><td><font style="font-size: 0px;"> Arrozildo da vovó Darci   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Assado de arroz com frango e legumes </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15409 </font></td><td><font style="font-size: 0px;"> Assado de arroz com frango e legumes   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolinho assado de arroz integral </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15410 </font></td><td><font style="font-size: 0px;"> Bolinho assado de arroz integral   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolinho de arroz com banana </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13168]{531}11_bolinho_de_arroz_com_banana.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15188 </font></td><td><font style="font-size: 0px;"> Bolinho de arroz com banana   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolinho de arroz com batata </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13172]{347}16_bolinho_de_arroz_com_batata.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15192 </font></td><td><font style="font-size: 0px;"> Bolinho de arroz com batata   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolinho de arroz com batata e queijo </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13254]{116}16_bolinho_de_arroz_com_batata_e_queijo.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15276 </font></td><td><font style="font-size: 0px;"> Bolinho de arroz com batata e queijo   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolinho de arroz com camarão </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13122]{476}19_bolinho_de_arroz_com_camarao.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15131 </font></td><td><font style="font-size: 0px;"> Bolinho de arroz com camarão   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolinho de arroz com feijão </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13162]{523}5_bolinho_de_arroz_com_feijao.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15182 </font></td><td><font style="font-size: 0px;"> Bolinho de arroz com feijão   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolinho de arroz com taiá </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13120]{23}17_bolinho_de_arroz_com_taia.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15129 </font></td><td><font style="font-size: 0px;"> Bolinho de arroz com taiá   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13161]{530}4_bolo_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15181 </font></td><td><font style="font-size: 0px;"> Bolo de arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de arroz cru </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13098]{448}2_bolos_de_arroz_cru.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15107 </font></td><td><font style="font-size: 0px;"> Bolo de arroz cru   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de arroz sem glúten </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13293]{228}12_bolo_sem_gluten.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15316 </font></td><td><font style="font-size: 0px;"> Bolo de arroz sem glúten   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de banana com farinha de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13163]{172}6_bolo_de_banana_com_arinha_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15183 </font></td><td><font style="font-size: 0px;"> Bolo de banana com farinha de arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de castanhas e bananas sem glúten </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13118]{137}15_bolo_de_castanhas_e_bananas_sem_gluten.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15127 </font></td><td><font style="font-size: 0px;"> Bolo de castanhas e bananas sem glúten   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de cenoura sem glúten e sem lactose </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13300]{496}18_bolo_de_cenoura_sem_glutem_e_sem_lactose.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15323 </font></td><td><font style="font-size: 0px;"> Bolo de cenoura sem glúten e sem lactose   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de chocolate com arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13295]{47}14_bolo_de_chocolate_com_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15318 </font></td><td><font style="font-size: 0px;"> Bolo de chocolate com arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de chocolate sem glúten </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13291]{48}10_bolo_de_chacolate_sem_gluti.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15314 </font></td><td><font style="font-size: 0px;"> Bolo de chocolate sem glúten   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de coco sem glúten </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13099]{44}3_bolo_de_coco_sem_gluten.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15108 </font></td><td><font style="font-size: 0px;"> Bolo de coco sem glúten   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de laranja sem glúten e sem lactose </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13301]{186}19_bolo_de_laranja_sem_gluten_e_sem_lactose.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15324 </font></td><td><font style="font-size: 0px;"> Bolo de laranja sem glúten e sem lactose   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo de milho e farinha de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13294]{236}13_bolo_de_milho_com_farinha_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15317 </font></td><td><font style="font-size: 0px;"> Bolo de milho e farinha de arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo pudim de chocolate com arroz </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15261 </font></td><td><font style="font-size: 0px;"> Bolo pudim de chocolate com arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Bolo sem gordura, sem açúcar e sem lactose </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15411 </font></td><td><font style="font-size: 0px;"> Bolo sem gordura, sem açúcar e sem lactose   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Broinhas de arroz sem glúten </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13106]{89}10_broinhas_de_arroz_sem_gluten.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15115 </font></td><td><font style="font-size: 0px;"> Broinhas de arroz sem glúten   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Carreteiro de calabresa </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13290]{369}9_carreteiro_de_calabresa.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15313 </font></td><td><font style="font-size: 0px;"> Carreteiro de calabresa   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Coroa de arroz de micro-ondas </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15311 </font></td><td><font style="font-size: 0px;"> Coroa de arroz de micro-ondas   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Cuca de arroz (com sugestão de 6 coberturas) </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13179]{222}23_cuca_de_arroz_(com_sugestao_de_6_coberturas).jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15199 </font></td><td><font style="font-size: 0px;"> Cuca de arroz (com sugestão de 6 coberturas)   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Cuca de banana sem glúten e sem lactose </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13298]{501}17_cuca_de_banana_sem_glutem_e_sem_lactose.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15321 </font></td><td><font style="font-size: 0px;"> Cuca de banana sem glúten e sem lactose   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Cupcake de arroz com cobertura de banana </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13278]{184}sem_titulo.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15301 </font></td><td><font style="font-size: 0px;"> Cupcake de arroz com cobertura de banana   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Cuscuz de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13279]{401}2_cuscuz_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15302 </font></td><td><font style="font-size: 0px;"> Cuscuz de arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Delícia de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13171]{282}delicia_de_arroz_15.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15191 </font></td><td><font style="font-size: 0px;"> Delícia de arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Escondidinho de arroz e legumes </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13178]{472}22_escondididnho_de_legumes.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15198 </font></td><td><font style="font-size: 0px;"> Escondidinho de arroz e legumes   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Farofão de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13280]{129}3_farofao_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15303 </font></td><td><font style="font-size: 0px;"> Farofão de arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Feijão com arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13233]{530}5_feijao_com_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15254 </font></td><td><font style="font-size: 0px;"> Feijão com arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Frango recheado com arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13281]{466}4_frango_recheado.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15304 </font></td><td><font style="font-size: 0px;"> Frango recheado com arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Fricassê com arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13289]{427}8_fricasse_com_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15312 </font></td><td><font style="font-size: 0px;"> Fricassê com arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Frigideira de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13180]{270}24_frigideira_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15200 </font></td><td><font style="font-size: 0px;"> Frigideira de arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Lasanha de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13167]{245}10_lasanha_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15187 </font></td><td><font style="font-size: 0px;"> Lasanha de arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Lasanha de arroz integral </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13164]{129}7_lasanha_de_arroz_integral.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15184 </font></td><td><font style="font-size: 0px;"> Lasanha de arroz integral   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Maionese de arroz branco ou arroz integral </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13105]{278}9_maionese.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15114 </font></td><td><font style="font-size: 0px;"> Maionese de arroz branco ou arroz integral   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Manjar de arroz com coco e morango </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13234]{442}6_manjar_de_arroz_com_coco_e_morango.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15256 </font></td><td><font style="font-size: 0px;"> Manjar de arroz com coco e morango   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Massa básica para pastel e mini pizza </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13173]{251}17_massa_basica_para_pastel_e_mini_pizza.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15193 </font></td><td><font style="font-size: 0px;"> Massa básica para pastel e mini pizza   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Nhoque de arroz italiano </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13181]{308}25_nhoque_de_arroz_italiano.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15201 </font></td><td><font style="font-size: 0px;"> Nhoque de arroz italiano   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Panqueca de arroz com carne moída </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13110]{462}12_panqueca_de_arroz_com_carne_moida.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15118 </font></td><td><font style="font-size: 0px;"> Panqueca de arroz com carne moída   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Panqueca de chocolate </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13107]{268}11_panqueca_de_chacolate.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15116 </font></td><td><font style="font-size: 0px;"> Panqueca de chocolate   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pão de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13174]{519}18_pao_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15194 </font></td><td><font style="font-size: 0px;"> Pão de arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pão de arroz e cará sem glúten </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13175]{332}19_pao_de_arroz_e_cara_sem_gluten.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15195 </font></td><td><font style="font-size: 0px;"> Pão de arroz e cará sem glúten   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pão de ló de arroz sem glúten </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13282]{268}5_pao_de_lo_de_arroz_sem_gluten.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15305 </font></td><td><font style="font-size: 0px;"> Pão de ló de arroz sem glúten   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pão de queijo com arroz </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15306 </font></td><td><font style="font-size: 0px;"> Pão de queijo com arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pastel de arroz com carne moída </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13235]{424}7_pastel_de_arroz_com_carne_moida.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15257 </font></td><td><font style="font-size: 0px;"> Pastel de arroz com carne moída   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pastel de arroz com peito de frango </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13236]{159}8_pastel_de_arroz_com_peito_de_frango.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15258 </font></td><td><font style="font-size: 0px;"> Pastel de arroz com peito de frango   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pastelão de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13182]{89}26_pastelao_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15202 </font></td><td><font style="font-size: 0px;"> Pastelão de arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pastelão de arroz e frango </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13101]{506}5_pastelao_de_arroz_de_frango.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15110 </font></td><td><font style="font-size: 0px;"> Pastelão de arroz e frango   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pastelão de farinha de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13165]{89}8_pastelao_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15185 </font></td><td><font style="font-size: 0px;"> Pastelão de farinha de arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pimentão recheado com arroz </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15307 </font></td><td><font style="font-size: 0px;"> Pimentão recheado com arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pizza de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13296]{207}15_pizza_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15319 </font></td><td><font style="font-size: 0px;"> Pizza de arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Pudim banho-maria com arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13237]{395}9_pudim_banho_maria_com_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15259 </font></td><td><font style="font-size: 0px;"> Pudim banho-maria com arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Risoto de frango </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13169]{136}11_risoto_de_frango.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15189 </font></td><td><font style="font-size: 0px;"> Risoto de frango   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Risoto de linguiça Blumenau </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13102]{347}6_risoto_de_linguica.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15111 </font></td><td><font style="font-size: 0px;"> Risoto de linguiça Blumenau   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Rocambole de arroz cozido </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13285]{537}6_rocambole_de_arroz_cozido.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15308 </font></td><td><font style="font-size: 0px;"> Rocambole de arroz cozido   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Salada de arroz (arroz integral) </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13238]{263}10_salada_de_arroz_(arroz_integral).jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15260 </font></td><td><font style="font-size: 0px;"> Salada de arroz (arroz integral)   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Sobremesa de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13232]{313}4_sobremesa_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15253 </font></td><td><font style="font-size: 0px;"> Sobremesa de arroz   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Sopa doce de arroz </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13287]{71}7_sopa_doce_de_arroz.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15310 </font></td><td><font style="font-size: 0px;"> Sopa doce de arroz   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Suflê de arroz de liquidificador </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13100]{179}4_sufle_de_liquidificador.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15109 </font></td><td><font style="font-size: 0px;"> Suflê de arroz de liquidificador   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Torta de camarão </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13121]{210}18_tortar_de_camarao.png">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15130 </font></td><td><font style="font-size: 0px;"> Torta de camarão   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Torta de frango sem glúten </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13302]{74}20_torta_de_frango_sem_gluten.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15325 </font></td><td><font style="font-size: 0px;"> Torta de frango sem glúten   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>Waffer de arroz </b> </td><td style="width: 100%;">   </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 15309 </font></td><td><font style="font-size: 0px;"> Waffer de arroz   </font></td></tr></tbody>    
+     </table><div class="dataTables_info" id="consultaEstruturaTable_info" role="status" aria-live="polite"> 98 itens</div></div>  
+  </div>  
+
+  
+        
+  
+  
+  
+  
+</div>    
+
+
+        
+
+</body></html>

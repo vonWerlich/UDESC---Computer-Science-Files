@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Cereja OP
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0811&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B690%5D%7B244%7Dcereja_%28isla%29.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Isla; Finalidade: Copa; Polinização: Polinização aberta; Precocidade: Alta (90 a 110 dias)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Época de Semeadura: Agosto a Janeiro; Ciclo Verão (dias): 90; Tipos de Frutos: Globular; Tipo de crescimento: Indeterminado; Diâmetro comercial: 03 - 04 cm; Peso comercial: 18 - 23 g
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://isla.com.br/produto/Tomate-Cereja/261

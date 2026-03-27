@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 16. Avaliação econômica da lavoura - Uso da planilha de custos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013183&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11438%5D%7B302%7D14_custoarroz_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+A partir dos coeficientes técnicos de um determinado sistema de produção de arroz, é possível estimar o seu custo. Este sistema pode ser representativo de uma região, de uma comunidade de produtores ou de um produtor específico, com pequenas adaptações para cada caso.
+
+-- CUSTO DE PRODUÇÃO: --
+O custo de produção do arroz pode ser atualizado trimestralmente acessando a página do Mercado Agrícola - Epagri/Cepa . A Epagri/Cepa tem acompanhado, trimestralmente, os preços pagos dos principais insumos e serviços da agricultura catarinense. O procedimento para a atualização do custo é: 1. No menu serviços (ao final da página) clicar em mercado agrícola , que abrirá a página da Epagri/Cepa. 2. Nesta página, selecionar a opção preços e, dentro do menu Levantamento trimestral de preços , clicar em preço médio regional , escolher a região e procurar os itens de preço na tabela. Para simplificar os cálculos do custo, no preço da hora-máquina, pode-se optar pelo preço do seu aluguel e no custo sobre o valor da terra, pode-se optar pelo preço do seu arrendamento. Este custo total serve como indicativo para o produtor (e para a política agrícola) sobre qual deve ser o preço médio do arroz (numa média que abranja os últimos cinco anos ou em torno disso), para que a atividade seja economicamente viável. A tabela abaixo também dispõe de algumas linhas em branco, onde podem ser incluídos os itens não contemplados; lembrando que os coeficientes técnicos também podem ser alterados. Com isso, o usuário pode fazer as adaptações necessárias para que o sistema de produção seja representativo de um grupo de produtores específico de seu interesse ou mesmo de um produtor individual.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11438%5D%7B153%7D14_tabcustoarroz_2021.jpg
+Legenda: Coeficientes técnicos e custo de produção
+
+-- Informações Complementares --

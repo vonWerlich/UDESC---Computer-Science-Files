@@ -1,0 +1,39 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares convencionais recomendadas - SCSBRS Tio Taka
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013201&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+08. Cultivares
+Portfólio de cultivares Epagri
+Cultivares convencionais recomendadas
+SCSBRS Tio Taka
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11455%5D%7B181%7Dscs113_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar SCSBRS Tio Taka foi desenvolvido na Embrapa/CNPAF através do intercruzamento de dez variedades, sub-espécie indica, através do método de Seleção recorrente. Famílias segregantes S0:3 foram introduzidas da Epagri/EEI em 1996, onde iniciou-se o trabalho de seleção que permitiu obter a linhagem SC 169. Esta foi submetida a avaliações em ensaios regionais durante 3 anos, em seis regiões edafoclimáticas do Estado. Foi lançada e protegida como cultivar em parceria com a Embrapa em 2004. Também é conhecida pelos agricultores como “113”. É um cultivar de tipo moderno e destaca-se pelo excelente potencial em produtividade, tendo alta capacidade de perfilhamento, excelente qualidade de grãos, alto rendimento industrial e ciclo longo. Tem boa aceitação para cultivo em Santa Catarina, em outros Estados brasileiros e países da América Latina, tornando-se uma das cultivares mais procuradas para cultivo.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: Alto Vale do Itajaí: 9,5t/ha; Litoral Norte: 8,3t/ha; Sul do Estado: 7,9t/ha • Altura da planta: 99cm • Ciclo: Tardio (141 dias) • Acamamento: Resistente • Reação à toxidez por ferro: Moderadamente resistente • Reação à brusone: Moderadamente suscetível • Reação a baixas temperaturas (13°C): Suscetível
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 1 • Classe: Longo fino • Renda do beneficiamento: 71% • Rendimento de grãos inteiros: 63% • Teor de amilose: 29% • Temperatura de gelatinização: Média a alta
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: 30cm • Largura: 1,5cm • Pubescência: Forte • Ângulo das folhas: Ereto • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Branca a verde • Cor da aurícula: Incolor a verde • Cor do colo: Verde-clara
+
+-- COLMO: --
+• Comprimento: 71cm • Espessura: 0,6cm • Perfilhamento: Excelente • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Intermediário (24,3cm) • Exserção: Média (1 a 5cm) • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Verde • Cor do apículo na maturação: Palha • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,5mm • Espessura: 1,8mm • Largura: 2,3mm • Relação C/L: 3,24 • Forma do grão: Alongado • Peso de mil grãos: 30,0g • Pilosidade: Média
+
+-- Informações Complementares --
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).
+• Rubens Marschalek (Dr. em Melhoramento - Epagri) Melhoramento e cultivares

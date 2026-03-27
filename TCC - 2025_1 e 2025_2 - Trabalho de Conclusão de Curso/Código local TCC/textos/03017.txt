@@ -1,0 +1,37 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - L) TECNOLOGIA DE APLICAÇÃO DE PRODUTOS FITOSSANITÁRIOS - f) Tamanho de gota
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03017&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2781%5D%7B443%7Dcapa_1.jpg
+
+-- Tamanho de gota: --
+O tamanho de gota é importante para atingir o alvo biológico e ter a máxima eficiência e a menor perda. As pulverizações são classificadas de acordo com o tamanho de gota (Tabela 23).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2781%5D%7B151%7Dtabela_23.jpg
+Legenda: Classificação das pulverizações conforme o tamanho de gota. Fonte: Ramos (2000).
+
+-- Tamanho de gota e seus alvos: --
+Portanto, o tamanho da gota influi diretamente na escolha do bico. Na Tabela 24 são apresentadas algumas características de tamanho de gota e seus alvos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2781%5D%7B167%7Dtabela_24.jpg
+Legenda: Tamanho de gota em diferentes alvos biológicos. Fonte: Matuo (1998).
+
+-- Diferença entre bicos: --
+Chaim et al. (1999b) avaliaram o percentual de fungicida cúprico aplicado na planta durante a pulverização com uso de diferentes bicos e verificaram que o bico tipo cone apresentou maior depósito do fungicida na planta (Tabela 25).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2781%5D%7B207%7Dtabela_25.jpg
+Legenda: Percentual de aplicação de fungicida cúprico decorrente de uso de diferentes bicos de pulverização. Fonte: Chaim et al. (1999b).
+
+-- Quando trocar os bicos: --
+Quando os bicos oferecem uma vazão nominal 10% superior à recomendada pelo fabricante, eles devem ser substituídos. Os bicos não devem ser desobstruídos com material metálico pontiagudo, mas com escovas de nylon macio. Durante o intervalo de pulverização, os bicos devem ficar em banho com solvente (detergente ou gasolina) ou em solução de hipoclorito de sódio 0,5%, sendo posteriormente limpos com pincel ou escova macia e repassados em jato de água. Para pulverização com baixa vazão é fundamental usar água limpa e filtro de malha fina na boca do pulverizador.
+
+-- Informações diversas: --
+- A cada pulverização deve ser feita a limpeza do filtro e do bico do pulverizador. - Mangueiras ressequidas ou com vazamentos devem ser substituídas. - Em pulverizadores acoplados à tomada de potência do trator com 540 rpm, ou por conjunto estacionário, deve-se obedecer à rotação do fabricante e também à pressão no manômetro para que o bombeamento seja constante e o volume e a uniformidade das partículas sejam aplicados corretamente. - Em pulverizador costal motorizado, a aceleração deve ser mantida para permitir vazão constante pelo bico. - Em pulverizador costal manual, deve ser mantido o movimento manual de bombeamento. - Geralmente a pressão de pulverização não deverá ser inferior a 10% ou superior a 80% da máxima pressão medida pelo manômetro. - Deve-se usar o manômetro imerso em glicerina para evitar oscilação do ponteiro e manter a pressão. - Os bicos do tipo leque devem operar numa pressão de 30 a 60lbf.pol-2 (2 a 4 bar), enquanto do tipo cone entre 40 e 150lbf.pol-2 (2,8 a 10 bar). - Em condição de vento não se deve utilizar alta pressão devido à deriva. - A falta de pressão total ou parcial nos bicos pode ser causada por válvulas gastas ou obstruídas por sujeira da calda, assim como por buchas ou retentores de pistão não lubrificados ou por correias de bomba frouxas. - A falta de lubrificação provoca desgaste precoce das buchas, as quais necessitam ser substituídas. - O óleo da bomba deve ser trocado pela primeira vez com 30 horas e as posteriores a cada 100 horas.
+
+-- Sentido da pulverização: --
+No caso de pulverizador costal manual ou motorizado a pulverização deve ser de baixo para cima, onde a ponteira da caneta deve ser inclinada (Figura 43) para que as gotículas atinjam a página inferior das folhas. Esse movimento deve ser em cada planta e não deve subir em uma planta e descer em outra, como se fosse em zigue-zague, pois o “sobe e desce” tem como fundamento pulverizar a página inferior e superior da planta. No caso de pulverizador tipo turbina os bicos devem estar orientados em torno de 12 graus para cima da horizontal.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2781%5D%7B167%7Dfigura_43.jpg
+Legenda: Pulverização manual com “canetas” com jato direcionado de baixo para cima. Foto: Walter Ferreira Becker
+
+-- Espaçamento entre linhas para pulverizadores: --
+Como o sistema de condução de plantas na produção integrada é vertical e o espaçamento entre linhas varia entre 1,5 até 2m, isso permite o uso de pequenos tratores com atomizador tipo turbina ou de barra no sentido vertical, sendo apenas necessário usar os bicos à medida que a planta se desenvolve.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

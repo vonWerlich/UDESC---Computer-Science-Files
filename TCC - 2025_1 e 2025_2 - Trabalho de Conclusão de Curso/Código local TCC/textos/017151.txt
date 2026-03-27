@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Acetamiprido Bifentrina
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017151&isEdicao=N&epagriTEC=S
+
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: IAcetamiprido Bifentrina; Nome comercial: Sperto; Grupo químico:Neonicotinoide Piretroide; Dose de produto comercial (Tratamento de sementes): 60-100g/ha; Carência (dia): 30 Classe Toxicológica: 3 moderadamente tóxico (faixa amarela); Classe ambiental: I = altamente perigoso ao meio ambiente III = perigoso;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”. Dose para 100kg de sementes. Produto não recomendado para uso no sistema pré-germinado.
+
+-- PRAGAS QUE CONTROLA: --
+Percevejo-do-colmo (Tibraca limbativentris)
+
+-- Informações Complementares --

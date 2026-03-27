@@ -1,0 +1,13 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - C) MANEJO DE PLANTAS NA PRODUÇÃO INTEGRADA - g) Amarrio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02498&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2261%5D%7B381%7Dfigura_5.jpg
+
+-- Amarrio: --
+Nos métodos de tutoramento com bambu, as hastes do tomateiro devem ser amarradas nos tutores a cada 25-30cm. O amarrio é feito com fitilho em forma de “8” com folga e nunca imediatamente abaixo do cacho, para que não haja perdas de frutos por estrangulamento (Figura 5C). No método de tutoramento vertical com fitilho, as hastes são enroladas nos fitilhos à medida que crescem (Figura 5D). Já no método de tutoramento “mexicano” as hastes vão crescendo apoiadas nos fitilhos dispostos lateralmente e apoiadas umas nas outras, dispensando o amarrio (Figura 5A).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2261%5D%7B508%7Dfigura_5.jpg
+Legenda: Detalhe do amarrio de plantas nos sistemas de (A-B) tutoramento vertical “mexicano”, (C) com bambu e (D) com fitilho. Fonte: Sispit 2016.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

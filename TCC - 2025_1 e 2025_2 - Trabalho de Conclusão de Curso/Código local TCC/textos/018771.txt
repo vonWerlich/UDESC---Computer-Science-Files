@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Adira
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018771&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16358%5D%7B126%7Dadira.png
+
+-- CARACTERÍSTICAS: --
+• Híbrido indeterminado, tipo salada; • Ideal para regiões com F3; • Planta com alto vigor e boa cobertura de folhas; • Alta uniformidade dos frutos, boa firmeza e ótima cor; • Destaca-se pelo pacote de resistências.
+
+-- RESISTÊNCIAS: --
+• HR: ToMV: 0,1,2 / Va:1 (EUR 0) / Vd:1 (EUR 0) / Fol: 1,2,3 (EUR 0,1,2) / For; • IR: TSWV:T0 / Ma / Mi / Mj / TYLCV / Ss.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://hmclause.com/gama-de-produtos/?lang=pt-br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://hmclause.com/gama-de-produtos/?lang=pt-br

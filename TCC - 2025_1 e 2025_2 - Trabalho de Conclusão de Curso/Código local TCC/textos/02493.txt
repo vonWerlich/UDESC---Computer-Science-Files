@@ -1,0 +1,25 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - C) MANEJO DE PLANTAS NA PRODUÇÃO INTEGRADA - b) Plantio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02493&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2256%5D%7B414%7Dfigura_2.jpg
+
+-- Ponto ideal da muda para plantio: --
+As mudas podem ser plantadas no local definitivo aproximadamente 30 dias após a semeadura, quando possuírem duas a três folhas definitivas e altura de 8 a 12cm. Mudas que não apresentem bom aspecto, ou estando malformadas e/ou doentes, devem ser eliminadas.
+
+-- Condições climáticas para levar em consideração: --
+Deve-se dar preferência de realizar o plantio das mudas em dias nublados e no período da tarde, quando o período de luz direta é mais curto, pois durante a noite, devido ao sereno e a temperatura mais baixa, as mudas se recuperam, favorecendo o enraizamento. Salienta-se que a irrigação dos sulcos de plantio antes e logo depois do transplante é uma operação sine qua non (imprescindível) para o sucesso no enraizamento das mudas. Por isso é importante que o sistema de irrigação esteja implantado antes do plantio das mudas.
+
+-- Altura da planta no solo: --
+A colocação das plantas nas covas deverá ser na mesma profundidade que se encontram nas células de bandejas, devendo evitar o contato com adubos químicos e ferimentos nas raízes das mudas (Figura 2A).
+
+-- Formas de plantio: --
+O plantio das mudas pode ser realizado manualmente ou utilizando plantadeiras manuais (Figura 2B). Em ambos os casos deve-se tomar o cuidado de garantir o completo contato do torrão das mudas com as paredes da cova de plantio.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2256%5D%7B199%7Dfigura_2.jpg
+Legenda: (A) Altura correta da muda após ser plantada no sulco ou cova de plantio e (B) utilização de plantadeira manual no plantio das mudas de tomate. Fonte: Sispit 2016.
+
+-- O replantio: --
+O replantio, quando necessário, deve ser realizado até no máximo oito dias após o primeiro plantio, substituindo plantas mortas ou que apresentem desenvolvimento anormal.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

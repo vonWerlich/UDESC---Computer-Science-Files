@@ -1,0 +1,15 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Matéria orgânica do solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014620&isEdicao=N&epagriTEC=S
+
+
+-- O QUE É A MATÉRIA ORGÂNICA NO SOLO: --
+A matéria orgânica do solo (MOS) é a soma de todas as substâncias que contêm carbono orgânico (SCHNITZER, 1991). Nesse sentido, a MOS é composta por resíduos de animais e de plantas em fase de decomposição (POTAFOS, 1998) e, portanto, as raízes vivas não são consideradas como constituintes da MOS (PRIMAVESI, 2002).
+
+-- IMPORTÂNCIA DA MATÉRIA ORGÂNICA DO SOLO: --
+Em solos agrícolas o teor de matéria orgânica pode variar de 1 a 5% na camada superficial (SCHNITZER, 1991). Apesar da MOS representar uma pequena fração do solo, ela é extremamente importante em sistemas de produção agrícola pela sua influência nas propriedades químicas, físicas e biológicas do solo (SILVA et al., 2012). Assim, vários processos do solo são influenciados pela matéria orgânica (FURTINI NETO et al., 2001; POTAFOS, 1998; SILVA et al., 2012), tais como: - Mineralização e liberação lenta de nutrientes; - Quelação de micronutrientes e cátions tóxicos como o Al3+; - Aumento da capacidade de troca de cátions; - Estruturação do solo (agregação, aeração e infiltração de água); - Aumento da capacidade de retenção de água; - Aumento do poder tampão; - Fonte de energia e de nutrientes para as atividades microbiológicas (decomposição e mineralização) e desenvolvimento de plantas.
+
+-- INCREMENTO DE MATÉRIA ORGÂNICA NO SOLO: --
+O teor de matéria orgânica no solo é determinado pelo equilíbrio entre as taxas de adição (deposição de carbono) e de perdas de carbono (BRADY & WEIL, 2013; FURTINI NETO et al., 2001; SILVA et al., 2012). Consequentemente, para interromper ou reverter as perdas de carbono, os sistemas de produção agrícola devem adotar práticas de manejo que visem à adição ou à diminuição das perdas de carbono do solo (BRADY & WEIL, 2013). Com o intuito de preservar a MOS, várias técnicas de manejo podem ser combinadas nos sistemas de produção, entre as quais se podem citar (BRADY & WEIL, 2013; POTAFOS, 1998): - A conservação do solo e da água; - A adubação verde; - A adubação orgânica (resíduos e compostos orgânicos); - A rotação e a consorciação de culturas; - O aumento da produtividade das plantas; - O retorno de resíduos de culturas ao solo e a preservação de coberturas mortas em superfície.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

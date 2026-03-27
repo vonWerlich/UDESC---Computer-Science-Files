@@ -1,0 +1,69 @@
+Título: PLANTAS PARA ADUBAÇÃO VERDE - Mucuna Preta (Mucuna aterrima)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012893&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11223%5D%7B428%7Dmucuna_preta%2C_epagri-cepaf%2C_2006.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B521%7Dcomparacao_sementes_mucunas%2C_epagri-cepaf%2C_2015..jpg
+Legenda: Comparação sementes mucunas, Epagri-Cepaf, 2015. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B507%7Dflores_mucuna_preta%2C_epagri-cepaf%2C_2006.jpg
+Legenda: Flores mucuna preta, Epagri-Cepaf, 2006. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B351%7Dfrutos_muc_preta_%28pitanga%2C_pr%29%2C_epagri-cepaf%2C_2015.jpg
+Legenda: frutos muc preta (Pitanga, PR), Epagri-Cepaf, 2015. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B65%7Dmucuna_preta_foto_juliane.jpg
+Legenda: Mucuna preta. Foto: Juliane Garcia Knapik Justen.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B70%7Dmucuna_preta%2C_epagri-cepaf%2C_2006.jpg
+Legenda: Mucuna preta, Epagri-Cepaf, 2006. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B231%7Dmucuna_preta_pd%2C_epagri-cepaf%2C_2005_-_1.jpg
+Legenda: Mucuna preta PD, Epagri-Cepaf, 2005. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B204%7Dmucuna_preta_agronomica_jul2020_foto_juliane.jpg
+Legenda: Mucuna preta_Agronômica_jul2020. Foto: Juliane Garcia Knapik Justen.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B56%7Dmucuna_preta_agronomica_2013_foto_juliane.jpg
+Legenda: Mucuna preta_Agronômica_2013. Foto: Juliane Garcia Knapik Justen.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B317%7Dmucuna_preta_cobertura_para_spdh_alfredo_wagner_2019_foto_daniel_cansian.jpg
+Legenda: Mucuna preta_cobertura para SPDH_Alfredo Wagner_2019. Foto: Daniel Cansian.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B225%7Dmucuna_preta_consorcio_milho_apresentacao_leandro.jpg
+Legenda: Mucuna preta_consórcio milho_apresentação Leandro. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B251%7Dmucuna_preta_consorcio_nogueira_peca_agronomica.jpg
+Legenda: Mucuna preta_consórcio Nogueira peca_Agronômica. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B353%7Dmucuna_preta_rizobio_apresentacao_leandro_wildner.jpg
+Legenda: Mucuna preta_rizóbio_apresentação Leandro Wildner. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B386%7Dmucuna_preta_2006_apresentacao_leandro_wildner1.jpg
+Legenda: Mucuna preta_2006_apresentação Leandro Wildner. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B425%7Dmucuna_preta_2006_apresentacao_leandro_wildner.jpg
+Legenda: Mucuna preta_2006_apresentação Leandro Wildner. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B9%7Dmucuna_preta1_set2022_foto_leandro_do_prado_wildner.jpg
+Legenda: Sementes. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11223%5D%7B496%7Dvagens_semenetes_mucuna_preta%2C_epagri-cepaf%2C_2015..jpg
+Legenda: vagens semenetes mucuna preta, Epagri-Cepaf, 2015. Foto: Leandro Wildner.
+
+-- INFORMAÇÕES GERAIS: --
+OUTROS NOMES COMUNS: Feijão-veludo, Bengal bean, Black velvet bean, Mauritius bean. NOME CIENTÍFICO E SINONÍMIAS: Mucuna aterrima (Pip. et. Trac.) Holland. ( Stizolobium aterrimum Pip. et. Trac.). FAMÍLIA: Fabaceae (Leguminosas). ORIGEM: África.
+
+-- CARACTERÍSTICAS BOTÂNICAS: --
+PORTE: Herbáceo. HÁBITO DE CRESCIMENTO: Volúvel/trepador. CAULE: Pequeno caule que se transforma em longas hastes flexíveis e entrelaçadas. ALTURA DE PLANTA (m): 0,5 a 1,0. SISTEMA RADICULAR: Pivotante. PROFUNDIDADE DE RAIZ: até 50cm.
+
+-- INFORMAÇÕES FENOLÓGICAS: --
+CICLO VEGETATIVO: Anual. ÉPOCA IDEAL DE PLANTIO: Primavera/verão. ÉPOCA PREFERENCIAL DE PLANTIO: Outubro e novembro. ÉPOCA POSSÍVEL DE PLANTIO: Setembro a janeiro. CICLO PARA FLORESCIMENTO (dias): 140 a 180. CICLO PARA COLHEITA DE SEMENTES (dias): 200 a 240.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+PRODUÇÃO DE FITOMASSA (MS t/ha): 6 a 9. PRODUÇÃO DE FITOMASSA (MV t/ha): 40 a 50. TOLERÂNCIA À GEADA: Suscetível. TOLERÂNCIA A SOLOS ÁCIDOS: Alta. TOLERÂNCIA À BAIXA FERTILIDADE DO SOLO: Alta. TOLERÂNCIA AO DÉFICIT HÍDRICO: Alta. TOLERÂNCIA AO ENCHARCAMENTO: Baixa. TOLERÂNCIA A BAIXA TEMPERATURA: Baixa. TOLERÂNCIA AO SOMBREAMENTO TEMPORÁRIO: Média. VELOCIDADE DE COBERTURA INICIAL DO SOLO: Média. APTIDÃO PARA PASTAGEM: Média.
+
+-- SEMENTES: --
+PRODUTIVIDADE DE SEMENTES (kg/ha): 1500 a 2000. PESO DE MIL SEMENTES (gramas): 600 a 800. PRESENÇA DE SEMENTES DURAS: Sim. Para redução do problema, as sementes podem ser acondicionadas em sacos de estopa e imersas em água aquecida entre 60°C e 80°C por 8 a 10 segundos imediatamente antes da semeadura ou podem ser deixadas sob o sol, durante o período mais quente do dia por aproximadamente uma semana.
+
+-- SEMEADURA: --
+ESPAÇAMENTO ENTRE LINHAS (metros): 0,8 a 1,0. DENSIDADE DE SEMEADURA (kg/ha, em linha): 25 a 30. DENSIDADE DE SEMENTES APTAS POR ÁREA (sem/m2): 3 a 5. DENSIDADE DE SEMENTES APTAS POR METRO LINEAR (sem/m): 3 a 5. OBSERVAÇÕES: Priorizar plantio em covas distanciadas de 1 m entre linhas e 0,5 m entre covas e com 2-3 sementes por cova.
+
+-- COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: --
+QUANTIDADE ACUMULADA DE NITROGÊNIO (kg/ha): 60 a 75. RELAÇÃO C/N: 12 a 21. NITROGÊNIO (% na massa seca): 1,97 a 3,08. FÓSFORO (P2O5 % na massa seca): 0,11 a 0,61. POTÁSSIO (K2O % na massa seca): 0,78 a 2,05.
+
+-- INDICAÇÃO DE USO / CULTIVO: --
+MISTURAS DE ADUBOS VERDES: Milho, capim-sudão, girassol, milheto e teosinto. SUGESTÕES DE CONSÓRCIO: Milho (13 a 16kg/ha) + mucuna-preta (25kg/ha); Capim-sudão (10 a 15kg/ha) + mucuna-preta (15-25 kg/ha). CONSÓRCIO COM CULTURAS (sucessão/intercalares): Arroz, milho, mandioca, cebola, fumo e trigo. ROTAÇÃO DE CULTURAS: Arroz, feijão e milho.
+
+-- INFORMAÇÕES FITOSSANITÁRIAS: --
+SUSCEPTIBILIDADE A PRAGAS E DOENÇAS: Ácaro Rajado ( Tetranychus urticae ); pulgões ( Aphis craccivora ); lagarta da soja ( Anticarsia sp .); burrinho da batatinha ( Epicauta atomaria ) e formigas cortadeiras ( Acromyrmex spp . e Atta spp .) na fase inicial de crescimento; Cercospora sp e Colletotrichum sp . SUSCEPTIBILIDADE A NEMATOIDES: É boa hospedeira e aumenta a população de Pratylenchus brachyurus . CONTROLE DE NEMATOIDES: Não é hospedeira e reduz a população das espécies Rotylenchulus reniformis e Heterodera glycines . É má hospedeira ou apresenta resposta variável para os nematoides das espécies Meloidogyne javanica e Meloidogyne incognita .
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+DESENVOLVIMENTO EM SANTA CATARINA: Ótimo desenvolvimento vegetativo em regiões quentes do estado (Clima Cfa). MANEJO DA FITOMASSA: Manejo mecânico com rolo discos ou manejo químico antes do plantio da cultura comercial, necessário principalmente em regiões em que não ocorrem geadas. Devido a sua sensibilidade ao frio, morre facilmente pela ação da geada, considerada como um herbicida natural para manejo da mucuna em Santa Catarina. DICAS: Efeito alelopático positivo sobre várias espécies de plantas espontâneas. ATENÇÃO: Ciclo um pouco mais longo do que as outras espécies de mucunas. CARACTERÍSTICA DESTAQUE: Planta melhoradora de solos, com elevada produção de fitomassa e reciclagem de N.
+
+-- Informações Complementares --
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, CLIQUE AQUI!

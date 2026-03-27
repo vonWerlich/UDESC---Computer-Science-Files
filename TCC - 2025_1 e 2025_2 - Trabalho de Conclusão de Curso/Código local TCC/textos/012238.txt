@@ -1,0 +1,26 @@
+Título: 1) REGULAMENTAÇÃO - 8) A segurança alimentar e os mecanismos para rastreabilidade e análise de conformidade dos produtos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012238&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_alface.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6639%5D%7B127%7Dcapa_tomatorg.jpg
+
+-- Fiscalização: --
+Os produtores orgânicos devem atender a legislação e normas específicas para a produção e, além disso, estão sujeitos à fiscalização e ao monitoramento da qualidade e a análises de resíduos nos produtos. O monitoramento visa coibir irregularidades no mercado e a proteção dos consumidores quanto à qualidade dos produtos. Para o produtor orgânico, essa medida é uma segurança que o diferencia dos oportunistas do mercado.
+
+-- Monitoramento e fiscalização: --
+Há muito tempo existe legislação sobre normas e padrões de apresentação dos produtos, por meio de diversos decretos e portarias. Para melhorar a efetividade do monitoramento e fiscalização foi baixada uma portaria conjunta SAR/SES nº 19/2017, de 25/07/2017, que congrega as normativas e define melhor as competências dos órgãos de governo envolvidos. Santa Catarina tem avançado muito em relação ao monitoramento e existem várias entidades públicas e privadas empenhadas em assegurar ao consumidor a qualidade dos alimentos. O órgão responsável pela fiscalização da qualidade dos alimentos nos mercados é a Secretaria de Estado da Saúde, por meio da Vigilância Sanitária Estadual (Visa), conveniada com os serviços de vigilância dos municípios.
+
+-- Programa Alimento Sem Risco (PASR): --
+No ano 2010, a partir dos resultados das coletas da Visa e identificados os percentuais de irregularidades em produtos coletados no Ceasa e em algumas redes de supermercados, o Ministério Público de SC – Centro de Apoio Operacional de Defesa do Consumidor implementou um programa de monitoramento denominado Programa Alimento Sem Risco – PASR, inicialmente direcionado a estes mercadistas como parte de termos de ajuste de conduta. Outra constatação foi quanto à necessidade de efetivar os selos de identificação de origem para facilitar o rastreamento dos produtos. Este programa tem por base um termo de cooperação técnica firmado entre o Ministério Público de Santa Catarina e outras entidades solidárias ao tema. As coletas dos produtos, no mercado ou nas lavouras, são realizadas pela Cidasc, órgão fiscalizador da Secretaria de Estado da Agricultura e da Pesca que encaminha as amostras coletadas aos laboratórios credenciados. Os produtores identificados com problemas de resíduos são chamados pela promotoria para assinar um termo de ajuste de conduta, ou respondem judicialmente conforme a situação, e recebem a visita de verificação pela Cidasc para a regularização do uso de agrotóxicos. Conforme a situação do sistema de produção, os produtores são encaminhados à Epagri, que os orienta e dá suporte técnico sobre boas práticas de produção e também para participarem de programas continuados de capacitação.
+
+-- Identificação dos produtos com selo de origem: --
+O monitoramento dos produtos por meio da rastreabilidade tem produzido mudanças de atitudes pelos fornecedores (atacadistas e agricultores) quanto à adequação de seus produtos às normas de comercialização. A efetividade deste trabalho é perceptível, pois tanto na Central de Abastecimento (Ceasa) quanto em supermercados, as embalagens de frutas, verduras e legumes estão identificadas com o selo de origem dos produtos de acordo com as normas da portaria.
+
+-- E-Origem: --
+A partir da Portaria Estadual, a Cidasc desenvolveu o cadastro do produtor e da produção de origem vegetal, no Sigen/Cidasc – sistema de gestão da defesa agropecuária catarinense na sua página eletrônica. O sistema é destinado ao cadastro do agricultor e da produção vegetal – denominado E-Origem. Nele, o agricultor cadastrado poderá obter um selo de identificação do produto, emitido por ocasião da declaração de comercialização de seus produtos. O selo permite que o consumidor possa identificar a unidade de produção, o produtor, o tipo de produto, a época de colheita e a validade, de acordo com a portaria conjunta. Acesso Cadastro do produtor primário, pelo http://sigen.cidasc. sc.gov.br/ ou através de link na página da Epagri. Além desta iniciativa pública para facilitar a identificação da origem dos produtos vegetais, também existe em Santa Catarina a iniciativa da Associação Catarinense de Supermercados (Acats) para rastreamento dos produtos nos supermercados - programa Acats - Alimento Seguro, desenvolvido pela empresa PariPassu.
+
+-- Observação: --
+O rastreamento dos produtos vem se consolidando principalmente como uma exigência de mercado e naturalmente novas empresas prestadoras desse tipo de serviço vão se estabelecer.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

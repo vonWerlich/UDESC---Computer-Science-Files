@@ -1,0 +1,30 @@
+Título: ARROZ IRRIGADO - 13. Tecnologia de aplicação de agrotóxicos em arroz irrigado - Calibração dos pulverizadores
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013174&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+13. Tecnologia de aplicação de agrotóxicos em arroz irrigado
+Calibração dos pulverizadores
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11431%5D%7B530%7D11_calibrapulver_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O objetivo da calibração do pulverizador é determinar e ou ajustar o volume de calda a ser aplicado nos tratamentos em arroz irrigado. Isto permite fazer a distribuição exata da quantidade de ingrediente ativo recomendado por área.
+
+-- PARÂMETROS PARA CALIBRAÇÃO: --
+Para a calibração, deve se estabelecer previamente os seguintes parâmetros: • a pressão de trabalho (lbf/pol2); • a distância entre os bicos ou o comprimento da faixa de cobertura da barra de pulverização (m); • a velocidade de deslocamento do trator-pulverizador durante o tratamento (km/h); • a vazão individual ou total das pontas de pulverização (L/min).
+
+-- VELOCIDADE DE DESLOCAMENTO DO TRATOR-PULVERIZADOR: --
+Os procedimentos para determinar a velocidade de deslocamento de um pulverizador de barras acoplado ao trator são: • marcar a distância de 50 metros na área ser tratada; • abastecer com água o pulverizador; • escolher a marcha de trabalho; • acelerar o motor do trator até a rotação correspondente a 540rpm na tomada de força (tdp); • iniciar o percurso de 50 metros previamente marcado, com no mínimo 5 metros antes do ponto inicial e terminar também com pelo menos 5 metros após a linha dos 50 metros, na mesma velocidade de deslocamento estabelecida ( figura abaixo ). • cronometrar e anotar o tempo gasto para o trator-pulverizador percorrer os 50 metros; • repetir a operação por pelo menos 3 vezes e fazer a média do tempo gasto. • determinar a velocidade de deslocamento aplicando a seguinte formula: V = (S / t) x 3,6 onde: V = velocidade de deslocamento em km/h; S = espaço percorrido em metros (m); t = tempo gasto em segundos (s); 3,6 = fator de conversão. Exemplo: se o conjunto trator-pulverizador gastou 40 segundos para percorrer 50 metros lineares, então: V = (50/40) x 3,6 = 4,5km/h.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11431%5D%7B230%7D11_calibra_fig01.jpg
+
+-- VOLUME DE CALDA POR HECTARE: --
+Seguir os passos abaixo para determinar o volume de calda por hectare: • coletar o líquido das pontas de pulverização com proveta graduada, copo calibrador ou por pesagem com balança de precisão (considerando 1kg de água = 1L de água); na mesma pressão e rotação de trabalho que será realizado o tratamento; • calcular a faixa de aplicação, que pode ser apenas a passada de uma ponta, pois quando espaçada em 0,50m e com uma altura de barra de 0,50m do solo ou topo das plantas, cobrirá uma faixa de 0,50m. Ou então, pode se calcular a faixa útil total de uma passada da barra, multiplicando-se o número de pontas pelo espaçamento entre elas; • determinar o volume de calda por hectare com a fórmula: Q = [q / (V x L)] x 600 onde: Q = vazão em litros por hectare (l/ha); q = vazão da ponta ou a soma de todas as pontas da barra (L/min); V = velocidade de deslocamento do trator-pulverizador (km/h); L = faixa de aplicação (cobertura de uma ponta ou da largura da barra) (m); 600 = fator de conversão. Exemplo: para determinar a vazão em litros por hectare, considerando que o pulverizador está aplicando com 24 pontas, distanciadas entre si de 0,5 m, gastando 40 segundos para percorrer 50 metros lineares e com uma vazão média coletada das pontas de pulverização de 0,6 litros por minuto, obtém se: a) Considerando apenas uma ponta: Q = [0,6/(0,5 x 4,0)] x 600 = 180 L/ha b) Considerando todas as pontas da barra: Q = [(0,6 x 24)/(0,5 x 24 x 4,0)] x 600 = 180 L/ha
+
+-- VAZÃO DAS PONTAS PARA O TRATAMENTO: --
+Em determinados tratamentos, já está definido previamente o volume de calda necessário para obter a cobertura exigida para a eficiência do tratamento. Assim, é necessário escolher as pontas que possam ser empregadas, dentro de parâmetros técnicos de uso das mesmas. A fórmula de cálculo do volume de calda permite encontrar quais as opções apropriadas de pontas e pressão de trabalho para equipar a barra de pulverização, isolando o fator q : q = (Q x V x L) / 600 Utilizando os dados do exemplo anterior: a) Considerando a faixa útil de aplicação para uma ponta: q = (180 x 4,0 x 0,5)/600 = 0,6 L/min b) Considerando a largura total da barra como faixa útil de aplicação: q = (180 x 4,0 x 12,0)/600 = 14,4 ÷ 24 pontas = 0,6 L/min/ponta Para aumentar ou diminuir o volume de calda a ser aplicado por hectare, pode-se trocar as pontas de pulverização por outras de menor ou maior vazão; ou então alterar a velocidade ou a pressão de trabalho, dentro dos limites recomendados ou das especificações das pontas. Preferencialmente, esse ajuste deve ser feito através da substituição das pontas de pulverização, pois os demais parâmetros podem comprometer as condições adequadas de aplicação.
+
+-- QUANTIDADE DE PRODUTO: --
+Um componente importante para a aplicação correta da quantidade de ingrediente ativo por área, conforme a recomendação técnica, é o cálculo da quantidade de produto a ser adicionada em cada tanque de pulverização. Para esses cálculos pode-se utilizar a seguinte formula: Prod = (Ct / Q) x D onde: Prod = quantidade de produto a ser adicionada ao tanque; CT = capacidade total do tanque em litros; Q = vazão em litros por hectare; D = dosagem do produto por hectare. Exemplo: a quantidade de produto para um tanque com capacidade de 400L, dosagem recomendada do produto de 0,45 ml/ha e vazão de 180 L/ha: Prod = (400/180) x 0,45 = 1,0 litro de produto por tanque. Nota: nesse exemplo, um tanque de 400L será usado em 2,2 ha de arroz irrigado.
+
+-- Informações Complementares --
+• Luiz Antonio Palladini (Dr. em Tecnologia de Aplicação - Epagri) Tecnologia de aplicação de agrotóxicos

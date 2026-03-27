@@ -1,0 +1,17 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - A) INTRODUÇÃO GERAL SOBRE O SISPIT - b) Sistema de Produção Integrada de Tomate de Mesa
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02480&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2244%5D%7B162%7Dcapa_1.jpg
+
+-- A Produção Convencional no Alto Vale do Rio do Peixe (AVRP): --
+Embora a Produção Convencional (PC) seja destaque na região do AVRP, verifica-se que muitas das tecnologias disponíveis simplesmente não são adotadas pelos agricultores, ou são adotadas de modo isolado e dissociado de outras e, no extremo, sem critério técnico, como, por exemplo, a adubação e o controle de pragas e doenças. Além de gerar um impacto negativo no meio ambiente, a PC vem sendo responsável pelo aumento dos custos de produção do tomate de mesa na região do AVRP.
+
+-- O Sistema de Produção de Tomate Tutorado (Sispit): --
+O Sistema de Produção de Tomate Tutorado (Sispit) foi desenvolvido dentro do conceito da Produção Integrada preconizado pelo Mapa como uma alternativa economicamente viável e sustentável, conforme o que convencionalmente é conduzido nesta região (Figura 1). Desenvolvido em parceria com o produtor de tomate, a metodologia consta das seguintes etapas: 1) desenvolvimento, adaptação e avaliação de tecnologias em áreas experimentais por um período de dois a três anos; 2) transferência da tecnologia aprovada no ensaio experimental para a unidade-piloto, onde a tecnologia se incorpora ao sistema de produção e é avaliada por um período de um a dois anos; 3) incorporação da nova tecnologia no Sispit e adoção pelos produtores.
+
+-- O início do SISPIT: --
+No Brasil, o sistema de produção integrada na cultura do tomate de mesa teve início em 2004, pela Estação Experimental de Caçador (Epagri/EECd), que desenvolveu as bases tecnológicas que deram suporte à implantação do projeto Sistema de Produção Integrada do Tomate de Mesa (Sispit), financiado pelo Ministério da agricultura e Pesca (Mapa) e pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq). Posteriormente, a Fundação de Apoio à Pesquisa Científica e Tecnológica do Estado de Santa Catarina (Fapesc) financiou a difusão do sistema por meio de Unidades de Demonstração (UDs), em parceria com produtores rurais da região do Alto Vale do Rio do Peixe (AVRP).
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

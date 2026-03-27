@@ -1,0 +1,28 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - h) Cultivo do tomateiro em abrigos - 7) Especificidades para a cultura do Tomateiro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07405&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6682%5D%7B345%7D35.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Devido à dificuldade de produção do tomate em algumas épocas do ano, principalmente durante o verão chuvoso e no inverno com alta umidade, a produção em abrigos de cultivo vem crescendo rapidamente, tornando-se a principal hortaliça-fruto cultivada dessa maneira no Brasil.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6682%5D%7B4%7D46.jpg
+Legenda: Abrigo de cultivo do tipo pampeano utilizado para o cultivo do tomateiro no sistema orgânico. Fonte: Morales et al., 2019.
+
+-- VANTAGENS: --
+- Possibilidade de produzir em período de entressafra ou fora da época ideal de cultivo; - Aumento da produtividade por área num mesmo período de tempo; - Prolongamento do ciclo de cultivo do tomateiro, possibilitando a colheita de um maior número de cachos; - Proteção quanto a alguns fenômenos climáticos, como vento e chuva; - Proteção do solo contra a lixiviação de nutrientes; - Maior eficiência no uso da água; - Redução dos custos com defensivos e fertilizantes; - Garantia de produção; - Menor incidência de doenças foliares.
+
+-- DESVANTAGENS: --
+- Possibilidade de perda parcial ou total do empreendimento em função de adversidades climáticas; - Elevado custo inicial para aquisição, instalação e manutenção; - Necessidade de limpeza periódica dos plásticos; - Pode favorecer o aparecimento de determinadas pragas e doenças específicas com reprodução acelerada, como traça, mosca-branca e ácaros; - Reduz a possibilidade de rotações de cultura devido ao seu uso intensivo; - Se comporta insatisfatoriamente do ponto de vista térmico, uma vez que durante o período diurno ocorrem temperaturas elevadas superiores às observadas externamente.
+
+-- Telas nas laterais dos abrigos de cultivo: --
+Muitos produtores acreditam que o uso de telas nas laterais no cultivo do tomateiro pode reduzir a polinização das flores e pega de frutos. Contudo, cabe ressaltar que no tomateiro predomina a autopolinização (95%), com uma pequena taxa de fecundação cruzada. Assim, mesmo que não haja insetos polinizadores dentro do cultivo, a polinização poderá ocorrer se as condições microclimáticas estiverem favoráveis. O que pode ocorrer é que a escolha de uma tela com malha muito fechada, como é o caso das telas antiafídicas, o que reduz consideravelmente a ventilação dentro do cultivo. Como o vento é um dos agentes microclimáticos que favorecem a autopolinização, nesse caso poderá haver redução na polinização e pega dos frutos. Outra situação similar a essa é observada em abrigos demasiadamente grandes e largos (mais de 12m de largura), e que não contam com sistema de exaustão de ar, em que o ar circula pouco dentro do cultivo, resultando em redução na eficiência da autopolinização. Para maiores informações sobre abrigos de cultivo, clicar aqui!
+
+-- Redução da polinização devido a fatores microclimáticos dentro do abrigo de cultivo: --
+Outro fator microclimático que influencia sobremaneira a autopolinização é a umidade relativa do ar. Assim, em dias chuvosos, com alta umidade relativa, ou no caso do manejo incorreto da irrigação, quando o ambiente fica muito úmido, também poderá ocorrer redução da autopolinização. Outro fator de difícil percepção está relacionado ao genótipo cultivado, pois algumas poucas cultivares são menos eficientes no processo de autopolinização e precisam da otimização dos fatores endógenos para um perfeito pegamento dos frutos (mais comum em cultivares do grupo cereja). Nesses casos, em que há redução da autopolinização, os produtores têm optado por duas medidas que atenuam a situação: a agitação manual de cada linha de cultivo e a utilização de sopradores de ar (aqueles utilizados na limpeza urbana), que facilitam a queda do pólen sobre o estigma e aumentam a fecundação das flores.
+
+-- Telas de sombreamento: --
+Resultados positivos do uso dessas telas no cultivo do tomateiro foram observados no México (AYALA-TAFOYA, 2011) e Sérvia (ILÍC et al., 2012). No Brasil, Silva et al. (2013) relatam que as telas fotosseletivas (vermelha e cinza) não apresentam resultados de destaque sobre o acúmulo da biomassa e da produtividade na cultura do tomateiro; e, em Juazeiro, ROCHA (2007) testou diversas telas (aluminizada, fotosseletiva, preta e branca) com 40% de sombreamento no cultivo de dois híbridos de tomateiro e concluiu que a produção foi maior nos tratamentos sombreados, mas não houve diferenças entre as telas testadas. Contudo, como a resposta agronômica do cultivo ao uso da tela vai depender diretamente das condições climáticas do período de avaliação, estudos a longo prazo são necessários para avaliar os possíveis benefícios decorrentes da utilização desse tipo de tela no cultivo do tomateiro.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

@@ -1,0 +1,32 @@
+Título: TOMATE - Fitossanidade - Bactérias - Pinta Bacteriana (Pseudomonas syringae pv. tomato)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04577&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1628%5D%7B285%7Dpinta-bacteriana-doencas-do-tomateiro.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1628%5D%7B51%7Dimg-20190429-wa0097.jpg
+Legenda: Fotos de uma lavoura infestada com a pinta bacteriana. Foto: autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1628%5D%7B60%7Dimg-20190429-wa0098.jpg
+Legenda: Fotos de uma lavoura infestada com a pinta bacteriana. Foto: autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1628%5D%7B418%7Dimg_20211021_104149989_hdr.jpg
+Legenda: Sintomas da doença no pedúnculo. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1628%5D%7B171%7Dpinta-bacteriana-doencas-do-tomateiro.jpg
+Legenda: Sintomas da pinta bacteriana. Foto: Carlos Alberto Lopes/ Embrapa/ Zeneca
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1628%5D%7B522%7Dpinta_bacteriana_2.jpg
+Legenda: Sintomas típicos da doença na folha. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1628%5D%7B149%7Dpinta_bacteriana_1.jpg
+Legenda: Sintomas típicos da doença no fruto. Foto: Autor desconhecido.
+
+-- SINTOMAS: --
+A doença se desenvolve de baixo para cima (2). Primeiramente se observa os sintomas nas folhas mais velhas, como manchas arredondadas de coloração marrom-escura, sendo que em lesões mais velhas pode aparecer um halo amarelo. No caule, pecíolo e pedúnculo, as manchas coalescem, formando lesões escuras. Nos frutos são observadas manchas brilhantes, pequenas e ligeiramente elevadas e superficiais, que se destacam com facilidade (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Tem maiores ocorrências em temperaturas mais amenas (18ºC a 25ºC) e alta umidade relativa do ar (acima de 90%) (1). - Fertilização exagerada de N (2).
+
+-- CONTROLE: --
+- Utilizar sementes de boa qualidade ou mudas sadias (1). - Plantar cultivares resistentes (1). - Cultivar em áreas bem ventiladas e evitar irrigação por aspersão (1). - Desinfetar implementos que entraram em contato com plantas infectadas (1). - Incorporar restos culturais. Realizar rotação de culturas com gramíneas (1).
+
+-- OBSERVAÇÕES GERAIS: --
+- Ataca todos os órgãos da parte aérea da planta (1).
+
+-- Informações Complementares --
+(1) LOPES, C. A.; AVILA, A. C.. Doenças do tomateiro. 2. ed. Brasília- Df: Embrapa Hortaliça, 2005. 144 p. (2) ALVARENGA, M. A. R. Tomate: produção em campo, casa-de-vegetação e em hidroponia. UFLA, 2004.

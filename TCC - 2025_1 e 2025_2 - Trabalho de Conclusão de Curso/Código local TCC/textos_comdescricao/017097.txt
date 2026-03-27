@@ -1,0 +1,21 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 1. Diagnóstico a partir da lavouraInicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca. - Está ocorrendo perda de estande (número de plantas/m²) na lavoura - A falha no estande é pela perda de sementes em germinação - As sementes estão sendo enterradas pelo revolvimento de solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017097&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17090%5D%7B13%7Dlav03_enterrio.jpg
+DIAGNOSE VISUAL
+1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+Está ocorrendo perda de estande (número de plantas/m²) na lavoura
+A falha no estande é pela perda de sementes em germinação
+As sementes estão sendo enterradas pelo revolvimento de solo
+Verifique no local: VERME-DE-SANGUE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17097%5D%7B126%7Ddano_vsangue.jpg
+Legenda: Verifique no local: VERME-DE-SANGUE
+21465
+Verifique no local: VERME-DE-SANGUE
+PULGA-D ÁGUA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17097%5D%7B181%7Ddano_pdagua.jpg
+Legenda: PULGA-D ÁGUA
+21466
+PULGA-D ÁGUA

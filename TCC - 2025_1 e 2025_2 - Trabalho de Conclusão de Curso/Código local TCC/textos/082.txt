@@ -1,0 +1,26 @@
+Título: TOMATE - Tratos Culturais - Desfolha
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=082&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1980%5D%7B149%7D23-1_-_copia.jpg
+
+-- Conceito: --
+A desfolha é uma prática comum durante o cultivo do tomateiro e visa o aumento da ventilação e insolação dentro do cultivo, o que resulta em menor molhamento foliar e consequentemente redução de doenças foliares.
+
+-- Quais folhas eliminar: --
+As principais folhas fotossintéticamente ativas são as três que estão acima e abaixo do cacho. Assim, para a desfolha, deve-se eliminar apenas as folhas baixeiras conforme os cachos são colhidos, mantendo sempre três folhas abaixo do último cacho remanescente. Dependendo do estado fitossanitário da lavoura e dos espaçamentos adotados, essa prática cultural pode ser eliminada.
+
+-- Desfolha devido a ocorrência de doenças: --
+Uma segunda hipótese para o uso da desfolha é a ocorrência de doenças foliares, como aquelas que ocorrem de baixo para cima, como a mancha-de-cladospório (Cladosporium fulvum) ou até mesmo durante um ataque severo da Requeima. Nesse caso, o objetivo é eliminar a fonte de inóculo e a propagação da doença dentro da lavoura, devendo-se fazer o mais breve possível ao observar qualquer sintoma da doença.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1980%5D%7B239%7D23-1.jpg
+Legenda: Lavoura de tomateiro após severa desfolha baixeira devido à alta incidência de doenças foliares. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1980%5D%7B436%7D23-2.jpg
+Legenda: Lavoura de tomateiro após severa desfolha dos terços médio e superior devido à alta incidência de doenças foliares. Foto: Rafael G. F. Morales
+
+-- Detalhe importante: --
+A forma correta de fazer a desfolha é deixando os dois últimos folíolos de cada folha, o que reduz as chances de infecção por Pectobacterium carotovora (Erwinia). Recomenda-se a prática em dias secos. Após a desfolha os cortes dos pecíolos devem ser pulverizados com produtos à base de cobre.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1980%5D%7B545%7D24.jpg
+Legenda: Folíolos remanescentes após a desfolha para prevenir infecções bacterianas. Foto: José Angelo Rebelo
+
+-- Informações Complementares --
+Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019. Mueller, S.; Wamser, A.F. Manejo de plantas na produção integrada de tomate tutorado. In: Becker et al. Sistema de Produção Integrada para o tomate tutorado em Santa Catarina. Florianópolis: Epagri, 2016. Cap.3. p.27-39

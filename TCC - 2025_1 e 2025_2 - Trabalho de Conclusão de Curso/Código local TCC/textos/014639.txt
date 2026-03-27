@@ -1,0 +1,26 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Crescimento e acúmulo de massa seca pela cebola
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014639&isEdicao=N&epagriTEC=S
+
+
+-- CONCEITO: --
+O conhecimento dos padrões de acúmulo de massa seca de uma cultura permite entender melhor os fatores relacionados com a nutrição mineral e consequentemente com a adubação, visto que a absorção de nutrientes é influenciada pela taxa de crescimento da planta (MARSCHNER, 2012).
+
+-- ACÚMULO DE MASSA SECA: --
+Trabalho realizado por Kurtz et al. (2016) demonstrou que o acúmulo de massa seca (MS) das plantas de cebola do cultivar Empasc 352 Bola Precoce foi muito lento até a metade do ciclo aos 60 dias após o transplante (DAT), acumulando 3,9g planta-1, o que representou 16% da MS total acumulada (Figura 1A). Após esse período, quando iniciou a fase de bulbificação, o acúmulo de MS foi intensificado (61 - 119 DAT), acumulando 20,7g planta-1, equivalente a 84% da MS total acumulada. Acúmulo lento de MS no início do ciclo ocorre independente do cultivar utilizado e do local de cultivo, pois resultados similares também foram observados por Vidigal et al. (2010a) para o cv. Alfa Tropical no verão em sistema de transplante e semeadura direta no estado de Minas Gerais e por Pôrto et al. (2007) e May et al. (2008) para os híbridos Superex e Optima cultivados em sistema de semeadura direta em São Paulo. Da mesma forma, Vidigal et al. (2010a) também observaram um acúmulo rápido de MS no início da bulbificação, aos 88 dias após a semeadura para o cultivar Alfa Tropical, o que também foi verificado para outros cultivares e condições de cultivo (HAAG et al.,1970; WIEDENFELD, 1994; INIA, 2005). Segundo Kurtz et al. (2016), ao final do ciclo as plantas acumularam 24,6g planta-1 no total de MS, sendo 9,29g na parte aérea e 15,33g no bulbo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12727%5D%7B110%7Dfigura_1.jpg
+Legenda: Figura 1. Acúmulo de massa seca (A) e taxa de crescimento absoluto (B) na planta toda (), parte aérea (○) e bulbos (▼) de cebola da cv. Bola Precoce cultivada em sistema de transplante. Fonte: KURTZ et al. (2016).
+
+-- ACÚMULO DE MASSA FRESCA: --
+A massa fresca média de bulbo foi de 149,4g planta-1 e o rendimento total de bulbos frescos foi de 37,34t ha-1. Para este rendimento, os autores observaram uma produção de 6.155kg ha-1 de MS na planta toda, distribuídos em 2.324kg ha-1 na parte aérea e 3.831kg ha-1 nos bulbos, ou seja, 38% e 62%, respectivamente. Resultados semelhantes foram obtidos por Pôrto et al. (2006) que, ao avaliar o híbrido Optima em sistema de semeadura direta, obteve contribuições de 30% e 70%, para a parte aérea e bulbos, respectivamente. Para Vidigal et al. (2002), em sistema de transplante de mudas com o cultivar Alfa Tropical, as contribuições de parte aérea e bulbo foram de aproximadamente 36% e 64%, respectivamente, muito próximas às obtidas no estudo realizado em Santa Catarina.
+
+-- TAXA MÁXIMA DE CRESCIMENTO ABSOLUTO: --
+A taxa máxima de crescimento absoluto (acúmulo diário de MS) para a planta toda ocorreu aos 89 dias, quando atingiu 0,447g planta-1 dia-1 de MS (111,75 kg ha-1 dia-1), desacelerando nos 30 dias que antecederam a colheita (Figura 1B) (KURTZ et al., 2016).
+
+-- REDISTRIBUIÇÃO DE FOTOASSIMILADOS: --
+Neste mesmo estudo, o bulbo iniciou sua formação aos 60 DAT e a taxa de crescimento máxima ocorreu aos 101 DAT com acúmulo de 0,46g planta-1 dia-1 (115 kg ha-1 dia-1 de MS). A partir dos 96 DAT até a colheita, a taxa de crescimento absoluto da planta inteira foi menor que o alocado no bulbo diariamente, indicando redistribuição de fotoassimilados, principalmente das folhas para os bulbos. Esse comportamento também foi observado por Pôrto et al. (2006, 2007) e Vidigal et al. (2010a). De acordo com Brewster (2008), por ocasião do desenvolvimento dos bulbos, há redistribuição de fotoassimilados e outros compostos das folhas para os bulbos, resultando na redução da massa seca das folhas e no aumento na massa seca dos bulbos.
+
+-- DO TOTAL DA MASSA SECA TOTAL ACÚMULADA: --
+Conforme o trabalho de Kurtz et al. (2016), da massa seca total acumulada, 4,6% foi composta por minerais dos dez nutrientes avaliados (N, P, K, Ca, Mg, Fe, Mn, Zn, B e Cu). Na parte aérea (9,26g) o acúmulo dos dez nutrientes foi de 5,4% da MS, superior proporcionalmente ao acumulado nos bulbos (15,33g), que foi de 4,1% da MS.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

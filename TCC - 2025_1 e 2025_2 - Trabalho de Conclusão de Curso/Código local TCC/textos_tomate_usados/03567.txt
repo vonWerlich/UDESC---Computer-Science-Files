@@ -1,0 +1,25 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - N) CUSTO DE PRODUÇÃO - c) Planilha de custo variável
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03567&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B3304%5D%7B495%7Dcapa_1.jpg
+
+-- Itens a serem registrados em cada etapa da produção: --
+Para facilitar a totalização da Tabela 26 é apresentado na Tabela 27 um modelo de itens a serem registrados em cada etapa da produção. Os valores não podem sair da “cabeça” do produtor na hora de “fechar” o caixa. Eles devem ser lançados item por item para que se possa totalizá-los quando da apuração do custo total da safra. Dessa forma é possível contabilizar com precisão todas as despesas da atividade. Nesse modelo são relacionados os principais itens de custos variáveis da safra de tomate para um hectare (1,0ha) com os valores totais da área e por pé (planta), levando em consideração que o produtor tenha registrado os gastos em cada etapa da cultura. Esse modelo pode ser ajustado segundo as necessidades de cada produtor.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B3304%5D%7B421%7Dtabela_27.jpg
+Legenda: Modelo dos itens componentes do custo variável para cálculo de custo de produção de um hectare (ha) e por pé (planta) de lavoura de tomate (valores totais em reais (R$). null
+
+-- Valor percentual correspondente da cultura do tomate: --
+Todas as despesas que geram os valores monetários totais devem ser valores monetários reais, da cultura do tomate, ou seja, embora o produtor tenha mais que uma cultura na mesma época e compartilhe mão de obra, telefone, máquinas, implementos e outros, deve ser estabelecido o valor porcentual correspondente da cultura do tomate.
+
+-- Descrição dos itens da tabela: --
+Alguns itens utilizados na estrutura de condução e material de irrigação, cuja utilização se faz por mais de uma safra, seu custo deve ser dividido pela sua vida útil. No item “aluguel de máquinas e implementos” deve ser lançado o valor total pago. O item mão de obra é dividido em permanente e diarista. A mão de obra permanente representa os salários pagos ao administrador, meeiros, tratoristas, vigilantes e outros, somado aos encargos sociais, no período da safra do tomate e, incluindo o valor exclusivo da cultura, caso eles trabalhem em outra cultura no mesmo período. Na mão de obra diarista, os valores correspondem às diárias pagas quando da safra do tomate. Os registros de horas gastas em cada atividade permitirão ao produtor apurar a eficiência da mão de obra. O item pró-labore é o valor pago ao produtor, pela cultura do tomate, no período da safra do tomate. O trabalho do produtor deve ser valorizado e remunerado, juntamente com o da família. Deve-se levar em consideração quanto tempo o produtor se dedica à cultura.
+
+-- Caderno de campo para anotações: --
+Para os produtores que aderirem ao Sistema de Produção Integrada de Tomate, consta no caderno de campo, em cada operação, espaço para as anotações diárias das atividades e seus tempos, dos materiais utilizados com respectivos valores monetários. Essa não é a única ferramenta de apoio ao controle dos custos, mas é um exercício diário para o produtor se disciplinar no controle de suas atividades. Preparar e documentar em planilhas eletrônicas os dados de cada atividade também é uma atividade que requer um dispêndio de tempo, mas que torna as informações visíveis e permite rápidas decisões.
+
+-- A janela de comercialização do tomate do Alto Vale do Rio do Peixe: --
+A janela de comercialização do tomate do Alto Vale do Rio do Peixe ocorre no curto período de três meses (janeiro-março) com um mercado muito limitado e sensível à lei da oferta e procura. Qualquer ampliação da oferta pode afetar todos os produtores devido à baixa remuneração pelo produto. Além das disponibilidades de redução de custos verificadas no sistema Sispit, portanto, é primordial o associativismo em torno dessa atividade, permitindo que se mantenha a área de produção em um patamar capaz de bem remunerar a todos.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

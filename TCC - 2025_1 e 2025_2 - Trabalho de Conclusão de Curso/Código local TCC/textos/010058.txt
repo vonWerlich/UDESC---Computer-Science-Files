@@ -1,0 +1,22 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Qualidade de água - pH
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010058&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9158%5D%7B162%7Dph.png
+
+-- O QUE É: --
+O pH é a medida que indica se a água está mais ácida ou mais básica. Os valores de pH podem variar entre 0 e 14, sendo o pH 7 considerado neutro.
+
+-- VALORES DE REFERÊNCIA: --
+Em piscicultura é comum o pH variar entre 6 a 10, contudo, o ideal para tilápia é que fique entre 6,5 e 8,5.
+
+-- CONSEQUÊNCIA DA VARIAÇÃO DO pH: --
+A grande variação do pH ao longo do dia também é prejudicial, pois gases tóxicos são potencializados por valores extremos de pH da água.
+
+-- VARIAÇÕES DIÁRIAS DO PH: --
+As variações diárias de pH maiores do que 2 unidades não são adequadas. Existem dois fatores principais que afetam a variação do pH ao longo do dia: o fitoplâncton e a alcalinidade. Quanto maior a concentração de fitoplâncton, maiores as taxas de fotossíntese durante o dia, elevando o pH; e maiores as taxas de respiração durante a noite, diminuindo o pH. Sendo assim, os horários de maiores valores de pH são no final da tarde, e os de menores valores, ao amanhecer.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9158%5D%7B315%7Dembrapa.png
+Legenda: Variação do pH em função da hora do dia. Fonte: Embrapa (2000)(1).
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52). EMBRAPA. 2000. Disponível em: Parâmetros ambientais e qualidade de água na piscicultura. Disponível em: https://www.infoteca.cnptia.embrapa.br/bitstream/doc/377896/1/ParametrosAmbientaisQualidadeAgua.pdf . Acessado em: 09 de Março de 2023.

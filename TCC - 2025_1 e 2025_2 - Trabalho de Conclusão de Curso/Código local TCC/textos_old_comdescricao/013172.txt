@@ -1,0 +1,23 @@
+Título: ARROZ IRRIGADO - 13. Tecnologia de aplicação de agrotóxicos em arroz irrigado - Seleção das pontas de pulverização
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013172&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+13. Tecnologia de aplicação de agrotóxicos em arroz irrigado
+Seleção das pontas de pulverização
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11429%5D%7B183%7D11_pontapulveriza_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Devido à arquitetura de planta e do fechamento do dossel, a deposição dos produtos aplicados normalmente é menor na parte baixa das plantas e no interior das touceiras de arroz. Estes locais acabam ficando mais vulneráveis ao início do ataque de pragas e doenças, pela possibilidade de ter recebido quantidades insuficientes de produto. Assim, a escolha das pontas de pulverização é uma das decisões mais importantes, para se obter do pulverizador os resultados esperados de controle nos tratamentos fitossanitários. De maneira geral, pode-se atribuir às pontas de pulverização e às condições meteorológicas maior parcela de contribuição para a ineficiência do processo de pulverização no controle de pragas, doenças e plantas daninhas da cultura do arroz irrigado
+
+-- ESCOLHA DAS PONTAS: --
+Na escolha das pontas de pulverização deve-se buscar uma distribuição uniforme de gotas em toda a superfície tratada, com a quantidade adequada por cm² e atingindo o alvo com 100% da dosagem necessária para o controle das pragas, doenças ou plantas daninhas presentes na área de cultivo. O critério de seleção vai depender inicialmente do tipo ou forma do alvo, do tamanho das gotas mais apropriadas para as exigências do tratamento, do volume de calda necessário para distribuir o produto e das condições climatológicas no momento da aplicação. As pontas que produzem gotas médias ou gotas finas estão entre as mais recomendadas na maioria das vezes. Especialmente nos casos em que ainda não se observa rigorosamente as recomendações para iniciar ou cessar as pulverizações; e também quando ocorrem variações nas condições climáticas durante um mesmo tratamento ou entre as diferentes datas de aplicação. Essas pontas evitam as perdas por deriva ou evaporação de grandes volumes de calda, que podem ocorrer com gotas muito ou extremamente finas .
+
+-- INFORMAÇÕES TÉCNICAS DAS PONTAS DE PULVERIZAÇÃO: --
+No Brasil, os fabricantes disponibilizam as informações técnicas das pontas de pulverização em catálogos de comercialização, de acordo com normas internacionais de classificação, por cor das pontas e as especificações do DMV (diâmetro mediano volumétrico) das gotas produzidas, nas diferentes pressões de trabalhos recomendadas para cada tipo de ponta. As tabelas abaixo apresentam as vazões e tamanho de gotas produzidas em diferentes pressões de trabalho de jato plano, modelo XR, jato cônico com pontas JA e pontas com injeção de ar. É possível verificar que uma mesma ponta pode produzir gotas de diferentes DMV, somente aumentando a pressão, recurso este disponível para utilizar conforme as condições climáticas no momento da aplicação.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11429%5D%7B219%7D11_tabpontas01_2021.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11429%5D%7B125%7D11_tabpontas02_2021.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11429%5D%7B381%7D11_tabpontas03_2021.jpg
+
+-- Informações Complementares --
+• Luiz Antonio Palladini (Dr. em Tecnologia de Aplicação - Epagri) Tecnologia de aplicação de agrotóxicos

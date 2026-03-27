@@ -1,0 +1,15 @@
+Título: COMPOSTAGEM - Quando o composto está pronto
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018475&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16107%5D%7B497%7Dfigura_12b.jpg
+
+-- QUANDO O COMPOSTO ESTÁ PRONTO: --
+O composto é considerado pronto quando a pilha atingir a mesma temperatura do ambiente, não se elevando mais mesmo com a correção da umidade e promovendo a aeração/revolvimento. O período de compostagem pode variar entre 3 e 6 meses, dependendo do material e do manejo empregado. O composto pronto possui uma marcante cor escura, com odor leve e sem o cheiro do material de origem, relação C/N abaixo de 15 e umidade abaixo de 50%, permitindo o ensacamento e a fácil distribuição do fertilizante no solo (Figura 12).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16107%5D%7B195%7Dfigura_12b.jpg
+Legenda: Figura 12. Pilhas de compostagem em fase de maturação (A) e composto pronto para o uso (B). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16107%5D%7B346%7Dfigura_12a.jpg
+Legenda: Figura 12. Pilhas de compostagem em fase de maturação (A) e composto pronto para o uso (B). Foto: Rafael Ricardo Cantú
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

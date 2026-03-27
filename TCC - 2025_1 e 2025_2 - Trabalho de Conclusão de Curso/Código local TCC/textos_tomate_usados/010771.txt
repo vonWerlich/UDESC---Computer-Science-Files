@@ -1,0 +1,16 @@
+Título: TOMATE - Fitossanidade - Vírus - Necrose branca do tomateiro (ToBMV)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010771&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9733%5D%7B387%7D20.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9733%5D%7B137%7D20.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+
+-- INFORMAÇÕES GERAIS: --
+- Virose de ocorrência rara, mas com relatos no Sul e Sudeste (1).
+
+-- TRANSMISSÃO: --
+- Muito provavelmente por Besouros (1).
+
+-- Informações Complementares --
+(1) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Alice Kazuko Inoue-Nagata. Tema: Embrapa Hortaliças e o manejo de viroses em tomateiro. Data do evento: 14/09/2020. Para informações na íntegra, acessar: https://youtu.be/sgDHRSl-FeI .

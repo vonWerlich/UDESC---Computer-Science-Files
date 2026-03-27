@@ -1,0 +1,21 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 1. Diagnóstico a partir da lavouraInicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca. - Está ocorrendo perda de estande (número de plantas/m²) na lavoura - A falha no estande é pela perda de plantas já germinadas - As plantas (plântulas) surgem boiando na água
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017091&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17089%5D%7B243%7Dlav04_plantaboia.jpg
+DIAGNOSE VISUAL
+1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+Está ocorrendo perda de estande (número de plantas/m²) na lavoura
+A falha no estande é pela perda de plantas já germinadas
+As plantas (plântulas) surgem boiando na água
+As plantas (plântulas) boiando não têm raiz
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17091%5D%7B495%7Dlav05_plboia.jpg
+Legenda: As plantas (plântulas) boiando não têm raiz
+17093
+As plantas (plântulas) boiando não têm raiz
+As plantas (plântulas) bóiam com raiz (cuidado: outros eventos, como ventos fortes, podem provocar este mesmo sintoma)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17091%5D%7B94%7Dlav05_plboiaraiz.jpg
+Legenda: As plantas (plântulas) bóiam com raiz (cuidado: outros eventos, como ventos fortes, podem provocar este mesmo sintoma)
+17092
+As plantas (plântulas) bóiam com raiz (cuidado: outros eventos, como ventos fortes, podem provocar este mesmo sintoma)

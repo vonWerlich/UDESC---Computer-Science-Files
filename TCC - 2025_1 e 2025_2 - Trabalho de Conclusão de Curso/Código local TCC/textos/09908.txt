@@ -1,0 +1,241 @@
+Título: CEBOLA - Escolha do cultivar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09908&isEdicao=N&epagriTEC=S
+
+
+=== CRITÉRIOS PARA ESCOLHA DO CULTIVAR ===
+
+=== CRITÉRIOS PARA ESCOLHA DO CULTIVAR ===
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12989%5D%7B464%7Dfoto_da_cebola.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12553%5D%7B10%7Dakamaru.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12555%5D%7B47%7Dalfa_tropical.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12556%5D%7B529%7Dalvorada.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12557%5D%7B416%7Dandromeda.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12558%5D%7B229%7Dannika.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12559%5D%7B264%7Daquarius.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12560%5D%7B330%7Darizona.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12561%5D%7B221%7Datlanta.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12562%5D%7B418%7Daurea.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12563%5D%7B363%7Daurora.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12564%5D%7B315%7Dazteca.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16164%5D%7B187%7Dbaia_herval.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12565%5D%7B28%7Dbaia_periforme.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12567%5D%7B174%7Dbaia_periforme_super_precoce.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12566%5D%7B446%7Dbella_catarina.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12568%5D%7B549%7Dbella_dura.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12569%5D%7B550%7Dbella_vista.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12570%5D%7B457%7Dbeta_cristal.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17285%5D%7B42%7Dbola_suprema.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12571%5D%7B202%7Dboreal.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12577%5D%7B268%7Dbranca_rainha_para_conserva.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12578%5D%7B85%7Dbrisa_-_ipa_12.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12580%5D%7B479%7Dbrs_alfa_sao_francisco.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12581%5D%7B21%7Dbrs_cascata.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12579%5D%7B377%7Dbrs_367.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12582%5D%7B446%7Dbrunella.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12572%5D%7B312%7Dbr19.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12573%5D%7B50%7Dbr23.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12574%5D%7B75%7Dbr25.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12575%5D%7B342%7Dbr27.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12576%5D%7B545%7Dbr29.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12583%5D%7B512%7Dbuccaneer.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12584%5D%7B248%7Dcadillac.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12585%5D%7B293%7Dcaete.jpg.crdownload
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12586%5D%7B248%7Dcatarina.jpg.crdownload
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12587%5D%7B420%7Dcelebra.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16005%5D%7B160%7Dcimarron.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12588%5D%7B363%7Dcolina.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12589%5D%7B442%7Dcolorada.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12590%5D%7B145%7Dcomposto_ipa-6.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12591%5D%7B370%7Dconquista.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16281%5D%7B67%7Dcorumba.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12736%5D%7B373%7Dcrioula_roxa.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12593%5D%7B332%7Dcristalina.webp
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17478%5D%7B248%7Dcrystal_white_wax_%28p_conser%29.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12594%5D%7B215%7Ddallas.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12595%5D%7B327%7Ddiamante.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12596%5D%7B531%7Ddon_victor.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12597%5D%7B207%7Ddourada.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16006%5D%7B392%7Ddulciana.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12598%5D%7B257%7Dempasc_352_bola_precoce.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12599%5D%7B532%7Dempasc_355_juporanga.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12592%5D%7B66%7Depagri_362_crioula_alto_vale.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12600%5D%7B506%7Depagri_363_superprecoce.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12601%5D%7B460%7Dexpress.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12602%5D%7B127%7Dfernanda.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12603%5D%7B540%7Dfranciscana_ipa_10.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12604%5D%7B201%7Dgamay.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12605%5D%7B86%7Dgauchinha.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12606%5D%7B25%7Dgobi.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12607%5D%7B511%7Dgran_valley.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12608%5D%7B514%7Dgranex_429.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12609%5D%7B435%7Dgranex_isla_importada.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12610%5D%7B290%7Dht125_%28belinha%29.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12611%5D%7B52%7Dht215_%28super_bola%29.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12612%5D%7B402%7Dimperatriz.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12613%5D%7B542%7Dimperial.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12614%5D%7B76%7Dipa_10.webp
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12615%5D%7B317%7Dipa_11.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12616%5D%7B119%7Dirati.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17287%5D%7B332%7Ditajuba.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16283%5D%7B367%7Djoelino.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12617%5D%7B90%7Djubileu.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12618%5D%7B80%7Dkoda.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12619%5D%7B115%7Dlambada.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12620%5D%7B350%7Dlola.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12621%5D%7B391%7Dlombardi.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12622%5D%7B537%7Dluana.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12623%5D%7B483%7Dlucinda.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12624%5D%7B100%7Dteste-da-cebola.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12625%5D%7B529%7Dmalbec.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12626%5D%7B497%7Dmata_hari.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12627%5D%7B450%7Dmenina.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12628%5D%7B478%7Dmercedes.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12629%5D%7B426%7Dmercosul_ht.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17286%5D%7B457%7Dmercurio.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12630%5D%7B389%7Dmirela.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12631%5D%7B306%7Dmontana.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12632%5D%7B545%7Dmorena.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17289%5D%7B370%7Dmulata_calibrada.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B15728%5D%7B214%7Dcebola-hibrida-nomad.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16007%5D%7B214%7Dnun1205.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12633%5D%7B136%7Domega_01.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12634%5D%7B262%7Donix_1.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12635%5D%7B468%7Doptoma.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12636%5D%7B536%7Dpatricia.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12637%5D%7B456%7Dpera_norte_14_bojuda_do_rio_grande.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12638%5D%7B445%7Dperfecta.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12639%5D%7B279%7Dpetroline_1.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12640%5D%7B70%7Dpodium.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12641%5D%7B467%7Dcebola-predator.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12642%5D%7B325%7Dpredileta.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12643%5D%7B121%7Dcebola-primavera-amarela.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12645%5D%7B109%7Dcebola-primavera-baia.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12644%5D%7B40%7Dcebola-princesa.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12646%5D%7B309%7Dcebola-phyton.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12647%5D%7B520%7Dcebola-rainha.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12648%5D%7B65%7Dcebola-rebecca.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12649%5D%7B217%7Dred_coach_22.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12650%5D%7B477%7Dcebola-red-creole.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12651%5D%7B56%7Dcebola-regent.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12652%5D%7B339%7Dregia.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12653%5D%7B25%7Drio_das_antas.webp
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16280%5D%7B376%7Drio_das_antas.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16282%5D%7B427%7Drio_grande.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12654%5D%7B509%7Dcebola-rio-grande.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12655%5D%7B258%7Dcebola-rio-vermelho.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16284%5D%7B507%7Drio_vermelho.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12656%5D%7B370%7Droxa_-_ipa_3.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16285%5D%7B390%7Drusset.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12657%5D%7B323%7Dcebola-safira.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12658%5D%7B538%7Dcebola-salto-grande.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12659%5D%7B232%7Dscs366_poranga.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12678%5D%7B281%7Dscs_373_valessul.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12676%5D%7B94%7Dgalega.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12677%5D%7B208%7Dcebola-robusta.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12660%5D%7B202%7Dcebola-serena.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16008%5D%7B102%7Dserengeti.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12661%5D%7B80%7Dcebola-sirius.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12662%5D%7B202%7Dcebola-soberana.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17288%5D%7B387%7Dsprint.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12663%5D%7B174%7Dcebola-sulista.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12675%5D%7B199%7Dsuperex_%28amarela_clara%29.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12665%5D%7B78%7Dcebola-taiko.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12666%5D%7B106%7Dcebola-taila.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12667%5D%7B467%7Dcebola-texas-early-grano-502.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12668%5D%7B193%7Dcebola-texas-grano-502.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12669%5D%7B300%7Dtropical_valley.webp
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12670%5D%7B177%7Dcebola-vale-ouro.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12671%5D%7B35%7Dcebola-vitoria.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12672%5D%7B131%7Dcebola-white-creole.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12673%5D%7B486%7Dxavante.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12674%5D%7B130%7Dxp_8010.jpg
+
+-- Ciclo de maturação (Cebola) --
+Hiper precoce
+Médio
+Normal
+Precoce
+Super precoce
+Tardio
+
+-- Cor da película do bulbo (Cebola) --
+Amarela
+Amarela amarronzada
+Amarela bronzeada
+Amarela clara
+Amarela escura
+Amarela ouro
+Amarelo avermelhado
+Baia
+Branca
+Castanha
+Marrom
+Pinhão
+Roxa
+Vermelha
+Vermelha pinhão
+Vermelha púrpura
+
+-- Cor da polpa do bulbo (Cebola) --
+Branca
+Branca com anéis Roxo
+Creme
+Roxa/branca
+Vermelha
+Vermelha clara
+Vermelha escura
+Vermelha púrpura
+
+-- Empresa (Cebola) --
+Agristar
+Agritu
+Agrocinco
+Embrapa
+Enza Zaden
+Epagri
+Feltrin
+Fepagro
+Hazera
+Hortec
+Hortivale
+IPA
+Isla
+Lotario
+Nunhens
+Sakata
+Seminis
+Takii
+
+-- Época de plantio (Cebola) --
+01) Janeiro
+02) Fevereiro
+03) Março
+04) Abril
+05) Maio
+06) Junho
+07) Julho
+08) Agosto
+09) Setembro
+10) Outubro
+11) Novembro
+12) Dezembro
+
+-- Formato do Bulbo (Cebola) --
+Achatado
+Globular
+Globular alongado
+Globular arredondado
+Globular com base achatada
+Globular pião
+Granex
+Pião achatado
+
+-- Polinização (Cebola) --
+Híbrido
+Polinização Aberta (OP)
+
+-- Região do Plantio (Cebola) --
+Centro-Oeste
+Nordeste
+Sudeste
+Sul

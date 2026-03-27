@@ -1,0 +1,24 @@
+Título: TOMATE - Fitossanidade - Bactérias - Necrose da Medula (Pseudomonas corrugata)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04574&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1630%5D%7B540%7Dsintomas_internos_da_necrose_da_medula_em_tomateiro.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1630%5D%7B394%7Dmais_sintomas.jpg
+Legenda: Sintomas de necrose da medula: Necrose da medula em estádio avançado no final de ciclo da planta (A); Progresso de necrose de medula em feridas feitas durante o corte de brotos (B); e Locais atípicos de formação de raízes devido a necrose da medula (C).Foto: Fernando Monteiro (3)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1630%5D%7B546%7Dsintomas_internos_da_necrose_da_medula_em_tomateiro.jpg
+Legenda: Sintomas internos da necrose da medula em tomateiro. Foto: Fernando Monteiro
+
+-- INFORMAÇÕES GERAIS: --
+- No Brasil, são relatadas as espécies Pseudomonas corrugata, Pseudomonas mediterranea e Pseudomonas viridiflava. - Infecções simultâneas de bactérias que causam o talo-oco (Pectobacterium spp.) são comuns quando há a ocorrência da necrose da medula.
+
+-- SINTOMAS: --
+Necrose nas folhas mais novas, progredindo para a planta toda (2). As plantas se apresentam amareladas e podem murchar e morrer. Um corte longitudinal do caule revela descoloração marrom na medula. Na região correspondente a descoloração da medula se desenvolve raízes adventícias, visíveis através do caule rachado, seguidas ou não de necrose (1,2,3).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Após a desbrota, prática comum realizada durante a condução do tomateiro, os ferimentos feitos podem servir de porta de entrada para as bactérias (3).
+
+-- MEDIDAS GERAIS DE CONTROLE: --
+- Evitar plantio em solos propícios a encharcamento (1). - Adubação balanceada, cuidando com excesso de nitrogênio (1). - Evitar irrigações excessivas (1). - Destruir restos culturais após colheita (1). - Realizar rotação de culturas com gramíneas (1).
+
+-- Informações Complementares --
+(1) LOPES, C. A.; AVILA, A. C.. Doenças do tomateiro. 2. ed. Brasília- Df: Embrapa Hortaliça, 2005. 144 p. (2) ALVARENGA, M. A. R. Tomate: produção em campo, casa-de-vegetação e em hidroponia. UFLA, 2004. (3) MONTEIRO, F.P.; OGOSHI, C.; BECKER, W.F.; WAMSER, A.F.; VALMORBIDA, J. 2019 – Pith necrosis associated with Pseudomonas viridiflava in tomato plants in Brazil. Plant Pathology & Quarantine 9(1), 1–5, Doi 10.5943/ppq/9/1/1.

@@ -1,0 +1,19 @@
+Título: BANANA - Recomendação de fertilizantes - Adubação de produção
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021728&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18416%5D%7B419%7Ddsc_0901.jpg
+
+-- DESCRIÇÃO --
+Essa adubação visa repor as quantidades de nutrientes exportadas por ocasião da colheita dos cachos, acrescidas das perdas de nutrientes que ocorrem naturalmente no solo. Dessa forma, as doses recomendadas para a adubação de produção levam em consideração a expectativa de produtividade, assim como a disponibilidade de P e K no solo (tabela abaixo) . Da mesma forma recomendada para a adubação de pré-plantio e crescimento, para as classes “Muito Baixo” e “Baixo” deve-se evitar aplicar doses muito elevadas, equivalentes às maiores produtividades, pois é importante que a fertilidade do solo seja construída paulatinamente ao longo dos anos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18416%5D%7B292%7Dtabela_b.png
+Legenda: Adubação de produção para bananeira nos estados da região sul do Brasil Fonte: Adaptado de Guimarães et al. (2020) e Deus et al. (2020)
+
+-- FORMA DE APLICAÇÃO DOS FERTILIZANTES --
+Os fertilizantes podem ser aplicados em faixa com largura de 1,0m ou semicírculo (150° a 180°) em frente à planta-filha, a uma distância de aproximadamente 40cm do pseudocaule (no sentido do caminhamento do bananal), como se vê na figura abaixo. A fonte fosfatada pode ser aplicada em dose única no início da estação chuvosa. Já as fontes nitrogenadas e potássicas devem ser parceladas entre quatro a oito aplicações a serem realizadas preferencialmente, com início na estação de maior emissão de folhas e cachos. Quando possível, é recomendada a aplicação de compostos orgânicos sólidos e/ ou líquidos que sejam mais acessíveis na região, tendo em vista que, além de fontes de nutrientes, esses compostos favorecem as propriedades biológicas do solo, com melhoria da atividade microbiana e, consequentemente, das propriedades físico-químicas do solo. Mesmo com todos os benefícios da aplicação de compostos orgânicos, é preciso consultar a legislação vigente para eventuais restrições de sua aplicação. Mais detalhes sobre fontes de fertilizantes orgânicos e inorgânicos podem ser consultados nos manuais (CQFS-RS/SC, 2016¹; SBCS/NEPAR, 2019²) .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18416%5D%7B408%7Dcap_7_figura_4a2.jpg
+Legenda: ) Demonstração da aplicação de fertilizantes em “meia lua” na frente da planta filha da bananeira. Foto: Keny H. Marigueli
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18416%5D%7B355%7Dcap_7_figura_4b2.jpg
+Legenda: Detalhe da disposição dos fertilizantes orgânicos/inorgânicos em “meia lua” na frente da planta filhaFoto: Keny H. Marigueli
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. (¹) - CQFS-RS/SC – Comissão de Química e Fertilidade do Solo. Manual de calagem e adubação para os Estados de Rio Grande do Sul e de Santa Catarina. Viçosa, Sociedade Brasileira de Ciência do Solo, 2016. 376p. (²)- SBCS/NEPAR – Sociedade Brasileira de Ciência de Solo. Núcleo Estadual Paraná. Manual de adubação e calagem para o estado do Paraná (2ª edição). Curitiba: SBCS/NEPAR, 2019. 289p.

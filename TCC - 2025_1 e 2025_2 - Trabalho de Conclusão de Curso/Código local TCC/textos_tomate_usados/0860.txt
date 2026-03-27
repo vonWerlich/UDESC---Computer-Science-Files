@@ -1,0 +1,64 @@
+Título: TOMATE - Cultivares - Tytanium F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0860&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B738%5D%7B250%7Dtytanium.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Agrocinco; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Resistência a viroses: Ty1 - Tomato yellow leaf curl virus 1 (ToLCV); Tamanho do fruto: Pequeno (170 a 200 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido determinado saladete, plantas vigorosas para condução em meia estaca ou rasteiro na região nordeste. Frutos do tipo saladete, grandes, firmes, ótima coloração e com excelente pele. Peso médio de 180g. Espaçamento recomendado de 0,50m a 0,60m entre plantas e de 2m a 2,50m entre fileiras. É o primeiro híbrido determinado saladete com tolerância conjunta a Fusarium raça 3 e geminivírus.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B439%7Dtytanium_1.jpg
+Legenda: 1)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B417%7Dtytanium_10.jpg
+Legenda: 10)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B477%7Dtytanium_11.jpg
+Legenda: 11)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B214%7Dtytanium_12.jpg
+Legenda: 12)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B513%7Dtytanium_13.jpg
+Legenda: 13)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B33%7Dtytanium_14.jpg
+Legenda: 14)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B322%7Dtytanium_15.jpg
+Legenda: 15)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B63%7Dtytanium_16.jpeg
+Legenda: 16)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B485%7Dtytanium_17.jpeg
+Legenda: 17)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B257%7Dtytanium_18.jpeg
+Legenda: 18)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B50%7Dtytanium_19.jpeg
+Legenda: 19)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B98%7Dtytanium_2.jpg
+Legenda: 2)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B203%7Dtytanium_20.jpg
+Legenda: 20)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B42%7Dtytanium_21.jpeg
+Legenda: 21)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B492%7Dtytanium_22.jpeg
+Legenda: 22)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B405%7Dtytanium_3.jpg
+Legenda: 3)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B283%7Dtytanium_4.jpg
+Legenda: 4)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B269%7Dtytanium_5.jpg
+Legenda: 5)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B540%7Dtytanium_6.jpg
+Legenda: 6)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B221%7Dtytanium_7.jpg
+Legenda: 7)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B408%7Dtytanium_8.jpg
+Legenda: 8)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B738%5D%7B410%7Dtytanium_9.jpg
+Legenda: 9)null
+
+-- RESISTÊNCIA: --
+Verticillium, Fusarium raças 1, 2 e 3 e TY.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.agrocinco.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.agrocinco.com.br.

@@ -1,0 +1,45 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Murcha de esclerócio (Sclerotium rolfsii)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04901&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1859%5D%7B67%7D401.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1859%5D%7B200%7D402.jpg
+Legenda: Crescimento micelial de Sclerotium rolfsii no colo da haste principal. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1859%5D%7B232%7D401.jpg
+Legenda: Crescimento micelial de Sclerotium rolfsii no colo da haste principal. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1859%5D%7B126%7D3.jpg
+Legenda: Fonte: https://fitopatologiaunilab.blogspot.com/2017/12/murcha-de-esclerocio-do-tomateiro.html. Foto: TORRES FILHO
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1859%5D%7B271%7D4.jpg
+Legenda: Fonte: https://fitopatologiaunilab.blogspot.com/2017/12/murcha-de-esclerocio-do-tomateiro.html. Foto: TORRES FILHO
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1859%5D%7B279%7Dsrolfsii.jpg
+Legenda: Frutos em contato com o solo apodrecem e desenvolvem micélio branco e escleródios na superfície. Foto: Acervo da Embrapa Hortaliças
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1859%5D%7B29%7Dscreenshot_20200330-123655_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura (6).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1859%5D%7B366%7Dscreenshot_20200330-123653_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura (6).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1859%5D%7B32%7Dscreenshot_20200330-123657_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura (6).
+
+-- INFORMAÇÕES GERAIS: --
+- Doença comum no Brasil, associada à alta temperatura e umidade do ar, porém com poucas perdas significativas em tomateiros. Possui grande número de plantas hospedeiras alternativas e produz escleródios, estruturas de resistência capazes de sobreviver por longos períodos no solo. - A disseminação do patógeno ocorre por meio da água de irrigação, movimento do solo, implementos agrícolas, esterco, sementes ou planta infectada (5).
+
+-- SINTOMAS: --
+A doença manifesta-se, geralmente, em pequenas reboleiras ou em plantas isoladas onde se observa a murcha da planta, provocada pela destruição dos tecidos da base do caule. No local, sob condição de alta umidade, observa-se os sinais do patógeno, um crescimento micelial branco cotonoso, com ou sem a presença dos escleródios, pequenos, arredondados, inicialmente brancos e posteriormente de cor marrom-escuro. OBS: a presença de escleródios é a forma mais fácil de confirmar a presença do patógeno em condições de campo.
+
+-- O QUE PODE ESTAR OCORRENDO: --
+Ocorre em condições de alta umidade e temperatura entre 25 a 35 °C (1). Os escleródios podem permanecer viáveis por até cinco anos no solo na ausência do hospedeiro, porém, podem permanecer viáveis por muito mais tempo infectando outras plantas.
+
+-- CONTROLE: --
+Controle genético: - Não há. e) Controle químico: - Não há.
+
+-- Controle cultural: --
+- Fazer rotação de culturas com gramíneas por um período mínimo de três anos (2); - Evitar o plantio de solanáceas, fabáceas e liliáceas (1); - Evitar excesso de irrigação ou umidade no solo; - Eliminação dos restos culturais (ex: enterrio profundo desse material em áreas não destinadas ao plantio); - Plantio em solo com boa drenagem; - Limpeza dos implementos agrícolas que possam levar porções de solo aderidas a áreas não contaminadas (3); - Níveis equilibrados de cálcio contribuem a redução da severidade de S. rolfsii (4). - Utilizar sementes sadias.
+
+-- Controle físico: --
+- Solarização do solo durante as estações mais quentes do ano.
+
+-- Controle biológico: --
+- Uso de biofertilizante a 20% para estimulo da microbiota antagonista no solo.
+
+-- Informações Complementares --
+(1) KUROSAWA, C.; PAVAN, M. A. Doenças do tomateiro (Lycopersicon esculentum). In.: KIMATI, H.; AMORIM, L.; REZENDE, J. A. M.; BERGAMIN, A. F.; CAMARGO, L. E. A. Manual de Fitopatologia: doenças das plantas cultivadas, v. 2, 4° ed. cap. 67, p. 607-626, São Paulo: Agronômica Ceres, 2005. (2) LOPES, C. A.; SANTOS, J. R. M. Doenças do tomateiro. Brasília, DF: Embrapa-CNPH, 1994. 61 p. (3) LOPES, C. A.; ÁVILA, A. C. de (Org.). Doenças do tomateiro. Brasília, DF: Embrapa Hortaliças, 2005. 151 p. (4) ZAMBOLIM, L.; VENTURA, J. A.; ZANÃO JR, L. A. Efeito da nutrição mineral no controle de doenças de plantas. Viçosa, MG: Os autores, 2012, 321p. (5) PELZER, G. Q., Mecanismos de controle de murcha-de-esclerócio e promoção de crescimento em tomateiro mediados por rizobactérias. 2010. 64p. Dissertação de Mestrado em Agronomia – Universidade Federal de Roraima, Boa Vista, 2010. (6) Aplicativo ADAMA Hortifruti Brasil. Para mais informações, consultar o site https://www.adama.com/brasil/pt/ ou diretamente pelo aplicativo ADAMA HF . (7) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Ailton Reis. Tema: Manejo de doenças causadas por fungos e oomicetos da parte radicular do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: https://youtu.be/CChRRIZ99FM

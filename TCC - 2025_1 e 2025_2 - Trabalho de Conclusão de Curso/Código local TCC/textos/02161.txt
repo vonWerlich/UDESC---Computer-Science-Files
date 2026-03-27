@@ -1,0 +1,53 @@
+Título: TOMATE - Fitossanidade - Nematoides
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02161&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1947%5D%7B329%7D437.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B378%7D2015-07-14_16.50.26.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B543%7D2015-05-13_11.19.07.jpg
+Legenda: Raízes completamente destruídas devido ao ataque severo de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B419%7D2015-10-08_10.54.40.jpg
+Legenda: Raízes completamente destruídas devido ao ataque severo de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B251%7D2015-10-08_10.53.08.jpg
+Legenda: Raízes completamente destruídas devido ao ataque severo de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B360%7D2015-05-13_11.19.42.jpg
+Legenda: Raízes completamente destruídas devido ao ataque severo de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B155%7D2015-12-08_09.08.08.jpg
+Legenda: Raízes completamente destruídas devido ao ataque severo de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B162%7D2015-10-08_09.44.35.jpg
+Legenda: Raízes completamente destruídas devido ao ataque severo de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B8%7D2015-10-08_09.45.15.jpg
+Legenda: Raízes completamente destruídas devido ao ataque severo de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B190%7D2015-12-08_09.17.56.jpg
+Legenda: Raízes lavadas com sintomas severos do ataque de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B356%7D2015-12-08_09.18.23.jpg
+Legenda: Raízes lavadas com sintomas severos do ataque de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B252%7D2015-12-08_09.18.38.jpg
+Legenda: Raízes lavadas com sintomas severos do ataque de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B94%7Ddsc04445.jpg
+Legenda: Sintomas severos do ataque de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B448%7Ddsc04421.jpg
+Legenda: Sintomas severos do ataque de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1947%5D%7B9%7Ddsc04424.jpg
+Legenda: Sintomas severos do ataque de Meloidogyne sp. em tomate. Foto: Rafael G. F. Morales
+
+-- SINTOMAS: --
+Os sintomas inicialmente observados são os reflexos, como o retardo no crescimento das plantas, murcha da planta e amarelecimento generalizado, devido ao comprometimento do sistema radicular. Os ataques mais severos causam a morte da planta. Os sintomas diretos são observados nas raízes, com a presença de galhas e, em casos mais severos, raízes totalmente deformadas (1).
+
+-- ETIOLOGIA: --
+Os nematoides do gênero Meloidogyne são parasitas obrigatórios. Os juvenis de segundo estádio (J2) penetram nas raízes, iniciando a formação de seu sítio de alimentação e liberando toxinas que provocam a hipertrofia e hiperplasia das células, formando as galhas. Os nematoides alimentam-se até o estádio reprodutivo, com a postura de ovos pelas fêmeas. São encontrados em todos os tipos de solo, porém com predominância em solos arenosos e temperaturas acima de 25 ºC. Infectam raízes de plantas de mais de 50 gêneros botânicos (1).
+
+-- CONTROLE GENÉTICO: --
+Existem dezenas de cultivares no mercado nacional com resistência a essa praga. Essas cultivares são portadoras do gene Mi, que confere a resistência para as três espécies (Pesquisar no próprio aplicativo as cultivares de tomate que possuem resistência).
+
+-- CONTROLE CULTURAL: --
+- Adubações orgânicas com composto curado; - Rotação de culturas; - De modo geral, fertilizantes amoniacais promovem o decréscimo de injúrias causadas por nematoides em comparação a adubações nitrogenadas na forma nítrica. - Uso de plantas antagonistas como a mucuna-preta (Mucuna aterrima) e a crotalária (Crotalaria spectabilis e Crotalaria breviflora) e o cravo-de-defunto (Tagetes patula, T. minuta, T. erecta).
+
+-- CONTROLE FÍSICO E BIOLÓGICO: --
+- Solarização do solo durante as estações mais quentes do ano. - Uso de biofertilizantes a 5%, aplicado via sistema de gotejo, durante todo o ciclo da lavoura, com objetivo de estimular a microbiota antagonista do solo. - Bacillus methilotrophicus ( Onix ) e Bacillus subtilis ( Biobac , Presence , Quartzo , Rizos , Serenade ) possuem registro no MAPA para o controle de Meloidogyne javanica em sistemas orgânicos de produção. - Paecilomyces lilacinus ( Nemat ) possui registro no MAPA para o controle de Meloidogyne incognita em sistemas orgânicos de produção.
+
+-- OBSERVAÇÕES: --
+- Os nematoides do gênero Meloidogyne (Meloidogyne incognita, M. javanica e M. arenaria) formadores de galhas nas raízes são os que provocam as maiores perdas.
+
+-- Informações Complementares --
+(1) Rafael Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019.

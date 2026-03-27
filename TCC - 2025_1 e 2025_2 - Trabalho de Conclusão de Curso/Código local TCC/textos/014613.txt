@@ -1,0 +1,18 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Magnésio (Mg)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014613&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12702%5D%7B168%7Dfigura_15.jpg
+
+-- IMPORTÂNCIA DO NUTRIENTE: --
+O magnésio está presente na molécula de clorofila, sendo importante ativador de diversas enzimas, participando dos processos de fotossíntese, respiração, síntese de compostos orgânicos e absorção iônica (MENDES et al., 2008).
+
+-- SINTOMAS DE DEFICIÊNCIA: --
+Em situação de deficiência de Mg, a planta tem o crescimento reduzido (Figura 15), as folhas mais velhas tornam-se uniformemente amareladas ao longo do seu comprimento, podendo evoluir para a morte.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12702%5D%7B350%7Dfigura_15.jpg
+Legenda: Figura 15. À esquerda plantas com solução nutritiva completa e à direita plantas em solução nutritiva na ausência de Mg. null
+
+-- RESPOSTA E RECOMENDAÇÃO DE MAGNÉSIO PARA A CEBOLA: --
+São muito escassos os trabalhos de pesquisa avaliando a resposta de Mg para a cultura da cebola, assim como para o Ca. De maneira geral os solos corrigidos, principalmente com o uso de calcário dolomítico para elevar o pH do solo para valores iguais ou superiores ao pH 5,5, apresentam teores de Mg altos no solo e suficientes para altas produtividades de cebola. Desse modo, se os demais cátions não estiverem desiquilibrados no solo e os teores de Mg situarem-se acima de 1,0cmolc dm-3, não há necessidade de aplicações adicionais desse nutriente via solo ou foliar para a cultura da cebola.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

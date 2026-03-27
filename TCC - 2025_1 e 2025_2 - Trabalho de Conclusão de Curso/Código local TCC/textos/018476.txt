@@ -1,0 +1,27 @@
+Título: COMPOSTAGEM - Como usar o composto
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018476&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+
+-- DO QUE DEPENDE A DOSAGEM: --
+A dosagem dos compostos nos cultivos irá depender de três fatores: da constituição do composto, da demanda de nutrientes das plantas e do resultado da análise de solo (Tabela 1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16108%5D%7B285%7Dtabela_1.jpg
+Legenda: Tabela 1. Características químicas de diferentes tipos de compostos orgânicos. Foto: Rafael Ricardo Cantú
+
+-- SUGESTÃO DE DOSE: --
+De modo geral, doses aproximadas a 1kg/m2 permitem o pleno cultivo das hortaliças folhosas (alface, rúcula), enquanto doses de 3kg/m2 são recomendadas para frutos (tomate, pepino, pimentão).
+
+-- QUANDO E COMO APLICAR O COMPOSTO: --
+O composto, se devidamente pronto, pode ser aplicado no momento do plantio sem ocasionar risco de fitotoxidez às plantas. O composto pode ser incorporado ao solo ou aplicado na superfície na área de plantio. A aplicação do composto localizada em covas e sulcos apresenta uma economia de mão de obra e de fertilizante, aumentando sua eficiência.
+
+-- RELAÇÃO DE N, P, K DO COMPOSTO: --
+É importante destacar que a maioria dos compostos apresenta mais P e K do que N, levando ao acúmulo do P e K nos solos em muitos cultivos, especialmente os de hortaliças. Assim, quando a adubação for feita exclusivamente com composto, deve-se optar pelo uso daqueles elaborados com resíduos de materiais ricos em N, como grãos residuais da soja, palhas de fabáceas, compostos de resíduos de frigorífico, entre outros.
+
+-- CÁLCULO PARA USO DO COMPOSTO (Exemplo 1): --
+Cultura: Repolho; Sistema de produção: orgânico; Análise do solo: - 2,3% de matéria orgânica, 30mg/kg de fósforo e 200mg/kg de potássio. Análise do composto: - 3% de nitrogênio; 3,5% de fósforo; 3% de potássio; 20% de umidade. Demanda da cultura conforme ROLAS (2016): - 180 kg/ha de nitrogênio; 100 kg/ha de fósforo; e 90 kg/ha de potássio. ---------------------------- Cálculo: Como no sistema orgânico o elemento limitante é o nitrogênio, deve-se calcular a quantidade de composto para fechar o nitrogênio na base, podendo ocorrer, conforme o composto utilizado, extrapolação da quantidade de outros nutrientes, como fósforo e potássio. Neste exemplo, é recomendado fazer o seguinte cálculo: N: 3% (1,5% considerando eficiência de 50%) - Então: em 1.000kg de composto temos 15kg de N; logo, para suprirmos 180kg de N precisamos de 12.000kg de composto (regra de três simples). Considerando 20% de umidade, teremos então 14.400kg de composto. * Caso o cultivo anterior tenha recebido composto, é necessário considerar a eficiência de 70% do N (50%, mais 20% de N residual). Assim, a necessidade será de 8.500kg de composto e com ajuste da umidade, 10.200kg.
+
+-- CÁLCULO PARA USO DO COMPOSTO (Exemplo 2): --
+Cultura: Repolho; Sistema de produção: convencional; Análise do solo: - 2,3% de matéria orgânica, 30mg/kg de fósforo e 200mg/kg de potássio. Análise do composto: - 3% de nitrogênio; 3% de fósforo; 3% de potássio; 20% de umidade. Demanda da cultura conforme ROLAS (2016): - 120kg/ha de nitrogênio; 60kg/ha de fósforo; e 90kg/ha de potássio. ----------------------------- Cálculo: No sistema convencional de cultivo há a possibilidade de fechar a adubação com o elemento em que o composto tem em maior quantidade, neste exemplo o fósforo complementando em cobertura o nitrogênio e o potássio. Neste exemplo, é recomendado fazer o seguinte cálculo: P: 3% (2,4% considerando eficiência de 80%) - Então: em 1.000 de composto kg temos 24kg de P; logo, para suprirmos 60kg de P precisamos de 2.500kg de composto (regra de três simples). Considerando 20% de umidade, teremos então 3.000kg de composto. * caso o cultivo anterior tenha recebido composto, é necessário considerar a eficiência de 100% do P (80%, mais 20% de N residual). Assim, a necessidade será de 2.000kg de composto e com ajuste da umidade, 2.400kg. Adubação complementar: N: em 3.000kg de composto úmido teremos 38kg de N (1,5%), logo faltará 82kg de N, que pode ser complementado com 182kg de ureia ou 410kg de sulfato de amônio, ambos parcelados em duas aplicações. K: em 3.000kg de composto úmido teremos 90kg de K (3%). Nesse caso, fecha a necessidade de K, todavia, caso falte o nutriente, pode-se complementar com cloreto de potássio (60% de K).
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

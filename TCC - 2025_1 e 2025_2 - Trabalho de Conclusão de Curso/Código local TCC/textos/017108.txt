@@ -1,0 +1,51 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Lagarta-elasmo (Elasmopalpus lignosellus)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017108&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11360%5D%7B322%7Dlagelasmo_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B381%7Dlagelasmo_fig01.jpg
+Legenda: 01. mariposa da lagarta-elasmo. Fonte: I.Cruz (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B241%7Dlagelasmo_fig03.jpg
+Legenda: 03. Maripoosa da lagarta-elasmo. Composição: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B499%7Dlagelasmo_fig11.jpg
+Legenda: 11. Ovo e lagarta de primeiro estágio da lagarta-elasmo. Composição: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B71%7Dlagelasmo_fig12.jpg
+Legenda: 12. Lagarta-elasmo. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B183%7Dlagelasmo_fig13.jpg
+Legenda: 13. Lagarta-elasmo. Fonte: Bayer (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B205%7Dlagelasmo_fig14.jpg
+Legenda: 14. Lagarta-elasmo. Fonte: Bayer (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B95%7Dlagelasmo_fig21.jpg
+Legenda: 21. Planta de milho com furo de entrada da lagarta-elasmo. Fonte: FMC (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B144%7Dlagelasmo_fig22.jpg
+Legenda: 22. Lagarta-elasmo atacando soja. Fonte: D.N.Gassen (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B204%7Dlagelasmo_fig23.jpg
+Legenda: 23. Lagarta-elasmo atacando um tuberculo. Fonte: UGA (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B333%7Dlagelasmo_fig31.jpg
+Legenda: 24. Lavoura de arroz atacada pela lagarta-elasmo. Fonte: E.Ferreira (remasterizada)
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie: Elasmopalpus lignosellus (Zeller) Ordem: Lepidoptera Família: Pyralidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B431%7Dlagelasmo_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+• O adulto é uma mariposa esguia, com cerca de 20mm de envergadura e coloração pardo-acinzentada, mais escura nos machos. • A lagarta inicialmente é de coloração rosada, mas escurece para cinza-esverdeada com listras arroxeadas no final do desenvolvimento, quando atinge de 15 a 20mm de comprimento.
+
+-- CICLO DE VIDA: --
+Completa-se em 37 dias, sendo 4 dias a incubação dos ovos, 22 dias a fase larval e 11 dias como crisálida.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B549%7Dlagelasmo_ciclo.jpg
+Legenda: Ciclo de vida da lagarta-elasmo, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de setembro a dezembro. Crítico: outubro. Lavoura: da emergência ao perfilhamento. Nota: praga de plantio em solo seco.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11360%5D%7B63%7Dlagelasmo_fenologia.jpg
+Legenda: Fenologia da ocorrência da lagarta-elasmo na lavoura de arroz em Santa Catarina.
+
+-- DANOS: --
+As lagartas inicialmente se alimentam das folhas tenras do arroz, depois se dirigem para a região do colo onde abrem um orifício transversal no colmo. Enquanto se alimenta, a lagarta escava uma galeria pelo centro do colmo e, no lado de fora, constrói um abrigo com terra e outros detritos ligados com teia, que se prende no orifício de entrada da lagarta. Plantas novas atacadas acabam secando, reduzindo o estande da lavoura. Em plantas já perfilhando, pode advir o sintoma de coração morto.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Inundar quadros com presença de sintomas. • No manejo das pragas principais, evitar pulverizações frequentes e desnecessárias de inseticidas. Nota: Os danos no colmo são permanentes. Mesmo que um eventual controle contribua para a redução do número de lagartas, há de se avaliar a necessidade de replantio na área inicialmente atacada.
+
+-- Informações Complementares --
+VIANA, P.A. Lagarta-elasmo. In: SALVADORI, J.R.; ÁVILA, C.J.; SILVA, M.T.B. (Eds). Pragas de solo no Brasil . Passo Fundo: Embrapa Trigo, 2004. p.379-408.

@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - B) BOTÂNICA, ORIGEM E CLIMA PARA O TOMATEIRO - c) Centro de origem
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02487&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2251%5D%7B22%7Dcapa_1.jpg
+
+-- Centro de origem: --
+O centro de diversidade máxima se localiza entre o equador (0° de latitude) e o norte do Chile (39° de latitude Sul, e desde o Oceano Pacífico até os Andes, em altitudes variando de 0 a 2.000m.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

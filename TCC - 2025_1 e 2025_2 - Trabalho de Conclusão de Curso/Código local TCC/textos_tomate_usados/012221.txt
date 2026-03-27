@@ -1,0 +1,51 @@
+Título: 4) ESCOLHA DO PLÁSTICO DE COBERTURA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012221&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6692%5D%7B43%7D52.jpg
+
+-- TIPOS DE PLÁSTICO: --
+Existem três tipos principais de filmes plásticos para a cobertura do abrigo de cultivo, sendo eles transparentes, difusores e leitosos. Apesar de existirem inúmeras outras possibilidades, os três supracitados são os mais utilizados no Brasil.
+
+-- MATERIAL MAIS UTILIZADO PARA A COBERTURA: --
+O polietileno de baixa densidade (PEBD) é o material mais utilizado para a cobertura dos abrigos de cultivo, porque apresenta transparência, flexibilidade e possui menor custo quando comparado ao vidro.
+
+-- CARACTERÍSTICAS QUE UM PLÁSTICO PODE TER: --
+- Antivírus: tratado com um aditivo que bloqueia a passagem da luz ultravioleta, o que diminui a visão dos insetos, diminuindo a sua permanência nos abrigos e a propagação dos vírus; - Antiestático: reduz o acúmulo de poeira; - Proteção contra raios UVa/UVb: garante maior qualidade do filme exposto às intempéries e à radiação solar; - Antigotejo: evita que as gotas condensadas sob o plástico caiam sobre o cultivo. Contudo, em condições de baixa luminosidade, devido ao clima ou ao acúmulo de poeira, essa característica pode ser prejudicial, pois reduz a radiação solar incidente, reduz a fotossíntese, o crescimento e o desenvolvimento da cultura.
+
+-- PLÁSTICO DIFUSOR: --
+Para a maior parte dos cultivos é recomendado o plástico difusor, que apresente entre 40 e 80% de difusão, uma vez que a radiação difusa é mais efetiva no processo fotossintético. Isso ocorre devido à dispersão da luz dentro do ambiente, quando a luz multidirecional penetra melhor no dossel da cultura, o que compensa, em parte, a parcial opacidade do filme agrícola (SOUSA, 2002).
+
+-- LARGURA DO PLÁSTICO A SER ADQUIRIDO: --
+Para determinar a largura do plástico a ser adquirido, deve-se levar em consideração o sentido em que ele será colocado: transversal ao sentido do comprimento ou no sentido do comprimento do abrigo. No mercado brasileiro é comum encontrar plásticos com 4 e 8m de largura, mas as empresas especializadas fabricam plásticos com até 12m ou mais de largura sob encomenda. O mais usual atualmente é esticar o plástico no sentido do comprimento do abrigo, o que necessita de 4 a 6 pessoas para uma boa fixação do plástico. No caso de optar por rolos de 4 a 6m, o plástico deve ser colocado na transversal em tiras sobrepostas nas laterais (VER FOTO EM ANEXO) em 0,5m, sendo necessárias de 2 a 4 pessoas para executar o serviço.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6692%5D%7B4%7D50.jpg
+Legenda: Sobreposição de 1 metro do filme agrícola quando esticado na transversal. Fonte: Morales et al., 2019.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6692%5D%7B101%7D51.jpg
+Legenda: Visão superior após a colocação do filme agrícola. Fonte: Morales et al., 2019.
+
+-- MOMENTO IDEAL PARA COLOCAR O PLÁSTICO: --
+A colocação do plástico é a última etapa da construção do abrigo, e vem após a colocação da tela anti-insetos, a construção das janelas e da porta. Para garantir uma melhor fixação do plástico, deve-se optar por fazer a colocação/troca do plástico no verão, num dia sem nuvens, nas horas mais quentes do dia (VER FOTO EM ANEXO). Outro fator a ser levado em consideração é o vento, optando-se sempre por esticar o plástico em dias de pouco ou nenhum vento.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6692%5D%7B396%7D52.jpg
+Legenda: Colocação do plástico em abrigos de cultivo. Dia de sol, com o céu limpo e ausência de ventos fortes. Fonte: Morales et al., 2019.
+
+-- ESPESSURA DO PLÁSTICO A SER UTILIZADO: --
+Quanto à espessura do plástico, os mais utilizados variam de 100 a 150 micras, mas existem no mercado fornecedores de plástico ainda mais espesso. Não há unanimidade na literatura sobre as vantagens de se utilizar determinada espessura de plástico, mas, na prática, observam-se algumas vantagens em se utilizar plásticos entre 100 e 120 micras. Uma delas é a facilidade de esticar/tracionar o plástico em cima dos abrigos. Plásticos muito espessos cedem pouco na hora de esticar, mesmo em dias quentes, o que resulta em frouxidão do material com o passar do tempo. Por outro lado, o plástico de 100 micras cede e fica mais firme, o que pode resultar em maior durabilidade do material. Assim, mesmo que o plástico de 150 micras seja mais resistente do que o de 100 micras, dependendo da qualidade da instalação, a durabilidade com as duas espessuras pode ser praticamente a mesma, variando de 3 a 5 anos.
+
+-- Observação importante quanto a espessura do plástico: --
+Cabe uma ressalva no que tange esse assunto. Em abrigos de cultivo que não possuem boa proteção contra o vento, ou tenham estruturas pouco reforçadas, durante um vendaval, a tendência é de que o vento rasgue o plástico mais fino e não danifique a estrutura do abrigo. Contudo, se o plástico for mais espesso (150 micras) e resistente, a estrutura pode sofrer danos devido à força que o vento faz no plástico, muitas vezes arrancando os esteios do solo e as madeiras pregadas (por isso, dar preferência por parafuso), entortando metal e quebrando a madeira. Levando-se essas questões em ponderação, em caso de dúvidas quanto à espessura do plástico, deve-se optar pelo plástico de 100 a 120 micras, que atenderá as necessidades do cultivo.
+
+-- USO DE ARAMES NA LONGITUDINAL: --
+Outra medida que visa preservar a durabilidade do plástico de cobertura é esticar longitudinalmente os arames (2mm de bitola), entre as duas extremidades do abrigo sob o plástico, de tal forma que ele auxilie na redução da vibração que ocorre em dias de ventania.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6692%5D%7B515%7D53.jpg
+Legenda: Arames esticados longitudinalmente ao abrigo para redução da vibração do plástico pela ação do vento e para aumento da sua durabilidade. Fonte: Morales et al., 2019.
+
+-- USO DA SUJEIRA DO PLÁSTICO PARA O CONTROLE DA TEMPERATURA: --
+Após determinado tempo de uso, o plástico começa a acumular pó e demais sujeiras que reduzem a passagem da luz para dentro do abrigo. Essa condição desfavorece o desenvolvimento vegetativo, pois reduz a atividade fotossintética, principalmente em dias nublados e em épocas de menor luminosidade natural (inverno). Com isso, torna-se essencial a limpeza periódica do plástico, que deve ser feita sempre que se notar redução significativa da luminosidade dentro do abrigo. Assim, a frequência dessa limpeza vai depender de algumas condições locais, como por exemplo a proximidade com rodovias e áreas rurais que fazem o revolvimento convencional do solo. Para os produtores que não usam tela de sombreamento, a poeira acumulada sobre o plástico pode auxiliar no combate às altas temperaturas durante o verão. Porém, nesse caso, deve-se ter consciência de que essa estratégia, apesar de apresentar baixo custo, não é a ideal, pois em períodos prolongados de baixa luminosidade, mesmo no verão, pode resultar em baixa atividade fotossintética pelas plantas e estímulo ao estiolamento, com consequente aumento da suscetibilidade às pragas.
+
+-- LIMPEZA DO PLÁSTICO: --
+Existem poucas opções práticas para a limpeza do plástico. A mais utilizada atualmente é a utilização de uma espuma fixada a uma haste que permite a limpeza dos locais mais altos (centro da cumeeira) do abrigo (VER FOTO EM ANEXO). Deve-se jogar água conjuntamente com a fricção da espuma no plástico, por meio de mangueira ou até mesmo aproveitando um dia de chuva. Uma segunda opção é transpassar transversalmente um sombrite sobre o abrigo, numa faixa de aproximadamente um metro. Então, duas pessoas, uma de cada lado do abrigo, devem puxar em sua direção o sombrite, fazendo um “vai e vem” do sombrite sobre o plástico que, na presença de água, faz a limpeza da sujeira (VER FOTO EM ANEXO). Cabe ressaltar que apesar desse método ser mais prático do que o da espuma, devido ao atrito criado pela tela no plástico, há um maior desgaste do plástico e consequente redução da sua durabilidade.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6692%5D%7B362%7D54.jpg
+Legenda: Limpeza do plástico de cobertura com espuma fixada a uma haste de bambu (superior) e com o uso de tela (inferior), ambos na presença de jato da água. Fonte: Morales et al., 2019.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

@@ -1,0 +1,35 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Gafanhoto-verde (Conocephalusspp. eNeoconocephalusspp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016908&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11369%5D%7B78%7Dgafverde_fig12.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11369%5D%7B104%7Dgafverde_fig21.jpg
+Legenda: 21. Danos de gafanhoto-verde nas folhas do arroz. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11369%5D%7B528%7Dgafverde_fig22.jpg
+Legenda: 22. Folha esfiapada devido ao gafanhoto-verde. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11369%5D%7B484%7Dgafverde_fig23.jpg
+Legenda: 23. Aspecto de lavoura atacada pelo gafanhoto-verde. Fonte: E.R.Hickel
+
+-- INFORMAÇÕES GERAIS: Espécie neutra --
+Espécies: Conocephalus spp. e Neoconocephalus spp. Ordem: Orthoptera Família: Tettigoniidae Na região Sul, em arroz irrigado, já foram citadas as espécies Neoconocephalus ensifer (Bolívar), Neoconocephalus kraussi (Redb) e Neoconocephalus maxillosus (F.), além de uma espécie do gênero Phlugis .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11369%5D%7B110%7Dgafverde_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+Gafanhoto do tipo “esperança”, de corpo delgado, frágil e coloração verde-clara. Atinge de 3 a 4cm de comprimento, tendo as fêmeas um longo ovipositor. As antenas são longas e filiformes. As ninfas também são verdes, porém com uma listra marrom-escura no dorso. O inseto percebe a aproximação de pessoas na lavoura, escondendo-se rapidamente para o lado oposto da folha em que se encontra, dificultando sua observação.
+
+-- CICLO DE VIDA: --
+Ainda desconhecido.
+
+-- OCORRÊNCIA: --
+Anual: de outubro a abril. Lavoura: do florescimento à maturação.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11369%5D%7B214%7Dgafverde_fenologia.jpg
+Legenda: Fenologia da ocorrência do gafanhoto-verde na lavoura de arroz em Santa Catarina.
+
+-- DANOS: --
+Os gafanhotos se alimentam no ápice das folhas do arroz, porém sem comer as nervuras. Dessa forma, as pontas das folhas ficam desfiadas. Essa desfolha dificilmente causa impacto na produção de grãos.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• A incidência de gafanhoto-verde nas lavouras de arroz, apesar de freqüente, não necessita de intervenção com medidas específicas de controle.
+
+-- Informações Complementares --
+FERREIRA, E. Manual de identificação de pragas do arroz . Santo Antônio de Goiás: Embrapa-CNPAF, 1998. 110p. (Embrapa-CNPAF. Documentos, 90).

@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Zeta-cipermetrina
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017149&isEdicao=N&epagriTEC=S
+
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Zeta-cipermetrina; Nome comercial: Mustang; Grupo químico: Piretroide; Dose de produto comercial (Tratamento de sementes): 40-60mL/ha; Carência (dia): 7 Classe Toxicológica: 3 moderadamente tóxico (faixa amarela); Classe ambiental: I = altamente perigoso ao meio ambiente;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”.
+
+-- PRAGAS QUE CONTROLA: --
+Lagarta-militar (Spodoptera frugiperda)
+
+-- Informações Complementares --

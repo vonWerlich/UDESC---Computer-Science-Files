@@ -1,0 +1,43 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Plantas daninhas em arroz irrigado - Cuminho (Fimbristylis miliacea)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0515&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B408%5D%7B306%7Dpldan_cuminho_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B47%7D20200331_180642.jpg
+Legenda: Imagens da planta. Fonte: Agrobase Brasil.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B403%7Dpldan_cuminho_fig01.jpg
+Legenda: 01. Cuminho. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B464%7Dpldan_cuminho_fig02.jpg
+Legenda: 02. Cuminho em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B506%7Dpldan_cuminho_fig03.jpg
+Legenda: 03. Cuminho em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B465%7Dpldan_cuminho_fig04.jpg
+Legenda: 04. Lavoura de arroz infestada por cuminho. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B145%7Dpldan_cuminho_fig05.jpg
+Legenda: 05. Cuminho em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B422%7Dpldan_cuminho_fig06.jpg
+Legenda: 06. Lavoura de arroz infestada por cuminho.null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B132%7Dpldan_cuminho_fig07.jpg
+Legenda: 07. Lavoura de arroz infestada por cuminho. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B22%7Dpldan_cuminho_fig08.jpg
+Legenda: 08. Lavoura de arroz infestada por cuminho. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B202%7Dpldan_cuminho_fig09.jpg
+Legenda: 11. Plântula de cuminho em área de lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B491%7Dpldan_cuminho_fig11.jpg
+Legenda: 12. Inflorescência de cuminho. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B408%5D%7B366%7Dpldan_cuminho_fig12.jpg
+Legenda: 13. Inflorescência de cuminho. Fonte: D.S.Eberhardt (remasterizada)
+
+-- DESCRIÇÃO BOTÂNICA: --
+Autor da Descrição: Horlandezan Bragança (1) Características da Planta: Família: Cyperaceae Divisão e Classe: Angyospermae Monocotyledoneae Ciclo: Anual / Perene Reprod./Propagação: Semente; Habitat/Tipologia: Aéreo - Herbáceo Adaptações: Herbáceo cespitoso; Caule Quadrático; Altura(cm): 60 Características das Folhas: Filotaxia: Rosulada Forma do Limbo: Lanceoladas: Linear Superfície: Glabras Consistência: Coriácea Nervação/Venação: Paralelinérveas Comprimento (cm): até 40 Características das Flores e do fruto: Inflorescência: Antela Perianto: Aperiantada, Hermafrodita Tipologia do Fruto: Núcula
+
+-- OBSERVAÇÕES: --
+Espécie infestante em canais, áreas alagadas e úmidas como a cultura do arroz, onde se torna muito agressiva abafando a mesma, causando prejuízo na colheita. Infesta também pastagens (1).
+
+-- Produtos com reconhecido controle da invasora: --
+Aurora ; Basagran ; 2,4-D ; Gladium(Constatada resistência ao herbicida) ; Heat ; Invest/Gulliver(Constatada resistência ao herbicida) ; Loyant ; Nominee(Constatada resistência ao herbicida) ; Only(Constatada resistência ao herbicida) ; Kifix(Constatada resistência ao herbicida) ; Propanil*(Constatada resistência ao herbicida) ; Ricer(Constatada resistência ao herbicida) ; Sirius(Constatada resistência ao herbicida) ; *Controle obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento (plântulas com até uma folha – V1).
+
+-- Produtos com controle médio (70% a 90%): --
+Loyant
+
+-- Informações Complementares --
+(1) AGROFIT. Site: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html (2) Agrolink. Site: https://www.agrolink.com.br/problemas/cuminho_1321.html

@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Diflubenzurom
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017163&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Diflubenzurom
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Diflubenzurom; Nome comercial: Micromite; Grupo químico: Benzoiluréia; Dose de produto comercial (pulverização foliar): 80 a 140mL/ha; Carência (dia): 70 Classe Toxicológica: Não; Classe ambiental: III = perigoso;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”.
+
+-- PRAGAS QUE CONTROLA: --
+Bicheira-da-raiz (Oryzophagus oryzae)
+
+-- Informações Complementares --

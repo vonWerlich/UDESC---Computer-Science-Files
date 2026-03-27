@@ -1,0 +1,27 @@
+Título: CEBOLA - Manejo de pragas - Lagarta-Rosca (Agrotis ipsilon)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013754&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11991%5D%7B501%7Dfigura_4_-_copia.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11991%5D%7B103%7Dfigura_4.jpg
+Legenda: Figura 1. Muda de cebola no início do desenvolvimento no transplante cortada na região do pescoço (pseudocaule) tombada no solo, com lagarta rosca ao lado. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+
+-- IDENTIFICAÇÃO: Mariposa --
+O adulto da lagarta-rosca Agrotis ipsilon (Hufnagel) (Lepidoptera: Noctuidae) é uma mariposa que mede de 3,5cm a 4cm de comprimento e tem as asas anteriores de cor marrom, com máculas pretas, enquanto suas asas posteriores são de cor branca e semitransparentes. As fêmeas põem até 1.260 ovos.
+
+-- IDENTIFICAÇÃO: Lagartas --
+Após cinco dias, os ovos dão origem às lagartas, que são de formato cilíndrico e de cor cinza-escura a marrom-clara. Quando totalmente desenvolvidas, apresentam corpo liso e brilhante e são de coloração cinza a marrom-escura, podendo atingir até 4,5cm de comprimento. A duração da fase larval é de 20 a 40 dias e a pupal de 10 a 20 dias. Após esse período, emergem os adultos que vivem por aproximadamente 14 dias.
+
+-- DANOS: --
+Os danos são causados pelas lagartas, que cortam as plantas de cebola ao redor do “pescoço” e favorecem o tombamento sobre o solo (Figura 1). A lagarta-rosca causa danos à noite, pois durante o dia enterra-se no solo, perto das plantas de cebola danificadas.
+
+-- OCORRÊNCIA: --
+Na região do Alto Vale do Itajaí, SC, raramente acontece dano econômico dessa praga em lavouras de cebola. Os danos já foram observados em áreas cultivadas sobre cobertura de solo com a Ervilhaca comum (Vicia sativa) e Ervilhaca peluda (V. villosa) . As plantas daninhas, língua-de-vaca ( Rumex obtusifolius L.) e os carurus (Amaranthus spp. A. lividus ; A. spinosus ; A. retroflexus ; A. deflexus ; A. hybridus ) são hospedeiras naturais dessa praga. O manejo antecipado de ervas invasoras e de plantas de cobertura de solo é uma forma de eliminar o alimento dessa lagarta, evitando o seu ataque na lavoura a ser implantada.
+
+-- CONTROLE: Inimigos Naturais --
+O controle dessa praga é realizado naturalmente por vespas e moscas parasitoides, que colocam os seus ovos nas lagartas e após nascem as larvas que se alimentam do tecido interno e evitam a emergência de novas mariposas.
+
+-- CONTROLE: Químico --
+O controle químico deve ser realizado com critério, pois pode destruir os inimigos naturais e causar o ressurgimento da praga. Produto registrado no Ministério da Agricultura, Pecuária e Abastecimento (Mapa) para o controle de pragas (acessado em 2021): Marca comercial: Delegate; Composição (grupo químico): espinetoram (espinosina); Dose (Produto Comercial): 10 g/100L água; Classificação Toxicológica e Ambiental: 5 e II; Intervalo de Segurança (dias): 1;
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

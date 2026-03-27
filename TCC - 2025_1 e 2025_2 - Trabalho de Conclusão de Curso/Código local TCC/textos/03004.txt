@@ -1,0 +1,26 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - K) PRINCIPAIS PRAGAS E SEU CONTROLE - j) Mosca-branca (Bemisia tabaci)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03004&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2770%5D%7B237%7Dcapa_1.jpg
+
+-- Reconhecimento dos danos: --
+danosNinfas e adultos sugam a seiva, acarretando a morte de plântulas em infestações severas durante o pós-transplante e o desenvolvimento de fumagina, devido à liberação de exsudados. Porém, o principal dano causado pelo inseto é a transmissão do vírus do mosaico-dourado, um complexo de viroses denominado geminivírus. Uma vez tendo adquirido o vírus, a mosca pode transmiti-lo por toda a vida, de modo persistente. Em geral, os sintomas se manifestam por meio da clorose das nervuras das folhas jovens e progride por toda a folha a partir do pecíolo e é seguido de rugosidade e até mesmo do enrolamento das mesmas. O ataque gera desorganizações fisiológicas nos frutos, que amadurecem de forma irregular. No final da década de 1990, associados à introdução no País da mosca-branca, B. tabaci biótipo B, também referida como B. argentifolii, surtos epidêmicos de geminiviroses passaram a ocorrer em todas as regiões produtoras de tomate no Brasil (Silva et al. 2006). Contudo, pesquisas mais recentes demonstraram que existe um complexo de biótipos, denominado complexo B. tabaci (Villas Bôas & Branco, 2009). Como a mosca é um vetor bastante móvel e com amplo círculo de hospedeiros, uma diversidade de espécies de geminivírus, antes restritas às ervas daninhas, migraram para o tomateiro (Silva et al. 2006).
+
+-- Monitoramento: --
+• Batedura de ponteiros; • Instalação de armadilhas adesivas, de modo a auxiliar a tomada de decisão de controle da praga. As armadilhas poderão ser confeccionadas com papel-cartão ou garrafas PET, pintadas na tonalidade amarelo-ouro.
+
+-- Método de amostragem: --
+Batedura de um ponteiro por planta, sobre um recipiente plástico de fundo branco para a quantificação de insetos.
+
+-- Nível de ação: --
+Ataque de 10% dos ponteiros amostrados ou 1(um) adulto/ponteiro, em média, das plantas amostradas.
+
+-- Principais inimigos naturais: --
+Percevejos (Orius e Geocoris), bicho-lixeiro (Chrysopa e Chrysoperla), vespas parasitoides (Aphelinus mali, Encarsia e Eretmocerus), tesourinhas, joaninhas (Cycloneda sanguinea e Hippodamia convergens), sirfídeos.
+
+-- Métodos de controle: --
+• Adquirir mudas registradas e de procedência confiável; • Utilizar variedades resistentes a viroses; • Cobrir a sementeira com tule para evitar a entrada de adultos; • Evitar plantios escalonados e próximos a outras solanáceas e plantas espontâneas, tais como maria-pretinha, guanxuma e fedegoso; • Realizar desbaste fitossanitário e eliminar as plantas infectadas por vírus; • Utilizar armadilhas adesivas de coloração amarelo-ouro para monitoramento e controle de adultos; • Em cultivos protegidos, deve-se eliminar os restos da cultura e fazer a limpeza e a desinfestação das estufas; • Usar, quando necessário, inseticida com seletividade aos inimigos naturais; • Fazer rotação de agrotóxicos, conforme o modo de ação e o grupo químico; • Eliminar os restos da cultura após a colheita; • Fazer rotação de culturas.
+
+-- Informações Complementares --
+Informações retiradas na íntegra da obra: Janaína Pereira dos Santos in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

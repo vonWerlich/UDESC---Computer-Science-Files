@@ -1,0 +1,29 @@
+Título: TOMATE - Calagem e Adubação - Adubação - Recomendação no SISPIT (EE-Caçador)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=024&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B4786%5D%7B19%7Dcapa_1.jpg
+
+-- NITROGÊNIO: --
+Aplicar 10% do N na linha de cultivo, no plantio. Aplicar: 0,0 % do N recomendado na 1ª semana após o plantio; 0,0 % na 2ª semana; 2,5 % na 3ª semana; 3,5 % na 4ª semana; 4,0 % na 5ª semana; 4,5 % na 6ª semana; 5,2 % na 7ª semana; 8,5 % na 8ª semana; 9,2 % na 9ª semana; 10,2 % na 10ª semana; 11,0 % na 11ª semana; 10,0 % na 12ª semana; 8,1 % na 13ª semana; 7,0 % na 14ª semana; 6,0 % na 15ª semana; 3,5 % na 16ª semana; 3,3 % na 17ª semana; 2,5 % na 18ª semana; 1,0 % na 19ª semana; e 0,0 % na 20ª semana. OBSERVAÇÃO: - Como fontes de nitrogênio para aplicar via fertirrigação, sugere-se nitrato de amônio, ureia ou nitrato de cálcio. - As doses mais altas de nitrogênio aplicadas na fertirrigação podem ser mantidas por mais algumas semanas (2-4 semanas) se o potencial da planta for muito alto, o que estará associado, acima de tudo, com alto pegamento de frutos e um bom vigor vegetativo e boa sanidade das plantas. - Para maiores informações sobre adubação nitrogenada em plantio direto para o estado de Santa Catarina, ler o artigo do anexo 1.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4786%5D%7B324%7D3.jpg
+Legenda: Recomendação de Nitrogênio pelo SISPIT conforme os teores de matéria orgânica indicada na análise de solo. null
+
+-- POTÁSSIO: --
+Aplicar 5% do K2O na linha de cultivo, no plantio. Em cobertura, aplicar: 0,0 % do K recomendado na 1ª semana após o plantio; 0,0 % na 2ª semana; 2,5 % na 3ª semana; 2,8 % na 4ª semana; 3,7 % na 5ª semana; 4,0 % na 6ª semana; 5,8 % na 7ª semana; 9,2 % na 8ª semana; 12,1 % na 9ª semana; 12,5 % na 10ª semana; 10,1 % na 11ª semana; 10,0 % na 12ª semana; 8,3 % na 13ª semana; 6,5 % na 14ª semana; 5,0 % na 15ª semana; 3,1 % na 16ª semana; 2,5 % na 17ª semana; 1,1 % na 18ª semana; 1,1 % na 19ª semana; e 0,0 % na 20ª semana. OBSERVAÇÃO: - Como fonte de potássio para aplicar via fertirrigação, sugere-se o uso de cloreto de potássio. - As doses mais altas de potássio aplicadas na fertirrigação podem ser mantidas por mais algumas semanas (2-4 semanas) se o potencial da planta for muito alto, o que estará associado, acima de tudo, com alto pegamento de frutos e um bom vigor vegetativo e boa sanidade das plantas. - Para maiores informações sobre adubação potássica em plantio direto para o estado de Santa Catarina, ler o artigo do anexo 2.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4786%5D%7B177%7Dpotassio.jpg
+Legenda: Recomendação de potássio pelo SISPIT conforme os teores dos elementos na análise de solo. null
+
+-- FÓSFORO: --
+Se a interpretação indicar teores médios, muito baixos ou baixos, que são doses elevadas de adubos fosfatados, recomenda-se a aplicação em duas etapas: a primeira, metade da dose aplicada à lanço em toda a área por ocasião do preparo do solo no plantio da aveia, e a outra metade da dose aplicada na base no sulco de plantio do tomate. Nas condições do meio-oeste catarinense, com solos com altos teores de matéria orgânica e argila, não se recomenda aplicar fósforo em cobertura ou via fertirrigação quando as necessidades do elemento foram atendidas no plantio das mudas. OBSERVAÇÃO: - Para maiores informações sobre adubação fosfatada para o estado de Santa Catarina, ler o artigo do anexo 3.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4786%5D%7B300%7Dfosforo.jpg
+Legenda: Recomendação de fósforo pelo SISPIT conforme os teores dos elementos na análise de solo. null
+
+-- BORO: --
+Recomenda-se ainda aplicar na linha no sulco de plantio o micronutriente boro (3-5 kg/ha), utilizando 30 a 50 kg/ha de bórax. Alternativamente, pode-se aplicar 20 a 30 kg/ha de ácido bórico dividido em seis aplicações semanais, via fertirrigação. Clique aqui para ver um vídeo do pesquisador Leandro Hahn explanando sobre o assunto. Para ler mais sobre o nutriente Boro na cultura do Tomateiro, clique aqui.
+
+-- Calagem: --
+Adicionar a quantidade de calcário indicada pelo índice SMP para o solo atingir pH 6,0.
+
+-- Informações Complementares --
+Anexo 1. Siegfried Mueller, Anderson Fernando Wamser e Atsuo Suzuki. Agropecu. Catarin., Florianópolis, v. 28, n.1, p.87-91, mar. 2015/jul. 2015. Anexo 2. Siegfried Mueller, Anderson Fernando Wamser e Atsuo Suzuki. Agropecu. Catarin., Florianópolis, v. 28, n.1, p.92-96, mar. 2015/jul. 2015. Anexo 3. Siegfried Mueller et al. Agropecuária Catarinense, Florianópolis, v.31, n.2, p.54-57, maio/ago. 2018

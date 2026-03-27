@@ -1,0 +1,36 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - C) MANEJO DE PLANTAS NA PRODUÇÃO INTEGRADA - d) Tutoramento
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02495&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2258%5D%7B41%7Dfigura_4.jpg
+
+-- Conceito: --
+O tutoramento do tomate consiste em fornecer suporte às plantas durante o seu crescimento. Além de evitar o contato das plantas com o solo, ele aumenta a ventilação e a iluminação ao longo do dossel, facilita os tratos culturais e diminui as curvas em “S” nos caules próximos do solo. Assim, a planta se desenvolve em melhores condições fitossanitárias, o que corrobora para o prolongamento do período de produção, aumentando a quantidade e a qualidade dos frutos. No método de tutoramento vertical a aplicação dos defensivos é mais eficiente nos dois lados das plantas ao longo das filas e há uma melhor distribuição da radiação solar e maior ventilação ao longo do dossel das plantas, contribuindo para a menor incidência de insetospraga e doenças em relação ao tutoramento cruzado (Figura 4D)
+
+-- Métodos de tutoramento vertical: --
+No método de tutoramento vertical do tomate, preconizado no Sistema de Produção Integrada de Tomate, as plantas são conduzidas perpendicularmente ao solo em tutores de essências florestais, usualmente o bambu, ou em fitilhos plásticos. Os principais métodos de tutoramento vertical são: a) o vertical com bambu ou outras essências florestais (Figura 4A); b) o vertical com fitilho (Figura 4B) e; c) o método denominado “mexicano” (Figura 4C).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2258%5D%7B57%7Dfigura_4.jpg
+Legenda: Métodos de tutoramento de plantas vertical com (A) bambu, (B) vertical com fitilho, (C) vertical “mexicano” e (D) cruzado ou “V” invertido. Fonte: Sispit 2016.
+
+-- Métodos de tutoramento “mexicano”: --
+No “mexicano” as plantas são conduzidas verticalmente entre fitilhos dispostos horizontalmente nos dois lados das plantas à medida que as hastes crescem (Figura 5A) e que são amarrados em essências florestais ou bambus dispostos ao longo da fila de plantio a cada seis plantas (Figura 5B). Neste caso, dispensa-se o uso de palanques/mourões. No vertical com bambu e no vertical com fitilho as plantas são amarradas nos tutores dispostos verticalmente (Figuras 4C e 4D, respectivamente).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2258%5D%7B94%7Dfigura_5.jpg
+Legenda: Detalhe do amarrio de plantas nos sistemas de (A-B) tutoramento vertical “mexicano”, (C) com bambu e (D) com fitilho. Fonte: Sispit 2016.
+
+-- Implantações do método: quando fazer --
+A implantação do tutoramento de plantas, principalmente a fixação dos mourões, deve preferencialmente ser realizada antes do plantio para evitar danos às mudas por pisoteio ou pelo manuseio dos materiais (mourões, arame, varas de bambu etc.), mas depois de feito o sulco de adubação e a adubação de base.
+
+-- Implantações do método com bambu: --
+No tutoramento vertical com bambu recomenda-se o uso de varas com aproximadamente 2,2m de comprimento dispostas ao lado de cada planta. As varas, levemente enterradas no solo, são amarradas em um fio de arame galvanizado no 14 ou no 16, que fica a 1,8m acima do nível do solo, atado aos mourões de 2,0m de altura situados nas extremidades e aos mourões ou às cruzetas de bambu grosso ao longo das fileiras.
+
+-- Implantações do método com fitilho: --
+No tutoramento vertical com fitilho, o fio de arame no 14 ou no 16 deve ficar na altura à qual se pretende conduzir as plantas. Os fitilhos, um para cada haste, são presos no arame e na base da planta. O espaçamento entre mourões para o método de tutoramento vertical com fitilho deve ser menor que o com bambu, para evitar que o arame se curve com o peso das plantas. Os mourões de cada extremidade das fileiras, no método de tutoramento vertical com fitilho, devem ser enterrados numa maior profundidade, visto que a maior parte do peso das plantas das fileiras está concentrada neles.
+
+-- Implantações do método com fitilho: cuidados --
+O uso de fitilho em substituição ao bambu reduz tempo e mão de obra na instalação e na condução das plantas. O sistema de tutoramento também é bem mais barato do que o tutoramento com bambu. A seguir estão detalhados alguns cuidados na instalação deste sistema de tutoramento: 1) Fixar os mourões mestres (2 m do solo), nas duas extremidades das filas de plantas, com firmeza a pelo menos 60 cm no solo; 2) O arame de sustentação dos fitilhos, preso aos palanques, deve ser liso de no 14 e fortemente tensionados para manter os fitilhos esticados; 3) Nas linhas de plantas, deve ser colocado um palanque ou cruzeta a cada 8,0m e, entre eles, algumas varas de bambu grossas, dispostas em cada lado das fileiras, para auxiliar na sustentação do arame e consequentemente das plantas; 4) O tutoramento das plantas, propriamente dito, deve ser iniciado quando elas alcançam cerca de 30cm de altura; 5) Os fitilhos devem ter aproximadamente 5,0m para a condução das duas hastes de cada planta; 6) A amarração deve ser feita na base da planta abraçando as primeiras folhas de forma a não causar estrangulamento do caule. Amarra-se na base de cada planta o centro do fitilho, de modo que metade de seu comprimento fique disponível para cada haste, fixando as extremidades do fitilho no arame com nó tipo laço, deixando-os levemente esticados; 7) O fitilho deve ser enrolado nas hastes, uma a duas vezes por semana, acompanhando o crescimento da planta juntamente com a operação da desbrota.
+
+-- Cuidados na reutilizados dos tutores: --
+Caso sejam reutilizados os tutores de essências florestais do ano anterior, deve ser realizada a desinfestação por imersão dos tutores numa solução com 5% de cobre ou 1% de hipoclorito de sódio. Os tutores devem ficar imersos nessa solução por alguns minutos. Para o tratamento de arames utilizados no ano anterior, devem ser evitados produtos cúpricos. Um método prático é mergulhar os arames em água fervente durante 10 minutos.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

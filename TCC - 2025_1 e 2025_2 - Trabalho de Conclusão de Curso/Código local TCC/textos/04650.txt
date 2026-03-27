@@ -1,0 +1,22 @@
+Título: TOMATE - Nutrição Mineral - Molibdenio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04650&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B773%5D%7B319%7D112.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B773%5D%7B467%7D112.jpg
+Legenda: Sintomas típicos da deficiência de molibdênio. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+
+-- Informações gerais: --
+A manifestação dos sintomas de deficiência desse nutriente é muito rara, tanto em solo, como em hidroponia, e essa hipótese deve ser considerada em último caso. A deficiência de molibdênio pode reduzir a eficiência do uso de nitrogênio pela planta (2). De uma maneira geral, o molibdênio é o micronutriente menos presente no solo e o menos exigido pelas culturas (3). O molibdênio é constituite da enzima redutase do nitrato que participa do processo de assimilação de nitrato pela planta, assim plantas deficientes em molibdênio tendem a acumular nitrato e sintomas de deficiência de nitrogênio podem aparecer (3). O fornecimento de Mo via sementes é a mais utilizada e a que tem maior uniformidade e eficiência de adubação (1).
+
+-- Como identificar: --
+Os sintomas de deficiência são o amarelecimento das folhas mais velhas e possíveis necroses marginais com acumulação de nitrato (sintomas se confundem com o de carência de N) (1). Outro sintoma de deficiência de molibdênio são as folhas velhas enroladas (4).
+
+-- O que pode estar ocorrendo: --
+- Solos com pH abaixo de 5 predispõem a deficiência de molibdênio (1). - Solos arenosos e alta precipitação pluvial (2). - Baixo teor de matéria orgânica no solo (2). - Altos teores de sulfato no solo (2) pelo fato do sulfato apresentar efeito inibitório na absorção de molibdênio (3).
+
+-- Correção: --
+- Calagem do solo e aplicação de molibdato de amônio ou molibdato de sódio, em pulverização foliar, com 0,5 a 1,0 g L-1 de água (1).
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474. (3) FAQUIN, V. Nutrição Mineral de Plantas. Lavras: UFLA/FAEPE, 2005. (4) TAKAHASHI, H.W.; ANDRADE, B.L.G. Diagnose foliar na cultura do tomate. In: PRADO, R. M.; CECÍLIO FILHO, A. B.; CORREIA, M. A. R.; PUGA, A. P. (Ed.). Nutrição de plantas: diagnose foliar em hortaliças. 1. ed. Jaboticabal: FCAV/CAPES/FAPESP/FUNDUNESP, 2010. p. 313–342.

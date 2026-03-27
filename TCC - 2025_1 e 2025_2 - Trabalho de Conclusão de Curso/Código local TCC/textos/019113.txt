@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Cordel
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019113&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16756%5D%7B304%7Dtomate-cordel-hs19104.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Planta: Hábito de crescimento determinado; Frutos: Tipo saladete, grandes, uniformes e muito firmes; Época: Ano todo; Resistência: F1, F2, Va, Vd, TMV, TSMV, e TYLCV; Destaque: Boa sanidade e excelente pegamento de frutos.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.horticeres.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.horticeres.com.br/nossos-produtos/solanaceas/tomate/tomate-cordel/

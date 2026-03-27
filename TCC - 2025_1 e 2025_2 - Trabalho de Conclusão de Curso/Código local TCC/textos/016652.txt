@@ -1,0 +1,6 @@
+Título: CEBOLA - DIAGNOSE VISUAL - Bulbos - Podridões
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016652&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16644%5D%7B214%7D%5B12409%5D%7B474%7Dpodridao_branca_principal.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16652%5D%7B198%7D%5B12409%5D%7B474%7Dpodridao_branca_principal.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16652%5D%7B488%7D%5B12409%5D%7B106%7Dpodridao_branca_1.jpg

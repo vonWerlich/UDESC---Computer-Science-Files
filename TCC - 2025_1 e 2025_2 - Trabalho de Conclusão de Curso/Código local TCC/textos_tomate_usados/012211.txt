@@ -1,0 +1,15 @@
+Título: TOMATE - Zoneamento para o Estado de Santa Catarina - Zoneamento agroecológico
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012211&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11017%5D%7B144%7Dtomate.jpg
+
+-- ZONEAMENTO: --
+Os parâmetros adotados para o zoneamento agroecológico da cultura do tomate foram: temperatura média mensal, período de ocorrência de geadas em nível de 20% de probabilidade e índice pluviométrico, sendo todos esses fatores climáticos considerados durante o ciclo da cultura (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11017%5D%7B276%7Dtomate.jpg
+Legenda: Recomendação de plantio para a cultura do tomate. Fonte: THOMÉ et al. 1998
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11017%5D%7B313%7Dtomate.jpg
+Legenda: Zoneamento Agrícola da cultura do tomate para o Estado de Santa Catarina - Safra 2009/2010. Fonte: Epagri/Ciram
+
+-- Informações Complementares --
+(1) THOMÉ, V. M. R.; ZAMPIERI, S.; BRAGA, H. J.; PANDOLFO, C.; SILVA JÚNIOR, V. P. da; BACIC, I.; LAUS NETO, J.; SOLDATELI, D.; GEBLER, E.; ORE, J. D.; ECHEVERRIA, L.; MATTOS, M.; SUSKI, P.P. Zoneamento Agroecológico e Socioeconômico de Santa Catarina. Florianópolis : Epagri, 1999, v.1000. p.1000. CD-ROOM., 1998.

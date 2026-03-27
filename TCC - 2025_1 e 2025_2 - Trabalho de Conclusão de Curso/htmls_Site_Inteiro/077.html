@@ -1,0 +1,316 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=97&amp;isEdicao=N&amp;epagriTEC=S">Fitossanidade</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=10&amp;isEdicao=N&amp;epagriTEC=S">Pragas</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=77&amp;isEdicao=N&amp;epagriTEC=S">Pulgões (Myzus persicae e Macrosiphum euphorbiae)</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="1948">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="077">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[1948]{457}233697.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Pulgões 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>Pulgão da Batatinha (Macrosiphum euphorbiae)</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A forma alada dessa espécie diference-se das ápteras pelo seu tamanho, sendo esta última maior. O comprimento pode variar de 3 a 4 mm. A coloração é geralmente amarelo-esverdeado, com cabeça e antenas mais escuras. Vivem em colônias e tem preferência por viver na parte inferior das folhas dos ponteiros. A principal cultura que ele ataca é a batata, porém utiliza como hospedeiros alternativos o tomate, berinjela, pimentão, alface e fumo (1). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1691,077,1948,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{93}233696.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1690,077,1948,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{391}233697.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1684,077,1948,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{314}macrosiphum_euphorbiae3.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1685,077,1948,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{40}macrosiphum_euphorbiae4.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1687,077,1948,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{136}macrosiphum_euphorbiae7.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1688,077,1948,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{43}macrosiphum_euphorbiae8.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1683,077,1948,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{226}macrosiphum_euphorbiae2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1682,077,1948,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{147}macrosiphum_euphorbiae1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1686,077,1948,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{334}macrosiphum_euphorbiae5.jpg">  </a> 
+<br><br>
+<b>Pulgão Verde (Myzus persicae)</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A principal espécie registrada em tomateiro é Myzus persicae (Sulzer, 1776) (Hemiptera: Aphididae), de corpo verde claro com cabeça, antena e toráx preto, medem cerca de 2 mm de comprimento, sendo a forma áptera (sem asas) a mais comum. A forma alada, menos comum, é a principal responsável pela dispersão e colonização de novas áreas. Os pulgões se reproduzem predominantemente de forma assexuada, e se desenvolvem em aproximadamente 10 dias (3).
+
+Dentre os pulgões, esta espécie é a que ataca o maior número de culturas: melancia; couve; alface; repolho; fumo; feijoeiro, maracujá, mamão, abóbora, abobrinha, batata, berinjela,
+brássicas, chuchu, jiló, pepino, pimentão, tomate, pimenta, gérbera (1).
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1694,077,1948,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{245}48-2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1695,077,1948,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{433}48-1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1693,077,1948,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{130}235662.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,1692,077,1948,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{469}235661.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,7430,077,1948,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1948]{132}screenshot_20200330-131746_adama_hf.jpg">  </a> 
+<br><br>
+<b>DANOS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Estes insetos se alimentam sugando a seiva, preferencialmente das brotações e folhas novas, as quais adquirem aspecto enrugado e deformado, prejudicando a formação da planta, além de, assim como as moscas-brancas, favorecer o desenvolvimento da fumagina. Entretanto, a transmissão de viroses, como “<a href="/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&amp;epagriTEC=S&amp;cdEstrutura=94">vírus Y</a>”, “<a href="/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&amp;epagriTEC=S&amp;cdEstrutura=95">topo amarelo</a>” e “<a href="/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&amp;epagriTEC=S&amp;cdEstrutura=90">amarelo baixeiro</a>”, representam o maior risco a produção do tomateiro.
+
+
+
+
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>MONITORAMENTO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Monitoramento: Se faz empregando-se 4 bandejas (por hectare) amarelas com água e algumas gotas de detergente doméstico, colocadas a 0,5 m do solo. Também é possível pela contagem direta em 100 folhas por hectare, duas vezes por semana. Quando for constatada a presença de mais de 20 pulgões alados nas bandejas ou mais de 30 formas ápteras em cada avaliação, o controle químico deve ser realizado (3). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CONTROLE:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Medidas gerais de controle:<br><br>
+- Práticas como uso de adubação equilibrada (evitando-se excesso de nitrogênio) (4).<br>
+- Manejo adequado da irrigação para evitar o estresse hídrico (favorecendo o estabelecimento rápido das plantas) (4).<br>
+- Emprego da irrigação por aspersão para controle mecânico (4).<br>
+- Eliminação de plantas infectadas com viroses (4).<br>
+- Eliminação de plantas hospedeiras silvestres e daninhas (4).<br>
+- Rotação de culturas (4).<br>
+- Implantação de barreiras vivas (sorgo, capim elefante, milheto ou cana-de-açúcar) perpendiculares à direção predominante do vento ao redor do cultivo (4).<br>
+- Colheita antecipada (principalmente de frutos atacados).
+- Destruição de restos de cultura (4).<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Controle Biológico:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O controle biológico natural, que é exercido por diversos predadores e parasitoides, não se mostra totalmente eficiente, uma vez que pequenas populações desses pulgões são suficientes para a ocorrência da transmissão de viroses. Alternativamente, pode-se utilizar palha de arroz, capim seco ou plástico, como cobertura de solo, pois, além de proteger as plantas, têm acentuado efeito na repelência de formas aladas migrantes, diminuindo as “picadas de prova” e, consequentemente, a transmissão de viroses. A palha de arroz, por exemplo, deve ser colocada em faixas de 30 cm ao longo das linhas de plantio ou mesmo cobrindo toda a extensão das entrelinhas de cultivo; no entanto, esta prática mostra-se inviável para grandes áreas de cultivo, o que impossibilita sua utilização em grande escala. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Controle cultural:</b><br>
+<p class="p1"><div> O isolamento dos talhões de plantio por data e área também deve ser realizado, evitando-se o escalonamento de plantio em áreas próximas. Nesse sentido, o plantio dos talhões deve ser realizado no sentido contrário ao vento, daquele mais velho para o mais novo, de forma a desfavorecer o deslocamento das pragas dos talhões velhos para os novos. <br> </div></p>
+<b>Controle Químico:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> As mudas devem ser produzidas em telados e mantidas pulverizadas com inseticidas recomendados (Agrofit) antes e depois de serem transplantadas no campo.<br><br>
+
+Após a constatação de mais de 10 pulgões por 40 folhas, recomenda-se a aplicação de Pirimicarb. Esse produto é específico para o controle de pulgões, não afetando o desempenho de parasitóides e predadores, como Chrysoperla spp. A pulverização de Pirimicarb (Pi-Rimor 500 PM) deve ser feita em toda a área, em razão das características de migração e dispersão do pulgões (2). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+(1) Dirceu Pratissoli e José Romário de Carvalho. GUIA DE CAMPO: Pragas da Cultura do Tomateiro. Guia de Campo: Pragas da Cultura do Tomateiro / Dirceu Pratissoli, José Romário de Carvalho. – Alegre, ES: NUDEMAFI, Centro de Ciências Agrárias, UFES, 2015. 35p. (Série
+Técnica / NUDEMAFI, ISSN 2359-4179).<br>
+(2) João Bosco Carvalho da Silva. Cultivo de tomate para industrialização. Embrapa Hortaliças, Sistema de Produção, Versão Eletrônica, Jan/2003.<br>
+(3) Instituto Biológico- ASPECTOS FITOSSANITÁRIOS DO TOMATEIRO. n.27 (jul. 2013) – São Paulo. Pág99.<br>
+(4) Alexandre Pinho de Moura. Pulgões. Fonte: http://www.agencia.cnptia.embrapa.br/gestor/pimenta/arvore/CONT000gn7f7wku02wx5ok0liq1mqkqimbov.html.<br>
+(5) Aplicativo ADAMA Hortifruti Brasil. Para mais informações, consultar o site <a target="_blank" href="https://www.adama.com/brasil/pt/"> https://www.adama.com/brasil/pt/</a> ou diretamente pelo aplicativo <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.livetouch.adamahortifruti"> ADAMA HF</a>.
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 06/02/2019</font>
+<br> <font size="2"> Última atualização: 20/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=077&amp;cdElemento=1948">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=1948');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

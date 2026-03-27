@@ -1,0 +1,25 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo) - A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo - A praga é outro tipo de larva (sem pernas no abdome) ou outro tipo de bicho - A praga é outro tipo de bicho - A praga é um molusco (caramujo ou lesma) - A praga é um caramujo de concha achatada, fusiforme ou globosa - O caramujo tem concha achatada ou fusiforme e não fecha a concha com uma tampa quando nela se retrai
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016978&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16976%5D%7B360%7Dchave_fig27.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo)
+A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo
+A praga é outro tipo de larva (sem pernas no abdome) ou outro tipo de bicho
+A praga é outro tipo de bicho
+A praga é um molusco (caramujo ou lesma)
+A praga é um caramujo de concha achatada, fusiforme ou globosa
+O caramujo tem concha achatada ou fusiforme e não fecha a concha com uma tampa quando nela se retrai
+O caramujo tem a concha fusiforme, em espiral - CARAMUJO-PEQUENO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16978%5D%7B181%7Dchv_cmujp.jpg
+Legenda: O caramujo tem a concha fusiforme, em espiral - CARAMUJO-PEQUENO
+16979
+O caramujo tem a concha fusiforme, em espiral - CARAMUJO-PEQUENO
+O caramujo tem a concha espiral achatada, como um botão - CARAMUJO-CHATO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16978%5D%7B473%7Dchv_cmujc.jpg
+Legenda: O caramujo tem a concha espiral achatada, como um botão - CARAMUJO-CHATO
+16980
+O caramujo tem a concha espiral achatada, como um botão - CARAMUJO-CHATO

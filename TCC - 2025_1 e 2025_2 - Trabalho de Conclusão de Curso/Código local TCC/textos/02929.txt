@@ -1,0 +1,17 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - F) CONTROLE DE PLANTAS DANINHAS - a) Introdução
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02929&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2692%5D%7B279%7Dcapa_1.jpg
+
+-- Como as plantas daninhas afetam as plantas: --
+A ação das plantas daninhas na cultura do tomate se dá de duas formas: direta e indireta. Na ação direta o efeito se reflete pela competição por água, luz, nutriente e por aleloquímicos. Na ação indireta sabe-se que as plantas daninhas podem abrigar pragas/vetores de viroses e patógenos do tomate. Além de afetar a colheita, muitas delas interferem nos tratos culturais nas lavouras.
+
+-- O período crítico de prevenção da interferência das plantas daninhas: --
+O período crítico de prevenção da interferência das plantas daninhas se dá normalmente nos primeiros 45 dias após o plantio. Entretanto, a definição desse período crítico é complexa, porque depende, principalmente, das espécies infestantes e de sua densidade. Além da interferência indireta das plantas daninhas, que servem como abrigo aos insetos vetores de vírus e de doenças bacterianas e fúngicas, é comum que elas interferiram nas operações dos tratos culturais e da colheita, o que pode causar prejuízos em períodos até próximo à última colheita.
+
+-- Ponto de controle: --
+O controle das plantas daninhas consiste em suprimir o seu crescimento ou reduzir seu número até níveis aceitáveis para convivência.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

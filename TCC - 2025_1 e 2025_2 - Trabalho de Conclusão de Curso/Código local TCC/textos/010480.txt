@@ -1,0 +1,35 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Preparação do viveiro - Fertilização do viveiro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010480&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17909%5D%7B146%7Dfertilizacao_do_viveiro_-_copia.jpg
+
+-- IMPORTÂNCIA: --
+Após a desinfecção e a calagem, o viveiro estará pronto para receber a água e os fertilizantes. Em cultivos nos viveiros alimentados com ração, o alimento natural pode representar de 30 a 70% do crescimento da tilápia nas fases iniciais. Isto porque as tilápias possuem rastros branquiais que permitem uma filtragem eficiente da água, aproveitando o alimento natural (microalgas e zooplâncton).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17909%5D%7B175%7Dfertilizacao_do_viveiro.jpg
+Legenda: Fertilização do viveiro. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17909%5D%7B162%7Dfertilizacao_do_viveiro_3.jpg
+Legenda: Fertilização do viveiro. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17909%5D%7B152%7Dfertilizacao_do_viveiro_2.jpg
+Legenda: Fertilização do viveiro. Foto: Bruno Corrêa da Silva
+
+-- NUTRIENTES LIMITANTES: --
+A fertilização do viveiro é essencial para aumentar a biomassa de fitoplâncton e, consequentemente, melhorar o desempenho da tilápia nas fases iniciais. Dentre os nutrientes limitantes para o desenvolvimento do fitoplâncton, os principais são: nitrogênio (N) e fósforo (P). A relação N:P recomendada para fertilização inicial dos viveiros é de 8 a 10:1.
+
+-- TIPOS DE FERTILIZANTES: --
+Existem dois grupos de fertilizantes que podem ser utilizados em viveiros: inorgânicos e orgânicos .
+
+-- Vantagens da fertilização inorgânica: --
+- Ação mais rápida; - Melhor precisão na dosagem de N:P adicionada no viveiro.
+
+-- Vantagens da fertilização orgânica: --
+- Mais baratos, muitas vezes disponível na propriedade; - Fonte de outros micronutrientes para água.
+
+-- RECOMENDAÇÕES: --
+- Adubar no início do cultivo apenas se a transparência da água estiver acima de 40cm; - Parcelar estas quantidades em 2 a 3 aplicações no início do cultivo, e realizar cada aplicação a cada 4 dias. Caso a transparência da água atinja o valor desejado (25 a 40cm), as demais aplicações não devem ser realizadas; - A primeira fertilização pode ser aplicada durante o enchimento, após encher o primeiro 1/3 da capacidade do viveiro; - Dê preferencia na adubação em dias consecutivos de sol.
+
+-- SUGESTÃO DE ADUBAÇÃO: --
+Fertilização Inorgânica: 45 kg/ha de ureia e 10 kg/ha de superfosfato triplo. Fertilização Orgânica: Esterco curtido de Aves = 1 t/ha, ou Esterco curtido de Suínos = 2 t/ha, ou Esterco curtido de Bovinos = 3 t/ha. Fertilização Mista: 30 kg/ha de ureia e 100 kg/ha de farelo de arroz.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

@@ -1,0 +1,21 @@
+Título: TOMATE - Tratos Culturais - Raleio de frutos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02222&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1995%5D%7B400%7D20180803_140924.jpg
+
+-- Objetivo: --
+O objetivo desta técnica é obter frutos de maior diâmetro, com maior valor comercial. Ao deixar menos frutos nos cachos, há redução na competição pelos frutos dentro dos cachos, por fotoassimilados, resultando assim em maior tamanho do fruto (1). Sendo pesquisa, plantas de tomate que produzem menos frutos produzem frutos maiores e mais pesados do que as que produzem mais frutos (1).
+
+-- Quando fazer o raleio: --
+A resposta à técnica é diferente entre os cultivares (2). O raleio de frutos em geral é realizado para híbridos do grupo salada, de preferência nos primeiros estádios de desenvolvimento do fruto. Devem ser retirados os frutos terminais/apicais, menores e afastados dos cachos, frutos com doenças fitopatológicas e danificados por insetos-pragas ou com doenças fisiológicas e malformados.
+
+-- Como fazer o raleio: --
+A retirada deve ser feita manualmente, puxando-se o fruto do pedúnculo ao qual está inserido. As recomendações de pulverização e eliminação dos frutos para fora da lavoura também são válidas para essa operação (1). Deve-se deixar no máximo de cinco a seis frutos por cacho (não se aplica para tomate cereja), pois o aparato vegetativo das plantas híbridas atualmente em uso não tem condições de suprir os assimilados necessários para que um número maior de frutos atinja o tamanho comercial adequado (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1995%5D%7B393%7Ddespenca.jpg
+Legenda: (A) Raleio de frutos defasados (seta), (B) com doença fitopatológica, (C) com ataque de insetos-praga, (D) com podridão apical e (E) com lóculo aberto. Foto: Anderson F. Wamser. Acervo Epagri.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1995%5D%7B506%7D20180803_140924.jpg
+Legenda: Cacho floral do tomateiro em que deveria ter sido feito o raleio de frutos. Foto: Rafael G. F. Morales
+
+-- Informações Complementares --
+(1) SILVA, D.J.; VALE, F.X.R. Tomate: tecnologia de produção. Viçosa, MG: UFV; Brasília, D.F., Ministério do Desenvolvimento Agrário, 2007. 355p. il; 23 cm. (2) Mueller, S.; Wamser, A.F. Manejo de plantas na produção integrada de tomate tutorado. In: Becker et al. Sistema de Produção Integrada para o tomate tutorado em Santa Catarina. Florianópolis: Epagri, 2016. Cap.3. p.27-39

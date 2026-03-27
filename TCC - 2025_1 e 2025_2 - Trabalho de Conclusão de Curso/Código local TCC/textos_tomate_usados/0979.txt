@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Aliança F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0979&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B861%5D%7B246%7Dalianca.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Hortec; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Médio (201 a 230 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Planta: Crescimento indeterminado, vigoroso, com boa cobertura foliar, muito produtivo Frutos: Tipo Salada, arredondado com peso em torno de 200 a 230gr, firmes, uniforme, longa vida com sabor Características: O híbrido Aliança apresenta ótima produtividade, variando de 400 a 450 caixas por 1000 plantas Ciclo: 110 – 120 dias - início da colheita Vantagens da Cultivar: Planta com boa cobertura foliar, frutos uniforme, longa vida com sabor e resistências a grande número de doenças. Boa resistência a manchas bacterianas
+
+-- RESISTÊNCIA: --
+Fusarium oxysporum f sp. Lycopersici – (Fol 1 e 2), Verticilliuim dahlie (Vd), Vírus do mosaico do tomateiro – estirpe l (ToMV), Nematóides – Mi: Meloidogyne incognita, Mj: Meloidogyne javanica, e Vírus do Vira-cabeça do Tomateiro (TSWV )
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.hortec.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.hortec.com.br.

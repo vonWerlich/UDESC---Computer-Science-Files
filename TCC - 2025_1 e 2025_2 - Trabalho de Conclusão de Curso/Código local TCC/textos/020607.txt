@@ -1,0 +1,22 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Parasitos (Protozoários e moluscos) - Ictiofiríase
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=020607&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17912%5D%7B464%7Dictio_1.png
+
+-- INFORMAÇÕES GERAIS: --
+Também chamada de doença dos pontos brancos, a ictiofitiríase é causada pelo protozoário Ichthyophthirius multifiliis e está presente em várias espécies de peixes dulcícolas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17912%5D%7B292%7Dictio.jpg
+Legenda: uvenil de tilápia-do-nilo infectado com Ichthyophthirius multifiliis e bacteriose Evolução da doença: (A) início; (B) 24h após; (C) 48h após; (D) Alevinos de tilápia do nilo parasitadas por ictio (cabeça de seta); (E) Visão dos terontes de íctio em microscopia óptica. Fotos: Natalia C. Marchiori (A, B e C), Santiago Benites de Pádua (D e E).
+
+-- OCORRÊNCIA EM JUNDIÁ E TRUTA: --
+Na piscicultura catarinense, o ictio sempre se manifestou com maior predominância nas espécies jundiá (Rhamdia quelen) e truta arco-íris (Oncorhynchus mykiss). No entanto, nos últimos anos, vem se percebendo um aumento na incidência dessa parasitose em tilápias.
+
+-- SINTOMAS: --
+Externamente, a doença se manifesta na forma de inúmeros pontos brancos. Na tilápia, estes pontos são mais fáceis de serem visualizados em estágio de alevino. Em animais adultos, é mais fácil confirmar a presença do parasito via análise branquial em microscópio óptico.
+
+-- CONTROLE: --
+Até o momento, mais de 100 compostos diferentes já foram testados contra esse parasito, no entanto, sem obterem eficácia total (2). Não existem medicamentos legalizados para uso em piscicultura contra esse parasito.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

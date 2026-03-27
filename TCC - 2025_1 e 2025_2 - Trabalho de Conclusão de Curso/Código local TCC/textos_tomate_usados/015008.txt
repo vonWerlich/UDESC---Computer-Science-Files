@@ -1,0 +1,19 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Manejo dos insetos praga - Controle biológico
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015008&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+
+-- AQUISIÇÃO NO MERCADO DOS INIMIGOS NATURAIS: --
+Muitas vezes os inimigos naturais encontrados naturalmente no ambiente não são suficientes para o controle das populações de pragas. Sendo assim, existe a possibilidade da aquisição de grandes quantidades destes indivíduos e sua posterior liberação nos cultivos. O mercado brasileiro oferece várias opções de inimigos naturais, sejam eles parasitoides ou entomopatógenos (Anexo abaixo).
+
+-- Bacillus thuringiensis: --
+O complexo de brocas do fruto também pode ser controlado pelo emprego do entomopatógeno Bacillus thuringiensis, um inseticida biológico que age no sistema digestivo destes insetos, impedindo sua alimentação, levando-os a morte. Sua ação acontece estritamente nestes insetos, não perfazendo perigo ao ambiente, aos inimigos naturais e nem aos humanos. Ainda utilizando micro-organismos, o fungo Metarhizium anisopliae, também comercializado no país, apresenta bons resultados no controle de tripes.
+
+-- Beauveria bassiana e Metarhizium anisopliae: --
+Infestações de mosca-branca podem ser controladas com a utilização do fungo comercial Beauveria bassiana. Este micro-organismo contamina a praga, penetrando sua cutícula, colonizando seus órgãos internos, levando a praga à morte em no máximo sete dias após a infecção. Entretanto, este fungo mostra-se efetivo apenas na fase adulta do inseto, não afetando as ninfas. Além disso, a associação de B. bassiana e M. anisopliae também favorece o controle das populações de pulgões em cultivos de tomate.
+
+-- Trichogramma pretiosum: --
+Outra opção para o controle das brocas e da traça é a utilização de vespinhas da espécie Trichogramma pretiosum Riley, 1879 (Hymenoptera: Trichogrammatidae). Estes insetos são comercializados em pequenas cartelas que podem ser distribuídas dentro da casa-de-vegetação. Ao eclodirem, as vespinhas colocam seus ovos no interior dos ovos das pragas, onde se desenvolvem até emergirem os adultos.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

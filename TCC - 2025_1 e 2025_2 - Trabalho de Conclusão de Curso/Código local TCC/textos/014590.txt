@@ -1,0 +1,35 @@
+Título: CEBOLA - Manejo da água da irrigação - 3. Produção a campo (Lavoura)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014590&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12681%5D%7B391%7Dimg_20190724_152221389.jpg
+
+-- APÓS O TRANSPLANTE: --
+Após o transplante se recomenda uma irrigação suficiente para se atingir a capacidade de campo com o objetivo de garantir o enraizamento das mudas.
+
+-- DO TRANSPLANTE ATÉ 35 DIAS: --
+Do período que vai do transplante até 35 dias após, a cultura necessita de pouca água, devendo-se irrigar de 60% a 65% da evapotranspiração.
+
+-- DOS 35 AOS 70 DIAS APÓS O TRANSPLANTE: --
+No segundo estágio, que vai dos 35 dias até 70 dias após o transplante, a necessidade de água é maior, devendo-se irrigar o equivalente a 80% da evapotranspiração.
+
+-- NA FORMAÇÃO DO BULBO: --
+No terceiro estágio, período de formação do bulbo, a cultura da cebola é muito sensível ao déficit hídrico, sendo necessário irrigar o equivalente a 100% da evapotranspiração.
+
+-- APÓS A FORMAÇÃO DOS BULBOS ATÉ A COLHEITA: --
+Após a formação do bulbo a necessidade de água diminui e nas últimas semanas antes da colheita recomenda-se suspender a irrigação para evitar a entrada de água no pseudocaule, o que irá melhorar a cura e o armazenamento dos bulbos.
+
+-- TIPO DE IRRIGAÇÃO: --
+Recomenda-se a utilização de aspersores de pequeno e de médio porte para evitar a erosão, o selamento do solo e os danos físicos às plantas.
+
+-- USO DE TUBOS GOTEJADORES: --
+O uso de irrigação por gotejamento é um método que apresenta como vantagens técnicas o fornecimento localizado de água e nutrientes (economia de água e nutrientes), menor possibilidade de riscos de erosão e danos às plantas, maior sanidade das plantas, economizando com isso produtos fitossanitários. Pode, ainda, aumentar a produtividade da cultura em relação ao fornecimento da água via aspersão.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12681%5D%7B507%7Dimg_20190729_151128486.jpg
+Legenda: Sistema fertirrigado por gotejamento Menezes Júnior, FOG
+
+-- USO DE CRITÉRIOS TÉCNICOS: --
+É preciso reiterar que a escolha do método de irrigação deverá seguir critérios técnicos e econômicos. Portanto, recomenda-se o estudo de viabilidade econômica.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12681%5D%7B337%7Dfoto_-_manejo_da_agua.jpg
+Legenda: Manejo de irrigação Menezes Júnior, FOG
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

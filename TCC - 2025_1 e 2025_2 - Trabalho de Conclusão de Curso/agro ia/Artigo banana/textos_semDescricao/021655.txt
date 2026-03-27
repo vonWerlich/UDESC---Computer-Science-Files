@@ -1,0 +1,78 @@
+Título: BANANA - Cultivares
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021655&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Branca
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18355%5D%7B95%7Dbranca.png
+21672
+Branca
+BRS Fhia Maravilha
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18368%5D%7B76%7Dcap_3_-_fig_5_-_letra_h_-_buque_maduro_fhia01_-_autoria_eliseu_emanoel_dos_santos.jpg
+21682
+BRS Fhia Maravilha
+BRS Platina
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18362%5D%7B265%7Dcap_3_-_fig_5_-_letra_f_-_buque_maduro_platina_-_autoria_eliseu_emanoel_dos_santos.jpg
+21667
+BRS Platina
+BRS Princesa
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18366%5D%7B314%7Dprincesa.jfif
+21680
+BRS Princesa
+BRS SCS Belluna
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18364%5D%7B335%7Dbelluna.jpg
+21678
+BRS SCS Belluna
+BRS Thap Maeo
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18369%5D%7B40%7Dcap_3_-_fig_4_-_letra_g_-_buque_maduro_thap_maeo_-_autoria_eliseu_emanoel_dos_santos.jpg
+21683
+BRS Thap Maeo
+BRS Tropical
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18367%5D%7B396%7Dcap_3_-_fig_5_-_letra_j_-_buque_maduro_brs_tropical_-_autoria_eliseu_emanoel_dos_santos.jpg
+21681
+BRS Tropical
+Figo cinza
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18359%5D%7B42%7Dcap_3_-_fig_3_-_letra_e_-_buque_maduro_figo_cinza_-_autoria_eliseu_emanoel_dos_santos.jpg
+21676
+Figo cinza
+Grande Naine
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18356%5D%7B352%7Dcap_3_-_fig_2_-_letra_d_-_buques_maduro_de_grande_naine_-_autoria_eliseu_emanoel_dos_santos.jpg
+21673
+Grande Naine
+Nanicão
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18357%5D%7B239%7Dnanicao.jfif
+21674
+Nanicão
+Ouro
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18370%5D%7B123%7Dcap_3_-_fig_4_-_letra_e_-_buque_maduro_ouro_-_autoria_eliseu_emanoel_dos_santos.jpg
+21684
+Ouro
+Prata Anã
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18352%5D%7B549%7Dcap_3_-_fig_1_-_letra_f_-_buque_maduro_prata_ana_-_autoria_eliseu_emanoel_dos_santos.jpg
+21669
+Prata Anã
+SCS451 Catarina
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18351%5D%7B331%7Dcap_3_-_fig_1_-_letra_g_-_buques_maduro_catarina_-_autoria_eliseu_emanoel_dos_santos.jpg
+21668
+SCS451 Catarina
+SCS452 Nanicão Corupá
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18358%5D%7B394%7Dcap_3_-_fig_2_-_letra_e_-_buques_maduro_de_corupa_-_autoria_eliseu_emanoel_dos_santos.jpg
+21675
+SCS452 Nanicão Corupá
+SCS453 Noninha
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18354%5D%7B107%7Dcap_3_-_fig_1_-_letra_i_-_buques_maduro_noninha_-_autoria_eliseu_emanoel_dos_santos.jpg
+21671
+SCS453 Noninha
+SCS454 Carvoeira
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18353%5D%7B116%7Dcap_3_-_fig_1_-_letra_h_-_buques_maduro_carvoeira_-_autoria_eliseu_emanoel_dos_santos.jpg
+21670
+SCS454 Carvoeira
+Terra
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18361%5D%7B417%7Dcap_3_-_fig_3_-_letra_f_-_buque_maduro_terra_-_autoria_eliseu_emanoel_dos_santos.jpg
+21664
+Terra
+Williams
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18365%5D%7B274%7Dwillians.jfif
+21679
+Williams

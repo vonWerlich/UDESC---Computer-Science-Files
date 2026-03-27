@@ -1,0 +1,328 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=97&amp;isEdicao=N&amp;epagriTEC=S">Fitossanidade</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7&amp;isEdicao=N&amp;epagriTEC=S">Fungos e Oomicetos</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=69&amp;isEdicao=N&amp;epagriTEC=S">Septoriose (Septoria lycopersici)</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="1855">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="69">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[1855]{531}folder2021-1.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: FOTO: Fernando Monteiro et al. (5) </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Septoriose (Septoria lycopersici) 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>FOTOS: </b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2928,69,1855,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{487}20190508_144548.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2927,69,1855,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{358}esporos_produzidos_em_cirrus.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2922,69,1855,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{481}septoriose.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24691,69,1855,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{33}folder2021-5.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2929,69,1855,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{7}20190125_153328.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3963,69,1855,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{184}amanda_do_prado_mattos.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3967,69,1855,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{170}septoria_lycopersici53.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3962,69,1855,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{134}josiane_de_matos_scariot.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24687,69,1855,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{91}folder2021-2.jpg">  </a> 
+<br><br>
+<b>INFORMAÇÕES GERAIS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - Consultar o AGROCONNECT no site da Epagri/CIRAM para saber o grau de risco de ocorrência da doença. <a target="_blank" href="http://www.ciram.sc.gov.br/agroconnect/"> Clique aqui! </a><br>
+- Ocorre praticamente em todas as regiões produtoras de tomate do mundo, sendo mais comum em épocas quentes e chuvosas (1).<br>
+- O patógeno não se propaga por sementes (4).<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SINTOMAS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - A septoriose pode ocorrer em qualquer fase de desenvolvimento, mas os sintomas normalmente aparecem nas folhas baixeiras logo após o início da frutificação, mas podem aparecer também nos pecíolos, caule e flores da planta, raramente nos frutos (1).<br> 
+- Os sintomas típicos nas folhas são manchas circulares com bordas escurecidas e centro que varia de cor marrom a cinza que aparecem inicialmente no terço inferior da planta próxima ao solo (Figura 1A). Após alguns dias, aparecem pequenos pontos pretos no centro das lesões, que correspondem às estruturas reprodutivas do fungo (picnídios – Figura 1E). Em condições favoráveis, pode ocorrer a formação de cirrus (Figura 1B), que é uma massa de esporos (Figura 1C) disseminados pela água. Com o progresso da doença, as lesões podem coalescer, tornarem-se amarelas e depois marrons. Então, as folhas murcham, ressecam e se desprendem da planta. Lesões semelhantes podem ocorrer na haste (Figura 1D). Os frutos raramente são afetados (5). <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>O QUE PODE ESTAR OCORRENDO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - Cultivo em condições Favoráveis à doença (Temperatura 22-26ºC, alta umidade e chuvas frequentes) (3).<br>
+Solução: Cultivar as plantas em abrigos de cultivo para diminuir a favorabilidade de ocorrência da doença.<br><br>
+
+- Aumento da proliferação do doença devido a sua forma de disseminação (respingos de chuva e água de irrigação) (3).<br>
+Solução: utilizar a irrigação por gotejamento.<br><br>
+
+- Manutenção do patógeno em restos culturais na lavoura (3). Em estudos na Embrapa foi observado sobrevivência por até 140 dias nos restos culturais quando não incorporados (4).<br>
+Solução: após o término do ciclo de cultivo todos os restos culturais devem ser eliminados da área. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PLANTAS HOSPEDEIRAS:</b><br>
+<p class="p1"><div> Berinjela e Jiló. <br> </div></p>
+<b>CONTROLE: Genético</b><br>
+<p class="p1"><div> Não há cultivares resistentes (4).  <br> </div></p>
+<b>CONTROLE: Químico</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os fungicidas recomendados com a discriminação de doses para o controle da septoriose estão disponíveis no site da <a target="_blank" href="https://sigen.cidasc.sc.gov.br/ConsultaAgrotoxicoCadastroPublico/ConsultaAgx">Cidasc/Sigen</a>. É importante checar a situação do produto junto à Cidasc/Sigen, pois em alguns momentos o registro pode ter sido cancelado ou suspenso (5).<br><br>
+
+Estudos da Estação Experimental de Caçador (Epagri/EECd) avaliaram, por 3 anos, 34 ingredientes ativos de fungicidas. Dentre os fungicidas registrados para o controle da septoriose em tomateiro, os melhores resultados no controle da doença foram: fluxapiroxade + piraclostrobina (58,5+116,6mg/L de ingrediente ativo, respectivamente), mancozebe (4.000mg/L), difenoconazol (125mg/L), clorotalonil (1.500mg/L), propinebe (2.100mg/L), fluazinam + tiofanato-metílico (375 + 375mg/L) e metiram + piraclostrobina (1.100 + 10mg/L). Tais fungicidas, quando aplicados preventivamente, controlaram mais do que 70% da severidade da septoriose comparados com a testemunha. Em aplicação curativa, todos os fungicidas recomendados para o controle da doença perdem drasticamente a eficiência (5).<br><br>
+
+Assim, recomenda-se a aplicação preventiva, quando ocorrer o alerta para septoriose, dos fungicidas sistêmicos fluxapiroxade (registrados para Septoria na formulação junto com piraclostrobina) ou difenoconazol, sempre combinada com os fungicidas multissítios (mancozebe, clorotalonil, propinebe ou metiram) ou o protetor fluazinam (registrado para Septoria na formulação junto com o tiofanato-metílico), nas doses recomendadas em bula, sempre rotacionando os modos de ação. A aplicação dos fungicidas deve ser feita separadamente, sem mistura em tanque, nas horas mais frescas do dia para evitar fitotoxidez ao tomateiro. Repetir a aplicação dos protetores
+caso haja precipitação pluvial superior a 12mm (5).<br><br>
+
+<mark>IMPORTANTE:</mark><br>
+<b>Eficiência dos fungicidas de acordo com o isolado de Septoria</b><br>
+A eficiência dos fungicidas pode variar de acordo com o isolado de Septoria empregado no estudo. Da mesma maneira, a eficiência dos fungicidas pode ser diferente entre propriedades rurais devido à variabilidade genética do patógeno e do manejo empregado pelo produtor rural.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Medidas auxiliares de manejo:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> – Evitar irrigações freqüentes, quando for por aspersão (2).<br>
+– Fazer rotação de culturas com gramíneas (3;6).<br>
+– Destruir os restos culturais logo após a colheita (2).<br>
+– Evitar plantios próximos a lavouras mais velhas ou infectadas (3;6).<br>
+– Fazer adubação balanceada (2).<br>
+– Permitir bom arejamento entre as plantas (2).<br>
+- Usar mudas sadias (4).<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PODE SER CONFUNDIDO COM: mancha-de-alternaria (Alternaria sp.)</b><br>
+<p class="p1"><div> Existe uma considerável variabilidade nos sintomas da septoriose em função do isolado, de fatores ambientais e também da idade da folha atacada (Figura 2). Alguns desses sintomas são facilmente confundidos com aqueles causados por Alternaria sp (5). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24689,69,1855,13);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{258}folder2021-3.jpg">  </a> 
+<br><br>
+<b>PODE SER CONFUNDIDO COM: mancha-bacteriana (Xanthomonas sp.)</b><br>
+<p class="p1"><div> Em algumas situações, os sintomas da septoriose podem ser confundidos com aqueles causados por bactérias (Figura 3), devido à similaridade entre eles. No entanto, o aspecto encharcado da lesão bacteriana na parte debaixo da folha ajuda a fazer uma diagnose correta (Figura 3C-D) (5). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24690,69,1855,14);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{470}folder2021-4.jpg">  </a> 
+<br><br>
+<b>SISTEMA DE ALERTA PARA SEPTORIOSE: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A Epagri tem um sistema de alerta para a ocorrência da septoriose (PreviSep), validado para a região do Alto Vale do Rio do Peixe. Esse sistema pode ser acompanhado através do Agroconnect no site Ciram/Epagri (Figura 5) ao selecionar “Tomate” na aba “Atividade agropecuária”. Quando há um alerta, recomenda-se a aplicação de fungicida de contato e também um fungicida sistêmico indicado para tratamento da septoriose (5). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24692,69,1855,15);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1855]{496}folder2021-6.jpg">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+(1) Malurriê Cristine Viana Ribeiro et al. Avaliação de fungicidas no controle de septoriose em tomateiro. III Jornada Científica da Embrapa Hortaliças, 10 e 11 de junho, Embrapa Hortaliças 2013.<br>
+(2) Ailton Reis, Leonardo S. Boiteux, Carlos Alberto Lopes. Mancha-de-septória: doença limitante do tomateiro no período de chuvas. Comunicado Técnico 37. ISSN 1414-9850, Dezembro, 2006, Brasília, DF.<br>
+(3) ZAMBOLIM, L.; VALE; F. X. R. do; COSTA, H. Controle integrado das doenças de hortaliças. Viçosa : UFV, Departamento de Fitopatologia, 1997.<br>
+(4) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro.
+Apresentação: Valdir Lourenço Junior. Tema:  Manejo de doenças causadas por fungos e oomicetos da parte aérea do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: <a target="_blank" href="https://youtu.be/nbTgf6CdmcY">https://youtu.be/nbTgf6CdmcY</a><br>
+(5) Fernando Pereira Monteiro et al. Septoriose do tomateiro (Septoria lycopersici). Folder técnico. Edição: Epagri/DEMC
+Divulgação: on-line. Florianópolis, outubro de 2021.
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 29/01/2019</font>
+<br> <font size="2"> Última atualização: 25/11/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=69&amp;cdElemento=1855">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=1855');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

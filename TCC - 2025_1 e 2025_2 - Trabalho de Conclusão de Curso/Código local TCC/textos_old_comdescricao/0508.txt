@@ -1,0 +1,31 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Plantas daninhas em arroz irrigado - Capim-arroz (Echinochloa crus-galli)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0508&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+10. Plantas daninhas
+Plantas daninhas em arroz irrigado
+Capim-arroz ( Echinochloa crus-galli )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B401%5D%7B72%7Darroza.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B348%7Darroza.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B393%7Darrozb.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B125%7Darrozc.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B530%7Dpldan_capimarroz_fig07a.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B418%7Dpldan_capimarroz_fig11.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B428%7Dpldan_capimarroz_fig12.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B7%7Dpldan_capimarroz_fig13.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B224%7Dpldan_capimarroz_fig16.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B495%7Dpldan_capimarroz_fig23.jpg
+
+-- DESCRIÇÃO BOTÂNICA: --
+Autor da Descrição: Horlandezan Bragança (1) Características da Planta: Família: Poaceae (Gramineae) Divisão e Classe: Angyospermae Monocotyledoneae Ciclo: Anual Reprod./Propagação: Fruto; Habitat/Tipologia: Planta Anfíbia Adaptações: Colmo ereto; Colmo com perfilhos; Altura(cm): 30-150 Características das Folhas: Filotaxia: Alternada dística Forma do Limbo: Lanceoladas: Linear Superfície: Glabratas Consistência: Herbácea Nervação/Venação: Paralelinérveas Comprimento (cm): até 30 Características das Flores e do fruto: Inflorescência: Panícula Perianto: Aperiantada, Hermafrodita Tipologia do Fruto: Cariópse
+
+-- OBSERVAÇÕES: --
+Espécie infestante mais comum e agressivas em arrozais, também é infestante, em menor escala, de culturas como milho, feijão, cevada, trigo e cana-de-açúcar. Além de agressiva infestante, é planta hospedeira de fungos e vírus causadores de doenças em culturas anuais. Indica a formação de um "horizonte de redução" (rico em substância tóxicas) logo abaixo da superfície do solo. Eliminando-se o "horizonte de redução" - por drenagem + palha do arroz infestado + adubação fosfocálcica - o capim-arroz não mais germina. Apresentam sementes que são permitidas junto às sementes comercializadas dentro de certos limites máximos especificados por atos oficiais (1).
+
+-- Produtos com reconhecido controle da invasora: --
+Aura ; Clincher(Constatada resistência ao herbicida) ; Facet(Constatada resistência ao herbicida) ; Gamit ; Loyant ; Herbadox/Prowl ; Nominee(Constatada resistência ao herbicida) ; Only(Constatada resistência ao herbicida) ; Kifix(Constatada resistência ao herbicida) ; Propanil* ; Ricer(Constatada resistência ao herbicida) ; Starice(Constatada resistência ao herbicida) ; Strike ; *Controle obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento (plântulas com até uma folha – V1).
+
+-- Informações Complementares --
+(1) AGROFIT: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html
+(1) AGROFIT: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html

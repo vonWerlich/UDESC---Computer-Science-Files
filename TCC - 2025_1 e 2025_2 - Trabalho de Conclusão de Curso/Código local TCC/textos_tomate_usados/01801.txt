@@ -1,0 +1,28 @@
+Título: TOMATE - Fitossanidade - Bactérias - Mancha-bacteriana (Xanthomonas spp)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=01801&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1625%5D%7B385%7Dmancha_bacteriana_b.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1625%5D%7B331%7Dmancha_bacteriana_a.jpg
+Legenda: Sintomas de mancha-bacteriana, causada por Xanthomonas spp., em folhas de tomateiroFoto: Edivânio Araújo
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1625%5D%7B22%7Dmancha_bacteriana_c.jpg
+Legenda: Sintomas de mancha-bacteriana, causada por Xanthomonas spp., em folhas de tomateiroFoto: Edivânio Araújo
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1625%5D%7B415%7Dmancha_bacteriana_d.jpg
+Legenda: Sintomas de mancha-bacteriana, causada por Xanthomonas spp., em frutos de tomateiroFoto: Edivânio Araújo
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1625%5D%7B436%7Dmancha_bacteriana_b.jpg
+Legenda: Sintomas de mancha-bacteriana, causada por Xanthomonas spp., em frutos de tomateiro. Foto: Edivânio Araújo
+
+-- SINTOMAS: --
+- A doença se manifesta em folhas mais velhas, formando manchas marrons de formato irregular. O centro das manchas pode ser perfurado quando a espécie Xanthomonas perforans está associada à doença. Quando o ataque for intenso, pode ocorrer a secagem das folhas (1). - Distintamente do que ocorre em pimentão, em tomateiro, a mancha bacteriana não leva à queda de folhas. Todavia, com o coalescimento das manchas necróticas foliares, verificam-se o secamento e a destruição da folhagem a partir da parte baixeira das plantas. - O início do desenvolvimento se dá com pequenos pontos esbranquiçados, e conforme a lesão cresce, torna-se corticosa e com as bordas ligeiramente elevadas (1). Estas lesões tendem a ser deprimidas no centro e elevadas nas margens, variando entre 2 a 10 mm de diâmetro, podendo ser circundadas por um halo amarelo a esbranquiçado (3). A ocorrência da doença durante a floração causa quedas de flores (3), e de frutos (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Ocorre em temperaturas entre 20 e 30 ºC, com maior severidade em locais que ocorrem chuvas associadas a ventos fortes e terrenos arenosos (1). - Cuidar com regiões que ocorre orvalho na superfície foliar (2).
+
+-- CONTROLE: --
+- Utilizar sementes de boa qualidade, mudas sadias. - Cultivar em áreas bem ventiladas, evitando irrigação por aspersão. - Incorporar os restos culturais após a colheita. - Fazer rotação de culturas com gramíneas (1). - Cuidar com adubação com excesso de N (2).
+
+-- OBSERVAÇÕES GERAIS: --
+- A doença pode se manifestar em qualquer estádio fenológico da cultura (3). - Cuidar ao realizar os tratos culturais para não ocorrer ferimentos nas plantas. Desinfetar equipamentos utilizados nos tratos culturais. - Além de aumentar os custos da produção, o controle químico é de baixa eficiência (3). - Há pouca durabilidade dos cultivares resistentes à mancha-bacteriana devido à alta variabilidade genética dos agentes causadores da doença (3). - A mancha-bacteriana pode ser observada em Solanum spp. e Capsicum spp., mas pode ocorrer em outras espécies hospedeiras, como Datura stramonium, Hyoscyamus spp., Lycium spp., Nicotiana rustica, Nicandra physalodes, Physalis minima e Solanum spp. A bactéria sobrevive em tecidos infectados da parte aérea da planta e em restos culturais, podendo ser isolada de sementes de tomate e pimentão, em que a incidência pode chegar a 60% (3).
+
+-- Informações Complementares --
+(1) LOPES, C. A.; AVILA, A. C.. Doenças do tomateiro. 2. ed. Brasília- Df: Embrapa Hortaliça, 2005. 144 p. (2) ALVARENGA, M. A. R. Tomate: produção em campo, casa-de-vegetação e em hidroponia. UFLA, 2004. (3) Lanna Filho, Roberto. Controle da mancha (Xanthomonas vesicatoria) e pinta (Pseudomonas syringae pv. tomato GFP-marcada) bacteriana do tomateiro por isolados endofíticos de Bacillus sp. / Roberto Lanna Filho. Lavras: UFLA, 2011. 106 p.: il. Tese (doutorado) – Universidade Federal de Lavras, 2011.

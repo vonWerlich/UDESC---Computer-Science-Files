@@ -1,0 +1,23 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - NEMATOIDES - NEMATOIDE DAS LESÕES RADICULARES (Pratylenchus coffeae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021714&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+NEMATOIDES
+NEMATOIDE DAS LESÕES RADICULARES ( Pratylenchus coffeae )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18403%5D%7B82%7Dzilton_2.png
+Prática de manejo na bananicultura, o escoramento, onde uma bananeira em plena fase de frutificação, exibindo um cacho volumoso de frutos verdes, é suportada por uma estaca de bambu posicionada diagonalmente contra o pseudocaule; esta técnica de sustentação mecânica é estrategicamente aplicada para contrapor o elevado peso do cacho, prevenindo a quebra ou o tombamento da planta-mãe, um risco acentuado por fatores climáticos como ventos e chuvas, garantindo assim a integridade estrutural da planta até o ponto de colheita, o que é fundamental para assegurar o completo desenvolvimento dos frutos e maximizar a produtividade e a qualidade comercial do bananal.
+FOTO: Zilton José Maciel Cordeiro
+
+-- DESCRIÇÃO --
+Pratylenchus coffeae apresenta grande círculo de hospedeiros, o que torna difícil o seu manejo. Além disso, este nematoide é amplamente disseminado nas áreas produtoras de banana. Altos níveis populacionais desse nematoide causam redução do sistema radicular e subdesenvolvimento das plantas, levando a uma consequente redução da produção, devido às lesões nas raízes que prejudicam a absorção de nutrientes.
+
+-- CICLO DE VIDA --
+Todas as fases do ciclo de vida de P. coffeae são móveis e sua alimentação se dá pela colonização do interior das raízes. Devido a essas características, é considerado um endoparasita migrador. Em populações dessa espécie, os machos são comuns, uma vez que a reprodução se dá por anfimixia (necessidade da presença de fêmeas e machos). O parasitismo de P. coffeae provoca a morte das células devido a lesões necróticas escurecidas no local infectado. No entanto, a colonização do rizoma é mais superficial do que aquela causada por R. similis , sem acarretar a formação de galerias. A necrose das células se dá devido ao dano mecânico provocado pela ação do estilete, injeção de toxinas e ingestão do conteúdo celular digerido. As fêmeas depositam seus ovos no interior das raízes ou no solo, de forma isolada.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+• André Boldrin Beltrame (Dr. - Epagri) Pesquisador - Epagri - Itajaí

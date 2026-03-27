@@ -1,0 +1,13 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - NEMATOIDES - NEMATOIDE CAVERNÍCOLA (Radopholus similis)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021711&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18401%5D%7B481%7Dnematoide_cavernicola.png
+
+-- Descrição --
+Radopholus similis está presente nas principais regiões produtoras de banana do mundo. O nematoide cavernícola apresenta grande círculo de hospedeiros, mas os maiores prejuízos ocorrem em musáceas. Devido a sua agressividade, este nematoide causa intensa destruição das raízes e do rizoma, provocando redução da produção. Quando a população desta espécie de nematoide é alta, ocorre uma diminuição no peso do cacho e o tombamento das plantas devido à falta de sustentação do pseudocaule pelas raízes.
+
+-- DISSEMINAÇÃO --
+Por colonizar os rizomas, as mudas obtidas a partir de plantas doentes são importantes fontes de disseminação do nematoide, sendo as mudas contaminadas a principal forma de introdução do nematoide em áreas isentas. Quando as mudas já se apresentam com alto nível de infestação ou são plantadas em áreas altamente infestadas, seu desenvolvimento é intensamente prejudicado, levando à interrupção do desenvolvimento da planta. Os danos de R. similis provocam queda da absorção de nutrientes, levando a perdas que podem chegar a 100% em bananas do grupo Cavendish( 1 )( 2 )( 3 ).
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )COSTA, D.C.; SILVA, S.O.; ALVES, F.R. Reação dos genótipos de bananeira (Musa spp.) a Radopholus similis e Meloidogyne incognita. Nematologia Brasileira, v. 22, n. 2, p. 49-57, 1998. ( 2 )VILAS BOAS, L.C.; TENENTE, R.C.V; GONZAGA, V.; NETO, S.P.S.; ROCHA, H.S. Reação de clones de bananeira (Musa spp.) ao nematoide Meloidogyne incognita (Kofoid & White, 1919) Chitwood, 1949, Raça 2. Revista Brasileira de Fruticultura, v.24, n.3, p. 690– 693, 2002. ( 3 )ZEM, A.C.; ALVES, E.J. Observações sobre perdas provocadas por nematóides em bananeira (Musa acuminata Simm. & Sherp.) cv. Nanicão. Cruz das Almas: EMBRAPA/ CNPMF, 1981. 10p. (Boletim de Pesquisa, n. 6).

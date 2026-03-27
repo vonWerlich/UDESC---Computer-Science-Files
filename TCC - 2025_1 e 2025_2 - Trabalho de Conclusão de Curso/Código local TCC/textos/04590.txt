@@ -1,0 +1,7 @@
+Título: TOMATE - DIAGNOSE VISUAL - SINTOMAS NAS FOLHAS - Buracos e galerias
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04590&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4534%5D%7B90%7D%5B4590%5D%7B296%7D229.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4590%5D%7B296%7D229.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4590%5D%7B376%7Dscreenshot_20200330-131800_adama_hf.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4590%5D%7B260%7Dscreenshot_20200330-131758_adama_hf.jpg

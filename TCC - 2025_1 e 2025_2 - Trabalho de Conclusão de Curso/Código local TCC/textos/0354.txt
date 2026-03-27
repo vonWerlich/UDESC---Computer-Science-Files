@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Sicília F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0354&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B250%5D%7B414%7Dsicilia.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto amarelo; Crescimento: Indeterminado; Empresa: Isla; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Fruto tipo uva/grape. Coloração amarela com grau 11 de brix. Crescimento indeterminado. Ideal para cultivo protegido.
+
+-- CARACTERÍSTICAS: --
+Ciclo Verão (dias): 90 a 100 dias. Tipos de Frutos: Grape. Comprimento comercial: 2 a 4cm. Diâmetro comercial: 2,5 a 2,9cm. Peso comercial: 15 a 20g.
+
+-- USO/COMENTÁRIOS: --
+Planta indeterminada, altamente produtiva e vigorosa. Frutos tipo grape de coloração amarela/laranja. Produz de 20-22 frutos por penca. Brix elevado. Maturação em 45 dias.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

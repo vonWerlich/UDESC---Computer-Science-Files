@@ -1,0 +1,22 @@
+Título: TOMATE - Cultivares - Cromo F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0724&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B605%5D%7B274%7Dcromo_f1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: TSV Sementes; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Tamanho do fruto: Grande (231 a 250 g); Tamanho do fruto: Muito grande (251 a 280 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido com frutos multiloculares e longa vida. Frutos de coloração vermelho intenso, cicatriz peduncular pequena e cicatriz estilar bem formada, pesando em média de 220 a 280g. Planta rústica de arquitetura compacta facilitando o manejo no campo, não necessita de raleio de pencas. Ciclo (nº de dias): 110 dias; Hábito de crescimento: Indeterminado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B605%5D%7B450%7D7.jpg
+Legenda: Folder de divulgação do produto.null
+
+-- RESISTÊNCIA: --
+V, TMV, Fol 3, média tolerância ao BST.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br.

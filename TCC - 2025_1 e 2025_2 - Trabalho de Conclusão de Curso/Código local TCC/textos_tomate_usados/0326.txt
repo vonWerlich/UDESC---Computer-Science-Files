@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Cajueiro F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0326&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B222%5D%7B76%7Dcajueiro.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Isla; Finalidade: Copa; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Época de Semeadura: Verão. Ciclo Verão (dias): 120. Tipo de Crescimento: Indeterminado. DIFERENCIAIS: Planta com inserção cálice pequena, internódios mais curtos. Ciclo médio precoce. Frutos redondos de coloração vermelho intenso na maturação, com alta durabilidade. Planta vigorosa, indicado para cultivo em estufas.
+
+-- RESISTÊNCIA: --
+TMV, F, V, N.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

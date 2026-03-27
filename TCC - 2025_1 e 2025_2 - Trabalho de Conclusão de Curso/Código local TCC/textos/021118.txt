@@ -1,0 +1,32 @@
+Título: FORMIGAS EM PINUS E EUCALIPTO - Recomendações para o manejo - Recomendações para cada etapa do plantio - Combate pré-plantio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021118&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+
+-- QUANDO FAZER O CONTROLE: --
+O combate pré-plantio deve ser realizado entre 30 e 15 dias antes do plantio. Se as atividade de enleiramento ou preparo de solo forem realizadas próximas do plantio, recomenda-se o combate pré-plantio antes dessas atividades. Após o combate, não realizar atividades de enleiramento, preparo de solo e/ou plantio por um período de 15 dias, pois estas atividades irão interferir no carregamento das iscas pelas formigas, prejudicando o controle. Somente nesse período que antecede o plantio é recomendado o controle sistemático. No entanto, em determinadas situações, não há necessidades de fazer o combate nessa etapa do plantio.
+
+-- CONTROLE SISTEMÁTICO NO PRÉ-PLANTIO É RECOMENDADO: --
+- Em áreas de implantação; - Em áreas de reforma, em que o pousio entre o corte raso e o novo plantio é de mais de 6 meses; - Em áreas de reforma, cujo plantio anterior era eucalipto ou pinus com desbaste; - Em áreas de reforma, cujo plantio anterior era pinus sem desbaste, mas com o novo plantio ocorrendo durante a primavera/verão/outono.
+
+-- RECOMENDAÇÕES PARA O CONTROLE SISTEMÁTICO: --
+Para o controle sistemático deve-se aplicar de 0,5 a 2 kg/ha de isca formicida, aplicando uma dose de isca (5 ou 10 g) em pontos equidistantes de maneira a cobrir toda a área a ser tratada. No caso de encontrar os ninhos de saúvas e de quenquéns, no momento da realização do controle sistemático, recomenda-se também realizar o controle localizado no ninho. Em regiões com alta umidade, recomenda-se a utilização de micro-porta-iscas para a aplicação sistemática.
+
+-- CONTROLE NO PRÉ-PLANTIO DE PINUS: --
+Nos plantios de pinus realizados em áreas de reforma, cujo plantio anterior era pinus sem desbaste, com pousio entre o corte raso e novo plantio de menos de seis meses, plantio ocorrendo no inverno, em locais distantes de áreas de matas nativas (APPs, reserva legal...) e de ocorrência somente de quenquéns, não há necessidade de realizar o controle no período pré-plantio. Quando ocorrer essa situação, o primeiro combate após o plantio do pinus deve ser realizado o mais breve possível (em até 7 dias). Nos talhões que fazem divisa com matas nativas, é recomendado um controle sistemático só na bordadura, ou seja, aplicar no máximo duas faixas de doses de isca em pontos equidistantes, de modo a cobrir apenas a área de divisa com matas nativas.
+
+-- CONTROLE NO PRÉ-PLANTIO DE EUCALIPTO: --
+Já nos plantios de eucalipto, na mesma situação relatada acima, ou seja, em áreas de reforma cujo plantio anterior era de pinus sem desbaste, com pousio entre o corte raso e novo plantio de menos de seis meses, plantio no inverno (agosto/ início de setembro), em locais distantes de áreas de matas nativas, é recomendado o controle localizado no período pré-plantio. No entanto, nos talhões que fazem divisa com APP ou reserva legal pode ser realizado um controle sistemático só na bordadura, aplicando no máximo duas faixas de doses de isca em pontos equidistantes, de modo a cobrir apenas a área de divisa com mata nativa. Fazer o controle localizado no interior do talhão.
+
+-- CONTROLE ONDE HÁ O PREDOMÍNIO DE QUENQUÉM: --
+Nos locais que há o predomínio de quenquém que faz ninho de monte de cisco, realizar o combate pré-plantio com no máximo 30 dias antes do plantio, pois estas espécies de formigas mudam constantemente o ninho de lugar (migração), e neste caso, alguns ninhos poderão se estabelecer na área após a realização do combate, sendo prejudiciais ao novo plantio.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18025%5D%7B286%7Df2.jpg
+Legenda: Controle em área de predomínio de quenquéns. Fonte: Embrapa (2023)
+
+-- CONTROLE ONDE HÁ O PREDOMÍNIO DE SAÚVA: --
+Nos locais que há o predomínio de saúva e que não foi possível realizar o combate pré corte-raso, realizar o combate pré-plantio depois de no mínimo 60 dias após a colheita, para dar tempo dos ninhos se reestrurarem após a movimentação do maquinário de colheita.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18025%5D%7B223%7Df3.jpg
+Legenda: Controle em área de predomínio de saúvas. Fonte: Embrapa (2023)
+
+-- Informações Complementares --
+Todo o material bibliográfico utilizado neste sistema pode ser consultado ao clicar AQUI!

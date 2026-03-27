@@ -1,0 +1,299 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9860&amp;isEdicao=N&amp;epagriTEC=S">PISCICULTURA EM VIVEIROS ESCAVADOS</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="/sedimob/img/icone_vazio.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9894&amp;isEdicao=N&amp;epagriTEC=S">Boas práticas de manejo</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=10483&amp;isEdicao=N&amp;epagriTEC=S">        Uso de aeradores</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="17900">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="010483">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[17900]{264}aeradores_2.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Bruno Corrêa da Silva </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>IMPORTÂNCIA:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A principal função do aerador é a incorporação de oxigênio da atmosfera na coluna de água por meio do aumento da interface ar/água. Também é empregado para evitar a estratificação térmica e realizar a eliminação de compostos químicos indesejados. Com o acompanhamento da qualidade da água, é possível visualizar a flutuação e tendências de elevação ou redução no oxigênio dissolvido em cada unidade de cultivo, possibilitando ao produtor se antecipar aos problemas de déficits de oxigênio. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>MODELOS UTILIZADOS: </b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26056,010483,17900,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17900]{518}aeradores_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26057,010483,17900,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17900]{266}aeradores_2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26058,010483,17900,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17900]{202}resultado_aerador.jpg">  </a> 
+<br><br>
+<b>RECOMENDAÇÕES QUANTO AO USO DE AERADORES: </b><br>
+<b>Aerador chafariz e de pás: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O aerador chafariz possui menor manutenção. Já o aerador de pás proporciona uma melhor circulação de água, realizando a mistura da água do viveiro mais eficientemente, de forma horizontal. De forma geral, tem-se orientado para viveiros menores, até 3.000m², usar apenas aeradores de chafariz. Já em viveiros maiores, ou com formatos muito irregulares, deverão ser utilizados os dois tipos de aeradores em conjunto.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Profundidade: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A profundidade do viveiro também é importante. O uso de aeradores chafariz em locais com profundidade inferior a 1,3 metro pode ocasionar o revolvimento do material depositado no fundo do viveiro, ocasionando problemas na qualidade da água, além de acumular lodo na parte de baixo do aerador, que atrapalhará na hora da despesca.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Quanto a eficiência: </b><br>
+<p class="p1"><div> A eficiência que cada aerador possui para incorporar o oxigênio na água. Sendo assim, o produtor deve verificar os dados de eficiência do aerador (SAE e SORT2), que deverão ser informados pelo fabricante.<br> <br> </div></p>
+<b>Quantidade de aeradores: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A quantidade de aeradores variará principalmente com a biomassa presente no viveiro, que será consequência da densidade e peso de despesca. No geral, recomenda-se 1hp de potencial de aeração para 3 toneladas de tilápias adultas, porém, essa quantidade pode variar de acordo com o nível de insolação da região, a densidade do cultivo, taxa de arraçoamento, incidência de ventos na região, e a taxa de renovação aplicada na produção.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Período ligado: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Após ligado o aerador a noite, este deverá permanecer ligado até o amanhecer, quando se inicia o processo de produção de oxigênio pelo fitoplâncton através da fotossíntese.<br><br>
+
+O aerador também deverá ser ligado durante o dia, caso haja muita diferença de temperatura da água da superfície e do fundo (estratificação térmica). Neste caso deverá permanecer ligado por pelo menos 2 a 3 horas até que faça uma boa homogeneização da coluna de água. <br><br>
+
+O aerador também deve ser ligado em dias nublados e chuvosos durante o dia, pois, nesses períodos, a produção de oxigênio natural pela fotossíntese será menor. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Baixas de pressão atmosférica: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Atentar no uso do aerador nas baixas de pressão atmosféricas, que interferem diretamente na saturação do oxigênio dissolvido na água. Ou seja, em quedas de pressões atmosféricas o corpo de água possui menor capacidade de segurar o oxigênio dissolvido, e este dissipa para atmosfera.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Uso de geradores: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> No cultivo preconizado por este documento (2 a 6 tilápias por m²), mesmo nas menores densidades, é extremamente necessário o uso de gerador. O gerador deverá atender essencialmente os aeradores. A falta de energia durante a noite, principalmente quando a biomassa for superior a 1kg/m² (10 toneladas por hectare), pode trazer perdas de todo o cultivo de uma só vez.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>TEMPO DE ACIONAMENTO: Como calcular o tempo que o aerador deverá ficar ligado durante a noite?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O horário em que o aerador deverá ligar pode ser calculado através do método chamado de “método das leituras noturnas”. 
+O método baseia-se na leitura da concentração de oxigênio dissolvido na água (OD) em dois períodos durante a noite em um intervalo de 2 horas. Este método é consideravelmente seguro e prático.<br><br>
+
+Exemplo: <br>
+O produtor realizou a 1º leitura às 19h (11mg por litro de OD) e, após 2h, realizou a 2º leitura às 21h (8mg por litro). A previsão de queda de oxigênio daquele viveiro ao longo da noite é de 1,5mg  por litro de OD em uma hora. <br>
+Para manter o OD acima de 4mg por litro no início da manhã, o produtor deve ligar o aerador quando este estiver ao redor de 5mg por litro. Sendo assim, o horário indicado para ligar o aerador é às 23h.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>MONITORAMENTO AO FINAL DO CULTIVO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Ao final do cultivo, principalmente quando a biomassa é elevada, preconiza-se que o produtor, além de fazer o monitoramento diário pela manhã, faça esse monitoramento com frequência ao longo do dia (no meio da tarde e início da noite). Esse monitoramento com maior frequência prevenirá situações críticas de oxigênio, possibilitando que o produtor tenha maior tempo para resolver qualquer imprevisto.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Bruno Corrêa da Silva (Dr. - Epagri) </font> 
+<br> <font size="2">• Jorge de Matos Casaca (Dr. - Epagri) </font> 
+<br> <font size="2">• Raphael de Leão Serafini (Dr. - Epagri) </font> 
+<br> <font size="2">• Haluko Massago (Dra. - Epagri) </font> 
+<br><br><br> <font size="2"> Criado em: 07/03/2023</font>
+<br> <font size="2"> Última atualização: 28/03/2023</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=010483&amp;cdElemento=17900">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=17900');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

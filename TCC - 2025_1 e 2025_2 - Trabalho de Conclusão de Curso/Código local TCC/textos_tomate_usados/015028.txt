@@ -1,0 +1,41 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - j) Principais doenças do tomateiro no Litoral Norte de Santa Catarina - Murcha-bacteriana ou murchadeira
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015028&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B13026%5D%7B436%7D62_-_copia.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Doença de ocorrência em todas as regiões de cultivo no Brasil, sendo uma das principais doenças do tomateiro. O seu ataque está diretamente relacionado a combinação de temperatura elevada e alta umidade do solo (Lopes & Quezado-Soares, 1997; Lopes & Ávila, 2005).
+
+-- SINTOMAS: --
+O principal sintoma é a murcha de folhas na parte superior da planta nas horas mais quentes do dia, principalmente quando a planta está em fase de frutificação. No início do ataque, os folíolos murchos recuperam sua turgidez à noite ou em dias frios, dando a falsa impressão de recuperação das plantas. Com o passar do tempo, geralmente 2 a 4 dias, toda a planta murcha e, em poucos dias a planta morre.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13026%5D%7B185%7D61-2.jpg
+Legenda: Sintomas da murcha-bacteriana em planta adulta. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13026%5D%7B148%7D61-1.jpg
+Legenda: Sintomas iniciais da murcha-bacteriana em tomateiro. null
+
+-- DIAGNOSE DE CAMPO: --
+A diagnose pode ser confirmada pelo teste do copo, imergindo uma seção da base do caule em um copo contendo água limpa. Alguns minutos após um fluxo leitoso branco escorre da sua base para o fundo do copo (Lopes & Ávila, 2005).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13026%5D%7B85%7D62.jpg
+Legenda: Teste do copo para identificação do fluxo leitoso branco. null
+
+-- ETIOLOGIA: --
+A sobrevivência da bactéria é favorecida pela umidade e os maiores índices da doença acorrem em solos pesados, úmidos e em temperaturas do solo entre 24 e 35 ºC. Sobrevive por longos períodos, 4 a 5 anos, livres no solo, na ausência do hospedeiro (Reis et al., 2011). Sua disseminação se dá pela água de irrigação, solo contaminado, tratos culturais, implementos agrícolas, homem, insetos, mudas contaminadas e estercos contaminados. A bactéria é patogênica para mais de 200 espécies de 33 famílias botânicas, principalmente as solanáceas. Das cinco biovares patogênicas, a I e a III atacam o tomateiro. Em solos secos as células bacterianas são destruídas rapidamente (Kurosawa & Pavan, 2005).
+
+-- Controle genético: --
+Utilizar porta-enxerto de tomate com resistência a R. solanacearum disponíveis no mercado: BS DI0038, BS PE0041, Endurance, Rampart, Schincheonggang, Shield e Woodstock.
+
+-- Controle cultural: --
+- Eliminar as plantas doentes; - Não plantar solanáceas em sucessão; - Fazer a calagem do solo eficiente, evitando elevar acima de 7,0 o pH do solo; - Reduzir o trânsito de pessoas e equipamentos no local de ataque; - Fazer rotação de cultura com gramíneas (Lopes & Quezado-Soares, 1997; Lopes & Ávila, 2005; Kurosawa & Pavan, 2005).
+
+-- Controle físico: --
+Solarização do solo durante as estações mais quentes do ano.
+
+-- Controle biológico: --
+Uso de biofertilizantes a 5%, aplicado através do sistema de gotejo, durante todo o ciclo da lavoura.
+
+-- Controle químico: --
+Aplicações preventivas semanais de calda bordalesa a 0,3% ou calda viçosa.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

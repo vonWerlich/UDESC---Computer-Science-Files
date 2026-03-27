@@ -1,0 +1,283 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9346&amp;isEdicao=N&amp;epagriTEC=S">LEGISLAÇÕES</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9791&amp;isEdicao=N&amp;epagriTEC=S">Produtos de Origem Vegetal - MAPA</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="8844">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="09791">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[8844]{345}canva_-_bowl_with_vegetables_flat_style_icon.svg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b>PORTARIA MAPA Nº458, DE 21 DE JULHO DE 2022 - </b> Altera a Instrução Normativa nº 69, de 6 de novembro de 2018, que estabelece o Regulamento Técnico definindo os requisitos mínimos de identidade e qualidade para Produtos Hortícolas. <a target="_blank" href="https://www.in.gov.br/en/web/dou/-/portaria-mapa-n-458-de-21-de-julho-de-2022-417054494">Acessar Portaria.</a><br><br>
+
+<b> DECRETO  Nº11.130, DE 11 DE JULHO DE 2022 - </b> Altera o Decreto nº 6.268, de 22 de novembro de 2007, que regulamenta a Lei nº 9.972, de 25 de maio de 2000, que institui a classificação de produtos vegetais, seus subprodutos e resíduos de valor econômico. <a target="_blank" href="http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/Decreto/D11130.htm">Acessar Decreto.</a><br><br>
+
+<b>PORTARIA SDA Nº 574, DE 9 DE MAIO DE 2022 – MAPA - </b> Institui o Programa Nacional de Controle de Resíduos e Contaminantes em Produtos de Origem Vegetal (PNCRC/Vegetal), definindo o alcance, os objetivos, os critérios e os procedimentos para a realização dos controles oficiais.<a target="_blank" href="https://www.in.gov.br/web/dou/-/portaria-sda-n-574-de-9-de-maio-de-2022-398636158">Acessar Portaria.</a><br><br>
+
+<b> PORTARIA SDA Nº 573, DE 9 DE MAIO DE 2022 – MAPA - </b> Institui o Programa Nacional de Prevenção e Combate à Fraude e Clandestinidade em Produtos de Origem Vegetal (PNFRAUDE).<a target="_blank" href="https://www.abcsem.com.br/upload/arquivos/PORTARIA_SDA_N%C2%BA_573%2C_DE_9_DE_MAIO_DE_2022.pdf">Acessar Portaria.</a><br><br>
+
+<b> PORTARIA SDA Nº 572, DE 9 DE MAIO DE 2022 – MAPA - </b> Institui o Programa Nacional de Qualidade de Produtos de Origem Vegetal (PNQUALIPOV).<a target="_blank" href="https://www.abcsem.com.br/upload/arquivos/PORTARIA_SDA_N%C2%BA_572%2C_DE_9_DE_MAIO_DE_2022.pdf">Acessar Portaria.</a><br><br>
+
+<b> PORTARIA SDA Nº 571, DE 9 DE MAIO DE 2022 – MAPA - </b> Institui o Programa Nacional de Monitoramento das Cadeias Produtivas dos Produtos de Origem Vegetal (PNMONITOR).<a target="_blank" href="https://www.abcsem.com.br/upload/arquivos/PORTARIA_SDA_N%C2%BA_571%2C_DE_9_DE_MAIO_DE_2022.pdf">Acessar Portaria.</a><br><br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b> PORTARIA MAPA Nº153, DE 27 DE MAIO DE 2021 </b> - Estabelece os procedimentos de reconhecimento de equivalência para a adesão ao Sistema Brasileiro de Inspeção de Produtos de Origem Vegetal (SISBIPOV), do Sistema Unificado de Atenção à Sanidade Agropecuária (SUASA).<a target="_blank" href="https://www.in.gov.br/en/web/dou/-/portaria-mapa-n-153-de-27-de-maio-de-2021-322987099">Acessar Portaria.</a><br><br>
+
+<b>INSTRUÇÃO NORMATIVA Nº 7, DE 13 DE MAIO DE 2019 </b> – Estabelece os procedimentos simplificados para a fiscalização de produtos hortícolas. <a target="_blank" href="http://www.in.gov.br/web/dou/-/instrucao-normativa-n-7-de-13-de-maio-de-2019-122628901">Acessar Instrução Normativa.</a><br><br>
+
+<b>INSTRUÇÃO NORMATIVA Nº 69, DE 06 DE NOVEMBRO DE 2018 </b> - Estabelece o Regulamento Técnico definindo os requisitos mínimos de identidade e qualidade para Produtos Hortícolas. <a target="_blank" href="http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/50484521/do1-2018-11-16-instrucao-normativa-n-69-de-6-de-novembro-de-2018-50484320">Acessar Instrução Normativa.</a><br><br>
+
+<b>DECRETO Nº 8.446, DE 06 DE MAIO DE 2015 </b> – Altera o Decreto no 6.268, de 22 de novembro de 2007, que regulamenta a Lei no 9.972, de 25 de maio de 2000, que institui a classificação de produtos vegetais, seus subprodutos e resíduos de valor econômico. <a target="_blank" href="http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2015/Decreto/D8446.htm#:~:text=DECRETO%20N%C2%BA%208.446%2C%20DE%206,que%20lhe%20confere%20o%20art.">Acessar Decreto.</a><br><br>
+
+<b>DECRETO Nº6.268, DE 22 DE NOVEMBRO DE 2007 </b> – Regulamenta a Lei no 9.972, de 25 de maio de 2000, que institui a classificação de produtos vegetais, seus subprodutos e resíduos de valor econômico, e dá outras providências. <a target="_blank" href="https://www2.camara.leg.br/legin/fed/decret/2007/decreto-6268-22-novembro-2007-564022-norma-pe.html#:~:text=DECRETO%20N%C2%BA%206.268%2C%20DE%2022,econ%C3%B4mico%2C%20e%20d%C3%A1%20outras%20provid%C3%AAncias.">Acessar Decreto.</a><br><br>
+
+<b>LEI Nº 9.972, DE 25 DE MAIO DE 2000 </b> - Institui a classificação de produtos vegetais, subprodutos e resíduos de valor econômico, e dá outras providências. <a target="_blank" href="http://www.planalto.gov.br/ccivil_03/LEIS/L9972.htm">Acessar Lei.</a><br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+ 
+ </div></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Aline Ulir Calliari (Nutricionista - Epagri) </font> 
+<br><br><br> <font size="2"> Criado em: 02/07/2020</font>
+<br> <font size="2"> Última atualização: 18/08/2022</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=09791&amp;cdElemento=8844">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=8844');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

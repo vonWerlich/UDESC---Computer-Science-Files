@@ -1,0 +1,45 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Broca-da-cana (Diatraea saccharalis)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017073&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11368%5D%7B36%7Dbcana_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11368%5D%7B73%7Dbcana_fig01.jpg
+Legenda: 01. Mariposa da broca-da-cana em folha de arroz. Fonte: IRGA (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11368%5D%7B304%7Dbcana_fig02.jpg
+Legenda: 02. Mariposa da broca-da-cana em folha de cana. Fonte: UGA (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11368%5D%7B316%7Dbcana_fig03.jpg
+Legenda: 03. Mariposa da broca-da-cana. Fonte: UGA (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11368%5D%7B248%7Dbcana_fig12.jpg
+Legenda: 12. Broca-da-cana no colmo do arroz. Fonte: IRGA (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11368%5D%7B529%7Dbcana_fig21.jpg
+Legenda: 21. Sintoma de coração morto. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11368%5D%7B42%7Dbcana_fig24.jpg
+Legenda: 22. Colmo perfurado e excrementos da broca-da-cana. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11368%5D%7B34%7Dbcana_fig25.jpg
+Legenda: 23. Panícula-branca. Fonte: NBAIR (remasterizada)
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie: Diatraea saccharalis (F.) Ordem: Lepidoptera Família: Pyralidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11368%5D%7B290%7Dbcana_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+• O adulto é uma mariposa cinza-palha, com 15 a 26mm de envergadura, que raramente é vista durante o dia. Uma característica marcante nesta mariposa são os palpos labiais salientes, confundindo com as antenas. • Os ovos são postos agrupados e cimentados às folhas, imbricados em fileiras com 5 a 60 ovos (como escamas de peixe). • A lagarta é branco-amarelada e atinge de 22 a 35mm de comprimento. Tem como característica peculiar uma série de pontos circulares marrons no dorso e a cabeça marrom-escura proporcional ao tamanho do corpo.
+
+-- CICLO DE VIDA: --
+Perfaz-se entre 54 a 77 dias, sendo o período larval de 23 a 49 dias e o pupal de 6 a 14 dias. A incubação dos ovos finda em 5 dias.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11368%5D%7B197%7Dbcana_ciclo.jpg
+Legenda: Ciclo de vida da broca-da-cana, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de setembro a maio. Crítico: dezembro. Lavoura: do perfilhamento à colheita. Nota: a broca-da-cana normalmente está sob forte pressão de controle biológico, o que impede a ocorrência de populações elevadas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11368%5D%7B92%7Dbcana_fenologia.jpg
+Legenda: Fenologia da ocorrência da broca-da-cana na lavoura de arroz em Santa Catarina.
+
+-- DANOS: --
+As lagartas se desenvolvem dentro do colmo do arroz, eventualmente expelindo excrementos para fora da região broqueada. Este dano resulta nos sintomas típicos de coração morto ou panícula branca, dependendo do estágio de desenvolvimento da planta.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Manter lâmina de água uniforme. • Primar por uma adubação equilibrada. • No manejo das pragas principais, evitar pulverizações frequentes e desnecessárias de inseticidas.
+
+-- Informações Complementares --
+FERREIRA, E.; BRESEGHELLO, F.; CASTRO, E.M.; BARRIGOSSI, J.A.F. Broca-do-colmo nos agroecossistemas de arroz do Brasil . Santo Antônio de Goiás: Embrapa Arroz e Feijão, 2001. 42p. (Embrapa Arroz e Feijão. Documentos, 114).

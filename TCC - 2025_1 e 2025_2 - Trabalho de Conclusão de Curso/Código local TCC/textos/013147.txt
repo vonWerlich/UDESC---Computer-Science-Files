@@ -1,0 +1,15 @@
+Título: ARROZ IRRIGADO - 07. Manejo da água - Disponibilidade de água para a irrigação do arroz em SC
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013147&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11412%5D%7B41%7D07_dispagua_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Para a cultura do arroz irrigado, a precipitação pluvial é um dos principais componentes relacionados ao suprimento de água requerido pela cultura. Estudos mostram que cerca de 40% da demanda pela cultura é atendida pela precipitação.
+
+-- SUPRIMENTO DE ÁGUA PELOS RIOS: --
+A maioria das lavouras de arroz irrigado de Santa Catarina está localizada nas bacias hidrográficas da Vertente Atlântica, cujas vazões de seus mananciais dependem do regime de chuvas. Como, em geral, a captação é realizada em cursos de água com áreas de drenagem relativamente pequenas e regime hidrológico altamente correlacionado com a precipitação, nas épocas de estiagem a disponibilidade hídrica fica rapidamente reduzida. A maioria das propriedades não tem estrutura para armazenamento de água no período de excedente hídrico e também na entressafra, ficando totalmente dependente do regime hídrico natural, e assim sujeitas à falta de água para irrigação nas épocas de estiagem.
+
+-- PROBLEMAS RELACIONADOS AO USO DE ÁGUA DOS RIOS: --
+Nas estiagens, além dos conflitos pelo uso da água entre irrigantes, há conflitos com outros usos, como o abastecimento urbano e industrial. Os conflitos podem ainda ser agravados pela qualidade da água. No Litoral Sul, muitos rios têm a qualidade da água comprometida pelas atividades da mineração do carvão e também pela poluição industrial. Outro problema de qualidade da água, nas áreas mais próximas ao litoral, é a alta salinidade proveniente da intrusão da cunha salina nos rios. O excesso de sais dissolvidos na água de irrigação, além de ser fator de salinização do solo, prejudica diretamente a cultura do arroz, pois a planta tolera apenas moderadamente o excesso de sais. A água de boa qualidade deve conter menos de 0,5g/L de sais solúveis, o que corresponde a uma condutividade elétrica de 0,75mS/cm (miliSiemens por centímetro) ou 0,75mmhos/cm (milimhos por centímetro). Em épocas de elevadas demandas hídricas e baixa precipitação pluviométrica, alguns rios de Santa Catarina apresentam salinização das águas nos trechos próximos ao mar, chegando a concentrações muito altas de sais (maiores que 15mS/cm).
+
+-- Informações Complementares --

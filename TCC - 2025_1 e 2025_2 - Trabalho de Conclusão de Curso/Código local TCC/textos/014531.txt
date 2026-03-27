@@ -1,0 +1,10 @@
+Título: CEBOLA - Escolha do cultivar - Rio das Antas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014531&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12653%5D%7B25%7Drio_das_antas.webp
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Hazera Polinização: Híbrido Ciclo maturação/dias: Precoce/120-150 Formato do bulbo: Granex Cor da película do bulbo: Amarela Cor da polpa do bulbo: Branca Região/Época de plantio: Nordeste: Ano todo Sudoeste e Centro-oeste: Dezembro a Janeiro
+
+-- Informações Complementares --
+Informações coletadas e organizadas pelo autor

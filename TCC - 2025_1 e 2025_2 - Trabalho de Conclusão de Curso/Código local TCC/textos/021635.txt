@@ -1,0 +1,54 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Brusone (Pyricularia oryzae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021635&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11371%5D%7B542%7Dbrusone_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B535%7Dbrusone_fig01.jpg
+Legenda: 01. Brusone de aurícula. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B537%7Dbrusone_fig01a.jpg
+Legenda: 011. Brusone de aurícula. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B546%7Dbrusone_fig02.jpg
+Legenda: 02. Sintomas de brusone na folha. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B440%7Dbrusone_fig03.jpg
+Legenda: 03. Sintomas de brusone na folha. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B31%7Dbrusone_fig05.jpg
+Legenda: 04. Manchas de brusone na folha. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B75%7Dbrusone_fig04a.jpg
+Legenda: 041. Manchas coalescidas de brusone na folha. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B273%7Dbrusone_fig06.jpg
+Legenda: 05. Lavoura com sintomas de brusone. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B250%7Dbrusone_fig05a.jpg
+Legenda: 051. Lavoura com sintomas de brusone. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B118%7Dbrusone_fig05b.jpg
+Legenda: 052. Lavoura com sintomas de brusone. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B371%7Dbrusone_fig05c.jpg
+Legenda: 053. Lavoura com sintomas de brusone. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B196%7Dbrusone_fig06.jpg
+Legenda: 06. Brusone de pescoço. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B329%7Dbrusone_fig07.jpg
+Legenda: 07. Brusone de pescoço. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B192%7Dbrusone_fig08.jpg
+Legenda: 08. Brusone de pescoço. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B247%7Dbrusone_fig09.jpg
+Legenda: 09. Brusone de pescoço. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B535%7Dbrusone_fig10.jpg
+Legenda: 10. Brusone de pescoço. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11371%5D%7B416%7Dbrusone_fig11.jpg
+Legenda: 11. Brusone de pescoço. Fonte: K.K.Scheuermann
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: fungo Pyricularia oryzae (teleomorfo: Magnaporthe oryzae ) A brusone é considerada a doença mais importante para a cultura do arroz e pode se manifestar em toda a parte aérea da planta, desde os estádios iniciais de desenvolvimento até a fase final de produção de grãos. Entretanto, os sintomas são mais observados nas folhas (no início do perfilhamento) e nas panículas (a partir do início do florescimento).
+
+-- SINTOMAS: --
+Observam-se inicialmente nas folhas, pequenas pontuações de coloração castanha que evoluem para manchas alongadas, com extremidades agudas, margem marrom e centro claro. Nos cultivares mais suscetíveis, sob condições favoráveis, as lesões se juntam, podendo resultar na seca de toda a folha. Em alguns casos, especialmente na folha bandeira, ocorre a infecção na região da aurícula da folha, resultando na chamada brusone de aurícula. Nas panículas, o fungo pode atacar o nó basal, a raque e as ramificações. A infecção do nó basal da panícula é conhecida como brusone de pescoço. Se a infecção ocorrer logo após a emissão da panícula, os grãos não são formados e a mesma permanece ereta. Quando a panícula é infectada mais tardiamente, há um enchimento parcial dos grãos, e em alguns casos, por causa de seu peso, ocorre a quebra da base da panícula.
+
+-- CONDIÇÕES FAVORÁVEIS: --
+• Temperaturas entre 20 e 30ºC, com umidade acima de 90%. • Dias quentes e noites amenas - propiciam a formação de orvalho, fornecendo a umidade necessária para a germinação dos esporos. • Cultivos próximos a mata - o sombreamento da lavoura faz com que o molhamento foliar seja mantido por mais tempo. • Alta disponibilidade de nitrogênio - advinda do cultivo em solos orgânicos ou adubação nitrogenada em excesso. • Uso continuado de um mesmo cultivar - favorece a seleção de populações do patógeno mais adaptadas a este cultivar, resultando em um aumento gradativo da incidência e severidade da doença.
+
+-- CONTROLE: --
+• Cultivar variedades indicadas pela pesquisa como resistentes, por não mais de três anos. • Evitar semeaduras tardias, pois estarão sujeitas à maior concentração de inóculo, proveniente de áreas vizinhas. • Evitar a aplicação de altas doses de nitrogênio de uma única vez. • Promover a incorporação superficial da palhagem, propiciando sua decomposição.
+
+-- Controle químico: --
+Nos casos em que se estiver utilizando cultivares suscetíveis, em áreas com histórico da doença, é necessária a aplicação de fungicidas, preferencialmente no estádio de emborrachamento, podendo ser necessária uma segunda aplicação em pleno florescimento. Principais fungicidas registrados para o controle de doenças na cultura do arroz no Brasil: Alterne ; Aproach Prima ; Bim 750 BR ; Brio ; Certeza N1 ; Dithane NT ; Folicur 200 EC ; Fusão EC ; Helmstar Plus ; Manzate 800 ; Nativo ; Priori ; Priori Top ; Score ; Tilt ; Vitavax-Thiram 200 SC1 ;
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.

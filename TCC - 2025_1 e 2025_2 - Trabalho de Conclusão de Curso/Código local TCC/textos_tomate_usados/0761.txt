@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Itapitã F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0761&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B641%5D%7B173%7Ditapita.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Blueseeds; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: Sw5 - Tospovírus; Tamanho do fruto: Grande (231 a 250 g); Tamanho do fruto: Médio (201 a 230 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Hábito de Crescimento : Determinado ; Grupo : Salada ; Peso Médio : 220 a 240g ; Ciclo : médio ; Nº de Lócus : 4 ; Tolerância : V¹, F¹, F², N, T, Sw, LSL ; Densidade do plantio : 1,40×1,80m – 0,50×0,60m ; Nº de hastes : dispensa desbrota
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://blueseeds.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://blueseeds.com.br.

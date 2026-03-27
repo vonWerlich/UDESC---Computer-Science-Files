@@ -1,0 +1,22 @@
+Título: TOMATE - Cultivares - Trucker F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0212&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B113%5D%7B463%7Dtrucker-1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Determinado; Empresa: Nunhems; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Médio (201 a 230 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Tomate redondo determinado. Plantas vigorosas com boa cobertura de frutos. Excelente tamanho de frutos (240 gr). Resistência a TYLCV e TSWV. Alto potencial produtivo. Frutos firmes e uniformes em toda a planta. Alta resistência a rachadura (cracking).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B113%5D%7B293%7Dtrucker.jpg
+Legenda: Descrição do cultivarnull
+
+-- RESISTÊNCIA: --
+VFFNTmPst.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.nunhems.com/br/pt.html ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.nunhems.com/br/pt.html.

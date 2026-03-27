@@ -1,0 +1,20 @@
+Título: TOMATE - Fitossanidade - Vírus - Broto Crespo (Gênero Geminivirus)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04615&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1623%5D%7B520%7Dbroto_crespo.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Broto crespo tem como agente causal um vírus pertencente ao gênero Geminivirus, e sua transmissão ocorre por meio de insetos vetores ( Cigarrinha - Agallia albidula, A. ensigera e A. stictiocollils) ou enxertia (1). Entretanto, após a introdução da espécie da Mosca branca Bemisia argentifolii no País, a incidência destes vírus em plantios de tomate aumentou significativamente. Os geminivírus são transmitidos por mosca-branca de maneira persistente-circulativa (2). Danos podem ser alarmantes, principalmente na fase inicial da cultura (1).
+
+-- SINTOMAS: --
+Os sintomas podem ser confundidos com o do vira-cabeça, pois o topo da planta pode apresentar coloração roxa quando inoculados com o vírus. - Planta enfezada. - Ereta. - Superbrotamento. - Não possui necrose nos folíolos, diferenciando do vira-cabeça. - Encrespamento das folhas. - Atrofiamento das folhas jovens (1).
+
+-- CONTROLE: --
+- Eliminação de ervas daninhas hospedeiras nas proximidades das áreas cultivadas (1). - Situar as sementeiras em locais distantes de áreas de tomateiro em produção e protegê-las com tela à prova de insetos (2); - Aplicar inseticidas de diferentes grupos químicos, em mudas na sementeira e após o transplante para o campo (2); - Transplantar as mudas para o campo, após completar 21 dias da semeadura (2); - Instalar barreiras vivas à entrada da praga, plantando sorgo forrageiro ou milho, perpendicular à direção dos ventos (2); - Instalar os plantios em áreas distantes de áreas de tomateiro em produção (2); - Considerar a direção do vento na instalação de novos plantios (2); - Eliminar os restos culturais logo após a colheita (2); - Manter áreas limpas sem a cultura no campo por um determinado período de tempo (2).
+
+-- Espécies de plantas infectadas: --
+Os geminivírus foram também detectados causando infecção nas culturas do pimentão (Capsicum annuum), feijão (Phaseolus vulgaris), caupi (Vigna unghiculata) e maxixe (Cucumis anguria), além de plantas invasoras da família Malvaceae como a guanxuma (Sida rhombifolia), nas quais foram observados sintomas de mosaico amarelo (2).
+
+-- Informações Complementares --
+(1) http://www.profigen.com.br/ler/1/371/330/broto_crespo. (2) Mirtes F. Lima, Embrapa Semi-Árido. Artigo publicado na edição número 10 da revista Cultivar Hortaliças e Frutas, de outubro/novembro de 2001. Disponível em:

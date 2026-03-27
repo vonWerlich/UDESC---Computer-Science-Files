@@ -1,0 +1,43 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Caramujo-pequeno (Physa acuta)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021469&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Caramujo-pequeno ( Physa acuta )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11350%5D%7B456%7Dcmujpequeno_caput.jpg
+FOTO: Fonte não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B469%7Dcmujpequeno_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B236%7Dcmujpequeno_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B380%7Dcmujpequeno_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B197%7Dcmujpequeno_fig03b.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B152%7Dcmujpequeno_fig06.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B461%7Dcmujpequeno_fig41.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B22%7Dcmujpequeno_fig42.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B501%7Dcmujpequeno_fig43.jpg
+
+-- INFORMAÇÕES GERAIS: Espécie neutra --
+Espécie: Physa acuta (Draparnaud) Ordem: Pulmonata Família: Physidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B417%7Dcmujpequeno_base.jpg
+
+-- IDENTIFICAÇÃO: --
+• Pequeno caramujo de cor escura com 1 a 1,5cm de comprimento. A concha é espiral alongada de coloração pardo-escura, quase preta. • Os ovos são postos agrupados dentro da água, em massas mucilaginosas aderidas a substratos diversos, inclusive na concha de coespecíficos.
+
+-- CICLO DE VIDA: --
+Esses caramujos chegam na maturidade sexual aos 60 dias, quando atingem de 5 a 7mm de comprimento. A incubação dos ovos varia de 3 a 5 dias e a longevidade dos adultos pode chegar a um ano. Esse caramujo pode sobreviver por até 36h fora da água, retraído na concha.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B417%7Dcmujpequeno_ciclo.jpg
+
+-- OCORRÊNCIA: --
+Anual: de agosto a março. Crítico: setembro/outubro. Lavoura: da semeadura à maturação.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11350%5D%7B514%7Dcmujpequeno_fenologia.jpg
+
+-- DANOS: --
+O caramujo-pequeno não chega a ser nocivo ao arroz irrigado, embora ocorra em altas populações nas lavouras. Alguns indivíduos podem, eventualmente, roer algumas radículas na época da semeadura, porém sem comprometer o desenvolvimento da plântula.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Não é necessário planejar estratégias de controle para essa espécie de caramujo. • Alternar sistemas de cultivo do arroz, adotando semeadura em solo seco com alguma cultivar CL.
+
+-- Informações Complementares --
+DAL ZOTTO, D; HICKEL, E.R.; MARTINS, G.N. Predação de sementes e plântulas de arroz pelos caramujos Biomphalaria tenagophila e Physa acuta . In: CONGRESSO BRASILEIRO DE ARROZ IRRIGADO, 11., 2019, Balneário Camboriú. Anais ... Itajaí: Epagri, 2019.
+DAL ZOTTO, D; HICKEL, E.R.; MARTINS, G.N. Predação de sementes e plântulas de arroz pelos caramujos Biomphalaria tenagophila e Physa acuta . In: CONGRESSO BRASILEIRO DE ARROZ IRRIGADO, 11., 2019, Balneário Camboriú. Anais ... Itajaí: Epagri, 2019.
+• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri) Manejo integrado de pragas

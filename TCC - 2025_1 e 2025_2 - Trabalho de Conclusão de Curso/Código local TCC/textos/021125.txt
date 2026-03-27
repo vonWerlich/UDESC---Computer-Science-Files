@@ -1,0 +1,61 @@
+Título: FORMIGAS EM PINUS E EUCALIPTO - Reconhecimento dos gêneros de formigas cortadeiras
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021125&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18032%5D%7B44%7Df10.jpg
+
+-- PRINCIPAIS DIFERENÇAS ENTRE Atta e Acromyrmex : --
+Os gêneros de formigas cortadeiras que possuem importância econômica são Atta e Acromyrmex . O quadro abaixo mostra as principais diferenças entre os dois gêneros:
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B347%7Df9.jpg
+Legenda: Principais diferenças entre os dois gêneros de formigas (Atta e Acromyrmex). Fonte: Embrapa (2023)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B242%7Df10.jpg
+Legenda: Figura 1. Diferenças entre os gêneros Acromyrmex e Atta. Fotos: Mariane A. Nickele - Taxonline
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B428%7Df11.jpg
+Legenda: Figura 1. Diferenças entre os gêneros Acromyrmex e Atta. Fotos: Mariane A. Nickele - Taxonline
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B146%7Df13.jpg
+Legenda: Ninho inicial de saúva - Atta sp. Foto: Wilson Reis Filho
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B437%7Df12.jpg
+Legenda: Ninho inicial de saúva - Atta sp. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B268%7Df14.jpg
+Legenda: Operária e ninho da saúva-limão - Atta sexdens. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B280%7Df15.jpg
+Legenda: Operária e ninho da saúva-limão - Atta sexdens. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B376%7Df16.jpg
+Legenda: Operária e ninho da saúva-cabeça-de-vidro - Atta laevigata.Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B437%7Df17.jpg
+Legenda: Operária e ninho da saúva-cabeça-de-vidro - Atta laevigata. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B3%7Df18.jpg
+Legenda: Operária e ninho da quenquém-de-ciscos – Acromyrmex crassispinus. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B218%7Df19.jpg
+Legenda: Operária e ninho da quenquém-de-ciscos – Acromyrmex crassispinus. Foto: Wilson Reis Filho
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B356%7Df20.jpg
+Legenda: Operária e ninho da quenquém-mineira-preta – Acromyrmex lundii. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B517%7Df21.jpg
+Legenda: Operária e ninho da quenquém-mineira-preta – Acromyrmex lundii. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B438%7Df22.jpg
+Legenda: Operária e ninho da quenquém-de-árvore – Acromyrmex coronatus. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B270%7Df23.jpg
+Legenda: Operária e ninho da quenquém-de-árvore – Acromyrmex coronatus. Foto: Wilson Reis Filho
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B50%7Df24.jpg
+Legenda: Operária e ninho da quenquém-rajada – Acromyrmex aspersus. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B403%7Df25.jpg
+Legenda: Operária e ninho da quenquém-rajada – Acromyrmex aspersus. Foto: Wilson Reis Filho
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B210%7Df26.jpg
+Legenda: Operária e ninho da quenquém-de-monte-vermelha – Acromyrmex heyeri. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B238%7Df27.jpg
+Legenda: Operária e ninho da quenquém-de-monte-vermelha – Acromyrmex heyeri. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B443%7Df28.jpg
+Legenda: Operária e ninho da quenquém-mineira – Acromyrmex subterraneus. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B93%7Df29.jpg
+Legenda: Operária e ninho da quenquém-mineira – Acromyrmex subterraneus. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B480%7Df30.jpg
+Legenda: Operária e ninho da quenquém-lavradeira – Acromyrmex rugosus. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B465%7Df31.jpg
+Legenda: Operária e ninho da quenquém-lavradeira – Acromyrmex rugosus. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B136%7Df32.jpg
+Legenda: Operária e ninho da quenquém – Acromyrmex niger. Foto: Mariane A. Nickele
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18032%5D%7B385%7Df33.jpg
+Legenda: Operária e ninho da quenquém – Acromyrmex niger. Foto: Wilson Reis Filho
+
+-- Informações Complementares --
+Todo o material bibliográfico utilizado neste sistema pode ser consultado ao clicar AQUI!

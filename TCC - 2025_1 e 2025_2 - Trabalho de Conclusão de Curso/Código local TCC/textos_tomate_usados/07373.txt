@@ -1,0 +1,21 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - d) Manejo de plantas e do cultivo para produção orgânica - 5) Desfolha
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07373&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6657%5D%7B179%7D23-1.jpg
+
+-- Conceito: --
+A desfolha é uma prática comum durante o cultivo do tomateiro e visa ao aumento da ventilação e à insolação dentro do cultivo, o que resulta em menor molhamento foliar e, consequentemente, redução de doenças foliares.
+
+-- Quais folhas são importantes: --
+As principais folhas fotossinteticamente ativas são as três que estão acima e abaixo do cacho. Assim, para a desfolha, deve-se eliminar apenas as folhas baixeiras conforme os cachos são colhidos, mantendo sempre três folhas abaixo do último cacho remanescente. Dependendo do estado fitossanitário da lavoura e dos espaçamentos adotados, essa prática cultural pode ser eliminada.
+
+-- Desfolha no caso de ocorrência de doenças foliares: --
+Uma segunda hipótese para o uso da desfolha é a ocorrência de doenças foliares, como aquelas que ocorrem de baixo para cima, como a mancha-de-cladospório (Cladosporium fulvum) ou até mesmo durante um ataque severo da requeima. Nesse caso, o objetivo é eliminar a fonte de inóculo e a propagação da doença dentro da lavoura, devendo-se fazer o mais breve possível ao observar qualquer sintoma da doença. A forma correta de fazer a desfolha é deixando os dois últimos folíolos de cada folha, o que reduz as chances de infecção por Erwinia.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6657%5D%7B15%7D30.jpg
+Legenda: Folíolos remanescentes após a desfolha para prevenir infecções bacterianas. Fonte: Morales et al., 2019.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6657%5D%7B422%7D29.jpg
+Legenda: Lavoura de tomateiro após severa desfolha baixeira (esquerda) e dos terços médio e superior (direita) devido à alta incidência de doenças foliares. Fonte: Morales et al., 2019.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

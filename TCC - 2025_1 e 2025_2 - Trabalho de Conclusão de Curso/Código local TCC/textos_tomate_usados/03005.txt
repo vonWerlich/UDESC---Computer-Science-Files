@@ -1,0 +1,29 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - K) PRINCIPAIS PRAGAS E SEU CONTROLE - k) Vaquinhas (Diabrotica spp. e Astylus variegatus)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03005&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2771%5D%7B306%7Dfigura_39.jpg
+
+-- Reconhecimento dos danos: --
+Os coleópteros, conhecidos popularmente como vaquinhas, são prejudiciais desde a fase inicial de desenvolvimento do tomateiro. Os adultos desfolham a planta, prejudicando a realização da fotossíntese, atacam as flores, danificando anteras e pétalas. Além disso, podem danificar frutos verdes (Figura 39), onde formam cavidades superficiais.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2771%5D%7B131%7Dfigura_39.jpg
+Legenda: Vaquinha (Diabrotica speciosa) danificando tomate. Foto: Janaína Pereira dos Santos
+
+-- Monitoramento: --
+Instalação de armadilhas adesivas, de coloração amarelo-ouro (Santos et al. 2007), confeccionadas com papel-cartão (Figura 40A) ou garrafas PET (Figura 40B) contendo atrativo alimentar (tajujá ou porongo).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2771%5D%7B214%7Dfigura_40.jpg
+Legenda: Captura de vaquinhas com armadilhas: (A) adesiva amarela e (B) garrafa PET contendo atrativo alimentar. Foto: Janaína Pereira dos Santos
+
+-- Método de amostragem: --
+Para esses insetos ainda não há um método de amostragem definido.
+
+-- Principais inimigos naturais: --
+Vespas parasitoides, fungos e bactérias.
+
+-- Métodos de controle: --
+• Evitar o plantio próximo a plantas hospedeiras, tais como milho, feijão e soja; • Plantar girassol na bordadura do cultivo (Figura 41) para atrair as vaquinhas, bem como inimigos naturais; vaquinhas; • Utilizar armadilhas adesivas de coloração amarelo-ouro para o monitoramento e o controle de adultos (Figura 40A); • Utilizar armadilhas confeccionadas com garrafas PET (Figura 40B) contendo como atrativo alimentar sementes, raízes, caules e frutos de Cayaponia tayuya (tajujá ou taiuiá) ou Lagenaria vulgaris (porongo ou cabaça). Recomenda-se colocar no interior da armadilha uma mistura de água e detergente neutro para que os insetos caiam e permaneçam submersos na solução; • Fazer rotação de agrotóxicos, conforme o modo de ação e o grupo químico; • Fazer rotação de culturas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2771%5D%7B4%7Dfigura_41.jpg
+Legenda: Uso de girassol para o controle de vaquinhas. Foto: Janaína Pereira dos Santos
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

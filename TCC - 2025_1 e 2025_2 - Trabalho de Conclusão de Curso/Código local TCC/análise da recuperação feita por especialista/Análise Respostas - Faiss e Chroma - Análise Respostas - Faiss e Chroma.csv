@@ -1,0 +1,11 @@
+Questões,Faiss,Chroma,Comentário
+1,5 arquivos - todos abordam a questão,5 arquivos - todos abordam a questão,arquivos iguais
+2,2 arquivos - todos abordam a questão,2 arquivos - todos abordam a questão,arquivos iguais
+3,5 arquivos - todos abordam a questão,5 arquivos - todos abordam a questão,arquivos iguais
+4,"""04548.txt_chunk_2"" - errado; ""05104.txt_chunk_2"" - errado; (""04568.txt_chunk_2"", ""04569.txt_chunk_2"", ""04570.txt_chunk_2"") - ok","""04548.txt_chunk_2"" - errado; ""05104.txt_chunk_2"" - errado; ""05102.txt_chunk_2"" - errado; ""04568.txt_chunk_2"" - ok; ""04569.txt_chunk_2"" - ok","2 arquivos iguais errados, 2 arquivos iguais certos"
+5,5 arquivos - todos abordam a questão,5 arquivos - todos abordam a questão,arquivos iguais
+6,6 arquivos - todos abordam a questão,5 arquivos - todos abordam a questão,arquivos iguais
+7,2 arquivos - todos abordam a questão,2 arquivos - todos abordam a questão,arquivos iguais
+8,2 arquivos - todos abordam a questão,2 arquivos - todos abordam a questão,arquivos iguais
+9,5 arquivos - todos abordam a questão,5 arquivos - todos abordam a questão,arquivos iguais
+10,1 arquivo - correto,1 arquivo - correto,arquivo igual

@@ -1,0 +1,356 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=18793&amp;isEdicao=N&amp;epagriTEC=S">BIOFERTILIZANTE EEI</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=18797&amp;isEdicao=N&amp;epagriTEC=S">         A Unidade Portátil de Produção de Biofertilizantes – UPPB, modelo Epagri</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="16381">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="018797">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[16381]{47}uppb_capa.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Alexandre Visconti </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>UNIDADE PORTÁTIL: </b><br>
+<p class="p1"><div> A UPPB é construída a partir de uma bombona plástica de 200 litros, uma bomba de máquina de lavar roupas, canos e conexões de PVC (Figura 3). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25120,018797,16381,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{140}uppb_capa.jpg">  </a> 
+<br><br>
+<b>CONSTRUÇÃO DA UPPB, modelo Epagri:</b><br>
+<p class="p1"><div> Para a montagem da UPPB, sugere-se seguir o modelo esquemático das Figuras 9 e 10 utilizando o material necessário descrito nas Tabelas 1 e 2. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25122,018797,16381,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{169}figura_10._vista_interna_da_uppb_-_modelo_esquematico..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25121,018797,16381,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{405}figura_9._modelo_esquematico_da_uppb.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25123,018797,16381,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{226}tabela_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25124,018797,16381,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{88}tabela_2.jpg">  </a> 
+<br><br>
+<img src="./img/iconeDocumento.png">  <a target="_blank" style="text-decoration: none;" href="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{353}tabela_1.pdf">Tabela 1. Itens necessários para construção da Unidade Portátil de Produção de Biofertilizante (UPPB) modelo Epagri. </a> <br>
+<img src="./img/iconeDocumento.png">  <a target="_blank" style="text-decoration: none;" href="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{36}tabela_2.pdf">Tabela 2. Material para instalação e funcionamento da UPPB. </a> <br>
+<br>
+<b>EQUIPAMENTOS E FERRAMENTAS NECESSÁRIAS:</b><br>
+<p class="p1"><div> Para a montagem e o funcionamento da Unidade Portátil será necessário dispor dos equipamentos e ferramentas relacionados na Tabela 3. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25127,018797,16381,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{548}tabela_3.jpg">  </a> 
+<br><br>
+<b>BOMBONAS:</b><br>
+<p class="p1"><div> Vários modelos de bombonas podem ser encontrados no mercado. Vamos abordar a montagem da unidade para dois modelos de bombonas: o “Tonel” de parede reta com duas pequenas saídas na parte superior e o “Azeitona” de parede arredondada com
+tampa central (Figura 11). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25128,018797,16381,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{45}figura_11._bombonas_tipo_tonel_e_azeitona..jpg">  </a> 
+<br><br>
+<b>ETAPAS DE MONTAGEM: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Antes de iniciar a montagem do sistema é necessária a realização de etapas prévias, conforme o tipo de bombona: 1) no caso da bombona tipo “Tonel”, recortar na tampa a
+abertura de acesso; 2) a furação do ponto de sucção do biofertilizante na bombona; 3) a furação superior de 50mm para bombonas do tipo “azeitona” e 4) a adaptação da luva
+soldável 32mm ⑫ para a conexão da bomba da máquina lava-roupas ④. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Etapa prévia 1: </b><br>
+<p class="p1"><div> Abertura da tampa de acesso para bombonas do tipo “Tonel”: com
+uma serra, faz-se o recorte da parte superior da bombona conforme a Figura 12. Ao final fixa-se a tampa com dobradiças formando a tampa. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25129,018797,16381,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{113}figura_12._abertura_da_tampa_de_acesso.jpg">  </a> 
+<br><br>
+<b>Etapa prévia 2: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Furar o ponto de sucção do biofertilizante na bombona marcando o
+local e o ponto em que será realizado o furo. Com a broca 6mm acoplada à furadeira, faz-se um furo no ponto de sução. Finaliza-se o furo com a serra copo de 50mm (Figura 13).<br><br><br>
+
+
+<mark>*Lembre-se:</mark> a furação de sucção não poderá ser tão baixa a ponto de a bomba de máquina de lavar roupa encostar no chão e nem tão alta a ponto de que não consiga bombear todo o biofertilizante.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25130,018797,16381,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{349}figura_13._furacao_da_succao_na_bombona..jpg">  </a> 
+<br><br>
+<b>Etapa prévia 3: </b><br>
+<p class="p1"><div> Em caso de utilizar a bombona do tipo “Azeitona”, realizar uma
+furação de 50mm na parte superior. Isto é necessário, pois este tipo de bombona não tem o furo adequado para a colocação do adaptador soldável com anel para caixa d água 32mm ②. Desta forma, é preciso fazer o furo com a serra-copo à semelhança do ponto de sucção (Figura 14). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25131,018797,16381,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{492}figura_14._furacao_superior_de_50_mm,_na_bombona_tipo_azeitona..jpg">  </a> 
+<br><br>
+<b>Etapa prévia 4: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Realizada para os dois tipos de bombona. Realiza-se a adaptação da luva soldável 32mm ⑫ para encaixar na bomba da máquina lava-roupas ④ (Figura 15A). Com o soprador de ar quente, provoca-se o amolecimento da extremidade da luva (Figura 15B) até o encaixe da sucção da bomba, mantendo-a no lugar até o resfriamento da mesma (Figura 15C), para então destacá-la e proceder à colagem (Figura 15D).<br><br>
+
+Concluídas as etapas prévias, inicia-se o processo de montagem do sistema. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25132,018797,16381,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{542}figura_15._adaptacao_da_luva_soldavel_32_mm..jpg">  </a> 
+<br><br>
+<b>ETAPA 1: </b><br>
+<p class="p1"><div> Para a montagem do conjunto de bombeamento A , faz-se a fixação do adaptador soldável com anel para caixa d’água 32mm ② na bombona ⑤, seguido das colagens da união soldável 32mm ⑳, da luva soldável 32mm ⑫, da bomba de máquina lava-roupas ④, do cano 25mm ⑥ e da luva de redução soldável 32 X 25mm ⑪ (Figura
+16). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25133,018797,16381,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{162}figura_16._conjunto_de_bombeamento-esquema.jpg">  </a> 
+<br><br>
+<b>ETAPA 2: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para a construção do conjunto de oxigenação B na parte superior da
+bombona ⑤, faz-se a fixação do adaptador soldável com anel para caixa d’água 32mm
+②. Observação: as bombonas tipo “Azeitona” requerem a furação de 50mm na parte
+superior (Figura 14). Em seguida, procede-se a colagem da curva 90° soldável 32mm
+⑧, do Tê soldável 32mm com rosca ⑲, junto a outra curva 90° soldável 32mm ⑧, e a
+segunda união soldável 32mm ⑳. Ao final, com uma fita veda-rosca, rosqueie a torneira
+plástica ⑮ ao Tê com rosca ⑲ e encaixe a mangueira de retorno ⑯, conectando o
+sistema de injeção de oxigênio ao interior da bombona através de um furo feito com a
+broca 10mm (Figura 17). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25134,018797,16381,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{214}figura_17._conjunto_de_oxigenacao-_modelo_esquematico.jpg">  </a> 
+<br><br>
+<b>ETAPA 3: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para a montagem do sistema de descarga D , na união soldável 32mm
+⑳ do sistema de aeração, cole o registro 32mm ⑰, o Tê soldável 32mm ⑱, o segundo
+registro 32mm ⑰, 20 centímetros de cano 32mm ⑦, a Luva Soldável e com Rosca 32 X
+1” ⑬ e ao final rosqueie com fita veda-rosca o adaptador para mangueira 1’’ interno ①
+(Figura 18).<br><br>
+
+Na sequência, conecte o conjunto de bombeamento ao sistema de descarga do
+biofertilizante com o cano 32mm ⑦ (Figura 19). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25135,018797,16381,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{81}figura_18._sistema_de_descarga-modelo_esquematico.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25136,018797,16381,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{382}figura_19._conexao_do_conjunto_de_bombeamento_com_o_sistema_de_descarga..jpg">  </a> 
+<br><br>
+<b>ETAPA 4: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Montagem do sistema circulatório C - dentro da bombona, na parte
+interna e rosqueável do adaptador 32mm ② rosqueie, em sequência, o nípel de 1” ⑭, o
+joelho roscável de 1” ⑨, o segundo nípel de 1” ⑭, o segundo joelho roscável de 1” ⑨
+e o adaptador soldável curto bolsa e rosca para registro ③. Ao final, ajuste o cano 32mm
+⑦ para que o adaptador com o joelho 90° soldável ⑩ alcance o fundo da bombona
+(Figura 20). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25137,018797,16381,13);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{483}figura_20._sistema_circulatorio-modelo_esquematico..jpg">  </a> 
+<br><br>
+<b>ETAPA 5: </b><br>
+<p class="p1"><div> Para a montagem do “rabicho” elétrico que conectará o fermentador à
+rede elétrica, instale uma tomada numa extremidade do fio duplo de 2,5mm e na outra
+extremidade os terminais que serão ligados à bomba. Isole os terminais com fita isolante
+para evitar choque elétrico (Figura 21). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25138,018797,16381,14);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[16381]{210}figura_21._rabicho_eletrico.jpg">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+Visconti, A.; Schallenberger, E. Morales, R.G.F.; Cantú, R.R. Unidade Portátil de Produção de Biofertilizante Aeróbico, Modelo Epagri. Cartilha da Epagri, Florianópolis, Março de 2022.
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 11/04/2022</font>
+<br> <font size="2"> Última atualização: 11/04/2022</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=018797&amp;cdElemento=16381">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=16381');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - NUN0021
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018362&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16010%5D%7B526%7Dnun0021.png
+
+-- INFORMAÇÕES GERAIS: --
+- Tecnologia que alia pacote de resistências completo e vigor; - Recomendado para campo aberto e estufa; - Ótima germinação e vigor; - Maior uniformidade de plantas; - Excelente eficiência e resultados; - Compatível com a maioria das variedades de tomates existentes no mercado.
+
+-- RESISTÊNCIA: --
+V F1F2F3 N Tm For Pyl Bw.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.nunhems.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.nunhems.com.br.

@@ -1,0 +1,31 @@
+Título: TOMATE - Fitossanidade - Bactérias - Talo Oco (Pectobacterium carotovora - Antiga Erwinia carotovora)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=08385&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1629%5D%7B463%7D444-1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1629%5D%7B155%7Derwinia_1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1629%5D%7B291%7Derwinia_2.jpg
+Legenda: Sintomas típicos do ataque da doença no caule da planta. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1629%5D%7B482%7D444-1.jpg
+Legenda: Sintomas típicos do ataque da doença no caule da planta. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1629%5D%7B327%7Derwinia_4.jpg
+Legenda: Sintomas típicos do ataque da doença no caule da planta. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1629%5D%7B196%7Derwinia_6.jpg
+Legenda: Sintomas típicos do ataque da doença no caule da planta. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1629%5D%7B304%7Derwinia_3.jpg
+Legenda: Sintomas típicos do ataque da doença no caule da planta. Foto: Rafael G. F. Morales
+
+-- SINTOMAS: --
+É causada pela bactéria Erwinia spp., que produz enzimas pectinases causando destruição da lamela média em tecidos carnosos. Sua disseminação ocorre principalmente no verão devido a intensidade de chuvas e em frutos danificados por insetos ou danos mecânicos (1). O primeiro sintoma é plantas cloróticas, seguido de sua murcha total ou parcial (2). As plantas infectadas apresentam escurecimento externo do caule. A evolução da doença leva a decomposição da medula e dos tecidos, então o caule cede ao ser pressionado pelos dedos. E sob condições muito favoráveis, a bactéria se desenvolve também na parte exterior do caule, gerando podridão mole e escorregadia ao tato (1). Nos frutos ocorre uma desintegração aquosa, com apodrecimento dos tecidos internos infectados, tornando-os moles, com odor desagradável (2). Os frutos perfurados por insetos ficam propícios a infecção pela bactéria e se decompõem internamente, formando “bolsas d’água” que permanecem presas à planta (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+1. Condições de alta temperatura e umidade (1,5,6). Solução: manejar o ambiente para evitar tais condições, como o uso de exaustores, telas laterais que permitam uma melhor circulação de ar, aumentar o espaçamento entre plantas. 2. Plantas voluntárias nas proximidades (5). Solução: Essa doença contém inúmeras espécies hospedeiras, portanto essas plantas devem ser removidas da área de plantio e proximidades e os restos culturais devem ser destruídos, pois o patógeno permanece nos restos culturais. 3. Alta incidência de pragas (5). Solução: Controlar brocas e traças e evitar ferimentos nas plantas. 4. Excesso de água e umidade na planta (5). Solução: Evitar irrigação pesada e solos encharcados. 5. Excesso de fertilização nitrogenada, pois torna a planta quebradiça (5). Solução: Calcular a quantidade de adubo conforme o Manual de Calagem e Adubação para os Estados do Rio Grande do Sul e Santa Catarina (2016). Particionar por fertirrigação o nitrogênio e o potássio, conforme a curva de crescimento da cultura. 6. Ocorre normalmente em solos compactados, mal drenados, onde existe excesso de umidade (4).
+
+-- CONTROLE: --
+- Evitar plantio em épocas de umidade e temperatura elevada. - Plantar em solos bem drenados e em espaçamentos maiores. - Assegurar boa ventilação, principalmente em cultivos protegidos (1). - Adubação equilibrada, evitando excesso de nitrogênio (3). - Evitar irrigação muito pesada. - Realizar rotação de culturas com gramíneas (1). - Evitar excesso de nitrogênio (1). - Em verões chuvosos, aumentar o espaçamento entre plantas (1). - Evitar ferimentos durante os tratos culturais (1). ESTUDOS: - Aplicação de cloreto de cálcio à 8% e 10 ml de leveduras (Rhodotorula sp.) e bactérias (Pseudomonas sp.), reduzem o desenvolvimento das doenças pós-colheita, devido á ligação dos íons nas pectinas da parede celular do fruto, reduzido a degradação da parede celular (3).
+
+-- OBSERVAÇÕES GERAIS: --
+- Deve-se ter maior atenção em cultivos protegidos, devido ao ambiente favorável para o patógeno (4). - Para ler mais sobre essa doença, clicar aqui .
+
+-- Informações Complementares --
+(1) LOPES, C. A.; AVILA, A. C. Doenças do tomateiro. 2. ed. Brasília- Df: Embrapa Hortaliça, 2005. 144 p. (2) ALVARENGA, M. A. R. Tomate: produção em campo, casa-de-vegetação e em hidroponia. UFLA, 2004. (3) SILVA, D. J. H.; VALE, F. X. R. Tomate: tecnologia de produção. Viçosa, MG: UFV, 2007. (4) Aspectos fitossanitários do tomateiro. Instituto biológico, 2013. (5) Vale, F.X.R.; Zambolim, L.; Zambolim, E.M.; Alvarenga, M.A.R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. UFLA, 2004. cap 9, pag 213-309. (6) AGROLINK. Disponivel em . (7) GOMES, A.M.A.; SILVEIRA, E.B.; MARIANO, R.L.R. Tratamento pós-colheita com cálcio e microrganismos para controle da podridão-mole em tomate. Horticultura Brasileira, Brasília, v.23, n.1, p.108-111, jan.-mar. 2005.

@@ -1,0 +1,18 @@
+Título: BANANA - Cultivares - Branca
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021672&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Branca
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18355%5D%7B95%7Dbranca.png
+Tabela técnica detalha a suscetibilidade de treze cultivares e híbridos de bananeira (incluindo BRS SCS Belluna, Nanicão, Grande Naine, BRS Fhia Maravilha, BRS Platina) a cinco das principais pragas e doenças da cultura—Broca-da-bananeira (Cosmopolites sordidus), Mal do Panamá (Fusarium oxysporum f. sp. cubense, raça 1), Nematoide (Radophulus similis), Sigatoka amarela (Pseudocercospora musae) e Sigatoka negra (Pseudocercospora fijiensis)—, utilizando uma escala de R (resistente) a AS (altamente suscetível) para revelar que, enquanto cultivares comerciais como Nanicão e Grande Naine são altamente suscetíveis à broca, nematoide e ambas as sigatokas (embora resistentes ao Mal do Panamá raça 1), os híbridos e cultivares mais recentes da Embrapa (BRS), como BRS SCS Belluna e BRS Fhia Maravilha, demonstram perfis de resistência múltiplos e mais robustos, fornecendo dados cruciais para o planejamento de plantios e o manejo integrado de doenças.
+FOTO: Luiz A. Lichtemberg
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAB, subgrupo Prata. Apresenta porte alto variando de 3 a 5,6m de altura e produz cachos pequenos em torno de 10 kg. Cultivar muito rústico e recomendado para cultivos agroflorestais ou orgânicos. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹)
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

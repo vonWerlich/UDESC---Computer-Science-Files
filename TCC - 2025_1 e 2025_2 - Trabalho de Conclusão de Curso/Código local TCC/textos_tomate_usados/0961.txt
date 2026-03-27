@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - TD 1 F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0961&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B843%5D%7B140%7Dtd_1.jpg
+
+-- CARACTERÍSTICAS: --
+Empresa: Takii; Finalidade: Porta-Enxerto; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: For - Fusarium oxysporum f.sp. radicis-lycopersici; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a viroses: ToMV - Tomato mosaic virus; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Porta enxerto de alto vigor com resistência ao Fusarium raça 3.
+
+-- RESISTÊNCIA: --
+Alta resistência a Verticillium, Pyrenochaeta, Murcha de Fusarium (Fusarium oxysporum f.sp. lycopersici raças 1, 2 e 3 e Fusarium oxysporum f.sp. radicis-lycopersici), Virus do Mosaico do Tomate (Tm-2a) e Nematoides (Meloidogyne arenaria, M. incognita, M. javanica). Resistência intermediária a Murcha bacteriana (Ralstonia).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://takii.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://takii.com.br.

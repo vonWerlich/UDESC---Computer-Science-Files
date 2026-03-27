@@ -1,0 +1,15 @@
+Título: BANANA - Cultivares - Terra
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021664&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Terra
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18361%5D%7B417%7Dcap_3_-_fig_3_-_letra_f_-_buque_maduro_terra_-_autoria_eliseu_emanoel_dos_santos.jpg
+FOTO: Eliseu E. dos Santos
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAB, subgrupo Terra. As variedades do subgrupo Terra, também conhecidas como ‘Plátanos’, apresentam um nicho de mercado exclusivo, uma vez que se trata de bananas normalmente consumidas cozidas, fritas ou assadas. Isto ocorre porque, diferentemente das bananas consumidas in natura, cuja quase totalidade do amido se transforma em açúcares à medida que a fruta amadurece, nas bananas-da-terra uma grande parte do amido permanece até o amadurecimento.
+
+-- Informações Complementares --
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

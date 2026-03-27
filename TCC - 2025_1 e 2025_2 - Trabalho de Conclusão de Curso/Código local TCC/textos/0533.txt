@@ -1,0 +1,27 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Plantas daninhas em arroz irrigado - Grama-boiadeira (Luziola peruviana)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0533&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B426%5D%7B415%7Dpldan_gramaboi_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B426%5D%7B12%7Dpldan_gramaboi_fig01.jpg
+Legenda: 01. Grama-boiadeira em solo seco. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B426%5D%7B406%7Dpldan_gramaboi_fig02.jpg
+Legenda: 02. Grama-boiadeira em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B426%5D%7B154%7Dpldan_gramaboi_fig03.jpg
+Legenda: 03. Grama-boiadeira em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B426%5D%7B217%7Dpldan_gramaboi_fig04.jpg
+Legenda: 04. Grama-boiadeira em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B426%5D%7B339%7Dpldan_gramaboi_fig05.jpg
+Legenda: 05. Grama-boiadeira em solo seco. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B426%5D%7B493%7Dpldan_gramaboi_fig06.jpg
+Legenda: 06. Grama-boiadeira em manancial. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B426%5D%7B44%7Dpldan_gramaboi_fig11.jpg
+Legenda: 07. Inflorescência da grama-boiadeira. Fonte: D.S.Eberhardt (remasterizada)
+
+-- Descrição Botânica: --
+Autor da Descrição: Horlandezan Bragança (1) Características da Planta: Família: Poaceae (Gramineae) Divisão e Classe: Angyospermae Monocotyledoneae Ciclo: Perene Reprod./Propagação: Estolão; Fruto; Habitat/Tipologia: Planta Aquática Adaptações: Estolonífero ascendente; Altura(cm): 30 Características das Folhas: Filotaxia: Alternada dística Forma do Limbo: Lanceoladas: Linear Superfície: Glabras Consistência: Herbácea Nervação/Venação: Paralelinérveas Comprimento (cm): 25 Características das Flores e do fruto: Inflorescência: Panícula Perianto: Aperiantada, Unissexuada Tipologia do Fruto: Cariópse
+
+-- Observações: --
+Vegeta em áreas alagadas e canais de irrigação, onde forma densos grupamentos. Infestante da cultura de arroz irrigado (1).
+
+-- Informações Complementares --
+(1) AGROFIT: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html

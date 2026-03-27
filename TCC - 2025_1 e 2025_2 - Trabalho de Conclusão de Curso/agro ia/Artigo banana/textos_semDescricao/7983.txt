@@ -1,0 +1,49 @@
+Título: BANANA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=7983&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Avaliação de cultivares para o Estado de Santa Catarina
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12985%5D%7B44%7Drecomendacao_cultivares.png
+14987
+Avaliação de cultivares para o Estado de Santa Catarina
+Cultivares
+21655
+Cultivares
+Zoneamento agroclimático e ecofisiologia da bananeira
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18386%5D%7B443%7Dcepa_6.jpg
+21660
+Zoneamento agroclimático e ecofisiologia da bananeira
+Correção e fertilidade do solo
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18413%5D%7B548%7Dsolo_comp._9.jpg
+21658
+Correção e fertilidade do solo
+Recomendação de fertilizantes
+21726
+Recomendação de fertilizantes
+Manejo do bananal
+21657
+Manejo do bananal
+Fitossanidade
+7984
+Fitossanidade
+Pós-colheita da banana
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18384%5D%7B402%7Dimg_7248.jpg
+21659
+Pós-colheita da banana
+Climatização da banana (amadurecimento controlado)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18385%5D%7B301%7Dcamara_02.jpg
+21696
+Climatização da banana (amadurecimento controlado)
+Renovação de bananais
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18383%5D%7B419%7Dfigura_13_-_a.jpg
+21695
+Renovação de bananais
+Necessidades hídricas e irrigação da bananeira
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18418%5D%7B388%7D20220330_084538.jpg
+21730
+Necessidades hídricas e irrigação da bananeira
+Manejo e conservação do solo em bananais
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18419%5D%7B413%7Dfigura_5_a_cap_6.jpg
+21732
+Manejo e conservação do solo em bananais

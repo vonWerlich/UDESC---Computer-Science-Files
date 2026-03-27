@@ -1,0 +1,30 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Carvão ou cárie (Tilletia barclayana)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021584&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+12. Manejo de doenças
+Carvão ou cárie ( Tilletia barclayana )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11379%5D%7B541%7Dcarvao_caput.jpg
+FOTO: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11379%5D%7B354%7Dcarvao_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11379%5D%7B340%7Dcarvao_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11379%5D%7B88%7Dcarvao_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11379%5D%7B536%7Dcarvao_fig04.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: fungo Tilletia barclayana Doença se manifesta principalmente nos grãos. A infecção ocorre entre o período de emborrachamento e antese.
+
+-- SINTOMAS: --
+Os grãos são parcialmente encobertos por uma massa escura de esporos, que pode ser facilmente removida como um pó preto. Nas folhas podem surgir pequenas manchas pretas, por vezes numerosas.
+
+-- CONTROLE: --
+As medidas de controle adotadas para o falso carvão também são efetivas para o carvão.
+
+-- Controle químico: --
+Nos casos em que se estiver utilizando cultivares suscetíveis, em áreas com histórico da doença, é necessária a aplicação de fungicidas, preferencialmente no estádio de emborrachamento, podendo ser necessária uma segunda aplicação em pleno florescimento. Principais fungicidas registrados para o controle de doenças na cultura do arroz no Brasil: Alterne ; Aproach Prima ; Bim 750 BR ; Brio ; Certeza N1 ; Dithane NT ; Folicur 200 EC ; Fusão EC ; Helmstar Plus ; Manzate 800 ; Nativo ; Priori ; Priori Top ; Score ; Tilt ; Vitavax-Thiram 200 SC1 ;
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+• Klaus Konrad Scheuermann (Dr. em Fitopatologia - Epagri) Manejo de doenças

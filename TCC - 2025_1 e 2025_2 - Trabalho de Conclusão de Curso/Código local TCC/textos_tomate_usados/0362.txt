@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Wanda F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0362&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B257%5D%7B55%7Dwanda.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Isla; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: Ff - Fulvia fulva (ex Cladosporium fulvum); Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Diferenciais: Cereja redonda, entrenós muito curtos, cachos muito regulares, coloração vermelho brilhante na maturação. Época de Semeadura: Verão. Ciclo Verão (dias): 90. Cor da polpa: Vermelha. Tipo de crescimento: Indeterminado. Peso comercial: 15 - 20g.
+
+-- USO/COMENTÁRIOS: --
+Resistência a doenças, produtividade.
+
+-- RESISTÊNCIA: --
+ToMV, TSWV, Ff: 1-5, Fol: 0,1, Va, Vd.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

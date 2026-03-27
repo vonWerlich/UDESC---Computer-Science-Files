@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Protheus F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0114&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B20%5D%7B345%7Dprotheus.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agristar TopSeed; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Pontos fortes: Frutos grandes e mais altos, proporcionando maior rendimento. Excelente firmeza e qualidade. Pacote completo de resistências (geminivírus, vira-cabeça, nematoide, fusarium raça 3 e stemphylium).
+
+-- PLANTAS E FRUTOS: --
+Plantas:Vigorosa, com enfolhamento bem compacto. Frutos: Grandes, bem lisos, com inserção peduncular pequena.
+
+-- RESISTÊNCIAS: --
+Fol: 0-2, Pf, Ma, Mi, Mj, Ss, TMV, TSWV, TYLCV, Va e Vd.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

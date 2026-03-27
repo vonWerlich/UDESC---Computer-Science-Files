@@ -1,0 +1,21 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - DOENÇAS QUARENTENÁRIAS
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021721&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+DOENÇAS QUARENTENÁRIAS
+MAL-DO-PANAMÁ – TR4
+21722
+MAL-DO-PANAMÁ – TR4
+TOPO EM LEQUE
+21724
+TOPO EM LEQUE
+MOKO DA BANANEIRA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18410%5D%7B419%7Dmoko_planta_atacada.jpg
+21723
+MOKO DA BANANEIRA
+MOSAICO DAS BRÁCTEAS
+21725
+MOSAICO DAS BRÁCTEAS

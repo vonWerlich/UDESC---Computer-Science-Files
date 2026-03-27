@@ -1,0 +1,33 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Damping-off” ou Tombamento de mudas (Pythium e Rhizoctonia)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04541&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1860%5D%7B393%7D407.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1860%5D%7B338%7D407.jpg
+Legenda: Estrangulamento do colo da planta ocasionado pelo fungo Rhizoctonia solani. Fonte: https://www.agrolink.com.br/problemas/damping-off_1886.html
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1860%5D%7B218%7Dryz.jpg
+Legenda: Frutos com podridão marrom na superfície em contato com o solo. Foto: Acervo da Embrapa Hortaliças
+
+-- INFORMAÇÕES GERAIS: --
+- Pythium aphanidermatum é a principal espécie de Pythium que ocorre no cultivo do tomateiro, representando 61% das ocorrências. Pythium ultimum ocorre em 18% dos casos; e outras espécies representaram 21% de ocorrência. Todos esses citados foram sensíveis ao Metalaxil-m (3). - O fungo Rhizoctonia solani pode sobreviver no solo por longos períodos, mantendo-se na forma de escleródios ou micélio colonizando restos de cultura. Na fase de germinação/emergência, os escleródios presentes nas sementes ou no solo germinam e infectam os brotos e as hastes novas. A formação de escleródios em tubérculos ocorre em qualquer fase da tuberização e/ou enchimento, porém, é mais significativa quando os tubérculos estão próximos à maturidade.
+
+-- SINTOMAS: --
+As mudas afetadas murcham, tombam e morrem, apresentando também afinamento e necrose na região do colo. Em épocas chuvosas ou em solos encharcados, Pythium aphanidermatum. pode atacar plantas com até mais de 10 cm de altura, causando lesões com aspecto aquoso e escuro, que podem se estender por 2 a 4 cm acima da linha do solo. Essas plantas murcham e morrem. Phytophthora parasitica pode ocasionar apodrecimento da base do caule em mudas. Rhizoctonia solani também pode atacar plantas em quaisquer estádios, inclusive quaisquer órgãos de plantas desenvolvidas, principalmente quando em contato com o solo. Quando a irrigação é por sulco ou em épocas chuvosas, o patógeno pode ser disseminado pela água (1).
+
+-- ETIOLOGIA: --
+Em geral, esses patógenos vivem saprofiticamente como habitantes do solo e muitos são polífagos. Dentre as espécies de Pythium, P. aphanidermatum é o oomiceto mais comumente associada com doenças de mudas do que outras espécies, especialmente em temperaturas moderadas a altas. Algumas espécies, tais como P. aphanidermatum e P. myriotylum, desenvolvem-se melhor a alta temperatura (30º C ou mais), enquanto que outras, tais como P. ultimum e P. debaryanum, são favorecidas por baixas temperaturas (menos de 20º C) (1). Phytophthora nicotianae pertence a um grupo diferente aos dos fungos, chamados comumente de oomicetos ou cromistas. Essa espécie é frequentemente encontrada associada aos tombamentos de plantas, e assim como Pythium são favorecidas quando há água em excesso. Rhizoctonia solani difere quanto à gama de hospedeiros, patogenicidade, características culturais e resposta ao ambiente. A espécie é comumente dividida em quatro grupos de anastomose que diferem, entre outras coisas, em gama de hospedeiros e tipo de doenças que causam. Em condições de laboratório, o fungo cresce melhor entre 25 e 30ºC, mas a doença é usualmente mais severa a temperaturas desfavoráveis ao hospedeiro (15 a 18º C). O patógeno é mais ativo quando o solo é úmido e tem seu desenvolvimento inibido em solo seco ou encharcado (1). Como o tecido das mudas de tomateiro são muito tenros nesse estádio de desenvolvimento é comum a associação de outras espécies de patógenos, pois o tecido da planta apresentar pouco resistência à penetração mecânica. A medida que a muda cresce, os tecidos se tornam mais resistentes impedindo a infecção por esses patógenos.
+
+-- Medidas preventivas de controle de “damping-off”: --
+- Evitar solos sujeitos a inundação; - Adubar com adubo orgânico para melhorar as características físicas, químicas e equilibrar a microflora do solo; - Não irrigar em excesso para evitar encharcamento do solo e nem utilizar água de qualidade suspeita quanto à contaminação com patógenos; - Tratar as sementes com fungicidas, tais como thiram, captan, metalaxyl-mancozeb, thiram-iprodione, thiram-metalaxyl; - Deve-se fazer a solarização do solo para redução da quantidade de inóculo (1).
+
+-- Controle biológico: --
+O controle biológico da doença pode ser realizado com formulações de Trichoderma sp. O micro-organismo deve ser aplicado em pré-plantio e deve ser utilizado em combinação com outras estratégias de controle para que se alcance bons níveis de controle (2).
+
+-- Controle alternativo: --
+Estudos têm mostrado que a incorporação seguida da decomposição de restos culturais de crucíferas e mostarda podem reduzir a doença graças à fumigação do solo, causada pela liberação de cianetos (2).
+
+-- Controle químico: --
+Se for constatado “damping-off” em canteiros, deve-se reduzir a irrigação ao mínimo, eliminar as mudas doentes e parte do solo junto a essas plantas e regar o solo com fungicidas, como metalaxyl-mancozeb, mancozeb ou cúprico. Se possível, identificar o agente causal em laboratório para aplicação de fungicida específico.
+
+-- Informações Complementares --
+(1) C. Kurozawa & M. A. Pavan. Manual de fitopatologia/editado por Hiroshi Kimari ... [et al]. - 3. ed. São Paulo: Agronômica Ceres. 1995- 1997. 2v.: il. (2) https://www.grupocultivar.com.br/artigos/obstaculo-oculto. (3) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Ailton Reis. Tema: Manejo de doenças causadas por fungos e oomicetos da parte radicular do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: https://youtu.be/CChRRIZ99FM

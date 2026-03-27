@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Sotero F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0244&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B141%5D%7B158%7Dsotero.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Feltrin; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Grande (231 a 250 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Cultivar: Tomate Sotero Híbrido F1. Colheita (Dias): 110-115 DIAS. Hábito De Crescimento: Indeterminado. Uso: Colheita Frutos Individualizados (A Granel) E/Ou Cluster (Pencas).
+
+-- DESTAQUE: --
+Híbrido altamente produtivo com bom formato padrão e ótima tolerância a geminivírus. Pencas de alta qualidade com frutos de excelente qualidade interna, externa e coloração.
+
+-- RESISTÊNCIA: --
+TMV, F2, V, TYLCV.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sementesfeltrin.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sementesfeltrin.com.br.

@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Sheena F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0898&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B780%5D%7B291%7Dsheena.jpeg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Hazera Brasil; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a bactérias e nematoides: Pst - Pseudomonas syringae pv. tomato; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Sl - Stemphylium lycopersici; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Muito Pequeno (menor que 170 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Variedade com excelente qualidade de frutos e ótima produtividade. Planta vigorosa e com boa cobertura foliar. Conta com resistência a Fol 3, TSWV e Nematoide Apresenta vida longa pós-colheita. Formato do Fruto: Oval Peso Médio (gr): 150-170 Sistema de Produção: Campo aberto, rasteiro ou meia estaca, plantio o ano todo Resistência: HR: Vd, Fol (1, 2 e 3), ToMV, Pst IR: Mj, TSWV, Sl.
+
+-- RESISTÊNCIA: --
+HR: Vd, Fol (1, 2 e 3), ToMV, Pst IR: Mj, TSWV, Sl.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.hazera.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.hazera.com.br.

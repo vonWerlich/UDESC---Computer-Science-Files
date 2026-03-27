@@ -1,0 +1,10 @@
+Título: TOMATE - Nutrição Mineral - *Cloro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0869&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+
+-- Informações gerais: --
+A manifestação dos sintomas de deficiência desse nutriente é muito rara, tanto em solo, como em hidroponia, e essa hipótese deve ser considerada em último caso. Na literatura, é muito mais frequentes os relatos de toxicidade do que de deficiência de cloro (2). Quando ocorre toxidez por cloro há redução da largura da folhas que tendem a enrolar-se. Além disso, pode ocorrer necroses que evoluem para o secamento das folhas (3). O cloro exerce diversas funções na planta, como: fotossíntese, ativação enzimática, íon acompanhante, osmo-regulação e controle parcial de doenças (1)(4).
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) FAQUIN, V. Nutrição Mineral de Plantas. Lavras: UFLA/FAEPE, 2005. (3) DECHEN, A.R.; NACHTIGALL, G.R.; CARMELLO, Q.A. de C.; SANTOS, L.A.; SPERANDIO, M.V.L. Micronutrientes. In: FERNANDES, M. S.; SOUZA, S. R. DE; SANTOS, L. A. (Ed.). Nutrição mineral de plantas. 2. ed. Viçosa: Sociedade Brasileira de Ciência do Solo, 2018. p. 491–562. (4) MALAVOLTA, E. Manual de nutrição mineral de plantas. 1. ed. São Paulo: Editora Agronômica Ceres, 2006.

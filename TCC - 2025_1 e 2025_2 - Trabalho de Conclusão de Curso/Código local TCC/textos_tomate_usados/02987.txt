@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - I) DOENÇAS CAUSADAS POR VÍRUS - b) Mosaico-do-fumo e mosaico-do-tomateiro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02987&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2754%5D%7B297%7Dcapa_1.jpg
+
+-- Mosaico-do-fumo e mosaico-do-tomateiro (Tobamovirus: TMV; ToMV): --
+O sintoma típico (mosaico) é a formação de manchas amareladas entremeadas com manchas verde-claras ou escuras em folhas alongadas e retorcidas. Os frutos ficam pequenos e no seu interior apresentam manchas escuras. Em temperaturas elevadas os sintomas podem ser mascarados. Não têm vetor natural; a transmissão ocorre facilmente por meios mecânicos (mãos ou ferramentas contaminadas utilizadas principalmente na desbrota). Espécies relacionadas: Tobacco mosaic virus; Tomato mosaic virus.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

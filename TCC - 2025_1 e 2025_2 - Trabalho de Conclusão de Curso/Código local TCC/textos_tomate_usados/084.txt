@@ -1,0 +1,22 @@
+Título: TOMATE - Tratos Culturais - Poda apical, Desponte ou Capação
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=084&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1996%5D%7B485%7Dv4-900px-prune-tomatoes-step-9.jpg
+
+-- Informações gerais: --
+A poda apical é prática realizada pela grande maioria dos produtores. Apesar dos seus benefícios, pesquisas científicas indicam que a manutenção do crescimento da planta, sem desponte, removendo apenas os cachos acima do sexto cacho considerado útil, proporciona aumento na produção de frutos de tamanho grande. Do ponto de vista comercial, esse indicativo é muito importante, pois o mercado consumidor paga melhores preços por frutos de tamanho maior, o que aumenta a rentabilidade do produtor (1).
+
+-- Benefícios: --
+- Redução do ciclo da cultura; - Facilidade de execução dos tratos culturais; - Redução e maior segurança na aplicação de defensivos;
+
+-- Como fazer: --
+Deve-se utilizar um objeto cortante, como uma navalha de barbear fixada em uma haste, ou uma faca afiada, deixando-se em imersão de hipoclorito de sódio a 50% para evitar a transmissão de doenças de uma planta para outra.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1996%5D%7B419%7Dv4-900px-prune-tomatoes-step-9.jpg
+Legenda: Capação do tomateiro após a emissão do sexto ou sétimo cacho. Podar-Tomates
+
+-- Quando fazer a poda apical: --
+Fazer a poda apical quando as hastes das plantas apresentarem de seis a sete cachos cada haste, ou quando ultrapassarem a altura do tutor. Deixar duas a três folhas acima do sexto/sétimo cacho.
+
+-- Informações Complementares --
+(1) SILVA, D.J.; VALE, F.X.R. Tomate: tecnologia de produção. Viçosa, MG: UFV; Brasília, D.F., Ministério do Desenvolvimento Agrário, 2007. 355p. il; 23 cm. Mueller, S.; Wamser, A.F. Manejo de plantas na produção integrada de tomate tutorado. In: Becker et al. Sistema de Produção Integrada para o tomate tutorado em Santa Catarina. Florianópolis: Epagri, 2016. Cap.3. p.27-39

@@ -1,0 +1,14 @@
+Título: 1) REGULAMENTAÇÃO - 7) Identificação do produto e do produtor orgânico
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012237&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_alface.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6637%5D%7B77%7D10.jpg
+O Mapa mantém um cadastro nacional de produtores orgânicos que permite identificar as unidades de produção orgânicas (UPO) que atendem às normativas, a sua distribuição no País e a modalidade de controle e certificação da conformidade. Todas as informações são fornecidas pelos organismos de controle. Quanto à dentificação dos produtos orgânicos, o selo do Sistema Brasileiro de Avaliação da Conformidade Orgânica, SisOrg Orgânico Brasil (Figura 10), somente poderá ser utilizado nos produtos orgânicos certificados oriundos de unidades de produção controladas por OPAC ou OCS.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6637%5D%7B188%7D10.jpg
+Legenda: Selo SisOrg Orgânico Brasil.Fonte: Morales et al., 2019.
+
+-- O uso do selo deve obedecer aos seguintes requisitos: --
+I - a tipografia usada na construção do selo é a Helvetica Neue Bold; II - para preservar a legibilidade do selo não é permitido reduzir sua aplicação a medidas inferiores a 2,5 cm; III - fica estabelecida a área delimitada em volta do selo como área de respiro, onde não podem ser aplicados quaisquer desenhos, fotos ou textos; IV - para definir as proporções entre os elementos que constituem o selo e a área de respiro fica estabelecido o módulo de referência X, na forma do Anexo IV, desta Instrução Normativa, sendo que o X equivale à altura da letra “I” da palavra ORGÂNICO; V - o fundo da área de respiro deve ser transparente, permitindo que a cor do rótulo prevaleça; VI - a identificação do sistema de avaliação da conformidade orgânica (sistema participativo ou certificação por auditoria) é aplicada na área de respiro e pode ser nas cores preta ou branca, de forma a permitir melhor visualização; VII - o selo deve ser aplicado na rotulagem do produto, buscando não poluir nem encobrir nenhuma informação, sendo vedadas sua associação à marca comercial e sua aplicação na forma de etiqueta.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

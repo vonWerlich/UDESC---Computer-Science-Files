@@ -1,0 +1,26 @@
+Título: TOMATE - Fitossanidade - Vírus - Crinivírus (Tomato chlorosis vírus - ToCV)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07430&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6700%5D%7B356%7D5.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6700%5D%7B486%7D11.jpg
+Legenda: Sintomas de crinivirus. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6700%5D%7B61%7D10.jpg
+Legenda: Sintomas do crinivírus, que podem ser confundidos com deficiências nutricionais. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6700%5D%7B217%7D5.jpg
+Legenda: Sintomas típicos da doença. https://agristar.com.br/topseed-premium/dicas/?d=true&Id=20
+
+-- INFORMAÇÕES GERAIS: --
+- O vírus do gênero do Crinivírus está em plena expansão no Brasil, não existindo variedades resistentes até o momento, pois é um vírus que ainda pouco se conhece, principalmente sobre o seu exato nível de dano econômico e toda a sua epidemiologia (1). - É conhecida como vírus da clorose ou amarelão e foi relatada recentemente no Brasil. A espécie identificada é Tomato chlorosis vírus (ToCV), que também é transmitida pelas moscas brancas Bemisia tabaci Biótipo A e B , Trialeurodes abutilonea e Trialeurodes vaporariorum (1). - Em infecções precoces os prejuízos são muito maiores (2). - Ocorre em todos os estados brasileiros (onde está a mosca-branca, esse vírus também está) (2).
+
+-- SINTOMAS: --
+Os sintomas típicos são clorose generalizada, iniciando pelas folhas baixeiras (folhas velhas), sendo muito comum ser confundida no início com deficiência de Magnésio . Porém esta clorose evolui para toda a planta com um aspecto de amarelão generalizado, por isso o nome ‘amarelão do tomateiro’ (1). - A diagnose pode ser dificultada devido a ocorrência de bacterioses, que também ocorrem no extrato baixeiro da planta (2).
+
+-- PLANTAS HOSPEDEIRAS: --
+Geralmente as hospedeiras do TGMV pertecem à família das Solanaceae (1), mas a gama de hospedeiros é considerada grande, podendo atacar plantas daninhas, como: joá-de-capote (Nicandra physaloides) , Caruru-rasteiro (Amaranthus deflexus) e Crisântemo (Dendranthema grandiflorum) .
+
+-- PODE SER CONFUNDIDO COM: --
+Viroses - Geminivírus: Os seus sintomas são conhecidos como mosaico dourado, bem típico como: Clorese internerval, deformações, redução do tamanho foliar e dependendo do nível de infestação pode paralisar o crescimento da planta (nanismo) (1).
+
+-- Informações Complementares --
+(1) InfoWEB: THIAGO THEODORO - ESPECIALISTA EM TOMATES E PIMENTÕES Agristar. https://agristar.com.br/topseed-premium/dicas/?d=true&Id=20 . (2) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Alice Kazuko Inoue-Nagata. Tema: Embrapa Hortaliças e o manejo de viroses em tomateiro. Data do evento: 14/09/2020. Para informações na íntegra, acessar: https://youtu.be/sgDHRSl-FeI .

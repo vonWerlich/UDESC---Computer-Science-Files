@@ -1,0 +1,363 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+
+    
+    
+            
+
+    <script>
+        var acaoBotao = '0';
+        var palavraChave = 0;
+        
+        function selecionado(cdEstrutura, nmEstrutura) {
+            var isEdicao = 'N';
+            var paramEpagriTEC = '&epagriTEC=S';
+            if ( acaoBotao === '0' ) {
+               //jqTravaPagina(null,null,null);                
+               location.href='../sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao + paramEpagriTEC;
+            } 
+            if ( acaoBotao === 'inserirEstrutura' ) {
+               acaoBotao = '0';                
+               url = '/sedimob/sedimob/cadastroGenericoCampoTexto.jsp?cdEstrutura=' + cdEstrutura.toString().trim() + '&dsTabela=agrowiki_estrutura';
+               abreDialog(true, 'Inserir subnível', url, 'Fechar', false,600,220);                  
+            } 
+            if ( acaoBotao === 'renomearEstrutura' ) {
+               acaoBotao = '0';                
+               url = '/sedimob/sedimob/cadastroGenericoCampoTexto.jsp?cdEstrutura=013156&cdChave=' + cdEstrutura.toString().trim() + '&dsTabela=agrowiki_estrutura';
+               abreDialog(true, 'Renomear item', url, 'Fechar', false,600,220);                  
+            }     
+            if ( acaoBotao === 'alterarEstruturaHierarquia' ) {
+               acaoBotao = '0';                
+               url = '/sedimob/sedimob/manutencaoElementoHierarquia.jsp?cdEstrutura=013156&cdChave=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao;
+               abreDialog(true, 'Reposicionar Hierarquia', url, 'Fechar', false,600,250);                  
+            }               
+            if ( acaoBotao === 'removerEstrutura' ) {
+               acaoBotao = '0';
+               var cdEstruturaSuperior = '0';
+               cdEstruturaSuperior=013156;
+
+               if ( confirm('Deseja realmente remover o item?') ) {
+                  location.href='../sedimob/consulta.action?subFuncao=removerEstrutura&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao + 
+                                '&cdEstruturaSuperior=' + cdEstruturaSuperior; 
+               }
+            }   
+            if ( acaoBotao === 'inserirElemento' ) {
+               acaoBotao = '0';
+               
+                     if ( confirm('Deseja realmente cadastrar conteúdo dentro deste item?') ) {
+                        location.href='../sedimob/consulta.action?subFuncao=inserirElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao;
+                     } 
+                   
+            } 
+
+            if ( acaoBotao === 'vincularElemento' ) {
+                acaoBotao = '0';
+                url = '/sedimob/sedimob/cadastroGenericoCampoTexto.jsp?cdEstrutura=' + cdEstrutura.toString().trim() + '&dsTabela=agrowiki_estrutura_associa_elemento';
+                abreDialog(true, 'Vincular Elemento', url, 'Fechar', false,600,250);                     
+            } 
+
+            if ( acaoBotao === 'trocarImagemElemento' ) {
+                  acaoBotao = '0';
+                  var cdEstruturaSuperior = '0';
+                  cdEstruturaSuperior=013156;
+
+                  url = '/sedimob/sedimob/cadastroEstruturaImagem.jsp?cdEstrutura=' + cdEstruturaSuperior + '&cdEstruturaParaAtualizar=' + cdEstrutura.toString().trim();                
+                  abreDialog(true, 'Trocar imagem', url, 'Fechar', false,600,250);                  
+            }
+
+            if ( acaoBotao === 'cadastrarPalavraChave' ) {
+                  acaoBotao = '0';
+                  url = '/sedimob/sedimob/janelaSelecionaPalavrasChave.jsp?cdEstrutura=' + cdEstrutura + '&cdEstruturaSuperior=013156';                  
+                  abreDialog(true, 'Palavras-Chave: ' + nmEstrutura, url, 'Fechar', false,800,650);                  
+            }
+            if ( acaoBotao === 'visibilidadeEstrutura' ) {
+               acaoBotao = '0';
+               var cdEstruturaSuperior = '0';
+               cdEstruturaSuperior=013156;
+
+               if ( confirm('Deseja realmente alterar a visibilidade do item?') ) {
+                  location.href='../sedimob/consulta.action?subFuncao=visibilidadeEstrutura&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao + 
+                                '&cdEstruturaSuperior=' + cdEstruturaSuperior; 
+               }
+            }   
+            if ( acaoBotao === 'visibilidadeEstruturaEpagriTEC' ) {
+               acaoBotao = '0';
+               var cdEstruturaSuperior = '0';
+               cdEstruturaSuperior=013156;
+
+               if ( confirm('Deseja realmente alterar a visibilidade do item no EpagriTEC?') ) {
+                  location.href='../sedimob/consulta.action?subFuncao=visibilidadeEstruturaEpagriTEC&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=' + isEdicao + 
+                                '&cdEstruturaSuperior=' + cdEstruturaSuperior; 
+               }              
+            }   
+            if ( acaoBotao === 'vinculaEpagriTec' ) {
+               acaoBotao = '0';
+               var cdEstruturaSuperior = '0';
+               cdEstruturaSuperior=013156;
+
+               url = '/sedimob/sedimob/cadastroVinculaEpagriTecEstrutura.jsp?cdEstrutura=' + cdEstruturaSuperior + '&cdEstruturaParaAtualizar=' + cdEstrutura.toString().trim();                
+               abreDialog(true, 'EpagriTEC ' + nmEstrutura, url, 'Fechar', false,600,250);                  
+            }               
+        }
+        
+        function editarElemento() {
+           // alert('Editar elemento');
+           // Não é necessário fazer nenhuma ação. O sistema já direciona para a tela de edição.
+        }
+        function cadastrarElemento() {
+           acaoBotao = 'inserirElemento'; 
+        }
+        function vincularElemento() {
+           acaoBotao = 'vincularElemento'; 
+        }        
+        function trocarImagemElemento() {
+           acaoBotao = 'trocarImagemElemento';             
+        }
+        
+        function inserirEstrutura() {
+           acaoBotao = 'inserirEstrutura';      
+        }
+        
+        function removerEstrutura() {
+           acaoBotao = 'removerEstrutura';      
+        }
+        function renomearElemento() {
+           acaoBotao = 'renomearEstrutura'; 
+        }        
+        function alterarEstruturaHierarquia() {
+           acaoBotao = 'alterarEstruturaHierarquia'; 
+        }      
+        
+        function cadastrarPalavraChave() {
+           acaoBotao = 'cadastrarPalavraChave';      
+        }
+        function visibilidadeEstrutura() {
+           acaoBotao = 'visibilidadeEstrutura';      
+        }
+        function visibilidadeEstruturaEpagriTEC() {
+           acaoBotao = 'visibilidadeEstruturaEpagriTEC';      
+        }        
+        function vinculaEpagriTec() {
+           acaoBotao = 'vinculaEpagriTec';      
+        }        
+        
+        function removePalavraChave(cdPalavraChave) {
+           var cdEstruturaSuperior = '0';
+           cdEstruturaSuperior=013156;
+
+           if ( confirm('Deseja realmente remover a palavra-chave?') ) {
+                  location.href='../sedimob/consulta.action?subFuncao=removerEstruturaPalavraChave&cdPalavraChave=' + cdPalavraChave + '&isEdicao=S' + 
+                                '&cdEstruturaSuperior=' + cdEstruturaSuperior; 
+           } else {
+              location.href='consulta.action?subFuncao=consultaDiagnostico&cdEstrutura='+ cdEstruturaSuperior +'&isEdicao=S';    
+           }    
+        }
+        
+        function inserirNaListaAtual(cdEstruturaSuperior) {
+            
+                url = '/sedimob/sedimob/cadastroGenericoCampoTexto.jsp?cdEstrutura=' + cdEstruturaSuperior + '&dsTabela=agrowiki_estrutura';
+                
+            abreDialog(true, 'Inserir item na lista', url, 'Fechar', false,600,220);                  
+        }
+        
+        function inserirDiagnoseVisual(cdEstruturaSuperior) {
+            url = '/sedimob/consulta.action?subFuncao=salvarDiagnoseVisual&cdEstruturaSuperior=' + cdEstruturaSuperior;
+            if ( confirm('Deseja realmente criar a DIAGNOSE VISUAL aqui?') ) {            
+               location.href = url;
+            }
+        }
+        
+    dadosTabela = [
+
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>SCS119 Rubi </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11461]{131}scs119_caput.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 13207 </font>",
+                  "nome":   "<font style='font-size: 0px;'> SCS119 Rubi   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>SCS120 Ônix </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11462]{324}scs120_caput.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 13208 </font>",
+                  "nome":   "<font style='font-size: 0px;'> SCS120 Ônix   </font>"               
+                }
+         
+,
+         
+                { 
+                  "texto":  " <font color='#555555'> <table style='width: 113%;' cellspacing='0' cellpadding='0'><tr> <td style='width: 90%;'><b>SCS123 Pérola </b> </td><td style='width: 100%;'> <img style='width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;' src='http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11463]{211}scs123_caput.jpg'/> </font> </td></tr></table>", 
+                  "codigo": "<font style='font-size: 0px;'> 13209 </font>",
+                  "nome":   "<font style='font-size: 0px;'> SCS123 Pérola   </font>"               
+                }
+         
+ 
+    ];
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           // Mostra a quantidade de itens selecionados no accordion superior quando a tela tem filtro avançado
+           $("body").on('DOMSubtreeModified', "#consultaEstruturaTable_info", function() {
+               document.getElementById("accordionTop").innerHTML = document.getElementById("consultaEstruturaTable_info").innerHTML.replace('itens','ocorrências');                        
+           });                
+           $("#consultaEstruturaTable").DataTable( {
+             "aaData": dadosTabela,               
+             "order": [],               
+             "paging":    false,
+             "info":      true,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " ", "sInfo": " _TOTAL_ itens", sInfoFiltered:"(de um total de _MAX_ )", sInfoEmpty:" 0 itens" },
+             "aoColumns": [
+                   { "mDataProp": "texto" },
+                   { "mDataProp": "codigo" },
+                   { "mDataProp": "nome" }                   
+              ],             
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill",
+                 collapsible: true                 
+                 //,activate: function( event, ui ) {
+                 //   if(!$.isEmptyObject(ui.newHeader.offset())) {
+                 //    $('html:not(:animated), body:not(:animated)').animate({ scrollTop: ui.newHeader.offset().top - 100}, 'fast');
+                 //  }
+                 //}                 
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 100,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });              
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Filtrar lista').
+              css({'padding-left':'25px','width':'95vw','display':'inline-block','background-image':'url("../sedimob/img/lupaSearchBox.png")','background-repeat':'no-repeat','background-position':'3px 7px'});         
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaEstruturaTable tr").css('cursor', 'pointer');           
+           $('#consultaEstruturaTable tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                var nomeSel2 = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(2);                    
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel, nomeSel2);
+           });             
+      
+        });    
+     
+  
+        
+      // SCRIPTS seleção de palavra-chave  
+        var itensSelecionados = "";
+        var retornoSelecionados = "";
+        function selecionadoPChave(cdSel) {
+            var novoItem = "[" + cdSel + "] ";
+            // Impede que insira um mesmo item duas vezes
+            if (itensSelecionados.indexOf(novoItem) === -1) {
+               itensSelecionados = itensSelecionados + novoItem;
+               retornoSelecionados = retornoSelecionados + cdSel + "\n";            
+            }
+            document.getElementById("selecionados").innerHTML = itensSelecionados ;
+        }
+        function removerItem(itemRemover) {
+            itensSelecionados = itensSelecionados.replace("[" + itemRemover + "] ","");    
+            retornoSelecionados = retornoSelecionados.replace(itemRemover + "\n","");
+            if ( itensSelecionados.length > 3 ) {
+              document.getElementById("selecionados").innerHTML = itensSelecionados ;    
+            } else {
+              document.getElementById("selecionados").innerHTML = "nenhum item";                           
+            }  
+        }
+        
+        function selecionaItem(id, idGrupo) {
+           //alert( document.getElementById(id).style.backgroundColor.toString() == '' || document.getElementById(id).style.backgroundColor.toString() === 'rgb(255, 255, 255)'); 
+           if ( document.getElementById(id).style.backgroundColor.toString() === '' || document.getElementById(id).style.backgroundColor.toString() === 'rgb(255, 255, 255)' ) {
+              document.getElementById(id).style.backgroundColor='#addbbb';
+              selecionadoPChave(id);                            
+           } else {  
+              document.getElementById(id).style.backgroundColor='#ffffff';               
+              removerItem(id);                            
+           }
+           // O espaço é adicionado abaixo para que o texto com os códigos não apareça no campo de busca da tabela
+           var searchText = '                                                                                                                                                                          ' + itensSelecionados;
+           var table = $("#consultaEstruturaTable").DataTable();
+           table.search(searchText).draw();
+        
+        }
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -20px; width: 100%;  height: 84vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead { display:none;}    
+       
+        #consultaEstruturaTable .even { background-color: #FFFFFF }
+        #consultaEstruturaTable .odd { background-color: #FFFFFF }       
+    </style>
+    
+<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+<style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }            @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                   @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+</style> 
+
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+ 
+
+ <div data-role="header" style="background-color: white; height: 55px;  box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td> 
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>            
+        </tr> 
+    </tbody></table>
+ </div>  
+
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13031&amp;isEdicao=N&amp;epagriTEC=S">ARROZ IRRIGADO</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13151&amp;isEdicao=N&amp;epagriTEC=S">08. Cultivares</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13153&amp;isEdicao=N&amp;epagriTEC=S">Portfólio de cultivares Epagri</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13156&amp;isEdicao=N&amp;epagriTEC=S">   Cultivares de tipos especiais de arroz</a> </font><br> </div>
+
+  
+  
+   
+  
+
+  <div style="padding-left: 5px; padding-top: 0px; padding-bottom: 0px; font-family: Arial; font-weight: bold; font-size: 16px;"> 
+      <div id="consultaEstruturaTable_wrapper" class="dataTables_wrapper no-footer"><div id="consultaEstruturaTable_filter" class="dataTables_filter"><label> <input type="search" class="" placeholder="Filtrar lista" aria-controls="consultaEstruturaTable" style="padding-left: 25px; width: 95vw; display: inline-block; background-image: url(&quot;../sedimob/img/lupaSearchBox.png&quot;); background-repeat: no-repeat; background-position: 3px 7px;"></label></div><table id="consultaEstruturaTable" class="display dataTable no-footer" cellspacing="0" width="100%" style="font-family: Arial; font-size: 14px; color: green; width: 100%;" role="grid" aria-describedby="consultaEstruturaTable_info">    
+       <thead>
+           <tr style="height: 0px; font-size: 0px; cursor: pointer;" role="row"><td style="width: 0px;" class="sorting" tabindex="0" aria-controls="consultaEstruturaTable" rowspan="1" colspan="1" aria-label=" : activate to sort column ascending"> </td><td style="width: 0px;" class="sorting" tabindex="0" aria-controls="consultaEstruturaTable" rowspan="1" colspan="1" aria-label="  : activate to sort column ascending">  </td><td style="width: 0px;" class="sorting" tabindex="0" aria-controls="consultaEstruturaTable" rowspan="1" colspan="1" aria-label="  : activate to sort column ascending">  </td></tr>              
+       </thead>
+       <tbody>
+                    
+       <tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>SCS119 Rubi </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11461]{131}scs119_caput.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 13207 </font></td><td><font style="font-size: 0px;"> SCS119 Rubi   </font></td></tr><tr role="row" class="even" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>SCS120 Ônix </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11462]{324}scs120_caput.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 13208 </font></td><td><font style="font-size: 0px;"> SCS120 Ônix   </font></td></tr><tr role="row" class="odd" style="cursor: pointer;"><td> <font color="#555555"> <table style="width: 113%;" cellspacing="0" cellpadding="0"><tbody><tr style="cursor: pointer;"> <td style="width: 90%;"><b>SCS123 Pérola </b> </td><td style="width: 100%;"> <img style="width: 50px; height: 50px; margin-top: -15px; margin-bottom: -15px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11463]{211}scs123_caput.jpg">  </td></tr></tbody></table></font></td><td><font style="font-size: 0px;"> 13209 </font></td><td><font style="font-size: 0px;"> SCS123 Pérola   </font></td></tr></tbody>    
+     </table><div class="dataTables_info" id="consultaEstruturaTable_info" role="status" aria-live="polite"> 3 itens</div></div>  
+  </div>  
+
+  
+        
+  
+  
+  
+  
+</div>    
+
+
+        
+
+</body></html>

@@ -1,0 +1,40 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Enrolamento do arroz (Rice stripe necrosis virus)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021647&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11377%5D%7B35%7Dvirusenrola_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11377%5D%7B33%7Dvirusenrola_fig01.jpg
+Legenda: 01. Planta com sintomas do enrolamento do arroz. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11377%5D%7B153%7Dvirusenrola_fig02.jpg
+Legenda: 02. Sintomas iniciais do enrolamento do arroz. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11377%5D%7B26%7Dvirusenrola_fig03.jpg
+Legenda: 03. Planta em solo seco com sintomas do enrolamento do arroz. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11377%5D%7B245%7Dvirusenrola_fig04.jpg
+Legenda: 04. Sintoma severos de enrolamento do arroz. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11377%5D%7B292%7Dvirusenrola_fig05.jpg
+Legenda: 05. Plantas com sintomas de enrolamento na lavoura. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11377%5D%7B516%7Dvirusenrola_fig06.jpg
+Legenda: 06. Plantas com sintomas de enrolamento na lavoura. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11377%5D%7B183%7Dvirusenrola_fig07.jpg
+Legenda: 07. Lavoura com sintomas do virus do enrolamento. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11377%5D%7B10%7Dvirusenrola_fig08.jpg
+Legenda: 08. Reboleira de enrolamento do arroz na lavoura. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11377%5D%7B64%7Dvirusenrola_fig09.jpg
+Legenda: 09. Panícula retorcida pela ação do virus do enrolamento. Fonte: K.K.Scheuermann
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: virus RSNV ( Rice stripe necrosis virus ). O vírus RSNV é transmitido pelo protozoário Polymyxa graminis , que é um microorganismo habitante natural do solo. A doença está presente na região Sul do Brasil desde 2002, sendo recentemente descrita também no Estado de Goiás.
+
+-- SINTOMAS: --
+Os sintomas podem ser observados a partir de 20 dias após a semeadura. As plantas apresentam listras cloróticas (amarelas) nas folhas, as quais ficam retorcidas, culminando em muitos casos com a morte da planta. Em alguns casos, observa-se apenas plantas com subdesenvolvimento, com perfilhamento reduzido. Os sintomas também podem ser observados nas panículas, que ficam retorcidas, tal como as folhas. Até o momento não foi verificada a transmissão do vírus RSNV por sementes.
+
+-- CONDIÇÕES FAVORÁVEIS: --
+• Movimentação de solo entre áreas - máquinas e implementos podem levar partículas de solo contendo o vetor de áreas infestadas, para áreas livres da doença. • Cultivo em solo seco.
+
+-- CONTROLE: --
+• Restringir o trânsito de máquinas e equipamentos sujos de terra entre lavouras. • Manter uma lâmina de água nos quadros por pelo menos uma semana antes da semeadura e depois durante todo o ciclo da cultura. Nota: apesar de não se dispor de cultivares com resistência completa à doença, níveis de resistência podem ser observados entre os materiais, especialmente quando possuem Oryza glaberrima em sua genealogia, a qual é uma fonte de resistência à doença.
+
+-- Controle químico: --
+Não há tratamento químico para a doença, nem tampouco para o vetor.
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.

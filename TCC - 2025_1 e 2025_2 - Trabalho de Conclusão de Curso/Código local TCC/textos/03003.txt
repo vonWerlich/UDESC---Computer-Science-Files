@@ -1,0 +1,23 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - K) PRINCIPAIS PRAGAS E SEU CONTROLE - i) Pulgões (Myzus persicae e Macrosiphum euphorbiae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03003&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2769%5D%7B375%7Dcapa_1.jpg
+
+-- Reconhecimento dos danos: --
+Os danos diretos ocasionados pela sucção da seiva são considerados insignificantes. Os principais danos são os indiretos, ocasionados por adultos alados, que transmitem e disseminam diversas viroses, tais como topo-amarelo, vírus Y e amarelo-baixeiro. As plantas infectadas pelo vírus do topo-amarelo apresentam redução no crescimento e clorose na borda das folhas novas, que enrolam como se fossem pequenas colheres. As infectadas pelo vírus Y apresentam pontuações amarelas nas folhas novas, cujas nervuras mantêm a coloração verde-escura. Já as plantas com amarelo-baixeiro apresentam as folhas de baixo do dossel com coloração amarelada. Apesar de esporádica, a ocorrência dessas viroses pode causar surtos epidêmicos. A transmissão do topo-amarelo e amarelo-baixeiro é do tipo persistente ou circulativa, ou seja, uma vez adquirido o vírus, o pulgão passa a transmiti-lo por toda a vida. Já a do vírus Y é do tipo não persistente.
+
+-- Método de amostragem: --
+Batedura de um ponteiro por planta, sobre um recipiente plástico de fundo branco para a quantificação de insetos.
+
+-- Nível de ação: --
+Ataque de 10% dos ponteiros amostrados ou 1(um) adulto/ponteiro, em média, das plantas amostradas.
+
+-- Principais inimigos naturais: --
+Percevejos (Orius e Geocoris), bicho-lixeiro (Chrysopa e Chrysoperla), vespas parasitoides (Aphelinus mali, Encarsia e Eretmocerus), tesourinhas, joaninhas (Cycloneda sanguinea e Hippodamia convergens), sirfídeos.
+
+-- Métodos de controle: --
+• Adquirir mudas registradas e de procedência confiável; • Utilizar variedades resistentes a viroses; • Cobrir a sementeira com tule para evitar a entrada de adultos; • Evitar plantios escalonados e próximos a outras solanáceas e plantas espontâneas, tais como maria-pretinha, guanxuma e fedegoso; • Realizar desbaste fitossanitário e eliminar as plantas infectadas por vírus; • Utilizar armadilhas adesivas de coloração amarelo-ouro para monitoramento e controle de adultos; • Em cultivos protegidos, deve-se eliminar os restos da cultura e fazer a limpeza e a desinfestação das estufas; • Usar, quando necessário, inseticida com seletividade aos inimigos naturais; • Fazer rotação de agrotóxicos, conforme o modo de ação e o grupo químico; • Eliminar os restos da cultura após a colheita; • Fazer rotação de culturas.
+
+-- Informações Complementares --
+Informações retiradas na íntegra da obra: Janaína Pereira dos Santos in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

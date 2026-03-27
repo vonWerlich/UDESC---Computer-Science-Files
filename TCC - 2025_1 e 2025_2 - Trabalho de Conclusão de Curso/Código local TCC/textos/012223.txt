@@ -1,0 +1,30 @@
+Título: 6) TELAS ANTI-INSETO NAS LATERAIS DOS ABRIGOS
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012223&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6690%5D%7B413%7D58.jpg
+
+-- OBJETIVO: --
+O uso de telas anti-insetos nas laterais e frontais no abrigo tem como objetivo principal evitar a entrada de pragas dentro da estrutura. Segundo Schallenberger (2005), o uso de telas anti-insetos nas laterais dos abrigos de cultivo proporciona redução na ocorrência de pragas do tomateiro no interior dos abrigos.
+
+-- POSSÍVEIS PROBLEMAS: --
+O uso das telas pode provocar aumento da temperatura no interior dos abrigos e redução da ventilação.
+
+-- ESPESSURA DE MALHA (1): --
+O fechamento das laterais com tela anti-insetos tipo clarite (malha de 2,0x2,0mm) é benéfica para o tomateiro, pois favorece uma boa ventilação. Contudo, nessa espessura de malha, a traça-do-tomateiro consegue adentrar no interior do abrigo, o que pode provocar danos nas plantas. A tela antiafídica (malha de 0,5x0,5mm), que também barra a entrada de pragas, apresenta aumento consistente da temperatura e redução da ventilação, refletindo em redução da produtividade de frutos, além de ter um custo mais elevado. Por outro lado, a tela tipo citrus (malha de 1,0x1,0mm) provoca pouca redução da ventilação e pequeno aumento da temperatura dentro do abrigo (Figura 44). Porém, nessa malha, as pragas supracitadas não conseguem entrar no abrigo, o que traz segurança ao produtor no manejo do cultivo. Levando-se em consideração os três tipos de telas, a do tipo citrus, com malha de 1,0x1,0mm, é a que apresenta resultados mais satisfatórios, não limitando o crescimento vegetativo do tomateiro e impossibilitando a entrada de pragas no cultivo (Schallenberger, 2005) (Figura 45). Assim, para o fechamento das quatro extremidades do abrigo, recomenda-se fixar a tela tipo citrus (malha de 1,0x1,0mm), ou com malha (mesh) semelhante, inclusive no oitão, para otimizar a produção dentro desses ambientes.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6690%5D%7B244%7D58.jpg
+Legenda: Abrigo de cultivo fechado lateralmente com tela tipo citrus, com malha de 1,0x1,0mm. Foto: Euclides Schallenberger
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6690%5D%7B332%7D57.jpg
+Legenda: Tela lateral do tipo clarite (esquerda), tipo citrus (centro) e anti-inseto (direita) para revestimento lateral e frontal dos abrigos de cultivo. Fonte: www.ginegar.com.br / 2019.
+
+-- Tela nas laterais x polinizadores: --
+Dependendo do cultivo, as telas nas laterais podem favorecer ou prejudicar a polinização dos cultivos. Culturas em que predominam a autofecundação, como é o caso do tomateiro, pouco são prejudicadas pelo uso de telas nas laterais (Para saber mais sobre esse tema, clicar aqui!). Culturas em que a produção se dá pela colheita de frutos partenocárpicos, como é o caso do pepino para picles, são beneficiadas pela ausência de polinizadores. Por outro lado, culturas como o morangueiro, que aumentam a produtividade devido aos agentes polinizadores, apresentam prejuízos quanto ao uso da tela, inclusive influenciando no formato do fruto. Assim, cada cultura merece uma análise específica para determinar a viabilidade do uso de telas nas laterais para o seu cultivo.
+
+-- Telas pretas nas laterais: --
+A utilização de telas pretas nas laterais do abrigo não traz vantagens para o cultivo. Além de não impedir a passagem de insetos, devido ao tamanho da trama da tela, ela ainda provoca acúmulo de calor, por causa da sua coloração, além de impedir uma ventilação mais adequada. Assim, deve-se eliminar esse tipo de tela das laterais dos abrigos.
+
+-- Cuidados com buracos nas telas: --
+Cabe ressaltar que o uso de tela anti-insetos é muito útil como ferramenta auxiliar no controle de pragas nos cultivos dentro de abrigos. No entanto, ela é um dos itens que aumenta o custo de construção. Assim, seu uso deve ser feito com cuidados, pois basta deixar a porta de acesso aberta, a tela com rasgos, ou aberturas no plástico, para que ela perca sua eficácia no controle de pragas.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

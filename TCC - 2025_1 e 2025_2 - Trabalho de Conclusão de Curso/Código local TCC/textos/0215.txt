@@ -1,0 +1,22 @@
+Título: TOMATE - Cultivares - Pizzadoro F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0215&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B114%5D%7B223%7Dpizzadoro.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Nunhems; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Pst - Pseudomonas syringae pv. tomato; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Tomate tipo saladete indeterminado. Precocidade e alta produtividade. Frutos com excelente aceitação no mercado. Híbrido líder no segmento. Excelente pós-colheita. Coloração vermelha intensa.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B114%5D%7B55%7Dpizzadoro-2.jpg
+Legenda: Descrição do cultivarnull
+
+-- RESISTÊNCIA: --
+VFFNTmPst.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.nunhems.com/br/pt.html ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.nunhems.com/br/pt.html.

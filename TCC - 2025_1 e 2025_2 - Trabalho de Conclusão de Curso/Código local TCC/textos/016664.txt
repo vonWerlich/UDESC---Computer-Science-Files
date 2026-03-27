@@ -1,0 +1,30 @@
+Título: CEBOLA - Manejo de doenças - Virose (Iris yellow spot orthotospovirus)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016664&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12410%5D%7B66%7Diysv_principal.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12410%5D%7B381%7Diysv_principal.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Edivânio R. de Araújo e Renata S. Resende
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12410%5D%7B350%7Diysv_3.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Edivânio R. de Araújo e Renata S. Resende
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12410%5D%7B118%7Diysv_2.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Edivânio R. de Araújo e Renata S. Resende
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12410%5D%7B521%7Diysv_1.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Edivânio R. de Araújo e Renata S. Resende
+
+-- SINTOMAS: no pendão floral --
+Manchas amarelas ou verde-claras, em formato de losango, podendo ter o centro verde ou não.
+
+-- SINTOMAS: nas folhas --
+Pode-se observar manchas esbranquiçadas também em formato de losango. A queima ou “sapeca” generalizada das folhas, em um curto período de tempo, é o sintoma mais drástico da virose.
+
+-- HOSPEDEIROS: --
+Família Aliaceae e alguns hospedeiros alternativos, como os carurus (Amaranthus spp. A. lividus ; A. spinosus ; A. retroflexus ; A. deflexus ; A. hybridus ) são hospedeiros naturais desta doença.
+
+-- CONDIÇÕES CLIMÁTICAS FAVORÁVEIS: --
+Por ser transmitida por um vetor ( tripes ou piolho da cebola ) e porque as condições climáticas são mais relevantes para o inseto. Contudo, sabe-se que condições de estresse abiótico (seja por temperaturas muito elevadas e/ou estresse hídrico) tornam a severidade da doença mais intensa.
+
+-- CONTROLE: --
+Controle do tripes ; Controle de plantas invasoras; Uso adequado da adubação e irrigação.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

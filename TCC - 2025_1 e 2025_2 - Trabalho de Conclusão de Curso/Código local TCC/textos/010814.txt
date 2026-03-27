@@ -1,0 +1,29 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Mancha alvo (Corynespora cassiicola)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010814&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9755%5D%7B99%7Dmancha_alvo.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9755%5D%7B300%7Dmancha_alvo_2.jpg
+Legenda: Sintomas da doença em frutos. Foto: Valdir Lourenço Junior (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9755%5D%7B66%7Dmancha_alvo_3.jpg
+Legenda: Sintomas em frutos. Foto: Valdir Lourenço Junior (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9755%5D%7B410%7Dmancha_alvo.jpg
+Legenda: Sintomas nas folhas. Foto: Valdir Lourenço Junior (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+
+-- INFORMAÇÕES GERAIS: --
+- Mais importante na região norte do Brasil. - Possui uma ampla gama de hospedeiros (solanáceas, soja, feijão, dezenas de espécies cultivadas) (1). - É difícil de fazer o diagnóstico no campo pelos sintomas. Geralmente há a necessidade de envio de amostras para o laboratório (1).
+
+-- SINTOMAS: --
+- Lesões arredondadas, similares a Pinta preta, com anéis concêntricos (1). - Causa lesão em frutos (1).
+
+-- EPIDEMIOLOGIA: --
+- Condições favoráveis: 26 a 35°C e alta umidade do ar (1). - Dispersão: vento (1). - Sobrevivência: restos culturais, plantas voluntárias (1). - Plantas hospedeiras: ampla gama (1).
+
+-- Controle Cultural: --
+- Escolha do local de plantio, eliminação de restos culturais (1). - Não há cultivares resistentes.
+
+-- Controle Químico: --
+Não há fungicidas registrados para o controle dessa doença. Contudo, os fungicidas utilizados para o controle da pinta preta possivelmente tem um efeito significativo para o controle da mancha alvo (1).
+
+-- Informações Complementares --
+(1) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Valdir Lourenço Junior. Tema: Manejo de doenças causadas por fungos e oomicetos da parte aérea do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: https://youtu.be/nbTgf6CdmcY

@@ -1,0 +1,21 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas) - A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora) - A praga é uma ave granívora
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016927&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16889%5D%7B487%7Dchave_fig23.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas)
+A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora)
+A praga é uma ave granívora
+A ave é pequena, em torno de 15cm de comprimento
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16927%5D%7B8%7Dchave_fig28.jpg
+Legenda: A ave é pequena, em torno de 15cm de comprimento
+16936
+A ave é pequena, em torno de 15cm de comprimento
+A ave é maior, com 18 a 20cm de comprimento, do tipo pássaro-preto
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16927%5D%7B284%7Dchave_fig29.jpg
+Legenda: A ave é maior, com 18 a 20cm de comprimento, do tipo pássaro-preto
+16937
+A ave é maior, com 18 a 20cm de comprimento, do tipo pássaro-preto

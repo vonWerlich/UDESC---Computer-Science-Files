@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Imidacloprido
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016874&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Imidacloprido
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Imidacloprido; Nome comercial: Gaucho, Imidacloprid Nortox, Much, Picus, Siber,Sombrero; Grupo químico: Neonicotinoide; Dose de produto comercial (Tratamento de sementes): 350mL/100kg; Carência (dia): - Classe Toxicológica: 3 moderadamente tóxico (faixa amarela); 4 = pouco tóxico (faixa azul); 5 = improvável de causar dano agudo (faixa azul); Classe ambiental: III = perigoso;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”. Dose para 100kg de sementes. Produto não recomendado para uso no sistema pré-germinado.
+
+-- PRAGAS QUE CONTROLA: --
+Bicheira-da-raiz (Oryzophagus oryzae)
+
+-- Informações Complementares --

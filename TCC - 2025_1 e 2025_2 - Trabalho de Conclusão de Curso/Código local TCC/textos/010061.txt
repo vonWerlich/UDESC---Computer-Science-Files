@@ -1,0 +1,21 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Qualidade de água - Nitrito
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010061&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9157%5D%7B442%7Dnitrito.png
+
+-- IMPORTÂNCIA: --
+No solo ou na água, a amônia é oxidada por microrganismos para nitrito (NO 2 - ), e, posteriormente, nitrato (NO 3 - ). O nitrato tem baixa toxicidade e não será abordado nesse documento. Contudo, o nitrito apresenta alta toxicidade, podendo causar prejuízos no crescimento do peixe, e posteriormente levar à morte.
+
+-- MECANISMO DA TOXICIDADE: --
+O nitrito se liga no ferro (Fe) da hemoglobina presente no sangue do peixe e impede que esta carregue o oxigênio. Sendo assim, o principal sintoma de intoxicação por nitrito é o sangue marrom, resultante da oxidação do Fe da hemoglobina. Outro sintoma é a observação de peixes boquejando na superfície por falta de oxigênio, mesmo com níveis de oxigênio na água adequados.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9157%5D%7B281%7Dnitrito_1.png
+Legenda: Amostras de sangue de tilápias. A amostra da esquerda mostra o sangue de um peixe saudável, e a amostra da direita mostra o “sangue “marrom” de um peixe intoxicado por nitrito. Foto: Natalia C. Marchiori
+
+-- TOXICIDADE: --
+Em piscicultura, níveis de nitrito acima de 0,3mg por litro (em torno de 0,1mg N-NO 2 por litro) já podem trazer prejuízos no crescimento.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9157%5D%7B294%7Dnitrito.jpg
+Legenda: Tabela de toxicidade do nitritoBruno Corrêa da Silva
+
+-- Informações Complementares --
+Natalia Marchiori, Haluko Massago e Bruno Corrêa da Silva. Como monitorar e manejar a qualidade de água em viveiros de criação de tilápia. Cartilha (Epagri) SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

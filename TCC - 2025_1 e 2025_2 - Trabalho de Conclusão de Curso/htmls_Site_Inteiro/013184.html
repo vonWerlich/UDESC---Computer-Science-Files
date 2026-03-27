@@ -1,0 +1,315 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13031&amp;isEdicao=N&amp;epagriTEC=S">ARROZ IRRIGADO</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13127&amp;isEdicao=N&amp;epagriTEC=S">02. Caracterização da planta de arroz</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13184&amp;isEdicao=N&amp;epagriTEC=S">   Indicadores morfológicos do desenvolvimento da planta de arroz</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="11439">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="013184">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11439]{455}indmorf_02.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  Indicadores morfológicos da planta de arroz 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>INFORMAÇÕES GERAIS:</b><br>
+<p class="p1"><div> Para fins práticos, a caracterização da planta de arroz será feita a partir da identificação dos indicadores da planta com maior relevância para o manejo da lavoura e da resposta do arroz às condições climáticas em cada etapa do seu desenvolvimento. <br> </div></p>
+<b>INDICADORES MORFOLÓGICOS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Estes indicadores estão associados a alguns estádios do desenvolvimento da cultura, nos quais as plantas de arroz apresentam exigências específicas relacionadas ao clima, nutrição e proteção. Por sua importância, estes estádios são denominados <b>épocas-chave</b>, e sua correta identificação é fundamental para o adequado manejo do arroz irrigado.<br>
+As principais épocas-chave da cultura do arroz, seus indicadores morfológicos e seus períodos de ocorrência são apresentados a seguir. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INDICADORES GERMINATIVOS - ESTABELECIMENTO DA CULTURA:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Época-Chave: <b><i>EMERGÊNCIA DO COLEÓPTILO E RADÍCULA</i></b><br>
+Código na Escala de Counce: <b>S1</b><br>
+Indicador Morfológico: <b>coleóptilo/radícula visível com cerca de 3mm (figura abaixo)</b><br>
+Período de Ocorrência: <b>24 a 48h após a hidratação das sementes</b><br><br>
+Época-Chave: <b><i>EMERGÊNCIA DO PRÓFILO</i></b> (<b>ponto de agulha</b>)<br>
+Código na Escala de Counce: <b>S3</b><br>
+Indicador Morfológico: <b>prófilo visível (figura abaixo)</b><br>
+Período de Ocorrência: <b>5 a 15 dias após a semeadura ou emergência</b>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INDICADORES VEGETATIVOS - CRESCIMENTO DAS PLANTAS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Época-Chave: <b><i>INÍCIO DO PERFILHAMENTO</i></b><br>
+Código na Escala de Counce: <b>V4</b><br>
+Indicador Morfológico: <b>4 folhas visíveis (figura abaixo)</b><br>
+Período de Ocorrência: <b>20 a 30 dias após a semeadura ou emergência</b><br><br>
+Época-Chave: <b><i>PERFILHAMENTO PLENO</i></b><br>
+Código na Escala de Counce: <b>V8 / V9</b><br>
+Indicador Morfológico: <b>4 a 5 perfilhos visíveis (figura abaixo)</b><br>
+Período de Ocorrência: <b>45 a 55 dias após a semeadura ou emergência</b> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INDICADORES REPRODUTIVOS - FORMAÇÃO E EMISSÃO DAS PANÍCULAS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Época-Chave: <b><i>INICIAÇÃO DA PANÍCULA</i></b><br>
+Código na Escala de Counce: <b>R0</b><br>
+Indicador Morfológico: <b>1º entre-nó expandido cerca de 1,5cm
+(um dedo) (figura abaixo)</b><br>
+Período de Ocorrência: <b>65 a 80 dias após a semeadura ou emergência</b><br><br>
+Época-Chave: <b><i>EMBORRACHAMENTO</i></b><br>
+Código na Escala de Counce: <b>R2</b><br>
+Indicador Morfológico: <b>emissão da folha bandeira e expansão da porção medial do colmo (figura abaixo)</b><br>
+Período de Ocorrência: <b>70 a 95 dias após a semeadura ou emergência</b><br><br>
+Época-Chave: <b><i>FLORAÇÃO 5%</i></b><br>
+Código na Escala de Counce: <b>R4</b><br>
+Indicador Morfológico: <b>visualização de pequena parte das panículas do arroz (figura abaixo)</b><br>
+Período de Ocorrência: <b>65 a 80 dias após a semeadura ou emergência</b><br><br>
+Época-Chave: <b><i>FLORAÇÃO PLENA</i></b><br>
+Código na Escala de Counce: <b>R4</b><br>
+Indicador Morfológico: <b>visualização de todas as panículas do arroz (figura abaixo)</b><br>
+Período de Ocorrência: <b>95 a 115 dias após a semeadura ou emergência</b> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INDICADORES PRODUTIVOS - PRODUÇÃO DE GRÃOS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Época-Chave: <b><i>GRÃO LEITOSO</i></b><br>
+Código na Escala de Counce: <b>R6</b><br>
+Indicador Morfológico: <b>grãos amassam com facilidade e extravasam conteúdo líquido branco (leite) (figura abaixo)</b><br>
+Período de Ocorrência: <b>100 a 120 dias após a semeadura ou emergência</b><br><br>
+Época-Chave: <b><i>GRÃO PASTOSO</i></b><br>
+Código na Escala de Counce: <b>R7</b><br>
+Indicador Morfológico: <b>grãos amassam com certa resistência e extravasam conteúdo pastoso (figura abaixo)</b><br>
+Período de Ocorrência: <b>105 a 125 dias após a semeadura ou emergência</b><br><br>
+Época-Chave: <b><i>MATURAÇÃO FISIOLÓGICA</i></b><br>
+Código na Escala de Counce: <b>R9</b><br>
+Indicador Morfológico: <b>grãos endurecidos (figura abaixo)</b><br>
+Período de Ocorrência: <b>115 a 145 dias após a semeadura ou emergência</b> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+ 
+ </div></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Alexander de Andrade (Dr. em Melhoramento - Epagri)<br> &nbsp;&nbsp; Melhoramento e cultivares </font> 
+<br> <font size="2">• Marcos Lima Campos do Vale (Dr. em Solos e Nutrição de Plantas - Epagri)<br> &nbsp;&nbsp; Manejo do solo e adubação </font> 
+<br><br><br> <font size="2"> Criado em: 09/08/2021</font>
+<br> <font size="2"> Última atualização: 09/08/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=013184&amp;cdElemento=11439">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=11439');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

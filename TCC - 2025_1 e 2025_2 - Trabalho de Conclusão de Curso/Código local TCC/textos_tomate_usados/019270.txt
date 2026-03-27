@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Emperador
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019270&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16895%5D%7B318%7Demperador.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Planta de alto vigor com produtividade; Padronização de frutos do início ao fim da colheita; Ideal para cultivo de ciclo longo; Compatível para todos os tipos de tomate.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.rijkzwaan.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.rijkzwaan.com.br.

@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - G) MANEJO DAS PRINCIPAIS DOENÇAS FÚNGICAS - g) Murcha-de-verticillium
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02940&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2702%5D%7B243%7Dcapa_1.jpg
+
+-- Murcha-de-verticillium (Verticillium dahliae; V. albo-atrum): --
+Os sintomas são semelhantes aos de fusariose, mas de menor intensidade. A murcha ocorre nas horas mais quentes do dia e é difícil haver morte de plantas. Geralmente a clorose e a necrose nos folíolos apresentam um formato de “V”. Ocorre leve descoloração vascular, de menor intensidade que na fusariose.
+
+-- Informações Complementares --
+Walter Ferreira Becker & Leandro Luiz Marcuzzo in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

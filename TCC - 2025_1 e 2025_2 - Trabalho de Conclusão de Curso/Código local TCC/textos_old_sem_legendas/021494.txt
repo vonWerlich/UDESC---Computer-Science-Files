@@ -1,0 +1,49 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Lagarta-das-panículas (Pseudaletiaspp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021494&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Lagarta-das-panículas ( Pseudaletia spp. )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11349%5D%7B194%7Dlagpan_caput.jpg
+FOTO: IRGA (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B354%7Dlagpan_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B377%7Dlagpan_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B370%7Dlagpan_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B403%7Dlagpan_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B183%7Dlagpan_fig12.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B64%7Dlagpan_fig13.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B291%7Dlagpan_fig14.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B497%7Dlagpan_fig15.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B91%7Dlagpan_fig16.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B474%7Dlagpan_fig21.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B391%7Dlagpan_fig22.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B192%7Dlagpan_fig23.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B88%7Dlagpan_fig24.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B410%7Dlagpan_fig31.jpg
+
+-- INFORMAÇÕES GERAIS: Praga primária --
+Espécies: Pseudaletia sequax (Franc.) e Pseudaletia adultera (Schaus) Ordem: Lepidoptera Família: Noctuidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B232%7Dlagpan_base.jpg
+
+-- IDENTIFICAÇÃO: --
+• O adulto é uma mariposa de corpo robusto, com 35mm de envergadura, coloração geral cinza-palha, com pequena mancha ocelar no primeiro par de asas. O segundo par de asas é de coloração pardo-acinzentada. • Os ovos são postos agrupados sobre a lâmina foliar, sem cobertura de escamas. • A lagarta atinge entre 40 a 45mm de comprimento e a coloração é cinzenta no dorso e amarelada ou rosada no ventre, com linhas finas longitudinais. • A pupa marrom ocorre livre no solo.
+
+-- CICLO DE VIDA: --
+Para P. sequax , completa-se em cerca de 41 dias, sendo o período larval em torno de 24 dias e o pupal de treze dias. A incubação dos ovos finda em quatro dias. O ciclo de P. adultera leva cerca de 55 dias, sendo o período larval em torno de 34 dias e o pupal de 16 dias. A incubação dos ovos dura cinco dias.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B502%7Dlagpan_ciclo.jpg
+
+-- OCORRÊNCIA: --
+Anual: de setembro a abril. Crítico: fevereiro/março. Lavoura: da emergência à maturação. Durante o dia, as lagartas se mantêm na parte baixa da planta, entre os colmos ou até escondidas sob torrões. Somente à noite vão para a parte de cima se alimentar. Esse comportamento dificulta a visualização das lagartas na lavoura.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11349%5D%7B323%7Dlagpan_fenologia.jpg
+
+-- DANOS: --
+As lagartas mais desenvolvidas sobem nas panículas do arroz quando a planta entra em maturação. Lá cortam ramos da raque, derrubando os grãos. O ataque geralmente se inicia nas bordas ou nas partes mais secas das lavouras, podendo se expandir para as demais áreas.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Evitar o uso rotineiro de inseticidas, para possibilitar que os inimigos naturais exerçam a ação de parasitismo ou predação. As lagartas também são atacadas por vírus, fungos e nematódeos. • Realizar vistorias periódicas durante o desenvolvimento da lavoura, especialmente após a floração, pois o início de desenvolvimento das lagartas é nas folhas. • Adotar controle localizado, sempre que possível. • Usar somente inseticidas registrados e recomendados para o controle da lagarta-das-panículas. • Em pós-colheita, eliminar a resteva e roçar taipas, valas e áreas adjacentes.
+
+-- Informações Complementares --
+OLIVEIRA, J.V.; ALMEIDA, D.; SOUZA, C.E.M.; PERUFO, T.P. Monitoramento e manejo da lagarta da panícula em arroz. Cultivar Grandes Culturas , v.17, n.202, p.43-45, 2016. Disponível em: https://www.grupocultivar.com.br/artigos/monitoramento-e-manejo-da-lagarta-da-panicula-em-arroz. Acesso em: 14 set 2020.
+OLIVEIRA, J.V.; ALMEIDA, D.; SOUZA, C.E.M.; PERUFO, T.P. Monitoramento e manejo da lagarta da panícula em arroz. Cultivar Grandes Culturas , v.17, n.202, p.43-45, 2016. Disponível em: https://www.grupocultivar.com.br/artigos/monitoramento-e-manejo-da-lagarta-da-panicula-em-arroz. Acesso em: 14 set 2020.
+• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri) Manejo integrado de pragas

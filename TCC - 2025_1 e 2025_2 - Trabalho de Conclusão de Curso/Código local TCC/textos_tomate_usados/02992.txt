@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - I) DOENÇAS CAUSADAS POR VÍRUS - g) Referências
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02992&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2759%5D%7B342%7Dcapa_1.jpg
+
+-- Referências: --
+BLANCARD, D. Enfermedades del Tomate: Observar, identificar, luchar. Madrid: Ediciones Mundi-Prensa, Madri, 1988. 212p. FARIA, J.C.; BEZERRA, I.C.; ZERBINI, F.M. et al. Situação atual da geminiviroses no Brasil. Fitopatologia Brasileira, Brasília, DF, v.25, n.2. p.125-137. 2000. LOPES, C.A. Doenças do tomateiro. Brasília, DF: Embrapa Hortaliças, 2005. 151p. NAGATA, A.K.I; ÁVILA, A.C.; VILLAS BÔAS, G.L. Os geminivírus em sistema de produção integrada de tomate indústria. Brasília, DF: Embrapa-CNPH, 2009. 12p. (Embrapa-CNPH. Circular Técnica, 71). ZITTER, T.A. Diseases caused by viruses. In: JONES et al. (Eds). Compendium of tomato diseases. St Paul: APS PRESS, 1991. p.31-42.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

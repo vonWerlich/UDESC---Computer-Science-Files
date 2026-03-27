@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Napoleão
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018660&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16263%5D%7B40%7Dnapoleao.png
+
+-- INFORMAÇÕES GERAIS: --
+- DESTAQUES: Formato e firmeza dos frutos; - PESO: 160 - 180g; - PLANTA: Vigorosa; Folhas alongadas; - ÉPOCA DE PLANTIO: Regiões Norte, Nordeste e Centro-Oeste: Cultivo ano todo em temperaturas acima de 15°C; Regiões Sul e Sudeste: Outubro a Janeiro; - CICLO: 90 - 110 dias; - FRUTOS: Do tipo San Marzano; Coloração vermelho intenso; - MODERADA RESISTÊNCIA: TSWV (Tomato spotted wilt vírus - Vira-cabeça); TYLCV (Tomato yellow leaf curl vírus - Mosaico dourado/Geminivírus); TaNV (Tomato Apex Necrosis Vírus - Necrose do ponteiro); ToMV (Tomato mosaic vírus - Mosaico do tomateiro); Mi (Meloidogyne incognita - Nematóide das galhas); V (Verticillium spp. - Murcha de verticílio); Fol 1 e 2 (Fusarium oxysporum f. sp. lycopersici - Murcha de fusário (3 Raças (0, 1 e 2).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.sementesfeltrin.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.sementesfeltrin.com.br.

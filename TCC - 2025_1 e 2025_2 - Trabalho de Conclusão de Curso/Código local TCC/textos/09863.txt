@@ -1,0 +1,19 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Bactérias - Columnariose
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09863&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8913%5D%7B56%7Dcolumnariose.png
+
+-- COLUNARIOSE: --
+A columnariose, também chamada de doença da erosão das nadadeiras, é uma bacteriose causada por uma bactéria Gram-negativa, Flavobacterium columnare. Esta bactéria é considerada um agente oportunista e pode ser encontrada comumente no ambiente (viveiro) e na superfície do peixe sem ocasionar doença ao mesmo.
+
+-- Os principais gatilhos para o aparecimento da columnariose são: --
+a) Lesões na pele da tilápia em decorrência de manejo excessivo e estresse agudo (captura com rede, classificação, transporte prolongado), principalmente sob altas temperaturas; b) Má qualidade de água; c) Alta carga de protozoários (tricodinídeos); d) Má nutrição.
+
+-- SINTOMAS: --
+A F. columnare causa sintomas externos, como: manchas esbranquiçadas no corpo causadas pela perda da epiderme e a podridão das nadadeiras. A perda de muco e escamas durante o manejo servem como porta de entrada para essa bactéria. Na maioria dos casos, a mortalidade por columnariose costuma ser rápida (até 48h após o aparecimento de lesões na pele).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8913%5D%7B378%7Dcolonariose.jpg
+Legenda: Tilápias com F. columnare. Natalia da Costa Marchiori
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

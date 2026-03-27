@@ -1,0 +1,20 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Qualidade de água - Temperatura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010055&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9133%5D%7B276%7Dteste_morales.png
+
+-- IMPORTÂNCIA --
+A temperatura é um dos fatores ambientais que mais influenciam na viabilidade e no potencial de cultivo de cada espécie. Diferentes espécies possuem diferentes temperaturas ótimas de cultivo. Por exemplo, enquanto a temperatura média ideal para tilápia-do-nilo é 28°C, para o jundiá essa temperatura é entorno de 24°C, e para truta 15°C. Temperaturas abaixo ou acima do ideal para espécie prejudicam o crescimento, o consumo de alimento, a conversão alimentar, a reprodução, a imunidade, entre outros fatores.
+
+-- POTENCIAL CLIMÁTICO PARA AS ESPÉCIES: --
+Nas figuras a seguir, o mapa de Santa Catarina com o potencial climático para algumas das espécies produzidas no estado (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9133%5D%7B276%7Dgrafico_1.png
+Legenda: Mapa do potencial climático para tilápia-do-nilo. Fonte: Vianna (2022).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9133%5D%7B478%7Dgrafico_2.png
+Legenda: Mapa do potencial climático para o jundiá. Fonte: Vianna (2022).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9133%5D%7B227%7Dgrafico_3.png
+Legenda: Mapa do potencial climático para truta arco-íris. Fonte: Vianna (2022).
+
+-- Informações Complementares --
+(1) VIANNA, L. F. N.;GRAEFF, A.;MASSIGNAM, A. M.;HATEM, A. A.;SILVA, B. C.;GIUSTINA, E. G. D.;AMARAL JÚNIOR, H.;CASACA, J. M.;SERAFINI, R. L. Avaliação do potencial para a piscicultura continental no estado de Santa Catarina (Relatório final). Relatório. 2021. SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

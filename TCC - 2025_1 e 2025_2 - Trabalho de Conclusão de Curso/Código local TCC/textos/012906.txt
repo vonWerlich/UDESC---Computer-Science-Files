@@ -1,0 +1,76 @@
+Título: PLANTAS PARA ADUBAÇÃO VERDE - Teosinto (Zea mays)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012906&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11193%5D%7B485%7Dteosinto_presidente_getulio_29mar2019_foto_juliane.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B541%7Dteosinto_emissao_panicula._epagri-cepaf%2C_2020..jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B110%7Dmanejo_milheto%2C_epagri-seara%2C_2017_1..jpg
+Legenda: Manejo milheto, Epagri-Seara, 2017. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B50%7Dmanejo_milheto%2C_epagri-seara%2C_2017_4..jpg
+Legenda: Manejo milheto, Epagri-Seara, 2017. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B465%7Dmucunaxteosinto_cepaf_2017.jpg
+Legenda: mucunaxteosinto_Cepaf_2017. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B463%7Ddetalhe_panicula_teosinto._epagri-cepaf%2C_2020_1..jpg
+Legenda: Panícula. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B90%7Dteosinto_pleno_crescimento._epagri-cepaf%2C_2018..jpg
+Legenda: Pleno crescimento. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B282%7Dteosinto_set2022_foto_leandro_do_prado_wildner.jpg
+Legenda: Sementes. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B535%7Dteosinto_foto_juliane.jpg
+Legenda: Teosinto. Foto: Juliane Garcia Knapik Justen.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B296%7Dteosinto%2C_cda_2007a.jpg
+Legenda: Teosinto, CDA 2007. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B154%7Dteosinto_crescimento._epagri-cepaf%2C_2019_1..jpg
+Legenda: Teosinto crescimento. Epagri-Cepaf, 2019. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B523%7Dteosinto_crescimento_inicial._epagri-cepaf%2C_2019_2..jpg
+Legenda: Teosinto crescimento inicial. Epagri-Cepaf, 2019. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B459%7Dteosinto_emissao_panicula._epagri-cepaf%2C_2020..jpg
+Legenda: Teosinto emissão panícula. Epagri-Cepaf, 2020. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B173%7Dteosinto_maturacao._epagri-cepaf%2C_2000..bmp
+Legenda: Teosinto maturação. Epagri-Cepaf, 2000. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B211%7Dteosinto_apresentacao_lauro.jpg
+Legenda: Teosinto_apresentação Lauro. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B550%7Dteosinto_lontras_fev2020_foto_juliane_%281%29.jpg
+Legenda: teosinto_Lontras_fev2020. Foto: Juliane Garcia Knapik Justen.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B134%7Dteosinto_presidente_getulio_29mar2019_foto_juliane.jpg
+Legenda: teosinto_Presidente Getúlio_29mar2019. Foto: Juliane Garcia Knapik Justen.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B154%7Dteosintoxcrotalaria_ocholeucra_leandro_wildner.jpg
+Legenda: TeosintoxCrotalaria ocholeucra. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B62%7Dteosinto_2017_foto_juliane.jpg
+Legenda: Teosinto_2017. Foto: Juliane Garcia Knapik Justen.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B413%7Dteosxcochrol.%2C_epagri-cepaf%2C_2018b.jpg
+Legenda: TeosxCochrol., Epagri-Cepaf, 2018. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11193%5D%7B132%7Dteosxcochrol.%2C_epagri-cepaf%2C_2018a..jpg
+Legenda: TeosxCochrol., Epagri-Cepaf, 2018. Foto: Leandro Wildner.
+
+-- INFORMAÇÕES GERAIS: --
+OUTROS NOMES COMUNS: Dente-de-burro, teosinte, riana, milhina. NOME CIENTÍFICO: Zea mays subsp. Mexicana (Schrad.) Iltis.; Euchlaena mexicana , Schrad.; Zea luxurians , Direu and Anderson; Euchlaena luxurians , Dur e Archer; Rheana luxurians , Durieu. FAMÍLIA: Poaceae (Gramíneas). ORIGEM: México.
+
+-- CARACTERÍSTICAS BOTÂNICAS: --
+PORTE: Herbáceo. HÁBITO DE CRESCIMENTO: Ereto, cespitoso. CAULE: Colmos cilíndricos, eretos, subcomprimidos, divididos em nós e entrenós, cobertos pela bainha. ALTURA DA PLANTA (m): 0,6 a 1,5. SISTEMA RADICULAR: Fasciculado.
+
+-- INFORMAÇÕES FENOLÓGICAS: --
+CICLO VEGETATIVO: Anual. ÉPOCA IDEAL DE PLANTIO: Primavera/verão. ÉPOCA PREFERENCIAL DE PLANTIO: Outubro a dezembro. ÉPOCA POSSÍVEL DE PLANTIO: Setembro a fevereiro. CICLO PARA FLORESCIMENTO (dias): 60 a 65.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+PRODUÇÃO DE FITOMASSA (MS t/ha): 8 a 12. PRODUÇÃO DE FITOMASSA (MV t/ha): 30 a 50. TOLERÂNCIA À GEADA: Suscetível. TOLERÂNCIA A BAIXA FERTILIDADE DO SOLO: Baixa. TOLERÂNCIA AO DÉFICIT HÍDRICO: Baixa. TOLERÂNCIA AO ENCHARCAMENTO: Média. TOLERÂNCIA A BAIXA TEMPERATURA: Média. VELOCIDADE NA COBERTURA INICIAL DO SOLO: Rápida. APTIDÃO PARA PASTAGEM: Forte.
+
+-- SEMENTES: --
+PRODUTIVIDADE DE SEMENTES (kg/ha): 300 a 600. PESO DE MIL SEMENTES (gramas): 35 a 43. PRESENÇA DE SEMENTES DURAS: Sim.
+
+-- SEMEADURA: --
+ESPAÇAMENTO ENTRE LINHAS (metros): 0,5 a 0,6. DENSIDADE DE SEMEADURA (kg/ha, em linha): 30 a 40. DENSIDADE DE SEMEADURA (kg/ha, a lanço): 40 a 60.
+
+-- COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: --
+NITROGÊNIO (% da massa seca): 1,7 a 2,6.
+
+-- INDICAÇÃO DE USO / CULTIVO: --
+MISTURAS DE ADUBOS VERDES: Labe-labe, feijão-caupi, mucunas e crotalárias. SUGESTÕES DE MISTURAS: teosinto (30kg/ha) + feijão-caupi (30kg/ha); teosinto (30kg/ha) + labe-labe (30kg/ha). .
+
+-- INFORMAÇÕES FITOSSANITÁRIAS: --
+SUSCEPTIBILIDADE A PRAGAS E DOENÇAS: Hospedeiro da cigarrinha do milho (Dalbulus maidis); helmintosporiose; pulgões e lagartas de gramíneas.
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+DESENVOLVIMENTO EM SANTA CATARINA: Ótimo desenvolvimento vegetativo em todo o estado quando semeado na primavera. Os cultivos de safrinha, para cobertura do solo, são recomendados somente nas regiões de clima Cfa. MANEJO DA FITOMASSA: Manejo mecânico (rolo-faca) ou químico a partir da floração. DICAS: Possui fácil rebrota e ressemeadura natural. ATENÇÃO: Na semeadura, temperaturas do solo abaixo de 18°C comprometem o estabelecimento. CARACTERÍSTICA DESTAQUE: É rústico (menos exigente que o milheto e o sorgo). OUTROS USOS: pastagem, forragem verde cortada/picada, silagem.
+
+-- Informações Complementares --
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, CLIQUE AQUI!

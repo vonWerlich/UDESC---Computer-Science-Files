@@ -1,0 +1,329 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="2258">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="02495">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[2258]{41}figura_4.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Sistema de Produção Integrada para o Tomate Tutorado em Santa Catarina. 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>Conceito:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O tutoramento do tomate consiste em fornecer suporte às plantas durante o seu
+crescimento. Além de evitar o contato das plantas com o solo, ele aumenta a ventilação e
+a iluminação ao longo do dossel, facilita os tratos culturais e diminui as curvas em “S” nos
+caules próximos do solo. Assim, a planta se desenvolve em melhores condições fitossanitárias,
+o que corrobora para o prolongamento do período de produção, aumentando a quantidade e
+a qualidade dos frutos.<br><br>
+
+No método de tutoramento vertical a aplicação dos defensivos é mais eficiente nos dois
+lados das plantas ao longo das filas e há uma melhor distribuição da radiação solar e maior
+ventilação ao longo do dossel das plantas, contribuindo para a menor incidência de insetospraga e doenças em relação ao tutoramento cruzado (Figura 4D) <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Métodos de tutoramento vertical: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> No método de tutoramento vertical do tomate, preconizado no Sistema de Produção
+Integrada de Tomate, as plantas são conduzidas perpendicularmente ao solo em tutores de
+essências florestais, usualmente o bambu, ou em fitilhos plásticos. Os principais métodos de
+tutoramento vertical são: a) o vertical com bambu ou outras essências florestais (Figura 4A); b)
+o vertical com fitilho (Figura 4B) e; c) o método denominado “mexicano” (Figura 4C). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2059,02495,2258,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[2258]{57}figura_4.jpg">  </a> 
+<br><br>
+<b>Métodos de tutoramento “mexicano”: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> No “mexicano” as plantas são conduzidas verticalmente entre fitilhos dispostos
+horizontalmente nos dois lados das plantas à medida que as hastes crescem (Figura 5A) e que
+são amarrados em essências florestais ou bambus dispostos ao longo da fila de plantio a cada
+seis plantas (Figura 5B). Neste caso, dispensa-se o uso de palanques/mourões. No vertical com
+bambu e no vertical com fitilho as plantas são amarradas nos tutores dispostos verticalmente
+(Figuras 4C e 4D, respectivamente). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2060,02495,2258,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[2258]{94}figura_5.jpg">  </a> 
+<br><br>
+<b>Implantações do método: quando fazer</b><br>
+<p class="p1"><div> A implantação do tutoramento de plantas, principalmente a fixação dos mourões, deve
+preferencialmente ser realizada antes do plantio para evitar danos às mudas por pisoteio ou
+pelo manuseio dos materiais (mourões, arame, varas de bambu etc.), mas depois de feito o
+sulco de adubação e a adubação de base. <br> </div></p>
+<b>Implantações do método com bambu:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> No tutoramento vertical com bambu recomenda-se o uso de varas com aproximadamente
+2,2m de comprimento dispostas ao lado de cada planta. As varas, levemente enterradas no
+solo, são amarradas em um fio de arame galvanizado no 14 ou no 16, que fica a 1,8m acima do
+nível do solo, atado aos mourões de 2,0m de altura situados nas extremidades e aos mourões
+ou às cruzetas de bambu grosso ao longo das fileiras. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Implantações do método com fitilho:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> No tutoramento vertical com fitilho, o fio de arame no 14 ou no 16 deve ficar na altura
+à qual se pretende conduzir as plantas. Os fitilhos, um para cada haste, são presos no arame
+e na base da planta. O espaçamento entre mourões para o método de tutoramento vertical
+com fitilho deve ser menor que o com bambu, para evitar que o arame se curve com o peso
+das plantas. Os mourões de cada extremidade das fileiras, no método de tutoramento vertical
+com fitilho, devem ser enterrados numa maior profundidade, visto que a maior parte do peso
+das plantas das fileiras está concentrada neles. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Implantações do método com fitilho: cuidados</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O uso de fitilho em substituição ao bambu reduz tempo e mão de obra na instalação
+e na condução das plantas. O sistema de tutoramento também é bem mais barato do que
+o tutoramento com bambu. A seguir estão detalhados alguns cuidados na instalação deste
+sistema de tutoramento: 1) Fixar os mourões mestres (2 m do solo), nas duas extremidades
+das filas de plantas, com firmeza a pelo menos 60 cm no solo; 2) O arame de sustentação dos
+fitilhos, preso aos palanques, deve ser liso de no 14 e fortemente tensionados para manter
+os fitilhos esticados; 3) Nas linhas de plantas, deve ser colocado um palanque ou cruzeta a
+cada 8,0m e, entre eles, algumas varas de bambu grossas, dispostas em cada lado das fileiras,
+para auxiliar na sustentação do arame e consequentemente das plantas; 4) O tutoramento
+das plantas, propriamente dito, deve ser iniciado quando elas alcançam cerca de 30cm de
+altura; 5) Os fitilhos devem ter aproximadamente 5,0m para a condução das duas hastes de
+cada planta; 6) A amarração deve ser feita na base da planta abraçando as primeiras folhas de
+forma a não causar estrangulamento do caule. Amarra-se na base de cada planta o centro do
+fitilho, de modo que metade de seu comprimento fique disponível para cada haste, fixando
+as extremidades do fitilho no arame com nó tipo laço, deixando-os levemente esticados;
+7) O fitilho deve ser enrolado nas hastes, uma a duas vezes por semana, acompanhando o
+crescimento da planta juntamente com a operação da desbrota. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Cuidados na reutilizados dos tutores:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Caso sejam reutilizados os tutores de essências florestais do ano anterior, deve ser
+realizada a desinfestação por imersão dos tutores numa solução com 5% de cobre ou 1% de hipoclorito de sódio. Os tutores devem ficar imersos nessa solução por alguns minutos. Para o
+tratamento de arames utilizados no ano anterior, devem ser evitados produtos cúpricos. Um
+método prático é mergulhar os arames em água fervente durante 10 minutos. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+Walter Ferreira Becker in: <br>
+BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 04/04/2019</font>
+<br> <font size="2"> Última atualização: 05/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=02495&amp;cdElemento=2258">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=2258');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

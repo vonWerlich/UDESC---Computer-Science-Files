@@ -1,0 +1,22 @@
+Título: TOMATE - Cultivares - Tyta F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0720&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B601%5D%7B433%7Dtyta_f1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: TSV Sementes; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus
+
+-- INFORMAÇÕES DA EMPRESA: --
+Tomate tipo Saladete, com alto pegamento de frutos da base ao ponteiro. Boa cobertura foliar com alta produtividade, frutos firmes com resistência ao transporte. Adequado para estufa ou campo. Ciclo (nº de dias): 100 dias; Hábito de crescimento: Indeterminado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B601%5D%7B371%7D8.jpg
+Legenda: Folder de divulgação do produto.null
+
+-- RESISTÊNCIA: --
+V, Fol: 1, 2, ToMV e TYLCV.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br.

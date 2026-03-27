@@ -1,0 +1,39 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares fora da recomendação - SCS BRS 111
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013229&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+08. Cultivares
+Portfólio de cultivares Epagri
+Cultivares fora da recomendação
+SCS BRS 111
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11472%5D%7B95%7Dscs111_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar SCS BRS 111 foi introduzido na Epagri/EEI em 1991 como linhagem CNAx3157-45-34-2 proveniente da Embrapa-CNPAF, oriunda do cruzamento P2867/P4382 realizado na Embrapa - CNPAF. A linhagem foi avaliada em ensaios regionais durante 3 anos, em seis regiões edafoclimáticas do Estado e lançada como cultivar em 2002. É um cultivar de tipo moderno e destaca-se pela excelente qualidade de grãos, caracterizados como muito longos e translúcidos, apresenta ciclo médio e resistência à brusone. Foi cultivada no Estado por pouco tempo.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: 8,8t/ha • Altura da planta: 98cm • Ciclo: Médio (123 dias) • Acamamento: Resistente • Reação à toxidez por ferro: Resistente • Reação à brusone: Resistente • Reação a baixas temperaturas (13°C): Suscetível
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 1 • Classe: Longo fino • Renda do beneficiamento: 72,0% • Rendimento de grãos inteiros: 63,0% • Teor de amilose: 27,7% • Temperatura de gelatinização: Média
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: 31cm • Largura: 1,2cm • Pubescência: Forte • Ângulo das folhas: Ereto • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Branca a verde • Cor da aurícula: Incolor a verde • Cor do colo: Verde-clara
+
+-- COLMO: --
+• Comprimento: 69cm • Espessura: 0,6cm • Perfilhamento: Excelente • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Longo (44,3cm) • Exserção: Completa (maior que 5cm) • Degrane: Difícil • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Verde • Cor do apículo na maturação: Palha • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,7mm • Espessura: 1,8mm • Largura: 1,9mm • Relação C/L: 4,04 • Forma do grão: Muito alongado • Peso de mil grãos: 25,0g • Pilosidade: Média
+
+-- Informações Complementares --
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).
+• Rubens Marschalek (Dr. em Melhoramento - Epagri) Melhoramento e cultivares

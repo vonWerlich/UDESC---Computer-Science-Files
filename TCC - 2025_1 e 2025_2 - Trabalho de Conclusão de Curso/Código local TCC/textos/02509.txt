@@ -1,0 +1,23 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - D) MANEJO DE SOLO, ADUBAÇÃO E NUTRIÇÃO DE PLANTAS - e) Interpretação da análise de solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02509&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2270%5D%7B292%7Dcapa_1.jpg
+
+-- Conceito: --
+Em face da rápida produção de massa verde, a demanda por nutrientes na cultura do tomate também é grande. Desequilíbrios nutricionais ou carências podem ser responsáveis por severas perdas na cultura. Por outro lado, não só a quantidade de adubos aplicados é importante, mas também o fornecimento balanceado de cada nutriente em cada época, conforme as necessidades da cultura.
+
+-- Interpretação dos resultados para fósforo e potássio: --
+Pela interpretação dos resultados da análise de solo para fósforo e potássio, adotada pela CQFS-RS/SC (2004), os valores de P e K extraíveis do solo são interpretados em cinco faixas. O limite inferior da faixa ‘alto’ corresponde ao nível crítico do nutriente no solo. Isso significa que, abaixo do nível crítico, aumentam as possibilidades de resposta da cultura à aplicação desses nutrientes. Devido à influência da argila na disponibilidade de fósforo às plantas, para a maioria das culturas existem quatro classes de interpretação dos teores nos solos em função da porcentagem de argila. Para a interpretação dos teores do potássio existem três classes de acordo com a CTC do solo a pH 7,0.
+
+-- Faixas de interpretações para nitrogênio, fósforo e potássio: --
+A quantidade de adubo nitrogenado, fosfatado e potássico recomendada para a cultura do tomate é definida utilizando as faixas de interpretações dos teores desses nutrientes no solo (CQFS-RS/SC 2004). As recomendações das quantidades de adubos para a cultura são definidas segundo os trabalhos experimentais da Estação Experimental da Epagri de Caçador (Tabelas 4, 5 e 6).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2270%5D%7B194%7Dtabela_4.jpg
+Legenda: Porcentagem de adubação na base e em cobertura para o Sistema de Produção Integrada de Tomate de Mesa (Sispit), em plantio direto para Santa Catarina. Fonte: Sispit 2016.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2270%5D%7B296%7Dtabela_5.jpg
+Legenda: Recomendação da adubação nitrogenada, de acordo com o potencial máximo de produção a partir da interpretação do teor de matéria orgânica do solo para o Sistema de Produção Integrada de Tomate de Mesa (Sispit), em plantio direto para Santa Catarina. Fonte: Sispit 2016.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2270%5D%7B175%7Dtabela_6.jpg
+Legenda: Recomendações de adubação fosfatada e potássica, de acordo com o potencial máximo de produção a partir da interpretação da análise de solo para o Sistema de Produção Integrada de Tomate de Mesa (Sispit), em plantio direto para Santa Catarina. Fonte: Sispit 2016.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

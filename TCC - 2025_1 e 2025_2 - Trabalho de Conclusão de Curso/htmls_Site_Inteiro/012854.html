@@ -1,0 +1,351 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=670&amp;isEdicao=N&amp;epagriTEC=S">PLANTAS PARA ADUBAÇÃO VERDE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=12854&amp;isEdicao=N&amp;epagriTEC=S">Ervilha forrageira (Pisum sativum)</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="11171">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="012854">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11171]{493}tremoco_e_ervilha_forrageira_epagri-cepaf,_2007..jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Leandro Wildner </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Pisum arvense L., P. sativum ssp. sativum, Pisum elatius Stev. Pisum humile Boiss., Ervilha do campo, ervilha-de-lebre, ervilha-de-pombo, ervilha miúda, ervilha verde dos campos. 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>FOTOS: </b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21809,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{288}ervilha_forrageira_apresentacao_lauro.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21810,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{7}ervilha_forrageira_apresentacao_leandro_wildner.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21808,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{238}ervilha_forrageira._epagri-cepaf,_2005..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21807,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{88}c.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21811,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{52}ervilha_forrageira_dona_emma_4set2018_foto_juliane.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21814,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{33}flor_ervilha_for._epagri-cepaf,_2007_3..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21813,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{253}flor_ervilha_for._epagri-cepaf,_2007_2..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21812,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{246}flor_ervilha_for._epagri-cepaf,_2007_1..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21815,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{231}flor_ervilha_for._epagri-cepaf,_2007_3..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21816,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{296}flor_ervilha_for._epagri-cepaf,_2007_4..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21817,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{498}floracao_ervilha_forrageira_epagri-cepaf,_2007_5..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26378,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{280}ervilha_forrageira_agronomica_08set2022_foto_juliane_justen.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21818,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{341}misturas_adubos_verde_com_ervilha_forrageira.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26379,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{527}ervilha_forrageira1_set2022_foto_leandro_do_prado_wildner.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21819,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{440}tremoco_e_ervilha_forrageira_epagri-cepaf,_2007..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26380,012854,11171,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11171]{2}ervilha_forrageira_agronomica_10set2022_foto_juliane_justen.jpg">  </a> 
+<br><br>
+<b>INFORMAÇÕES GERAIS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> OUTROS NOMES COMUNS: Ervilha-forrageira, ervilha-do-campo, ervilha-de-lebre, ervilha-de-pombo, ervilha-miúda, ervilha-verde-dos-campos, grey pea, field pea, grey field pea, Austrian winter pea.<br><br>
+NOME CIENTÍFICO: <i>Pisum sativum var. arvense</i> (L.) Poir, <i>Pisum arvense</i> L., <i>P. sativum ssp</i>. sativum, <i>Pisum elatius</i> Stev. <i>Pisum humile Boiss</i>.<br><br>
+FAMÍLIA: <i>Fabaceae</i> (Leguminosas).<br><br>
+ORIGEM: Ásia Central e Etiópia.<br>
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CARACTERÍSTICAS BOTÂNICAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> PORTE: Herbáceo.<br><br>
+HÁBITO DE CRESCIMENTO: Ereto/trepador.<br><br>
+CAULE: Caule ereto, pouco ramificado, oco, geralmente fraco para sustentar o peso da planta.<br><br>
+ALTURA DA PLANTA (m): 0,4 a 0,8.<br><br>
+SISTEMA RADICULAR: Pivotante/ramificado.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INFORMAÇÕES FENOLÓGICAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> CICLO VEGETATIVO: Anual.<br><br>
+ÉPOCA IDEAL DE PLANTIO: Outono/inverno.<br><br>
+ÉPOCA PREFERENCIAL DE PLANTIO: Abril e maio.<br><br>
+ÉPOCA POSSÍVEL DE PLANTIO: Março a julho.<br><br>
+CICLO PARA FLORESCIMENTO (dias): 60 a 90.<br><br>
+CICLO PARA COLHEITA DE SEMENTES (dias): 70 a 120.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CARACTERÍSTICAS AGRONÔMICAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> PRODUÇÃO DE FITOMASSA (MS t/ha): 3 a 4.<br><br>
+PRODUÇÃO DE FITOMASSA (MV t/ha): 15 a 25.<br><br>
+TOLERÂNCIA À GEADA: Tolerante.<br><br>
+TOLERÂNCIA A SOLOS ÁCIDOS: Baixa.<br><br>
+TOLERÂNCIA A BAIXA FERTILIDADE DO SOLO: Baixa a Média.<br><br>
+TOLERÂNCIA AO DÉFICIT HÍDRICO: Baixa.<br><br>
+TOLERÂNCIA AO ENCHARCAMENTO: Baixa.<br><br>
+TOLERÂNCIA A BAIXA TEMPERATURA: Média.<br><br>
+VELOCIDADE NA COBERTURA INICIAL DO SOLO: Rápida.<br><br>
+APTIDÃO PARA PASTAGEM: Média. Os grãos secos podem ser utilizados para compor ração animal.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SEMENTES: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> PRODUTIVIDADE DE SEMENTES (kg/ha): 550 a 800.<br><br>
+PESO DE MIL SEMENTES (gramas): 110 a 150.<br><br>
+PRESENÇA DE SEMENTES DURAS: Não registrado.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SEMEADURA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> ESPAÇAMENTO ENTRE LINHAS (metros): 0,2 a 0,4.<br><br>
+DENSIDADE DE SEMEADURA (kg/ha, em linha): 50 a 60.<br><br>
+DENSIDADE DE SEMEADURA (kg/ha, a lanço): 80 a 100.<br><br>
+DENSIDADE DE PLANTAS POR ÁREA A LANÇO (pl/m2): 75.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> QUANTIDADE ACUMULADA DE NITROGÊNIO (kg/ha): 40 a 150.<br><br>
+RELAÇÃO C/N: 12 a 21.<br><br>
+NITROGÊNIO (% na massa seca): 2,09 a 2,89.<br><br>
+FÓSFORO (P2O5 % na massa seca): 0,12 a 0,32.<br><br>
+POTÁSSIO (K2O % na massa seca): 1,5 a 2,44.<br>
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INDICAÇÃO DE USO / CULTIVO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> MISTURAS DE ADUBOS VERDES: Aveias, centeio, ervilhacas, tremoços e nabo-forrageiro.<br><br>
+SUGESTÕES DE MISTURAS: Aveia-preta (60kg/ha) + ervilha-forrageira (45kg/ha); aveia- preta (50kg/ha) + ervilha-forrageira (40 a 45kg/ha) + nabo-forrageiro (5 a 8kg/ha); aveia-preta (50kg/ha) + centeio (25kg/ha) + ervilha-forrageira ou ervilhaca-peluda (20kg/ha) + nabo-forrageiro (10kg/ha).<br><br>
+CONSÓRCIO COM CULTURAS (sucessão/intercalares): Arroz, milho, hortaliças e culturas perenes.<br><br>
+ROTAÇÃO DE CULTURAS: Feijão, milho, sorgo, soja e hortaliças.<br><br>
+OUTROS USOS: Alimentação animal (grãos).<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INFORMAÇÕES FITOSSANITÁRIAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> SUSCEPTIBILIDADE A PRAGAS E DOENÇAS: Pulgão (<i>Acyrthosiphon pisum</i>), nematoide-de-galha (<i>Meloidogyne spp</i>.), lagarta-das-vagens (<i>Etiella Zinckenella</i>). Doenças causadas por <i>Cercospora spp.</i>, ascoquita (<i>Ascochyta spp</i>.), esclerotinia (<i>Sclerotinia sclerotiorum</i>), oídio (<i>Oidium sp</i>.), míldio (<i>Peronospora pisi</i>), <i>Colletotrichum sp</i>., <i>Alternaria sp</i>., podridão-do-colo (<i>Rhizoctonia solani</i>) e podridões-de-raiz (<i>Rhizoctonia solani</i>, <i>Fusarium sp</i>., <i>Pythium sp</i>., <i>Phytophthora sp</i>.).<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INFORMAÇÕES COMPLEMENTARES: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> DESENVOLVIMENTO EM SANTA CATARINA: Ótimo desenvolvimento vegetativo.<br><br>
+MANEJO DA FITOMASSA: Manejo mecânico (rolo-faca) a partir da floração.<br><br>
+DICAS: Promove boa cobertura de solo em consórcios de ciclo curto.<br><br>
+ATENÇÃO: Sensível a temperaturas elevadas.<br><br>
+CARACTERÍSTICA DESTAQUE: Precocidade e boa produção de fitomassa.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, <a href="javascript:chamarPagina(12822)">CLIQUE AQUI!</a><br>
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Juliane Garcia Knapik Justen (Eng.Florestal, Msc Ciências Florestatais - Epagri)<br> &nbsp;&nbsp;Coordenação Programa Desenvolvimento e Sustentabilidade Ambiental, atuando em restauração de ecossistemas degradados, vegetação ripária, conservação do solo e da água, prestação de serviços ambientais, legislação ambiental. </font> 
+<br> <font size="2">• Leandro do Prado Wildner (Eng.-Agrônomo, MSc. Agronomia - Epagri)<br> &nbsp;&nbsp;Experiência por mais de 30 anos trabalhando com introdução, avaliação e manejo de plantas de cobertura em sistemas conservacionistas de produção no Estado de Santa Catarina. </font> 
+<br> <font size="2">• Rafael Gustavo Ferreira Morales (Eng.-Agrônomo, Dr. Fitotecnia - Epagri)<br> &nbsp;&nbsp;Pesquisador de olericultura na área de agricultura orgânica. </font> 
+<br><br><br> <font size="2"> Criado em: 09/03/2021</font>
+<br> <font size="2"> Última atualização: 20/07/2023</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=012854&amp;cdElemento=11171">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=11171');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

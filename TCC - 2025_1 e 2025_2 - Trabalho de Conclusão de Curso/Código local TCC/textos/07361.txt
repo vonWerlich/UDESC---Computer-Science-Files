@@ -1,0 +1,22 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - c) Escolha dos cultivares, produção de mudas e plantio - 5) Fertilização das mudas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07361&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6646%5D%7B503%7D12.jpg
+
+-- Fertilização das mudas: --
+De maneira geral, as mudas de tomate levam de 25 a 35 dias para ficarem prontas para o transplante. Nesse período, dependendo do tipo de substrato utilizado, deve-se fazer uma complementação nutricional para que a muda expresse o seu máximo potencial genético.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6646%5D%7B29%7D13.jpg
+Legenda: Aspecto visual de mudas de tomateiro produzidas no sistema orgânico e com adequada nutrição mineral via composto orgânico. Fonte: Morales et al., 2019.
+
+-- Quanto de composto deve ser aplicado: --
+Nesse caso, preventivamente, deve-se peneirar e aplicar de 30 a 40g de composto orgânico estabilizado por bandeja de 128 células sobre as plantas enxutas. Em seguida, deve-se irrigar para deposição da mistura no substrato. O número de aplicações de composto em cobertura é muito relativo, pois depende do substrato, das condições meteorológicas durante o cultivo, do tempo de permanência das mudas no viveiro e da sanidade das plantas. Como sugestão, esse composto pode ser aplicado duas semanas após a semeadura, repetindo-se semanalmente até a semana do transplante.
+
+-- Fazendo o teste dentro da propriedade: --
+O mais indicado é cada produtor fazer o seu próprio teste, utilizando o substrato e o composto que comumente são comercializados na região, que geralmente variam em sua composição e disponibilidade de nutrientes, observando sempre o adequado desenvolvimento das plantas.
+
+-- Nutrição foliar das mudas: --
+O fornecimento de macronutrientes via adubação foliar não é eficiente e não é recomendado, por causa da quantidade exigida pela planta, tornando-se necessário um grande número de aplicações.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

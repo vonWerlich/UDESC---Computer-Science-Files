@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Parma F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0969&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B851%5D%7B112%7Dparma_f1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Superseed; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+A planta possui um bom desempenho no período chuvoso, devido a boa sanidade, permitindo ao agricultor o cultivo em áreas infestadas com TYLCV, TSWV e fusarium raça 3, além de um grande potencial produtivo para o mercado de estufa. FRUTOS: Grandes, de excelente qualidade, sabor e coloração, pontos muito importantes para o mercado de saladete indeterminado. PLANTA: Hábito de crescimento indeterminado, bem vigorosa e rústica. Possui bom enfolhamento para proteção dos frutos e boa sanidade de planta para período chuvoso. DESTAQUES: Resistência ao F3, TYLCV (geminivírus), TSWV (vira-cabeça) e a nematóides. Apresenta ainda bom tamanho de fruto e alta produtividade. Pós colheita: muito boa Tamanho Médio: 9,5 x 6,0 cm Peso Médio: 190g Ciclo Médio: 110 dias Tipo de fruto: Saladete
+
+-- RESISTÊNCIA: --
+Fol:0-2, Pf, Ma, Mi, Mj, ToMV, TYLCV, TSWV, Va e Vd.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://agristar.com.br/superseed/tomate-saladette-ind-hibrido/parma-f1/3731

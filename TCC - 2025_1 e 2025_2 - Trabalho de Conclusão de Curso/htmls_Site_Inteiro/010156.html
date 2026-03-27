@@ -1,0 +1,324 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9860&amp;isEdicao=N&amp;epagriTEC=S">PISCICULTURA EM VIVEIROS ESCAVADOS</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="/sedimob/img/icone_vazio.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9888&amp;isEdicao=N&amp;epagriTEC=S">Preparação do viveiro</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=10156&amp;isEdicao=N&amp;epagriTEC=S">   Calagem do solo</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="9162">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="010156">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[9162]{428}calagem.png"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Bruno Corrêa da Silva </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Calagem 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>IMPORTÂNCIA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A calagem é a ação de corrigir o pH do solo com adição de cal ou calcário, e os benefícios da calagem do solo do viveiro são:<br><br>
+
+a)	Incremento do pH e alcalinidade da água;<br>
+b)	Beneficia os organismos fotossintéticos (microalgas);<br>
+c)	Diminuição da capacidade do lodo adsorver nutrientes importantes para as microalgas, como, por exemplo, o fósforo e o cálcio;<br>
+d)	Propicia um ambiente mais favorável para os organismos benéficos do lodo, facilitando a decomposição da matéria orgânica gerada pelo cultivo.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CALAGEM EM QUATRO ETAPAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> 1) Coleta do solo; <br>
+2) Análise do solo; <br>
+3) Aplicação do calcário;<br>
+4) Incorporação do calcário ou gradagem.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COLETA DO SOLO: </b><br>
+<p class="p1"><div> O piscicultor deverá coletar, de cada viveiro, de 5 a 10 amostras, dependendo do tamanho do viveiro. Em viveiros menores (1.000 a 3.000 m²), coletar apenas 5 amostras, já em viveiros maiores (10.000m²) coletar 10 amostras. As amostras devem ser coletadas de modo que represente toda a extensão do viveiro. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26080,010156,9162,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[9162]{431}coleta_de_solo.jpg">  </a> 
+<br><br>
+<b>PROCEDIMENTOS APÓS A COLETA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O solo deverá secar em local arejado e protegido do sol. Após secas as amostras, a necessidade de calagem pode ser calculada de duas formas: a) <u>método geral</u>, realizado pelo próprio técnico/piscicultor; ou b) <u>método de saturação por bases</u>, onde as amostras devem ser entregues a um escritório municipal da Epagri para serem enviadas ao laboratório, e, posteriormente, serem analisadas pelo técnico. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Método geral: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O método geral para quantificação do calcário é mais simples e pode ser realizado pelo próprio produtor em sua propriedade, seguindo as seguintes etapas: <br><br>
+
+<b>Etapa 1</b>: Medir o pH do solo:<br>
+Em um béquer coloque 20g de solo com 20 mL de água destilada, misture bem, e após 30min faça a medição do pH da solução.<br><br> 
+
+Se o pH do solo for maior que 5,9 não há necessidade de calagem. Se o pH do solo for menor ou igual a 5,9 é necessário realizar a próxima etapa do método. <br><br>
+
+<b>Etapa 2</b>: Medir o pH do solo em solução tampão:<br>
+Em um béquer coloque 20g de solo com 40mL de solução tampão SMP (pH=7). Após uma hora de agitação, determina-se a queda do pH da solução, calculando a quantidade de calagem (QC) necessária pela seguinte fórmula:<br><br>
+
+    QC (kg/ha) = (7,0 - pH - SMP) x 6.000 x (100/PRNT%)
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26081,010156,9162,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[9162]{43}calcario_f1.jpg">  </a> 
+<br><br>
+<b>Método de saturação por bases: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para o cálculo da quantidade de calcário por este método, são necessários os seguintes resultados da análise do solo do laboratório: Saturação por bases (V1) e a capacidade de troca de cátions (CTC) do solo a ser calado. A saturação por bases do solo refere-se à porcentagem de cátions trocáveis no solo, ou seja, a porcentagem disponível de cátions no solo, como K, Ca, Mg. Para efeito de cálculo, na piscicultura utiliza-se como a saturação por bases recomendada (V2) de 70%. Já o CTC corresponde à soma das cargas negativas nas partículas do solo (argila e matéria orgânica) retendo os cátions.<br><br>
+
+A necessidade de calcário por este método calcula-se pela seguinte fórmula:<br><br>
+
+   QC (kg/ha) = 1000 x [((V2 - V1) x CTC) / PRNT%] <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26082,010156,9162,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[9162]{330}calcario_f2.jpg">  </a> 
+<br><br>
+<b>APLICAÇÃO E INCORPORAÇÃO DO CALCÁRIO NO SOLO: </b><br>
+<p class="p1"><div> O calcário deverá ser aplicado por toda superfície do solo do viveiro com auxílio do trator com implemento adequado, ou manualmente pelo piscicultor. Além disso, o calcário deverá ser incorporado aos primeiros 20 cm de solo, com auxilio do trator e enxada rotativa. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26083,010156,9162,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[9162]{334}enxada_rotativa.jpg">  </a> 
+<br><br>
+<b>Observação 1: matéria orgânica</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> É recomendado após cada safra, encaminhar amostra do solo para análise em laboratório da porcentagem de matéria orgânica (%). Esse acompanhamento pode auxiliar nas tomadas de decisões futuras. É adequado que o solo tenha no máximo 4% de matéria orgânica, e solos com índices maiores devem ser raspados e destinados adequadamente. Uma utilização interessante para esse solo é a adubação de outras culturas, já que este é fico em fósforo. <br><br>
+
+Solos com altas porcentagens de matéria orgânica ocasionam: níveis mais elevados de amônia e nitrito ao longo do cultivo; maior demanda biológica de oxigênio; florescimento de algas tóxicas (cianobactérias e dinoflagelados); favorecimento de doenças causadas por parasitos e bactérias. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Observação 2: calagem pela dureza da água</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Quando produtor não conseguir fazer a análise do solo poderá realizar a calagem de acordo com a dureza da água, seguindo a indicação abaixo:<br><br>
+
+Dureza maior que 10 mg Ca CO<sub>3</sub> por litro:<br>
+- 300 gramas/m²<br><br>
+
+Dureza entre 10 e 20 mg Ca CO<sub>3</sub> por litro:<br>
+- 200 gramas/m²<br><br>
+
+Dureza maior que 20 mg Ca CO3<sub>3</sub> por litro:<br>
+- 100 gramas/m²<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Bruno Corrêa da Silva (Dr. - Epagri) </font> 
+<br> <font size="2">• Jorge de Matos Casaca (Dr. - Epagri) </font> 
+<br> <font size="2">• Haluko Massago (Dra. - Epagri) </font> 
+<br><br><br> <font size="2"> Criado em: 03/08/2020</font>
+<br> <font size="2"> Última atualização: 28/03/2023</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=010156&amp;cdElemento=9162">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=9162');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

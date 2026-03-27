@@ -1,0 +1,19 @@
+Título: TOMATE - Fitossanidade - Vírus - Amarelo-Baixeiro (TYTV)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04613&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1622%5D%7B310%7Damarelo_baixeiro.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1622%5D%7B482%7Damarelo_baixeiro.jpg
+Legenda: Sintomas típicos da doença. Foto: J. R. Carvalho
+
+-- INFORMAÇÕES GERAIS: --
+Assim como a doença topo amarelo, essa doença (Tomato yellow top vírus – TYTV), ocorre geralmente no início e no final do ciclo. O vírus pertence ao gênero Polerovirus e à família Luteoviridae. A disseminação do vírus se dá por pulgões (Link) da família Myzus persicae de forma persistente (permanece no corpo do inseto após a disseminação, mesmo sem a multiplicação) (1).
+
+-- SINTOMAS: --
+- Amarelecimento e enrolamento das folhas, podendo progredir para arroxeamento (1). - Amarelecimento dos ponteiros (1). - Crescimento retardado (1).
+
+-- CONTROLE: --
+- A destruição de ervas daninhas hospedeiras dos vírus (2). - A produção de mudas em viveiros situados longe de campos de hospedeiros dos vírus (2). - Viveiro com cultivo protegido (2).
+
+-- Informações Complementares --
+(1) Aspectos fitossanitários do tomateiro, instituto biológico, 2013. (2) http://www.ebah.com.br/content/ABAAAfWrwAG/tomate-viroses

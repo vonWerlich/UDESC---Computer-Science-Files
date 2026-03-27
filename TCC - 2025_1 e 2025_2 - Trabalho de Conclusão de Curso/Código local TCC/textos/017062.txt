@@ -1,0 +1,6 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas.
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017062&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16865%5D%7B213%7Dchave_aplanta.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17062%5D%7B110%7Dpl01_danoexterno.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17062%5D%7B78%7Dpl02_danointerno.jpg

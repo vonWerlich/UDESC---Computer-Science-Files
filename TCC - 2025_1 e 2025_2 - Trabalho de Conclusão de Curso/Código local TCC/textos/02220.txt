@@ -1,0 +1,13 @@
+Título: TOMATE - Tratos Culturais - Irrigação - 4) Determinação da vazão efetiva dos tubos gotejadores
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02220&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1991%5D%7B245%7D34_-_copia.jpg
+
+-- Como fazer: --
+Colocar copos plásticos embaixo dos tubos gotejadores, durante um tempo pré-determinado, e quantificar com o auxílio de uma proveta (graduada em 1mL) a lâmina de água aplicada em litros por minuto. Para aumentar a precisão, deve-se amostrar vários pontos na área a ser irrigada (1 ponto de amostragem a cada 50 m2), incluindo os pontos mais altos e mais baixos e, caso o sistema de irrigação tenha ramificações, todas elas devem permanecer fechadas. Caso o terreno tenha declividade superior a 3%, recomenda-se a utilização de tubos gotejadores autocompensantes. Para áreas demasiadamente grandes e composta por um sistema de irrigação não setorizado, uma alternativa prática e eficaz para mensurar a lâmina de irrigação é a instalação na tubulação de um medidor de vazão (hidrômetro) que tenha precisão de litros.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1991%5D%7B409%7D34.jpg
+Legenda: Coleta de água de tubos gotejadores para o correto dimensionamento do sistema de irrigação. Foto: Rafael G. F. Morales
+
+-- Informações Complementares --
+Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019.

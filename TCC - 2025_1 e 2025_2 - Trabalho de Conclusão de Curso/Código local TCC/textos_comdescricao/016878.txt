@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 4. Diagnóstico a partir da doençaInicie por aqui, caso saiba que se trata de doença, mas tenha dúvida.Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais. - As folhas estão com manchas, que podem ser de diversos tipos, e são as manchas foliares que predominam na planta - As manchas são grandes, largas e alongadas - As manchas se distribuem pelo limbo foliar - As manchas são alongadas de bordas irregulares
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016878&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16877%5D%7B3%7Dpl07_manchairregular.jpg
+DIAGNOSE VISUAL
+4. Diagnóstico a partir da doença Inicie por aqui, caso saiba que se trata de doença, mas tenha dúvida. Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais.
+As folhas estão com manchas, que podem ser de diversos tipos, e são as manchas foliares que predominam na planta
+As manchas são grandes, largas e alongadas
+As manchas se distribuem pelo limbo foliar
+As manchas são alongadas de bordas irregulares
+Manchas alongadas de tamanho variável, com extremidades agudas, margem marrom e centro claro - BRUSONE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16878%5D%7B102%7Dchv_brusonefolha.jpg
+Legenda: Manchas alongadas de tamanho variável, com extremidades agudas, margem marrom e centro claro - BRUSONE
+21621
+Manchas alongadas de tamanho variável, com extremidades agudas, margem marrom e centro claro - BRUSONE
+Borda da folha com lesão irregular grande, marrom clara com algumas estrias escuras visívies - ESCALDADURA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16878%5D%7B204%7Dchv_escaldafolha.jpg
+Legenda: Borda da folha com lesão irregular grande, marrom clara com algumas estrias escuras visívies - ESCALDADURA
+21622
+Borda da folha com lesão irregular grande, marrom clara com algumas estrias escuras visívies - ESCALDADURA

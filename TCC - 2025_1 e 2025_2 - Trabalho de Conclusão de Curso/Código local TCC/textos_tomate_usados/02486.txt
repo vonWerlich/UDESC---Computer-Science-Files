@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - B) BOTÂNICA, ORIGEM E CLIMA PARA O TOMATEIRO - a) Introdução
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02486&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2250%5D%7B356%7Dcapa_1.jpg
+
+-- Introdução: --
+O tomate tem como classificação científica: Reino: Plantae; Superdivisão: Spermatophyta; Divisão: Magnoliophyta (Angiospermae); Classe: Magnoliopsida (Dicotiledoneae); Ordem: Solanales; Família: Solanaceae; Gênero: Solanum; Espécie: Solanum lycopersicum L. (Sinonomia Lycopersicon esculentum Mill. e Lycopersicon lycopersicum (L.) H. Karst.). O tomate é uma planta herbácea, autógama, diploide e com 24 cromossomos. A taxa de polinização cruzada natural varia de 0,5 a 4%. Apesar de ser uma planta perene, é cultivada como anual. A inflorescência possui flores pedunculadas inseridas no racimo ou cacho, de maneira que as flores mais velhas estão mais afastadas do ápice. O racimo ou cacho pode se apresentar em três formas: simples - com um eixo; bifurcado; e ramificado. Nos vários tipos de racimo, o número de flores por racimo e a frutificação efetiva são variáveis, e altamente influenciados por temperaturas abaixo ou acima dos limites considerados ótimos para o cultivo da hortaliça. O fruto é uma baga de tamanho e formato variáveis. Os frutos são internamente divididos em lóculos, nos quais as sementes se encontram imersas na mucilagem placentária. Conforme o cultivar, os frutos podem ser bi, tri, tetra ou pluriloculares. Os frutos de tomate no estádio maduro podem apresentar as colorações vermelha ou amarela, bem como outras colorações que variam de preta, cor-de-rosa, alaranjada a branca, que pouco atrai o interesse do consumidor.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

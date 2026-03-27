@@ -1,0 +1,25 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Mancha estreita (Cercospora oryzae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021608&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11381%5D%7B499%7Dmestreita_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B15%7Dmestreita_fig01.jpg
+Legenda: 01. Sintomas de mancha estreita na folha. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B509%7Dmestreita_fig02.jpg
+Legenda: 02. Início do surgimento de sintomas da mancha estreita. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B23%7Dmestreita_fig03.jpg
+Legenda: 03. Mancha estreita na folha. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B301%7Dmestreita_fig04.jpg
+Legenda: 04. Sintomas da mancha estreite no final de ciclo do arroz. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B308%7Dmestreita_fig05.jpg
+Legenda: 05. Sintomas de mancha estreita na lavoura em final de ciclo. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B268%7Dmestreita_fig06.jpg
+Legenda: 06. Sintomas de mancha estreita na lavoura. Fonte: K.K.Scheuermann
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: fungo Cercospora oryzae . Doença também conhecida como cercosporiose, é de ocorrência comum, especialmente no final do ciclo.
+
+-- SINTOMAS: --
+A doença surge principalmente nas folhas, onde provoca lesões finas e alongadas, de coloração marrom avermelhada, no sentido das nervuras. Lesões semelhantes podem ser observadas também nas bainhas e glumas. Em casos de alta incidência, a doença pode antecipar a senescência da planta.
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.

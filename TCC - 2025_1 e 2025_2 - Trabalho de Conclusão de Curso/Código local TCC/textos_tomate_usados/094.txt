@@ -1,0 +1,26 @@
+Título: TOMATE - Fitossanidade - Vírus - Mosaico do vírus Y ou Fogo Mexicano (PVY- Potato vírus Y)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=094&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1608%5D%7B63%7D15.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1608%5D%7B70%7Dpvy_2.jpg
+Legenda: Necrose em nervuras na face inferior. Foto: A. C Avila
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1608%5D%7B204%7Dpvy_1.jpg
+Legenda: Sintoma do vírus Y. Foto: J. R. Carvalho
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1608%5D%7B85%7D15.jpg
+Legenda: Sintomas da doença. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+
+-- INFORMAÇÕES GERAIS: --
+- O mosaico do vírus do tomateiro (PVY- Potato vírus Y), também conhecido como risca do tomateiro, pinheirinho e potyvirose, é uma virose do gênero Potyvirus, que ocorre de maneira restrita no Brasil, pois sua gama de hospedeiras é pequena (1,3). - Culturas como batata e pimentão podem ser atacadas e servir como fonte de inóculo ao tomate, causando a disseminação da virose. Algumas plantas daninhas da família Solanaceae (maria-pretinha - Solanum americanum) e (Physalis spp.), também pode vir a servir como fonte de inóculo. - Estima-se que o PVY é transmitido por algumas espécies de pulgões mas de maneira não insistente (3), e o aumento da ocorrência dessa praga tem levado ao aumento da ocorrência dessa virose (4). - Virose com ocorrência crescente no Brasil (4).
+
+-- SINTOMAS: --
+- Necrose generalizada no dossel intermediário (não é embaixo e nem em cima, no meio da planta), com início na parte de baixo da folha e depois subindo para as folhas mais novas da planta (4). - Os sintomas predominam num primeiro momento nas bordas da lavoura, o que indica a entrada de pulgões pelas extremidades (4). - O sintoma mais comum é o mosaico nas folhas novas, seguido de nervuras de cor escura (verde-escuro) (3). Folhas novas: - Mosaico leve (2). - Mosaico severo cor verde-escuro (3). Ataques severos: - Folíolos podem apresentar áreas necróticas marrom-escuro (1). - Frutos Menores (1). - Rugosidade (1). - Folíolos infectados com mosaico junto da necrose ficam enrolados para baixo, parecendo uma árvore de natal (3).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+1. Batata e pimentão podem ser fonte de inóculo para a doença (3). Solução: Evitar a sucessão entre essas culturas e o tomate e evitar plantar o tomate na mesma época que a batata e o pimentão. 2. Períodos secos e frescos são favoráveis para a disseminação do mosaico Y, devido ao aumento da população do inseto vetor (1). Solução: Monitorar o inseto vetor (pulgões) na lavoura nestas condições ambientais.
+
+-- CONTROLE: --
+- Controle do inseto vetor (pulgão).
+
+-- Informações Complementares --
+(1) Vale, F.X.R.; Zambolim, L.; Zambolim, E.M.; Alvarenga, M.A.R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. UFLA, 2004. cap 9, pag 266-268. (2) GUIA DE CAMPO: Pragas da Cultura do Tomateiro. (3) Lopes CA, Santos JRM. Doenças do tomateiro. Brasília: Embrapa; 1994. (4) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Alice Kazuko Inoue-Nagata. Tema: Embrapa Hortaliças e o manejo de viroses em tomateiro. Data do evento: 14/09/2020. Para informações na íntegra, acessar: https://youtu.be/sgDHRSl-FeI .

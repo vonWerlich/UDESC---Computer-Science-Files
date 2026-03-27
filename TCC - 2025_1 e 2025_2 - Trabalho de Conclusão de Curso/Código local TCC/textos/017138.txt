@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Alfa-cipermetrina Teflubenzuron
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017138&isEdicao=N&epagriTEC=S
+
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Alfa-cipermetrina Teflubenzuron; Nome comercial: Imunit; Grupo químico: Piretroide Benzoiluréia; Dose de produto comercial (Spodoptera frugiperda): 200-300mL/ha; Carência (dia): 30 Classe Toxicológica: 4 = pouco tóxico (faixa azul); Classe ambiental: II = muito perigoso;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”.
+
+-- PRAGAS QUE CONTROLA: --
+Lagarta-militar (Spodoptera frugiperda)
+
+-- Informações Complementares --

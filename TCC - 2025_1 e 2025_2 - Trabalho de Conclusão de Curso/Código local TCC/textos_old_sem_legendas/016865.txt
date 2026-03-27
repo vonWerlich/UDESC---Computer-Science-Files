@@ -1,0 +1,26 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016865&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+DIAGNOSE VISUAL
+1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16865%5D%7B84%7Dchave_alavoura.jpg
+Legenda: 1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+16887
+1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16865%5D%7B213%7Dchave_aplanta.jpg
+Legenda: 2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+17062
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16865%5D%7B492%7Dchave_apraga.jpg
+Legenda: 3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+16886
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+4. Diagnóstico a partir da doença Inicie por aqui, caso saiba que se trata de doença, mas tenha dúvida. Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais.
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16865%5D%7B107%7Dchave_adoenca.jpg
+Legenda: 4. Diagnóstico a partir da doença Inicie por aqui, caso saiba que se trata de doença, mas tenha dúvida. Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais.
+17060
+4. Diagnóstico a partir da doença Inicie por aqui, caso saiba que se trata de doença, mas tenha dúvida. Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais.

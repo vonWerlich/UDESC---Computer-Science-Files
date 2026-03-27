@@ -1,0 +1,27 @@
+Título: ARROZ IRRIGADO - 06. Manejo nutricional - Avaliação da necessidade de calcário (NC)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013141&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+06. Manejo nutricional
+Avaliação da necessidade de calcário (NC)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11407%5D%7B432%7D06_calcario_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+As atividades que compõem o manejo nutricional se destinam principalmente à elevar o potencial produtivo da lavoura e a sua correta execução é fundamental para se obter boa rentabilidade.
+
+-- NECESSIDADE DE CALCÁRIO (NC): --
+Os critérios de avaliação da necessidade de calcário (NC) para a cultura do arroz irrigado, nos sistemas pré-germinado e de semeadura em solo seco estão nas tabelas abaixo . A dose de calcário deve ser corrigida para o PRNT do produto conforme a seguinte equação: Calcário (t/ha) = (100/PRNTcalcário) x NC
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11407%5D%7B232%7D06_tabneccalcario_2021.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11407%5D%7B396%7D06_tabneccalcarioss_2021.jpg
+
+-- RECOMENDAÇÃO DE CALCÁRIO: --
+As recomendações de calcário (PRNT 100%), com base no índice SMP, estão listadas na tabela abaixo . A dose de calcário deve ser corrigida para o PRNT do produto conforme a seguinte equação: Calcário (t/ha) = (100/PRNTcalcário) x NC
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11407%5D%7B495%7D06_tabdosecalcario_2021.jpg
+
+-- Informações Complementares --
+SOSBAI. Arroz irrigado : recomendações técnicas da pesquisa para o sul do Brasil. in: Reunião Técnica da Cultura do Arroz Irrigado, 32., 08 a 10 de agosto de 2018, Farroupilha – RS. Cachoerinha : Sociedade Sul-Brasileira de Arroz Irrigado, 2018. 205p.
+SOSBAI. Arroz irrigado : recomendações técnicas da pesquisa para o sul do Brasil. in: Reunião Técnica da Cultura do Arroz Irrigado, 32., 08 a 10 de agosto de 2018, Farroupilha – RS. Cachoerinha : Sociedade Sul-Brasileira de Arroz Irrigado, 2018. 205p.
+• Rafael Ricardo Cantú (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação
+• Marcos Lima Campos do Vale (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação
+• Gelton Geraldo Fernandes Guimaraes (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação

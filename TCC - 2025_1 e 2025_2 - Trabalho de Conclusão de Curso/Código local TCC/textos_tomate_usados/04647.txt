@@ -1,0 +1,22 @@
+Título: TOMATE - Nutrição Mineral - Manganês
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04647&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B755%5D%7B26%7D110.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B755%5D%7B278%7D110.jpg
+Legenda: Sintomas típicos da deficiência de manganês. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+
+-- Informações gerais: --
+Depois do ferro o manganês é o micronutriente mais abundante no solo, apesar da faixa de variação ser bem grande, sendo que mais de 90 % está complexado com compostos orgânicos (3). A manifestação dos sintomas de deficiência desse nutriente é muito rara, tanto em solo, como em hidroponia, e essa hipótese deve ser considerada em último caso. A deficiência de manganês é raramente encontrada no tomateiro, devido ser geralmente pulverizado com defensivos a base desse nutriente (1). Em cultivo em solo, pelo fato do predomínio da acidez nos solos, é mais frequente a ocorrência de toxidez do que a deficiência de manganês (3).
+
+-- Como identificar: --
+Os sintomas de deficiência ocorrem em folhas mais novas, como clorose internerval verde-clara a amarelada (1). Assim, as folhas mais jovens apresentam zonas cloróticas nas áreas intercostais das folhas, enquanto as nervuras e a borda permanecem verdes (2). Pontos necróticos aparecem nas folhas novas e provoca redução do crescimento da planta (1).
+
+-- O que pode estar ocorrendo: --
+- Solos mal drenados (1). - Solos calcários e de turfa são mais propensos a manifestação dos sintomas (1) .
+
+-- Controle: --
+- Melhorar a drenagem do solo e evitar o excesso de calagem (1). - Pulverização via foliar com sulfato de manganês a 0,4% (1).
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. et al. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) Yara. Disponível em: . Acesso em: 19/10/2018. (3) FAQUIN, V. Nutrição Mineral de Plantas. Lavras: UFLA/FAEPE, 2005.

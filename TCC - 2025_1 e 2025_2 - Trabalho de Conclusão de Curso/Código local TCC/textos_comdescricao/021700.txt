@@ -1,0 +1,27 @@
+Título: BANANA - Fitossanidade - Principais pragas da bananeira - TRIPES-DA-ERUPÇÃO/TRIPES-DA-FLOR
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021700&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais pragas da bananeira
+TRIPES-DA-ERUPÇÃO/TRIPES-DA-FLOR
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18390%5D%7B282%7Dtripes_da_erupcao_1.jpg
+Prática agrícola do escoramento externo na cultura da bananeira, onde um robusto pseudocaule é sustentado por um sistema de apoio formado por duas hastes de bambu dispostas em um arranjo triangular ou em "V" para distribuir o peso; a haste inferior está firmemente amarrada contra o pseudocaule com corda clara em espiral, enquanto a haste superior converge para a primeira, unindo-se por um nó, formando uma estrutura robusta que previne o tombamento da planta sob o peso de um futuro cacho, demonstrando uma técnica de manejo eficiente para garantir a integridade da planta e a segurança da produção.
+FOTO: Foto: Fonte Epagri
+
+-- DESCRIÇÃO --
+ESPÉCIE : Frankliniella spp. Ordem: Thysanoptera Família: Thripidae Biologia: Insetos extremamente pequenos, com adultos medindo entre 1,2mm e 1,5mm, de coloração escura, levemente marrom. São geralmente encontrados nas flores novas, ainda protegidas pelas brácteas. Podem ocorrer durante todo o ano, porém suas populações tendem a aumentar durante as estações mais quentes do ano.
+
+-- DANOS --
+As fêmeas colocam seus ovos nos frutos, nos tecidos ainda em desenvolvimento, o que causa aparecimento de pontos marrons na superfície (Figura B abaixo) , que não interferem na qualidade do fruto, mas afetam diretamente a qualidade visual dos frutos, além de permitir a entrada de fungos, como Colletotrichum musae , agente causal da antracnose, que diminuem a vida pós-colheita.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18390%5D%7B454%7Dtripes_eurupcao.png
+Densa colônia da cochonilha-farinhenta Planococcus citri, vetor de importância fitossanitária do Banana Streak Virus (BSV), causador das Estrias da Bananeira, em um sistema de criação laboratorial que utiliza como substrato a superfície escura e texturizada de uma abóbora Tetsakabuto; a cena detalha múltiplos estágios de desenvolvimento do inseto, desde ninfas a adultos, caracterizados pelo corpo oval e rosado, densamente recoberto por uma secreção pulverulenta e cerosa de cor branca, e por proeminentes filamentos cerosos brancos que irradiam das margens do corpo, conferindo-lhes um aspecto franjado, enquanto o ambiente ao redor da colônia está impregnado de detritos cerosos e exúvias, denotando a alta taxa de infestação e multiplicação do vetor.
+
+-- CONTROLE --
+Deve-se proceder às mesmas técnicas de controle utilizadas para o tripes-da-ferrugem.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+• Marcelo Mendes de Haro (Dr. - Epagri) Pesquisador - Epagri - Itajaí

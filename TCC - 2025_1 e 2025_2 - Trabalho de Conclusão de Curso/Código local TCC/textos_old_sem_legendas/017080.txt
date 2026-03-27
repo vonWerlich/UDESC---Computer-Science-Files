@@ -1,0 +1,54 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Caramujo-grande (Pomaceaspp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017080&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Caramujo-grande ( Pomacea spp. )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11348%5D%7B388%7Dcmujgrande_caput.jpg
+FOTO: Não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B198%7Dcmujgrande_fig24.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B194%7Dcmujgrande_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B339%7Dcmujgrande_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B287%7Dcmujgrande_fig06.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B332%7Dcmujgrande_fig12.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B522%7Dcmujgrande_fig14.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B525%7Dcmujgrande_fig15.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B416%7Dcmujgrande_fig16.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B383%7Dcmujgrande_fig17.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B89%7Dcmujgrande_fig18.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B511%7Dcmujgrande_fig23.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B21%7Dcmujgrande_fig25.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B492%7Dcmujgrande_fig26.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B124%7Dcmujgrande_fig27.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B72%7Dcmujgrande_fig28.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B251%7Dcmujgrande_fig31.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B293%7Dcmujgrande_fig35.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B522%7Dcmujgrande_fig37.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B291%7Dcmujgrande_fig38.jpg
+
+-- INFORMAÇÕES GERAIS: Praga primária --
+Espécies: Pomacea canaliculata (Lamark) e Pomacea maculata Perry Ordem: Caenogastropoda Família: Ampullariidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B263%7Dcmujgrande_base.jpg
+
+-- IDENTIFICAÇÃO: --
+• Caramujo operculado de cor escura e com quatro longos filamentos que saem da cabeça. A concha é globosa em espiral (até 8cm de diâmetro), dura e de coloração marrom-esverdeada com faixas escuras. • Os ovos são esféricos, com coloração variando de rosa-clara a vermelha. São postos agrupados fora da água, em hastes de plantas ou outros suportes como pedras ou troncos presentes nas margens.
+
+-- CICLO DE VIDA: --
+Completa-se em torno de 60 dias (período de ovo à aptidão reprodutiva), sendo de 14 a 17 dias a incubação dos ovos. Entre os 15 a 25 dias de idade os caramujinhos completam o primeiro período juvenil e nos 45 a 59 dias, o segundo período juvenil. O adulto pode sobreviver por mais de oito semanas fora da água, enterrado no lodo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B291%7Dcmujgrande_ciclo.jpg
+
+-- OCORRÊNCIA: --
+Anual: de agosto a março. Crítico: outubro/novembro. Lavoura: da semeadura à maturação. Os caramujos já residem na área da lavoura ou chegam com a água de irrigação, concentrando nas passagens de água. Podem persistir até o final da safra, porém só causam danos na semeadura e até o início do perfilhamento.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11348%5D%7B209%7Dcmujgrande_fenologia.jpg
+
+-- DANOS: --
+Os caramujos, principalmente os maiores, consomem sementes em germinação e as folhas tenras do arroz, inclusive arrancando as plantas pequenas. Disto resulta falhas de estande ou mesmo áreas sem plantas, onde depois proliferam as plantas daninhas.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Drenagem temporária da área, por poucos dias, para forçar a saída dos caramujos dos quadros, cuidando para evitar uma maior incidência de plantas daninhas. • Instalar armações triangulares ou circulares teladas na entrada de água para as quadras e retirar periodicamente os caramujos acumulados. • Preparar cevas com folhas de mamoeiro, bananeira ou alface e coletar manualmente os caramujos nesses locais. • Favorecer o controle biológico natural, instalando poleiros para o gavião-caramujeiro. • Limpar valas e fincar taquaras para recolher posturas. Pulverizar os ovos com solução de óleo vegetal a 5 ou 10%. • Introduzir marrecos-de-pequim em pós-colheita. • Aplicar cal virgem (1Kg/m³ de água) em valas com água represada (opção para a entressafra). • Manter as áreas de lavoura, inclusive as valas, secas na entressafra. • Alternar sistemas de cultivo do arroz.
+
+-- Informações Complementares --
+HICKEL, E.R.; SCHEUERMANN, K.K.; EBERHARDT, D.S. Manejo de caramujos em lavouras de arroz irrigado, em sistema de cultivo pré-germinado. Agropecuária Catarinense , v.25, n.1, p.54-57. 2012.
+HICKEL, E.R.; SCHEUERMANN, K.K.; EBERHARDT, D.S. Manejo de caramujos em lavouras de arroz irrigado, em sistema de cultivo pré-germinado. Agropecuária Catarinense , v.25, n.1, p.54-57. 2012.
+• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri) Manejo integrado de pragas

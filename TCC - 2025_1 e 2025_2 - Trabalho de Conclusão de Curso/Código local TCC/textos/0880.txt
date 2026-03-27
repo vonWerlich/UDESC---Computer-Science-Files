@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Lambda F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0880&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B762%5D%7B546%7Dlambda.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Eagle; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Médio (201 a 230 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+PRODUTO/SEGMENTO: Tomate Indeterminado Salada RESISTÊNCIA: V2 N F2 TYLCV TSWV TMV ToMV CICLO MÉDIO: 110 dias PESO MÉDIO: 230grs EMBALAGEM: Envelope com 1.000 sementes
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://eagleflores.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://eagleflores.com.br/2018/06/18/post-template-74/

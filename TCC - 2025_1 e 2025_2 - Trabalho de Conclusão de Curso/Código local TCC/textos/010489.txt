@@ -1,0 +1,42 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Boas práticas de manejo - Manejo de despesca e transferência
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010489&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17907%5D%7B230%7Ddespesca_2.jpg
+
+-- IMPORTÂNCIA: --
+O manejo de transferência e despesca é tão importante quanto o manejo durante o cultivo, pois esse pode causar o estresse do peixe e comprometer a sobrevivência no transporte ou a qualidade da carne. Alguns cuidados necessários nessa hora serão tratados a seguir.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17907%5D%7B238%7Ddespesca_2.jpg
+Legenda: Manejo da despesca e transferência. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17907%5D%7B205%7Ddespesca_1.jpg
+Legenda: Manejo da despesca e transferência. Foto: Bruno Corrêa da Silva
+
+-- JEJUM: --
+Os peixes devem ficar pelo menos 24h de jejum antes da transferência ou despesca.
+
+-- DRENAGEM DO VIVEIRO: --
+O viveiro deve ser drenado com antecedência e gradativamente, evitando a suspensão de sólidos e gases tóxicos existentes no fundo.
+
+-- CAPTURA COM REDE DE ARRASTO: --
+Também é recomendado que se realize o arrasto quando o viveiro apresentar cerca de 50% do volume total de água. Após a passagem da rede, o peixe deve ser transportado rapidamente para a caixa de transporte.
+
+-- BOLSÕES OU CAIXAS DE DESPESCA: --
+As tilápias são peixes que escapam facilmente do arrasto com rede. Para uma despesca eficiente, o produtor pode, na construção dos viveiros, fazer uma área com maior profundidade (40cm), próximo do monge, formando um bolsão ou uma caixa de despesca que ajudará na coleta do peixe.
+
+-- REDE E PESSOAL ADEQUADO PARA DESPESCA: --
+Para uma despesca eficiente é preciso contar com pessoal bem treinado no arraste das redes, e redes especialmente desenhadas para a captura de tilápias. A panagem adequada para confecção de redes de despesca são as de multifilamentos de nylon sem nós, pois reduzem as lesões nos peixes. O comprimento da rede deve conter o tamanho da maior largura do viveiro mais 50%. Já a altura da rede pode variar de 2 a 4m, dependendo da profundidade que se utiliza o viveiro na hora do arrasto.
+
+-- AERAÇÃO NA DESPESCA: --
+Em casos onde a retirada do peixe da rede será demorada devido a algum manejo, como a classificação, ou em caso de despesca parcial, é fundamental o uso do aerador para manter os valores de oxigênio adequados para os animais ainda no viveiro.
+
+-- CARÊNCIA DOS PRODUTOS QUÍMICOS: --
+Em caso de despescas, é necessário que seja respeitado o tempo de carência de eventuais produtos químicos utilizados no final do cultivo, como, por exemplo, o antibiótico.
+
+-- TRANSPORTAR PEIXES SAUDÁVEIS: --
+Não é recomendado o transporte de peixes que passaram recentemente por estresse, doenças, ou algum tipo de manejo que pode debilitar o animal.
+
+-- DESCARTE FINAL: --
+Após a passagem da rede e a despesca total do peixe, manter os últimos 40cm de água no viveiro por no mínimo 48h, com objetivo de decantar as partículas em suspensão e evitar a emissão excessiva de sólidos, compostos nitrogenados e fósforo.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

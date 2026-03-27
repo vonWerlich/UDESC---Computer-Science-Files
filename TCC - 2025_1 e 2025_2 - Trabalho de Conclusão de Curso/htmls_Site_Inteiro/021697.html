@@ -1,0 +1,377 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7983&amp;isEdicao=N&amp;epagriTEC=S">BANANA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7984&amp;isEdicao=N&amp;epagriTEC=S">     Fitossanidade</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21654&amp;isEdicao=N&amp;epagriTEC=S">Principais pragas da bananeira</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21697&amp;isEdicao=N&amp;epagriTEC=S">BROCA-DO-RIZOMA OU MOLEQUE-DA-BANANEIRA</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18387">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021697">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18387]{490}broca.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Marcelo Haro/Epagri   </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  MOLEQUE-DA-BANANERA  
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>DESCRIÇÃO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b>ESPÉCIE</b>: <i>Cosmopolites sordidus</i> (Germar, 1824) - Ordem: Coleoptera - Família: Curculionoidae.<br><br>
+Biologia: Besouros de coloração negra, medindo aproximadamente 11mm de comprimento por 5mm de largura. Apresentam hábitos de forrageamento e reprodução predominantemente noturnos, escondendo-se durante o dia em ambientes mais úmidos e abrigados da luz, como touceiras, bainhas e restos culturais do pomar. 
+Apesar de possuir asas, esta espécie não voa. As fêmeas colocam seus ovos em pequenas 
+cavidades no rizoma das plantas de bananeira. As larvas eclodem e penetram o tecido 
+vegetal, desenvolvendo-se no interior dos rizomas por um período que varia entre 
+30 e 50 dias, dependendo dos níveis nutricionais da planta, do cultivar atacado, das 
+condições climáticas e da temperatura. Após esse período, as larvas se dirigem mais uma 
+vez para a periferia do rizoma, onde passam pelo processo de pupa, por um período de 
+aproximadamente 10 dias, após o qual um novo adulto emerge.<br><br>
+
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28665,021697,18387,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18387]{311}broca_1.png">  </a> 
+<br><br>
+<b>DANOS</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os prejuízos provocados pelo ataque deste inseto ocorrem, principalmente, 
+durante sua fase larval. As galerias criadas pelas formas jovens do moleque-da-bananeira 
+prejudicam a translocação da seiva e, consequentemente, a absorção de água e nutrientes 
+pela planta.<br><br> Os prejuízos podem ser percebidos pela redução do diâmetro, 
+peso e comprimento dos frutos, com perdas que giram em torno de 30% e podem chegar a 100% em bananais extremamente atacados. Além disso, as galerias favorecem o tombamento das plantas, podendo ser agravado em regiões onde existe um histórico de 
+ventos fortes.<br><br> Uma das preocupações mais recentes relacionadas ao manejo da população 
+desta broca se refere à possibilidade de transmissão e facilitação da penetração do fungo 
+causador da fusariose nas plantas de bananeira(<sup>1</sup>)(<sup>2</sup>).
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28667,021697,18387,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18387]{375}broca_2.png">  </a> 
+<br><br>
+<b>MONITORAMENTO E CONTROLE</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Podem ser utilizadas armadilhas, tanto para o monitoramento quanto para o controle desta espécie. Existem dois tipos principais: aquelas feitas com os restos 
+culturais e as que utilizam feromônios sintéticos comerciais.
+Armadilhas feitas com os restos culturais: As principais são as armadilhas do tipo queijo ou telha, ambas feitas com o pseudocaule e rizomas de bananeiras colhidas, num período igual ou menor do que 15 dias(<sup>3</sup>).<br><br>
+As <b>ARMADILHAS DO TIPO TELHA</b> são feitas com pedaços de pseudocaule de aproximadamente 60cm, cortadas longitudinalmente ao meio, e colocadas entre as famílias de bananeira, com o interior do pseudocaule virado para o solo. Esta armadilha não é a mais indicada por ser menos efetiva e se degradar mais rapidamente, uma vez que fica totalmente destacada da planta.<br><br>
+Dentre as armadilhas que utilizam restos culturais, a mais indicada é a do <b>TIPO QUEIJO</b>, confeccionada no pseudocaule de plantas recentemente colhidas, a uma altura de 40cm. Logo após, realiza-se um novo corte parcial no sentido horizontal a cerca 
+de 20cm da base. Desta forma, o pseudocaule continua recebendo seiva e se mantém ativo por mais tempo, além de ter uma efetividade maior do que as iscas do tipo telha.<br><br> É importante posicionar um pequeno pedaço do pseudocaule, funcionando como calço, a fim de manter um pequeno espaço aberto, permitindo a entrada do inseto.<br><br>
+Para monitoramento, devem ser utilizadas de 20 a 50 armadilhas/ha. O nível de controle é de 5 insetos/armadilha, ou seja, quando a média de adultos na área for igual ou superior a cinco, deve-se realizar controle da praga. Além de ser utilizada no monitoramento, esta armadilha também pode servir para o controle, por meio de coleta massal. Para tal, recomenda-se o uso de 50 a 100 armadilhas/ha, distribuídas durante 
+todo o ano, dependendo da infestação do bananal, devendo ser direcionadas a regiões com maior ataque. As coletas e contagem dos insetos devem ser feitas manualmente, no mínimo, uma vez por semana, sendo os indivíduos destruídos após este processo e 
+enterrados fora da área do bananal.<br><br>
+<b>ARMADILHAS DE FEROMÔNIOS</b>: Os insetos utilizam substâncias químicas, conhecidas 
+como feromônios, para comunicação, agregação e reprodução. Baseado nisto, esta 
+tecnologia utiliza feromônios sintéticos, produzidos em laboratório, para imitar os 
+compostos naturais e, consequentemente, agir na atração dos insetos. Comercializados 
+em sachês, estes feromônios podem ser facilmente adquiridos em lojas de produtos 
+agropecuários.
+A captura acontece por meio de uma armadilha, feita com recipientes plásticos 
+nunca utilizados para outros fins, comumente de 5L, de quaisquer cores disponíveis(<sup>4</sup>), cortados em suas laterais, para permitir a entrada dos insetos 
+e o fluxo do feromônio, que deve ser inserido na parte superior interna da armadilha (figura abaixo).<br><br> No fundo das armadilhas, coloca-se água e algumas gotas de detergente 
+neutro, visando à quebra da tensão superficial da água, impedindo que os insetos atraídos 
+saiam das armadilhas(<sup>5</sup>). <br><br>Recomenda-se o uso de 3 armadilhas/ha 
+para o monitoramento da broca. A troca da água e eliminação dos insetos capturados deve ser feita semanalmente. Para utilização desta armadilha como controle, deve-se levar em 
+consideração seu raio de ação, que gira em torno de 10m, concentrando-se nas regiões 
+onde houver maior infestação.
+
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28671,021697,18387,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18387]{47}cap_10_-_figura_3_(branco).jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28670,021697,18387,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18387]{421}cap_10_-_figura_2_(branco).jpg">  </a> 
+<br><br>
+<b>CONTROLE BIOLÓGICO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O fungo Beauveria bassiana é o agente de controle biológico 
+mais indicado para o manejo destes insetos. <br><br>Este fungo entomopatogênico ocorre 
+naturalmente no solo, sendo amplamente utilizado para o manejo integrado de pragas 
+graças a sua capacidade de infectar e causar a morte de seu hospedeiro. Devido a sua 
+facilidade de aplicação, amplo espectro de pragas alvos e possibilidade de transporte e 
+armazenamento, este agente ganhou espaço na agricultura, podendo ser facilmente 
+encontrado no comércio. Entretanto, há que se atentar à qualidade do produto a ser 
+adquirido, utilizando sempre aqueles de boa procedência, comercializados na forma de pó 
+molhável, devidamente registrados no Ministério da Agricultura Pecuária e Abastecimento(<sup>6</sup>).<br><br>
+No caso do manejo do moleque-da-bananeira, podemos associar à utilização de 
+B. bassiana as armadilhas previamente descritas, na forma de uma massa, a qual facilita 
+sua aplicação e a durabilidade do fungo no campo. Esta massa é de fácil confecção, sendo 
+composta de:<br><br>
+
+• 200 gramas de B. bassiana;<br><br>
+• 1.000 gramas de farinha de trigo; e<br><br>
+• 500mL de óleo vegetal.<br><br>
+Devem-se misturar os ingredientes secos, adicionando óleo aos poucos, até que se 
+forme uma massa homogênea, que permita modelar pequenas bolinhas, de mais ou menos 
+3cm de diâmetro (Figura abaixo). Após esse processo, elas devem ser aplicadas imediatamente, 
+em sua totalidade, não devendo ser armazenadas. Esta receita é o suficiente para infectar 
+entre 30 e 40 armadilhas.<br><br> É importante não substituir nenhum ingrediente desta receita, 
+principalmente o óleo vegetal, que não pode ser substituído por óleo mineral em hipótese 
+nenhuma, devido ao efeito fungistático deste.
+O controle biológico com B. bassiana mostra-se altamente eficiente, dispensando a 
+necessidade de inseticidas para o controle da praga. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28672,021697,18387,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18387]{327}cap_10_-_figura_controle.jpg">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.<br><br>
+
+(<sup>6</sup>)HARO, M.M.; BELTRAME, A.B. Qualidade dos produtos à base de Beauveria bassiana
+comercializados em Santa Catarina para o controle de brocas-da-bananeira. In: Simpósio 
+de Controle Biológico, 16, 2019, Londrina. Anais… Santo Antônio de Goiás: SEB, 2019.<br><br>
+
+(<sup>1</sup>)MELDRUM, R.A.; DALY, A.M.; TRAN-NGUYEN, L.T.T.; AITKEN, E. A. B. Are banana weevil 
+borers a vector in spreading Fusarium oxysporum f. sp. cubense tropical race 4 in banana 
+plantations? Australasian Plant Pathol. 42, 543–549, 2013.<br><br>
+
+
+(<sup>2</sup>)GUILLEN-SÁNCHEZ, C.; TIXIER, P.; TAPIA-FERNÁNDEZ, A.; CONEJO-BARBOZA, A.M.; 
+SANDOVAL-FERNÁNDEZ; J.A. LAPEYRE-BELLAIRE, L. Can the banana weevil Cosmopolites
+sordidus be a vector of Fusarium oxysporum f.sp. cubense race 1? Unravelling the 
+internal and external acquisition of effective inoculum. Pest Manag Sci, 77: 3002-3012, 
+2021.<br><br>
+
+(<sup>4</sup>)CASSOL, S.A.; HARO, M.M. Eficiência de armadilhas de diferentes cores para captura 
+de moleque-da-bananeira. In: Simpósio Internacional Ciência, Saúde e Território, 6., 
+Encontro de Sistemas Integrados de Produção Agropecuária no Sul do Brasil, 6, 2021, 
+Lages. Anais… Lages: UNIPLAC, 2021b.<br><br>
+
+(<sup>3</sup>)CASSOL, S.A.; HARO, M.M. Taxa de captura de armadilhas convencionais e com 
+feromônios no controle de moleque-da-bananeira. In: Simpósio Internacional Ciência, 
+Saúde e Território, 6., Encontro de Sistemas Integrados de Produção Agropecuária no Sul 
+do Brasil, 6, 2021, Lages. Anais… Lages: UNIPLAC, 2021a.<br><br>
+
+(<sup>5</sup>)HARO, M.M.; ECCEL, C. Taxa de captura de adultos de moleque-da-bananeira em 
+armadilhas com e sem lâmina d’água. In: Simpósio Internacional Ciência, Saúde e 
+Território, 6., Encontro de Sistemas Integrados de Produção Agropecuária no Sul do 
+Brasil, 6, 2021, Lages. Anais… Lages: UNIPLAC, 2021.<br><br>
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Marcelo Mendes de Haro (Dr. - Epagri)<br> &nbsp;&nbsp; Pesquisador - Epagri - Itajaí </font> 
+<br><br><br> <font size="2"> Criado em: 08/03/2024</font>
+<br> <font size="2"> Última atualização: 29/04/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021697&amp;cdElemento=18387">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18387');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

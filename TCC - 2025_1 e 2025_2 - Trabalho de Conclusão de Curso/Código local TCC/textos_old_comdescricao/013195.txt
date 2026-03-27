@@ -1,0 +1,32 @@
+Título: ARROZ IRRIGADO - 09. Sementes e semeadura de arroz irrigado - Produção de mudas para transplante
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013195&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+09. Sementes e semeadura de arroz irrigado
+Produção de mudas para transplante
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11450%5D%7B343%7D09_mudas_caput.jpg
+FOTO: J.V.Raimondi (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+As mudas utilizadas para transplantes devem ser produzidas em caixas especiais e cultivadas em viveiros até atingirem o desenvolvimento ideal para irem para o campo ( figura abaixo ). As dimensões das caixas devem ser compatíveis com o equipamento de transplante disponível, medindo normalmente 30cm de largura por 60 a 70cm de comprimento e 5cm de altura, podendo ser confeccionadas em madeira, metal ou plástico.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11450%5D%7B401%7D09_mudas_fig03.jpg
+
+-- PRODUÇÃO DE MUDAS EM CAIXAS: --
+Para a semeadura das caixas se utiliza um substrato a base de solo de textura média (argila de fácil destorroamento quando seca), devendo ser isento de contaminação com sementes, em especial de arroz. Recomenda-se o uso de solos sub-superficiais (camada de 20 a 40 cm) para minimizar o risco de contaminação genética. Primeiramente, se deposita uma camada uniforme de substrato contendo entre 1 a 1,5cm na caixa, sobre o qual as sementes são depositadas ( figura abaixo ). Em seguida, faz-se o recobrimento das sementes com uma fina camada do mesmo substrato. As sementes podem ser semeadas secas ou pré-germinadas. No último caso, a irrigação das caixas deverá ser imediata, evitando o dessecamento das estruturas iniciais das sementes em germinação. A densidade de semeadura deve ser de 300 a 400g de semente por caixa ( figura abaixo ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11450%5D%7B160%7D09_mudas_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11450%5D%7B430%7D09_mudas_fig02.jpg
+
+-- PONTO DE TRANSPLANTE: --
+Assim que atingirem o estádio de 4 folhas (V4 na escala de Counce), as mudas estão prontas para o transplante ( figuras abaixo ). A máquina deve ser regulada para plantar de 3 a 8 mudas por cova, com espaçamento de 30cm entre linhas e de 15 e 20cm entre plantas ( figuras abaixo ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11450%5D%7B89%7D09_mudas_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11450%5D%7B408%7D09_mudas_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11450%5D%7B275%7D09_mudas_fig06.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11450%5D%7B157%7D09_mudas_fig07.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11450%5D%7B445%7D09_mudas_fig08.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11450%5D%7B359%7D09_mudas_fig09.jpg
+
+-- Informações Complementares --
+• Gabriela Neves Martins (Dr. em Sementes - Epagri) Produção de sementes
+• Laerte Reis Terres (Dr. em Melhoramento - Epagri) Melhoramento e cultivares
+• Douglas George de Oliveira (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola

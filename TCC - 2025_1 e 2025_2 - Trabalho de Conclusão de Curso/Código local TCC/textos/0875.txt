@@ -1,0 +1,28 @@
+Título: TOMATE - Cultivares - SCS375 Kaiçara OP
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0875&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B757%5D%7B429%7Dimg_8574.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Isla (Epagri); Finalidade: Copa; Grupo: Salada; Polinização: Polinização aberta; Precocidade: Média (111 a 120dias); Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Baixo
+
+-- CARACTERIZAÇÃO AGRONÔMICA: --
+Produtividade (kg/ha): 67.772,00 Peso médio do fruto (gramas): 106 Diâmetro médio do fruto (cm): 6,5 Suscetibilidade à doenças foliares: Baixa Qualidade visual dos frutos: Muito boa Sabor dos frutos: Bom Hábito de crescimento: Indeterminado Acidez (g ácido cítrico 100g-1): 0,38 Fenólicos (GAE mg 100g-1): 40,4 Vitamina C (mg 100g-1): 6,22
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B757%5D%7B314%7Dimg_8586.jpg
+Legenda: Foto do cultivar SCS375 Kaiçara. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B757%5D%7B238%7Dimg_8578.jpg
+Legenda: Foto do cultivar SCS375 Kaiçara. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B757%5D%7B433%7Dprodutividade_kaicara.jpg
+Legenda: Produtividade comercial (kg/ha) de cultivares de tomate, cultivados nos anos de 2008, 2009, 2012, 2014 e 2015 na EEI e em Blumenau, Camboriú e Massaranduba – Epagri / Estação Experimental de Itajaí, 2016. Fonte: Schallenberger et al (2017).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B757%5D%7B538%7Dimg_0171.jpg
+Legenda: Tomate Kaiçara conduzido no sistema orgânico. null
+
+-- CARACTERIZAÇÃO MORFOLÓGICA: --
+1. Plântula: pigmentação antociânica do hipocótilo: presente 2. Planta: hábito de crescimento: Indeterminado 3. Haste: pigmentação antociânica no terço superior: Ausente ou muito fraca 4. Haste: comprimento do entrenó: Médio 5. Folha: posição (no terço médio da planta): Horizontal 6. Folha: comprimento: Curta 7. Folha: largura: Média 8. Folha: forma: Tipo 1 9. Folha: divisão do limbo: Bipinada 10. Folha: intensidade de cor verde: Média 11. Folhas: presença de bolhas: Fraca 12. Inflorecência: tipo: Principalmente multípara 13. Flor: fasciação (primeira flor da inflorescência: Ausente 14. Flor: coloração: Amarela 15. Pedúnculo: abscisão: Ausente 16. Pedúnculo: comprimento (desde a zona de abscisão até o cálice): Médio 17. Fruto: tamanho: Médio 18. Fruto: razão comprimento / diâmetro: Pequena 19. Fruto: formato na seção longitudinal: Elíptico 20. Fruto: costelamento na zona peduncular: Ausente ou muito fraco 21. Fruto: da depressão na zona peduncular: Média 22. Fruto: tamanho da cicatriz peduncular: Média 23. Fruto: tamanho da lesão pistilar: Pequena 24. Fruto: forma da extremidade pistilar: Plana 25. Fruto: tamanho do miolo em seção transversal (em relação ao diâmetro total): Médio 26. Fruto: espessura do pericarpo: Média 27. Fruto: número predominante de lóculos: Somente dois 28. Fruto: ombro verde (antes da maturação): Presente 29. Fruto: área coberta pelo ombro verde: Pequena 30. Fruto: intensidade de coloração verde do ombro Fraca 31. Fruto: intensidade da coloração verde antes da maturação: Fraca 32. Fruto: coloração extrema na maturação: Vermelha 33. Fruto: coloração interna (polpa) na maturação: Vermelha 34. Fruto: firmeza: Firme 35. Ciclo até o florescimento: primeira flor: Médio 36. Ciclo até a maturação: Médio
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

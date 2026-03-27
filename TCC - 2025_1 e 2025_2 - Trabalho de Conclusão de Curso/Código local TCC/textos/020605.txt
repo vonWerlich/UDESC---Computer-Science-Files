@@ -1,0 +1,31 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Biossegurança e Manejo sanitário
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=020605&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+
+-- ETAPAS DA BIOSSEGURANÇA: --
+As medidas de biossegurança e manejo sanitário em uma propriedade são ações necessárias para impedir a entrada ou disseminação de um agente patogênico. Para implementações destas ações torna-se necessário realizar uma análise de risco para cada propriedade, e esta análise envolve quatro etapas descritas a seguir:
+
+-- Identificação dos principais perigos: --
+Identificação dos principais desafios sanitários que pode haver na produção, como por exemplo, a introdução de agentes patogênicos como vírus e bactéria.
+
+-- Avaliação dos riscos: --
+Identificação dos principais veículos de disseminação dos agentes patogênicos na propriedade.
+
+-- Gerenciamento de riscos: --
+Medidas preventivas ou corretivas para reduzir ou eliminar risco da entrada de um patógeno.
+
+-- Comunicação dos riscos: --
+A comunicação envolve os procedimentos operacionais padrão (POP), importantes para divulgação e padronização destas medidas de gerenciamento de riscos.
+
+-- VETORES DE INTRODUÇÃO DE DOENÇAS: --
+a) Renovação do plantel de matrizes e reprodutores; b) Introdução de formas jovens; c) Veículos e caixas utilizados no transporte de animais; d) Veículos de transporte de suprimentos; e) Visitantes; f) Aves e peixes de vida livre; g) Água de abastecimento.
+
+-- MEDIDAS DE BIOSSEGURANÇA: --
+a) Controle de tráfego e higienização de veículos: Adoção de arcos de desinfecção ou bomba costal para higienização de veículos. b) Controle dos visitantes e adoção de barreiras sanitárias de higienização de pessoas e materiais: Obter e armazenar informações de pessoas que realizem visitas na propriedade, além de possuir estruturas para desinfecção, principalmente, de pés e mãos. c) Setorização de pessoas e equipamentos: Setorizar colaboradores para cada fase de produção. Não havendo possibilidade, realizar treinamento destes colaboradores sobre as medidas de biossegurança. d) Coleta e destinação adequada de peixes mortos e moribundos: Importante que seja feita a retirada imediata de animais mortos e moribundos das unidades de produção. Após o manejo é necessário a desinfecção dos materiais utilizados, como puçá e baldes. Quanto à destinação dos animais moribundos, a compostagem aeróbica é uma boa opção. e) Vestimentas e EPI: É necessário haver local adequado para troca de roupa e vestimentas para os colaboradores, além da lavagem e desinfecção das mesmas. f) Armazenamento adequado da ração: A propriedade deverá ter o controle rígido do armazenamento adequado e data de validade da ração. Além disso, deve conter medidas para evitar o acesso de insetos e roedores ao local de armazenamento, e controle de pragas ao redor. g) Programa de epidemiologia e notificação de suspeita: A propriedade deverá conter o planejamento de analise sanitárias periódica da produção, seja analise presuntivas a fresco na propriedade ou o envio de amostras de forma dirigida para laboratórios de diagnostico. Além disso, a propriedade deverá ter definido as medidas de notificação dos órgãos responsáveis, em caso de suspeita de doenças de notificação obrigatórias. Em Santa Catarina, o órgão responsável é a CIDASC. E para tilápia, as doenças de notificação obrigatória são: franciselose e o ISKNV.
+
+-- DESINFECÇÃO DE MATERIAIS E EQUIPAMENTOS: --
+Dentre as ações de desinfecção de veículos, materiais e equipamentos utilizados a produção (puçá, balde, redes, tarrafa, incubadoras, caixas de manejo, classificadores, entre outros), é importante haver o conhecimento de quais produtos utilizar e as dosagens para cada situação. Apresentamos algumas recomendações: Produto: Delegol KS Princípio ativo: Monopersulfato de potássio e outros agentes. Modo de ação e dosagem: Aspersão: 100ppm; Imersão por 20min: 100ppm. Produto: Virkon S Princípio ativo: Monopersulfato de potássio e outros agentes. Modo de ação e dosagem: Aspersão: 100ppm; Imersão por 20min: 100ppm. Produto: AVT 450 Princípio ativo: Amônia quaternária, glutealderido, aldeído etanólico. Modo de ação e dosagem: Aspersão: 1.000ppm; Imersão por 20min: 1.000ppm
+
+-- Informações Complementares --
+Guia de Biosseguridade da Peixe-BR

@@ -1,0 +1,41 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Pulga-dágua (Hyalellassp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021460&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11358%5D%7B188%7Dpdagua_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11358%5D%7B488%7Dpdagua_fig01.jpg
+Legenda: 01. Pulga-d água Hyalella em aquário. Fonte: W. Klotz (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11358%5D%7B257%7Dpdagua_fig02.jpg
+Legenda: 02. Pulga-d água em aquário. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11358%5D%7B443%7Dpdagua_fig04.jpg
+Legenda: 03. Pulgas-d água (diversos indivíduos).Composição: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11358%5D%7B252%7Dpdagua_fig05.jpg
+Legenda: 04. Pulga-d água. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11358%5D%7B516%7Dpdagua_fig03.jpg
+Legenda: 05. Indivíduos na mão. Fonte: L.A. Funez (remasterizada)
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie(s): Hyalella spp. Ordem: Amphipoda Família: Hyalellidae Hyalella curvispina Shoemaker a provável espécie com ocorrência em Santa Catarina.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11358%5D%7B382%7Dpdagua_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+Estes crustáceos assemelham-se a minúsculos camarões em aspecto e cor. Os indivíduos adultos atingem 7,5mm de comprimento e, tal como os camarões, também deslocam-se para trás com extrema rapidez na água, impulsionados pela forte contração da cauda. Quando em terra firme, esta contração faz o crustáceo saltar grandes distâncias. Há dimorfismo sexual nas espécies, sendo os machos maiores que as fêmeas e com o segundo par de gnatopodes bem desenvolvido. As fêmeas não efetuam postura, mas incubam os ovos num tipo de marsúpio, que se rompe quando repleto de neonatos, liberando-os no ambiente. Os neonatos passam ao estágio juvenil ao atingirem 3mm de comprimento. Este estágio perdura até os indivíduos alcançarem 5mm de comprimento, quando tornam-se aptos à reprodução.
+
+-- CICLO DE VIDA: --
+Perdura por cerca de um mês e meio, sendo 10 dias a incubação dos ovos; 20 dias o primeiro período juvenil e 7 dias o segundo. Há um período de pré-oviposição de 5 dias.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11358%5D%7B215%7Dperseq_ciclo.jpg
+Legenda: Ciclo de vida da pulga d água, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de agosto a novembro. Crítico: setembro e outubro. Lavoura: da emergência ao perfilhamento. Os surtos de pulga-d água em arroz irrigado têm origem em açudes infestados, onde se coleta água para irrigação. Especialmente nas captações efetuadas no mês de setembro, quando as populações de Hyalella estão mais altas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11358%5D%7B446%7Dpdagua_fenologia.jpg
+Legenda: Fenologia da ocorrência da pulga-d água na lavoura de arroz em Santa Catarina.
+
+-- DANOS: --
+Tanto os mais desenvolvidos quanto os mais jovens, podem danificar as sementes pré-germinadas de arroz, consumindo o coleóptilo e as radículas. Mediante estudos em laboratório, estimou-se que uma população de 120 indivíduos/m² seria capaz de impedir, em quatro dias, o desenvolvimento de 50% das plântulas de arroz desta área. No campo as populações não chegam nesta proporção, porém são capazes de ocasionar perdas significativas de estande, só corrigidas com a ressemadura das áreas.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Limpeza dos canais de irrigação, mantendo-os sem água durante a entressafra. • Captar água para irrigação em fontes livres deste crustáceo, pois a sua entrada na lavoura ocorre através da irrigação. • Não permitir que os açudes de armazenamento de água na propriedade fiquem infestados de alface-d água ( Pistia stratiotes L.). • Em áreas com histórico de ocorrência de pulga-d água, semear sementes tratadas com o inseticida fipronil.
+
+-- Informações Complementares --
+GALASSI, M.E.; FRANCESCHINI, M.C. E NEIFF, A.P. Population estimates of Hyalella curvispina Shoemaker (Amphipoda) in aquatic vegetation of northeastern argentinian ponds. Acta Limnologica Brasiliensis , v.18, n.1, p.101-108. 2006. PRANDO, H.F.; EICHSTADT, E. Ocorrência de Hyalella sp. (Crustacea: Amphipoda) e danos em arroz irrigado, sistema de cultivo pré-germinado, em Santa Catarina. In: CONGRESSO BRASILEIRO DE ARROZ IRRIGADO, 2., 2001, Porto Alegre. Anais ... Porto Alegre: IRGA, 2001. p.398. WALLER, A.; RAMOS, T.; VERDI, A. Estructura poblacional y aspectos reprodutivos de una población de Hyalella curvispina Shoemaker, 1942 de Uruguay. Boletín de la Sociedad Zoológica del Uruguay , v.29, n.2, p.106-115, 2020.

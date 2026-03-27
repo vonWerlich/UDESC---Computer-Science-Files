@@ -1,0 +1,45 @@
+Título: TOMATE - Cultivares - BRS Montese F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0859&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B737%5D%7B457%7Dmontese.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agrocinco; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a bactérias e nematoides: Pst - Pseudomonas syringae pv. tomato; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Pequeno (170 a 200 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido indeterminado saladete, tipo “San Vito”, com alta produtividade, frutos alongados e firmes (longa vida estrutural). Coloração vermelha intensa com excelente aroma e sabor. Peso médio de 170g. Especial atenção na análise de solo com aplicação de calcário e nutrição com cálcio. Espaçamento sugerido de 50cm entre plantas com duas hastes. Origem: Agrocinco Seeds of Value e Embrapa Hortaliças.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B251%7Dmontese_1.jpg
+Legenda: 1)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B510%7Dmontese_010.jpg
+Legenda: 10)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B152%7Dmontese_011.jpg
+Legenda: 11)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B187%7Dmontese_012.jpg
+Legenda: 12)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B292%7Dmontese_013.jpg
+Legenda: 13)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B236%7Dmontese_014.jpg
+Legenda: 14)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B77%7Dmontese_002.jpg
+Legenda: 2)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B522%7Dmontese_3.jpg
+Legenda: 3)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B21%7Dmontese_4.jpg
+Legenda: 4)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B94%7Dmontese_005.jpg
+Legenda: 5)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B255%7Dmontese_006.jpg
+Legenda: 6)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B368%7Dmontese_007.jpg
+Legenda: 7)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B432%7Dmontese_008.jpg
+Legenda: 8)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B737%5D%7B475%7Dmontese_09.jpg
+Legenda: 9)null
+
+-- RESISTÊNCIA: --
+Verticillium 1, Fusarium 1 e 2, Mancha de Estenfílio, Pinta Bacteriana, Vira Cabeça e Nematóide.
+
+-- Informações Complementares --
+Site: http://www.agrocinco.com.br/2013/produto_detalhes.asp?idprod=79&idcat=1&idsub=2

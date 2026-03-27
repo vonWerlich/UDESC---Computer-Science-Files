@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Jacy F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0774&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B654%5D%7B83%7Djacy_grape_laranja.png
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Blueseeds; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1
+
+-- INFORMAÇÕES DA EMPRESA: --
+Hábito de Crescimento : Indeterminados ; Grupo : Grape ; Peso Médio : 26 a 30g ; Ciclo : precoce ; Nº de Lócus : 2 ; Tolerância : F¹, T ; Nº de hastes : 2 ou mais
+
+-- Informações Complementares --
+Site da Empresa.

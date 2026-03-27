@@ -1,0 +1,18 @@
+Título: CEBOLA - Manejo de pragas - Larva de mosca-minadora (Liriomyza sp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016698&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12204%5D%7B236%7Dfigura_14_-_copia.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12204%5D%7B74%7Dfigura_14.jpg
+Legenda: Figura 1. Galerias nas folhas de cebola causada por larva da mosca-minadora, Lyriomiza sp. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+
+-- INFORMAÇÕES GERAIS: --
+A intensidade de danos causados por mosca-minadora em cebola na região do Alto Vale do Itajaí, SC, é baixa e sua ocorrência é esporádica. Portanto, não há necessidade de estratégia específica para o seu manejo. Provavelmente, a mosca-minadora ressurgiu como inseto praga devido à eliminação de seus inimigos naturais pela intensa aplicação de agrotóxicos para o controle de tripes.
+
+-- DANOS: --
+As larvas da mosca-minadora, Liriomyza sp., causam danos em folhas de plantas de cebola, que se caracterizam por galerias irregulares de coloração esbranquiçada (Figura 1).
+
+-- MOSCA-MINADORA x ALTERNARIA: --
+A hipótese de que a mosca-minadora serve como porta de entrada para a incidência de alternaria ainda não foi confirmada por trabalhos de pesquisa.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

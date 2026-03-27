@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Cupido F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0174&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B78%5D%7B413%7Dcupido.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Seminis; Finalidade: Copa; Polinização: Híbrido; Precocidade: Muito alta (antes dos 90 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus
+
+-- INFORMAÇÕES DA EMPRESA: --
+Mini tomate alongado, com brix elevado e frutos aromáticos. Pencas prolíficas e generativas. Indicado para cultivos em ambiente protegido. DESCRIÇÃO DO PRODUTO: Peso médio do fruto: 12 a 15 g. Tipo do fruto: Grape. Tipo da planta: Indeterminada. Ciclo médio após transplante: 75 a 80 dias
+
+-- RESISTÊNCIA: --
+HR - ToMV:0-2, Fol:1-3 e Va:1/Vd:1 / IR - Ma/Mi/Mj.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.seminis.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.seminis.com.br.

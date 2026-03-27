@@ -1,0 +1,41 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Coleta de amostras para diagnóstico em laboratório
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010048&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17916%5D%7B38%7Dcoleta_4.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17916%5D%7B225%7Damostras.jpg
+Legenda: Exemplo de amostra a ser enviada a laboratório. Foto: Bruno Corrêa da Silva
+
+-- a) Coleta: --
+Coletar peixes moribundos e doentes, ou peixes do lote de interesse, não coletar peixes mortos.
+
+-- b) Insensibilização e eutanásia: --
+Colocar os animais imediatamente em água com gelo para insensibilização e eutanásia. Essa etapa é importante, pois quanto mais rápida a redução da temperatura da carcaça, menor a contaminação. Deixar por 30 minutos.
+
+-- c) Acondicionamento: --
+Os peixes devem ser embalados individualmente em sacos com fechamento tipo ziplock ou sacos comuns, lacrados. Peixes de um mesmo lote podem ser enviados no mesmo saco, peixes de lotes diferentes tem que ser enviados separadamente. Cada saco deve ser identificado com o número do lote, data e hora da coleta e quantidade de amostras. Não identificar com caneta hidrocor (pode apagar). Colocar etiqueta dentro do saco plástico e enviar junto.
+
+-- d) Envio das amostras: --
+Acomodar os peixes em caixa de isopor com gelo. Essa deve possuir uma camada de gelo superior e uma inferior aos peixes. Não fazer sucessivas camadas de peixes ( Gelo - Peixes – Gelo). Quando possível utilizar gelo de escama.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17916%5D%7B256%7Dcoleta_1.jpg
+Legenda: Coleta de amostra para análise molecular. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17916%5D%7B92%7Dcoleta_2.jpg
+Legenda: Coleta de amostra para análise molecular. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17916%5D%7B516%7Dcoleta_3.jpg
+Legenda: Coleta de amostra para análise molecular. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17916%5D%7B512%7Dcoleta_4.jpg
+Legenda: Coleta de amostra para análise molecular. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17916%5D%7B88%7Dcoleta_5.jpg
+Legenda: Coleta de amostra para análise molecular. Foto: Bruno Corrêa da Silva
+
+-- a) Coleta do peixe: --
+Coletar peixes moribundos e doentes, ou peixes do lote de interesse, não coletar peixes mortos. Caso seja para monitoramento do plantel, realize amostragem dirigida. Ou seja, colete os peixes que possuem algum tipo de sintoma, ou estão mais magros, menores, etc.
+
+-- b) Insensibilização e eutanásia: --
+Colocar os animais imediatamente em água com gelo para insensibilização. No caso da coleta de órgãos a eutanásia pode ser feita deve ser realizar a eutanásia em duas etapas:1) anestesia até perda do equilíbrio e 2) seguido de um método físico ou químico que cause a morte cerebral.
+
+-- c) Coleta e fixação de órgãos/peixe: --
+Quando a amostra forem larvas ou pós-larvas, elas devem ser fixadas diretamente em álcool 70%, em um tubo falcon ou microtubo estéril. No caso de alevinos, deverá ser coletada as vísceras em conjunto e fixadas em álcool 70%, em um tubo falcon ou microtubo estéril. Já no caso de animais maiores, juvenis e adultos (ou sempre que possível) deve-se coletar separadamente os órgãos internos e fixar em álcool 70%, em um tubo falcon ou microtubo estéril. Os órgãos mais comuns para diagnóstico são o rim, fígado, baço e cérebro. Contudo, converse com o laboratório que você enviará as amostras previamente.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

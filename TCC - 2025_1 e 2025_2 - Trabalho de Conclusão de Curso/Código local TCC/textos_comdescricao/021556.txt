@@ -1,0 +1,41 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Pulga-da-folha (Chaetocnemaspp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021556&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Pulga-da-folha ( Chaetocnema spp.)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18337%5D%7B273%7Dpulgafolha_caput.jpg
+FOTO: J. Sersen (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18337%5D%7B420%7Dpulgafolha_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18337%5D%7B24%7Dpulgafolha_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18337%5D%7B285%7Dpulgafolha_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18337%5D%7B260%7Dpulgafolha_fig11.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18337%5D%7B107%7Dpulgafolha_fig12.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18337%5D%7B275%7Dpulgafolha_fig13.jpg
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie: Chaetocnema spp. Ordem: Coleoptera Família: Chrysomelidae Chaetocnema macgillivrayi Bechyné e Chaetocnema brasiliensis Baly são as espécies reportadas em lavouras de arroz no Brasil.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18337%5D%7B423%7Dpulgafolha_base.jpg
+
+-- IDENTIFICAÇÃO: --
+• O adulto mede de 1,2 a 1,5mm de comprimento e possui coloração preta brilhante, com os élitros finamente pontuados. Os fêmures das pernas posteriores são dilatados, permitindo aos indivíduos saltarem grandes distâncias. • Os diminutos ovos são postos nas folhas secas ou no solo, junto aos colmos. • As larvas se criam no solo, alimentando-se de radicelas. No seu completo desenvolvimento atingem até 5mm de comprimento e são finas e esbranquiçadas, com cabeça marrom. • As pupas também formam-se no solo, em pequenas câmaras previamente escavadas pelas larvas.
+
+-- CICLO DE VIDA: --
+O ciclo de vida das espécies de Chaetocnema que ocorrem em arroz ainda não foi estudado, porém estima-se em torno de 30 dias. Ovos de C. punicaria incubam por 7 a 14 dias, as larvas se desenvolvem em cerca de 15 dias e o estágio de pupa perdura por 7 dias, resultando num ciclo médio de 30 dias. O adulto passa o inverno em diapausa, nos capões de mato, em meio à serrapilheira que fica por sobre o solo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18337%5D%7B185%7Dpulgafolha_ciclo.jpg
+
+-- OCORRÊNCIA: --
+Anual: de agosto a novembro. Crítico: setembro e outubro. Lavoura: da emergência ao perfilhamento. A pulga-da-folha é de ocorrência esporádica no cultivo irrigado e pode ser prejudicial apenas no período compreendido entre a emergência das plântulas e a inundação da lavoura, especialmente nos sistemas de semeadura em solo seco. No sistema de cultivo pré-germinado, a pulga-da-folha raramente ocorre devido ao efeito impeditivo que a água exerce no seu desenvolvimento.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18337%5D%7B441%7Dpulgafolha_fenologia.jpg
+
+-- DANOS: --
+• Os besourinhos raspam o limbo foliar deixando perfurações que seguem o alinhamento das nervuras. • Folhas intensamente atacas secam e rasgam-se facilmente pela ação dos ventos. Isto pode atrasar o desenvolvimento ou resultar em morte de plantas.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• A inundação dos quadros infestados propicia a redução da população da pulga-da-folha. • Em áreas com histórico de ocorrência de pulga-da-folha, semear sementes tratadas com inseticida e eventualmente aumentar em até 30% a quantidade de sementes na semeadura. Há muitos inimigos naturais da pulga-da-folha, principalmente predadores de larvas no solo, que mantém sob controle as populações desse inseto. Os besourinhos podem ser predados por aranhas e por percevejos Orius spp.
+
+-- Informações Complementares --
+FERREIRA, E. Manual de identificação de pragas do arroz . Santo Antônio de Goiás: Embrapa-CNPAF, 1998. 110p. (Embrapa-CNPAF. Documentos, 90). SANTOS, R.S.; ANDRADE, C.M.S.; MOURA, L.A. Pulguinha-do-arroz (Chaetocnema sp.) (Coleoptera: Chrysomelidae): nova praga de pastagens no estado do Acre . Rio Branco: Embrapa Acre, 2020. 10p. (Embrapa Acre. Comunicado Técnico, 202).
+FERREIRA, E. Manual de identificação de pragas do arroz . Santo Antônio de Goiás: Embrapa-CNPAF, 1998. 110p. (Embrapa-CNPAF. Documentos, 90). SANTOS, R.S.; ANDRADE, C.M.S.; MOURA, L.A. Pulguinha-do-arroz (Chaetocnema sp.) (Coleoptera: Chrysomelidae): nova praga de pastagens no estado do Acre . Rio Branco: Embrapa Acre, 2020. 10p. (Embrapa Acre. Comunicado Técnico, 202).
+• Eduardo Rodrigues Hickel (Doutor em Entomologia - Epagri) Manejo Integrado de Pragas

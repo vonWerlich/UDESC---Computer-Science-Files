@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - 03. Aspectos legais para o cultivo do arroz irrigado - Licenciamento ambiental
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013131&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+03. Aspectos legais para o cultivo do arroz irrigado
+Licenciamento ambiental
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11398%5D%7B6%7Dlicencambiental_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+A regulamentação ambiental é feita pelo Conselho Estadual de Meio Ambiente (CONSEMA) e executada pelo Instituto do Meio Ambiente de Santa Catarina (IMA), havendo a possibilidade de regulamentações mais restritivas serem determinadas por Conselhos Municipais de Meio Ambiente e a execução ser outorgada através de convênios para órgãos municipais. A resolução CONSEMA 98/2017 definiu como passível de licenciamento ambiental em Santa Catarina a “atividade agrícola irrigada por inundação”. Contudo, a mesma resolução dispensa o licenciamento ambiental de áreas de produção que utilizam irrigação por inundação, que são consideradas consolidadas e localizadas em pequenas propriedades rurais, assim definidas no Código Estadual do Meio Ambiente de Santa Catarina (Lei 14.675/2009). Desta forma, estão dispensadas de licenciamento ambiental as lavouras sistematizadas antes de 22 de julho de 2008 (data do Decreto de Crimes Ambientais 6.514) localizadas em imóveis menores que 4 módulos fiscais.
+
+-- CADASTRO AMBIENTAL: --
+Para as lavouras irrigadas por inundação que possuam menos de 10 (dez) hectares e que estejam localizadas em imóveis com mais de 4 módulos fiscais, ou localizadas em imóveis com menos de 4 módulos fiscais e sistematizadas após 22 de julho de 2008, deve ser solicitado o Cadastro Ambiental , apresentando a relação de documentos que constam na Instrução Normativa 34 do IMA.
+
+-- LICENCIAMENTO AMBIENTAL: --
+Para as lavouras irrigadas por inundação com mais de 10 (dez) hectares e que estejam localizadas em imóveis com mais de 4 (quatro) módulos fiscais ou localizadas em imóveis com menos de 4 (quatro) módulos fiscais e sistematizadas após 22 de julho de 2008, deve ser solicitado o Licenciamento Ambiental , com apresentação dos documentos que constam na Instrução Normativa 12 do IMA.
+
+-- LEGALIZAÇÃO AMBIENTAL DA LAVOURA: --
+Considerando as informações anteriores, há três possibilidades para a legalização ambiental da lavoura: • opção 1 - dispensada de procedimento administrativo; • opção 2 - procedimento administrativo simplificado, através de Cadastro Ambiental; • opção 3 - procedimento administrativo complexo, através de Licenciamento Ambiental. É importante enfatizar que, nas três opções, cabe ao proprietário e/ou usuário do imóvel cumprir as legislações ambientais vigentes buscando reduzir ao máximo o impacto ao ambiente (solo, água e ar). Quando houver armazenamento de água para fins múltiplos (irrigação) que não decorram de barramento ou represamento de cursos de água, com área de até três hectares, é facultada a apresentação de Cadastro Ambiental ao órgão ambiental conforme Resolução CONSEMA 98/2017 e Decreto Estadual nº 3.094/2010 e IN 34 do IMA. Nos casos de reservatórios maiores que três hectares, ou menores quando houver barramento ou represamento de cursos de água, é necessário o Licenciamento Ambiental, conforme Resolução CONSEMA 98/2017.
+
+-- Informações Complementares --
+• Maria Luiza Tomazi Pereira (Engª-agrª - Epagri) Manejo da lavoura orizícola
+• Hector Silvio Haverroth (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola

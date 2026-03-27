@@ -1,0 +1,21 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Zinco (Zn)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014616&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12705%5D%7B524%7Dfigura_18.jpg
+
+-- IMPORTÂNCIA DO NUTRIENTE: --
+É constituinte de diversas enzimas que atuam nos processos de respiração, controle hormonal e síntese de proteínas. É necessário para a síntese e a conservação de auxinas, hormônios vegetais envolvidos no crescimento (MENDES et al., 2008).
+
+-- SINTOMAS DE DEFICIÊNCIA: --
+Quando as plantas de cebola são deficientes em Zn, há o aparecimento de clorose e as folhas mais novas ficam retorcidas e atrofiadas (Figura 18).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12705%5D%7B122%7Dfigura_18.jpg
+Legenda: Figura 18. À esquerda plantas sadias (solução nutritiva completa) e ao lado plantas com deficiência de Zn (solução nutritiva sem Zn). null
+
+-- RECOMENDAÇÃO DE ZINCO PARA A CEBOLA: --
+Aplicar 3 a 4kg ha-1 via solo previamente ao plantio ou semeadura, podendo ser adicionado a lanço (ou via pulverização) com incorporação ou no sulco juntamente com a adubação contendo NPK. A adubação com Zn possui efeito residual de pelo menos dois anos. Outra alternativa para o fornecimento deste nutriente via solo é o uso de estercos e de outros fertilizantes orgânicos.
+
+-- APLICAÇÃO DE Zn FOLIAR: --
+Para suprir eventuais deficiências de zinco durante o desenvolvimento das plantas pode-se aplicar via foliar o sulfato de zinco a 0,5%, fazendo-se de duas a quatro aplicações em intervalos de uma a duas semanas. A aplicação de sulfato de zinco pode causar injúrias nas folhas quando o ambiente estiver seco e quente, neste caso fazer a aplicação ao final da tarde.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

@@ -1,0 +1,6 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas) - A praga é um inseto (tem três pares de pernas, antenas e asas) - A praga não é um besouro. É outro tipo de inseto - A praga não tem a boca modificada em agulha. A boca pode ser do tipo tromba enrolada, língua ou então com mandíbulas para mastigar - A praga é do tipo mariposa. Tem asas de formato triangular, cheias de escamas - A mariposa é pardacenta e certo aspecto robusto - A mariposa é grande e robusta, de coloração geral cinza-escura ou pardacenta e com 30 a 40mm de envergadura - A mariposa é noturna, permanecendo oculta durante o dia
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016918&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16915%5D%7B410%7Dchave_fig20.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16918%5D%7B179%7Dchave_fig21.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16918%5D%7B486%7Dchv_lagpana.jpg

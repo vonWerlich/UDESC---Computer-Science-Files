@@ -1,0 +1,26 @@
+Título: TOMATE - Fitossanidade - Bactérias - Cancro Bacteriano (Clavibacter michiganensis)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=051&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1626%5D%7B365%7Dcancro_bacteriano_-_acervo_da_embrapa_hortalicas_1.jpg
+
+-- SINTOMAS: --
+Observa-se inicialmente uma murcha, que pode ser unilateral, nas folhas da base ou do meio da planta. Com frequência ocorre a secagem da borda dos folíolos, que evolui para a queima da folhagem. Pode ocorrer o escurecimento vascular, quando se quebra o pecíolo das folhas mais velhas em junção com o caule. Frutos ainda verdes se desprendem facilmente da planta, onde se formam cancros. Nos frutos se formam lesões circulares esbranquiçadas, com o centro mais escuro (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- As regiões Sul, Sudeste e Centro-Oeste do Brasil, que apresentam clima mais ameno (18 a 25ºC) e alta umidade relativa do ar, são as mais propícias para o desenvolvimento da doença (1). - O pH do solo acima de 6,5 e baixa intensidade luminosa (2).
+
+-- CONTROLE: --
+- Evitar plantios próximos a lavouras velhas de tomate (1). - Observar local de captação de água para irrigação (1). - Plantar cultivares com algum grau de resistência e de boa qualidade (1). - Colocar em fermentação as sementes extraídas para plantio, por período de 24 a 48 horas, e fazer tratamento com água quente (50ºC) durante 20 minutos (1). - Evitar irrigação por aspersão (1). - Utilizar fitilhos descartáveis para tutoramento da planta (1). - Rotação de culturas com gramíneas (1).
+
+-- OBSERVAÇÕES GERAIS: --
+Não existe cultivares com alta resistência (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1626%5D%7B179%7D3.png
+Legenda: Cancro bacteriano do tomateiro. Fonte: Manual de Fitopatologia v.2.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1626%5D%7B371%7Dcancro_bacteriano_-_acervo_da_embrapa_hortalicas_1.jpg
+Legenda: Mancha nas bordas do folíolo, sintoma de cancro bacteriano. Foto : Acervo da Embrapa Hortaliças
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1626%5D%7B286%7Dcancro_bacteriano_-_acervo_da_embrapa_hortalicas_2.jpg
+Legenda: Necrose tipo olho-de-perdiz, sintoma de cancro bacteriano. Foto : Acervo da Embrapa Hortaliças
+
+-- Informações Complementares --
+(1) LOPES, C. A.; AVILA, A. C.. Doenças do tomateiro. 2. ed. Brasília- Df: Embrapa Hortaliça, 2005. 144 p. (2) ALVARENGA, M. A. R. Tomate: produção em campo, casa-de-vegetação e em hidroponia. UFLA, 2004.

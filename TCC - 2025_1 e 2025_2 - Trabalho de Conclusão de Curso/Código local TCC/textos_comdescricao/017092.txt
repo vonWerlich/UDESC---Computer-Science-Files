@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 1. Diagnóstico a partir da lavouraInicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca. - Está ocorrendo perda de estande (número de plantas/m²) na lavoura - A falha no estande é pela perda de plantas já germinadas - As plantas (plântulas) surgem boiando na água - As plantas (plântulas) bóiam com raiz (cuidado: outros eventos, como ventos fortes, podem provocar este mesmo sintoma)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017092&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17091%5D%7B94%7Dlav05_plboiaraiz.jpg
+DIAGNOSE VISUAL
+1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+Está ocorrendo perda de estande (número de plantas/m²) na lavoura
+A falha no estande é pela perda de plantas já germinadas
+As plantas (plântulas) surgem boiando na água
+As plantas (plântulas) bóiam com raiz (cuidado: outros eventos, como ventos fortes, podem provocar este mesmo sintoma)
+Verifique no local: CARAMUJO-CHATO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17092%5D%7B105%7Ddano_cmujchato.jpg
+Legenda: Verifique no local: CARAMUJO-CHATO
+21468
+Verifique no local: CARAMUJO-CHATO
+CARAMUJO-PEQUENO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17092%5D%7B462%7Ddano_cmujpequeno.jpg
+Legenda: CARAMUJO-PEQUENO
+21469
+CARAMUJO-PEQUENO

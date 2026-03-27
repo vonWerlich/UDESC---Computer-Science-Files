@@ -1,0 +1,29 @@
+Título: TOMATE - Cultivares - Ozone F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0807&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B686%5D%7B211%7Dozone.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Syngenta; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Crescimento: Indeterminado. Planta: Vigorosa com excelente cobertura foliar e proteção dos frutos. Fruto: Redondo, levemente achatado, Multilocular, Longa vida (superior a 15 dias em fruto vermelho) . Peso: 180-200 gramas. Colheita: 110 a 115 dias após a semeadura.
+
+-- RESISTÊNCIA: --
+Fol: 0 (US1): Fusarium oxysporum f. sp. lycopersici race 0 (ex 1)* 9-HR*. Fol: 1 (US2): Fusarium oxysporum f. sp. lycopersici race 1 (ex 2)* 9-HR. Fol: 2 (US3): Fusarium oxysporum f. sp. lycopersici race 3* 9-HR. Va: Verticillium albo-atrum* 9-HR. Vd: Verticillium dahliae* 9-HR. TMV 0: Tobacco Mosaic Virus race 0* 9-HR. ToMV 0: Tomato Mosaic Virus strain 0* 9-HR. ToMV 1: Tomato Mosaic Virus strain 1* 9-HR. ToMV 1.2: Tomato Mosaic Virus strain 1.2* 9-HR. ToMV 2: Tomato Mosaic Virus strain 2* 9-HR. TSWV: Tomato Spotted Wilt Virus* 9-HR. TYLCV: Tomato Yellow Leaf Curl Virus* 8-IR**v 9-HR* - Alta tolerância 8-IR** – Intermediária tolerância
+
+-- RECOMENDAÇÕES AGRONÔMICAS: --
+Época de Plantio: Ano todo. Condições de Cultivo: Campo Aberto e cultivo protegido. Espaçamento para Cultivo: Duas hastes: 1,0-1,4m x 0,6-0,7m Fitilho (1 haste): 30 a 40 cm. Raleio de frutos: Recomenda-se a operação de raleio de frutos, mantendo os cachos com 5 a 6 frutos/penca, garantindo melhor padronização dos frutos. Nutrição: Realizar boa adubação no Plantio (NPK), com especial atenção para o Fósforo (P) . Sugestão para as adubações de cobertura: observar relação N:K de 1:1 até 1ª colheita em seguida aumentando K até chegar 1:2 (N:K) no final da colheita. Atenção para o período de formação dos frutos, onde há grande demanda dos nutrientes Cálcio (Ca) e Boro (B) . Informação Importante: Após o último cacho deixar o crescimento de 3 folhas, visando proteção das pencas superiores. Estágio de Colheita: Frutos podem ser colhidos no estágio verde ou transição para vermelho (cor de cana ou pintando) .
+
+-- OUTROS INFORMAÇÕES: --
+Excelente Sanidade HR: TSWV e F3 IR: TYLCV: Possibilidade de cultivos em áreas com presença de Viroses (TYLCV e TSWV) e Doenças (F3) . Boa cobertura foliar: Proteção dos frutos contra manchas causadas por fatores climáticos. Boa classificação de frutos: classe AA: Melhor cotação no mercado. Frutos firmes com boa longevidade pós-colheita: Segurança no transporte e comercialização. Frutos com coloração vermelha atraente e sabor marcante: Maior valorização pelo consumidor. Este material é posicionado para colheitas no verão em função de sua alta tolerância ao microcraking.
+
+-- INFORMAÇÕES PARA A FERTIIRRIGAÇÃO: --
+Para a cultivar Ozone, aos 161 dias após o transplante de mudas, Furlani & Maggio (2016, dados não publicados), a extração total em g/planta foi de 18,7 g de N, 3,1 g de P, 22,6 g de K, 7,4 g de Ca, 2,6 g de Mg e 4,6 g de S (2).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.syngenta.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.syngenta.com.br.

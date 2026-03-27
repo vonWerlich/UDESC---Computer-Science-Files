@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - IPA6 (Isla)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0364&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B259%5D%7B58%7Dipa6.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Determinado; Empresa: Isla; Finalidade: Copa; Grupo: Salada; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Tamanho do fruto: Muito Pequeno (menor que 170 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Ciclo (dias): 115 Verãos. Tipos de Frutos: Globular. Tipo de crescimento: Determinado. Peso comercial: 100 - 150g.
+
+-- USO/COMENTÁRIOS: --
+Planta vigorosa e produtiva. Frutos firmes com excelente coloração interna e externa.
+
+-- RESISTÊNCIA: --
+Resistência / tolerância: Fusarium, Verticillium, Nematoide e Rachadura dos frutos ou Cracking.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

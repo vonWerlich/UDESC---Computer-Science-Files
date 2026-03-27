@@ -1,0 +1,16 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - G) MANEJO DAS PRINCIPAIS DOENÇAS FÚNGICAS - c) Mancha de alternaria ou pinta-preta
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02936&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2698%5D%7B309%7Dfigura_16.jpg
+
+-- Mancha de alternaria ou pinta-preta (Alternaria tomatophila, A. solani; A. grandis): --
+Nas folhas, são observadas lesões circulares ou elípticas, de coloração marrom-escura e com zonas concêntricas, bordas definidas e envoltas por halo clorótico (Figura 16). Em alta severidade da doença ocorre o desfolhamento da planta. Nos frutos, as lesões situam-se principalmente junto ao pedúnculo e podem ocorrer no pecíolo e nos ramos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2698%5D%7B304%7Dfigura_16.jpg
+Legenda: Sintomas de pinta-preta: folhas velhas com lesões necróticas e anéis concêntricos no centro das lesões ocasionadas pela Alternaria spp. Foto: Walter Ferreira Becker
+
+-- Condições que favorecem a doença: --
+A pinta-preta ocorre mais em períodos com alta umidade relativa do ar, chuva, muito orvalho e em uma ampla faixa de temperatura. A maior severidade da doença ocorre na fase de frutificação da planta. A proteção com uso de fungicidas tem sucesso limitado quando há períodos constantes de alta umidade e chuva. Geralmente, a época inicial de ocorrência dessa doença na região do AVRP desde o final de janeiro até o início de fevereiro. A doença progride de baixo para cima na planta e as folhas velhas apresentam sintomas mais visíveis.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

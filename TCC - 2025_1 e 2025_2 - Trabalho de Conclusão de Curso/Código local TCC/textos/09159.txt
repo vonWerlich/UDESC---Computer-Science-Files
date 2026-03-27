@@ -1,0 +1,17 @@
+Título: MANGARITO - Cuidado no Consumo de Mangarito
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09159&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8458%5D%7B3%7D%5B8458%5D%7B21%7Dmangarito_roxo_sendo_cozido_%281%29.jpg
+
+-- CUIDADO CULINÁRIO: --
+Aráceas em geral possuem em sua composição cristais de oxalato de cálcio. Esse fator deve ser levado em consideração para seu preparo culinário. Este oxalato de cálcio pode provocar coceiras na boca e até sufocamento de pessoas mais sensíveis. Deve-se tomar as devidas precauções com informações errôneas divulgadas na internet, incentivando o preparo de sucos verdes com a utilização destas plantas cruas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8458%5D%7B361%7Dmangarito_roxo_sendo_cozido_%282%29.jpg
+Legenda: Figura 13. Mangarito roxo em processo de cozimento. Foto: Antônio Henrique dos Santos
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8458%5D%7B205%7Dmangarito_roxo_sendo_cozido_%281%29.jpg
+Legenda: Figura 13. Mangarito roxo em processo de fritura. Foto: Antônio Henrique dos Santos
+
+-- TEOR DE OXALATO EM MANGARITO BRANCO: --
+Em relação aos mangaritos, o mangarito branco, manejado desde antes do descobrimento do Brasil pelos indígenas brasileiros (relatos de padres jesuítas portugueses), possui um teor menor de oxalato. Por outro lado, o mangarito roxo, que tem menor tempo de manejo, apresenta essa característica mais marcante. O cozimento com a troca da água, realizada ao menos duas vezes, auxilia na eliminação do oxalato (Figura 13).
+
+-- Informações Complementares --
+Antônio H. dos Santos e Rafael G. F. Morales. Cultivo do mangarito em Santa Catarina. Cartilha. Edição: Epagri/DEMC Florianópolis, agosto/2022.

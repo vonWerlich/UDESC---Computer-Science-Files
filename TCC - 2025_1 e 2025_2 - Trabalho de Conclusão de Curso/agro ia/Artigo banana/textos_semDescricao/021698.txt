@@ -1,0 +1,27 @@
+Título: BANANA - Fitossanidade - Principais pragas da bananeira - BROCA-RAJADA DA BANANEIRA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021698&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais pragas da bananeira
+BROCA-RAJADA DA BANANEIRA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18388%5D%7B284%7Dbroca_rajada.jpg
+FOTO: Marcelo Haro/Epagri
+
+-- DESCRIÇÃO --
+ESPECIE : Metamasius hemipterus L. - Ordem: Coleoptera - Família: Curculioniodae. Biologia: Besouros com 10nm a 15mm de comprimento, apresentando corpo rajado com faixas alaranjadas e pretas e alta capacidade de voo. Apresentam tanatose, ou seja, quando tocados, simulam estar mortos, mas voltam à atividade rapidamente. As larvas são ápodas, semelhantes às do moleque-da-bananeira, porém mais ativas, apresentando coloração branco-leitosa e cabeça destacada e avermelhada. As pupas são revestidas por um casulo confeccionado com as fibras do pseudocaule da bananeira.
+
+-- DANOS --
+A preocupação maior em relação a esta espécie acontece em áreas de produção orgânica. As larvas deste inseto causam danos severos nos pseudocaules de bananeira, levando ao quebramento e/ou tombamento das plantas. Por se tratar de uma espécie generalista, capaz de se desenvolver em várias outras culturas, os danos costumam ocorrer principalmente em áreas próximas a cultivos como cana-de-açúcar e palmeiras.
+
+-- MONITORAMENTO E CONTROLE --
+Devem ser utilizados os mesmos tipos de armadilhas citadas para o moleque-da-bananeira – tanto as confeccionadas com restos culturais, como as que utilizam feromônios comerciais, pois se mostram efetivas para o monitoramento e controle destes insetos. No entanto, o princípio ativo do feromônio é específico, devendo ser utilizado aquele indicado para cada espécie-praga em questão.
+
+-- CONTROLE BIOLÓGICO --
+O fungo B. bassiana deve ser utilizado para o controle da população desta praga, seguindo as mesmas diretrizes utilizadas para o moleque-da-bananeira.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+• Marcelo Mendes de Haro (Dr. - Epagri) Pesquisador - Epagri - Itajaí

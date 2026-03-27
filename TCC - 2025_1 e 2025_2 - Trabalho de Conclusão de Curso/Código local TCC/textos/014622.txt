@@ -1,0 +1,27 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Adubação verde e rotação de culturas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014622&isEdicao=N&epagriTEC=S
+
+
+-- VANTAGENS DA ADUBAÇÃO VERDE: --
+A prática da adubação verde, quando não proporciona ganhos em curto espaço de tempo, promove outras vantagens relacionadas ao manejo do sistema de produção (GUERRA et al., 2014), como: - Deposição de matéria orgânica; - Proteção física do solo contra erosão; - Redução e controle das populações de plantas daninhas; - Fornecimento de abrigo contra pragas e inimigos naturais; - Auxilia o controle de doenças do solo; - Permite o uso eficiente da umidade do solo, o que reduz consequentemente a necessidade de irrigação (CALEGARI et al., 2014); - O efeito da cobertura do solo pelas plantas reduz a erosão provocada pela chuva e pelo vento, diminui a velocidade de escoamento da água na superfície, contribuindo para que as raízes dessas plantas promovam o aumento da taxa de infiltração e a retenção de água do solo (BERTONI & LOMBARDI NETO, 2014), como também proporciona a descompactação dos solos (FILGUEIRA, 2008).
+
+-- VANTAGENS DA ROTAÇÃO DE CULTURAS: --
+A adoção de rotação de culturas com utilização de adubação verde contribui para manter a matéria orgânica do solo, auxilia na conservação do solo e apresenta as seguintes vantagens (CFSEMG, 1999): - Melhora da fertilidade do solo; - Diversifica as culturas; - Melhora da aeração do solo, manutenção da umidade e da estabilidade da temperatura do solo; - Recicla nutrientes das camadas subsuperficiais para as superficiais quando se utilizam espécies com raízes pivotantes e profundas.
+
+-- RESULTADOS DE PESQUISA: Plantas de cobertura em sistemas de rotação --
+Resultados de pesquisa têm demonstrado efeito positivo do uso de plantas de cobertura do solo em sistemas de rotação de culturas para o cultivo de cebola no sistema de plantio direto, comparados ao cultivo em sucessão de culturas como de cebola/milho e ao manejo convencional do solo. De maneira geral, os resultados indicam que a adoção do sistema de plantio direto com rotação de plantas de cobertura e culturas comerciais, independentemente das espécies usadas, apresenta melhoria nas propriedades físicas e químicas do solo, menor infestação de plantas espontâneas e aumento na produtividade de bulbos de cebola (CAMARGO, 2011; SOUZA et al., 2013).
+
+-- BENEFÍCIOS PARA A CULTURA DA CEBOLA: --
+Menezes Júnior et al. (2020) mencionam ainda como vantagens do uso de plantas de cobertura em sistema de plantio direto comparado ao manejo convencional do solo o aumento da produtividade de bulbos com diâmetro transversal acima de 50mm, que são os mais valorizados no mercado, e a menor incidência de tripes (Thrips tabaci) .
+
+-- INDICAÇÃO DE ADUBAÇÃO VERDE NO PLANTIO DIRETO DE CEBOLA: --
+Para o cultivo de primavera/verão as espécies avaliadas e indicadas para adubação verde ou cobertura do solo para o sistema de plantio direto para o cultivo de cebola são o milheto (Pennisetum glaucum) , a mucuna (Stizolobium spp) , o girassol (Helianthus annus) , a crotalária (Crotalaria spp) e o feijão-de-porco (Canavalia ensiformis) . Já para o cultivo de outono/inverno as espécies indicadas são aveia preta (Avena strigosa) , centeio (Secale cereale) , nabo-forrageiro (Raphanus sativus) e a cevada (Hordeum vulgare L.). Também é indicado com vantagens em relação ao cultivo solteiro o uso de “coquetéis” das plantas citadas anteriormente, como milheto/mucuna/girassol, nabo forrageiro/centeio, nabo forrageiro/aveia.
+
+-- SUGESTÕES DE DENSIDADE DE SEMEADURA: --
+Para a implementação da adubação verde de inverno no cultivo de cebola, as plantas (solteiras ou consorciadas) e as quantidades de sementes comumente utilizadas são as seguintes (LOSS et al., 2015, 2017; OLIVEIRA et al., 2016; SANTOS et al., 2017; SOUZA et al., 2013): - Aveia-preta (120kg ha-1); - Centeio (120kg ha-1); - Cevada (120kg ha-1); - Nabo-forrageiro (20kg ha-1); - Nabo-forrageiro (10kg ha-1) + centeio (60kg ha-1); - Nabo-forrageiro (10kg ha-1) + aveia preta (60kg ha-1); e - Nabo-forrageiro (10kg ha-1) + cevada (60kg ha-1). Em relação ao adubo verde de verão é utilizado o consórcio entre mucuna (40kg ha-1) e milheto (30kg ha-1) (MENEZES JÚNIOR et al., 2014; MENEZES JÚNIOR et al., 2020).
+
+-- AJUSTE DA DENSIDADE DE SEMEADURA PELA QUALIDADE DA SEMENTE: --
+Recomenda-se fazer uma avaliação da germinação das sementes antes do plantio das plantas de cobertura para garantir a densidade de plantio desejada.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

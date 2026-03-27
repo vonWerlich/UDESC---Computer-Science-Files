@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - d) Manejo de plantas e do cultivo para produção orgânica - 1) Época de cultivo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07366&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6650%5D%7B272%7Dcapa_tomatorg.jpg
+
+-- Época de cultivo: --
+Para o sucesso no cultivo do tomateiro no sistema orgânico, deve-se evitar os extremos de temperatura. Isso ocorre porque no auge do verão as plantas ficam estressadas devido às altas temperaturas, além de ficarem mais suscetíveis ao ataque de doenças foliares, principalmente em épocas de maior pluviosidade. Por outro lado, no inverno, o tomateiro é acometido pela requeima (Phytophthora infestans), uma doença muito agressiva que pode dizimar a lavoura em poucos dias. Com isso, deve-se fazer o plantio de tal forma que o início do florescimento (50 dias após o plantio) coincida com a primavera e o ciclo finalize no verão. O mesmo pode ser feito para que ao florescimento ocorra em pleno outono, finalizando o cultivo no inverno.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

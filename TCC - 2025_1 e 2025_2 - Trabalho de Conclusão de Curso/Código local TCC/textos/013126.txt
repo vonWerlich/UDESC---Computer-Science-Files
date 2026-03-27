@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 01. Caracterização do ambiente de cultivo - Solos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013126&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11395%5D%7B329%7Dmapasc_solos.jpg
+
+-- CLASSES DE SOLOS: --
+As classes de solo mais frequentes nas áreas cultivadas com arroz em Santa Catarina são: Gleissolos, Cambissolos, Organossolos e Neossolos Quartzarênicos ( figura abaixo ). As características destes solos mais relevantes para os sistemas de cultivo de arroz mais praticados no Estado são: • permeabilidade - capacidade de manutenção da lâmina de água na superfície; • trafegabilidade - capacidade de suporte ao trânsito de máquinas; • fertilidade - capacidade de fornecimento de nutrientes; • toxidez por ferro - risco de ocorrência. Não há um tipo ideal de solo para o cultivo de arroz no Estado e cada uma destas classes apresenta algum tipo de limitação ( tabela abaixo ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11395%5D%7B434%7Dtipossolo_2021.jpg
+Legenda: Principais classes de solo cultivadas com arroz irrigado em Santa Catarina. Composição: M.L.C.Vale
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11395%5D%7B347%7Dtabclassessolo_2021.jpg
+Legenda: Risco de limitação para os principais indicadores de aptidão dos solos cultivados com arroz em SC
+
+-- Informações Complementares --
+SOSBAI. Arroz irrigado : recomendações técnicas da pesquisa para o sul do Brasil. In: Reunião Técnica da Cultura do Arroz Irrigado, 32. 2018, Farroupilha. Cachoerinha: Sociedade Sul-Brasileira de Arroz Irrigado, 2018. 205p.

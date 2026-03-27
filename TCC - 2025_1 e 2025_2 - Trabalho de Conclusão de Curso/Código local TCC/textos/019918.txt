@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - TOM 01 (GAÚCHO GIGANTE)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019918&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17431%5D%7B114%7Dtom_01_%28gaucho_gigante%29.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Código: 250; Cultivar: TOM 01 (GAÚCHO GIGANTE); Categoria: Tomates; Necessidade de sementes (mx/ha): 10 a 20; Época de plantio: Agosto a fevereiro; Ciclo (nº dias): 90 a 110; Hábito de crescimento: Indeterminado; Tipo: Caqui; Cor do fruto: Vermelho; Peso médio (kg): 0,350 a 0,450.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br.

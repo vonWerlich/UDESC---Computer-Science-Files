@@ -1,0 +1,23 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Análise de solo, tecido vegetal e diagnose visual - Amostragem de tecido vegetal
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014633&isEdicao=N&epagriTEC=S
+
+
+-- CONCEITO: --
+A análise química foliar consiste na determinação dos teores de elementos em tecidos vegetais (principalmente folhas) visando ao diagnóstico do estado nutricional da cultura. Auxilia ainda na interpretação dos efeitos da adubação anteriormente efetuada e a estimar indiretamente o grau de fertilidade do solo (TRANI et al., 2014). Na cultura da cebola a análise foliar é indicada apenas para identificar alguns distúrbios nutricionais ou como medida complementar da adubação recomendada com base na análise de solo. Havendo suspeita de alguma deficiência nutricional, deve-se coletar separadamente o tecido de plantas com e sem sintomas. Os valores de referência dos teores de nutrientes no tecido foliar de cebola são apresentados na Tabela 1.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12721%5D%7B60%7Dtabela_1.jpg
+Legenda: Tabela 1. Extração, exportação e faixa adequada de nutrientes em tecido foliar de cebola. null
+
+-- COLETA DE FOLHAS: --
+Na cultura da cebola para a diagnose do estado nutricional deve ser coletada a folha mais jovem completamente expandida. Recomenda-se coletar uma folha por planta, totalizando entre 20 e 40 folhas por área homogênea amostrada.
+
+-- MOMENTO DA COLETA: --
+O período de coleta indicado é na metade do ciclo da cultura, ou seja, aproximadamente aos 60 dias após o transplante ou aos 110 dias após a semeadura, quando esta for realizada em campo definitivo. Normalmente esse período coincide com o início da bulbificação.
+
+-- PROCEDIMENTO APÓS A COLETA: --
+Após a coleta, deve-se acondicionar as amostras em sacos de papel, identificando-as e enviando-as imediatamente para o laboratório de análise química de tecido vegetal.
+
+-- CUIDADOS NA COLETA: --
+Alguns cuidados na coleta, no manuseio e na armazenagem da amostra de tecido vegetal são: - Escolher folhas sem doenças e que não tenham sido danificadas por insetos ou por outro agente; - Limpar as folhas dos resíduos de pulverização e/ou poeira logo após a coleta, por meio de lavagem com água limpa; - Evitar o contato das folhas coletadas com inseticidas, fungicidas e fertilizantes; - Colocar a amostra em sacos novos de papel ou em embalagem fornecida pelos laboratórios de análise de tecido; - Se for solicitada a análise de boro, usar papel encerado, pois o papel comum contamina a amostra com boro; - Identificar a amostra e preencher o formulário, indicando os elementos a serem determinados; - Elaborar um mapa de coleta que permita, pela identificação da amostra, localizar a área em que foi feita a amostragem; e - Enviar as amostras o mais breve possível ao laboratório; se o tempo previsto para a amostra chegar ao laboratório for superior a dois dias, é recomendado secar o material ao sol, mantendo a embalagem aberta.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

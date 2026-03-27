@@ -1,0 +1,14 @@
+Título: COMPOSTAGEM - Sobre a compostagem
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018469&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16095%5D%7B22%7Dcompostagem_foto.jpg
+
+-- CONCEITO: --
+Processo controlado e acelerado de decomposição microbiana dos resíduos orgânicos, com marcante fase termofílica, cujo produto final é um material estabilizado e humificado, completamente diferente do material de origem, denominado ‘composto’.
+
+-- OBJETIVOS: --
+- Produzir um fertilizante orgânico de elevada qualidade para nutrir as plantas e melhorar as condições físicas, químicas e biológicas do solo; - Transformar corretamente resíduos orgânicos com diferentes potenciais poluentes em um material seguro, evitando a contaminação ambiental e promovendo a reciclagem de nutrientes em adubo; - Reduzir o volume de resíduos destinados aos aterros sanitários, promovendo o aumento da vida útil dos aterros; - Valorizar os resíduos sólidos orgânicos; - Promover sistemas de produção de alimentos orgânicos por meio da oferta e disponibilização de fertilizantes orgânicos.
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

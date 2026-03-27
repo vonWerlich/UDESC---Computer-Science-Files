@@ -1,0 +1,46 @@
+Título: TOMATE - Cultivares - Nemo - Netta F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0857&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B735%5D%7B166%7Dnemo-netta.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agrocinco; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Tamanho do fruto: Grande (231 a 250 g); Tamanho do fruto: Médio (201 a 230 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido longa vida, muito produtivo, com excelente enfolhamento, entrenós curtos, produzindo de 2 a 3 pencas a mais por planta que os concorrentes. Frutos pesados (220g a 250g), pele lisa, de coloração vermelha vibrante e excelente uniformidade de frutos. Planta indeterminada que pode ser conduzida com 1 haste (adensado) ou 2 (convencional).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B292%7Dtomate_nemo_netta_%281%29.jpg
+Legenda: 1)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B250%7Dtomate_nemo_netta_%2810%29.jpg
+Legenda: 10)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B314%7Dtomate_nemo_netta_%2811%29.jpg
+Legenda: 11)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B521%7Dtomate_nemo_netta_%2812%29.jpg
+Legenda: 12)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B161%7Dtomate_nemo_netta_%2813%29.jpg
+Legenda: 13)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B411%7Dtomate_nemo_netta_%282%29.jpg
+Legenda: 2)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B485%7Dtomate_nemo_netta_%283%29.jpg
+Legenda: 3)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B357%7Dtomate_nemo_netta_%284%29.jpg
+Legenda: 4)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B520%7Dtomate_nemo_netta_%285%29.jpg
+Legenda: 5)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B54%7Dtomate_nemo_netta_%286%29.jpg
+Legenda: 6)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B471%7Dtomate_nemo_netta_%287%29.jpg
+Legenda: 7)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B179%7Dtomate_nemo_netta_%288%29.jpg
+Legenda: 8)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B735%5D%7B517%7Dtomate_nemo_netta_%289%29.jpg
+Legenda: 9)null
+
+-- RESISTÊNCIA: --
+Verticillium, Fusarium 1 e 2, Vírus do Mosaico do Tabaco e Nematóide.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.agrocinco.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.agrocinco.com.br.

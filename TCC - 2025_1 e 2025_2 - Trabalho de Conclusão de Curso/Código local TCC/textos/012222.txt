@@ -1,0 +1,45 @@
+Título: 5) TELAS DE SOMBREAMENTO
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012222&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6691%5D%7B27%7D55.jpg
+
+-- ESCOLHA DO TIPO DE TELA: --
+Para escolher uma tela de sombreamento adequada ao cultivo, deve-se primeiramente conhecer o clima da região e as condições climáticas preponderantes em cada estação do ano. Não há uma regra geral para a escolha da melhor tela de sombreamento, mas alguns fatores devem ser levados em consideração, como custo, qualidade, durabilidade, eficiência na redução da temperatura e na difusão de luz.
+
+-- POR QUE USAR UMA TELA DE SOMBREAMENTO: --
+De forma geral, o investi mento nesse tipo de tecnologia ocorre devido à intensidade de radiação solar incidente no período de verão, o que ocasiona o aumento da temperatura dentro dos abrigos e muitas vezes provoca a queima-do-sol ou escaldadura dos frutos, tornando o ambiente estressante para as plantas. Assim, o produtor deve investi r nessa tecnologia a fi m de proporcionar maior conforto térmico para o tomateiro, o que resultará em maior produtividade de frutos e, até mesmo, redução de problemas fitossanitários e desordens fisiológicas.
+
+-- TELAS PRETAS OU ESCURAS: --
+A tela de sombreamento mais comumente utilizada é a de malha preta, devido ao seu baixo custo (Figura 42). Contudo, dentre as telas atualmente disponíveis no mercado, ela pode ser considerada a que menos traz benefícios ao cultivo. Quando usada no interior dos abrigos, sua coloração escura vai provocar aumento indesejado da temperatura por ser um acumulador de energia e, portanto, de calor. Ela até pode atenuar os efeitos da alta intensidade luminosa nos períodos mais quentes do dia, mas, nos outros períodos, pode provocar estiolamento e aumento da suscetibilidade das plantas a pragas e doenças.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6691%5D%7B116%7D68.jpg
+Legenda: Telas de sombreamento mais comumente utilizadas no cultivo de plantas: tela preta. Fonte: Morales et al., 2019.
+
+-- TELAS ALUMINIZADAS: --
+As telas de sombreamento aluminizadas, também conhecidas como termorrefletoras, têm sido amplamente utilizadas para amenizar o excesso de radiação solar e temperatura. Dentre as telas disponíveis no mercado brasileiro, essa é a que traz maior conforto térmico para a planta, sendo mais eficiente na redução da temperatura interna nos abrigos de cultivo (diminui em até 5°C) e, em condições experimentais, foi observado aumento do desenvolvimento de plantas de tomateiro.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6691%5D%7B99%7D69.jpg
+Legenda: Telas de sombreamento mais comumente utilizadas no cultivo de plantas: tela aluminizada. Fonte: Morales et al., 2019.
+
+-- TELAS FOTOSSELETIVAS: --
+Nos últimos anos, pesquisadores israelenses, em colaboração com a indústria Polysack Plastic Industries Ltda., desenvolveram telas de sombreamento fotosseletivas (Chromatinet®) que, além de atenuarem a radiação e oferecerem proteção contra as intempéries, permitem modificá-las qualitativamente. Nessas telas são incorporados aditivos cromáticos, elementos dispersivos e reflexivos durante sua fabricação, com o objetivo de aumentar a radiação difusa e modificar a qualidade espectral da radiação transmitida.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6691%5D%7B7%7D70.jpg
+Legenda: Telas de sombreamento mais comumente utilizadas no cultivo de plantas: tela colorida. Fonte: Morales et al., 2019.
+
+-- CUIDADOS COM A QUALIDADE DO MATERIAL: --
+Existem diversas empresas produzindo e comercializando a tela aluminizada e as telas coloridas. Contudo, a qualidade do material de muitas delas deixa a desejar e, com apenas um ano de uso, determinadas marcas começam a ficar desbotadas (Figura 43) ou perdem a tinta aluminizada (Figura 43), remanescendo apenas um plástico transparente. Nesses casos deve-se dar preferência à compra de telas aluminizadas e coloridas de empresas que tenham tradição no mercado de telas agrícolas, o que pode resultar em telas com vida útil acima de 10 anos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6691%5D%7B322%7D72.jpg
+Legenda: Desgaste da tela aluminizada depois de um ano de uso. Fonte: Morales et al., 2019.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6691%5D%7B437%7D71.jpg
+Legenda: Tela de sombreamento vermelha desbotada pelo sol depois de 6 meses de uso. Fonte: Morales et al., 2019.
+
+-- MANEJO DAS TELAS: --
+No caso da aquisição de qualquer uma dessas telas, existe um manejo necessário para otimizar os seus benefícios. Em dias nublados, chuvosos, com baixa incidência de luz, as telas reduzirão ainda mais a incidência luminosa, o que pode provocar o estiolamento da planta e queda na taxa fotossintética. Nesse caso, o manejo ideal para as telas de sombreamento é o recolhimento em dias nublados e a utilização delas em dias de céu limpo. Como o verão é a estação do ano em que há maior radiação global incidente sobre o cultivo, recomenda-se esticar a tela nessa época do ano e deixar recolhida no inverno ou em períodos de baixa luminosidade. Devido à dificuldade de ficar abrindo e recolhendo as telas sobre os cultivos no dia a dia, muitos produtores optam por esticar as telas no início do verão e recolher no outono. Apesar de facilitar o manejo, esse procedimento pode trazer prejuízos, principalmente se considerarmos que no verão temos muitas vezes semanas seguidas de dias nublados. Uma opção é automatizar o recolhimento dessas telas, de tal maneira que ela seja acionada conforme a radiação solar global e/ou a temperatura dentro do abrigo. Esse tipo de tecnologia já está disponível no mercado brasileiro, sendo muito utilizada em abrigos de cultivo metálicos que contam com uma estrutura mais reforçada, principalmente no ramo de produção de flores.
+
+-- POSICIONAMENTO DA TELA DE COBERTURA: --
+Para maior eficiência no uso de telas de sombreamento, elas devem ser colocadas de 0,5 a 0,8m por cima da cumeeira da estrutura, nunca sob o plástico do ambiente protegido. Porém, devido às dificuldades em fixar e manejar as telas nessas condições, os produtores preferem utilizar a própria estrutura dos abrigos (os esteios) para a fixação dos arames e uso das telas.
+
+-- BENEFÍCIOS PARA A PLANTA E PARA O TRABALHADOR RURAL: --
+Além de todos os benefícios mencionados para a planta, as telas de sombreamento trazem benefícios diretos ao trabalhador rural, devido ao conforto térmico, proporcionando melhor eficiência na execução de tarefas como os tratos culturais, fitossanitários e colheita. Há uma regra de ouro que deve ser lembrada quando se fala em conforto térmico ambiental para os cultivos: caso o ambiente esteja estressante para o trabalhador rural, ele também estará estressante para a maior parte dos cultivos. Assim, as telas de sombreamento devem ser consideradas um investimento, que trará retorno econômico, e não um gasto adicional dentro do cultivo protegido.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

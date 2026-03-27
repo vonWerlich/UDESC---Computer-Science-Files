@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Cordillera F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0298&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B199%5D%7B400%7Dcordillera.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Feltrin; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Cultivar: Tomate Cordillera. Colheita (Dias): 100 A 110. Hábito De Crescimento: Indeterminado. Peso: 140 A 160 G. Uso: Mercado Fresco. DESTAQUE: Colheita sequencial, conservação pós-colheita, Produtividade e tolerância a doenças.
+
+-- RESISTÊNCIA: --
+TMV, F2, V, N, TSWV, TYLCV.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sementesfeltrin.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sementesfeltrin.com.br.

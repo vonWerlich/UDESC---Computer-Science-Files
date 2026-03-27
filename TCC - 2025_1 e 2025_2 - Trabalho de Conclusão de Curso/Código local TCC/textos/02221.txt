@@ -1,0 +1,19 @@
+Título: TOMATE - Tratos Culturais - Irrigação - 2.2) Irrigação por aspersão
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02221&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1992%5D%7B257%7Dtomate_mesa_irrigacao_aspersao_convencional.jpg
+
+-- Informações gerais: --
+As principais vantagens dos sistemas por aspersão são a flexibilidade de manejo e a possibilidade de uso nos mais diversos tipos de solo, topografia e cultura. A eficiência de irrigação varia entre os sistemas situando-se na faixa de 60-90% (1). O sistema é adotado tanto para o cultivo do tomate de mesa (geralmente feito por aspersores convencionais) e para o cultivo do tomate com fins industriais, este ultimo costuma ser realizado via Pivô Central (2).
+
+-- Custos: --
+O custo de implantação dos sistemas por aspersão varia entre R$ 2.000,00 e R$13.000,00 por hectare, sendo o menor valor para sistema convencional portátil, o maior para convencional fixo (1).
+
+-- Limitações: --
+A principal limitação do uso da aspersão na produção de tomate está relacionada ao aumento de doenças da parte aérea favorecido pelo molhamento da folhagem, elevação da umidade no interior do dossel vegetativo e pela remoção dos agrotóxicos aplicados às folhas. As principais doenças foliares e de podridões de frutos são mancha-bacteriana (Xanthomonas capestris pv. vesicatoria), pintabacteriana (Pseudomonas syringae pv. tomato), talooco (Erwinia spp.), pinta-preta (Alternaria solani) e requeima (Phytophtora infestans) (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1992%5D%7B526%7Dtomate_mesa_irrigacao_aspersao_convencional.jpg
+Legenda: Irrigação por aspersão convencional m tomate de mesa. Fotos: Flávia Clemente
+
+-- Informações Complementares --
+(1) Waldir A. Marouelli et al. Irrigação do tomateiro para processamento. Circular Técnica 102, Brasília, DF, Março, 2012. ISSN 1415-3033. (2) Flávia Maria V. T. Clemente. Irrigação. ÁRVORE DO CONHECIMENTO, Tomate. Disponível em:

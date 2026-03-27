@@ -1,0 +1,34 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Plantas daninhas em arroz irrigado - Capim-arroz (Echinochloa crus-galli)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0508&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B401%5D%7B72%7Darroza.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B348%7Darroza.jpg
+Legenda: Folha. Fonte: https://www.agrolink.com.br/problemas/capim-arroz_92.html
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B393%7Darrozb.jpg
+Legenda: Folha. Fonte: https://www.agrolink.com.br/problemas/capim-arroz_92.html
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B125%7Darrozc.jpg
+Legenda: Folha. Fonte: https://www.agrolink.com.br/problemas/capim-arroz_92.html
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B530%7Dpldan_capimarroz_fig07a.jpg
+Legenda: 01. Lavoura de arroz infestada por capim-arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B418%7Dpldan_capimarroz_fig11.jpg
+Legenda: 02. Lavoura de arroz infestada por capim-arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B428%7Dpldan_capimarroz_fig12.jpg
+Legenda: 03. Lavoura de arroz infestada por capim-arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B7%7Dpldan_capimarroz_fig13.jpg
+Legenda: 04. Malha de capim-arroz em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B224%7Dpldan_capimarroz_fig16.jpg
+Legenda: 05. Infestação inicial de capim-arroz em lavoura. D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B401%5D%7B495%7Dpldan_capimarroz_fig23.jpg
+Legenda: 11. Panícula de capim-arroz da espécie Echinochloa crus-galli. Fonte: D.S.Eberhardt (remasterizada)
+
+-- DESCRIÇÃO BOTÂNICA: --
+Autor da Descrição: Horlandezan Bragança (1) Características da Planta: Família: Poaceae (Gramineae) Divisão e Classe: Angyospermae Monocotyledoneae Ciclo: Anual Reprod./Propagação: Fruto; Habitat/Tipologia: Planta Anfíbia Adaptações: Colmo ereto; Colmo com perfilhos; Altura(cm): 30-150 Características das Folhas: Filotaxia: Alternada dística Forma do Limbo: Lanceoladas: Linear Superfície: Glabratas Consistência: Herbácea Nervação/Venação: Paralelinérveas Comprimento (cm): até 30 Características das Flores e do fruto: Inflorescência: Panícula Perianto: Aperiantada, Hermafrodita Tipologia do Fruto: Cariópse
+
+-- OBSERVAÇÕES: --
+Espécie infestante mais comum e agressivas em arrozais, também é infestante, em menor escala, de culturas como milho, feijão, cevada, trigo e cana-de-açúcar. Além de agressiva infestante, é planta hospedeira de fungos e vírus causadores de doenças em culturas anuais. Indica a formação de um "horizonte de redução" (rico em substância tóxicas) logo abaixo da superfície do solo. Eliminando-se o "horizonte de redução" - por drenagem + palha do arroz infestado + adubação fosfocálcica - o capim-arroz não mais germina. Apresentam sementes que são permitidas junto às sementes comercializadas dentro de certos limites máximos especificados por atos oficiais (1).
+
+-- Produtos com reconhecido controle da invasora: --
+Aura ; Clincher(Constatada resistência ao herbicida) ; Facet(Constatada resistência ao herbicida) ; Gamit ; Loyant ; Herbadox/Prowl ; Nominee(Constatada resistência ao herbicida) ; Only(Constatada resistência ao herbicida) ; Kifix(Constatada resistência ao herbicida) ; Propanil* ; Ricer(Constatada resistência ao herbicida) ; Starice(Constatada resistência ao herbicida) ; Strike ; *Controle obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento (plântulas com até uma folha – V1).
+
+-- Informações Complementares --
+(1) AGROFIT: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html

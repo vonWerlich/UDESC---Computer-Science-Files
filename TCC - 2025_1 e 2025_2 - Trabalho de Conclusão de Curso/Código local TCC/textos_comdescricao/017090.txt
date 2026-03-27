@@ -1,0 +1,20 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 1. Diagnóstico a partir da lavouraInicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca. - Está ocorrendo perda de estande (número de plantas/m²) na lavoura - A falha no estande é pela perda de sementes em germinação
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017090&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17078%5D%7B335%7Dlav02_estandesemente.jpg
+DIAGNOSE VISUAL
+1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+Está ocorrendo perda de estande (número de plantas/m²) na lavoura
+A falha no estande é pela perda de sementes em germinação
+As sementes têm o epicótilo e/ou as radículas roídas
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17090%5D%7B169%7Dlav03_semente.jpg
+Legenda: As sementes têm o epicótilo e/ou as radículas roídas
+17104
+As sementes têm o epicótilo e/ou as radículas roídas
+As sementes estão sendo enterradas pelo revolvimento de solo
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17090%5D%7B13%7Dlav03_enterrio.jpg
+Legenda: As sementes estão sendo enterradas pelo revolvimento de solo
+17097
+As sementes estão sendo enterradas pelo revolvimento de solo

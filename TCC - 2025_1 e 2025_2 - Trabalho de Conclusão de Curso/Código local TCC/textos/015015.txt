@@ -1,0 +1,31 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - j) Principais doenças do tomateiro no Litoral Norte de Santa Catarina - Pinta-preta ou pinta-preta-grande
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015015&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B13012%5D%7B237%7D57_-_copia.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Fungo de ampla dispersão, com ocorrência em todas as áreas de cultivo de tomateiro, dissemina-se por esporos conduzidos pelo vento e por sementes infectadas. A incidência da doença é favorecida em condições de alta temperatura (25 a 30 °C) e umidade, sendo mais severa no verão (Kurosawa & Pavan, 2005). O patógeno ocorre em todas as fases do desenvolvimento vegetativo, infectando o caule, folhas, flores, frutos e sementes.
+
+-- SINTOMAS: --
+Os sintomas são observados em toda a parte aérea da planta, da fase jovem a mais velha. Nas folhas as lesões são necróticas, marrom-escuras, com ou sem anéis concêntricos bem pronunciados, bordos definidos, circulares ou elípticos (Figura 57). Nas lesões mais velhas constata-se o halo clorótico que pode tomar extensas áreas foliares. A doença progride atingindo a nervura central, interrompendo a circulação de seiva com consequente morte do tecido afetado (Lopes & Ávila, 2005). No caule, pecíolo e ráquis, as lesões são semelhantes às da folha, progredindo ao anelamento do órgão afetado seguido de morte. Nos frutos, as lesões inicialmente são de cor marrom ou preta nas sépalas, onde causam podridão seca de aspecto zonado (Kurosawa & Pavan, 2005).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13012%5D%7B448%7D57.jpg
+Legenda: Sintomas de pinta-preta (Alternaria solani) em folha de tomateiro. Foto: SPV Extremadura
+
+-- ETIOLOGIA: --
+Os conídios que permanecem viáveis por longo tempo em restos culturais são disseminados principalmente pelo vento, insetos, sementes, água de irrigação, trabalhadores, ferramentas e implementos agrícolas. Os conídios também sobrevivem no solo e em outras solanáceas, cultivadas ou selvagens. A germinação do conídio ocorre entre 6 e 34 °C, com faixa ótima de temperatura entre 28 a 30 °C. O fungo penetra diretamente na cutícula ou na parede celular e os sintomas tornam-se visíveis de 1 a 3 dias após a penetração (Kurosawa & Pavan, 2005).
+
+-- Controle genético: --
+cultivares ou híbridos de tomate resistentes a A. solani: Astuto, Colono, Mariana, Milagros e Stella.
+
+-- Controle cultural: --
+- Usar sementes tratadas, livres da contaminação pelo fungo; - Rotação de culturas; - Eliminar plantas voluntárias e daninhas, principalmente as solanáceas; - Eliminar restos culturais; - Evitar plantios sucessivos; - Evitar áreas de baixadas, úmidas e com formação de orvalho; - Evitar irrigações frequentes, utilizar preferencialmente o gotejamento (Lopes & Ávila, 2005, Lopes & Santos, 1994); - Adubações equilibradas de potássio reduzem a severidade da pinta-preta (A. solani) (Zambolim et al., 2012).
+
+-- Controle biológico: --
+Não há agentes de biocontrole comerciais registrados no MAPA para o controle de A. solani, A. tomatophila ou A. cretica em sistemas orgânicos de produção.
+
+-- Controle químico: --
+Aplicações semanais preventivas de calda bordalesa a 0,3% ou calda viçosa.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

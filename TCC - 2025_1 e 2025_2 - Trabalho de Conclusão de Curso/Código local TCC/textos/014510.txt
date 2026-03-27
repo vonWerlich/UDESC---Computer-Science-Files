@@ -1,0 +1,10 @@
+Título: CEBOLA - Escolha do cultivar - Podium
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014510&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12640%5D%7B70%7Dpodium.png
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Takii Polinização: Híbrido Ciclo maturação/dias: Precoce/130-150 Formato do bulbo: Globular Cor da película do bulbo: Amarela Cor da polpa do bulbo: Branca Região/Época de plantio: Sul: Abril a Maio Nordeste: Ano todo Sudoeste: Fevereiro a Maio
+
+-- Informações Complementares --
+Informações coletadas e organizadas pelo autor

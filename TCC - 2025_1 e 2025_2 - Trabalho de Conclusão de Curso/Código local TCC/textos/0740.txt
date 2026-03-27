@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Yuti F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0740&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B618%5D%7B442%7Dyuti.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto amarelo; Crescimento: Determinado; Empresa: Blueseeds; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae
+
+-- INFORMAÇÕES DA EMPRESA: --
+Hábito de Crescimento : Determinado ; Grupo : Cereja ; Peso Médio : 18 a 22g ; Ciclo : precoce ; Nº de Lócus : 2 ; Tolerância : V¹, F¹, F² ; Densidade do plantio : 1,30×1,50m – 0,60×0,40m ; Nº de hastes : dispensa desbrota
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://blueseeds.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://blueseeds.com.br.

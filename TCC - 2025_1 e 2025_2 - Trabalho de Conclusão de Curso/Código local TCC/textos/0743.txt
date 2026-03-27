@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Bagual F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0743&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B623%5D%7B178%7Dbagual-234x234.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Blueseeds; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Baixa (121 a 130dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: Sw5 - Tospovírus; Tamanho do fruto: Gigante (maior do que 280 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Hábito de Crescimento : Determinado ; Grupo : Gaúcho Caqui ou Maçã ; Peso Médio : 400 a 600g ; Ciclo : tardio ; Nº de Lócus : multilocular ; Tolerância : V¹, F¹, F², T, Sw, LSL ; Densidade do plantio : 1,30×1,60m – 0,50×0,40m ; Nº de hastes : dispensa desbro Peso médio: 400 a 600 gramas. Ciclo: médio – 95 dias pós-transplante. Nº de lócus: multilocular. Tolerância: Verticillium, Fusarium raça 1 e 2, vírus do mosaico do tabaco e vírus do “vira cabeça”.
+
+-- Manejo do cultivo: --
+Semeio: ano todo. Densidade de plantio: 1,30 x 0,60m. Condução: meia estaca. Dispensa desbrota e o raleio dos frutos.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://blueseeds.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://blueseeds.com.br.

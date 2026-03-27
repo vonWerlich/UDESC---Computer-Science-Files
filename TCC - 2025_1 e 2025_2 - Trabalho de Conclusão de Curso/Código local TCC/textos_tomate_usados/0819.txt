@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Rosso F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0819&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B698%5D%7B82%7Drosso_f1.jpg
+
+-- CARACTERÍSTICAS: --
+Crescimento: Determinado; Empresa: TSV Sementes; Finalidade: Copa; Polinização: Híbrido; Precocidade: Baixa (121 a 130dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a viroses: TMV - Tobacco mosaic virus
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido do tipo Uva, possui frutos saborosos, alongados, firmes, com excelente coloração vermelho intenso e muito uniformes. Os frutos pesam de 6 a 19g. Possuem Brix aproximado de 9,5º. - Ciclo (nº de dias): 240 dias - Hábito de crescimento: Determinado - Tolerâncias: TMV, Fol: 1, 2, média tolerância a nematóide.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.tsvsementes.com.br.

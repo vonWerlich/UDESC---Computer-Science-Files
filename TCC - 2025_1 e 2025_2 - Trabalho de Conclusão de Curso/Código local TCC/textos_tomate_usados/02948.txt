@@ -1,0 +1,20 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - H) MANEJO DAS PRINCIPAIS DOENÇAS BACTERIANAS - d) Mancha-bacteriana
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02948&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2711%5D%7B301%7Dfigura_23a.jpg
+
+-- Mancha-bacteriana – Xanthomonas spp. (sin: Xanthomonas campestris pv. vesicatoria; X. euvesicatoria; X. perforans; X. gardneri): --
+A mancha-bacteriana é uma doença de grande frequência na região do AVRP, principalmente a causada pelas espécies X. gardneri, X. perforans e X. vesicatoria (Costa et al. 2012), onde encontra as condições ideais com temperaturas entre 20 e 30°C, sendo mais severa em locais onde ocorrem chuvas associadas a ventos fortes. Podem atacar todos os tecidos aéreos da planta. A produtividade é reduzida pela redução da área foliar e pela derrubada de flores e frutos em formação, além de comprometer a qualidade dos frutos para o comércio. A bactéria penetra na planta por meio dos estômatos ou dos ferimentos provocados por equipamentos ou tratos culturais como amarrio e desbrota. A doença é disseminada por respingos de água, a curta distância, ou por mudas ou sementes infectadas, a longa distância.
+
+-- Sintomas: --
+Os sintomas da mancha-bacteriana podem ser observados em qualquer idade da planta e todos os órgãos da parte aérea são afetados. Nas folhas: Aparecem manchas mais ou menos circulares (1 a 3mm de diâmetro) perfuradas ou não, as quais no entanto são mais alongadas quando comparadas com a pinta-bacteriana (Pseudomonas syringae pv. tomato), que são mais arredondadas. De coloração marrom, espalhadas no limbo foliar (Figura 23), as manchas muitas vezes concentram-se nos bordos e são circundadas por um halo clorótico bastante expressivo quando comparado com a pinta-bacteriana. As lesões apresentam tecido encharcado em condições de alta umidade do ar. Em ataques severos as lesões podem coalescer e provocar amarelecimento e secagem das folhas. Normalmente esses sintomas são primeiramente observados nas folhas de baixeiras e muitas vezes são confundidos com as lesões da pinta-bacteriana, da mancha-de-estenfílio ou com o ataque inicial da pinta-preta. Lesões alongadas, de cor marrom, são observadas no pecíolo e no caule e o ataque nas partes florais pode provocar intensa queda de flores. Nos frutos: As lesões iniciais apresentam um halo branco, sendo facilmente confundidas com o cancro-bacteriano. À medida que a lesão cresce, o halo desaparece e toma uma coloração marrom-clara, de aspecto corticoso e com bordas ligeiramente elevadas (Figura 23).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2711%5D%7B180%7Dfigura_23a.jpg
+Legenda: Sintoma da mancha-bacteriana do tomateiro: (A) na face superior. Foto: Walter Ferreira Becker
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2711%5D%7B40%7Dfigura_23b.jpg
+Legenda: Sintoma da mancha-bacteriana do tomateiro: (B) inferior da folha. Foto: Walter Ferreira Becker
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2711%5D%7B446%7Dfigura_23c.jpg
+Legenda: Sintoma da mancha-bacteriana do tomateiro: (C) e no fruto. Foto: Walter Ferreira Becker
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

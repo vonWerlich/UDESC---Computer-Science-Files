@@ -1,0 +1,303 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7414&amp;isEdicao=N&amp;epagriTEC=S">4) ESCOLHA DO PLÁSTICO DE COBERTURA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="6692">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="7414">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[6692]{43}52.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Rafael G. F. Morales </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>TIPOS DE PLÁSTICO: </b><br>
+<p class="p1"><div> Existem três tipos principais de filmes plásticos para a cobertura do abrigo de cultivo, sendo eles transparentes, difusores e leitosos. Apesar de existirem inúmeras outras possibilidades, os três supracitados são os mais utilizados no Brasil. <br> </div></p>
+<b>MATERIAL MAIS UTILIZADO PARA A COBERTURA: </b><br>
+<p class="p1"><div> O polietileno de baixa densidade (PEBD) é o material mais utilizado para a cobertura dos abrigos de cultivo, porque apresenta transparência, flexibilidade e possui menor custo quando comparado
+ao vidro. <br> </div></p>
+<b>CARACTERÍSTICAS QUE UM PLÁSTICO PODE TER: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - Antivírus: tratado com um aditivo que bloqueia a passagem da luz ultravioleta, o que diminui a visão dos insetos, diminuindo a sua permanência nos abrigos e a propagação dos vírus;<br><br>
+- Antiestático: reduz o acúmulo de poeira;<br><br>
+- Proteção contra raios UVa/UVb: garante maior qualidade do filme exposto às intempéries e à radiação solar;<br><br>
+- Antigotejo: evita que as gotas condensadas sob o plástico caiam sobre o cultivo. Contudo, em condições de baixa luminosidade, devido ao clima ou ao acúmulo de poeira, essa característica pode ser prejudicial, pois reduz a radiação solar incidente, reduz a
+fotossíntese, o crescimento e o desenvolvimento da cultura. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PLÁSTICO DIFUSOR: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para a maior parte dos cultivos é recomendado o plástico difusor, que apresente entre 40 e 80% de difusão, uma vez que a radiação difusa é mais efetiva no processo fotossintético. Isso ocorre devido à dispersão da luz dentro do ambiente, quando a luz
+multidirecional penetra melhor no dossel da cultura, o que compensa, em parte, a parcial opacidade do filme agrícola (SOUSA, 2002). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>LARGURA DO PLÁSTICO A SER ADQUIRIDO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para determinar a largura do plástico a ser adquirido, deve-se levar em consideração o sentido em que ele será colocado: transversal ao sentido do comprimento ou no sentido do comprimento do abrigo. No mercado brasileiro é comum encontrar plásticos com 4 e 8m de largura, mas as empresas especializadas fabricam plásticos com até 12m ou mais de largura sob encomenda. O mais usual atualmente é esticar o plástico no sentido do
+comprimento do abrigo, o que necessita de 4 a 6 pessoas para uma boa fixação do plástico. No caso de optar por rolos de 4 a 6m, o plástico deve ser colocado na transversal em tiras sobrepostas nas laterais (VER FOTO EM ANEXO) em 0,5m, sendo necessárias de 2 a 4 pessoas para executar o serviço. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6220,7414,6692,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6692]{4}50.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6221,7414,6692,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6692]{101}51.jpg">  </a> 
+<br><br>
+<b>MOMENTO IDEAL PARA COLOCAR O PLÁSTICO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A colocação do plástico é a última etapa da construção do abrigo, e vem após a colocação da tela anti-insetos, a construção das janelas e da porta. Para garantir uma melhor fixação do plástico, deve-se optar por fazer a colocação/troca do plástico no verão, num dia sem nuvens, nas horas mais quentes do dia (VER FOTO EM ANEXO). Outro fator a ser levado em consideração é o vento, optando-se sempre por esticar o plástico em dias de pouco ou nenhum vento. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6222,7414,6692,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6692]{396}52.jpg">  </a> 
+<br><br>
+<b>ESPESSURA DO PLÁSTICO A SER UTILIZADO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Quanto à espessura do plástico, os mais utilizados variam de 100 a 150 micras, mas existem no mercado fornecedores de plástico ainda mais espesso. Não há unanimidade na literatura sobre as vantagens de se utilizar determinada espessura de plástico, mas, na prática, observam-se algumas vantagens em se utilizar plásticos entre 100 e 120 micras. Uma delas é a facilidade de esticar/tracionar o plástico em cima dos abrigos. Plásticos
+muito espessos cedem pouco na hora de esticar, mesmo em dias quentes, o que resulta em frouxidão do material com o passar do tempo. Por outro lado, o plástico de 100 micras cede e fica mais firme, o que pode resultar em maior durabilidade do material.
+Assim, mesmo que o plástico de 150 micras seja mais resistente do que o de 100 micras, dependendo da qualidade da instalação, a durabilidade com as duas espessuras pode ser praticamente a mesma, variando de 3 a 5 anos. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Observação importante quanto a espessura do plástico: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Cabe uma ressalva no que tange esse assunto. Em abrigos de cultivo que não possuem boa proteção contra o vento, ou tenham estruturas pouco reforçadas, durante um vendaval, a tendência é de que o vento rasgue o plástico mais fino e não danifique
+a estrutura do abrigo. Contudo, se o plástico for mais espesso (150 micras) e resistente, a estrutura pode sofrer danos devido à força que o vento faz no plástico, muitas vezes arrancando os esteios do solo e as madeiras pregadas (por isso, dar preferência por parafuso), entortando metal e quebrando a madeira. Levando-se essas questões em ponderação, em caso de dúvidas quanto à espessura do plástico, deve-se optar pelo plástico de 100 a 120 micras, que atenderá as necessidades do cultivo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>USO DE ARAMES NA LONGITUDINAL: </b><br>
+<p class="p1"><div> Outra medida que visa preservar a durabilidade do plástico de cobertura é esticar longitudinalmente os arames (2mm de bitola), entre as duas extremidades do abrigo sob o plástico, de tal forma que ele auxilie na redução da vibração que ocorre em dias de
+ventania.  <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6223,7414,6692,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6692]{515}53.jpg">  </a> 
+<br><br>
+<b>USO DA SUJEIRA DO PLÁSTICO PARA O CONTROLE DA TEMPERATURA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Após determinado tempo de uso, o plástico começa a acumular pó e demais sujeiras que reduzem a passagem da luz para dentro do abrigo. Essa condição desfavorece o desenvolvimento vegetativo, pois reduz a atividade fotossintética, principalmente em dias nublados e em épocas de menor luminosidade natural (inverno). Com isso, torna-se essencial a limpeza periódica do plástico, que deve ser feita sempre que se notar redução significativa da luminosidade dentro do abrigo. Assim, a frequência dessa limpeza vai depender de algumas condições locais, como por exemplo a proximidade com rodovias e áreas rurais que fazem o revolvimento convencional do solo. Para os produtores que não usam tela de sombreamento, a poeira acumulada sobre o plástico pode auxiliar no combate às altas temperaturas durante o verão. Porém, nesse caso, deve-se ter consciência de que essa estratégia, apesar de apresentar baixo custo, não é a ideal, pois em períodos prolongados de baixa luminosidade, mesmo no verão, pode resultar em baixa atividade fotossintética pelas plantas e estímulo ao estiolamento, com consequente aumento da suscetibilidade às pragas. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>LIMPEZA DO PLÁSTICO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Existem poucas opções práticas para a limpeza do plástico. A mais utilizada atualmente é a utilização de uma espuma fixada a uma haste que permite a limpeza dos locais mais altos (centro da cumeeira) do abrigo (VER FOTO EM ANEXO). Deve-se jogar água conjuntamente com a fricção da espuma no plástico, por meio de mangueira ou até mesmo aproveitando um dia de chuva. Uma segunda opção é transpassar transversalmente um sombrite sobre o abrigo, numa faixa de aproximadamente um metro. Então, duas pessoas, uma de cada lado do abrigo, devem puxar em sua direção o sombrite, fazendo um “vai e vem” do sombrite sobre o plástico que, na presença de água, faz a limpeza da sujeira (VER FOTO EM ANEXO). Cabe ressaltar que apesar desse método ser mais prático do que o da espuma, devido ao atrito criado pela tela no plástico, há um maior desgaste do plástico e consequente redução da sua durabilidade. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6224,7414,6692,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6692]{362}54.jpg">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção
+de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019.
+176p. (Epagri. Sistemas de Produção, 53).
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 17/02/2020</font>
+<br> <font size="2"> Última atualização: 01/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=7414&amp;cdElemento=6692">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=6692');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

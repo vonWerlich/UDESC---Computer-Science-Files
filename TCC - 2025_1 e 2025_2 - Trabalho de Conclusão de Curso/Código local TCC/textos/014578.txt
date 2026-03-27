@@ -1,0 +1,14 @@
+Título: CEBOLA - Escolha do cultivar - Critérios para escolha do cultivar - Temperatura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014578&isEdicao=N&epagriTEC=S
+
+
+=== CRITÉRIOS PARA ESCOLHA DO CULTIVAR ===
+
+-- RELAÇÃO ENTRE TEMPERAUTRA E O FOTOPERÍODO: --
+O fotoperíodo é um dos principais fatores para a indução da bulbificação, no entanto sua interação com a temperatura deve ser cuidadosamente analisada. Em condições indutivas de fotoperíodo, a bulbificação é acelerada sob altas temperaturas e atrasada quando em condições de baixas temperaturas (Brewster, 2008). Desta forma, a bulbificação tem início somente após ser atingido um patamar mínimo do binômio fotoperíodo/temperatura, para o cultivar. Assim, a bulbificação é, de modo geral, diretamente proporcional ao fotoperíodo e à temperatura (Brewster, 2008).
+
+-- FAIXAS DE TEMPERATURA: --
+A temperatura ideal para bulbificação fica entre 15 e 30°C, sendo que temperaturas superiores a 30 °C podem acelerar muito o processo de bulbificação, levando à formação de bulbos pequenos, enquanto temperaturas menores que 15°C podem aumentar o florescimento precoce (early bolting), fator este indesejável, pois estes bulbos não possuem valor comercial. Dessa forma, o produtor deve optar por cultivares que se adequem à região de cultivo para evitar perdas na produção devido às condições climáticas.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

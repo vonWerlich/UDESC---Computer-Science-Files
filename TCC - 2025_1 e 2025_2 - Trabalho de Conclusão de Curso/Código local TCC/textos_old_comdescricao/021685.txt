@@ -1,0 +1,29 @@
+Título: BANANA - Manejo do bananal - Densidade de plantio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021685&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Manejo do bananal
+Densidade de plantio
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18382%5D%7B514%7Dfigura_13_-_b.jpg
+Prática da "Poda do Coração" na cultura da banana, especificamente a etapa de "quebra do coração", onde as mãos de um agricultor, seguram firmemente o "coração" ou flor masculina da bananeira – uma estrutura cônica, alongada, de cor roxo-avermelhada intensa – posicionada logo abaixo de um cacho de bananas verdes e imaturas em desenvolvimento, com a ação de agarrar e possivelmente torcer ou puxar o coração indicando o momento da sua remoção manual do engaço, uma técnica agrícola crucial realizada após a formação das últimas pencas de frutos desejadas, visando direcionar a seiva e os nutrientes da planta exclusivamente para o enchimento e maturação das bananas, otimizando assim o tamanho e a qualidade do cacho.
+FOTO: Arquivo Epagri
+
+-- DESCRIÇÃO --
+A densidade de plantas e sua manutenção ao longo dos anos é de fundamental importância para a expressão do potencial produtivo dos cultivares a serem escolhidos para a formação de um bananal. A densidade de plantas vai variar conforme o espaçamento entre as plantas utilizado no momento do plantio, devendo-se considerar alguns fatores para sua determinação, como altura das plantas, arquitetura das folhas, relevo da área, exposição solar, finalidade comercial da produção e o nível tecnológico a ser empregado( 1 ).
+
+-- DENSIDADES DE PLANTIO --
+Quando cultivadas variedades do subgrupo Cavendish, tais como ‘Grande Naine’, ‘SCS452 Corupá’ e ‘Williams’ , todas de porte médio, são recomendados espaçamentos que permitam uma densidade de aproximadamente 1.600 plantas por hectare. Para variedades do subgrupo Prata e tetraploides, tipos ‘Prata’ e ‘Maçã’, como ‘Prata Anã’, ‘SCS451 Catarina’, ‘BRS Platina’ e ‘BRS Princesa’ , todas de porte alto, deve haver espaçamentos que resultem em densidades entre 1.250 a 1.400 plantas por hectare. Em áreas planas, pode-se optar pelo plantio em fileiras duplas, diminuindo a distância entre as plantas na linha e entre as linhas, e aumentando a distância entre as fileiras duplas( 2 ).
+
+-- ESPAÇAMENTOS DE PLANTIO --
+Porte baixo : 2,0 x 2,0 metros e 1,5 x 2,0 metros. (Nanica) Porte médio : 2,0 x 2,0 metros, 2,0 x 2,5 metros, 2,0 x 3,0 metros e 2,5 x 2,5 metros, dependendo das condições locais. (Grande Naine; Nanicão) Porte mais elevado : 2,5 x 3,0 ; 2,0 x 3,5 metros e 2,0 x 4,0 metros. (Prata Anã; Prata Catarina) Porte alto : 2,5 x 3,0 metros, 2,0 x 3,5 metros e 2,0 x 4,0 metros, 2,5 x 4,0 metros, 3,0 x 4,0 metros e 4,0 x 4,0 metros. (Mysore; Maçã, Pacovan; Branca) Linhas duplas - Para a densidade de 1666 plantas por hectare são 1,50 x 2,00 x 6,00 metros, 1,50 x 3,00 x 5,00 metros e 2,00 x 2,00 x 4,00 metros( 2 ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18382%5D%7B277%7D20230815_095855.jpg
+Casa de embalagem de bananas (unidade de beneficiamento) em um ambiente rural e tropical, caracterizada por um galpão amplo e aberto com estrutura metálica, assentado sobre uma doca elevada de concreto que otimiza a logística de carga e descarga, cujo interior abriga um volume expressivo de caixas padronizadas, meticulosamente empilhadas e prontas para a expedição, enquanto externamente uma van comercial e um operário em atividade evidenciam o fluxo de distribuição, e a vegetação circundante com cachos de bananas ainda ensacados no campo conecta diretamente a estrutura à fase primária de produção.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18382%5D%7B421%7Dfileira_dupla.jpg
+Manejo pós-colheita da banana, onde cachos recém-colhidos, ainda verdes e em estágio pré-climatérico, estão suspensos em linha por seus pedúnculos em uma estrutura de acondicionamento, cada um meticulosamente envolvido por um saco plástico protetor de polietileno microperfurado azul – prática de campo conhecida como ensacamento – que visa proteger os frutos contra danos e pragas, e que, nesta fase de repouso, assegura a ventilação controlada para preservar a qualidade, retardar a maturação e preparar os cachos para as etapas subsequentes de processamento.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LIVRAMENTO, G.; NEGREIROS, R.J.Z. Banana: Recomendações técnicas para o cultivo no litoral norte de Santa Catarina. Florianópolis: Epagri,2016.101p. (Epagri. Sistemas de Produção,49) ( 2 )LICHTEMBERG, L. A.; MALBURG, J. L.; SCHMITT, A. T.; HINZ, R. H.; ZAFFARI, G. R.; GONÇALVES, M. I. F. XIV Curso de Bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento – EPAGRI, 2005. 184p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LIVRAMENTO, G.; NEGREIROS, R.J.Z. Banana: Recomendações técnicas para o cultivo no litoral norte de Santa Catarina. Florianópolis: Epagri,2016.101p. (Epagri. Sistemas de Produção,49) ( 2 )LICHTEMBERG, L. A.; MALBURG, J. L.; SCHMITT, A. T.; HINZ, R. H.; ZAFFARI, G. R.; GONÇALVES, M. I. F. XIV Curso de Bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento – EPAGRI, 2005. 184p.
+• Ricardo José Zimmermann de Negreiros (Msc. - Epagri) Pesquisador - Epagri - Itajaí
+• Jorge Luiz Malburg (Msc. - Epagri) Pesquisador - Epagri - Itajaí

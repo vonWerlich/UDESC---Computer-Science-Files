@@ -1,0 +1,18 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - MANCHA DE CORDANA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021707&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18397%5D%7B355%7Dcordana.png
+
+-- DESCRIÇÃO --
+A mancha foliar de Cordana é considerada uma doença secundária da cultura. É observada com frequência nos bananais, mas seus sintomas geralmente ocorrem associados aos do complexo de Sigatoka, considerando-se que seus danos não são relevantes. O agente causal dessa doença sofreu uma alteração no seu gênero, passando de Cordana para Neocordana . Duas espécies de Neocordana estão associadas com essa doença: Neocordana musae ( Cordana musae ) e Neocordana johnstonii ( Cordana johnstonii )( 1 )
+
+-- SINTOMAS --
+Os sintomas iniciais de Cordana muitas vezes podem ser confundidos com os da Sigatoka amarela. As manchas causadas pela doença são grandes, com formato piriforme, circundadas por halo amarelado e podem apresentar zonas concêntricas (Figura abaixo) .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18397%5D%7B371%7Dfig.4_cordana.jpg
+Legenda: MANCHAS TÍPICAS DE CORDANA Foto: Luiz A. M. Peruch
+
+-- CONTROLE --
+As medidas de controle aplicadas para o complexo de Sigatoka também reduzem os danos causados pela mancha de Cordana. Por este motivo, não são necessárias medidas específicas para esta doença.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )HERNANDEZ-RESTREPO, M.; GROENEWALD, J.Z.; CROUS, P.W. Neocordana gen. nov., the causal organism of Cordana leaf spot on banana. Phytotaxa, v. 205, n.4, p.229-238, 2015.

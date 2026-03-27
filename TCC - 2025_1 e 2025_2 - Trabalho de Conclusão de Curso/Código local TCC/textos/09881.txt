@@ -1,0 +1,22 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Parasitos (Protozoários e moluscos) - Monogenea
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09881&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17913%5D%7B11%7Dmonogenea.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Vermes monogenéticos estão entre as parasitoses mais comuns que acometem os peixes em criação e de vida livre, de água doce e salgada.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17913%5D%7B198%7Dmonogenea.jpg
+Legenda: Imagem microscópica do verme. Jerônimo et al. (2016).
+
+-- PREJUÍZOS: --
+Podem não ser responsáveis por grandes mortalidades, contudo, altas infestações em peixes em fase de crescimento podem causar o comprometimento das condições de saúde desses animais, com reflexo negativo sobre o desempenho zootécnico (Jerônimo et al., 2016).
+
+-- SINTOMAS: --
+A ação patogênica destes vermes está relacionada principalmente à forma de fixação sobre os órgãos dos seus hospedeiros, geralmente realizada por meio de ganchos, âncoras, barras ou ventosas. Dessa forma, podem ocasionar lesões dilacerantes nos órgãos de fixação, com indução de processo inflamatório, proliferação epitelial e até mesmo necrose tecidual.
+
+-- DIAGNÓSTICO: --
+Para realizar o diagnóstico desta parasitose, basta realizar análises microscópicas do raspado de pele, brânquias e nadadeiras.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52). JERÔNIMO, G. T. et al. Monogenea: parasitos versáteis e problemáticos. Disponível em https://www.aquaculturebrasil.com/artigo/14/monogenea-%E2%80%93-parasitos-versateise-problematicos . Acesso em 09/03/2023.

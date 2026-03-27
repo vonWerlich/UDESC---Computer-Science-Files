@@ -1,0 +1,36 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - L) TECNOLOGIA DE APLICAÇÃO DE PRODUTOS FITOSSANITÁRIOS - c) Água
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03014&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2778%5D%7B248%7Dcapa_1.jpg
+
+-- Pureza: --
+A pureza da água é fundamental na tecnologia de aplicação, pois os detritos encontrados na água captada tendem a entupir os bicos dos pulverizadores. Argila e compostos orgânicos em suspensão podem absorver o ingrediente ativo de produtos fitossanitários.
+
+-- Temperatura: --
+A temperatura da água pode contribuir para a estabilidade da calda, fazendo que alguns produtos cristalizem em baixa temperatura, o que deve ser lembrado quando se utiliza ureia como adjuvante. A temperatura ideal para a maioria dos defensivos oscila entre 15 e 25°C.
+
+-- Dureza: --
+A água captada em zonas rurais normalmente apresenta uma série de sais em dissolução, que podem ser oriundos de rocha, solo ou fertilizantes utilizados em lavoura. Os principais causadores de dureza são o cálcio e o magnésio originados de carbonatos, bicarbonatos, cloretos e sulfatos. Na classificação da água, a dureza é expressa em ppm de CaCO3 (Tabela 18). As águas duras interferem na qualidade da calda de agrotóxico das seguintes maneiras:
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2778%5D%7B105%7Dtabela_18.jpg
+Legenda: Tabela 18. Classe de dureza em função da concentração (ppm) de CaCO3. Fonte: Kissmann (1998).
+
+-- Nas formulações: --
+As especificações das formulações já consideram certo grau de dureza. Muitas formulações apresentam tenso-ativos aniônicos contendo sódio ou potássio. Na presença de cálcio ou magnésio pode haver substituições com compostos insolúveis. Dessa forma, os tenso-ativos perdem a função e os diversos componentes da formulação podem flocular e precipitar. Assim, os aglomerados formados podem entupir os bicos, o que é comum ocorrer com uso do Chlorotalonil na forma de pó molhável.
+
+-- Nos ingredientes ativos: --
+Em alguns ingredientes ativos à base de ácidos, podem ocorrer reações dos sais na presença de cátions em águas duras, com substituições que formam compostos insolúveis e sem eficiência.
+
+-- Volume de calda: --
+Em calda com grande volume de água a dureza se agrava, pois pode haver uma maior quantidade de cátions que acompanham essa água e causam interferência na eficiência do produto.
+
+-- Padrões de formulações: --
+Segundo a ABNT, as formulações devem ser compatíveis com 20ppm de carbonato de cálcio (água extremamente branda). Algumas empresas formulam produtos para ser compatíveis de 20 a 320ppm e em alguns casos mais de 500ppm de CaCO3. A correção da dureza pode ser feita com o uso tensoativo não iônico ou quelatizantes como ácido cítrico, ácido fenólico e EDTA, que podem ser adquiridos comercialmente.
+
+-- pH da água e da calda: --
+O pH tende a influir na estabilidade e nos resultados dos tratamentos pelos seguintes motivos: 1) estabilidade do ingrediente ativo, pois muitos compostos químicos quando preparados em água sofrem degradação por hidrólise, cuja velocidade é dependente do pH. Na Tabela 19 é caracterizada a meia-vida de ingredientes ativos devido ao pH; 2) estabilidade física da calda, pois, de um modo geral, os produtos fitossanitários apresentam maior eficiência quando as caldas são poucos ácidas, com pH entre 6,0 e 6,5. A verificação do pH pelo produtor pode ser feita com uso de papel indicador de pH ou tornassol e a correção para diminuir o pH pode ser feita com ácido muriático e para elevar o pH com uso de água sanitária (hipoclorito de sódio), ambos adquiridos comercialmente.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2778%5D%7B402%7Dtabela_19.jpg
+Legenda: Meia-vida de ingredientes ativos em diferentes pH. Fonte: Kissmann (1998).
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

@@ -1,0 +1,9 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 1. Diagnóstico a partir da lavouraInicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca. - Está ocorrendo perda de estande (número de plantas/m²) na lavoura - A falha no estande é pela perda de plantas já germinadas - As plantas estão sendo comidas por inteiro ou secando - As plantas têm folhas comidas - A lavoura está com lâmina d’água
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021470&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17095%5D%7B275%7Dlav07_lavagua.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21470%5D%7B456%7Ddano_cmujgrande.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21470%5D%7B153%7Ddano_lesma.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21470%5D%7B445%7Ddano_bicheira.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21470%5D%7B457%7Ddano_lagboi.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21470%5D%7B542%7Ddano_enrola.jpg

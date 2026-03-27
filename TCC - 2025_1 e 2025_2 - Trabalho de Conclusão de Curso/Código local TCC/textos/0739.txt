@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - BS DCR0028 F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0739&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B617%5D%7B492%7Dbs_dcr0028.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Blueseeds; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: Ty1 - Tomato yellow leaf curl virus 1 (ToLCV)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Hábito de Crescimento : Determinado ; Grupo : Cereja ; Peso Médio : 20 a 24g ; Ciclo : precoce ; Nº de Lócus : 2 ; Tolerância : V¹, F¹, F², N, T, Ty ; Densidade do plantio : 1,20×1,60m – 0,40×0,30m ; Nº de hastes : 4
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://blueseeds.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://blueseeds.com.br.

@@ -1,0 +1,23 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Programa AdubaCebola 1.0
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016864&isEdicao=N&epagriTEC=S
+
+
+-- AdubaCebola: --
+Para acessar o programa, clique no link https://docweb.epagri.sc.gov.br/pub/AdubaCebola.zip ou use o QR Code abaixo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B14953%5D%7B320%7Dframe-adubacebola.png
+Legenda: QRcode para baixar o AdubaCebola. null
+
+-- O QUE É O ADUBACEBOLA 1.0: --
+O programa AdubaCebola 1.0 é uma ferramenta complementar desenvolvida para facilitar o trabalho dos técnicos da Assistência Técnica e da Extensão Rural (Ater). Além de facilitar o acesso a informações e recomendações da pesquisa, ele visa contribuir para a difusão das tecnologias, melhorar a eficiência e agilizar a prestação dos serviços de Ater.
+
+-- O QUE É POSSÍVEL CALCULAR: --
+O software permite calcular a recomendação de calcário por três diferentes critérios: Índice SMP; Saturação de bases; Al trocável e matéria orgânica (solos com baixo poder tampão). A par dos dados da análise do solo, o usuário poderá selecionar o método e calcular a necessidade de calcário, bem como corrigir os valores de acordo com o poder relativo de neutralização total (PRNT) do calcário comercializado.
+
+-- FUNCIONALIDADES: --
+Para a definição da adubação o AdubaCebola apresenta os dados de doses de nutrientes, bem como os respectivos parcelamentos, permitindo ao usuário selecionar os adubos a serem usados para cada parcela. O software dispõe de rotinas que permitem facilmente calcular as quantidades de cada adubo a ser usado. Apresenta a relação dos adubos a serem usados para cada parcela, bem como o total para o cultivo, com seus custos.
+
+-- DATA DE PLANTIO, CALENDÁRIO DE ADUBAÇÃO E RELATÓRIOS: --
+Com o software também é possível definir a data de plantio e obter o calendário de adubação, além de emitir relatórios ou exportar as informações para a planilha. Conta ainda com dados de adubos minerais e orgânicos, contendo sua composição e seu custo, e fotos mostrando sintomas de deficiência de nutrientes que podem ser usados pelo usuário para auxiliar no diagnóstico do problema.
+
+-- Informações Complementares --
+Informações obtidas no site da Epagri: https://www.epagri.sc.gov.br/index.php/2021/11/09/epagri-lanca-tecnologias-para-cebola-nesta-quarta-feira-10-em-ituporanga/

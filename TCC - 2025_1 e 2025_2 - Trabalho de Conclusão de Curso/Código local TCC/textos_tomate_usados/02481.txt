@@ -1,0 +1,13 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - A) INTRODUÇÃO GERAL SOBRE O SISPIT - c) Produção de Tomate no Brasil
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02481&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2245%5D%7B57%7Dcapa_1.jpg
+
+-- Produção de Tomate no Brasil: --
+O Brasil, em 2006, já ocupava a nona posição de produtor mundial e manteve essa posição em 2012, com uma produção de 3.873,9 mil toneladas, para uma área plantada de 63,9 mil hectares. A produtividade, que era de 59,71t/ha naquele ano, ficou em 2012 na marca de 60,7t/ha. Em relação à América do Sul, o País detém a primeira colocação em produção, porém a melhor produtividade pertence ao Chile, com rendimento em torno de 73,2t/ha. Na safra 2013/14, a Região Sudeste foi a maior produtora com 37,8% da produção brasileira, porém o estado de Goiás, impulsionado pelo tomate tipo indústria, teve no período da safra 2006/07 até a safra 2013/14 um incremento de 59,2% na área plantada, ultrapassando a produção paulista. Atualmente ocupa a primeira posição com 1,27 milhão de toneladas (Tabela 1), seguido por São Paulo, Minas Gerais e Bahia. Também nesse período, o Ceará teve incremento de área em 185% e Minas Gerais de 30,4%. As maiores retrações de área foram verificadas em Pernambuco com 135,3% e Paraná com 62,1%. Além de maior produtor, o estado de Goiás detém a maior produtividade brasileira com 81,3t/ha, seguido por Rio de Janeiro, com 77,0t/ha, e Minas Gerais com 70,4t/ha. A produtividade em Santa Catarina destacou-se pela variação positiva de 19,4%, ultrapassando a produtividade paulista.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2245%5D%7B173%7Dtabela_1.jpg
+Legenda: Área plantada, produção e produtividade média de tomate nos dez principais estados brasileiros nas safras 2006/07 e 2013/14. null
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

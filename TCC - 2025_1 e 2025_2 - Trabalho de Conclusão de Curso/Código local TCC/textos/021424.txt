@@ -1,0 +1,43 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares convencionais recomendadas - SCSBRS126 Dueto
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021424&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18045%5D%7B507%7Dscs126_caput.jpg
+
+-- CARACTERÍSTICAS GERAIS: --
+Cultivar de arroz irrigado resiliente a extremos de temperatura na fase reprodutiva, indicada para as regiões produtoras de Santa Catarina e Rio Grande do Sul. Resultado da parceria Epagri – Embrapa, com apoio da Udesc/CAV, a variedade de arroz irrigado SCSBRS126 Dueto (linhagem SC 806) é oriunda do cruzamento das cultivares Irga 424 e BRS Pampa. É indicada principalmente para regiões com altitude superior a 400m, sujeitas a quedas de temperatura (frentes frias) na fase reprodutiva. Também pode ser cultivada nas demais regiões de SC, desde que se sigam as orientações técnicas específicas desta variedade, como densidade adequada, adubação nitrogenada adequada, entre outras, a fim de atenuar a suscetibilidade de acamamento deste cultivar quando em cultivo em baixas altitudes. Para mais informações consulte: Cartilha do SCSBRS126 Dueto .
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade média: 10,3t/ha • Produtividade potencial: 13,7t/ha • Altura da planta: 75,9cm • Ciclo: Tardio (142 dias) • Acamamento (acima de 400m de altitude: Médio suscetível • Acamamento (abaixo de 400m de altitude: Suscetível • Reação à toxidez por ferro: Moderadamente suscetível • Reação à brusone: Moderadamente resistente • Reação a temperaturas baixas (15°C) e altas (38°C): Tolerante Médio-suscetível à escaldadura da folha, à mancha-parda, à mancha de grãos e ao falso carvão; suscetível à podridão da bainha.
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 2 • Classe: Longo fino • Renda do beneficiamento: 70,3% • Rendimento de grãos inteiros: 68,8% • Teor de amilose: 24,2% (intermediário) • Temperatura de gelatinização: Baixa (6,98) Veja curva de encharcamento abaixo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18045%5D%7B231%7Dcurva_de_hidratacao_scsbrs126_dueto_-_ufpel_labgraos.jpg
+Legenda: Curva de encharcamento
+
+-- RECOMENDAÇÕES ADICIONAIS: --
+Para as regiões do Litoral Sul, Litoral Norte, e Baixo Vale do Itajaí (ou seja, com altitudes aproximadas entre 0 a 150 m), recomenda-se densidades de semeadura de 100 kg/ha, e adubação nitrogenada cujo total não deve ultrapassar 100 kg de N/ha. Densidades e adubações nitrogenadas acima destes níveis, nestas regiões, implicam em aumento considerável do risco de acamamento. Para as regiões de altitude (de 300 a 400 m, e acima de 400 m) a Epagri ainda não definiu, através de pesquisas, a densidade de semeadura e a adubação nitrogenada ideais. Alguns estudos preliminares indicam que as densidades nas regiões de altitude precisam ser maiores, mas não há dados conclusivos para uma recomendação, que poderá ser informada nos próximos anos. Recomenda-se evitar regiões litorâneas especialmente sujeitas a ventos fortes. Aconselha-se a drenagem intermediária no perfilhamento, a supressão da água entre 10 a 15 dias após o florescimento e a drenagem no mais tardar até 15 dias após o florescimento.
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: 33,6cm • Largura: ...cm • Pubescência: Média • Ângulo das folhas: ... • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Incolor a verde • Cor da aurícula: Verde-clara • Cor do colo: ...
+
+-- COLMO: --
+• Comprimento: 75,9cm • Espessura: 4,1mm • Perfilhamento: Bom • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde-clara
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: 25,7cm • Exserção: Completa • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETAS: --
+• Arista: Rara • Cor estigma: Verde-clara • Cor do apículo na floração: Verde • Cor do apículo na maturação: Amarela • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,09mm • Espessura: 1,73mm • Largura: 1,99mm • Relação C/L: 3,50 • Forma do grão: Alongada • Peso de mil grãos: 27,3g • Pilosidade: Escassa
+
+-- INFORMAÇÕES MOLECULARES: --
+O dendograma de similaridade genética, incluindo a SCSBRS126 Dueto, seus parentais (Irga 424 e BRS Pampa) e as variedades mais importantes da Epagri ainda em cultivo é apresentado na figura abaixo. Na tabela a seguir são listados os 26 marcadores moleculares SSR (Gramene) da SCSBRS126 Dueto, com localização cromossômica e tamanho do fragmento (alelo).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18045%5D%7B524%7Ddendograma_de_similaridade_genetica_scsbrs126_dueto.jpg
+Legenda: Dendograma de similaridade genética
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18045%5D%7B534%7Dmarcadores_moleculares_genotipagem_fingerprint_scsbrs126_dueto.jpg
+Legenda: Tabela de marcadores moleculares da SCSBRS126 Dueto
+
+-- Informações Complementares --
+EBERHARDT, D.S. Altas temperaturas afetam produtividade e qualidade do arroz irrigado do Estado. Agropecuária Catarinense, Florianópolis, SC, v.23, n.2, p.12, jul. 2010. FACCHINELLO P.H.K.; MARSCHALEK, R.; TERRES, L.R.; ANDRADE, A.; WICKERT, E.; KONKOL, A.C.B; NUNES, L.D.P; SANGOI, L. Avaliação de linhagens de arroz irrigado Epagri submetidas à estresse de frio na microsporogênese. In: XII CBAI Resumos... Santa Maria: SOSBAI, 2022 FACCHINELLO, P.H.K ; MARSCHALEK, R. ; ANDRADE, A.; WICKERT, E. , TERRES, L.R., KONKOL, A.C.B. , NUNES, L.D.P. , SOUZA, N.M., SANGOI, L. Validação da linhagem SC 806 para tolerância a altas temperaturas na antese. In: XIICBAI, Resumos... Santa Maria: SOSBAI, 2022 MARSCHALEK, R.; ROZZETTO, D. S.; ANDRADE, A. ; WICKERT, E. Avaliação de Genótipos de Arroz Irrigado em região de elevada altitude, sujeita a baixas temperaturas 2013/14 - 2014/15. In: IX CBAI, 2015.. Anais. SOSBAI, 2015. v.1, p.116-119. MARSCHALEK, R.; HICKEL, E. R. ; STÜRMER, F. W. . Avaliação da produtividade de cultivares e linhagens de arroz irrigado em região de altitude, sujeita à baixas temperaturas, 2015/16 - 2016/17. In: X CBAI, 2017. Anais. SOSBAI, 2017. p.1-4. MARSCHALEK, R., ERDMANN, L.F., ROZZETTO, D.S. Esterilidade e peso de grãos em genótipos de arroz irrigado sob condições controladas de baixa temperatura na microsporogênese e antese. Resumos XI CBAI... Balneário Camboriú: SOSBAI, 2019. 4p. MARSCHALEK, R.; SOUZA, N.M. ; WICKERT, E. ; ANDRADE, A. ; TERRES, L.R. ; MASSIGNAM, A. M. ; RICCE, W. ; SANGOI, L. Produtividade de cultivares e linhagens de arroz irrigado em região de altitude, sujeita a baixas temperaturas, safra 2017/18 e 2018/19. In: XI CBAI, 2019; Anais: SOSBAI, 2019. v.1. p.1-4. MARSCHALEK, R ; EICHSTADT, E. ; VERDI, R ; TERRES, L.T. , FACCHINELLO, P.H.K.; MASSIGNAM, A.M. , RODRIGUES, M.L.G, VIEIRA, H.J., SANGOI, L. Comportamento de linhagem de arroz irrigado tolerante à frio (SC806) sob ocorrência de baixas temperaturas de campo, na fase reprodutiva, na safra 2020/21. Anais do XII CBAI. 2022. MARSCHALEK, R.; OLIVEIRA, D.G.; SOUZA, N.M.; FACCHINELLO, P.H.K.; TERRES, L.R.; SANGOI, L. Avaliação de tolerância a baixas temperaturas em genótipos de arroz irrigado (Oryza sativa L.) na fase reprodutiva em experimento a campo, durante evento climático espontâneo na safra 2019/2020. Ciências Agroveterinárias, v.22 n1, p-103-108, 2023 SOUZA, N. M. Estresse por altas temperaturas na antese em arroz irrigado. 2020. 118p. (Doutorado em Produção Vegetal) - UDESC/CAV, Lages, 2020. SOUZA, N. M.; SANGOI, L.; MARSCHALEK, R. Tolerance of lowlandrice (Oryza sativa) genotypestoheat stress atanthesis. Agropecuária Catarinense, v.35, n.2, p50-54, 2022. STÜRMER, F. W.;MARSCHALEK, R. ; SANGOI, L. ; SOUZA, N.M. . Esterilidade de espiguetas e produção de grãos de genótipos de arroz irrigado submetidos a baixas temperaturas na microsporogênese. Agropecuária Catarinense, v.32, p 57-61, 2019. STÜRMER, F. W. Tolerância à baixas temperaturas durante o estabelecimento e microsporogênese em genótipos de arroz irrigado. 2018. 107p. Dissertação (Mestrado em Produção Vegetal) - UDESC/CAV, Lages, 2018. STÜRMER, F.W., MARSCHALEK, R.; SANGOI, L., SOUZA, N.M., SANTOS, S.B. Esterilidade e produção de grãos de genótipos de arroz irrigado submetidos à baixa temperatura na fase de microsporogênese. X CBAI. Resumos... Gramado: SOSBAI, 2017 4p

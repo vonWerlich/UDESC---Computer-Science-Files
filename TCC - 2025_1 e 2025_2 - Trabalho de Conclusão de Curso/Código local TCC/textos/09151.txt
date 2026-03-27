@@ -1,0 +1,15 @@
+Título: MANGARITO - Fitossanidade (Erwinia)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09151&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8914%5D%7B15%7Derwinia_angarito.jpeg
+
+-- PODRIDÕES DE SOLO: --
+O mangarito branco e o roxo são atacados por podridões de solo, principalmente as causadas por erwinia (Figura 12), que ocorrem em solos corrigidos. Alguns agricultores fazem o consórcio do mangarito com taiá (Xanthosoma sagitifolium Schott) ou com cará (Dioscorea trifida L.). A criação de um ambiente mais diversificado promove uma melhora fitossanitária.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8914%5D%7B72%7Derwinia_angarito.jpeg
+Legenda: Figura 12. Mangarito roxo atacado por erwinia. Foto: Antônio Henrique dos Santos
+
+-- PROPAGAÇÃO DA DOENÇA: --
+Esta doença é propagada através da água da chuva, que dissemina a erwinia em locais acidentados onde geralmente é cultivado o mangarito roxo. Para evitar essa disseminação, os produtores fazem canais transversais, para barrarem o fluxo da água que espalha a doença.
+
+-- Informações Complementares --
+Antônio H. dos Santos e Rafael G. F. Morales. Cultivo do mangarito em Santa Catarina. Cartilha. Edição: Epagri/DEMC Florianópolis, agosto/2022.

@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - G) MANEJO DAS PRINCIPAIS DOENÇAS FÚNGICAS - a) Introdução
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02934&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2696%5D%7B71%7Dcapa_1.jpg
+
+-- Introdução: --
+Na região do Alto Vale do Rio do Peixe (AVRP), as condições de temperatura e precipitações constantes nos meses de dezembro a fevereiro são propícias às principais doenças do tomateiro, como a requeima (Phytophthora infestans), a pinta-preta (Alternaria spp.), a septoriose (Septoria lycopersici) e a mancha-bacteriana (Xanthomonas spp.), levando os agricultores a utilizar um número elevado de pulverizações. Além do acréscimo no custo de produção, essa prática traz sérios riscos de resíduos no produto colhido, alto impacto ao meio ambiente e problemas de intoxicação de quem faz a aplicação. Diante dessa situação, se depreende a necessidade de se adotar a tecnologia do sistema de produção integrada do tomateiro tutorado (Sispit) através de cultivares resistentes, escolha da área, rotação de culturas, sistema de condução; adubação equilibrada baseada na análise química do solo, época de plantio e controle químico. No Sispit, o manejo de doenças é a forma mais adequada de evitar danos e perdas ocasionados por fitopatógenos com o uso mínimo de agrotóxicos e menor impacto ambiental possível. A condição do ambiente influencia diretamente a manifestação dos fungos como agentes de doenças da parte aérea e das raízes das plantas, determinando o grau de intensidade da doença. Entre as várias doenças do tomateiro, apenas aquelas de expressão econômica para a região do AVRP são detalhadas a seguir.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

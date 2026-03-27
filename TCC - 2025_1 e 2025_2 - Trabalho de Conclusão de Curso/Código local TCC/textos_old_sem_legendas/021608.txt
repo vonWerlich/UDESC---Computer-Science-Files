@@ -1,0 +1,26 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Mancha estreita (Cercospora oryzae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021608&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+12. Manejo de doenças
+Mancha estreita ( Cercospora oryzae )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11381%5D%7B499%7Dmestreita_caput.jpg
+FOTO: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B15%7Dmestreita_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B509%7Dmestreita_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B23%7Dmestreita_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B301%7Dmestreita_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B308%7Dmestreita_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11381%5D%7B268%7Dmestreita_fig06.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: fungo Cercospora oryzae . Doença também conhecida como cercosporiose, é de ocorrência comum, especialmente no final do ciclo.
+
+-- SINTOMAS: --
+A doença surge principalmente nas folhas, onde provoca lesões finas e alongadas, de coloração marrom avermelhada, no sentido das nervuras. Lesões semelhantes podem ser observadas também nas bainhas e glumas. Em casos de alta incidência, a doença pode antecipar a senescência da planta.
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+• Klaus Konrad Scheuermann (Dr. em Fitopatologia - Epagri) Manejo de doenças

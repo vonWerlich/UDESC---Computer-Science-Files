@@ -1,0 +1,7 @@
+save images from links 2.0
+
+modify csv to incorporate descriptions
+
+make CSV with galerias
+
+modify CSV to add galerias

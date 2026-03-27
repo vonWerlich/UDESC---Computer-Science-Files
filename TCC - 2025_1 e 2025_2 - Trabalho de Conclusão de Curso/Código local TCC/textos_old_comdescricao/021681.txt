@@ -1,0 +1,18 @@
+Título: BANANA - Cultivares - BRS Tropical
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021681&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+BRS Tropical
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18367%5D%7B396%7Dcap_3_-_fig_5_-_letra_j_-_buque_maduro_brs_tropical_-_autoria_eliseu_emanoel_dos_santos.jpg
+O mapa de zoneamento agroecológico para a cultura da bananeira em Santa Catarina, elaborado e organizado pela Epagri (Empresa de Pesquisa Agropecuária e Extensão Rural de Santa Catarina) em 1998, representa a aptidão territorial do estado dividindo-o em três categorias principais com base em critérios agroclimáticos e edáficos: a área de "Cultivo Preferencial" (verde), restrita à zona 1A no extremo nordeste litorâneo, indicando condições ótimas para a cultura; a de "Cultivo Tolerado" (amarelo), que abrange de forma mais ampla e heterogênea as zonas 1B, 2B, 2A e 2C, englobando faixas do litoral sul, centro-leste e uma porção no extremo oeste, onde a produção é viável mas pode exigir manejo específico ou apresentar limitações; e a de "Cultivo Não Recomendado" (vermelho), que corresponde à maior parte do território catarinense (zonas 3A, 3B, 3C, 4A, 4B e 5), compreendendo o interior do estado, onde as condições ambientais impõem restrições severas que inviabilizam economicamente a produção comercial.
+FOTO: Eliseu E. dos Santos
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAAB, híbrido tetraploide com 75% Maça. Bananeira de porte alto, frutos de tamanho médio, altamente resistente ao mal do panamá (raça 1) e resistente às sigatokas amarela e negra. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

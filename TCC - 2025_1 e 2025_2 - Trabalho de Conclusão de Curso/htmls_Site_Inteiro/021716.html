@@ -1,0 +1,335 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7983&amp;isEdicao=N&amp;epagriTEC=S">BANANA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7984&amp;isEdicao=N&amp;epagriTEC=S">     Fitossanidade</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21661&amp;isEdicao=N&amp;epagriTEC=S">Principais doenças da bananeira</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21713&amp;isEdicao=N&amp;epagriTEC=S">NEMATOIDES </a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21716&amp;isEdicao=N&amp;epagriTEC=S">CONTROLE DOS NEMATOIDES</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18405">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021716">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18405]{55}tombamento.png"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Ricardo J. Z. de Negreiros   </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; BANANEIRA COM RAIZ ATACADA POR NEMATOIDES 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>MEDIDAS DE EXCLUSÃO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Consistem na aplicação de práticas preventivas que visam 
+impedir a entrada dos nematoides na área de cultivo; neste sentido, recomenda-se o uso 
+de mudas sadias no momento da implantação do pomar. Mudas provenientes de empresas 
+produtoras registradas no Mapa têm sido a principal forma de evitar a introdução de 
+nematoides.<br><br> Práticas como limpeza de máquinas, implementos e equipamentos antes de 
+se iniciar o trabalho em uma área também estão entre as medidas preventivas que devem 
+ser utilizadas.<br><br>
+Outra medida de exclusão baseia-se na limpeza do material de propagação 
+tradicional (rizomas, mudas de perfilho), por meio do corte com facão das áreas 
+escurecidas do rizoma e das raízes, que podem abrigar nematoides em seu interior. Neste 
+caso, a limpeza não deve ser realizada dentro da área de plantio e o facão de corte deve 
+ser limpo entre um procedimento e outro. Este método apresenta desvantagem de não 
+atingir os nematoides que estão localizados mais profundamente no rizoma, como é o caso 
+de <i>R.  similis</i>(<sup>1</sup>)(<sup>2</sup>).<br><br> Deve-se ter cuidado especial com a 
+qualidade da água de irrigação, para não ser utilizada água contaminada com nematoides. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CULTIVARRES RESISTENTES</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Cultivares resistentes, por sua vez, são aquelas que impedem a reprodução dos 
+nematoides e, por consequência, seu crescimento populacional. Abaixo alguns exemplos 
+de cultivares com algum grau de resistência para <i>R. similis</i>, <i>M. incognita</i> e <i>P. coffeae</i>.<br><br>
+Os cultivares Prata e Prata-Anã (AAB) e Pioneira (AAAB) são consideradas 
+moderadamente resistentes a <i>R. similis</i> e <i>M. incognita</i>(<sup>1</sup>)(<sup>3</sup>). Tem sido observada reação de resistência para <i>P. coffeae</i> nos genótipos de 
+‘SH-3460’, ‘Fhia-18’, ‘Caipira’ e ‘Calcutta 4’(<sup>4</sup>)(<sup>1</sup>)(<sup>5</sup>). Na Austrália, graus de resistência a <i>H. multicinctus</i> foram encontrados nos genótipos de ‘Tjau Lagada’ e ‘Yangambi Km5’(<sup>6</sup>).  <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ROTAÇÃO DE CULTURA</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A rotação de culturas com plantas não hospedeiras de nematoides é uma prática 
+que pode ser utilizada quando da renovação do bananal e apresenta grande impacto na 
+redução populacional desses patógenos, por impedir sua reprodução. A escolha da espécie 
+vegetal a ser utilizada em rotação vai depender das espécies predominantes na área de 
+cultivo.<br><br> O ideal é que a planta escolhida impeça ou reduza a multiplicação de uma ou mais 
+espécies presentes na área. A rotação pode ser realizada com as chamadas plantas de 
+cobertura, que funcionam como adubos verdes, devido ao fato de promoverem a ciclagem 
+de nutrientes e, em alguns casos, a fixação biológica de nitrogênio. <br><br>Um exemplo de planta 
+de cobertura que pode ser utilizada em rotação é a Crotalaria spectabilis, que apresenta 
+resistência a grande parte das espécies de fitonematoides. A rotação de culturas também 
+pode ser realizada com plantas que tenham algum retorno econômico. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>POUSIO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A prática do pousio, que consiste em deixar crescer apenas plantas espontâneas na 
+área, também pode apresentar grande impacto na redução populacional de nematoides, 
+principalmente se a espécie predominante for <i>R. similis</i> ou <i>H. multicinctus</i>. <br><br>Esta prática 
+pode apresentar menor efetividade para <i>P. coffeae</i> e <i>Meloidogyne</i> spp. a depender das 
+espécies de plantas espontâneas que ocorrem na área.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28736,021716,18405,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18405]{411}planta_3.png">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.<br><br>
+
+(<sup>1</sup>)KUBO, R.K.; MACHADO, A.C.Z.; OLIVEIRA, C.M.G. Nematoides fitoparasitos da 
+bananeira. In: NOGUEIRA, E.M.C.; ALMEIDA, I.M.G.; FERRARI, J.T.; BERIAM, L.O.S. (Org.). 
+BANANICULTURA: Manejo Fitossanitário e Aspectos Econômicos e Sociais da Cultura. 
+1ed. São Paulo: Instituto Biológico, 2013, v. 1, p. 136-163.<br><br>
+
+(<sup>2</sup>)SARAH, J.L.; PINOCHET, J.; STANTON, J. The burrowing nematode of bananas, Radopholus
+similis Cobb, 1913. Musa Pest Fact Sheet, n.1, 1996. Disponível em: https://www.
+bioversityinternational.org/fileadmin/_migrated/uploads/tx_news/The_burburrow_
+nematode_of_bananas_Radopholus_similis_129.pdf Acesso em: 14 mai. 2021.<br><br>
+
+(<sup>3</sup>)VILAS BOAS, L.C.; TENENTE, R.C.V; GONZAGA, V.; NETO, S.P.S.; ROCHA, H.S. Reação de 
+clones de bananeira (Musa spp.) ao nematoide Meloidogyne incognita (Kofoid &amp; White, 
+1919) Chitwood, 1949, Raça 2. Revista Brasileira de Fruticultura, v.24, n.3, p. 690– 693, 
+2002.<br><br>
+
+(<sup>4</sup>)JESUS, A.M. Reação de cultivares de bananeira a Meloidogyne spp. e Pratylenchus
+coffeae. 2003. 57 f. Dissertação (Mestrado) – Universidade Estadual Paulista, Botucatu, 
+2003.<br><br>
+
+(<sup>5</sup>)VIAENE, N.; DUEÑAS, J.; De WAELE, D. Screening for resistance and tolerance to 
+Radopholus similis and Pratylenchus coffeae in banana and plantain. Nematologica, v.44, 
+p.599, 1998.<br><br>
+
+(<sup>6</sup>)MOENS, T.; ARAYA, M.; SWEENEN, R.; De WAELE, D. Screening of Musa cultivar for 
+resistance to Helicotylenchus multicinctus, Meloidogyne incognita, Pratylenchus coffeae
+and Radopholus similis. Australasian Plant Pathology, v.34, p.299-309, 2005.<br><br>
+
+
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• André Boldrin Beltrame (Dr. - Epagri)<br> &nbsp;&nbsp; Pesquisador - Epagri - Itajaí </font> 
+<br><br><br> <font size="2"> Criado em: 18/03/2024</font>
+<br> <font size="2"> Última atualização: 30/04/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021716&amp;cdElemento=18405">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18405');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

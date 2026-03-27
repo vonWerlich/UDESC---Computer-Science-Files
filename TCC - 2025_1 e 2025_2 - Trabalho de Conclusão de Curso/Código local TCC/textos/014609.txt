@@ -1,0 +1,34 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Nitrogênio (N) - 3. Diagnose do estado de N em tempo real (diagnose foliar indireta) - Índice de clorofila (IC)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014609&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12698%5D%7B513%7Dfigura_8_-_copia.jpg
+
+-- CONCEITO: --
+A intensidade do verde das folhas (Figura 8) também tem sido utilizada com sucesso em diversos estudos como critério indireto para avaliar o nível de nitrogênio na planta em tempo real, de maneira não destrutiva. Isso devido ao fato de diferentes doses de N proporcionarem diferentes concentrações de clorofila e de tons de verde na folha que determinam a intensidade da radiação absorvida e refletida pelo dossel (FONTES, 2011).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12698%5D%7B118%7Dfigura_8.jpg
+Legenda: Figura 8. Clorofilômetro portátil utilizado nas avaliações na Estação Experimental de Ituporanga, Modelo CFL 1030 ClorofiLOG da marca Falker. null
+
+-- EXPLICAÇÃO TÉCNICA: --
+Isso ocorre pelo fato de que 70% do N contido nas folhas está nos cloroplastos, participando da síntese e da estrutura das moléculas de clorofila (MARENCO & LOPES, 2005). Por essa razão, o teor de clorofila na fase vegetativa tem sido relacionado com o estado nutricional de N de diversas culturas (ARGENTA et al., 2001).
+
+-- MOTIVO QUE LEVOU ESSA TÉCNICA FICAR EM DESTAQUE: --
+Esse método destaca-se recentemente como alternativa para avaliar o estado de N da planta em tempo real pelo fato de haver correlação significativa entre a intensidade da cor verde com o teor de clorofila e com a concentração de N na folha (KURTZ, 2015).
+
+-- RELAÇÃO ENTRE ÍNDICE DE CLOROFILA E SUFICIÊNCIA DE N: --
+Índices de clorofila (IC) obtidos em folhas de diversas espécies apresentaram correlação positiva com a suficiência de N, permitindo que a concentração de clorofila seja considerada um índice apropriado para avaliar o estado de N das culturas (GIL et al., 2002; FONTES, 2011; PÔRTO et al., 2011; PÔRTO et al., 2014; KURTZ, 2015).
+
+-- ESTUDOS COM A CULTURA DA CEBOLA: --
+Na cultura da cebola, em sistema fertirrigado, estudos realizados por Menezes Júnior et al. (2015) definiram parâmetros para indicar suficiência de nitrogênio com o uso de clorofilômetro (Clorofilog-CFL1030 - Falker®), e determinar períodos de maior correlação entre os dados fornecidos pelo equipamento e a produtividade para diferentes populações de plantas.
+
+-- ESTUDOS EM SISTEMA DE SEMEADURA DIRETA: --
+Nos estudos realizados por Kurtz (2015) em Ituporanga, SC, para a cultura da cebola em sistema de semeadura direta, verificou-se nas duas safras (2012/13 e 2013/14) que os cultivares Bola Precoce e Crioula, em todas as quatro épocas avaliadas, obtiveram um aumento no IC com o incremento das doses de N apresentando alta correlação destas variáveis (Figura 9). Para recomendação de N no sistema de semeadura direta com base no índice de clorofila, sugere-se adicionar N em cobertura quando os valores das leituras do índice de clorofila forem inferiores a 72, usando as épocas diagnósticas conforme recomendação para o nitrato na seiva. Desse modo, seriam aplicados 20kg ha-1 na semeadura, 35kg ha-1 aos 45 DAS quando as plantas estiverem com 2 a 3 folhas (neste momento ainda não seria possível avaliar o IC pelo reduzido tamanho das folhas) e as outras coberturas nesta mesma quantidade seriam realizadas em até quatro vezes, conforme o diagnóstico de cada época (85, 105, 125, e 145 DAS), adicionando N sempre que os valores do IC estiverem inferiores a 72.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12698%5D%7B413%7Dfigura_9.jpg
+Legenda: Figura 9. Índice de clorofila (IC) em folhas de cebola dos cultivares Bola Precoce e Crioula em função da adição de doses crescentes de N em quatro épocas na safra 2013/14. Adaptado de Kurtz (2015).
+
+-- ESTUDO EM SISTEMA DE TRANSPLANTE FERTIRRIGADO: --
+Na cultura da cebola, estudos realizados por Menezes Júnior et al. (2015), no período de quatro anos, definiram parâmetros para indicar suficiência de nitrogênio com o uso de clorofilômetro (Clorofilog-CFL1030 - Falker®), e determinar períodos de maior correlação entre os dados fornecidos pelo equipamento e a produtividade para diferentes populações de plantas. O estudo revelou que a dose de 150kg ha-1 pode ser utilizada como um marco referencial de suficiência (MRS) às densidades populacionais de 300, 400, 500 e 600 mil plantas ha-1, para uma produtividade média de 47t ha-1, e que as leituras do índice de clorofila para a cultura da cebola, para serem correlacionadas à produtividade, devem ser realizadas de 60 aos 113 dias após o transplante (DAT). Nesse caso, os autores forneceram o nitrogênio e o potássio de forma semanal de acordo com a curva de absorção dos nutrientes (Figura 10). Para o uso desse método, recomenda-se que em cada área homogênea sejam realizadas medições dos índices de clorofila em zigue-zague na lavoura e em, no mínimo, 20 plantas de cebola na porção central da primeira folha totalmente expandida e de maior comprimento em dia ensolarado. Na Figura 10, leituras do índice de clorofila (IC) abaixo das curvas de resposta indicam, para o período considerado (dias após o transplante – DAT), insuficiência de nitrogênio e, por consequência, a necessidade de adubação nitrogenada. Para o uso deste método e a correta avaliação dos índices de clorofila, é importante considerar, além da população de plantas, as condições climáticas e o desenvolvimento vegetativo, pois quaisquer fatores que influenciem negativamente o desenvolvimento das plantas afetarão as leituras dos índices de clorofila e, por conseguinte, sua interpretação (CARVALHO et al, 2003; MENEZES JÚNIOR et al., 2014).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12698%5D%7B411%7Dfigura_10.jpg
+Legenda: Figura 10. Relação entre o índice de clorofila (IC) e ciclo de cultivo (dias após o transplante) para as densidades populacionais de (A) 300 mil plantas ha-1, (B) 400 mil plantas ha-1, (C) 500 mil plantas ha-1 e (D) 600 mil plantas ha-1 relativas à produtividade de 47t ha-1 (Marco Referencial de Suficiência = 150kg de N ha-1), para o estabelecimento de níveis de suficiência de nitrogênio. Fonte: Menezes Júnior et al. (2015).
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

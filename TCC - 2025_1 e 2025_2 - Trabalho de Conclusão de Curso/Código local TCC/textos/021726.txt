@@ -1,0 +1,6 @@
+Título: BANANA - Recomendação de fertilizantes
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021726&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18415%5D%7B72%7D20220330_084524.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18416%5D%7B419%7Ddsc_0901.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18417%5D%7B126%7Dbananal_valfrido.jpg

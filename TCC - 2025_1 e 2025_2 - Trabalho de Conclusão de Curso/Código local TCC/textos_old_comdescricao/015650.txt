@@ -1,0 +1,16 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Herbicidas indicados para o arroz irrigado - Goal BR
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015650&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+10. Plantas daninhas
+Herbicidas indicados para o arroz irrigado
+Goal BR
+
+-- INFORMAÇÕES GERAIS: --
+- Ingrediente ativo: Oxifluorfem; - Formulação e Concentração (g/L ou kg): CE 240; - Dose (quantidade/ha): 1 L; - Época de aplicação: Pré; - Classificação tóxicológica: 4 (produto pouco tóxico, faixa azul); - Classificação ambiental: II (muito perigoso ao ambiente); - Intervalo de segurança (dia): 70;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+- Adicionar adjuvante específico na dose recomendada (vide bula). - A aplicação de todo e qualquer tratamento herbicida deve seguir as recomendações do receituário agronômico, utilizando-se equipamentos de proteção individual (EPI) e acompanhado de um responsável técnico.
+
+-- Informações Complementares --

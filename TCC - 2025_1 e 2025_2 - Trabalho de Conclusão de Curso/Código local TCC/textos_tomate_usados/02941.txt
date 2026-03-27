@@ -1,0 +1,13 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - G) MANEJO DAS PRINCIPAIS DOENÇAS FÚNGICAS - h) Mofo-branco ou podridão-de-esclerotínia
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02941&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2703%5D%7B130%7Dfigura_19.jpg
+
+-- Mofo-branco ou podridão-de-esclerotínia (Sclerotinia sclerotiorum): --
+Como sintomas da doença, verifica-se que a planta murcha, devido à invasão do fungo na altura do colo da planta ou mesmo nas partes mais altas do caule. Nessa região forma-se um cancro que anela o caule, deixando-o quebradiço. Na medula ressequida encontram-se estruturas escuras, semelhantes às fezes de rato; são os escleródios do fungo. Plantas mortas servem de reservatório desses escleródios e constituem fonte para a infecção de outras plantas (Figura 19). A doença vem crescendo em importância devido à ampla gama de hospedeiros (360 espécies de plantas, entre as quais se destacam a soja, o feijão, o girassol, o pimentão, a batata, o repolho, a ervilha, a alface e o alho) e à falta de um plano de rotação de cultivos para a cultura do tomate.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2703%5D%7B270%7Dfigura_19.jpg
+Legenda: A) Sintoma do mofo-branco (Sclerotinia sclerotiorum) apresentando micélio branco e escleródios pretos no caule da planta. B) Escleródios. Foto: Walter Ferreira Becker
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

@@ -1,0 +1,23 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas - As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando - Várias folhas estão amareladas ou retorcidas, ou com manchas, enegrecidas ou secando
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017027&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17009%5D%7B427%7Dpl19_folhaamarela.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano está restrito às folhas
+As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando
+Várias folhas estão amareladas ou retorcidas, ou com manchas, enegrecidas ou secando
+As plantas estão ameraladas, com folhas secando por inteiro, ou retorcidas ou com estrias ou enegrecidas por fuligem. O limbo foliar pode estar rompido seguindo as nervuras
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17027%5D%7B282%7Dpl22_plantassecas.jpg
+Legenda: As plantas estão ameraladas, com folhas secando por inteiro, ou retorcidas ou com estrias ou enegrecidas por fuligem. O limbo foliar pode estar rompido seguindo as nervuras
+17036
+As plantas estão ameraladas, com folhas secando por inteiro, ou retorcidas ou com estrias ou enegrecidas por fuligem. O limbo foliar pode estar rompido seguindo as nervuras
+As folhas apresentam manchas diversas, pequenas ou grandes, eventualmente negras, que não rompem o limbo foliar (doenças fúngicas do arroz)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17027%5D%7B61%7Dpl23_manchas.jpg
+Legenda: As folhas apresentam manchas diversas, pequenas ou grandes, eventualmente negras, que não rompem o limbo foliar (doenças fúngicas do arroz)
+17035
+As folhas apresentam manchas diversas, pequenas ou grandes, eventualmente negras, que não rompem o limbo foliar (doenças fúngicas do arroz)

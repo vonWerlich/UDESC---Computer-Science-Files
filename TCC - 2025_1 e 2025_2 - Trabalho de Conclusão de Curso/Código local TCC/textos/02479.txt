@@ -1,0 +1,17 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - A) INTRODUÇÃO GERAL SOBRE O SISPIT - a) Sistema de Produção Integrada no Brasil
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02479&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2243%5D%7B459%7Dcapa_1.jpg
+
+-- A origem: --
+Os produtores europeus precisaram desenvolver na década de 1990, um sistema de produção que fosse adequado às exigências de produtividade com sustentabilidade, além de atender a crescente demanda por parte dos consumidores de um alimento seguro. A iniciativa pode ser resumida na definição de Titi et al. (1995): “A produção integrada (PI) é um sistema de exploração agrária que produz alimentos e outros produtos de alta qualidade, mediante o uso de recursos naturais e de mecanismos reguladores para minimizar o uso de insumos e contaminantes e, para assegurar uma produção agrária sustentável”. O Brasil, pressionado interna e externamente por tais exigências, precisou se adaptar e desenvolver tecnologias adequadas ao novo sistema de produção. A introdução da Produção Integrada de Frutas (PIF) deu-se a partir de 1998 com a maçã. Nos anos seguintes, a estratégia de produção se estendeu, não somente para outras frutíferas, mas também para cultivos de grãos, hortaliças, flores e pecuária, de modo que atualmente são vários os produtos agropecuários desenvolvidos em produção integrada. Essa atividade é regida por normas que asseguram uma criteriosa utilização de recursos naturais minimizando o uso de agrotóxicos e insumos na atividade produtiva. Tais normas são construídas em parceria com instituições de pesquisa e extensão, universidades, associação de produtores rurais e seus sindicatos.
+
+-- A adesão ao sistema: --
+As tecnologias inseridas no sistema de produção integrada permitem que produtores possam adotá-las independentemente do porte da propriedade rural, seja ela pequena, média ou grande. A adesão ao sistema, por sua vez, é voluntária, basta que o produtor assuma o compromisso de atender as normas técnicas específicas (NTE) auditadas nas propriedades rurais por agências certificadoras acreditadas pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro), conferindo as anotações contidas no caderno de campo (Brasil, 2009). É neste caderno de anotações das atividades de campo pertinentes à cultura que se encontra todo o histórico, desde o plantio à colheita, que permite o rastreamento do produto.
+
+-- Como identificar produtos oriundos de uma PI: --
+Os produtos oriundos de uma PI, sejam de origem vegetal ou animal, podem ser identificados, através do selo de certificação ou de conformidade, que asseguram ao consumidor a qualidade, não somente agronômica, mas principalmente a nutracêutica do produto adquirido.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

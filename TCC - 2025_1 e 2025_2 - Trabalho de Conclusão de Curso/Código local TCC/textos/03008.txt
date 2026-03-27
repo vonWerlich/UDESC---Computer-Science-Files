@@ -1,0 +1,26 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - K) PRINCIPAIS PRAGAS E SEU CONTROLE - n) Ácaro-rajado (Tetranychus urticae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03008&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2774%5D%7B131%7Dcapa_1.jpg
+
+-- Reconhecimento dos danos: --
+As folhas atacadas ficam de coloração ferruginosa (bronzeadas), tornam-se rígidas e secam, desencadeando o dano indireto nos frutos, que sofrem queimaduras por ficarem expostos ao sol. Tais danos são sempre associados à formação de teias.
+
+-- Monitoramento: --
+Inspeção de ponteiros e folhas.
+
+-- Método de amostragem: --
+Inspeção dos ponteiros e da face inferior das folhas do terço médio, para detecção dos sintomas e presença de ácaros.
+
+-- Nível de ação: --
+Presença ou sintoma de ácaros em 10% dos ponteiros amostrados.
+
+-- Principais inimigos naturais: --
+Ácaros predadores (Neoseiulus californicus), joaninhas e fungos.
+
+-- Métodos de controle: --
+• Evitar o plantio próximo às plantas hospedeiras de ácaros, tais como mamona, algodão, feijão, soja, mandioca, batata, berinjela, mamoeiro, morangueiro, pimentão, alho, amendoim, macieira e pessegueiro; • Transplantar as mudas em períodos chuvosos; • Plantar próximo a plantas daninhas espontâneas de folhas largas e a gramíneas que produzem pólen, mantidas em curva de nível ou nas proximidades da plantação; • Utilizar acaricidas específicos; • Fazer rotação de agrotóxicos, conforme o modo de ação e o grupo químico; • Liberação massiva de ácaros predadores (N. californicus); • Fazer rotação de culturas com gramíneas e crucíferas.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

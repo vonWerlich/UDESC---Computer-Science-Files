@@ -1,0 +1,19 @@
+Título: FORMIGAS EM PINUS E EUCALIPTO - Informações gerais
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021112&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+
+-- PROGRAMA MANEJO-FORMIGAS: --
+O programa "Manejo-Formigas" visa orientar os produtores de pinus e eucalipto no combate às formigas cortadeiras, apresentando recomendações que levam em consideração os gêneros de formigas cortadeiras, o gênero florestal a ser plantado e as diferentes formas de manejo adotadas pelas empresas de base florestal.
+
+-- RECONHECIMENTO DAS FORMIGAS E ATAQUES: --
+Na tela inicial é possível clicar no ícone " reconhecimento das formigas " para obter mais detalhes para a identificação dos gêneros Atta (saúvas) e Acromyrmex (quenquéns), e no ícone " reconhecimento dos ataques " para identificar os ataques de formigas cortadeiras e poder diferenciá-los dos ataques de outros insetos desfolhadores.
+
+-- RECOMENDAÇÕES PARA O MANEJO: --
+Para saber qual é a melhor recomendação de controle, basta responder as questões do tópico "Tomada de decisão para controle", no menu principal. São 448 combinações diferentes, que resultam em 16 recomendações de manejo. Ao final da navegação será possível encontrar a recomendação mais apropriada para cada etapa do plantio (pré-corte raso, pré-plantio, pós-plantio e manutenção). As explicações detalhadas das recomendações podem ser acessadas na página inicial, ao clicar no tópico "recomendações para o manejo". Nele será possível verificar as recomendações para cada etapa do plantio (como e/ou quando fazer); como realizar o controle sistemático e/ou o controle localizado, além da melhor forma de aplicação de isca formicida. Há também a recomendação para o levantamento da sobrevivência de plantas, cuja metodologia foi baseada em ataques reais de formigas cortadeiras para a orientação da melhor forma de caminhamento para as amostragens. Além da recomendação de registro de todas as atividades.
+
+-- BENEFÍCIOS DE SEGUIR AS RECOMENDAÇÕES PRECONIZADAS: --
+Seguindo as recomendações propostas, o manejo de formigas pode ser realizado de maneira mais racional, reduzindo-se o uso formicidas em algumas situações e, consequentemente, reduzindo-se os custos e também os efeitos indesejáveis do uso de inseticidas ao ambiente.
+
+-- Informações Complementares --
+Todo o material bibliográfico utilizado neste sistema pode ser consultado ao clicar AQUI!

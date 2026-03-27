@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 4. Diagnóstico a partir da doençaInicie por aqui, caso saiba que se trata de doença, mas tenha dúvida.Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais. - Os colmos ou panículas estão com manchas escuras ou de aspecto seco e são os sintomas no colmo ou na panícula que predominam na planta - As panículas estão com manchas escuras ou secas e são os sintomas na panícula que predominam na planta - A panícula tem grãos manchados ou envoltos por massa pulverulenta amarelada ou preta - Grãos na panícula envoltos por massa pulverulenta amarelada ou preta
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016882&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16870%5D%7B19%7Dpl17_graopulvo.jpg
+DIAGNOSE VISUAL
+4. Diagnóstico a partir da doença Inicie por aqui, caso saiba que se trata de doença, mas tenha dúvida. Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais.
+Os colmos ou panículas estão com manchas escuras ou de aspecto seco e são os sintomas no colmo ou na panícula que predominam na planta
+As panículas estão com manchas escuras ou secas e são os sintomas na panícula que predominam na planta
+A panícula tem grãos manchados ou envoltos por massa pulverulenta amarelada ou preta
+Grãos na panícula envoltos por massa pulverulenta amarelada ou preta
+A massa pulverulenta que cobre os grãos é fina e negra - CARVÃO ou CÁRIE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16882%5D%7B276%7Dchv_carvaograo.jpg
+Legenda: A massa pulverulenta que cobre os grãos é fina e negra - CARVÃO ou CÁRIE
+21644
+A massa pulverulenta que cobre os grãos é fina e negra - CARVÃO ou CÁRIE
+A massa pulverulenta que cobre os grãos é espessa, de aspecto esponjoso, verde-amarelada quando recém formada e verde-oliva quando envelhecida - FALSO-CARVÃO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16882%5D%7B356%7Dchv_falsocarvao.jpg
+Legenda: A massa pulverulenta que cobre os grãos é espessa, de aspecto esponjoso, verde-amarelada quando recém formada e verde-oliva quando envelhecida - FALSO-CARVÃO
+21645
+A massa pulverulenta que cobre os grãos é espessa, de aspecto esponjoso, verde-amarelada quando recém formada e verde-oliva quando envelhecida - FALSO-CARVÃO

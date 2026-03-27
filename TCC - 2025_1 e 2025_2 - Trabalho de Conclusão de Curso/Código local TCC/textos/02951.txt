@@ -1,0 +1,16 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - H) MANEJO DAS PRINCIPAIS DOENÇAS BACTERIANAS - g) Necrose-da-medula
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02951&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2722%5D%7B273%7Dfigura_26.jpg
+
+-- Necrose-da-medula (Pseudomonas corrugata): --
+A necrose-da-medula é uma doença recentemente registrada no Brasil, aparentemente com maior prevalência no sul e no sudeste do País. Temperaturas amenas durante a noite, aliadas à alta umidade, são favoráveis para seu estabelecimento e desenvolvimento.
+
+-- Sintomas: --
+Os sintomas verificados estão associados com a primeira colheita. As plantas apresentam-se cloróticas, podendo murchar e morrer, embora possam continuar produzindo em caso de ataque mais leve. A visualização de sintomas em plantas afetadas é feita com um corte longitudinal do caule, que apresenta uma descoloração marrom na medula (Figura 26), mas sem o apodrecimento verificado no talo-oco. Na região da descoloração de medula ocorrem rachaduras e o surgimento de raízes adventícias, podendo apresentar ou não necrose superficial do tecido. Quando há infecção na inserção da folha com o caule, a folha apresenta coloração amarela cor de “gema de ovo” e, após o desenvolvimento do patógeno, todo o tecido necrosa, murcha e seca.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2722%5D%7B400%7Dfigura_26.jpg
+Legenda: Sintoma da necrose-da-medula causada por Pseudomonas corrugata. Foto: O. M. Martins
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

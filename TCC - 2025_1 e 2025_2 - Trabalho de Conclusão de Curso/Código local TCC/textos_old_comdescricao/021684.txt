@@ -1,0 +1,20 @@
+Título: BANANA - Cultivares - Ouro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021684&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Ouro
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18370%5D%7B123%7Dcap_3_-_fig_4_-_letra_e_-_buque_maduro_ouro_-_autoria_eliseu_emanoel_dos_santos.jpg
+Tabela apresenta um guia técnico detalhado para o manejo pós-colheita de 14 cultivares de banana, estabelecendo uma correlação direta entre genótipo, protocolo de climatização, ponto de maturação e mercado-alvo, dividindo-se em dois grupos principais: um climatizado a 18°C, composto por cultivares como Nanicão, Grande Naine e Williams, colhidos no ponto "¾ normal" e destinados ao consumo nos graus 5 (casca amarela com extremidades verdes) a 6 (totalmente amarela) para o mercado do Sul do Brasil/Mercosul; e um segundo grupo, climatizado a uma temperatura mais baixa de 16°C, que inclui híbridos como BRS Fhia Maravilha e BRS Platina (colhidos em "¾ magra"), BRS Thap Maeo (colhido em "¾ gorda") e outros como Ouro e SCS451 Catarina (colhidos em "¾ normal"), todos com ponto de consumo ideal nos graus 6 a 7 (casca amarela com pontuações de coloração chocolate) e direcionados majoritariamente ao mercado interno brasileiro, evidenciando que a escolha do ponto de colheita e da temperatura de climatização são estratégias cruciais para modular a velocidade de amadurecimento, maximizar a vida de prateleira e atender às especificações de qualidade de cada nicho consumidor.
+FOTO: Eliseu E. dos Santos
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AA, diploide do subgrupo Ouro. Bananeira de porte médio e frutos pequenos, que após o amadurecimento apresentam coloração amarelo intenso e sabor peculiar. Altamente resistente ao mal do panamá (raça 1). Altamente suscetível à sigatoka amarela e moderadamente resistente à sigatoka negra. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18370%5D%7B322%7Dcap_3_-_fig_4_-_letra_b_-_ouro_-_autoria_eliseu_emanoel_dos_santos.jpg
+Três principais pontos de colheita da banana, definidos pelo grau de preenchimento da polpa em relação à casca, conhecidos como 'Magro', '3/4 Gordo (Ideal)' e 'Gordo', iniciando com o estágio 'Magro', que exibe uma seção transversal de formato angular com quinas proeminentes, indicando que a polpa ainda não preencheu totalmente a cavidade interna, característico de um fruto imaturo; progredindo para o '3/4 Gordo', o ponto de colheita ideal, onde as quinas se tornam visivelmente arredondadas e a polpa preenche quase completamente o fruto, atingindo um equilíbrio ótimo entre rendimento e firmeza para transporte e amadurecimento controlado; e culminando no 'Gordo', no qual o fruto atinge um formato quase cilíndrico ou circular devido ao preenchimento máximo e tenso da polpa, que elimina as quinas e estica a casca, representando o pico de desenvolvimento fisiológico, porém com maior suscetibilidade a danos mecânicos e uma janela de comercialização mais curta.
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

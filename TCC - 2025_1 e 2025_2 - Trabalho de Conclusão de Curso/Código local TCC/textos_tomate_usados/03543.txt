@@ -1,0 +1,23 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - N) CUSTO DE PRODUÇÃO - a) Introdução
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03543&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B3283%5D%7B197%7Dcapa_1.jpg
+
+-- Carência de informações: --
+Assim como na maioria das hortaliças, na cultura do tomate existe carência de informações acerca do custo de produção. Mesmo com a assistência técnica dispondo de tabelas de coeficientes técnicos e publicações sobre o assunto, ainda há escassez de estudos acurados do custo de produção. O que na prática se tem verificado é o aumento dos custos de produção em cada safra ao longo dos anos
+
+-- Controle dos custos: --
+Levantar os custos de produção é uma atividade que requer diversas informações obtidas ao longo de vários anos. Acompanhar e documentar as operações e materiais utilizados com seus respectivos valores monetários (preço) é o primeiro passo para saber se a atividade é lucrativa e onde estão os problemas que requerem intervenção para sua execução. É preciso acabar com o mito de que o produtor, ao calcular todos os custos, desistirá da atividade. Apurar os custos de produção garante melhor gestão na tomaticultura, permitindo calcular a rentabilidade financeira (mensal) e a rentabilidade econômica (anual), ou seja, a taxa interna de retorno (TIR) que representa o lucro da atividade.
+
+-- Controle do sistema: --
+Para estruturar os custos de produção é necessário documentar, com anotações, notas fiscais e recibos em todas as etapas da produção do tomate. O fato de dedicar um tempo para registrar as atividades, tempo de execução e observações leva o produtor a detectar falhas e consertar o erro antes de que ele se torne um problema. O que a princípio pode ser visto como um “tempo” gasto, na prática é um gerenciamento de cada etapa do processo produtivo. E mais, pode ser feito junto à família e/ou aos colaboradores, dando transparência e visão ao processo. Saber o que e quanto foi gasto ou investido permite ter a coragem de investir ou desistir da atividade com base em dados reais. Quanto o produtor ganha ou perde é uma informação que pode mudar a forma de pensar e agir para valorizar o trabalho realizado.
+
+-- Aumento dos custos vs Fertilizantes e Mão de Obra: --
+Valores apurados mostram que a elevação dos custos de produção, maiores a cada safra, está relacionada ao elevado volume utilizado de adubos e fertilizantes, além da mão de obra. Diante desse quadro e de toda a tecnologia favorável, valorizamos e justificamos com números mais uma vantagem de produzir pelo Sistema de Produção Integrada de Tomate Tutorado (Sispit). O Sispit permite identificar um sistema de produção que diminui os altos custos da lavoura, além de dispor de um produto alimentício que assegura qualidade e segurança.
+
+-- Sispit vs controle dos custos variáveis: --
+No Sispit são abordados aspectos referentes ao controle dos custos variáveis que, junto aos custos fixos, revelam a necessidade de se gerenciar a atividade, definindo assim os futuros investimentos possíveis na atividade. Não se tem a intenção de determinar um modelo de gerenciamento da atividade, mas de proporcionar subsídios para iniciar na prática da gestão da cultura.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - 02. Caracterização da planta de arroz - Indicadores morfológicos do desenvolvimento da planta de arroz
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013184&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11439%5D%7B455%7Dindmorf_02.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Para fins práticos, a caracterização da planta de arroz será feita a partir da identificação dos indicadores da planta com maior relevância para o manejo da lavoura e da resposta do arroz às condições climáticas em cada etapa do seu desenvolvimento.
+
+-- INDICADORES MORFOLÓGICOS: --
+Estes indicadores estão associados a alguns estádios do desenvolvimento da cultura, nos quais as plantas de arroz apresentam exigências específicas relacionadas ao clima, nutrição e proteção. Por sua importância, estes estádios são denominados épocas-chave , e sua correta identificação é fundamental para o adequado manejo do arroz irrigado. As principais épocas-chave da cultura do arroz, seus indicadores morfológicos e seus períodos de ocorrência são apresentados a seguir.
+
+-- INDICADORES GERMINATIVOS - ESTABELECIMENTO DA CULTURA: --
+Época-Chave: EMERGÊNCIA DO COLEÓPTILO E RADÍCULA Código na Escala de Counce: S1 Indicador Morfológico: coleóptilo/radícula visível com cerca de 3mm (figura abaixo) Período de Ocorrência: 24 a 48h após a hidratação das sementes Época-Chave: EMERGÊNCIA DO PRÓFILO ( ponto de agulha ) Código na Escala de Counce: S3 Indicador Morfológico: prófilo visível (figura abaixo) Período de Ocorrência: 5 a 15 dias após a semeadura ou emergência
+
+-- INDICADORES VEGETATIVOS - CRESCIMENTO DAS PLANTAS: --
+Época-Chave: INÍCIO DO PERFILHAMENTO Código na Escala de Counce: V4 Indicador Morfológico: 4 folhas visíveis (figura abaixo) Período de Ocorrência: 20 a 30 dias após a semeadura ou emergência Época-Chave: PERFILHAMENTO PLENO Código na Escala de Counce: V8 / V9 Indicador Morfológico: 4 a 5 perfilhos visíveis (figura abaixo) Período de Ocorrência: 45 a 55 dias após a semeadura ou emergência
+
+-- INDICADORES REPRODUTIVOS - FORMAÇÃO E EMISSÃO DAS PANÍCULAS: --
+Época-Chave: INICIAÇÃO DA PANÍCULA Código na Escala de Counce: R0 Indicador Morfológico: 1º entre-nó expandido cerca de 1,5cm (um dedo) (figura abaixo) Período de Ocorrência: 65 a 80 dias após a semeadura ou emergência Época-Chave: EMBORRACHAMENTO Código na Escala de Counce: R2 Indicador Morfológico: emissão da folha bandeira e expansão da porção medial do colmo (figura abaixo) Período de Ocorrência: 70 a 95 dias após a semeadura ou emergência Época-Chave: FLORAÇÃO 5% Código na Escala de Counce: R4 Indicador Morfológico: visualização de pequena parte das panículas do arroz (figura abaixo) Período de Ocorrência: 65 a 80 dias após a semeadura ou emergência Época-Chave: FLORAÇÃO PLENA Código na Escala de Counce: R4 Indicador Morfológico: visualização de todas as panículas do arroz (figura abaixo) Período de Ocorrência: 95 a 115 dias após a semeadura ou emergência
+
+-- INDICADORES PRODUTIVOS - PRODUÇÃO DE GRÃOS: --
+Época-Chave: GRÃO LEITOSO Código na Escala de Counce: R6 Indicador Morfológico: grãos amassam com facilidade e extravasam conteúdo líquido branco (leite) (figura abaixo) Período de Ocorrência: 100 a 120 dias após a semeadura ou emergência Época-Chave: GRÃO PASTOSO Código na Escala de Counce: R7 Indicador Morfológico: grãos amassam com certa resistência e extravasam conteúdo pastoso (figura abaixo) Período de Ocorrência: 105 a 125 dias após a semeadura ou emergência Época-Chave: MATURAÇÃO FISIOLÓGICA Código na Escala de Counce: R9 Indicador Morfológico: grãos endurecidos (figura abaixo) Período de Ocorrência: 115 a 145 dias após a semeadura ou emergência
+
+-- Informações Complementares --

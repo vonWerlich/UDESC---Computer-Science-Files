@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Tempra
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019397&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16998%5D%7B534%7Dtempra.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Superseed; Pós colheita: Excelente; Tamanho Médio: 8,0 x 7,5cm; Peso Médio: 215g; Ciclo Médio: 110 dias após semeio; Tipo de fruto: Santa Cruz; Coloração: Vermelho intenso; Época de Semeio: Ano todo; Resistencia: Fol 0,1, Va, Vd, N, Ss, TYLCV e TSWV; PONTOS FORTES: Tamanho de frutos, produtividade e resistências ao TYLCV,TSWV e Ss; PLANTA: Vigorosa, bem enfolhada e com porte compacto; FRUTOS: Frutos grandes, formato Santa Cruz, com excelente cor e firmeza; CARACTERÍSTICAS: Possui um bom desempenho no período chuvoso, devido a sua resistência foliar, além de sua alta produtividade por possuir frutos grande e uniformes.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://agristar.com.br/superseed/tomate-santa-cruz-ind-hib/tempra-f1/4167">https://agristar.com.br/superseed/tomate-santa-cruz-ind-hib/tempra-f1/4167

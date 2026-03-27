@@ -1,0 +1,47 @@
+Título: PLANTAS PARA ADUBAÇÃO VERDE - Brachiaria ruziziensis (Urochloa ruziziensis)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012877&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11176%5D%7B138%7Dbrachiaria_ruziziensis._showrural_cascavel%2C_2005..jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11176%5D%7B135%7Dbrachiaria_ruziziensis_-_riza_sementes..jpg
+Legenda: Brachiaria ruziziensis - Riza sementes. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11176%5D%7B303%7Dbrachiaria_ruziziensis._showrural_cascavel%2C_2005..jpg
+Legenda: Brachiaria ruziziensis. Showrural Cascavel, 2005. Foto: Leandro Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11176%5D%7B363%7Dbraquiaria_ruziziensis_lontras_8mar2021_foto_ricieri_verdi.jpg
+Legenda: Consórcio com milho. Foto: Ricieri Verdi
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11176%5D%7B522%7Dbraquiaria_ruziziensis.jpg
+Legenda: Demonstração em dia de campo. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11176%5D%7B27%7Dsementes_braquiaria.jpg
+Legenda: Sementes. Foto: Leandro do Prado Wildner
+
+-- INFORMAÇÕES GERAIS: --
+OUTROS NOMES COMUNS: braquiária, braquiária-peluda. NOME CIENTÍFICO: Urochloa ruziziensis (R.Germ.& Evrard) Crins. FAMÍLIA: Poaceae (Gramíneas). ORIGEM: África.
+
+-- CARACTERÍSTICAS BOTÂNICAS: --
+PORTE: Herbáceo. HÁBITO DE CRESCIMENTO: Cespitoso. ALTURA DE PLANTA (m): 0,8 a 1,2. SISTEMA RADICULAR: Fasciculado/agressivo/profundo.
+
+-- INFORMAÇÕES FENOLÓGICAS: --
+CICLO VEGETATIVO: Perene. ÉPOCA IDEAL DE PLANTIO: primavera/verão. ÉPOCA PREFERENCIAL DE PLANTIO: Outubro a fevereiro. ÉPOCA POSSÍVEL DE PLANTIO: Setembro a fevereiro. CICLO PARA FLORESCIMENTO (dias): 40 a 50.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+PRODUÇÃO DE FITOMASSA (MS t/ha): 8 a 16. PRODUÇÃO DE FITOMASSA (MV t/ha): 20 a 55. TOLERÂNCIA À GEADA: Suscetível. TOLERÂNCIA À BAIXA FERTILIDADE DO SOLO: Média. TOLERÂNCIA AO DÉFICIT HÍDRICO: Alta. TOLERÂNCIA AO ENCHARCAMENTO: Baixa. TOLERÂNCIA A BAIXA TEMPERATURA: Alta. TOLERÂNCIA AO SOMBREAMENTO TEMPORÁRIO: Baixa. VELOCIDADE DE COBERTURA INICIAL DO SOLO: Rápida. APTIDÃO PARA PASTAGEM: Forte.
+
+-- SEMENTES: --
+PRODUTIVIDADE DE SEMENTES (kg/ha): 600 a 1500. PESO DE MIL SEMENTES (gramas): 12,5. PRESENÇA DE SEMENTES DURAS: sim.
+
+-- SEMEADURA: --
+ESPAÇAMENTO ENTRE LINHAS (metros): 0,5 a 1. DENSIDADE DE SEMEADURA (kg/ha, em linha): 7 a 10. DENSIDADE DE SEMEADURA (kg/ha, a lanço): 9 a 12. OBSERVAÇÃO: possibilidade de semeadura consorciada com milho e em misturas com soja perene e calopogônio.
+
+-- COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: --
+RELAÇÃO C/N: 40. NITROGÊNIO (% na massa seca): 0,75 a 2,01. FÓSFORO (p2o5 % na massa seca): 0,04 a 0,15. POTÁSSIO (k2o % na massa seca): 0,60 a 1,49.
+
+-- INDICAÇÃO DE USO / CULTIVO: --
+CONSÓRCIO COM CULTURAS (sucessão/intercalares): Milho. OUTROS USOS: Alimentação animal (teor de proteína na MS ao redor de 12%).
+
+-- INFORMAÇÕES FITOSSANITÁRIAS: --
+SUSCEPTIBILIDADE A NEMATOIDES: Pratylenchus brachyurus . PRAGAS: Cigarrinhas-das-pastagens. CONTROLE DE NEMATOIDES: Meloidogyne incognita e Rotylenchulus reniformis . CONTROLE DE DOENÇAS: reduz Fusarium sp ., Rhizoctonia sp . e Esclerotinia (mofo-branco).
+
+-- INFORMAÇÕES COMPLEMENTARES --
+DESENVOLVIMENTO EM SANTA CATARINA: existem poucas experiências de campo no estado. Resultados positivos foram obtidos em regiões de clima quente (Cfa), especialmente no Oeste Catarinense. DICAS: Plantio com o milho para formar cobertura de palha ou pastejo após a colheita do milho. ATENÇÃO: A produção é menor em comparação com outras espécies em períodos secos e de baixa temperatura. CARACTERÍSTICAS DESTAQUES: precocidade e estruturação do solo.
+
+-- Informações Complementares --
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, CLIQUE AQUI!

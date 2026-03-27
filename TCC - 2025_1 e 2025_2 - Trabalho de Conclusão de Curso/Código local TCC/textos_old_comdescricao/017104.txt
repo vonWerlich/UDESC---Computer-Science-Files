@@ -1,0 +1,36 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 1. Diagnóstico a partir da lavouraInicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca. - Está ocorrendo perda de estande (número de plantas/m²) na lavoura - A falha no estande é pela perda de sementes em germinação - As sementes têm o epicótilo e/ou as radículas roídas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017104&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17090%5D%7B169%7Dlav03_semente.jpg
+DIAGNOSE VISUAL
+1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+Está ocorrendo perda de estande (número de plantas/m²) na lavoura
+A falha no estande é pela perda de sementes em germinação
+As sementes têm o epicótilo e/ou as radículas roídas
+Verifique no local: CARAMUJO-CHATO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17104%5D%7B397%7Ddano_cmujchato.jpg
+Legenda: Verifique no local: CARAMUJO-CHATO
+21463
+Verifique no local: CARAMUJO-CHATO
+CARAMUJO-GRANDE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17104%5D%7B346%7Ddano_cmujgrande.jpg
+Legenda: CARAMUJO-GRANDE
+21464
+CARAMUJO-GRANDE
+BICHEIRA-DA-RAIZ
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17104%5D%7B427%7Ddano_bicheira.jpg
+Legenda: BICHEIRA-DA-RAIZ
+17106
+BICHEIRA-DA-RAIZ
+PULGA-D ÁGUA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17104%5D%7B221%7Ddano_pdagua.jpg
+Legenda: PULGA-D ÁGUA
+21462
+PULGA-D ÁGUA
+VERME-DE-SANGUE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17104%5D%7B23%7Ddano_vsangue.jpg
+Legenda: VERME-DE-SANGUE
+21461
+VERME-DE-SANGUE

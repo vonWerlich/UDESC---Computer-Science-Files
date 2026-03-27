@@ -1,0 +1,322 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2431&amp;isEdicao=N&amp;epagriTEC=S">Sistemas de Produção</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2434&amp;isEdicao=N&amp;epagriTEC=S">Produção Integrada de Tomates (SISPIT)</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2485&amp;isEdicao=N&amp;epagriTEC=S">B) BOTÂNICA, ORIGEM E CLIMA PARA O TOMATEIRO</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2488&amp;isEdicao=N&amp;epagriTEC=S">b) História</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="2252">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="02488">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[2252]{229}capa_1.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Sistema de Produção Integrada para o Tomate Tutorado em Santa Catarina. 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>Época pré-colombiana:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Na época pré-colombiana o tomate se difundiu para toda a América Tropical. A
+domesticação ocorreu no México, com os maias que o chamavam de ‘tomatl ’. Os espanhóis o
+levaram para a Europa, mudando seu nome para tomate. O tomate foi registrado pela primeira
+vez fora do continente americano na Itália em 1544. Foi cultivado inicialmente como planta
+ornamental e considerado por muitos como planta venenosa (tóxica). Provavelmente foi na
+Itália, por volta de 1560, onde o tomate foi utilizado pela primeira vez para consumo humano.
+Na Itália o tomate recebeu o nome de “Pomo d’Oro” (maçã de ouro ou maçã dourada),
+indicando que os primeiros tipos introduzidos foram de coloração amarela; os franceses os chamaram de “pommes d’ammour” e os consideravam afrodisíacos. Variedades derivadas
+apresentam ampla gama de cores e formas de frutos. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Na Europa:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Na Europa, até o século XVIII, o tomate foi cultivado principalmente na Itália, sendo muito
+utilizado no preparo de molhos para massas. Nos EUA, a primeira menção do tomate ocorreu
+em 1710 e, desde então, sua popularização tornou-se grande. Em 1850, aproximadamente,
+foi iniciado o seu uso como alimento e o primeiro cultivar surgiu em 1900 e foi denominado
+‘Ponderosa’. Atualmente, o tomate é a hortaliça mais consumida no mundo.
+A riqueza genética do tomate possibilitou a criação de centenas de cultivares, com
+grande diversidade de formato, coloração, tamanho, longevidade, conformação dos lóculos,
+sabor, consistência. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>No Brasil:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> No Brasil, o tomate foi introduzido provavelmente no início do século XX por
+imigrantes portugueses e italianos. A partir da década de 30, o tomate experimentou uma
+evolução substancial na sua importância econômica, tanto como produto para consumo in
+natura, quanto como matéria-prima para a indústria. Na década de 40 surgiu a variedade
+‘Santa Cruz’ em um núcleo de colonização japonesa do mesmo nome no Estado do Rio de
+Janeiro. Apresentava fruto bilocular com massa média de 50 gramas. Este tomate foi bem
+aceito no mercado consumidor do Rio de Janeiro e de São Paulo e, em seguida, se espalhou
+rapidamente pelos estados brasileiros. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Na década de 60:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os cultivares mais plantados, na década de 60, foram a partir de seleções do ‘Santa
+Cruz’ feitas por famílias de tomaticultores, surgindo, por exemplo, os cultivares Miguel Pereira,
+Kada e Yokota. Nas décadas de 70 e 80 as instituições de pesquisa iniciaram os trabalhos de
+melhoramento, lançando diversos cultivares que inclusive apresentavam resistência a várias
+doenças, entre os quais se destacam ‘Ângela Gigante’ e ‘Santa Clara’, desenvolvidos pelo
+Instituto Agronômico de Campinas (IAC) que apresentavam de dois a três lóculos por fruto. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Final da década de 80:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Até o final da década de 80 predominavam as variedades de tomate do grupo ‘Santa
+Cruz’ de polinização aberta. As sementes destas variedades provinham de populações de
+plantas já conhecidas de polinização aberta ou natural, feita principalmente por insetos
+(entre estes as abelhas), e pela ação do vento. Os cultivares de polinização aberta de tomate
+apresentam sementes de menor valor unitário quando comparados com os híbridos F1 e são
+úteis para reduzir os custos fixos de produção para os agricultores. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Final do século XX:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A partir do final do século XX, a produção de tomate para consumo in natura no Brasil
+experimentou grandes transformações tecnológicas, sendo a introdução de híbridos do grupo
+“salada” e do tipo longa vida uma das mais importantes. Este grupo começou a dominar a
+produção de tomate brasileiro, principalmente por se tratar de frutos que suportam o transporte
+a grandes distâncias. Entretanto, a qualidade gustativa desses híbridos tem sido alvo de muitas
+críticas, pois os genes que conferem a característica desejável “longa vida” também causam
+alterações indesejáveis de sabor, aroma, textura e teor de licopeno. Para amenizar o impacto
+negativo junto ao consumidor devido à expansão dos híbridos do grupo Salada longa vida,
+as empresas de sementes têm investindo em maior diversificação de cultivares. A qualidade
+gustativa do tomate tem recebido atenção privilegiada. Dentro dessa estratégia, cultivares de
+tomate do tipo italiano têm recebido destaque e, consequentemente, ótima aceitação por
+alguns mercados consumidores. Os frutos dos cultivares híbridos de tomate do tipo italiano estão disponíveis no mercado e têm excelente sabor e variabilidade de uso culinário, podendo
+ser consumidos em saladas, no preparo de molhos e na forma de tomate seco. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>O tomate-cereja e o tomate-uva: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O tomate-cereja e o tomate-uva (Solanum ycopersicum var. cerasiforme) merecem
+atenção do consumidor. Eles são frutos de tamanho pequeno: o tomate-uva (grape) apresenta
+forma esférica (redonda) e o tomate-cereja (cherry) formato elíptico (oval). Além disso,
+possuem tamanho menor e seu sabor é bem mais doce (9 e 12 graus brix) do que o tomate
+tradicional (entre 4 e 6 graus brix). São usados para enfeite de pratos sofisticados, para dar um
+toque especial às saladas, além de ser consumidos como fruta ou como tira-gosto. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+Walter Ferreira Becker in: <br>
+BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 04/04/2019</font>
+<br> <font size="2"> Última atualização: 05/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=02488&amp;cdElemento=2252">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=2252');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

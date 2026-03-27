@@ -1,0 +1,9 @@
+Título: TERMOTERAPIA PARA SUBSTRATOS - Investimento necessário
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021440&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18333%5D%7B169%7Dtabela_2.jpg
+Legenda: Investimento necessário para construção do desinfestador de substratos. Fonte: Visconti et al. (2023)
+
+-- Informações Complementares --
+Visconti et al. Unidade de termoterapia a vapor para desinfestação de substratos. Cartilha. Epagri, 2023.

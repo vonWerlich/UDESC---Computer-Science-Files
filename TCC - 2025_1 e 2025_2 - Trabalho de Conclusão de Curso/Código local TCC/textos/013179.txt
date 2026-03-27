@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 15. Cultivo da soca em arroz irrigado - Produtividade da soca
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013179&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11434%5D%7B515%7D13_colhesoca_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+A qualidade de colheita da safra principal afeta diretamente o potencial produtivo da soca, sendo importante evitar o trânsito excessivo de máquinas na lavoura, para reduzir o amassamento das plantas que irão rebrotar. A colheita em períodos com alta precipitação pluviométrica deve ser evitada, pois causa a destruição das plantas e consequentemente o estabelecimento deficitário da lavoura de soca.
+
+-- PRODUTIVIDADE DA SOCA: --
+A variação de produtividade nos cultivos de soca pode ser intensa, inclusive em um mesmo município, conforme verificado no Litoral Norte de Santa Catarina, na safra 2019/2020 ( figura abaixo ). Isso demonstra a grande dependência a diversos fatores, que interferem diretamente no resultado de produção. O ciclo e produtividade do cultivo da soca estão relacionados com o manejo da resteva, empregado logo após a colheita da safra principal. Recomenda-se realizar a roçada da resteva, ou o seu amassamento com uso de rodas de ferro acopladas ao trator ou com o rolo amassador. Quando a colheita principal for realizada após fevereiro, é interessante que se mantenha a resteva intacta, o que proporciona um encurtamento no ciclo da soca, possibilitando a colheita ainda em tempo hábil.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11434%5D%7B522%7D13_produtsoca_fig01.jpg
+Legenda: Produtividade da soca (sc/ha) em lavouras de municípios do Litoral Norte catarinense na safra 2019/2020.
+
+-- Informações Complementares --

@@ -1,0 +1,23 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Frutos com escaldadura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=045&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1297%5D%7B269%7D41.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1297%5D%7B256%7D40.jpg
+Legenda: Escaldadura ocasionada pela exposição direta aos raios solares. Fonte: LOPES, C. A.; ÁVILA, A. C. de
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1297%5D%7B116%7D42.jpg
+Legenda: Escaldadura ocasionada pela exposição direta aos raios solares. Fonte: D. Blancard (INRA)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1297%5D%7B463%7D41.jpg
+Legenda: Escaldadura ocasionada pela exposição direta aos raios solares. Fonte: D. Blancard (INRA)
+
+-- SINTOMAS: --
+Ocorre geralmente em frutos desenvolvidos, sendo mais suscetíveis os frutos maduros do que os verdes. A parte afetada fica esbranquiçada.
+
+-- O QUE PODE ESTAR OCORRENDO: --
+Aquecimento da superfície do fruto pela sua exposição direta ao sol, geralmente devido à destruição da folhagem pelo ataque de doenças (1) ou cultivares de menor enfolhamento. O excessivo enrolamento dos folíolos pode aumentar a exposição dos frutos a esse tipo de estresse ambiental.
+
+-- CONTROLE: --
+- Cultivares que proporcione boa cobertura foliar dos frutos (1); - Controle eficiente de doenças e pragas que destroem a folhagem; - No caso de cultivo protegido no verão, utilizar telas de sombreamento, preferencialmente as aluminetizadas (evitar a cor preta); - No caso de produção de tomate para processamento industrial, o plantio de cultivares com maturação uniforme contribui para reduzir a ocorrência do problema (1).
+
+-- Informações Complementares --
+(1) LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005.

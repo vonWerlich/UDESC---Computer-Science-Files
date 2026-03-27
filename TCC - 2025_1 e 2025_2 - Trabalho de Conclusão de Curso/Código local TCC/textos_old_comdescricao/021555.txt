@@ -1,0 +1,23 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas - As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando - Várias folhas estão amareladas ou retorcidas, ou com manchas, enegrecidas ou secando - As plantas estão ameraladas, com folhas secando por inteiro, ou retorcidas ou com estrias ou enegrecidas por fuligem. O limbo foliar pode estar rompido seguindo as nervuras - Folhas secando ou retorcidas em planta jovem, com um ou dois perfilhos, mais vezes proveniente de lavoura em solo seco - Sistema radicular da planta com muitas raízes, não aparentando estar danificado. Planta com vigor nutricional, folhas amarelaram ou retorceram a pouco tempo - A base do colmo está íntegra - Planta retorcida ou com murcha no colo ou nas raízes, sem listras secas nas folhas, apesar de as folhas poderem ter listras cloróticas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021555&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21552%5D%7B476%7Dpl22a_plantassecas.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano está restrito às folhas
+As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando
+Várias folhas estão amareladas ou retorcidas, ou com manchas, enegrecidas ou secando
+As plantas estão ameraladas, com folhas secando por inteiro, ou retorcidas ou com estrias ou enegrecidas por fuligem. O limbo foliar pode estar rompido seguindo as nervuras
+Folhas secando ou retorcidas em planta jovem, com um ou dois perfilhos, mais vezes proveniente de lavoura em solo seco
+Sistema radicular da planta com muitas raízes, não aparentando estar danificado. Planta com vigor nutricional, folhas amarelaram ou retorceram a pouco tempo
+A base do colmo está íntegra
+Planta retorcida ou com murcha no colo ou nas raízes, sem listras secas nas folhas, apesar de as folhas poderem ter listras cloróticas
+A planta tem folhas retorcidas e encarquilhadas, normalmente com listras coloróticas - ENROLAMENTO DO ARROZ Cuidado: alguns efeitos fitóxicos de herbicidas podem resultar em sintomas semelhantes.
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21555%5D%7B201%7Ddano_virusenrola.jpg
+Legenda: A planta tem folhas retorcidas e encarquilhadas, normalmente com listras coloróticas - ENROLAMENTO DO ARROZ Cuidado: alguns efeitos fitóxicos de herbicidas podem resultar em sintomas semelhantes.
+21647
+A planta tem folhas retorcidas e encarquilhadas, normalmente com listras coloróticas - ENROLAMENTO DO ARROZ Cuidado: alguns efeitos fitóxicos de herbicidas podem resultar em sintomas semelhantes.

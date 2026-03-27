@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Arancio F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0817&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B696%5D%7B491%7Darancio_f1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto amarelo; Crescimento: Indeterminado; Empresa: TSV Sementes; Finalidade: Copa; Polinização: Híbrido; Precocidade: Baixa (121 a 130dias)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido do tipo Uva, fruto que pesa de 9 a 15g, de coloração laranja e Brix aproximado de 9°. - Ciclo (nº de dias): 240 dias - Hábito de crescimento: Indeterminado
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.tsvsementes.com.br.

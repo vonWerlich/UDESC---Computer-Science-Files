@@ -1,0 +1,26 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Podridão de rizopus (Rhizopus stolonifer)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04612&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1521%5D%7B550%7Drhizopus_3.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1521%5D%7B545%7Drhizopus_3.jpg
+Legenda: Sintomas típicos do crescimento micelial do fungo sobre os frutos. Foto: Magnus Gammelgaard (Plante docktor)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1521%5D%7B490%7Drhizopus_1.jpg
+Legenda: Sintomas típicos do crescimento micelial do fungo sobre os frutos. Foto: C.A.Lopes
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1521%5D%7B508%7Drhizopus_2.jpg
+Legenda: Sintomas típicos do crescimento micelial do fungo sobre os frutos. Foto: Menten
+
+-- INFORMAÇÕES GERAIS: --
+A podridão de Rhizopus é bastante comum em pós-colheita, observada principalmente no armazenamento e transporte dos frutos. O fungo invade o tecido através de ferimentos por pragas ou danos mecânicos, degradando a lamela media e apodrecendo rapidamente o fruto (1).
+
+-- IDENTIFIQUE A DOENÇA CORRETAMENTE: --
+Os sintomas nos frutos são lesões aquosas irregulares que aumentam de tamanho rapidamente, cobertas por micélio branco com frutificações negras, resultando em colapso dos tecidos e odor desagradável (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+1. Condições de alta temperatura e umidade. Solução: Temperaturas elevadas favorecem a infecção, principalmente entre 15ºC e 23ºC, e umidade relativa acima de 75%, ocorre rápida reprodução do fungo. Deve-se manejar o ambiente para evitar tais condições, como o uso de exaustores, telas laterais que permitam uma melhor circulação de ar, aumentar o espaçamento entre plantas. 2. Alta incidência de pragas. Solução: Controlar brocas e traças e evitar ferimentos nas plantas. 3. Problemas no transporte e armazenamento. Solução: Armazenar em caixas apropriadas. Evitar a caixa "tipo K".
+
+-- CONTROLE: --
+- Sanitização das instalações de armazenamento e embalagens. - Evitar provocar injurias e ferimentos nos frutos durante colheita, transporte, classificação e embalagem. - Evitar colocar muitos frutos nas caixas de colheita. - Frutos que caem no chão devem ser separados. - Frutos doentes devem ser removidos (1).
+
+-- Informações Complementares --
+(1) Oliveira, A.A.R.; Filho, H.P.S. Podridão de rhizopus. Embrapa, 2007.

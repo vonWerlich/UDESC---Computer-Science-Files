@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo) - A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo - A praga é uma lagarta, com falsas pernas no abdome. Pode estar nas folhas, abrigada num cartucho ou dentro do colmo das plantas - A lagarta se alimenta de folhas do arroz - A lagarta ocorre livre sobre as folhas - A lagarta anda sobre a folha de forma retilínea ou fica enrolada no solo ou se enrola quando molestada
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016998&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16994%5D%7B504%7Dchave_fig39.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo)
+A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo
+A praga é uma lagarta, com falsas pernas no abdome. Pode estar nas folhas, abrigada num cartucho ou dentro do colmo das plantas
+A lagarta se alimenta de folhas do arroz
+A lagarta ocorre livre sobre as folhas
+A lagarta anda sobre a folha de forma retilínea ou fica enrolada no solo ou se enrola quando molestada
+A lagarta é de coloração acinzentada no dorso e amarelada ou rosada no ventre, possuindo linhas finas longitudinais que definem a camuflagem dos indivíduos. Pode ocorrer nas panículas. Cabeça sem sutura frontal em forma de “Y” - LAGARTA-DAS-PANÍCULAS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16998%5D%7B396%7Dchv_lagpanl.jpg
+Legenda: A lagarta é de coloração acinzentada no dorso e amarelada ou rosada no ventre, possuindo linhas finas longitudinais que definem a camuflagem dos indivíduos. Pode ocorrer nas panículas. Cabeça sem sutura frontal em forma de “Y” - LAGARTA-DAS-PANÍCULAS
+16999
+A lagarta é de coloração acinzentada no dorso e amarelada ou rosada no ventre, possuindo linhas finas longitudinais que definem a camuflagem dos indivíduos. Pode ocorrer nas panículas. Cabeça sem sutura frontal em forma de “Y” - LAGARTA-DAS-PANÍCULAS
+A lagarta é de coloração variável (verde-clara, marrom-escura ou quase preta), possuindo três linhas finas longitudinais branco-amareladas na parte dorsal e na lateral, uma faixa escura mais larga. Cabeça em forma de “Y” - LAGARTA-MILITAR
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16998%5D%7B4%7Dchv_lagmill.jpg
+Legenda: A lagarta é de coloração variável (verde-clara, marrom-escura ou quase preta), possuindo três linhas finas longitudinais branco-amareladas na parte dorsal e na lateral, uma faixa escura mais larga. Cabeça em forma de “Y” - LAGARTA-MILITAR
+17001
+A lagarta é de coloração variável (verde-clara, marrom-escura ou quase preta), possuindo três linhas finas longitudinais branco-amareladas na parte dorsal e na lateral, uma faixa escura mais larga. Cabeça em forma de “Y” - LAGARTA-MILITAR

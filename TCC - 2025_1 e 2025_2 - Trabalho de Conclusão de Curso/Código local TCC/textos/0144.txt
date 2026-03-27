@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Débora Max F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0144&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B48%5D%7B79%7Ddebora_max.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Sakata; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Baixa (121 a 130dias); Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Peso médio de frutos 180g. Alto pegamento de frutos com alta uniformidade. Coloração e sabor de frutos imbatíveis. Alto vigor de planta. Ciclo médio das*: 115 dias. SEGMENTO: Santa Cruz Indeterminado.
+
+-- RESISTÊNCIA: --
+Vd1, Fol 1 e 2, Mi (raças 1 a 4) e Mj.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sakata.com.br/hortalicas ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sakata.com.br/hortalicas

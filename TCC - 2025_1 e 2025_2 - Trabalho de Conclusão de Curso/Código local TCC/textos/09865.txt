@@ -1,0 +1,25 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Bactérias - Septicemia hemorrágica
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09865&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8915%5D%7B458%7Dsepticemia.png
+
+-- SEPTICEMIA HEMORRÁGICA: --
+A septicemia hemorrágica bacteriana também é uma doença oportunista, causada por enterobactérias Gram-negativas, geralmente encontradas no trato intestinal de peixes saudáveis ou no meio ambiente (água e solo).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8915%5D%7B159%7Dsepticemia.jpg
+Legenda: Septicemia. Foto: Natalia C. Marchiori
+
+-- CONDIÇÕES QUE FAVORECEM A BACTÉRIA: --
+Sendo bactérias oportunistas, causam enfermidades principalmente quando há excesso de matéria orgânica no viveiro, baixos níveis de oxigênio dissolvido na água e má nutrição.
+
+-- PRINCIPAIS BACTÉRIAS QUE OCASIONAM A DOENÇA: --
+Dentre as diversas bactérias causadoras dessa doença para as tilápias, em viveiros escavados podemos destacar duas: Aeromonas móveis e Edwardsiella. Essa doença pode ocorrer em diversas fases do cultivo.
+
+-- SINTOMAS: --
+Dentre os principais sinais clínicos, podemos observar: perda de apetite, natação errática, ulcerações ou pontos hemorrágicos no corpo, hemorragia na borda das nadadeiras, abdômen distendido, pontos hemorrágicos nos órgãos internos (fígado, rim, coração, baço).
+
+-- CONTROLE: --
+Estratégias para prevenção: - Nutrição adequada; - Uso de aditivos alimentares; - Manter boa condição de qualidade de água e solo; - Seguir as boas práticas de manejo durante o transporte ou transferência de animais.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

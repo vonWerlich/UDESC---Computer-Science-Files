@@ -1,0 +1,15 @@
+Título: ARROZ IRRIGADO - 07. Manejo da água - Demanda da cultura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013146&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11411%5D%7B132%7D07_demandaagua_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Em Santa Catarina a rizicultura se caracteriza primordialmente pela irrigação por inundação em quadras em nível. Esse método de irrigação apresenta vantagens em termos de manejo de água, pois proporciona uma distribuição mais uniforme da lâmina de água e um melhor aproveitamento das águas das chuvas e maior eficiência da irrigação.
+
+-- DEMANDA DE ÁGUA: --
+A demanda de água pela cultura de arroz irrigado depende de vários fatores, dentre eles: • as características físicas do solo; • o sistema de cultivo; • o ciclo do cultivar; • as perdas nas estruturas de captação, condução e distribuição de água e; • os fatores climáticos. No sistema pré-germinado, os maiores volumes de água são requeridos na fase inicial do cultivo, principalmente para a saturação do solo e formação da lama. O volume de água para a saturação do solo depende da altura do lençol freático, da textura e porosidade do solo e seu teor de umidade inicial, podendo assumir valores de 1.000 a 2.000 m³/ha. Recomenda-se, sempre que possível, iniciar a aplicação da lâmina de água para a formação da lama após a ocorrência de chuvas, que poderão levar à saturação do solo ou, até mesmo, já proporcionar a formação de uma pequena lâmina sobre o solo. Para a formação da lama no preparo do solo, é necessária uma lâmina de água de 3 a 5cm. Nas fases posteriores à semeadura, as demandas de água são constituídas principalmente pela evapotranspiração e pela percolação no solo, bem como eventuais perdas laterais pelas taipas. A evapotranspiração é a componente de maior importância na demanda hídrica do arroz irrigado, sendo determinada pelas condições meteorológicas. A evapotranspiração varia diretamente com a radiação solar, com a temperatura e também com a velocidade do vento; e inversamente com a umidade relativa do ar.
+
+-- PERÍODOS CRÍTICOS: --
+Os períodos considerados críticos, em termos de irrigação, são: • o estabelecimento do cultivo; • o perfilhamento; • a diferenciação da panícula e; • o enchimento de grãos. Nesses períodos, a falta de água pode causar danos significativos e irreversíveis, comprometendo o desenvolvimento e a produtividade. A disponibilidade de água deve ser suficiente para possibilitar a formação de uma lâmina de 5 a 10cm, num período de 24 a 48 horas. Para a manutenção da lâmina de água é desejável uma vazão de aproximadamente 1L/s/ha. A necessidade média por hectare por safra varia de 7.000 a 10.000m³, incluindo-se a água das chuvas.
+
+-- Informações Complementares --

@@ -1,0 +1,23 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - G) MANEJO DAS PRINCIPAIS DOENÇAS FÚNGICAS - b) Requeima ou Fitóftora
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02935&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2697%5D%7B489%7Dfigura_15b.jpg
+
+-- Requeima ou Fitóftora (Phytophthora infestans): --
+A doença ataca todos os órgãos da parte aérea da planta, aparecendo inicialmente manchas irregulares e de tamanho variável, tecido encharcado de cor verde-escura e sem brilho, tornando-se pardo-escura devido à necrose (Figura 15A). Com umidade no ambiente, na face inferior dos folíolos, ocorre o desenvolvimento de estruturas branco-acinzentadas, que são sinais do patógeno. Em condição de baixa umidade relativa do ar, as folhas ficam ressequidas. No caule, as lesões escuras geralmente estão no sentido longitudinal. Nos frutos ocorre a formação de manchas marrons com consistência firme (Figura 15B). A doença ocorre principalmente em períodos chuvosos, ou com formação de neblina ou orvalho, os quais proporcionam períodos de molhamento foliar prolongado. Temperatura média do ar acima de 25oC e mínima abaixo de 7oC são desfavoráveis à requeima.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2697%5D%7B100%7Dfigura_15b.jpg
+Legenda: Sintomas de requeima (Phytophthora infestans): (A) nas folhas e (B) nos frutosFoto: Walter Ferreira Becker
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2697%5D%7B172%7Dfigura_15a.jpg
+Legenda: Sintomas de requeima (Phytophthora infestans): (A) nas folhas e (B) nos frutosFoto: Walter Ferreira Becker
+
+-- Estratégia de controle da requeima do tomateiro: --
+Como principal estratégia de controle da requeima, deve-se utilizar fungicidas protetores e sistêmicos com o auxílio de sistemas de alerta (Tabela 13) como do Vale et al. (2000) e Becker (2005).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2697%5D%7B167%7Dtabela_13.jpg
+Legenda: Estratégia de controle químico da requeima do tomateiro em função da condição ambiente. Fonte: Vale et al. (2000).
+
+-- Sistema de alerta da requeima: --
+No sistema de alerta da requeima adaptado para a região do AVRP aplica-se a pasta fungicida (oxicloreto de cobre mais mancozeb) semanalmente. Na ocorrência de um aviso de alerta da requeima aplica-se um produto de ação sistêmica imediatamente ao recebimento do aviso. O primeiro alerta é emitido em função da ocorrência de dez dias consecutivos favoráveis à requeima. Um dia favorável à doença é quando ocorre a situação do ambiente a seguir: 1) a temperatura mínima ambiente é maior que 7,2oC; a temperatura média ambiente dos cinco dias anteriores é menor ou igual a 25oC e a soma da precipitação pluviométrica dos últimos dez dias é igual ou maior que 30mm. Assim, após dez dias consecutivos nessas condições, é emitido o primeiro alerta de pulverização específica. Então os demais alertas são emitidos considerando o período de molhamento foliar ou da umidade relativa do ar maior que 85% e a temperatura média ambiente desse período. Para cada período há um valor de severidade da requeima que varia de zero (ausência) até quatro (muito favorável). Quando o somatório desses valores atinge o índice oito é emitido o alerta e, consequentemente, deve-se efetivar uma pulverização com fungicida sistêmico. A rotatividade do princípio ativo também se aplica nesse caso (Becker, 2004; Becker, 2005; Becker et al. 2011).
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

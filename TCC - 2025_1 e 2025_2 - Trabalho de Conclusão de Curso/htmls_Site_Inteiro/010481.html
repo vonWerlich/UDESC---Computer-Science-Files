@@ -1,0 +1,358 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9860&amp;isEdicao=N&amp;epagriTEC=S">PISCICULTURA EM VIVEIROS ESCAVADOS</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="/sedimob/img/icone_vazio.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9894&amp;isEdicao=N&amp;epagriTEC=S">Boas práticas de manejo</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=10481&amp;isEdicao=N&amp;epagriTEC=S">         Monitoramento e manejo de qualidade de água</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="17899">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="010481">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[17899]{66}2018-01-24_(25).jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Bruno Corrêa da Silva </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>Quando e como monitorar os parâmetros de qualidade de água? </b><br>
+<p class="p1"><div> O monitoramento dos parâmetros da qualidade da água de forma adequada é importante para a padronização das medidas e precisão dos resultados, tornando as tomadas de decisões mais assertivas durante o cultivo.  <br> </div></p>
+<b>RECOMENDAÇÕES:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> 1- OXIGÊNIO:<br>
+Essa recomendação é para o monitoramento diário, onde o produtor saberá o menor valor de oxigênio dissolvido no dia. Contudo, é necessário periodicamente monitorar o oxigênio ao anoitecer para regular os horários dos aeradores conforme orientações no item: <a href="javascript:chamarPagina(10483)">uso de aeradores</a>. <br><br>
+
+2- TRANSPARÊNCIA: A iluminação interferirá na análise, com isso, preferencialmente deverá ser realizado a medição com tempo ensolarado. <br><br>
+
+3- Se houver visivelmente algum problema no cultivo, estes parâmetros deverão ser monitorados semanalmente. <br><br>
+
+4-  Níveis conforme as tabelas dos itens <a href="javascript:chamarPagina(10060)">amônia</a> e <a href="javascript:chamarPagina(10061)">nitrito</a>.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26053,010481,17899,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17899]{283}recomendacoes.jpg">  </a> 
+<br><br>
+<b>LOCAL DE MEDIÇÃO E COLETA DE ÁGUA NO VIVEIRO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O local de medição e coleta de água no viveiro deverá ser na saída do viveiro próximo ao monge e entre 1 e 1,5m de profundidade na coluna de água. Essa amostra dará um resultado mais crítico do viveiro (água de saída do fundo), servindo de alerta para possíveis problemas que podem acontecer nos dias subsequentes.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ANÁLISES DE OXIGÊNIO, TEMPERATURA E TRANSPARÊNCIA: </b><br>
+<p class="p1"><div> As análises de oxigênio, temperatura e transparência deverão ser realizadas diretamente no viveiro. Já as demais análises poderão ser coletadas, com auxílio da garrafa de coleta, e realizadas posteriormente.<br> <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26054,010481,17899,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17899]{466}monitoramento.jpg">  </a> 
+<br><br>
+<b>EQUIPAMENTOS PARA MEDIÇÃO:</b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26055,010481,17899,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17899]{392}equipamentos.jpg">  </a> 
+<br><br>
+<b>MEDIDAS CORRETIVAS:</b><br>
+<p class="p1"><div> E o que fazer com esses dados coletados? A seguir seguem as medidas remediadoras a serem tomadas quando os parâmetros de qualidade de água estão inadequados. <br> </div></p>
+<b>PROBLEMA: Oxigênio</b><br>
+<p class="p1"><div> <u>Oxigênio abaixo de 4mg por litro pela manhã:</u><br>
+- Verificar dimensionamento e horários dos aeradores;<br>
+- Verificar a tabela de alimentação, se necessário baixar a taxa de arraçoamento. <br> </div></p>
+<b>PROBLEMA: Transparência </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <u>Transparência abaixo de 25cm com coloração esverdeada:</u><br>
+- Verificar a taxa de arraçoamento e sobras de ração;<br>
+- Controlar com maior frequência a alcalinidade.<br><br>
+
+<u>Transparência abaixo de 25cm com coloração argilosa:</u><br>
+- Aplicar gesso (250 a 500g por m²) ou cal hidratada (2 a 5g por m²) para precipitação da argila.<br><br>
+
+<u>Transparência acima de 40cm:</u><br>
+- Verificar alcalinidade e corrigir com calcário se necessário;<br>
+- Fertilizar a água do viveiro (<a href="javascript:chamarPagina(10480)">fertilização de viveiro</a>).<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PROBLEMA: pH</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <u>Alta variação diária do pH (acima de 2 unidades):</u><br>
+- Verificar alcalinidade e se necessário corrigir com calcário;<br>
+- Verificar transparência e tentar controlar.<br><br>
+
+<u>pH abaixo de 6:</u> <br>
+- Corrigir com calcário (200g por m²).<br><br>
+
+<u>pH acima de 10:</u><br>
+- Verificar alcalinidade e se necessário corrigir com calcário;<br>
+- Verificar transparência e coloração da água (excesso de fitoplâncton), se necessário diminuir a alimentação.<br>
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PROBLEMA: Alcalinidade</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <u>Alcalinidade abaixo de 30mg por litro:</u><br>
+- Corrigir a alcalinidade com calcário<br>
+Abaixo de 10mg por litro – 300g m-²<br>
+Entre 10 a 20mg por litro – 200g m-²<br>
+Entre 20 a 30mg por litro – 100g m-²<br><br>
+
+- Pode ser corrigido com cal hidratada (2 a 5 g por m²)<br><br>
+
+Obs: A aplicação da cal hidratada deve ser feita nas doses recomendadas e apenas com acompanhamento de um técnico, realizando o monitoramento do pH da água durante sua aplicação.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PROBLEMA: Amônia</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <u>Amônia (<a href="javascript:chamarPagina(10060)">nível amarelo</a>):</u><br>
+- Diminuir a alimentação em 30%;<br>
+- Verificar alcalinidade e corrigir se necessário;<br>
+- Aumentar a aeração;<br>
+- Aplicar o biorremediador periodicamente.<br><br>
+
+<u>Amônia (<a href="javascript:chamarPagina(10060)">nível vermelho</a>):</u><br>
+- Não alimentar até voltar a níveis seguros;<br>
+- Verificar a alcalinidade e corrigir se necessário;<br>
+- Aumentar a aeração;<br>
+- Renovar a água do fundo;<br>
+- Aplicar o biorremediador periodicamente.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PROBLEMA: Nitrito</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <u>Nitrito (<a href="javascript:chamarPagina(10061)">nível amarelo</a>):</u><br>
+- Diminuir a alimentação em 30%;<br>
+- Verificar alcalinidade e corrigir se necessário;<br>
+- Aumentar a aeração;<br>
+- Aplicar o biorremediador periodicamente;<br>
+- Aplicar sal conforme indicação acima.<br><br>
+
+<u>Nitrito (<a href="javascript:chamarPagina(10061)">nível vermelho</a>):</u><br>
+- Não alimentar até voltar a níveis seguros;<br>
+- Verificar alcalinidade e corrigir se necessário;<br>
+- Aumentar a aeração;<br>
+- Renovar a água do fundo;<br>
+- Aplicar o biorremediador periodicamente;<br>
+- Aplicar sal conforme a indicação acima.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>RENOVAÇÃO DE ÁGUA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A renovação de água contínua ou de forma indiscriminada não é indicada pelos autores. Sendo assim, somente será indicada quando os níveis de amônia ou nitrito estiveram no nível vermelho. Além disso, para renovar de forma mais eficiente o produtor deverá baixar o viveiro a uma altura segura (baixar no máximo cerca de 20 a 30% do volume do viveiro) e fazer a reposição da água. A renovação contínua (água entrando e saindo ao mesmo tempo), de forma geral, não é tão eficiente quanto ao método descrito acima, além de ser uma porta de entrada para patógenos.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Anexo: Cartilha de qualidade de água para criação de tilápia</b><br>
+<p class="p1"><div> Para acessar a cartilha, <a target="_blank" href="https://docweb.epagri.sc.gov.br/website_epagri/Cedap/Cartilha/2-Cartilha-piscicultura-tilapia-qualidade-de-agua.pdf">CLIQUE AQUI!</a> <br> </div></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+(1) SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Haluko Massago (Dra. - Epagri) </font> 
+<br> <font size="2">• Bruno Corrêa da Silva (Dr. - Epagri) </font> 
+<br> <font size="2">• Jorge de Matos Casaca (Dr. - Epagri) </font> 
+<br> <font size="2">• Raphael de Leão Serafini (Dr. - Epagri) </font> 
+<br><br><br> <font size="2"> Criado em: 07/03/2023</font>
+<br> <font size="2"> Última atualização: 28/03/2023</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=010481&amp;cdElemento=17899">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=17899');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

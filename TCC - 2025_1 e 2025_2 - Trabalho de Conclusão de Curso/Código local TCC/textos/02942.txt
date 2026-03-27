@@ -1,0 +1,29 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - G) MANEJO DAS PRINCIPAIS DOENÇAS FÚNGICAS - i) Medidas gerais para o manejo de doenças causadas por fungos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02942&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2704%5D%7B41%7Dcapa_1.jpg
+
+-- Sementes e mudas: --
+A disseminação de doenças a longas distâncias, ou sua introdução na lavoura, ocorre, na maioria dos casos, pelas sementes ou mudas infectadas. Por esse motivo, a escolha de sementes deve ser cuidadosa, preferindo-se sementes selecionadas, fiscalizadas e certificadas. Se adquirir mudas de viveiros, o registro de procedência e o certificado fitossanitário, assinado por responsável técnico, devem acompanhar o lote.
+
+-- Local e época de plantio: --
+Na produção de mudas, deve-se escolher local isolado, longe de outras solanáceas ou plantações de tomateiro. O local deve ser bem drenado e arejado. O emprego de substratos isentos de patógenos, bem como a desinfestação das bandejas, são obrigatórios. Para o plantio devem-se evitar áreas com histórico de patógenos de solo e o plantio em baixadas úmidas sujeitas à formação de neblina (baixadas mal ventiladas e/ou em áreas mal drenadas); o local de plantio deve ser preferencialmente com exposição norte e a orientação de linhas leste-oeste para aumentar a insolação, a ventilação e diminuir a umidade ambiente. A época de plantio deve ser de acordo com o zoneamento agroclimático e a recomendação do cultivar.
+
+-- Cultivares resistentes: --
+Os cultivares comercialmente disponíveis não possuem resistência a todas as doenças; deve-se verificar e dar preferência ao cultivar que possui resistência para a doença prevalente no local de cultivo.
+
+-- Irrigação: --
+A água utilizada para irrigação deve ser de boa qualidade e que não passe por lavouras contaminadas; na produção integrada é proibido o uso de irrigação por aspersão, devendo-se usar a irrigação por gotejamento para restringir a disseminação de fitopatógenos.
+
+-- Práticas culturais: --
+Em áreas com histórico de doença deve-se fazer rotação com gra-míneas por três ou mais anos. Durante esse período não deve ser cultivado qualquer espécie de solanácea. No caso de fusariose, a rotação de culturas por cinco anos pode amenizar a incidência, mas não tem grande efetividade. O uso de quebra-vento e a condução da cultura de modo que receba maior insolação e ventilação (condução vertical no sentido leste-oeste, recomendado na produção integrada) diminuem a condição ambiente favorável à doença; a calagem e a adubação devem ser equilibradas, realizadas de acordo com critérios técnicos, principalmente quanto ao excesso de nitrogênio. Níveis de N e P baixos e de K elevado favo-recem algumas doenças, bem como nitrogênio na forma amoniacal, sendo preferível usar N na forma nítrica; os mourões e estacas (quando não usar fitilho) devem ser novos ou tratados com hipoclorito de sódio 1% ou outro desinfetante (500g de oxicloreto de cobre 50% em 100 litros de água e um espalhante adesivo); no caso de arames usar hipoclorito de sódio 1% (cúpricos causam oxidação do fio); os tratos culturais de amarração, desbrota, pulverização e capinas devem ser iniciados sempre por onde a cultura estiver mais sadia, deixando para o final áreas onde forem observadas focos de doença; plantas doentes devem ser arrancadas e eliminadas da lavoura; dar preferência ao fazer a desbrota quando o clima estiver seco; dimi-nuir o trânsito de pessoas e máquinas em áreas com a doença; em ano com previsão de verão chuvoso, deve-se aumentar o espaçamento entre plantas, o que permite melhor aeração do cultivo; as duas primeiras folhas baixeiras em estádio avançado de maturação fisiológica (em 81torno dos 50 dias após o transplante) devem ser retiradas da planta e do local, a fim de dimi-nuir o inóculo e aumentar o arejamento na base da planta; segundo a Instrução Normativa no 24/DAS, deve-se eliminar os restos culturais até 10 dias após a última colheita de cada talhão.
+
+-- Controle biológico: --
+Produtos biológicos contendo micro-organismos benéficos como Trichoderma sp; Lactobacillus plantarum, Bacillus subtilis, Enterococus faecium são recomendados para aplicação via rega, na bandeja e/ou no momento do transplante para proteção contra doenças do solo.
+
+-- Controle químico: --
+O uso descontrolado das pulverizações acarreta desequilíbrios biológicos que resultam na perda da eficiência do agroquímico pela ocorrência de fungos resistentes ou recrudescimento de doenças secundárias. No Sispit adota-se o monitoramento semanal de vistoria de plantas e a ocorrência da condição ambiente favorável à doença como determinantes do controle químico. Nessa forma de controle, devem ser levadas em consideração as medidas anteriores para o seu manejo, pois somente o uso de químicos utilizados isoladamente nem sempre é eficaz. Os produtos químicos, obrigatoriamente, devem ter registro no Ministério da Agricultura, Pecuária e Abastecimento (Mapa/Agrofit) e seu uso deve ser orientado por profissional credenciado. Dar preferência para produtos de classe toxicológica III e IV, com a observância do período de carência. A rotação do princípio ativo é indicada para evitar a resistência, observando-se as indicações do Fungicide Resistance Action Committee (Frac).
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

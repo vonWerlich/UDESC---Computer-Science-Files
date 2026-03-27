@@ -1,0 +1,9 @@
+Título: CEBOLA - DIAGNOSE VISUAL - Folhas - Redução do crescimento
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016702&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B402%7D%5B12699%5D%7B276%7Dfigura_11.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16702%5D%7B250%7D%5B16647%5D%7B402%7D%5B12699%5D%7B276%7Dfigura_11.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16702%5D%7B543%7D%5B12702%5D%7B168%7Dfigura_15.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16702%5D%7B309%7D%5B12694%5D%7B129%7Dfigura_3.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16702%5D%7B374%7D%5B12700%5D%7B310%7Dfigura_13.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16702%5D%7B80%7D%5B12705%5D%7B524%7Dfigura_18.jpg

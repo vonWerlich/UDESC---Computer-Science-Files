@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 1. Diagnóstico a partir da lavouraInicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca. - Está ocorrendo perda de estande (número de plantas/m²) na lavoura - A falha no estande é pela perda de plantas já germinadas - As plantas estão sendo comidas por inteiro ou secando - As plantas estão amareladas ou têm folhas, panículas ou grãos secando. Pode haver espuma branca no colo da planta - Apenas a folha central, a panícula ou grãos estão secando - Apenas grãos estão secando ou ficando chochos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021484&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21479%5D%7B154%7Dlav09_graoseco.jpg
+DIAGNOSE VISUAL
+1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+Está ocorrendo perda de estande (número de plantas/m²) na lavoura
+A falha no estande é pela perda de plantas já germinadas
+As plantas estão sendo comidas por inteiro ou secando
+As plantas estão amareladas ou têm folhas, panículas ou grãos secando. Pode haver espuma branca no colo da planta
+Apenas a folha central, a panícula ou grãos estão secando
+Apenas grãos estão secando ou ficando chochos
+Verifique no local: PERCEVEJO-DO-GRÃO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21484%5D%7B518%7Ddano_pgrao.jpg
+Legenda: Verifique no local: PERCEVEJO-DO-GRÃO
+17124
+Verifique no local: PERCEVEJO-DO-GRÃO
+PÁSSAROS GRANÍVOROS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21484%5D%7B177%7Dchave_fig23.jpg
+Legenda: PÁSSAROS GRANÍVOROS
+17125
+PÁSSAROS GRANÍVOROS

@@ -1,0 +1,20 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - DOENÇAS QUARENTENÁRIAS - MOKO DA BANANEIRA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021723&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18410%5D%7B419%7Dmoko_planta_atacada.jpg
+
+-- DESCRIÇÃO --
+O moko da bananeira é considerado uma importante doença da bananeira. Em alguns países da América do Sul, causa graves problemas, sendo um grande foco de atenção dos serviços de vigilância sanitária vegetal. Essa doença já chegou a ser considerada a principal doença da cultura no Brasil em função de seu potencial de danos nas décadas de 1970 e 1980. Foi verificada inicialmente no Amapá, em 1976, onde se originou uma campanha de erradicação da doença. Focos foram registrados em outros estados do Nordeste, com novas campanhas de erradicação( 1 ). Em Santa Catarina já foram eliminados focos da doença, sendo o Estado considerado como livre do moko da bananeira. A doença é causada pela bactéria Ralstonia solanacearum raça 2, sendo conhecidas várias estirpes dessa raça patogênicas à bananeira. Existem vários hospedeiros alternativos da bactéria, inclusive plantas daninhas. Ela ainda sobrevive no solo por dois meses em condições de solo seco, e até quatro meses em solos úmidos. A disseminação em longa distância ocorre basicamente por mudas contaminadas, enquanto em curta distância pode ocorrer devido a insetos polinizadores que visitam as brácteas de plantas doentes e a ferramentas de desfolha, desbrota ou capina( 1 ).
+
+-- SINTOMAS --
+A doença causa vários sintomas sistêmicos na planta, passando pela murcha, amarelecimento e morte das folhas. Também podem ser observados o apodrecimento e distorções dos perfilhos, assim como a necrose interna dos frutos. É importante ressaltar que o mal-do-Panamá e o moko têm sintomas similares, o que pode causar confusão em sua diferenciação. No entanto, problemas de podridão nos perfilhos e necrose nos frutos não ocorrem no mal-do-Panamá. O teste do copo com pedaços do pseudocaule da bananeira também pode ser útil, com a presença de exsudados indicando se tratar de um problema com a bactéria causadora do moko (Foto abaixo) .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18410%5D%7B95%7Dmoko_exudacao_e_pseudocaule.jpg
+Legenda: EXSUDADOS DE MOKO EM PSEUDOCAULE DE BANANEIRA Fonte: Epagri
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18410%5D%7B243%7Dmoko_teste_do_copo.jpg
+Legenda: TESTE DO COPO PARA DETECÇÃO DE EXSUDADOS DE BACTÉRIAS À CAMPO Fonte: Epagri
+
+-- CONTROLE --
+As medidas de controle baseiam-se inicialmente em manter o local ou região livre da doença. Neste caso, adotam-se medidas legais para evitar a introdução, como barreiras sanitárias e exigência de certificados fitossanitários de origem. Havendo qualquer caso suspeito, o produtor deve notificar o órgão de fiscalização agropecuária do seu estado, como a Cidasc, em Santa Catarina.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )CORDEIRO, Z.J.M.; MATOS, A.P.; KIMATI, H. Doenças da bananeira (Musa sp.) In: KIMATI, H.; AMORIM, L.; BERGAMIN FILHO, A.; CAMARGO, L.E.A. (Ed.). Manual de fitopatologia. 4.ed. São Paulo: Agronômica Ceres, 2005. v.2. p.99-117.

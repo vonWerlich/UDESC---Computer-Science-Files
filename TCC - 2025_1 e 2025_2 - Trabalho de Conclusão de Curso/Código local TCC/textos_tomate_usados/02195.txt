@@ -1,0 +1,22 @@
+Título: TOMATE - Tratos Culturais - Irrigação - 1) Consumo de água pelo tomateiro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02195&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1987%5D%7B241%7Ddestaque-creditos-waldir-marouelli.jpg
+
+-- Estádio inicial do desenvolvimento: --
+O estádio inicial do tomateiro compreende o período pós transplantio até o pegamento e desenvolvimento inicial das mudas (10 a 12 dias após o transplante). O transplante de mudas deve ser feito em solo úmido, seguido de irrigação. Recomenda-se transplantar as mudas no final da tarde, ou em dias nublados, para reduzir o estresse inicial do plantio. Para esse estádio as irrigações devem ser leves e frequentes, procurando manter a umidade próxima à capacidade de campo (3). Como referência, pode-se irrigar quando a tensão de água no solo atingir entre 5-20 kPa, considerando o limite inferior para solos de textura grossa (arenosos) e períodos de alta evapotranspiração. Nesse caso, a avaliação da tensão deve ser realizada a não mais de 5 cm de distância da muda e de profundidade (2).
+
+-- Estádio vegetativo: --
+O estádio vegetativo, que vai do estabelecimento das mudas até o início da frutificação, é a fase em que a planta mais tolera o déficit de água no solo. Submeter as plantas a condições de deficiência hídrica moderada, no início do estádio vegetativo, é uma estratégia de manejo que favorece o aprofundamento das raízes do tomateiro, permitindo maior eficiência futura na absorção de água e de nutrientes pelas raízes. Quando aplicada durante todo o estádio vegetativo, tal estratégia minimiza a ocorrência de algumas doenças causadas por patógenos de solo (1). No caso do gotejamento, irrigar considerando uma tensão-crítica entre 30-70 kPa (2).
+
+-- Frutificação: --
+A frutificação é o estádio que exige maiores cuidados quanto ao fornecimento de água. Ainda que moderada, a ocorrência de déficit hídrico reduz o tamanho dos frutos, ocasiona a deficiência de cálcio (fundo preto) e compromete a produtividade. Por outro lado, o excesso hídrico favorece a ocorrência de doenças, principalmente aquelas vinculadas ao solo. Assim, o manejo da irrigação durante a frutificação exige muita atenção por parte dos produtores, sendo uma fase decisiva para o sucesso da lavoura (3). Para o manejo de irrigação por gotejamento nesse estádio, deve-se procurar manter a umidade do solo próxima à capacidade de campo, ou seja, irrigar quando a tensão atingir 10-15 kPa (2).
+
+-- Maturação dos frutos: --
+No último estádio de desenvolvimento da cultura, que é a maturação dos frutos, compreendido entre a frutificação até a última colheita, ocorre uma redução no uso de água pelas plantas, que pode chegar a 50% em relação ao estádio de frutificação. Assim, nesta fase, recomenda-se fazer um turno de rega mais espaçado do que aquele adotado durante a frutificação (3). Para máxima produtividade de frutos, irrigar sempre que a tensão-crítica de água no solo atingir 15-30 kPa para gotejamento. Para a produção de frutos com teor mais alto de sólidos solúveis, permitindo-se uma pequena redução de produtividade, deve-se irrigar apenas quando a tensão atingir 40-50 kPa (2).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1987%5D%7B501%7Ddestaque-creditos-waldir-marouelli.jpg
+Legenda: Tomateiro com manejo correto da irrigação e ótima resposta em produtividade. Foto: Waldir Marouelli
+
+-- Informações Complementares --
+(1) MAROUELLI, W.A.; LAGE, D.A.C.; BRAGA, M.B. Irrigação da cultura do tomateiro orgânico: enfoque no manejo de doenças e de insetos-praga. Brasília, DF: EMBRAPA, 2014. 107 p. (2) Waldir A. Marouelli et al. Irrigação do tomateiro para processamento. Circular Técnica 102, Brasília, DF, Março, 2012. ISSN 1415-3033. (3) Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019.

@@ -1,0 +1,13 @@
+Título: CEBOLA - Escolha do cultivar - Dulciana
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018359&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16006%5D%7B392%7Ddulciana.png
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Nunhems Polinização: Híbrido Cor da película do bulbo: Amarela Cor da polpa do bulbo: Branca
+
+-- OBSERVAÇÃO: --
+- Alta uniformidade; - Alta qualidade de bulbo; - Maior produtividade e lucratividade; - Excelente resistência à raiz rosada.
+
+-- Informações Complementares --
+Informações coletadas no site da empresa ( https://www.nunhems.com/br/pt.html ).

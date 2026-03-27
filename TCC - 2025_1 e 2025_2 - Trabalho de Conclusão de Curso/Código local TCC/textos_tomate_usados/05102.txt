@@ -1,0 +1,45 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Murcha de fusarium (Fusarium oxysporum)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=05102&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1857%5D%7B268%7Dimg-20211211-wa0006.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1857%5D%7B233%7Dimg-20211211-wa0007.jpg
+Legenda: Sintomas da doença na lavoura. Foto: Marcelo Zanella
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1857%5D%7B277%7Dimg-20211211-wa0008.jpg
+Legenda: Sintomas da doença na lavoura. Foto: Marcelo Zanella
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1857%5D%7B151%7Dimg-20211211-wa0006.jpg
+Legenda: Sintomas da doença no caule da planta. Foto: Marcelo Zanella
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1857%5D%7B365%7Dimg-20211211-wa0005.jpg
+Legenda: Sintomas da doença no caule da planta. Foto: Marcelo Zanella
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1857%5D%7B207%7Dimg-20211211-wa0009.jpg
+Legenda: Sintomas de murcha das folhas devido a ocorrência do Fusarium. Foto: Marcelo Zanella
+
+-- INFORMAÇÕES GERAIS: --
+- No Brasil, pode ser encontrada em quase todas as regiões produtoras, sendo constatada inclusive em cultivos protegidos (2). - Sua disseminação se dá por água de irrigação, implementos agrícolas e sementes. Os patógenos sobrevivem em sementes e clamidósporos (1). - Nas áreas onde a murcha–de–fusário ainda não ocorre, o manejo pelo princípio da exclusão, visando o impedimento da entrada do patógeno na área de cultivo, é o mais importante (2). - No Brasil, não era um problema muito grande no passado, pois as principais cultivares híbridas eram resistentes as raças 1 e 2. Contudo, em 2003 (em Espírito Santo) foi confirmada a presença da raça 3 e essa doença voltou a ter relevância e vem causando muitos prejuízos. De lá pra cá, além do ES, a raça 3 foi confirmada nos Estados de SP, RJ, MG, GO, BA e CE, além do distrito federal (10). Pelo levantamento que vem sendo feito pela Embrapa desde 2003, a raça 3 ainda não foi confirmada na região Sul do Brasil (10).
+
+-- SINTOMAS: --
+- A doença, pode se manifestar em qualquer estádio de desenvolvimento do tomateiro, mas, é mais comum em plantas no início de florescimento e frutificação (2). - Os sintomas mais evidentes da doença são o amarelecimento das folhas a partir das mais velhas, seguido de murcha da planta toda. Os sintomas da murcha–de–fusário do tomateiro iniciam–se pelas folhas basais que perdem a turgidez, tornam–se amareladas, apresentam crestamento do limbo e, finalmente, caem (2). - Nos frutos, a área apodrecida adquire coloração marrom-claro e fica coberta por estruturas brancas do fungo. Os frutos próximos ao solo são mais afetados (6). - Quando se corta transversalmente a raiz ou o caule de uma planta doente, pode–se observar o típico escurecimento de vasos, que evidencia a presença do patógeno (2). - O escurecimento dos tecidos vasculares infectados é mais intenso na base do caule sendo uma característica marcante, embora não exclusiva da doença. A planta quando infectada também pode apresentar crescimento retardado (2).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+1. Baixa intensidade de luz (7; 5). Solução: Em cultivo protegido o plástico deve ser limpo no mínimo a cada 6 meses, visando o aumento da luminosidade dentro do ambiente. 2. Baixo pH (7). Solução: Calagem do solo para elevar pH 6,5-6,8. - Condições favoráveis ao patógeno: déficit hídrico; solo arenoso (1); dias curtos; tecidos vegetais deficientes em nitrogênio, fósforo e cálcio; adubação nitrogenada excessiva, especialmente com amônia (5). A doença é favorecida quando a temperatura for de 25-28ºC (7), alta umidade do solo.
+
+-- DISPERSÃO E SOBREVIVÊNCIA: --
+- Sementes (mudas), água irrigação, máquinas e implementos (10). - Estruturas de resistência (clamidósporos), que sobrevive no solo por 5 a 8 anos. - Esse fungo só consegue atacar plantas do gênero solanum (Secção Lycopersicon), que são os parentes mais próximos do tomateiro.
+
+-- Controle genético: --
+Controle genético, por meio do plantio de cultivares resistentes. Pesquisar no próprio aplicativo pelos seguintes genes de resistência: Fcr - Fusarium crown Fol - Fusarium oxysporum f.sp. melonis - raça 0 For - Fusarium oxysporum f.sp. radicis-lycopersici Fr - Fusarium radicis lycopersici F1 - Fusarium oxysporum f.sp. lycopersici - raça 1 F2 - Fusarium oxysporum f.sp. lycopersici - raça 2 F3 - Fusarium oxysporum f.sp. lycopersici - raça 3
+
+-- Controle biológico: --
+- Uso de biofertilizantes a 5%, aplicado através do sistema de gotejo, durante todo o ciclo da lavoura, com objetivo de estimular a microbiota antagonista presente no solo. - Trichoderma asperellum está registrado no MAPA para o controle de Fusarium solani em sistemas orgânicos de produção.
+
+-- Controle cultural: --
+- Manipulação da fertilidade do solo (adicionar calcário para obter pH no mínimo 7,0; evitar o uso de micronutrientes; evitar o uso excessivo de fósforo e magnésio; usar nitrogênio na forma de nitrato, evitando a forma amoniacal; aplicar fertilizantes em bandas próximo às raízes e não diretamente na cova) (2). - Elevados níveis de fósforo (superfosfato) acima do requerido para o crescimento do tomateiro aumentam a severidade de F. oxysporum f.sp. lycopersici em pH 6,0 (4). - Níveis equilibrados de cálcio contribuem a redução da severidade de F. oxysporum f.sp. lycopersici (4). - Impedir a drenagem de água de local infestado para novas áreas de plantio (2). - Uso da rotação de culturas com plantas não hospedeiras por cinco a sete anos, com gramíneas como arroz, milho e pastagem (9). - Prevenir a disseminação do patógeno eliminando o movimento de solo infestado, bem como o trânsito de máquinas, animais e operários de lavouras doentes para áreas livres da doença (2). - Eliminar os restos culturais diminuindo, assim, o inóculo inicial para o próximo ciclo da cultura (2). - Evitar plantar em áreas com nematoides, pois aumenta a severidade da doença, em função dos ferimentos causados nas raízes, que servem de porta de entrada para o patógeno (8).
+
+-- Controle físico: --
+- Solarização do solo durante as estações mais quentes do ano.
+
+-- Controle químico: --
+Nenhuma medida de controle químico é efetiva e economicamente viável no controle da murcha–de–fusário em tomateiro.
+
+-- Informações Complementares --
+(1) ZAMBOLIM, L.; VALE; F. X. R. do; COSTA, H. Controle integrado das doenças de hortaliças. Viçosa: UFV, Departamento de Fitopatologia, 1997. (2) Domingos Eduardo Guimarães Tavares de Andrade et al. Murcha–de–fusário: importante doença do tomateiro no estado de pernambuco. Anais da Academia Pernambucana de Ciência Agronômica, Recife, vols. 5 e 6, p.243-263, 2008-2009. Disponível em: "https://ainfo.cnptia.embrapa.br/digital/bitstream/item/19394/1/Andrade.pdf". (3)https://sistemasdeproducao.cnptia.embrapa.br/FontesHTML/Tomate/TomateIndustrial_2ed/doencas_fungo.htm. (4) ZAMBOLIM, L.; VENTURA, J. A.; ZANÃO JR, L. A. Efeito da nutrição mineral no controle de doenças de plantas. Viçosa, MG: Os autores, 2012, 321p. (5) D. Blancard (INRA). Site: http://ephytia.inra.fr/fr/C/5217/Tomate-Biologie-epidemiologie. Acessado em: 27/08/2019. (6) Lopes, C.A.; Santos, J.R.M. Doenças do tomateiro. Brasília: Embrapa; 1994. (7) Vale, F.X.R.; Zambolim, L.; Zambolim, E.M.; Alvarenga, M.A.R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. UFLA, 2004. cap 9, pag 213-309. (8) Silva, J.B.C.; Giordano, L.B.; Furumoto, O. Sistemas de produção: Cultivo de tomate para industrialização. Embrapa. 2003. (9) Vale, F.X.R.; Junior, W.C.J.; Rodrigues, F.A.; Costa, H.; Souza, C.A.; Tomate: tecnologia de produção. Viçosa. 2007. Cap 9, pag 177-180. (10) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Ailton Reis. Tema: Manejo de doenças causadas por fungos e oomicetos da parte radicular do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra:

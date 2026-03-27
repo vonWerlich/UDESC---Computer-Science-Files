@@ -1,0 +1,23 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano é no colmo ou nas panículas, ainda que tenham folhas amareladas - A panícula ou os grãos apresentam sinais externos de dano - Apenas os grãos estão danificados ou manchados
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017052&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17042%5D%7B371%7Dpl35_graomanchado.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano é no colmo ou nas panículas, ainda que tenham folhas amareladas
+A panícula ou os grãos apresentam sinais externos de dano
+Apenas os grãos estão danificados ou manchados
+Os grãos estão chochos ou têm a casca manchada. Podem estar envoltos por massa pulverulenta negra ou esverdeada
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17052%5D%7B221%7Dpl35_graomanchado.jpg
+Legenda: Os grãos estão chochos ou têm a casca manchada. Podem estar envoltos por massa pulverulenta negra ou esverdeada
+17059
+Os grãos estão chochos ou têm a casca manchada. Podem estar envoltos por massa pulverulenta negra ou esverdeada
+Os grãos estão esbranquiçados e com aspecto prensado (pássaros granívoros)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17052%5D%7B403%7Dgraos_chochos_passaros.jpg
+Legenda: Os grãos estão esbranquiçados e com aspecto prensado (pássaros granívoros)
+17058
+Os grãos estão esbranquiçados e com aspecto prensado (pássaros granívoros)

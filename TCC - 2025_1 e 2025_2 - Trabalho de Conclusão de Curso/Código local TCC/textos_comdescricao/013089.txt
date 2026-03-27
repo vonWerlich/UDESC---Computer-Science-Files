@@ -1,0 +1,38 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Gorgulho-das-panículas (Neobaridia amplitarsis)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013089&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Gorgulho-das-panículas ( Neobaridia amplitarsis )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11370%5D%7B368%7Dgorgpan_caput.jpg
+FOTO: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11370%5D%7B293%7Dgorgpan_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11370%5D%7B292%7Dgorgpan_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11370%5D%7B479%7Dgorgpan_fig11.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11370%5D%7B52%7Dgorgpan_fig12.jpg
+
+-- INFORMAÇÕES GERAIS: Espécie neutra --
+Espécie: Neobaridia amplitarsis Casey Ordem: Coleoptera Família: Curculionidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11370%5D%7B106%7Dgorgpan_base.jpg
+
+-- IDENTIFICAÇÃO: --
+O gorgulho-das-panículas é um besouro fino e comprido, com cerca de 7,5 a 8,5mm de comprimento e coloração preta lustrosa. Como é característico nesta família de besouros, há uma espécie de tromba fina na cabeça, com as peças bucais na extremidade.
+
+-- CICLO DE VIDA: --
+Ainda desconhecido.
+
+-- OCORRÊNCIA: --
+Anual: de dezembro a fevereiro. Lavoura: do florescimento à maturação.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11370%5D%7B423%7Dgorgpan_fenologia.jpg
+
+-- DANOS: --
+Os adultos comem pólen e por isso vão para as panículas de arroz na época do florescimento. As larvas provavelmente broqueiam hastes florígenas novas de ciperáceas, abortando a floração nestas plantas.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Não são necessárias medidas de controle para esse inseto. Nota: tempos atrás, quando dos primeiros registros da ocorrência do gorgulho-das-panículas, acreditou-se que o inseto se tornaria uma praga importante para o arroz irrigado em Santa Catarina. Posteriormente, com o conhecimento dos hábitos da espécie, constatou-se que a ameaça era insignificante. Não obstante, ainda hoje, quando surgem surtos do gorgulho-das-panículas, os produtores ficam preocupados e temerosos quanto às possíveis perdas na lavoura.
+
+-- Informações Complementares --
+FERREIRA, E. Manual de identificação de pragas do arroz . Santo Antônio de Goiás: Embrapa-CNPAF, 1998. 110p. (Embrapa-CNPAF. Documentos, 90).
+FERREIRA, E. Manual de identificação de pragas do arroz . Santo Antônio de Goiás: Embrapa-CNPAF, 1998. 110p. (Embrapa-CNPAF. Documentos, 90).
+• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri) Manejo integrado de pragas

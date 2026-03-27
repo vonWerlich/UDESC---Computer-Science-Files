@@ -1,0 +1,10 @@
+Título: CEBOLA - Escolha do cultivar - Azteca
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014557&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12564%5D%7B315%7Dazteca.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Agrocinco Polinização: Híbrido Ciclo maturação/dias: 135 Formato do bulbo: Globular Cor da película do bulbo: Amarela Cor da polpa do bulbo: Branca Região/Época de plantio: Centro-oeste: Abril a Maio
+
+-- Informações Complementares --
+Informações coletadas e organizadas pelo autor

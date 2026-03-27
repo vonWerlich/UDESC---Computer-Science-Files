@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - E 26.34770 F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0947&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B829%5D%7B165%7De_26.34770.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Enza zaden; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Ff - Fulvia fulva (ex Cladosporium fulvum); Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+O híbrido de tomate saladete completo da Enza Zaden, que alia resistências à qualidade de frutos! Resistente a Geminivirus (TYLCV), Vira-cabeça (TSWV) e Fusarium 1, 2 e 3.
+
+-- PLANTAS E FRUTOS: --
+PLANTAS: Ótimo vigor com resistência ao geminivírus, vira-cabeça, nematoides, fusarium 1,2,3 e cladosporium. FRUTOS: Muito padronizados e firmes, com excelente coloração.
+
+-- Informação adicional: --
+Indicado para as principais regiões produtoras do Sudeste, CentroOeste e Nordeste do Brasil.
+
+-- RESISTÊNCIA: --
+ToMV:0-2 (Mosaico); Va e Vd (Verticillium); Fol (Fusarium); Ff: A-E (Cladosporium); TSWV (Vira-cabeça); TYLCV (Geminivírus); Ma/Mi/Mj (Nematóides);
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://webkiosk.enzazaden.com/tomate-e-pimentao-2018-2019/60794704 ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://webkiosk.enzazaden.com/tomate-e-pimentao-2018-2019/60794704

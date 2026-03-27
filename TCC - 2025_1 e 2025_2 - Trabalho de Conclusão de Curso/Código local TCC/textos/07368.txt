@@ -1,0 +1,17 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - d) Manejo de plantas e do cultivo para produção orgânica - 2) Espaçamento de plantio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07368&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6652%5D%7B405%7Dcapa_tomatorg.jpg
+
+-- Espaçamentos mais utilizados: --
+O espaçamento varia em função do vigor das plantas e do sistema de tutoramento. Os mais comuns são: 1,4m x 0,50m; 1,30m x 0,50m; 1,00m x 0,5 a 0,6m, entre linhas e entre plantas, respectivamente. Na Epagri, Estação Experimental de Itajaí (EEI), o espaçamento comumente utilizado é o de 1,0 m entre linhas e 0,6 m entre plantas.
+
+-- Critérios para levar em consideração: --
+A decisão sobre qual espaçamento adotar deve ser tomada ao observar as características da região e da área de cultivo. Em condições que favorecem a ocorrência de doenças foliares, como alta umidade relativa do ar e temperatura, devem-se utilizar maiores espaçamentos a fim de aumentar a ventilação e a luminosidade dentro do cultivo. Por outro lado, caso as condições ambientais sejam favoráveis para o cultivo, deve-se optar por menores espaçamentos, para aumentar a densidade de cultivo e a produtividade por área.
+
+-- Observação: --
+De forma geral, para a produção de tomate orgânico, devem prevalecer as medidas preventivas, ou seja, maiores espaçamentos.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

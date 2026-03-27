@@ -1,0 +1,48 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Mancha parda (Bipolaris oryzae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021640&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11372%5D%7B192%7Dmparda_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B355%7Dmparda_fig01.jpg
+Legenda: 01. Sintomas de mancha parda nas folhas. Fonte: K.K. Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B258%7Dmparda_fig02.jpg
+Legenda: 02. Folha com sintomas de mancha parda. Fonte: K.K. Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B35%7Dmparda_fig02a.jpg
+Legenda: 021. Sintomas de mancha parda nas folhas. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B278%7Dmparda_fig02b.jpg
+Legenda: 022. Mancha parda na folha bandeira. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B345%7Dmparda_fig03.jpg
+Legenda: 03. Manchas de mancha parda na folha. Fonte: K.K. Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B79%7Dmparda_fig04.jpg
+Legenda: 04. Lavoura com sintomas de mancha parda. Fonte: K.K. Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B464%7Dmparda_fig04a.jpg
+Legenda: 041. Lavoura com sintomas de mancha parda. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B366%7Dmparda_fig04b.jpg
+Legenda: 042. Lavoura com sintomas de mancha parda. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B483%7Dmparda_fig05.jpg
+Legenda: 05. Mancha parda nas folhas e nos grãos. Fonte: K.K. Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B282%7Dmparda_fig05a.jpg
+Legenda: 051. Mancha parda nas folhas e nos grãos. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B301%7Dmparda_fig06.jpg
+Legenda: 06. Sintomas de mancha parda nos grãos. Fonte: K.K. Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B116%7Dmparda_fig07.jpg
+Legenda: 07. Sintomas de mancha parda nos grãos. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11372%5D%7B431%7Dmparda_fig08.jpg
+Legenda: 08. Sintomas de mancha parda nos grãos. Fonte: K.K.Scheuermann
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: fungo Bipolaris oryzae A mancha parda manifesta-se principalmente nas folhas e nas glumas, podendo ocorrer também no coleóptilo e bainhas. Os danos associados à doença são decorrentes da redução na germinação das sementes, morte de plântulas originadas de sementes infectadas, destruição de área foliar e redução no peso e na qualidade dos grãos.
+
+-- SINTOMAS: --
+Os sintomas nas folhas são manchas ovais de cor marrom, distribuídas com relativa uniformidade sobre a superfície foliar, podendo apresentar centro branco ou cinza quando completamente desenvolvidas, sendo comum a presença de um halo amarelo. A infecção das panículas logo na fase inicial do florescimento pode provocar a esterilidade de espiguetas. Quando a infecção ocorre mais tardiamente, há formação de manchas de coloração marrom-escura, que podem coalescer e cobrir toda a superfície externa do grão. A infecção também se estende para a parte interna, causando a mancha dos grãos. Sob condições favoráveis, o fungo produz grande quantidade de estruturas reprodutivas sobre os grãos, vista como uma massa preta, podendo ser confundida com a cárie ou carvão.
+
+-- CONDIÇÕES FAVORÁVEIS: --
+• Uso de sementes infectadas, com presença de manchas - pode resultar na ocorrência da doença nas fases iniciais de desenvolvimento. • Solos pobres em nutrientes - agrava-se quando a deficiência é de potássio, magnésio, ferro e zinco. • Níveis extremos de nitrogênio no solo - tanto altos quanto baixos. • Estresse hídrico - provocado por falta de água.
+
+-- CONTROLE: --
+• Evitar cultivos consecutivos com o mesmo cultivar, especialmente se a doença ocorreu em cultivo anterior. • Corrigir a fertilidade do solo. • Prezar pela regularidade no fornecimento de água. Nota: a resistência genética à mancha parda é controlada por genes diferentes daqueles que controlam a resistência à brusone. Por isso, cultivares com boa resistência à brusone podem, em alguns casos, ser muito suscetíveis à mancha parda.
+
+-- Controle químico: --
+Nos casos em que se estiver utilizando cultivares suscetíveis, em áreas com histórico da doença, é necessária a aplicação de fungicidas, preferencialmente no estádio de emborrachamento, podendo ser necessária uma segunda aplicação em pleno florescimento. Principais fungicidas registrados para o controle de doenças na cultura do arroz no Brasil: Alterne ; Aproach Prima ; Bim 750 BR ; Brio ; Certeza N1 ; Dithane NT ; Folicur 200 EC ; Fusão EC ; Helmstar Plus ; Manzate 800 ; Nativo ; Priori ; Priori Top ; Score ; Tilt ; Vitavax-Thiram 200 SC1 ;
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.

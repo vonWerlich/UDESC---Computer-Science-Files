@@ -1,0 +1,19 @@
+Título: TOMATE - Fitossanidade - Pragas - Cigarrinha (Empoasca fabae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=073&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1951%5D%7B86%7D220px-empoasca_fabae_p1410127a.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1951%5D%7B239%7D220px-empoasca_fabae_p1410127a.jpg
+Legenda: Fonte: https://en.wikipedia.org/wiki/Empoasca_fabae. Foto: Autor desconhecido.
+
+-- IDENTIFIQUE A PRAGA CORRETAMENTE: --
+A cigarrinha mais comum que constitui uma praga na cultura do tomate é a Empoasca fabae. As cigarrinhas têm 2-30 mm de comprimento, movem-se de lado. Põem ovos verdes com forma de banana no lado inferior das folhas (1).
+
+-- DANOS: --
+Alimenta-se da seiva das plantas e onde tem sugado, a folha torna-se mais clara. No caso de uma danificação grave, toda a folha fica com uma coloração clara (1).
+
+-- CONTROLE: --
+- Aplicar uma cobertura morta adequada (desta maneira previne-se que as cigarrinhas formem casulos no solo) (1). - Pulverizar com uma solução de neem (amargoseira, Azadirachta indica) ou outros pesticidas usados localmente (ex. piretro, derris, cevadilha). O melhor momento para pulverizar é durante o primeiro mês, quando as plantas têm, aproximadamente, 10 cm de altura. É neste período que as cigarrinhas fêmeas põem ovos (1).
+
+-- Informações Complementares --
+(1) FONTE: https://books.google.com.br/books?isbn=9085730473. Fundação Agromisa e CTA, Wageningen, 2006.

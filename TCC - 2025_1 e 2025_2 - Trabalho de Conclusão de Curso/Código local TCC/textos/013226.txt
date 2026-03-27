@@ -1,0 +1,31 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares conveniados ou contratados - SCS Pantaneira
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013226&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11482%5D%7B414%7Dpantana_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar SCS Pantaneira é proveniente do cruzamento entre Epagri 108 e SC 151, realizado na Epagri em 1995. As gerações seguintes, bem como as avaliações técnicas, até a safra 2001/02, foram desenvolvidas pela Epagri-Estação Experimental de Itajaí (SC), quando foi selecionada a linhagem SC 240. A partir de 2002/03, esta linhagem foi avaliada em Mato Grosso do Sul (Fazenda San Francisco) durante 5 anos (2 anos em Dourados e Rio Brilhante e posteriormente, de 2005 à 2007 em Tocantins - Lagoa da Confusão). Foi lançado e protegido como cultivar em 2007. Caracteriza-se por ser de tipo moderno e destaca-se pelo excelente potencial produtivo, boa qualidade de grãos e ciclo médio. O cultivar foi desenvolvido para o Estado do Mato Grosso do Sul, através do convênio Fazenda San Francisco/Epagri.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: 9,0t/ha • Altura da planta: 112cm • Ciclo: Médio (125 a 138 dias) • Acamamento: Resistente • Reação à toxidez por ferro: Resistente • Reação à brusone: Resistente • Reação a baixas temperaturas (13°C): ?
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 2 • Classe: Longo fino • Renda do beneficiamento: 68,5% • Rendimento de grãos inteiros: 60,0% • Teor de amilose: 29,0% • Temperatura de gelatinização: Média
+
+-- FOLHAS: --
+• Cor: Verde-escura • Comprimento: 41cm • Largura: 1,7cm • Pubescência: Forte • Ângulo das folhas: Intermediário • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Branca a verde • Cor da aurícula: Incolor a verde • Cor do colo: Verde-clara
+
+-- COLMO: --
+• Comprimento: 85,2cm • Espessura: 0,9cm • Perfilhamento: Excelente • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Intermediário (27cm) • Exserção: Média (1 a 5cm) • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Verde • Cor do apículo na maturação: Palha • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,7mm • Espessura: 1,9mm • Largura: 2,2mm • Relação C/L: 3,44br> • Forma do grão: Alongado • Peso de mil grãos: 28,0g • Pilosidade: Média
+
+-- Informações Complementares --
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).

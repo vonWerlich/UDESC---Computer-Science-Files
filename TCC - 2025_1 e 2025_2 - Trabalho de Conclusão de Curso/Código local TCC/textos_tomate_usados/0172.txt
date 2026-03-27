@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Cienaga F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0172&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B76%5D%7B368%7Dcienaga.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Seminis; Finalidade: Copa; Grupo: Santa Cruz; Polinização: Híbrido; Precocidade: Muito alta (antes dos 90 dias); Resistência a bactérias e nematoides: Pst - Pseudomonas syringae pv. tomato; Resistência a fungos: Aal - Alternaria alternata f. sp. lycopersici; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Plantas vigorosas, de porte médio e compacto. Frutos firmes, muito uniformes em formato e tamanho, de excelente qualidade. Excelente enchimento dos frutos, paredes grossas, coloração e brilho. Híbrido longa vida gene RIN.
+
+-- DESCRIÇÃO DO PRODUTO: --
+Peso Médio Do Fruto: 180 a 200 g. Tipo Do Fruto: Santa Cruz. Tipo Da Planta: Indeterminada. Ciclo Médio Após Transplante: 75 a 80 dias.
+
+-- RESISTÊNCIA: --
+HR – TSWV, Aal, Fol:1,2 e Va:1/Vd:1 / IR - TYLCV e Pst:0.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.seminis.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.seminis.com.br.

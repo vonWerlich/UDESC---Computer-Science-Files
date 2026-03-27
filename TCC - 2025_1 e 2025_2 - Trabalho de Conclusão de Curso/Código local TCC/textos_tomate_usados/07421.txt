@@ -1,0 +1,57 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - l) Colheita, armazenagem e comercialização
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07421&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6695%5D%7B471%7D73.jpg
+
+-- INÍCIO DA COLHEITA: --
+A colheita se inicia por volta dos 60 e 70 dias após o transplantio das mudas para o campo, dependendo do clima do local de cultivo, manejo cultural e cultivares. O período total de colheita é igualmente variável e depende principalmente do número de cachos a serem colhidos.
+
+-- COMO PROCEDER NA COLHEITA: --
+A colheita é feita manualmente, duas a três vezes por semana, e depende da habilidade do coletor que deve avaliar se o fruto está dentro dos critérios preestabelecidos. O coletor deve colher os frutos evitando deteriorar a planta do tomateiro. Os acessórios mais comumente utilizados são sacolas, cestos, caixas e outras embalagens. Os tipos de instrumentos e acessórios utilizados são fundamentais para realizar uma colheita eficiente, pois esses influenciam a qualidade dos frutos e o rendimento do processo.
+
+-- ESTÁDIO DE MATURAÇÃO PARA A COLHEITA: --
+A escolha do estádio de maturação para colheita depende das preferências regionais, dos locais de comercialização e emprego culinário. De acordo com a Portaria n° 553/95 do Maara (BRASIL, 1995) e Anexo XVII da Portaria SARC nº 085/02 do Mapa (BRASIL, 2002a), o estádio de maturação classifica o tomate de coloração vermelha em cinco subgrupos: - Verde-maduro: quando se evidencia o início do amarelecimento na região apical do fruto; - Pintado: quando as cores amarelo, rosa ou vermelho encontram-se entre 10% a 30% da superfície do fruto; - Rosado: quando 30% a 60% do fruto encontra-se vermelho; - Vermelho: quando o fruto apresenta entre 60% e 90% da sua superfície vermelha; - Vermelho maduro: quando mais de 90% da superfície do fruto encontra-se vermelha.
+
+-- LIMPEZA DE FRUTOS: --
+Após realizar a colheita, é necessário fazer uma limpeza superficial dos frutos para retirar os resíduos das caldas protetoras e nutricionais que são aplicadas para efetuar o manejo das principais doenças e pragas do tomateiro.
+
+-- MATURAÇÃO DOS FRUTOS APÓS A COLHEITA: --
+Para mercados próximos, o tomate de mesa pode ser colhido no estádio rosado ou vermelho maduro, enquanto para mercados distantes pode ser colhido no estádio de maturação fisiológica verde maduro e completar sua maturação fora da planta (FERREIRA, 2004). Como o tomate é um fruto climatérico, pode desenvolver cor, aroma e sabor característicos em pós-colheita.
+
+-- DEFEITOS NOS FRUTOS: --
+Os defeitos encontrados no tomate na classificação definem o valor comercial do produto. Características como tamanho, cor, firmeza da polpa e casca, defeitos fisiológicos aparentes ou não, aparência geral do fruto, são determinantes para a preferência do consumidor (FERREIRA, 2004). A classificação do tomate in natura para o consumo pode ser efetuada pela identificação de grupos, subgrupos, classe e tipo, segundo a Portaria do Maara n° 553/95 (BRASIL, 1995).
+
+-- TEMPERATURA DE ARMAZENAGEM: --
+No período pós-colheita do tomate, quando os frutos são colhidos e rapidamente comercializados, as transformações são mais rápidas à medida que aumenta a temperatura de exposição dos frutos. Em temperatura ambiente, a vida de prateleira do tomate é variada, dependendo do grau de maturação, cultivar, manejo pós-colheita e embalagem (FERREIRA, 2004). A condição ideal de armazenamento é de temperatura entre 10 e 12°C e de 85 a 90% de umidade relativa do ar. Tomates colhidos no estádio verde-maduro e submetidos ao armazenamento em temperatura de 25°C e 70%UR têm aproximadamente 15 dias de vida de prateleira (MOURA et al., 2002). Contudo, o período ideal para o consumo é de aproximadamente oito dias, devido ao aumento da ocorrência de bolores e leveduras, redução da qualidade sensorial e redução da firmeza ao toque a partir do oitavo dia (FERREIRA, 2004).
+
+-- VIDA DE PRATELEIRA: --
+O aumento de vida de prateleira está relacionado à presença do gene ‘rin’, que proporciona redução da degradação das paredes celulares do pericarpo, na síntese do etileno, carotenoides e na respiração do fruto, que lhes proporcionam vida pós-colheita de 12 a 28 dias, dependendo do grau de maturação e da estação do ano (DELLA VECCHIA & KOCH, 2000).
+
+-- CONSERVAÇÃO PÓS-COLHEITA: --
+Como os frutos de tomate orgânico apresentam elevado valor de mercado, técnicas de conservação pós-colheita podem ser aplicadas para a manutenção da qualidade dos frutos. Uma delas é a aplicação de cera, por imersão ou pulverização, reduzindo a perda de água e conferindo aspecto atrativo após a secagem e polimento.
+
+-- COMERCIALIZAÇÃO: --
+A logística de distribuição apresenta dois circuitos distintos: circuitos curtos e longos. De acordo com pesquisa realizada recentemente (PESQUISA, 2017), os circuitos longos de comercialização ainda são os principais meios pelos quais o consumidor acessa os produtos orgânicos, principalmente através das grandes redes de supermercado (varejistas). Posteriormente, a comercialização em circuitos curtos, como é o caso das feiras livres, assume papel fundamental nessa etapa, pois cumpre a função de integrar o produtor e o consumidor final sem a necessidade de intervenção de intermediários.
+
+-- CANAIS DE VENDA: --
+Além das redes de supermercados (varejo), das feiras livres, existem outras formas de comercialização ainda pouco exploradas pelo produtor, porém não menos importantes. Pode-se citar a comercialização para mercados institucionais, a exemplo o Programa Nacional de Alimentação Escolar (PNAE), e a comercialização para indústrias de processamento de alimentos.
+
+-- FORMAS DE APRESENTAÇÃO DO PRODUTO FINAL: --
+Quanto às formas de apresentação do produto nos pontos de venda (PDVs), os tomates orgânicos podem ser encontrados expostos sem embalagens, vendidos diretamente pelo produtor geralmente em feiras livres. Nas redes de varejo, é muito comum o uso de bandejas de isopor rasas envoltas por filme plástico e embalagens plásticas transparentes de formatos variados. Contudo, existem diversas outras embalagens que são utilizadas no mercado de não orgânicos e que podem ser utilizadas pelos produtores para diferenciar o seu produto dos demais. Os tomates devem ser acondicionados em embalagens novas, limpas, secas e que não transmitam odor ou sabor estranho ao produto.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6695%5D%7B38%7D74.jpg
+Legenda: Embalagens de isopor envoltas por filme plástico para comercialização em grandes redes de mercado. Fonte: Morales et al., 2019.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6695%5D%7B49%7D73.jpg
+Legenda: Venda de tomate orgânico em feira livre. Fonte: Morales et al., 2019.
+
+-- NÃO PODE MISTURAR COM TOMATE DO SISTEMA CONVENCIONAL: --
+Os tomates orgânicos não devem estar mesclados aos tomates provenientes dos sistemas de produção convencional, tanto por ocasião da comercialização quanto na armazenagem e no transporte, para que não ocorra contaminação do produto exposto para venda.
+
+-- PREÇO DO TOMATE ORGÂNICO: --
+O preço praticado pelo produtor vai depender de diversos fatores, como a oferta de produtos orgânicos na região, a época do ano e, sobretudo, a qualidade do produto. O valor de mercado do tomate orgânico normalmente praticado no litoral Norte Catarinense varia entre R$8,00 a R$12,00 o quilograma, podendo atingir até R$15,00. Há relatos de produtores de outras regiões catarinenses comercializando a produção com valores acima de R$20,00/quilograma, o que torna o tomate orgânico um dos cultivos mais rentáveis dentre as principais espécies vegetais olerícolas.
+
+-- VIABILIDADE ECONÔMICA DO TOMATORG: --
+A receita bruta com a produção do tomate orgânico é, aproximadamente, o dobro da receita com a produção do tomate convencional e o lucro líquido da produção orgânica corresponde a 2,7 vezes mais que a convencional. Com isso, os autores concluíram que, seguida as recomendações do Tomatorg, o tomate orgânico é uma alternativa altamente viável e rentável no litoral do Norte Catarinense.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

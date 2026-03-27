@@ -1,0 +1,10 @@
+Título: BANANA - Cultivares - SCS451 Catarina
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021668&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18351%5D%7B331%7Dcap_3_-_fig_1_-_letra_g_-_buques_maduro_catarina_-_autoria_eliseu_emanoel_dos_santos.jpg
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo gerômico AAB, subgrupo Prata. Mutação natural do cultivar Branca, originária do sul de Santa Catarina. É moderadamente suscetível à sigatoka amarela e moderadamente resistente ao mal do panamá. Espaçamentos de plantio de 2,5m x 3,0m; 2,0m x 3,5m; 2,0m x 4,0m, ou 1.200 plantas por hectare. (Mais informações em:"Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.

@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - Taiuva F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0356&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B252%5D%7B359%7Dtaiuva.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Isla; Finalidade: Copa; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: Ty1 - Tomato yellow leaf curl virus 1 (ToLCV); Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Época de Semeadura: Verão. Ciclo Verão (dias): 120. Tipo de crescimento: Indeterminado. Peso comercial: 130 a 170g.
+
+-- DIFERENCIAIS: --
+Diferenciais: Frutos medianos a grandes, elevada carga de produção e destaque na coloração.
+
+-- USO/COMENTÁRIOS: --
+Maior tamanho de frutos.
+
+-- RESISTÊNCIA: --
+N, F, V e TY.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

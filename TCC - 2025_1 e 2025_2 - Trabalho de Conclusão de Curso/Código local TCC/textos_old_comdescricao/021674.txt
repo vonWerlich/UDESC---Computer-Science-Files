@@ -1,0 +1,18 @@
+Título: BANANA - Cultivares - Nanicão
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021674&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Nanicão
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18357%5D%7B239%7Dnanicao.jfif
+Folha de bananeira severamente afetada pela Sigatoka Amarela (Mycosphaerella musicola), onde se observam numerosas lesões características: inicialmente como pequenas estrias ou manchas pálidas e amareladas que evoluem para lesões necróticas mais definidas, de formato oval a alongado ou fusiforme, com centros de coloração castanho-claro a cinza-claro e bordas marrom-escuras ou pretas, frequentemente circundadas por um halo amarelo conspícuo; essas lesões estão densamente distribuídas e, em algumas áreas, coalescem, formando grandes manchas necróticas que levam ao amarelecimento (clorose) generalizado e à seca prematura de extensas porções da lâmina foliar, comprometendo drasticamente a capacidade fotossintética da planta, tudo isso em um cenário de plantação com vegetação verde ao fundo.
+FOTO: Ricardo J. Z. de Negreiros
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAA, subgrupo Cavendish. Tem porte médio, de 2,3 a 4,0m de altura e é muito produtivo. É altamente suscetível à sigatoka amarela, suscetível à sigatoka negra e altamente resistente ao mal do panamá. As recomendações de espaçamento são de 2,5m x 2,5m; 2,0m x 3,0m, ou 1.600 plantas por hectare. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

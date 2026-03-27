@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - Rally F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0115&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B21%5D%7B326%7Drally.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agristar TopSeed; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Gigante (maior do que 280 g); Vigor: Médio
+
+-- INFORMAÇÕES DA EMPRESA: --
+Pontos fortes: Uniformidade até o ponteiro e frutos grandes de alta qualidade.
+
+-- PLANTAS E FRUTOS: --
+Frutos: Crescimento indeterminado, com bom vigor e de porte médio. Frutos: Tipo gaúcho, de alta qualidade, firmeza e sabor.
+
+-- CARACTERÍSTICAS: --
+Ciclo normal, alta produtividade e bom rendimento dos frutos.
+
+-- RESISTÊNCIAS: --
+Fol: 0,1, Pf, Ma, Mi, Mj, ToMV, TSWV, Va e Vd.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

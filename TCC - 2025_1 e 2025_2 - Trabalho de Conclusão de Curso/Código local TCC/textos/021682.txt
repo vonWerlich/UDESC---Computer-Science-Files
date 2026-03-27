@@ -1,0 +1,10 @@
+Título: BANANA - Cultivares - BRS Fhia Maravilha
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021682&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18368%5D%7B76%7Dcap_3_-_fig_5_-_letra_h_-_buque_maduro_fhia01_-_autoria_eliseu_emanoel_dos_santos.jpg
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAAB, híbrido tetraplóide com 75% Maça. Porte de médio a alto, e frutos grandes. Moderadamente resistente à broca da bananeira, altamente resistente ao mal do panamá (raça 1), moderadamente resistente ao nematoide e resistente às sigatokas amarela e negra. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.

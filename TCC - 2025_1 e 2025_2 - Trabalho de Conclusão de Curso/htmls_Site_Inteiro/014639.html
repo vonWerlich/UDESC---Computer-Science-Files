@@ -1,0 +1,274 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=8233&amp;isEdicao=N&amp;epagriTEC=S">CEBOLA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9911&amp;isEdicao=N&amp;epagriTEC=S">       Manejo do solo, correção, adubação e recomendações</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=14639&amp;isEdicao=N&amp;epagriTEC=S">Crescimento e acúmulo de massa seca pela cebola</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="12727">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="014639">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>CONCEITO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O conhecimento dos padrões de acúmulo de massa seca de uma cultura permite entender melhor os fatores relacionados com a nutrição mineral e consequentemente com a adubação, visto que a absorção de nutrientes é influenciada pela taxa de crescimento da planta (MARSCHNER, 2012).<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ACÚMULO DE MASSA SECA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Trabalho realizado por Kurtz et al. (2016) demonstrou que o acúmulo de massa seca (MS) das plantas de cebola do cultivar Empasc 352 Bola Precoce foi muito lento até a metade do ciclo aos 60 dias após o transplante (DAT), acumulando 3,9g planta-1, o que representou 16% da MS total acumulada (Figura 1A). Após esse período, quando iniciou a fase de bulbificação, o acúmulo de MS foi intensificado (61 - 119 DAT), acumulando 20,7g planta-1, equivalente a 84% da MS total acumulada. Acúmulo lento de MS no início do ciclo ocorre independente do cultivar utilizado e do local de cultivo, pois resultados similares também foram observados por Vidigal et al. (2010a) para o cv. Alfa Tropical no verão em sistema de transplante e semeadura direta no estado de Minas Gerais e por Pôrto et al. (2007) e May et al. (2008) para os híbridos Superex e Optima cultivados em sistema de semeadura direta em São Paulo. Da mesma forma, Vidigal et al. (2010a) também observaram um acúmulo rápido de MS no início da bulbificação, aos 88 dias após a semeadura para o cultivar Alfa Tropical, o que também foi verificado para outros cultivares e condições de cultivo (HAAG et al.,1970; WIEDENFELD, 1994; INIA, 2005). Segundo Kurtz et al. (2016), ao final do ciclo as plantas acumularam 24,6g planta-1 no total de MS, sendo 9,29g na parte aérea e 15,33g no bulbo. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23814,014639,12727,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[12727]{110}figura_1.jpg">  </a> 
+<br><br>
+<b>ACÚMULO DE MASSA FRESCA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A massa fresca média de bulbo foi de 149,4g planta-1 e o rendimento total de bulbos frescos foi de 37,34t ha-1. Para este rendimento, os autores observaram uma produção de 6.155kg ha-1 de MS na planta toda, distribuídos em 2.324kg ha-1 na parte aérea e 3.831kg ha-1 nos bulbos, ou seja, 38% e 62%, respectivamente. Resultados semelhantes foram obtidos por Pôrto et al. (2006) que, ao avaliar o híbrido Optima em sistema de semeadura direta, obteve contribuições de 30% e 70%, para a parte aérea e bulbos, respectivamente. Para Vidigal et al. (2002), em sistema de transplante de mudas com o cultivar Alfa Tropical, as contribuições de parte aérea e bulbo foram de aproximadamente 36% e 64%, respectivamente, muito próximas às obtidas no estudo realizado em Santa Catarina. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>TAXA MÁXIMA DE CRESCIMENTO ABSOLUTO: </b><br>
+<p class="p1"><div> A taxa máxima de crescimento absoluto (acúmulo diário de MS) para a planta toda ocorreu aos 89 dias, quando atingiu 0,447g planta-1 dia-1 de MS (111,75 kg ha-1 dia-1), desacelerando nos 30 dias que antecederam a colheita (Figura 1B) (KURTZ et al., 2016).<br> <br> </div></p>
+<b>REDISTRIBUIÇÃO DE FOTOASSIMILADOS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Neste mesmo estudo, o bulbo iniciou sua formação aos 60 DAT e a taxa de crescimento máxima ocorreu aos 101 DAT com acúmulo de 0,46g planta-1 dia-1 (115 kg ha-1 dia-1 de MS). A partir dos 96 DAT até a colheita, a taxa de crescimento absoluto da planta inteira foi menor que o alocado no bulbo diariamente, indicando redistribuição de fotoassimilados, principalmente das folhas para os bulbos. Esse comportamento também foi observado por Pôrto et al. (2006, 2007) e Vidigal et al. (2010a). De acordo com Brewster (2008), por ocasião do desenvolvimento dos bulbos, há redistribuição de fotoassimilados e outros compostos das folhas para os bulbos, resultando na redução da massa seca das folhas e no aumento na massa seca dos bulbos.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>DO TOTAL DA MASSA SECA TOTAL ACÚMULADA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Conforme o trabalho de Kurtz et al. (2016), da massa seca total acumulada, 4,6% foi composta por minerais dos dez nutrientes avaliados (N, P, K, Ca, Mg, Fe, Mn, Zn, B e Cu). Na parte aérea (9,26g) o acúmulo dos dez nutrientes foi de 5,4% da MS, superior proporcionalmente ao acumulado nos bulbos (15,33g), que foi de 4,1% da MS.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+<a href="javascript:chamarPagina(13750)">CLIQUE AQUI</a> para acessar as referências na íntegra.
+ </div></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Francisco Olmar Gervini de Menezes Júnior (Eng. Agr - Dr. Produção Vegetal - Epagri)<br> &nbsp;&nbsp; Possui graduação em Engenharia Agronômica (1994), mestrado (1998) e doutorado (2003) em Produção Vegetal pela FAEM/UFPel. Atualmente é pesquisador em Olericultura na EPAGRI de Ituporanga/SC. Desenvolve pesquisas relacionadas à Produção Integrada e Orgânica de Cebola. </font> 
+<br> <font size="2">• Claudinei Kurtz (Eng.- Agr. Dr. Ciências do Solo - Epagri)<br> &nbsp;&nbsp;Possui graduação em Agronomia e mestrado em Ciência do Solo pela UDESC, Doutorado em Ciência do Solo pela UFPR. Pesquisador da Epagri, Estação Experimental de Ituporanga, SC. Desenvolve trabalhos de pesquisa na área de Fertilidade e Manejo do Solo e Nutrição de Plantas, principalmente com a cultura da cebola.
+ </font> 
+<br> <font size="2">• Fábio Satoshi Higashikawa (Eng.- Agr. Dr. Ciências do Solo - Epagri)<br> &nbsp;&nbsp; Engenheiro-Agrônomo, Mestre e Doutor em Ciência do Solo pela UFLA. Tem experiência com caracterização físico-química de resíduos orgânicos de origem animal, vegetal e urbana. Atualmente é pesquisador em fertilidade do solo e nutrição de plantas da Epagri na Estação Experimental de Ituporanga. </font> 
+<br><br><br> <font size="2"> Criado em: 22/09/2021</font>
+<br> <font size="2"> Última atualização: 04/11/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=014639&amp;cdElemento=12727">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=12727');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

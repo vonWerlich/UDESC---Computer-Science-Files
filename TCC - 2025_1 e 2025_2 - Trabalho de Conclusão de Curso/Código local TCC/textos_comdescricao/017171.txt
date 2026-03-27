@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Fungicidas registrados para o controle de doenças na cultura do arroz - Folicur 200 EC
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017171&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+12. Manejo de doenças
+Fungicidas registrados para o controle de doenças na cultura do arroz
+Folicur 200 EC
+
+-- INFORMAÇÕES GERAIS: --
+Nome comercial: Folicur 200 EC; Ingrediente ativo: tebuconazol; Formulação: EC (concentrado emulsionável); Dose (p.c./ha): 750 mL; Carência: 35 dias; Classificação toxicológica: 5 = improvável de causar dano agudo (faixa azul); Classificação ambiental: II = muito perigoso.
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+As recomendações estão de acordo com os registros obtidos do AGROFIT, acessado em 14/05/2020 (www.agricultura.gov.br), onde se encontra a listagem completa dos fungicidas registrados para a cultura do arroz. Carência = Tempo entre a última aplicação do produto e a colheita.
+
+-- RECOMENDAÇÕES DE CONTROLE DE DOENÇAS NO ARROZ: --
+- Brusone (Pyricularia oryzae) - Mancha parda (Bipolaris oryzae) .
+
+-- Informações Complementares --

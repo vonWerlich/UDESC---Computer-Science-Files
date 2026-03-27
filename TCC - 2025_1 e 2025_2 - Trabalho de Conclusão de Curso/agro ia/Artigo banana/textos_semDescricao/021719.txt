@@ -1,0 +1,26 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - ANTRACNOSE
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021719&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+ANTRACNOSE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18406%5D%7B145%7Dantracnose_1.jpg
+FOTO: Fonte Epagri
+
+-- DESCRIÇÃO --
+A antracnose é uma das principais doenças pós-colheita da bananeira e ocorre praticamente em todas as regiões produtoras. Essa doença prejudica a aparência e reduz o valor nutricional dos frutos, que ficam impróprios para o mercado. No Brasil, o único agente causal da antracnose é o fungo Colletotrichum musae , porém, existem relatos de diversas espécies de Colletotrichum capazes de causar doença em bananas( 1 )( 2 ). Os conídios de Colletotrichum musae produzidos em tecidos senescentes de bananeira, inclusive folhas, brácteas e pedúnculos, são liberados da matriz mucilaginosa que envolve os acérvulos e transportados para outros frutos por água livre, como chuva. O conídio se adere à superfície de um fruto verde, germina e forma apressório em até 72h. O fungo permanece quiescente até a maturação dos frutos, quando os sintomas podem ser visualizados. Colletotrichum musae leva a alterações fisiológicas e bioquímicas nos frutos que aceleram sua maturação e senescência. Porém, se a infecção ocorrer em ferimentos sobre frutos verdes, os sintomas podem se desenvolver.( 3 )( 4 )
+
+-- SINTOMAS --
+A doença se caracteriza pela formação de lesões escuras deprimidas restritas ao pericarpo de fruto maduro, exceto quando este é exposto a altas temperaturas, ou em adiantado estágio de maturação (Figura abaixo) . Sob condições de alta umidade, o fungo produz acérvulos envoltos de uma matriz mucilaginosa alaranjada, que abriga os conídios do fungo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18406%5D%7B348%7Dfigura_11a_antracnose.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18406%5D%7B539%7Dfigura_11b_antracnose.jpg
+
+-- CONTROLE --
+O controle da doença se inicia no campo com a eliminação de restos de cultura (folhas velhas, brácteas), que podem abrigar o fungo, e o ensacamento do cacho antes da abertura das pencas. Durante o manuseio dos frutos, desde a colheita até a embalagem, é necessário evitar práticas que causem ferimentos. Finalmente, devem-se empregar técnicas pós-colheita, como limpeza dos tanques de lavagem, renovação periódica da água e tratamento químico dos frutos com produto registrado.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LI, L.; HE, X.M.; LI, C.B.; SUN, J.; LING, D.N.; SHENG, J.F.; RAO, C.Y.; XIAO, Z.S.; LI, J.M.; ZHENG, F.J.; LIU, G.M.; TANG, Y.Y. Effects of Colletotrichum musae infection on the postharvest quality and related enzymatic activities of banana fruit. Modern Food Science and Technology, v.33, p. 83-90, 2017. ( 2 )ZHOU, Y.; HUANG, J.S.; YANG, L.Y.; WANG, G.F.; LI. J.Q. First report of banana anthracnose caused by Colletotrichum scovillei in China. Plant Disease, v.101, p.381, 2017. ( 3 )CORDEIRO, Z.J.M.; MATOS, A.P.; KIMATI, H. Doenças da bananeira (Musa sp.) In: KIMATI, H.; AMORIM, L.; BERGAMIN FILHO, A.; CAMARGO, L.E.A. (Ed.). Manual de fitopatologia. 4.ed. São Paulo: Agronômica Ceres, 2005. v.2. p.99-117. ( 4 )JONES, D.R. Handbook of diseases of banana, abacá and enset. Wallingford: CABI Publishing, 2000. 544 p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LI, L.; HE, X.M.; LI, C.B.; SUN, J.; LING, D.N.; SHENG, J.F.; RAO, C.Y.; XIAO, Z.S.; LI, J.M.; ZHENG, F.J.; LIU, G.M.; TANG, Y.Y. Effects of Colletotrichum musae infection on the postharvest quality and related enzymatic activities of banana fruit. Modern Food Science and Technology, v.33, p. 83-90, 2017. ( 2 )ZHOU, Y.; HUANG, J.S.; YANG, L.Y.; WANG, G.F.; LI. J.Q. First report of banana anthracnose caused by Colletotrichum scovillei in China. Plant Disease, v.101, p.381, 2017. ( 3 )CORDEIRO, Z.J.M.; MATOS, A.P.; KIMATI, H. Doenças da bananeira (Musa sp.) In: KIMATI, H.; AMORIM, L.; BERGAMIN FILHO, A.; CAMARGO, L.E.A. (Ed.). Manual de fitopatologia. 4.ed. São Paulo: Agronômica Ceres, 2005. v.2. p.99-117. ( 4 )JONES, D.R. Handbook of diseases of banana, abacá and enset. Wallingford: CABI Publishing, 2000. 544 p.
+• André Boldrin Beltrame (Dr. - Epagri) Pesquisador - Epagri - Itajaí

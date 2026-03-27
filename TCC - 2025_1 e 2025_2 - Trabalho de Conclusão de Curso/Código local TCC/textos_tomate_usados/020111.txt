@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Pêra Vermelho
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=020111&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17575%5D%7B383%7Dpera_vermelho.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Como plantar: Revolva o solo no mínimo 20 cm de profundidade até que fique solto, sem a presença de torrões. Para melhorar o solo, adicione esterco e/ou húmus na proporção de 10%. Misture adubo balanceado NPK considerando 300g para cada 10m2 de canteiro. Para plantio em vasos, use substrato e adicione 5g de adubo por litro de vaso. Semeie conforme a tabela ao lado. Após o plantio, manter o solo e/ou substrato úmido, sem encharcar, para obter melhores resultados; Descrição: Planta muito produtiva. Frutos saborosos, 35 x 25 mm de tamanho e vermelho; Dicas: Plante em vasos ou no jardim. É necessário estaquear a planta; Germinação: de 7 a 9 dias; Sementes por grama: 510 a 540.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://agristar.com.br.

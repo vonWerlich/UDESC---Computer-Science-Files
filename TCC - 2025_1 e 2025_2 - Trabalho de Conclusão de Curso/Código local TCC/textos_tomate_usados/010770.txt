@@ -1,0 +1,16 @@
+Título: TOMATE - Fitossanidade - Vírus - Pepper yellow mosaic virus (PepYMV)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010770&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9732%5D%7B386%7D19.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9732%5D%7B271%7D18.jpg
+Legenda: Sintomas da virose em folhas do tomateiro. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+
+-- INFORMAÇÕES GERAIS: --
+- Doença exclusiva do Brasil e países vizinhos, contudo, com pouca importância (1). - Ocorreu de maneira mais significativa no estado do Espírito Santo (1). - Ocorre com maior importância em pimentas e pimentões (1).
+
+-- PODE SER CONFUNDIDA COM: --
+- Begomovírus (1).
+
+-- Informações Complementares --
+(1) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Alice Kazuko Inoue-Nagata. Tema: Embrapa Hortaliças e o manejo de viroses em tomateiro. Data do evento: 14/09/2020. Para informações na íntegra, acessar: https://youtu.be/sgDHRSl-FeI .

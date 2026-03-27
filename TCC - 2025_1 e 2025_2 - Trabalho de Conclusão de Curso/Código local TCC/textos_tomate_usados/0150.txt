@@ -1,0 +1,29 @@
+Título: TOMATE - Cultivares - Grazianni F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0150&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B74%5D%7B185%7Dgrazianni.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Sakata; Finalidade: Copa; Grupo: Italiano; Polinização: Híbrido; Precocidade: Baixa (121 a 130dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: Gv - ToSRV (Geminivírus); Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Médio
+
+-- INFORMAÇÕES DA EMPRESA: --
+DESTAQUE: Internódios curtos e pegamento de frutos muito alto. SEGMENTO: Tomate Italiano Indeterminado.
+
+-- BENEFÍCIO: --
+Potencial produtivo imbatível em cultivo protegido.
+
+-- CARACTERÍSTICAS: --
+Plantas de médio vigor. Plantas compactas. Média de início de colheita: 115 dias. Alto pegamento de frutos. Internódios curtos. Peso médio de frutos: 190g.
+
+-- VANTAGENS: --
+Alto nível de resistência ao Vira-Cabeça, Geminivírus e Fusarium 3. Ótima performance em cultivo protegido e campo aberto.
+
+-- RESISTÊNCIA: --
+Alto nível de resistência à Vd raça 1, Fol raças 1, 2, 3, ToMV estirpe Tm1, TSWV (Vira-Cabeça) e ToSRV (Geminivírus).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sakata.com.br/hortalicas ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sakata.com.br/hortalica.

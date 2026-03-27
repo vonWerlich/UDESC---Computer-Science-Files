@@ -1,0 +1,32 @@
+Título: TOMATE - Cultivares - BRS Kiara F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0861&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B739%5D%7B290%7Dkiara.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agrocinco; Finalidade: Copa; Grupo: Santa Cruz; Polinização: Híbrido; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Tamanho do fruto: Pequeno (170 a 200 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido do tipo Santa Cruz. Planta rústica de crescimento indeterminado com excelente cobertura foliar, elevada produtividade. Frutos do tipo longa vida, coloração externa vermelha escura e brilhante. Peso médio de 180g a 200g. Origem: Agrocinco Seeds of Value e Embrapa Hortaliças
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B739%5D%7B319%7Dimg_1.jpg
+Legenda: 1)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B739%5D%7B96%7Dimg2.jpg
+Legenda: 2)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B739%5D%7B288%7Dimg3.jpg
+Legenda: 3)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B739%5D%7B198%7Dimg4.jpg
+Legenda: 4)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B739%5D%7B120%7Dimg5.jpg
+Legenda: 5)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B739%5D%7B438%7Dimg6.jpg
+Legenda: 6)null
+
+-- RESISTÊNCIA: --
+Verticillium 1, Fusarium 1 e 2, Vírus do Mosaico do Tabaco.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.syngenta.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+Site: http://www.agrocinco.com.br/2013/produto_detalhes.asp?idprod=80&idcat=1&idsub=3

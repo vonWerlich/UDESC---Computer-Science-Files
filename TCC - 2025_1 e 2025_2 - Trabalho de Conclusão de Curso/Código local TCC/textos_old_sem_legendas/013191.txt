@@ -1,0 +1,34 @@
+Título: ARROZ IRRIGADO - 04. Sistemas de cultivo - Orgânico
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013191&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+04. Sistemas de cultivo
+Orgânico
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11449%5D%7B103%7D04_organico_caput.jpg
+FOTO: Composição E.R.Hickel
+
+-- INFORMAÇÕES GERAIS: --
+Os principais objetivos deste sistema são a produção de alimentos livres de resíduos e a redução dos impactos ambientais associados ao cultivo de arroz. Para alcançar estes objetivos, o sistema requer a utilização de técnicas que promovam a preservação do solo, da água e da biodiversidade local, não sendo permitido o uso de agrotóxicos e adubos sintéticos, organismos geneticamente modificados (transgênicos), drogas veterinárias convencionais, radiações ionizantes (mutantes) e aditivos artificias.
+
+-- PREPARO DO SOLO: --
+As técnicas e operações previstas no sistema pré-germinado têm se mostrado mais adequadas à condução do sistema orgânico, com destaque para as operações de nivelamento e irrigação. O respeito ao período de início da irrigação é crucial para a condução do sistema, devendo ocorrer impreterivelmente com 25 a 30 dias antes da data de semeadura, visto que esta é a principal medida de controle de plantas daninhas.
+
+-- ESCOLHA DE CULTIVARES: --
+A escolha do cultivar figura como prática essencial para o sistema orgânico. É fundamental que o cultivar utilizado possua ciclo longo, visando mitigar os impactos da competição com plantas aquáticas nas fases de estabelecimento e perfilhamento; boa tolerância à doenças, principalmente à brusone; e alta resistência ao acamamento.
+
+-- CONTROLE BIOLÓGICO: --
+Outra prática que deve ser agregada ao manejo do sistema orgânico é o uso de marrecos-de-pequim. Os benefícios deste uso são mais expressivos em três momentos ( figuras abaixo ): • fase anterior à semeadura - quando os marrecos se alimentam do banco de sementes do solo e de caramujos, reduzindo fortemente as infestações na implantação da lavoura. • 30 dias após a semeadura - quando os marrecos atuam no controle biológico do percevejo-do-colmo e da bicheira-da-raiz. • período logo após a colheita, antes de qualquer operação de preparo - quando os marrecos consomem as sementes que estão na superfície do solo, evitando a alimentação do banco de sementes do solo. O uso da gaiola telada ( figura abaixo ), para criação de parasitoides das pragas do arroz, é uma prática também recomendada para o sistema orgânico. Essa operação visa aumentar a população de inimigos naturais, reduzindo as populações de pragas a níveis menos danosos para a lavoura de arroz. A gaiola deve ser feita com tela de malha 2mm e posicionada em uma área de circulação de pessoas e sob cobertura. As lagartas ou os ninhos de ovos devem ser coletados na própria lavoura e colocados dentro das gaiolas para atração e criação dos inimigos naturais.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11449%5D%7B216%7D04_marrecos_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11449%5D%7B355%7D04_marrecos_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11449%5D%7B314%7D04_marrecos_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11449%5D%7B17%7D04_gaiolatelada_fig01.jpg
+
+-- VANTAGENS DO SISTEMA ORGÂNICO: --
+• Redução da demanda por mão-de-obra, máquinas e equipamentos. • Redução dos ricos à saúde associados ao manuseio de agrotóxicos. • Valorização do produto comercializado pela propriedade.
+
+-- CUIDADOS NA CONDUÇÃO DO SISTEMA ORGÂNICO: --
+• Não realizar drenagens antes do total recobrimento do solo pelas plantas de arroz, para evitar reinfestações tardias por plantas daninhas. • Realizar a semeadura preferencialmente no final da primavera, quando as maiores temperaturas promoverão o fechamento mais rápido da lavoura. • Utilizar sempre sementes certificadas, de alto vigor, visto que a velocidade de estabelecimento da lavoura é fundamental para o sistema. • Utilizar densidade de semeadura de 160 a 180kg/ha de sementes, visando acelerar a cobertura do solo e reduzir a competição com plantas aquáticas. • Utilizar sementes pré-germinadas com 1mm de comprimento do coleóptilo (no máximo) para a semeadura da lavoura, pois as mesmas se fixam melhor ao solo.
+
+-- Informações Complementares --
+• Douglas George de Oliveira (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola

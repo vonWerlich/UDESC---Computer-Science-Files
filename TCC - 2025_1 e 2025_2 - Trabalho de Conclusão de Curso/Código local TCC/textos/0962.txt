@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Letycia F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0962&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B844%5D%7B455%7Dletycia.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Superseed; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: For - Fusarium oxysporum f.sp. radicis-lycopersici; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Médio (201 a 230 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Permite ao agricultor produzir em áreas com problema de Geminivírus e no período chuvoso. Possui ainda excelente uniformidade de frutos durante todo o ciclo de colheita, fornecendo alto rendimento. Frutos: Uniformes, pesados e com excelente firmeza. Planta: Crescimento indeterminado, com alto vigor e muito bem enfolhada. Destaque: Resistência ao TYLCV (Geminivírus), excelente sanidade foliar e ótima proteção de frutos. Pós colheita: Excelente Tamanho Médio: 7 x 8,5cm Peso Médio: 230 g Ciclo Médio: 115 dias Tipo de fruto: Salada
+
+-- RESISTÊNCIA: --
+Fol: 0,1, For, Ma, Mi, Mj, Va, Vd, ToMV e TYLCV
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://agristar.com.br.

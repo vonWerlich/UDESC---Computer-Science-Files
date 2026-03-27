@@ -1,0 +1,28 @@
+Título: BANANA - Manejo do bananal - Escoramento ou amarração da bananeira
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021688&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Manejo do bananal
+Escoramento ou amarração da bananeira
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18375%5D%7B171%7Descoramento.png
+FOTO: Keny H. Marigueli
+
+-- DESCRIÇÃO --
+O escoramento ou amarração previne danos aos cachos pelo tombamento da bananeira, provocado por cachos muito pesados, ventos fortes, afloramento de rizomas, ocorrência de nematóides, seleção de filhotes muito fracos ou superficiais.
+
+-- ESCORAMENTO COM ESCORAS RÍGIDAS --
+Para a sustentação das bananeiras, são utilizadas escoras rígidas (geralmente hastes de bambus), cordas, fitilhos ou, ainda, estes materiais de forma simultânea. - Uso de escoras rígidas: a) Escora única : utiliza-se geralmente uma vara de bambu, colocada contra a inclinação natural da planta, e apoiando a escora o mais alto possível, próximo ao ponto de saída do engaço. b) Duas escoras : utilizam-se duas varas de bambu, colocadas contra a inclinação natural da planta, e apoiando-as o mais alto possível, próximas ao ponto de saída do engaço, formando um tripé em conjunto com a haste da bananeira. c) Tesoura : utilizam-se duas escoras por planta, com duas varas de bambu atadas uma à outra nas extremidades com corda ou fitilho, deixando espaço de aproximadamente 25-30cm. Próximo à roseta foliar ou do engaço, contorna-se o pseudocaule com a corda ou fitilho, colocando-se as varas em forma de “X”.( 1 )
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18375%5D%7B339%7Descoramento.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18375%5D%7B519%7Descora_dupla.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18375%5D%7B442%7Descora_dupla_2.jpg
+
+-- ESCORAMENTO COM CORDAS OU FITILHOS --
+-Uso de cordas ou fitilhos: Utiliza-se cordas de materiais sintéticos como nylon, poliéster trançado, polipropileno ou fitilhos plásticos( 2 ). O escoramento com amarração de plantas é feito com o uso de escadas. Amarra-se a planta a ser escorada na altura da roseta foliar, prendendo-se a outra ponta da corda (ou fitilho) na base do pseudocaule de uma planta vizinha, tensionando no sentido oposto à inclinação do pseudocaule. O ângulo ideal para o escoramento com cordas é de 45 a 65°, o que permite suportar bem o peso do cacho. A bananeira que serve de escora deve estar, de preferência, com cacho lançado ou próximo a lançá-lo ou podem ser plantas recém-colhidas. Para facilitar o processo, ao invés de amarrar a corda (ou fitilho) no pseudocaule da planta a ser escorada, pode-se amarrar um pedaço de madeira ou bambu de 15 a 20cm na extremidade da corda (ou fitilho) e jogá-lo (ou colocá-lo) por entre as folhas desta planta, ficando preso e possibilitando o tensionamento.( 2 )
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18375%5D%7B123%7Decoramento_corda.png
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )BORGES, A.L.; SILVA, A. L.S.; BATISTA, D.C.; MOREIRA, F.R.B.; FLORI, J.E.; MORAIS, J.E.; ARAUJO, J.L.P.; PINTO, J.M.; CASTRO, J.M.C.; BESERRA, M.S.; AZOUBEL, P.M.; CUNHA, T.J.F.; SILVA, S.O.; CORDEIRO, Z.J.M. Sistema de produção da bananeira irrigada. Embrapa Semiárido Sistemas de Produção, 4 ISSN 1807-0027 Versão Eletrônica Jul/2009 ( 2 )LICHTEMBERG, L.A. & LICHTEMBERG, P.S.F. Avanços na bananicultura brasileira Palestra Sinfruit 2011 – Simpósio Internacional de Fruticultura – Avanços na Fruticultura Revista Brasileira de Fruticultura, Jaboticabal – SP, Volume Especial, E.029-036, Outubro 2011.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )BORGES, A.L.; SILVA, A. L.S.; BATISTA, D.C.; MOREIRA, F.R.B.; FLORI, J.E.; MORAIS, J.E.; ARAUJO, J.L.P.; PINTO, J.M.; CASTRO, J.M.C.; BESERRA, M.S.; AZOUBEL, P.M.; CUNHA, T.J.F.; SILVA, S.O.; CORDEIRO, Z.J.M. Sistema de produção da bananeira irrigada. Embrapa Semiárido Sistemas de Produção, 4 ISSN 1807-0027 Versão Eletrônica Jul/2009 ( 2 )LICHTEMBERG, L.A. & LICHTEMBERG, P.S.F. Avanços na bananicultura brasileira Palestra Sinfruit 2011 – Simpósio Internacional de Fruticultura – Avanços na Fruticultura Revista Brasileira de Fruticultura, Jaboticabal – SP, Volume Especial, E.029-036, Outubro 2011.
+• Ricardo José Zimmermann de Negreiros (Msc. - Epagri) Pesquisador - Epagri - Itajaí
+• Jorge Luiz Malburg (Msc. - Epagri) Pesquisador - Epagri - Itajaí

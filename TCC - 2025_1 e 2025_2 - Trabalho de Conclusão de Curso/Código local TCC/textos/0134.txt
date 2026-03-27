@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - Santyno F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0134&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B39%5D%7B31%7Dsantyno.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agristar TopSeed; Finalidade: Copa; Grupo: Santa Cruz; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Médio (201 a 230 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Pontos Fortes: Resistência ao F3, TYLCV (geminivírus), TSWV (vira-cabeça) e a nematoides. Apresenta ainda alta produtividade e bom tamanho dos frutos.
+
+-- PLANTAS E FRUTOS: --
+Plantas: Muito vigorosa e com folhas compactas. Frutos: Grandes, com excelente coloração quando maduros e alto brilho.
+
+-- CARACTERÍSTICAS: --
+Possui bom desempenho no período chuvoso devido a sua boa sanidade, permitindo ao agricultor o cultivo em áreas com problemas de geminivírus, vira-cabeça fusarium raça 3.
+
+-- Resistência: --
+Fol:0-2, Ma, Mi, Mj, TMV, TSWV, TYLCV, Va e Vd.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

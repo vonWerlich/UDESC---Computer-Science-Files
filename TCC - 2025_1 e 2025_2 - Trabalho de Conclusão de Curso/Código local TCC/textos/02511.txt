@@ -1,0 +1,37 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - D) MANEJO DE SOLO, ADUBAÇÃO E NUTRIÇÃO DE PLANTAS - g) Adubação de cobertura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02511&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2272%5D%7B287%7Dcapa_1.jpg
+
+-- Objetivo: --
+A adubação de cobertura tem por objetivo repor os nutrientes necessários para obtenção de alta produtividade de frutos de boa qualidade. Aplicações desnecessárias devem ser evitadas, pois podem causar prejuízos à planta, ao meio ambiente e aumentar o custo de produção.
+
+-- Como é feito: --
+A adubação de cobertura para o tomate consiste basicamente na aplicação de nitrogênio com 90% da dose total e de potássio com 95% da dose total (Tabela 7). Ambos são aplicados em fertirrigação, de acordo com o cálculo da curva de absorção (Figura 8), fracionados em 16 aplicações ao longo do ciclo vegetativo. O início ocorre aos 21 dias ou na 3a semana após o transplante. Na Tabela 7 apresenta-se a porcentagem para o cálculo da quantidade de nitrogênio e potássio a ser utilizada, de acordo com a curva de requerimento ao longo do ciclo vegetativo. A adubação de cobertura é efetuada em fertirrigação em apenas uma aplicação semanal.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2272%5D%7B190%7Dfigura_8.jpg
+Legenda: Porcentagem de nitrogênio (N) e potássio (K2O) a ser aplicada ao longo do ciclo da cultura do tomate, de acordo com a curva de absorção de nutrientes. Fonte: Sispit 2016.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2272%5D%7B246%7Dtabela_7.jpg
+Legenda: Porcentagem semanal para o cálculo da quantidade de nitrogênio (N) e potássio (K 2O) na adubação de cobertura no Sistema de Produção Integrada de Tomate de Mesa (Sispit), por semana, após o plantio. Fonte: Sispit 2016.
+
+-- Injeção do adubo na linha: --
+O processo de injeção do adubo na linha de gotejamento pode ser feito por válvulas de sucção (scruguel) ou por injeção sobre pressão de bombas hidráulicas. Deve-se observar que a mangueira gotejadora produza uma pressão uniforme e que o adubo tenha uma uniformidade de distribuição na sua aplicação. Áreas de desníveis devem ser subdivididas em setores para a uniformidade de pressão e precisão da distribuição do adubo com homogeneidade ou usar mangueira gotejadora auto propelido.
+
+-- Sistemas de filtros: --
+Outro aspecto importante na fertirrigação são os sistemas de filtros para que não haja entupimento da mangueira de gotejamento.
+
+-- Curva de requerimento por nitrogênio: --
+O comportamento da curva de requerimento por nitrogênio no tomate é maior e mais acentuado na fase inicial e com aumento gradual da nona à décima semana quando se tem o pico máximo, e diminuição gradual até a décima sexta semana (Figura 8).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2272%5D%7B237%7Dfigura_8.jpg
+Legenda: Porcentagem de nitrogênio (N) e potássio (K2O) a ser aplicada ao longo do ciclo da cultura do tomate, de acordo com a curva de absorção de nutrientes. Fonte: Sispit 2016.
+
+-- Curva de requerimento por potássio: --
+Com o potássio, o tomate tem um comportamento de requerimento gradual, mais lento na fase inicial, com pico máximo entre a décima terceira e a décima quarta semana, mantendo-se em níveis elevados até próximo ao fim do ciclo. Ajustes nas doses podem ser necessários quando se verifica que o crescimento da planta não está de acordo com o esperado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2272%5D%7B186%7Dfigura_8.jpg
+Legenda: Porcentagem de nitrogênio (N) e potássio (K2O) a ser aplicada ao longo do ciclo da cultura do tomate, de acordo com a curva de absorção de nutrientes. Fonte: Sispit 2016.
+
+-- As fontes de adubos a serem usadas em fertirrigação: --
+As fontes de adubos a serem usadas em fertirrigação são geralmente o nitrato de amônio e o nitrato de potássio ou cloreto de potássio branco. Pode-se usar adubos formulados de maior solubilidade, embora em experimentos conduzidos na Estação Experimental de Caçador, eles não tenham apresentado diferenças das fontes tradicionais acima citadas, desde que a concentração do nutriente seja a mesma. Portanto, a escolha da fonte de adubo pode ser feita levando em consideração as características de maior facilidade no preparo da calda (solubilidade, limpeza, etc.) e o custo do adubo por unidade de nutriente.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

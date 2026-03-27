@@ -1,0 +1,6 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 4. Diagnóstico a partir da doençaInicie por aqui, caso saiba que se trata de doença, mas tenha dúvida.Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais. - As folhas estão com manchas, que podem ser de diversos tipos, e são as manchas foliares que predominam na planta
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016866&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17060%5D%7B211%7Dpl01_manchafolha.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16866%5D%7B499%7Dpl03_manchagrande.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16866%5D%7B17%7Dpl04_manchapequena.jpg

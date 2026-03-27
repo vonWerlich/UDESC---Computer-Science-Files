@@ -1,0 +1,9 @@
+Título: 1) TIPOS DE ABRIGOS DE CULTIVO - 1) Materiais estruturais para construção
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012226&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6684%5D%7B391%7Dcapa_tomatorg.jpg
+Dentre os materiais estruturais disponíveis para a construção dos abrigos de cultivo, existem: aço galvanizado, madeira, bambu, concreto e até plástico rígido. Cada um deles apresenta características técnicas e econômicas que determinarão a escolha. No entanto, na questão econômica não se deve restringir a uma análise imediatista. Deve-se ponderar a relação custo-benefício de cada material ao longo do tempo. Neste quesito, normalmente, uma estrutura de aço galvanizado a fogo, apesar de seu custo inicial elevado por metro quadrado, leva vantagem quando consideradas a baixa manutenção e o longo período de vida útil da estrutura.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

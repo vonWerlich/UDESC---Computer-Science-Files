@@ -1,0 +1,21 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Mosca-branca
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014992&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12990%5D%7B516%7D47-1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12990%5D%7B29%7D47-1.jpg
+Legenda: Adultos de mosca-branca. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12990%5D%7B282%7D47-2.jpg
+Legenda: Danos ocasionados pelo ataque de mosca-branca em folha de tomateiro. null
+
+-- INFORMAÇÕES GERAIS: --
+Erroneamente chamados de mosca-branca, estes hemípteros medem cerca de 1 mm e possuem quatro asas membranosas recobertas de uma pulverulência esbranquiçada. O período de desenvolvimento, que engloba desde o ovo até a fase adulta, dura em média 15 dias, favorecendo o aparecimento de altas populações em campo. No Brasil, este grupo engloba indivíduos das espécies Bemisia tabaci (Gennadius, 1889), Bemisia argentifolii Bellows & Perring, 1994 e Trialeurodes vaporariorum (Westwood, 1856) (Hemiptera: Aleyrodidae).
+
+-- DANOS: --
+Ninfas e adultos destes insetos sugam a seiva, causando debilidade e até mesmo a morte da planta em ataques severos (Figura 47). Adicionalmente, a alimentação destes insetos favorece o aparecimento da fumagina, um fungo oportunista que se desenvolve sobre as substâncias açucaradas excretadas pela mosca branca na superfície do tomateiro, comprometendo a fotossíntese nas folhas e provocando amadurecimento irregular dos frutos.
+
+-- INSETO VETOR DE VIROSES: --
+O principal risco advindo da presença destes insetos ainda está relacionado à transmissão de patógenos, principalmente viroses, que causam redução do vigor, nanismo acentuado, enrugamento severo das folhas terminais e amarelecimento completo da planta, podendo causar a morte das plantas e o total comprometimento da produção.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

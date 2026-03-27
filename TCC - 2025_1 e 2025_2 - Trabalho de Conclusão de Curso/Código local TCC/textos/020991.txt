@@ -1,0 +1,24 @@
+Título: FORMIGAS EM PINUS E EUCALIPTO - 6
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=020991&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18006%5D%7B286%7Drecomendacao_6.jpg
+Legenda: Quadro resumo com as recomendações de manejo. Fonte: autores.
+
+-- Combate pré-corte raso (30-15 dias antes): Localizado --
+Para mais informações de como proceder o manejo, consultar o tópico "Combate pré-corte raso" .
+
+-- Combate pré-plantio (30-15 dias antes): Sistemático + Localizado --
+Para mais informações de como proceder o manejo, consultar o tópico "Combate pré-plantio" .
+
+-- Combate pós-plantio (3 a 90 dias após): Localizado --
+Para mais informações de como proceder o manejo, consultar o tópico "Combate pós-plantio" .
+
+-- Manutenção ano 1, 2 e 3: Localizado --
+Para mais informações de como proceder o manejo, consultar o tópico "Manutenção do plantio" .
+
+-- Manutenção anual até o final do ciclo: Localizado , pelo menos nas bordaduras --
+Para mais informações de como proceder o manejo, consultar o tópico "Manutenção do plantio" .
+
+-- Informações Complementares --
+Todo o material bibliográfico utilizado neste sistema pode ser consultado ao clicar AQUI!

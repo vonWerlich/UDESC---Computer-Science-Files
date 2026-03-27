@@ -1,0 +1,29 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - E) MANEJO DA IRRIGAÇÃO POR GOTEJAMENTO - a) Introdução
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02614&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2383%5D%7B175%7Dcapa_1.jpg
+
+-- Métodos de irrigação no tomate tutorado: aspersão, sulco e gotejamento. --
+Existem basicamente três métodos de irrigação no tomate tutorado: aspersão, sulco e gotejamento. O uso da irrigação por aspersão não é recomendável, pois favorece o aparecimento de doenças foliares, além de lavar os produtos fitossanitários aplicados na parte aérea, o que pode provocar perdas significativas na produção e na qualidade dos frutos. A irrigação por sulco é pouco eficiente, pois apresenta perdas de até 40% de água por escoamento no final do sulco e por percolação profunda, além de ser um agente da erosão do solo, principalmente em áreas declivosas. Por outro lado, a irrigação por gotejamento é mais eficiente, pois nesse sistema se aplica água diretamente no solo, na linha de plantio, com economia de água e sem provocar o molhamento foliar. Devido a esse e outros fatores esse é o sistema recomendado para a irrigação no Sistema de Produção Integrada de Tomate (Sispit).
+
+-- As características da irrigação por gotejo são: --
+A irrigação localizada por gotejamento é a maneira indicada de se repor o consumo hídrico da cultura. As características desse sistema de irrigação são: a aplicação pontual da água no solo, a alta frequência de irrigação, a aplicação de pequenas vazões e, principalmente, a alta uniformidade de aplicação de água, alcançando alta eficiência. Com a aplicação pontual de água, somente uma parte do solo é molhada e há, por isso, uma redução na evaporação direta da água do solo devido à menor porcentagem de área molhada pelo gotejamento e de sombreamento da área molhada.
+
+-- Necessidades hídricas da cultura de tomate: --
+Para maximizar a produtividade e gerar um produto de excelente qualidade, é necessário o conhecimento das necessidades hídricas do tomate nas regiões em que é cultivado. Fatores como cultivar, estádio de desenvolvimento da cultura, espaçamento entre plantas, clima da região, entre outros, podem ser usados para definir as necessidades hídricas da cultura de tomate.
+
+-- O aspecto mais importante relacionado ao manejo da água: --
+O aspecto mais importante relacionado ao manejo da água é a determinação da quantidade correta e o momento certo de realizar a irrigação para evitar que ocorra perda de água por percolação e lixiviação de nutrientes, impedindo que a planta expresse seu potencial produtivo, seja pelo excesso ou falta de água.
+
+-- Um bom sistema de manejo da irrigação deve levar em consideração: --
+O manejo da irrigação, aliado às práticas agrícolas preestabelecidas pelo Sispit, constitui a base para a sustentabilidade do sistema produtivo. Um bom sistema de manejo da irrigação deve levar em consideração: época de plantio, espaçamento, características de desenvolvimento das culturas, sistema de irrigação, variáveis meteorológicas diárias, análises fitopatológicas e entomológicas, adubação, plantas daninhas, manejo da cultura e colheita. Deve também observar a interação de todos os fatores de condução da cultura com as características de cada propriedade.
+
+-- Políticas públicas de uso dos recursos hídricos: --
+Diante disso, políticas públicas de uso dos recursos hídricos, juntamente com a utilização correta da irrigação de forma a manejar eficientemente a água e os fertilizantes, são essenciais para a manutenção do equilíbrio entre a produção agrícola e o meio ambiente. Dessa forma, o estudo de princípios básicos para a realização de um bom manejo de água e fertilizantes é imprescindível para a sustentação do ambiente produtivo.
+
+-- Sistema de monitoramento para a determinação da real necessidade de água: --
+Atualmente na região do Alto Vale do Rio do Peixe os produtores adotam um turno de regra fixo, variando de 1 a 3 dias. Por outro lado, raramente utilizam um sistema de monitoramento (tensiômetros, tanque classe ‘‘A’’ ou qualquer outro método de estimativa da necessidade hídrica) para a determinação da real necessidade de água da cultura de tomate. Geralmente, o monitoramento para se tomar a decisão da irrigação é feito de forma empírica, com observações visuais da umidade do solo, além da experiência dos técnicos e produtores, podendo superestimar ou subestimar a real necessidade de água pela cultura do tomate. Consequentemente, pode provocar danos indesejáveis como a salinização do solo, a lixiviação de nutrientes, a baixa produtividade, o aumento de doenças fúngicas e da qualidade inferior de frutos, além do desperdício de água.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

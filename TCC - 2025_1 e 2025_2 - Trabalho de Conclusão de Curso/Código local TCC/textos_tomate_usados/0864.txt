@@ -1,0 +1,60 @@
+Título: TOMATE - Cultivares - BRS Zamir F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0864&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B742%5D%7B64%7Dzamir.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agrocinco; Finalidade: Copa; Polinização: Híbrido; Precocidade: Muito alta (antes dos 90 dias); Resistência a fungos: Vd - Verticillium dahliae; Tamanho do fruto: Muito Pequeno (menor que 170 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido indeterminado do tipo grape multifloral. Planta vigorosa com pencas bifurcadas podendo chegar a 70 frutos. Frutos com excelente aroma e sabor (grau Brix entre 8 e 11), peso médio de 10-15 gramas com pós-colheita de 15-18 dias. Diferencia-se pelo altíssimo teor de licopeno – 160 microgramas por grama. Teor de licopeno de 144 microgramas/grama de tomate (protege contra câncer de próstata, conforme a pesquisa do Prof. M. Matsushita, publicada em 2015, na revista Virtual de Química) Origem: Agrocinco Seeds of Value e Embrapa Hortaliças.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B182%7Dzamir_1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B64%7Dzamir_10.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B362%7Dzamir_11.jpg
+Legenda: 11)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B175%7Dzamir_12.jpg
+Legenda: 12)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B520%7Dzamir_13.jpg
+Legenda: 13)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B473%7Dzamir_14.jpg
+Legenda: 14)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B99%7Dzamir_15.jpg
+Legenda: 15)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B250%7Dzamir_16.jpg
+Legenda: 16)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B184%7Dzamir_17.jpg
+Legenda: 17)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B40%7Dzamir_18.jpg
+Legenda: 18)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B416%7Dzamir_19.jpg
+Legenda: 19)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B195%7Dzamir_2.jpg
+Legenda: 2)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B328%7Dzamir_20.jpg
+Legenda: 20)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B177%7Dzamir_21.jpg
+Legenda: 21)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B129%7Dzamir_3.jpg
+Legenda: 3)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B25%7Dzamir_4.jpg
+Legenda: 4)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B137%7Dzamir_5.jpg
+Legenda: 5)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B417%7Dzamir_6.jpg
+Legenda: 6)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B144%7Dzamir_7.jpg
+Legenda: 7)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B513%7Dzamir_8.jpg
+Legenda: 8)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B742%5D%7B497%7Dzamir_9.jpg
+Legenda: 9)null
+
+-- RESISTÊNCIA: --
+Verticilium 1 e Fusarium 1 e 2.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.agrocinco.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.agrocinco.com.br/2013/produto_detalhes.asp?idprod=101&idcat=1&idsub=4

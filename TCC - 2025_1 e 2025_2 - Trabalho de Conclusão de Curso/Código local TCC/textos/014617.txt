@@ -1,0 +1,24 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Boro (B)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014617&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12706%5D%7B296%7Dfigura_19a.jpg
+
+-- IMPORTÂNCIA DO NUTRIENTE: --
+É ativador enzimático e atua nos processos de absorção iônica, transporte de carboidratos, síntese de lignina, celulose, ácidos nucleicos e proteínas. Tem importante função na translocação de açúcares e no metabolismo de carboidratos, no florescimento, no crescimento do tubo polínico, nos processos de frutificação, no metabolismo do N e na atividade de hormônios. Intervém na absorção e no metabolismo dos cátions, principalmente do Ca (TRANI et al., 2014).
+
+-- SINTOMAS DE DEFICIÊNCIA: --
+Em plantas deficientes, as folhas mais novas tornam-se mosqueadas, enrugadas, retorcidas e podem apresentar anelamento de coloração clara. Surge fendilhamento nas folhas mais velhas, que ficam quebradiças. Há a paralisação do crescimento e morte das folhas a partir do ápice (Figura 19).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12706%5D%7B512%7Dfigura_19.jpg
+Legenda: Figura 19. À esquerda planta com sintomas de deficiência de B e ao lado (direita) lavoura com perda de stand pela ocorrência de deficiência de B logo após o transplante. null
+
+-- RECOMENDAÇÃO DE BORO PARA A CEBOLA: --
+Para solos com teor baixo de matéria orgânica e intensivamente cultivados em sistema convencional, adicionar 1,5-2,0kg ha-1 via solo previamente ao plantio ou semeadura. A adição do B pode ser realizada a lanço (ou via pulverização) com incorporação ou no sulco juntamente com a adubação contendo NPK. Por possuir efeito residual baixo pode ser necessário aplicar anualmente. Outra alternativa para o fornecimento desse nutriente via solo é o uso de estercos e outros fertilizantes orgânicos.
+
+-- APLICAÇÃO DE BORO FOLIAR: --
+Para suprir eventuais deficiências de boro durante o desenvolvimento das plantas pode-se aplicar via foliar o ácido bórico ou bórax na concentração de 0,25%, realizando-se de duas a quatro aplicações em intervalos de uma a duas semanas.
+
+-- USO DO BORO EM PRÉ-COLHEITA: --
+Bulbos tratados com B em pré-colheita apresentam incremento na coloração, aumento da resistência das cascas e menor perda de massa durante o armazenamento (FERREIRA & MINAMI, 2000).
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

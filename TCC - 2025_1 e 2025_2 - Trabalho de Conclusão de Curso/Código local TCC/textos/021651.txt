@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inimigos naturais das pragas do arroz - Inseticidas e os artrópodes benéficos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021651&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18342%5D%7B407%7Dpontapulveriza.jpg
+
+-- INTRODUÇÃO --
+A aplicação de inseticidas para o controle de pragas é uma das estratégias do manejo integrado e altamente eficaz na proteção dos cultivos. Contudo, o manejo correto destes produtos é fundamental para reduzir seus efeitos colaterais. Escolhas inadequadas de produtos, momentos inoportunos de aplicação, doses erradas e aplicação mal feita, são os principais fatores que levam a ineficiência dos tratamentos químicos no controle de pragas, com seus efeitos adversos sobre os artrópodes benéficos. Os inseticidas devem ser escolhidos de acordo com o registro de uso para a cultura, observando-se os prazos de carência, efeito residual (período de proteção) e validade do produto. Na seleção de inseticidas deve-se buscar, sempre que possível, um esquema de alternância de princípios ativos. Isto evita a ocorrência de populações de pragas resistentes aos produtos. A seleção também deve objetivar o produto certo para a praga certa. Produtos de largo espectro devem ser evitados, sempre que possível, pois são os mais prováveis de eliminar a fauna de artrópodes benéficos da lavoura. Quando seu uso for indispensável deve-se planejar uma alternativa mais seletiva de uso.
+
+-- APLICAÇÃO SELETIVA --
+Um inseticida pode ser usado de maneira seletiva, quando a aplicação é dirigida aos focos de ocorrência da praga. Pragas agregadas ou de pouca mobilidade, como ninhos do percevejo-do-grão, podem ser controladas com a pulverização de áreas delimitadas. Isto evita que toda a lavoura seja tratada, permitindo a sobrevivência dos agentes de controle biológico. Outra modalidade de aplicação dirigida é a pulverização de faixas de 10 a 20m de largura, apenas nas bordas das quadras. A infestação das lavouras pelas pragas normalmente ocorre pelas bordas das quadras, notadamente aquelas voltadas para locais de hibernação. A infestação das porções mais internas das quadras nem sempre ocorre, ou se verifica mais tarde, pelas gerações estivais.
+
+-- FORMULAÇÃO SELETIVA --
+Os inimigos naturais das pragas também podem ser preservados do efeito tóxico dos inseticidas, pela forma como o produto vem formulado de fábrica. Os inseticidas sistêmicos em tratamento de sementes, geralmente não atingem os inimigos naturais das pragas, possibilitando sua sobrevida.
+
+-- INGREDIENTE ATIVO SELETIVO --
+Ocorre quando o ingrediente químico só atua em determinada praga ou estágio de desenvolvimento do inseto. É a forma mais eficaz de se obter um controle seletivo com inseticidas. O número de produtos no mercado (inseticidas microbiológicos e fisiológicos) está aumentando e alguns deles estão sendo registrados para uso no cultivo do arroz, como os formulados com fungos entomopatogênicos, com Bacillus thuringiensis ou com reguladores de crescimento.
+
+-- Informações Complementares --
+HICKEL, E.R. Artrópodes benéficos nas lavouras catarinenses de arroz irrigado: inimigos naturais . Florianópolis: Epagri, no prelo.

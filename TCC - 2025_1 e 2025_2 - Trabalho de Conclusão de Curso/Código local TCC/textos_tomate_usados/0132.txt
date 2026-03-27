@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - Milão F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0132&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B37%5D%7B107%7Dmilao.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Indeterminado; Empresa: Agristar TopSeed; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Pequeno (170 a 200 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Pontos Fortes: Precocidade, pegamento de frutos nas primeiras pencas e pacote completo de resistência - TYLCV (geminivírus), TSWV (vira-cabeça), F3, nematoide.
+
+-- PLANTAS E FRUTOS: --
+Plantas: Hábito de crescimento indeterminado, bom enfolhamento para proteção dos frutos, pencas mais compactas e excelente sanidade no período chuvoso. Frutos: Excelente qualidade e firmeza, boa tolerância a rachadura no período chuvoso e formato pouco mais alongado.
+
+-- CARACTERÍSTICAS: --
+A planta possui um bom desempenho no período chuvoso, devido à boa sanidade. Permite ao agricultor o cultivo em áreas infestada com TYLCV, TSWV e Fusarium raça 3. Apresenta melhor performance se cultivado em estufas (melhor qualidade e produção). Ind.
+
+-- RESISTÊNCIA: --
+Fol: 0-2, N, ToMV, TYLCV, TSWV, Va e Vd.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

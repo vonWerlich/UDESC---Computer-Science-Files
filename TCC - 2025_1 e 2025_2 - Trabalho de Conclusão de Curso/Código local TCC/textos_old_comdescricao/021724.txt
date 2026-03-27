@@ -1,0 +1,23 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - DOENÇAS QUARENTENÁRIAS - TOPO EM LEQUE
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021724&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+DOENÇAS QUARENTENÁRIAS
+TOPO EM LEQUE
+
+-- DESCRIÇÃO --
+O Banana bunchy top virus (BBTV) é o vírus causador do topo em leque da bananeira (bunchy top). A primeira ocorrência foi registrada em 1889, em Fiji, e se espalhou rapidamente pelas regiões produtoras de banana, principalmente na Ásia, África, Oceania e Havaí, sendo considerada a principal doença de etiologia viral da bananeira em algumas regiões produtoras. No Brasil, está entre os vírus exóticos, sendo considerado uma praga quarentenária A1( 1 ). O BBTV, pertencente à família Circoviridae, gênero Nanovirus , possui partículas isométricas, medindo de 17nm a 20nm de diâmetro. O genoma é constituído por, no mínimo, seis moléculas de DNA circular de fita simples. O BBTV não é transmitido por inoculação mecânica, mas pode ser transmitido pelos rizomas e por mudas micropropagadas. Na natureza, é transmitido pelo afídeo Pentalonia nigronervosa , de modo persistente. Possui um círculo de hospedeiros restrito, infectando todas as espécies de bananeiras e plátanos.
+
+-- SINTOMAS --
+As plantas infectadas manifestam sintomas de nanismo. Nas folhas, os sintomas se caracterizam por estrias verde-escuras, que podem ser descontínuas. O limbo foliar pode sofrer um afilamento, clorose e morte prematura. As plantas infectadas possuem as folhas mais eretas do que o normal, estreitamento e leque no ápice do pseudocaule, podendo também apresentar uma aparência frágil e quebradiça. Internamente, ocorre a supressão do desenvolvimento de fibras, hiperplasia e hipertrofia dos elementos do floema.
+
+-- CONTROLE --
+Nos países como o Brasil, onde esses vírus não ocorrem, a melhor medida é a exclusão por meio da interceptação de mudas e meristemas de bananeiras importadas, concomitantemente à adoção de medidas quarentenárias para a importação de germoplasma. Embora o BBrMV não ocorra no País, é importante lembrar que os afídeos vetores do vírus estão presentes em nosso território. Portanto, cumpre ressaltar a importância de adotar medidas preventivas e de alertar os laboratórios que executam diagnóstico em mudas importadas pela necessidade de realizar a indexação deste vírus.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )BATISTA, M.F.; MARINHO, V.L.A.; MILLER, R. Praga Quarentenária A1 “Bunchy Top” da Bananeira “Banana Bunchy Top Nanavirus”. Embrapa Recursos Genéticos e Biotecnologia, Comunicado Técnico, 65, 2002.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )BATISTA, M.F.; MARINHO, V.L.A.; MILLER, R. Praga Quarentenária A1 “Bunchy Top” da Bananeira “Banana Bunchy Top Nanavirus”. Embrapa Recursos Genéticos e Biotecnologia, Comunicado Técnico, 65, 2002.
+• André Boldrin Beltrame (Dr. - Epagri) Pesquisador - Epagri - Itajaí

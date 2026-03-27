@@ -1,0 +1,22 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - NEMATOIDES - NEMATOIDE ESPIRALADO DA BANANEIRA (Helicotylenchus multicinctus)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021712&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+NEMATOIDES
+NEMATOIDE ESPIRALADO DA BANANEIRA ( Helicotylenchus multicinctus )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18402%5D%7B191%7Dnematoide_espiralado_1.jpg
+FOTO: https://abgc.org.au/2018/09/05/plant-parasitic-nematodes-impacting-australian-banana-production/
+
+-- DESCRIÇÃO --
+O nematóide Helicotylenchus multicinctus encontra-se presente nas principais regiões produtoras de banana do mundo. Grandes populações desse nematoide provocam redução de produção, pois prejudicam a absorção de nutrientes pela planta. Apesar dos danos, estes são menores que aqueles causados por R. similis . As mudas são importantes fontes de disseminação do nematoide para áreas isentas devido à colonização das raízes e dos rizomas.
+
+-- CICLO DE VIDA --
+O ciclo de vida de H. multicinctus é semelhante ao de R. similis, com cinco fases, dos ovos até o adulto. Todos os indivíduos são móveis e colonizam as raízes e os rizomas. A ação de H. multicinctus também provoca a necrose das células (devido à formação de pontos necróticos), mas somente as células superficiais das raízes e rizomas são afetadas, raramente alcançando o tecido mais profundo.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.
+• André Boldrin Beltrame (Dr. - Epagri) Pesquisador - Epagri - Itajaí

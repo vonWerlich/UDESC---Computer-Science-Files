@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - Dominador F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0105&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11%5D%7B231%7Ddominador.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agristar TopSeed; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: For - Fusarium oxysporum f.sp. radicis-lycopersici; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+PONTOS FORTES: Alta resistência ao TYLCV (geminivírus), excelente sanidade de plantas e frutos uniformes. PLANTA: Hábito de crescimento indeterminado, alto vigor e bom enfolhamento até o ponteiro. FRUTOS: Firmes e com bom padrão em todo o ciclo. Coloração vermelha intensa.
+
+-- CARACTERÍSTICAS: --
+Permite alta produção em regiões infestadas com geminivírus. Apresenta ótima pós-colheita e alta sanidade no período da chuva.
+
+-- RESISTÊNCIA: --
+Fol: 0,1, For, Ma, Mi, Mj, ToMV, TYLCV, Va e Vd.
+
+-- Informações para a fertirrigação: --
+Em estudo com os híbridos Dominador Purquerio et al. (2016), no final do ciclo de cultivo, verificaram os máximos acúmulos totais (planta e frutos) estimados na seguinte ordem, em g planta-1: 27,9 de K, 17,7 de N, 11,5 de Ca, 5,1 de S, 3 de Mg e 2,4 de P, com produtividade de 131,9 t ha-1 para Dominador (2 apud 3).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

@@ -1,0 +1,66 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Oídio (Oidium neolycopersicie e Oidiopsis haplophylli)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02063&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1853%5D%7B28%7D20201123_110415.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B527%7D20201123_110415.jpg
+Legenda: Oídio em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B434%7D20191001_100543.jpg
+Legenda: Sintomas de oídio em folhas do tomateiro. Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B459%7D20191001_100551.jpg
+Legenda: Sintomas de oídio em folhas do tomateiro. Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B192%7D20191001_100602.jpg
+Legenda: Sintomas de oídio em folhas do tomateiro. Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B72%7Dimg_20211021_110747075.jpg
+Legenda: Sintomas nas folhas. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B180%7D2015-07-01_15.14.07.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B19%7D2015-08-12_10.10.19.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B306%7Dimg_20161207_143042.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B288%7Dimg_20161207_142959.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B248%7Dimg_20161128_103756506.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B22%7Dimg_20161128_103737451.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B151%7D20170719_135341.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B402%7D20170719_140135.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B265%7D60-1.jpg
+Legenda: Sintomas típicos da doença em folhas do tomateiro. Foto: Alexandre Visconti
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B547%7D60-2.jpg
+Legenda: Sintomas típicos da doença em folhas do tomateiro. Foto: Alexandre Visconti
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B365%7Dimg_8409.jpg
+Legenda: Sintomas típicos da doença na planta do tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1853%5D%7B478%7Dimg_8387.jpg
+Legenda: Sintomas típicos da doença na planta do tomateiro. Foto: Rafael G. F. Morales
+
+-- INFORMAÇÕES GERAIS: --
+- Pelas últimas atualizações do nome científico, as duas doenças podem ser descritas como Oidium neolycopersicie e Oidiopsis haplophylli. - Mesmo não sendo considerada entre as mais destrutivas, tem merecido maior atenção dos tomaticultores devido ao aumento do cultivo do tomateiro sob condições protegidas, onde geralmente a temperatura é mais elevada, e em campo irrigado por gotejamento, onde não ocorre a “lavação” das folhas (2). - Ambas têm distribuição generalizada no País, embora a Leveilula taurica tenha um círculo maior de hospedeiras (1). - Acredita-se que a sua sobrevivência ocorra em plantas voluntárias e em outras hospedeiras. A curta e média distâncias, a disseminação ocorre principalmente pelo vento (2).
+
+-- SINTOMAS: --
+- Para Oidiopsis sicula, a massa pulverulenta normalmente não é tão facilmente observada. Nesse caso, formam-se manchas amareladas nas folhas, que evoluem para necrose a partir do centro das lesões, sintoma que faz com que possa ser confundida com outras doenças como a pinta-preta. Quando o ataque é intenso, toda a folha pode secar. Os sintomas e as estruturas do fungo são encontrados principalmente nas folhas mais velhas que, até infectadas permanecem presas à planta (2). - Para Oidium lycopersisci, o principal sinal é o aspecto pulverulento branco ou cinza em ambas faces do folíolo. Nos estádios mais avançados as plantas afetadas passam a apresentar amarelamento seguido de necrose. Tanto folhas velhas como folhas novas são atacadas indiscriminadamente, contudo, são mais evidentes nas folhas mais velhas (2).
+
+-- ETIOLOGIA: --
+- São fitopatógenos biotróficos, mantendo-se nas lavouras por meio de hospedeiros alternativos. - Os conídios germinam e penetram na folha via estômatos, formando um profundo emaranhado micelial no mesófilo após penetração. - Os dois patógenos podem causar a doença em tomateiro numa ampla faixa de temperatura, que pode variar de 10°C a 35°C no caso de Oidiopsis sicula. A faixa de temperatura para ocorrência do oídio de O. neolycopersici ainda não está bem clara, mas a doença ocorre em verões e invernos secos. Assim, a temperatura não é fator ambiental limitante à doença, que é favorecida por umidades baixas, menor que 60% (2).
+
+-- Controle cultural: --
+- Exclusão de todo material contaminado; - Eliminação de plantas hospedeiras (ex: solanáceas e cucurbitáceas); - Favorecer a aeração da cultura (1). - A irrigação por aspersão e a chuva desalojam os esporos das folhas e auxiliam no controle da doença.
+
+-- Controle químico: --
+- Aplicações preventivas com produtos à base de enxofre. - A medida mais eficiente de controle tem sido o emprego de fungicidas aplicados preventivamente ou após o aparecimento dos primeiros sintomas. Contudo, pode haver dificuldade de encontrar produtor registrados para a cultura (3).
+
+-- Controle genético: --
+- Apesar da existência de boas fontes de resistência no germoplasma do tomateiro, ainda não existem cultivares comerciais resistentes as duas formas de oídio (2) (Ver no próprio aplicativo).
+
+-- Links relevantes na rede AgroWiki: --
+1) Controle do oídio na cultura do morangueiro ( clicar aqui );
+
+-- PODE SER CONFUNDIDO COM: --
+Pinta preta . Em algumas circunstâncias, dependendo do estádio de ocorrência da doença, pode ocorrer essa confusão. Contudo, no caso do oídio, há a ocorrência de uma esporulação esbranquiçada na face inferior da folha (3).
+
+-- Informações Complementares --
+(1) LOPES, C. A.; ÁVILA, A. C. de (Org.). Doenças do tomateiro. Brasília, DF: Embrapa Hortaliças, 2005. 151 p. (2) REIS, A.; LOPES, C. A. Oídios do Tomateiro. Brasília, DF: Embrapa Hortaliças, 2009. Comunicado Técnico 66. (3) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Valdir Lourenço Junior. Tema: Manejo de doenças causadas por fungos e oomicetos da parte aérea do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: https://youtu.be/nbTgf6CdmcY

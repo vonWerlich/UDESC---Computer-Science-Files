@@ -1,0 +1,23 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - D) MANEJO DE SOLO, ADUBAÇÃO E NUTRIÇÃO DE PLANTAS - a) Escolha da área
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02504&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2266%5D%7B193%7Dcapa_1.jpg
+
+-- A topografia do terreno: --
+A topografia do terreno deve possuir, preferencialmente, inclinação leve. A área deve ser ondulada suave, com declividades inferiores a 12%, evitando-se, assim, problemas de pressão no sistema de irrigação e/ou fertirrigação por gotejamento.
+
+-- A escolha do local: --
+O local deve ter adequada disponibilidade de água e o acesso à lavoura deve ser fácil e em qualquer condição climática. A exposição do terreno deve ser preferencialmente de face norte, permitindo a livre circulação do ar e máxima radiação solar. Se possível, estar protegido por quebra-ventos, pelo menos, do lado dos ventos dominantes. Deve-se evitar as áreas frias, sombreadas e úmidas para não favorecer as doenças.
+
+-- Tipo de solo: --
+O tomate prefere solos profundos, friáveis, bem drenados e com altos teores de matéria orgânica. Devem ser evitados solos compactados ou sujeitos a encharcamentos periódicos, o que favorece intensamente as doenças fúngicas e bacterianas do solo. A mesma recomendação é válida para áreas que tenham sido cultivadas com solanáceas (tomate, tabaco, batata, pimentão, berinjela, etc.) nos últimos três anos, terrenos com alta infestação de plantas espontâneas da família das solanáceas ou outras que sirvam de sobrevivência para patógenos causadores de doenças do tomate.
+
+-- Qualidade do solo: --
+Para uma eficiente absorção de água e nutrientes pelas plantas é necessário um sistema radicular bem desenvolvido, para o qual devem existir boas características químicas, físicas e biológicas no solo. Do ponto de vista físico do solo, as características podem ser melhoradas pela subsolagem e aração profunda; do ponto de vista químico, o solo pode ser melhorado pela calagem e adubação. Essas ações, juntamente com outras medidas de manejo, favorecem o aumento da população microbiológica benéfica do solo.
+
+-- Cuidados com relação a parte legal da área: --
+É condição obrigatória respeitar a legislação vigente do meio ambiente em relação às Áreas de Preservação Permanentes (APP) e Áreas de Reserva Legais (ARL). Além desse aspecto, deve-se identificar os talhões para registro de informações da Produção Integrada, cada um com a mesma variedade, idade e tratos culturais, conforme estabelecido na Portaria no 443 do Inmetro (INMETRO, 2012).
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

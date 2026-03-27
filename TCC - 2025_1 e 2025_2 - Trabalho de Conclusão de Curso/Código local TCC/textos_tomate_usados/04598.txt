@@ -1,0 +1,34 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Frutos rachados
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04598&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1296%5D%7B449%7Dimg-20180503-wa0031.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1296%5D%7B81%7Dzap-20181111-wa0019.jpg
+Legenda: Figura 1A. Rachaduras radiais em frutos de tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1296%5D%7B127%7Dimg-20180503-wa0031.jpg
+Legenda: Figura 1B. Rachaduras concêntricas em frutos de tomate.Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1296%5D%7B517%7Dimg_20211124_153249369.jpg
+Legenda: Frutos rachados. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1296%5D%7B274%7Dimg_20211124_153313257.jpg
+Legenda: Frutos rachados. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1296%5D%7B39%7D20190117_215218.jpg
+Legenda: Rachadura em formato radial em frutos maduros. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1296%5D%7B156%7D20190117_215231.jpg
+Legenda: Rachadura em formato radial em frutos maduros. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1296%5D%7B27%7D20190117_215201.jpg
+Legenda: Rachadura em formato radial em frutos maduros. Foto: Rafael G. F. Morales
+
+-- INFORMAÇÕES GERAIS: --
+Aparecem principalmente quando ocorrem chuvas próximo da colheita, seguidas de período de estiagem (1).
+
+-- SINTOMAS: --
+As Rachaduras dos frutos podem ser de forma radial ou longitudinal, e ocorrem próximo ao pedúnculo do fruto (2).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Períodos de muito calor. - Variações bruscas de temperaturas (2). - Desbalanço hídrico (2). - Sensibilidade varietal (3). - Temperaturas elevadas (3). - Desiquilíbrios de nutrição (N/Ca, K/Ca). - Frutos de grande calibre (3).
+
+-- CONTROLE: --
+- Bom manejo de água no solo, fazendo irrigações frequentes (2). - Cultivar bem adaptada à região ou à época de plantio (1). - Cultivares resistentes (1).
+
+-- Informações Complementares --
+(1) LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005. (2) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Ufla, 2004. (3) António Pedro Tavares GUERRA. Divisão Produção Agrícola. Propriedade: D.R.A.P.N. Edição e distribuição: Núcleo de Documentação e Relações Públicas Primeira edição: Outubro 2008.

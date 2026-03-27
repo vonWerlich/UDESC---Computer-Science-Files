@@ -1,0 +1,17 @@
+Título: BANANA - Cultivares - Prata Anã
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021669&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Prata Anã
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18352%5D%7B549%7Dcap_3_-_fig_1_-_letra_f_-_buque_maduro_prata_ana_-_autoria_eliseu_emanoel_dos_santos.jpg
+Capa da publicação técnica "BOLETIM TÉCNICO Nº 212", intitulada "Avaliação de cultivares para o estado de Santa Catarina 2023-2024", identificada pelo ISSN 2674-9513 e datada de Junho de 2023, cujo design apresenta um fundo em tom lavanda claro sobre o qual se dispõe um mosaico dinâmico e vibrante composto por uma vasta gama de produtos agrícolas que ilustram a diversidade das cultivares avaliadas, incluindo, de forma não exaustiva, uma penca de bananas verdes, uvas, maçãs vermelhas e verdes, morangos, frutas cítricas fatiadas, milho em espiga, couve-flor, cebolas, e uma seleção detalhada de tubérculos e raízes como batatas e batatas-doces de polpas variadas, dispostos de forma a sugerir a riqueza e a variedade da produção agrícola catarinense; na parte inferior, destacam-se os logotipos da Epagri e do Governo de Santa Catarina (GOVSC) com a chancela da Secretaria da Agricultura, reforçando o caráter oficial e a credibilidade técnica do documento no setor agropecuário do estado.
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAB, subgrupo Prata. Mutação natural da banana branca no início do século XX no sul de Santa Catarina. Apresenta porte médio. É moderadamente suscetível à sigatoka amarela e ao mal do panamá, e suscetível à sigatoka negra. Espaçamentos de plantio de 2,5m x 3,0m; 2,0m x 3,5m; 2,0m x 4,0m, ou 1.200 plantas por hectare. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

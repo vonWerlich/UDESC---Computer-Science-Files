@@ -1,0 +1,34 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Mancha de estenfílio (Stemphylium solani e S. lycopersici)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04539&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1856%5D%7B123%7D%5B1856%5D%7B62%7D20171024_163205.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1856%5D%7B128%7D20171024_163052.jpg
+Legenda: Sintomas da doença. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1856%5D%7B111%7Dimg_20211021_104226005.jpg
+Legenda: Sintomas da doença. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1856%5D%7B504%7D20171024_163038.jpg
+Legenda: Sintomas da doença. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1856%5D%7B62%7D20171024_163205.jpg
+Legenda: Zoom do sintoma da doença. Foto: Rafael G. F. Morales
+
+-- INFORMAÇÕES GERAIS: --
+A mancha-de-estenfílio pode ser bastante destrutiva, mas a sua importância tem diminuído com o plantio de variedades resistentes e com aplicação periódica de fungicidas para o controle de diversas doenças foliares em cultivos convencionais (3).
+
+-- SINTOMAS: --
+Manchas pequenas, escuras e angulares nas folhas do tomateiro. Algumas manchas apresentam rachaduras no centro das lesões. Os sintomas começam a surgir nas folhas mais jovens, ao contrário do que ocorre com as manchas causadas por Alternaria, Septoria e pinta preta. O ataque severo provoca intensa queima das folhas, devido ao coalecimento das lesões e necrose das hastes. Os frutos não apresentam sintomas (2).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+Condições Favoráveis para o desenvolvimento do patógeno (Temperatura 20-35ºC e alta umidade) (4). Solução: Redução da umidade ambiente e foliar por meio do uso do cultivo protegido e da irrigação por gotejamento. Disseminação favorável ao patógeno, que se dá por água de irrigação e vento. Solução: Usar telas anti-inseto nas laterais do abrigo (1 mm de malha) e usar irrigação por gotejamento. Manutenção do patógeno na área, pois os mesmos sobrevivem em restos culturais e hospedeiros alternativos (1;5). Solução: Eliminação dos restos culturais na áreas de cultivo após o término do ciclo produtivo.
+
+-- CONTROLE: --
+- Plantar cultivares resistentes (Pesquisar no próprio aplicativo as seguintes resistências: Sbl - Stemphylium botryosum f.sp lycopersici Sl - Stemphylium lycopersici St ou Ss - Stemphylium solani - Não deixar que ocorra desequilíbrio nutricional na planta (2). - Rotação de culturas com gramíneas. - Eliminar ou, se não for possível, incorporar os restos culturais imediatamente após o fim da última colheita (2).
+
+-- Controle químico: --
+Para cultivares suscetíveis, o controle químico com fungicidas registrados, os mesmos usados para pinta-preta, é bastante eficiente quando aplicado preventivamente (3). São exemplos de ingredientes ativos: clorotalonil, mancozebe, óxido cuproso, oxicloretode cobre (4).
+
+-- PODE SER CONFUNDIDO COM: --
+Septoriose . A diferença é que na mancha de Estenfílio não há a formação de pontuações pretas nas lesões, que são os picnídios, tal como ocorre com septória.
+
+-- Informações Complementares --
+(1) ZAMBOLIM, L.; VALE; F. X. R. do; COSTA, H. Controle integrado das doenças de hortaliças. Viçosa: UFV, Departamento de Fitopatologia, 1997. (2)https://sistemasdeproducao.cnptia.embrapa.br/FontesHTML/Tomate/TomateIndustrial/doenca_fungo.htm. (3)http://www.agencia.cnptia.embrapa.br/gestor/tomate/arvore/CONT000fhjql8s902wyiv801z2f4wqlloqhx.html. (4) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Valdir Lourenço Junior. Tema: Manejo de doenças causadas por fungos e oomicetos da parte aérea do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: https://youtu.be/nbTgf6CdmcY

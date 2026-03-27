@@ -1,0 +1,29 @@
+Título: TOMATE - Cultivares - Colono F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0142&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B46%5D%7B484%7Dcolono.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Sakata; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: As - Alternaria solani; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Tamanho do fruto: Muito grande (251 a 280 g); Vigor: Médio
+
+-- INFORMAÇÕES DA EMPRESA: --
+BENEFÍCIO: Acesso ao mercado de frutos tipo beef, que proporcionam maior rentabilidade ao produtor. DESTAQUE: Frutos de calibre grande e com alta firmeza.
+
+-- CARACTERÍSTICAS: --
+Planta de médio vigor. Alto pegamento de frutos. Média de início de colheita: 95 DAS. Peso médio de frutos: 280g.
+
+-- VANTAGENS: --
+Alto rendimento de frutos. Frutos de calibre grande com alta firmeza. Padronização, coloração intensa e elevado pós-colheita que propiciam padrão de qualidade diferenciado para o segmento.
+
+-- SEGMENTO: --
+Tomate Salada Determinado.
+
+-- RESISTÊNCIA: --
+Vd raça 1, Fol raças 1 e 2, ToMV estirpe Tm1, Mi raças 1, 2, 3 e 4 e Mj(nematoides), Ss e As.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sakata.com.br/hortalicas ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sakata.com.br/hortalicas.

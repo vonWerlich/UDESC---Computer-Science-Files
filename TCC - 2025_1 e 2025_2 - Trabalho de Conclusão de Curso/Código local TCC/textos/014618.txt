@@ -1,0 +1,18 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Cobre (Cu)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014618&isEdicao=N&epagriTEC=S
+
+
+-- IMPORTÂNCIA DO NUTRIENTE: --
+O cobre é um micronutriente que, embora seja absorvido em pequenas quantidades, possui várias funções vitais para as plantas. Este nutriente é constituinte de diversas enzimas, como a oxidase do ascorbato, a citocromo-oxidase, a plastocianina, a fenol-oxidase e a superóxido dismutase. O cobre também atua em processos fisiológicos de grande importância para o metabolismo das plantas, como fotossíntese, respiração, mecanismo de resistência a doenças, efeito tônico, reprodução (formação e germinação do grão de pólen), regulação hormonal, fixação de N e no metabolismo de compostos secundários (TRANI et al., 2014). O cobre, por meio das enzimas polifenol-oxidase e ascorbato-oxidase, é responsável também pela formação de compostos fenólicos precursores da lignina, responsáveis por tornar as paredes celulares mais resistentes. Além disso, tais compostos são precursores de outras substâncias, como a melanina e fitoalexinas, que apresentam grande importância na resistência as doenças e na melhoria da firmeza das folhas e dos bulbos de cebola, contribuindo para reduzir doenças e aumentar o período de armazenamento (FERREIRA E MINAMI, 2000; KIRKBY & RÖMHELD, 2007).
+
+-- SINTOMAS DE DEFICIÊNCIA: --
+Na carência desse nutriente, os principais sintomas de deficiência são folhas de coloração amarelo-parda com necrose nas pontas. O bulbo torna-se amarelo e fino, faltando solidez e firmeza pela menor lignificação e redução no transporte de água e solutos (MENDES et al., 2008).
+
+-- RECOMENDAÇÃO DE COBRE PARA A CEBOLA: --
+O fornecimento de cobre às plantas pode ser realizado através de fertilizantes aplicados ao solo em pré-plantio pelo uso de fórmulas de NPK + Cu ou de produtos específicos como o sulfato de cobre (25% Cu) e óxido de cobre (75% de Cu). Outra alternativa para o fornecimento desse nutriente via solo é o uso de estercos, principalmente de suínos, que possui concentrações relativamente altas. Pode ser realizada também via foliar durante as fases de crescimento vegetativo e bulbificação das plantas de cebola.
+
+-- APLICAÇÃO DE COBRE FOLIAR: --
+A aplicação via foliar pode ser realizada com o sulfato de cobre ou de outros produtos comerciais quelatizados. Nas aplicações foliares usando sais como o sulfato de cobre a concentração máxima na calda não deve ultrapassar de 0,3%. Recomenda-se ainda a realização da aplicação no final da tarde para evitar fitotoxidez e ocorrência de necrose nas folhas de cebola. Também pode ser fornecido de uma forma indireta com o uso do oxicloreto de cobre e outros produtos cúpricos, com ação fungicida usados de forma preventiva no controle de alguns agentes patogênicos da cebola.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

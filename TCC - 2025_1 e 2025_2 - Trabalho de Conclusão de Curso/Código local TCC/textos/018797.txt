@@ -1,0 +1,84 @@
+Título: BIOFERTILIZANTE EEI - A Unidade Portátil de Produção de Biofertilizantes – UPPB, modelo Epagri
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018797&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16381%5D%7B47%7Duppb_capa.jpg
+
+-- UNIDADE PORTÁTIL: --
+A UPPB é construída a partir de uma bombona plástica de 200 litros, uma bomba de máquina de lavar roupas, canos e conexões de PVC (Figura 3).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B140%7Duppb_capa.jpg
+Legenda: Figura 3. Unidade Portátil de Produção do Biofertilizante. Autor: Alexandre Visconti
+
+-- CONSTRUÇÃO DA UPPB, modelo Epagri: --
+Para a montagem da UPPB, sugere-se seguir o modelo esquemático das Figuras 9 e 10 utilizando o material necessário descrito nas Tabelas 1 e 2.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B169%7Dfigura_10._vista_interna_da_uppb_-_modelo_esquematico..jpg
+Legenda: Figura 10. Vista interna da UPPB - modelo esquemático. Autor: Alexandre Visconti
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B405%7Dfigura_9._modelo_esquematico_da_uppb.jpg
+Legenda: Figura 9. Modelo esquemático da UPPB. Autor: Alexandre Visconti
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B226%7Dtabela_1.jpg
+Legenda: Tabela 1. Itens necessários para construção da Unidade Portátil de Produção de Biofertilizante (UPPB) modelo Epagri. Autor: Alexandre Visconti
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B88%7Dtabela_2.jpg
+Legenda: Tabela 2. Material para instalação e funcionamento da UPPB. Autor: Alexandre Visconti
+
+-- EQUIPAMENTOS E FERRAMENTAS NECESSÁRIAS: --
+Para a montagem e o funcionamento da Unidade Portátil será necessário dispor dos equipamentos e ferramentas relacionados na Tabela 3.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B548%7Dtabela_3.jpg
+Legenda: Tabela 3. Equipamentos e ferramentas necessários para construção da Unidade Portátil de Produção de Biofertilizantes (UPPB), modelo Epagri. Autor: Alexandre Visconti
+
+-- BOMBONAS: --
+Vários modelos de bombonas podem ser encontrados no mercado. Vamos abordar a montagem da unidade para dois modelos de bombonas: o “Tonel” de parede reta com duas pequenas saídas na parte superior e o “Azeitona” de parede arredondada com tampa central (Figura 11).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B45%7Dfigura_11._bombonas_tipo_tonel_e_azeitona..jpg
+Legenda: Figura 11. Bombonas tipo “Tonel” e “Azeitona”. Autor: Alexandre Visconti
+
+-- ETAPAS DE MONTAGEM: --
+Antes de iniciar a montagem do sistema é necessária a realização de etapas prévias, conforme o tipo de bombona: 1) no caso da bombona tipo “Tonel”, recortar na tampa a abertura de acesso; 2) a furação do ponto de sucção do biofertilizante na bombona; 3) a furação superior de 50mm para bombonas do tipo “azeitona” e 4) a adaptação da luva soldável 32mm ⑫ para a conexão da bomba da máquina lava-roupas ④.
+
+-- Etapa prévia 1: --
+Abertura da tampa de acesso para bombonas do tipo “Tonel”: com uma serra, faz-se o recorte da parte superior da bombona conforme a Figura 12. Ao final fixa-se a tampa com dobradiças formando a tampa.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B113%7Dfigura_12._abertura_da_tampa_de_acesso.jpg
+Legenda: Figura 12. Abertura da tampa de acesso. Autor: Alexandre Visconti
+
+-- Etapa prévia 2: --
+Furar o ponto de sucção do biofertilizante na bombona marcando o local e o ponto em que será realizado o furo. Com a broca 6mm acoplada à furadeira, faz-se um furo no ponto de sução. Finaliza-se o furo com a serra copo de 50mm (Figura 13). *Lembre-se: a furação de sucção não poderá ser tão baixa a ponto de a bomba de máquina de lavar roupa encostar no chão e nem tão alta a ponto de que não consiga bombear todo o biofertilizante.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B349%7Dfigura_13._furacao_da_succao_na_bombona..jpg
+Legenda: Figura 13. Furação da sucção na bombona. Autor: Alexandre Visconti
+
+-- Etapa prévia 3: --
+Em caso de utilizar a bombona do tipo “Azeitona”, realizar uma furação de 50mm na parte superior. Isto é necessário, pois este tipo de bombona não tem o furo adequado para a colocação do adaptador soldável com anel para caixa d água 32mm ②. Desta forma, é preciso fazer o furo com a serra-copo à semelhança do ponto de sucção (Figura 14).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B492%7Dfigura_14._furacao_superior_de_50_mm%2C_na_bombona_tipo_azeitona..jpg
+Legenda: Figura 14. Furação superior de 50mm, na bombona tipo “Azeitona”. Autor: Alexandre Visconti
+
+-- Etapa prévia 4: --
+Realizada para os dois tipos de bombona. Realiza-se a adaptação da luva soldável 32mm ⑫ para encaixar na bomba da máquina lava-roupas ④ (Figura 15A). Com o soprador de ar quente, provoca-se o amolecimento da extremidade da luva (Figura 15B) até o encaixe da sucção da bomba, mantendo-a no lugar até o resfriamento da mesma (Figura 15C), para então destacá-la e proceder à colagem (Figura 15D). Concluídas as etapas prévias, inicia-se o processo de montagem do sistema.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B542%7Dfigura_15._adaptacao_da_luva_soldavel_32_mm..jpg
+Legenda: Figura 15. Adaptação da luva soldável 32mm à bomba. Autor: Alexandre Visconti
+
+-- ETAPA 1: --
+Para a montagem do conjunto de bombeamento A , faz-se a fixação do adaptador soldável com anel para caixa d’água 32mm ② na bombona ⑤, seguido das colagens da união soldável 32mm ⑳, da luva soldável 32mm ⑫, da bomba de máquina lava-roupas ④, do cano 25mm ⑥ e da luva de redução soldável 32 X 25mm ⑪ (Figura 16).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B162%7Dfigura_16._conjunto_de_bombeamento-esquema.jpg
+Legenda: Figura 16. Conjunto de bombeamento, modelo esquemático. Autor: Alexandre Visconti
+
+-- ETAPA 2: --
+Para a construção do conjunto de oxigenação B na parte superior da bombona ⑤, faz-se a fixação do adaptador soldável com anel para caixa d’água 32mm ②. Observação: as bombonas tipo “Azeitona” requerem a furação de 50mm na parte superior (Figura 14). Em seguida, procede-se a colagem da curva 90° soldável 32mm ⑧, do Tê soldável 32mm com rosca ⑲, junto a outra curva 90° soldável 32mm ⑧, e a segunda união soldável 32mm ⑳. Ao final, com uma fita veda-rosca, rosqueie a torneira plástica ⑮ ao Tê com rosca ⑲ e encaixe a mangueira de retorno ⑯, conectando o sistema de injeção de oxigênio ao interior da bombona através de um furo feito com a broca 10mm (Figura 17).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B214%7Dfigura_17._conjunto_de_oxigenacao-_modelo_esquematico.jpg
+Legenda: Figura 17. Conjunto de oxigenação, modelo esquemático. Autor: Alexandre Visconti
+
+-- ETAPA 3: --
+Para a montagem do sistema de descarga D , na união soldável 32mm ⑳ do sistema de aeração, cole o registro 32mm ⑰, o Tê soldável 32mm ⑱, o segundo registro 32mm ⑰, 20 centímetros de cano 32mm ⑦, a Luva Soldável e com Rosca 32 X 1” ⑬ e ao final rosqueie com fita veda-rosca o adaptador para mangueira 1’’ interno ① (Figura 18). Na sequência, conecte o conjunto de bombeamento ao sistema de descarga do biofertilizante com o cano 32mm ⑦ (Figura 19).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B81%7Dfigura_18._sistema_de_descarga-modelo_esquematico.jpg
+Legenda: Figura 18. Sistema de descarga, modelo esquemático. Autor: Alexandre Visconti
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B382%7Dfigura_19._conexao_do_conjunto_de_bombeamento_com_o_sistema_de_descarga..jpg
+Legenda: Figura 19. Conexão da bomba com o sistema de descarga. Autor: Alexandre Visconti
+
+-- ETAPA 4: --
+Montagem do sistema circulatório C - dentro da bombona, na parte interna e rosqueável do adaptador 32mm ② rosqueie, em sequência, o nípel de 1” ⑭, o joelho roscável de 1” ⑨, o segundo nípel de 1” ⑭, o segundo joelho roscável de 1” ⑨ e o adaptador soldável curto bolsa e rosca para registro ③. Ao final, ajuste o cano 32mm ⑦ para que o adaptador com o joelho 90° soldável ⑩ alcance o fundo da bombona (Figura 20).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B483%7Dfigura_20._sistema_circulatorio-modelo_esquematico..jpg
+Legenda: Figura 20. Sistema circulatório, modelo esquemático. Autor: Alexandre Visconti
+
+-- ETAPA 5: --
+Para a montagem do “rabicho” elétrico que conectará o fermentador à rede elétrica, instale uma tomada numa extremidade do fio duplo de 2,5mm e na outra extremidade os terminais que serão ligados à bomba. Isole os terminais com fita isolante para evitar choque elétrico (Figura 21).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16381%5D%7B210%7Dfigura_21._rabicho_eletrico.jpg
+Legenda: Figura 21. “Rabicho” elétrico. Autor: Alexandre Visconti
+
+-- Informações Complementares --
+Visconti, A.; Schallenberger, E. Morales, R.G.F.; Cantú, R.R. Unidade Portátil de Produção de Biofertilizante Aeróbico, Modelo Epagri. Cartilha da Epagri, Florianópolis, Março de 2022.

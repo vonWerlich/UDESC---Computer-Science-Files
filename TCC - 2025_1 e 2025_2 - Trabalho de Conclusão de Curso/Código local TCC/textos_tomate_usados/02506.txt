@@ -1,0 +1,34 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - D) MANEJO DE SOLO, ADUBAÇÃO E NUTRIÇÃO DE PLANTAS - c) Correção da acidez do solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02506&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2268%5D%7B180%7Dcapa_1.jpg
+
+-- Solos de Santa Catarina: --
+A maioria dos solos naturais de Santa Catarina e Rio Grande do Sul apresenta fertilidade natural baixa, caracterizados por baixo pH, baixa disponibilidade de fósforo, cálcio e magnésio, e altos teores de alumínio e manganês trocáveis. Embora essas condições restrinjam o desenvolvimento das plantas, os solos apresentam boa disponibilidade de potássio e teores médios a altos de matéria orgânica. Tais solos podem ser melhorados com o uso de fertilizantes e corretivos para obtenção de produtividade com frutos de alta qualidade.
+
+-- Porque aplicar calcário: --
+A aplicação de calcário no solo é feita para elevar o pH e neutralizar os elementos químicos tóxicos como o alumínio e o manganês trocáveis do solo. Além disso, a prática propicia maior disponibilidade de cálcio e de magnésio, auxilia o aumento da disponibilidade de outros nutrientes como o fósforo e favorece a atividade microbiana do solo.
+
+-- Recomendações de calagem da Comissão de Química e Fertilidade do Solo: --
+Para as condições do RS e SC, são utilizadas as recomendações de calagem da Comissão de Química e Fertilidade do Solo – RS/SC (CQFS-RS/SC (2004), as quais são baseadas no índice SMP. Neste método, a acidez potencial (H+Al) é estimada pela medição do pH de equilíbrio da mistura solo: solução SMP, a qual relaciona-se à quantidade de calcário necessária para correção da acidez do solo para que o solo atinja pH em água igual a 6,0.
+
+-- Recomendação do índice SMP: --
+As quantidades de corretivo a serem usadas, segundo a recomendação do índice SMP (Tabela 3), referemse à aplicação de calcário e correção na camada de 0 a 20cm de profundidade do solo. Para uma boa reatividade, o corretivo deve ser bem misturado ao solo. Sugere-se que quantidades superiores a 8 a 10t/ha sejam parceladas e aplicadas em duas etapas, possibilitando, assim, uma melhor distribuição e incorporação na camada de solo a ser corrigida.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2268%5D%7B218%7Dtabela_3.jpg
+Legenda: Recomendações de calagem (calcário com PRNT 100%) com base no índice SMP, para a correção elevar o pH em água do solo a 6,0 (camada de 0 a 20cm) nos estados do Rio Grande do Sul e de Santa Catarina. Fonte: Sispit 2016.
+
+-- Relação entre calagem e o teor de alumínio, matéria orgânica e argila: --
+Como regra geral, solos que apresentam maiores teores de alumínio, de matéria orgânica e de argila necessitam de maiores quantidades de corretivos da acidez, pois esses representam as principais fontes de acidez potencial e de tamponamento dos solos.
+
+-- A importância da qualidade do corretivo: --
+A elevação do pH do solo ao valor desejado depende, dentre outros fatores, da qualidade do corretivo (granulometria e poder de neutralização), que conferirá o Poder Relativo de Neutralização Total (PRNT), de sua mistura com o solo e do tempo de contato do corretivo com o solo. Como a lavoura de tomate é uma cultura anual de ciclo rápido, recomenda-se utilizar, sempre que possível, o calcário de granulometria mais fina e PRNT mais alto (superior a 80%), pois apresenta efeito na correção da acidez mais rápido e atinge o ponto máximo de neutralização entre três e quatro meses após sua aplicação. Assim, por ocasião da implantação da lavoura, o solo já estará corrigido. O efeito residual da calagem é muito variável entre os tipos de solo e a qualidade do calcário utilizado.
+
+-- Levar em consideração a relação Ca/Mg: --
+Considerando que a cultura do tomate é muito exigente em cálcio, na escolha do corretivo, recomenda-se optar por produtos que, após a reação no solo, resultem numa relação Ca/Mg igual ou superior a 3. Isso pode ser obtido pela aplicação de mais de uma fonte de corretivo. Uma opção razoável é aplicar 50% da dose na forma de calcário dolomítico e 50% na forma de calcário calcítico. A lama de cal, ou borra de cal, subproduto da indústria de papel, é um corretivo calcítico que pode ser usado, com o devido cuidado por ser um produto corrosivo.
+
+-- O gesso agrícola: --
+O gesso agrícola (sulfato de cálcio hidratado) é um subproduto da produção do ácido fosfórico. Seu uso só se justifica como fonte de cálcio e de enxofre em solos carentes desses nutrientes, já que não apresenta efeito como corretivo da acidez do solo. Pode ser usado para melhorar a relação Ca/Mg em solos em que a relação é muito estreita, ou quando se deseja aumentar a disponibilidade de Ca e/ou reduzir a ação do alumínio tóxico em camadas mais profundas do solo, sem a necessidade de alteração no pH.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

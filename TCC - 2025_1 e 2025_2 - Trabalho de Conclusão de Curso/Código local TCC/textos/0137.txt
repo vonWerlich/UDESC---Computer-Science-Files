@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Dellycia F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0137&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B42%5D%7B1%7Ddellycia.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agristar TopSeed; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+PLANTA: Crescimento indeterminado, alto vigor e muito adaptado para as condições de estufa. FRUTOS: Firmes, uniformes, excelente enchimento (pouca água) e com muito sabor. Também pode ser comercializado na própria penca. PONTOS FORTES: Qualidade, resistência a Geminivírus (TYLCV) e excelente sabor.
+
+-- CARACTERÍSTICAS: --
+Alta produtividade e boa proteção dos frutos. Adaptado para as condições de estufa e campo aberto.
+
+-- RESISTÊNCIA: --
+Fol: 0,1, ToMV e TYLCV.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

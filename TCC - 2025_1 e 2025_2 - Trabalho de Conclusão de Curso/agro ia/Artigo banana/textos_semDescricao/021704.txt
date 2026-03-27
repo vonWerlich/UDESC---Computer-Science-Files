@@ -1,0 +1,25 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - SIGATOKA AMARELA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021704&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+SIGATOKA AMARELA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18394%5D%7B238%7Dsigatoka_amarela.png
+FOTO: Epagri
+
+-- DESCRIÇÃO --
+A Sigatoka amarela é causada por Mycosphaerella musicola , que é a forma sexuada do fungo, enquanto Pseudocercospora musae corresponde à forma assexuada. Dois tipos de esporos contribuem para o desenvolvimento da doença: o ascósporo (esporo sexuado) e o conídio (esporo asssexuado). A fase ascospórica, ou sexuada, que constitui o inóculo primário, permite a sobrevivência do patógeno principalmente quando as condições ambientais são desfavoráveis (períodos frios e de baixa umidade relativa do ar) e se caracteriza pela produção de uma grande quantidade de ascósporos em estruturas chamadas pseudotécios. A fase conidial ou assexual constitui o inóculo secundário e garante a rápida multiplicação do patógeno em menor espaço de tempo e em maior quantidade. Isso resulta em uma maior velocidade de desenvolvimento da doença que, de modo geral, ocorre nos períodos mais quentes e com umidade relativa mais elevada. Os ascósporos são responsáveis pela disseminação do fungo pelo vento a longas distâncias. Por outro lado, a fase conidial garante a rápida multiplicação do patógeno em menor espaço de tempo e em maior quantidade. A germinação dos ascósporos e conídios e o desenvolvimento da doença são fortemente influenciados por fatores ambientais, como chuva, temperatura, umidade relativa e vento. Em geral, em temperaturas inferiores a 21°C ocorre um declínio na taxa de infecção e no desenvolvimento da doença, mesmo se as condições de umidade forem adequadas( 1 ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18394%5D%7B85%7Dfig_1a-_sigatoka_amarela.jpg
+
+-- SINTOMAS --
+Os sintomas dessa doença se apresentam da seguinte maneira( 2 ): a) : a fase inicial da lesão, visível a olho nu como uma risca de comprimento inferior a 1mm (Figura abaixo) . b) Estádio 2 : risca de maior comprimento, com processo de descoloração mais intensa (amarelo-esverdeado) e tamanho aproximado de 1-2mm (Figura abaixo) . c) Estádio 3 : a lesão cresce em tamanho e largura, assumindo coloração levemente parda (Figura abaixo) . d) Estádio 4 : a lesão se desenvolve, iniciando sua primeira fase de mancha, coloração marrom escura e aparecimento de um halo amarelado em volta da mancha (Figura abaixo) . Nesta fase, inicia-se a esporulação do patógeno. e) Estádio 5 : a fase final da mancha, com centro da lesão de coloração cinza e margens negras (Figura abaixo) . Pequenos pontos negros podem ser vistos na lesão, os quais correspondem aos esporos do patógeno.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18394%5D%7B345%7Dfig_1b-_sa_1-3.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18394%5D%7B501%7Dfig_1c-_sa_2_4-5.jpg
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )CORDEIRO, Z.J.M.; MATOS, A.P.; KIMATI, H. Doenças da bananeira (Musa sp.) In: KIMATI, H.; AMORIM, L.; BERGAMIN FILHO, A.; CAMARGO, L.E.A. (Ed.). Manual de fitopatologia. 4.ed. São Paulo: Agronômica Ceres, 2005. v.2. p.99-117. ( 2 )GANRY, J.; BELLAIRE, L.L.; MOURICHON, X. A biological forecasting system to control Sigatoka disease of bananas and plantains. Fruits, v.63, p.381-387, 2008.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )CORDEIRO, Z.J.M.; MATOS, A.P.; KIMATI, H. Doenças da bananeira (Musa sp.) In: KIMATI, H.; AMORIM, L.; BERGAMIN FILHO, A.; CAMARGO, L.E.A. (Ed.). Manual de fitopatologia. 4.ed. São Paulo: Agronômica Ceres, 2005. v.2. p.99-117. ( 2 )GANRY, J.; BELLAIRE, L.L.; MOURICHON, X. A biological forecasting system to control Sigatoka disease of bananas and plantains. Fruits, v.63, p.381-387, 2008.
+• Mauro Ferreira Bonfim Junior (Dr. - Epagri) Pesquisador - Epagri - Urussanga
+• André Boldrin Beltrame (Dr. - Epagri) Pesquisador - Epagri - Itajaí

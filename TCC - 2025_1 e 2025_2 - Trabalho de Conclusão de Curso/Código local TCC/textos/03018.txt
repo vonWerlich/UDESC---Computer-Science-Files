@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - L) TECNOLOGIA DE APLICAÇÃO DE PRODUTOS FITOSSANITÁRIOS - g) Vazão
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03018&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2782%5D%7B77%7Dcapa_1.jpg
+
+-- Vazão: --
+Para conhecer a vazão utilizada na aplicação deve-se encher completamente o tanque do pulverizador até a extremidade e pulverizar durante 2 minutos com o pulverizador parado. Posteriormente mede-se a quantidade de água que foi gasta para completar o tanque até o nível inicial e divide-se a quantidade de água por 2 para obter a vazão do bico durante 1 minuto, resultando a vazão do bico em litro por minuto. Se a vazão do bico ultrapassar em 10% do recomendado pelo fabricante, o bico então deve ser substituído.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

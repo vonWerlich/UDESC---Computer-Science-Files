@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Tomini F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0191&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B94%5D%7B107%7Dtomini.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Feltrin; Finalidade: Copa; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Cultivar: Tomate Tomini Híbrido F1. Colheita (Dias): 110-115 Dias. Hábito De Crescimento: Indeterminado. Peso: 10-20g. Uso: Colheita Frutos Individualizados (A Granel) E/Ou Cluster (Pencas).
+
+-- DESTAQUE: --
+Extremante Produtivo E Precoce, Planta Indeterminada E Vigorosa, Fruta De Formato Oval, Com Conteúdo De Açúcar (Brix) Excelente, Sabor, Crocância, Pós-Colheita, Brilho, Características Muito Apreciadas Pelo Mercado.
+
+-- RESISTÊNCIA: --
+V, F, TSWV (Sw5).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sementesfeltrin.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sementesfeltrin.com.br.

@@ -1,0 +1,377 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2431&amp;isEdicao=N&amp;epagriTEC=S">Sistemas de Produção</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2434&amp;isEdicao=N&amp;epagriTEC=S">Produção Integrada de Tomates (SISPIT)</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2613&amp;isEdicao=N&amp;epagriTEC=S">E) MANEJO DA IRRIGAÇÃO POR GOTEJAMENTO</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2696&amp;isEdicao=N&amp;epagriTEC=S">c) Manejo da irrigação por gotejamento com base no solo</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="2422">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="02696">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[2422]{3}capa_1.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Sistema de Produção Integrada para o Tomate Tutorado em Santa Catarina. 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>Para cálculo da estimativa da lâmina de água a ser utilizada em cada turno de rega: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A estrutura física do solo é o fator determinante que irá definir a umidade do solo e que
+influenciará diretamente o volume de água nele armazenado. Logo, é de suma importância o
+conhecimento da estrutura física e da umidade do solo para estudar o movimento da água no
+solo, a disponibilidade de água, a época e a quantidade de água a ser aplicada. Para viabilizar o
+manejo de irrigação e possibilitar o cálculo da estimativa da lâmina de água a ser utilizada em
+cada turno de rega são necessárias algumas informações importantes, tais como: profundidade
+efetiva do sistema radicular, potencial de água crítico para as culturas, capacidade de campo,
+ponto de murcha permanente e curva de retenção de água do solo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>A profundidade efetiva das raízes: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A profundidade efetiva das raízes compreende a camada desde a superfície do solo até
+onde se concentra a maior parte das raízes absorventes ou finas. Essa informação é importante
+não somente para determinação da lâmina de irrigação, mas também para a instalação de
+sensores para o monitoramento da água no solo no controle das irrigações. A profundidade
+efetiva do sistema radicular é onde se concentra em torno de 80% do total de raízes finas
+da cultura. Para a cultura do tomate a profundidade varia de 20 a 40cm na fase vegetativa e
+reprodutiva, respectivamente. Porém, essa medida deve ser determinada em cada situação,
+pois pode variar de acordo com o tipo de solo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Capacidade de campo (Cc) e ponto de murcha permanente (Pm): </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O solo funciona como um reservatório de água, o qual tem como limite máximo a
+capacidade de campo (Cc), ou seja, a quantidade de água que o solo pode reter sem causar
+danos à planta, além de evitar a lixiviação de nutrientes, o escoamento superficial e a
+percolação profunda. Já no ponto de murcha permanente (Pm), a água existente no solo não
+está mais disponível às plantas, pois a força de retenção exercida pelo solo sobre a água é
+maior que a capacidade da planta em absorvê-la. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>O conceito de potencial de água crítico: </b><br>
+<p class="p1"><div> O potencial de água crítico para uma cultura indica o valor até o qual as irrigações
+podem ser realizadas sem que ocorram prejuízos à produtividade. Por isso, é o que determina
+o momento de irrigação. <br> </div></p>
+<b>Curva de retenção de água no solo:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Em um solo homogêneo, para cada valor de umidade (θ), existe um valor correspondente de potencial de água no solo (ψ). A elaboração de um gráfico, com essas variáveis se denomina
+curva de retenção de água no solo. As coletas das amostras de solo para a determinação da curva de retenção de água no solo devem ser indeformadas, sendo coletadas com uso de anéis volumétricos que mantenham sua estrutura, pois, embora a textura seja o principal fator que influencia na retenção de água no solo, a estrutura também exerce bastante influência,
+sobretudo na faixa compreendida entre 0 e 100kPa. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>A coleta de solo para a curva de retenção de água do solo: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A coleta das amostras de solo para a determinação da curva de retenção de água do solo
+é feita em diferentes camadas, preferencialmente nos primeiros 20cm, sendo a profundidade
+efetiva do sistema radicular do tomate de 40cm. A curva de retenção deve ser determinada
+nas duas camadas. Entretanto, o manejo da irrigação deve se basear na camada de 0-20cm na
+fase inicial e na soma das duas camadas na fase de maior desenvolvimento vegetativo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>O uso da curva de retenção: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O uso da curva de retenção para o manejo da irrigação é bastante simples. A irrigação
+é efetuada quando o solo atinge um potencial ou umidade que prejudique o desenvolvimento
+da cultura. Dessa forma, o monitoramento no campo é constante. Para a determinação do
+potencial de água no solo são utilizados tensiômetros em vários pontos na lavoura e, com
+auxílio de um densímetro, faz-se a leitura instantânea da tensão. Segundo Marouelli &amp;
+Silva (2006) a máxima produção de tomate ocorre quando a tensão no solo é de 10kPa.
+Esse resultado está de acordo com Marouelli et al. (2003), que indicam que a realização de
+irrigações visando manter a tensão máxima de água no solo abaixo de 15kPa poderia ser capaz
+de acarretar incrementos de produtividade de frutos em tomateiro irrigado por gotejamento.
+Entretanto, deve-se ressaltar que esses valores são específicos para cada tipo de solo, inclusive
+com diferenças entre cultivares, sendo necessário, portanto, a determinação desses valores
+para cada situação específica. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Quantidade de água a ser reposta: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Determinado o momento da irrigação, calcula-se a quantidade de água a ser reposta pela seguinte equação:<br><br>
+
+LL= (θ cc - θ i)*Z<br><br>
+
+Sendo que:<br>
+LL = Lâmina liquida de irrigação (mm)<br><br>
+θ cc = Umidade na capacidade de campo (cm3 cm-3)<br><br>
+θ i = Umidade de irrigação correspondente ao potencial mínimo (máxima tensão ou tensão crítica) de água no solo preestabelecido para a cultura (cm3cm-3)<br><br>
+Z = Profundidade efetiva do sistema radicular (mm) <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Exemplo de curva de retenção de água no solo</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Na Figura 13 tem-se um exemplo de curva de retenção de água no solo para ser utilizada
+no manejo da irrigação, em uma área experimental da Estação Experimental de Caçador
+(Epagri/EECd), cultivada com tomate de mesa.<br><br>
+
+A curva representa a camada da profundidade efetiva do sistema radicular da cultura
+do tomateiro em pleno desenvolvimento (Z= 400mm). Admitindo a tensão na capacidade de
+campo (θcc) igual a 10kPa, obtém-se pela equação do gráfico uma umidade na capacidade de
+campo igual a 44,65% (θ cc = 0,4465cm3/cm3). <br><br>
+
+Considerando a tensão de irrigação (θ i) igual 25kPa, obtém-se uma umidade de irrigação igual a 41,83% (θ i = 0,4183cm3/cm3). Substituindo os valores de Z, θ cc e θ i na equação LL= (θ cc - θ i)*Z, tem-se uma lâmina de irrigação LL = 11,3mm. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2911,02696,2422,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[2422]{371}figura_13.jpg">  </a> 
+<br><br>
+<b>Lâmina líquida x Lâmina bruta: </b><br>
+<p class="p1"><div> A lâmina de água determinada pela curva de retenção é a lâmina líquida a ser aplicada, porém, como nenhum sistema de irrigação possui uma eficiência de 100%, deve-se fazer a correção e aplicar uma lâmina bruta de irrigação.
+ <br> </div></p>
+<b>A eficiência de irrigação: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A eficiência de irrigação é um conceito largamente utilizado, tanto em projetos quanto
+no manejo de sistemas de irrigação. O conceito de eficiência abrange dois aspectos básicos: a uniformidade de aplicação e as perdas que podem ocorrer durante a operação do sistema. Para que a eficiência possa atingir valores altos é necessário que as perdas durante a operação sejam as menores possíveis e que haja uma maior uniformidade de aplicação e distribuição da água no solo.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Coeficiente de uniformidade de Christiansen (CUC) e de distribuição (CUD): </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;">  A uniformidade de aplicação de água, em sistemas de irrigação por gotejamento, pode ser expressa por vários coeficientes, destacando-se o coeficiente de uniformidade de Christiansen (CUC) e o coeficiente de uniformidade de distribuição (CUD). Para os sistemas de irrigação localizada é mais frequente o uso do CUD, que possibilita uma medida mais restrita, dando maior peso às plantas que recebem menos água. A determinação dos coeficientes é feita com uso das seguintes equações. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2912,02696,2422,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[2422]{107}formula_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2913,02696,2422,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[2422]{127}formula_2.jpg">  </a> 
+<br><br>
+<b>A determinação de eficiência do sistema: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A determinação de eficiência do sistema é feita no campo com auxílio de um recipiente,
+um cronômetro e uma proveta, de preferência com precisão de 1 a 2mL. A aferição da vazão
+dos gotejadores é feita no início, meio e fim do tubo gotejador e em diferentes pontos da
+lavoura, incluindo obrigatoriamente os pontos mais altos e baixos. Uma forma de evitar
+variações na pressão entre pontos altos e baixos na linha lateral é a utilização de mangueiras
+com gotejadores autocompensantes. Outro fator de baixa uniformidade de aplicação é o alto
+coeficiente de variação de fabricação entre as marcas de mangueiras e/ou entupimento dos
+gotejadores.<br><br>
+
+Dessa forma, deve-se fazer o monitoramento periódico da uniformidade de aplicação.<br>
+A lâmina bruta de irrigação é definida pela seguinte equação:<br><br>
+
+Lb=LL/Ea<br><br>
+Sendo que:<br>
+Lb = Lâmina bruta de irrigação<br>
+LL= Lâmina líquida de irrigação<br>
+Ea = Eficiência do sistema (decimal).
+
+
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Cálculo da eficiência do sistema de irrigação: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Admitindo que a eficiência do sistema de irrigação por gotejamento é de 90% (0,9),
+tem-se uma lâmina bruta de irrigação de 12,5mm. Entretanto, no gotejamento, apenas
+uma fração da área é molhada, por isso esse valor de lâmina bruta (Lb) deve ser diminuído,
+multiplicado por um fator Pa (porcentagem de área molhada). Esse fator Pa é função do tipo do
+solo, espaçamento entre linhas laterais e vazão dos gotejadores e do tempo de aplicação da
+lâmina. A porcentagem de área molhada deve ser determinada no campo. Considerando um
+valor médio de Pa de 65%, tem-se uma lâmina final a ser aplicada de 8,1mm. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+Walter Ferreira Becker in: <br>
+BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.
+
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 02/05/2019</font>
+<br> <font size="2"> Última atualização: 05/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=02696&amp;cdElemento=2422">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=2422');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

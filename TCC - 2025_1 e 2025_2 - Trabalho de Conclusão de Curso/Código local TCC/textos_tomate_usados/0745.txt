@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Iraí F1 (Blueseeds)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0745&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B625%5D%7B376%7Dirai.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto amarelo; Crescimento: Determinado; Empresa: Blueseeds; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1
+
+-- INFORMAÇÕES DA EMPRESA: --
+Hábito de Crescimento : Determinado ; Grupo : Grape ; Peso Médio : 20 a 26g ; Ciclo : precoce ; Nº de Lócus : 2 ; Tolerância : F¹ ; Densidade do plantio : 1,20×1,60m – 0,40×0,60m ; Nº de hastes : 4
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://blueseeds.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://blueseeds.com.br.

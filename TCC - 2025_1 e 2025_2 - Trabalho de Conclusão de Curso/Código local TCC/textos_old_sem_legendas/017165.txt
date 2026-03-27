@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Fipronil
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017165&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Fipronil
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Fipronil; Nome comercial: vários; Grupo químico: Pirazol; Dose de produto comercial (Tratamento de sementes): 120-150mL/ 100kg ; Carência (dia): - Classe Toxicológica: 3 moderadamente tóxico (faixa amarela) / 4 = pouco tóxico (faixa azul); Classe ambiental: II = muito perigoso;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”. Dose para 100kg de sementes.
+
+-- PRAGAS QUE CONTROLA: --
+Bicheira-da-raiz (Oryzophagus oryzae)
+
+-- Informações Complementares --

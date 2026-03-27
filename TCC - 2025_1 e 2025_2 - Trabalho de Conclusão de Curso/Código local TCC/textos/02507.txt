@@ -1,0 +1,32 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - D) MANEJO DE SOLO, ADUBAÇÃO E NUTRIÇÃO DE PLANTAS - d) Preparo do solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02507&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2269%5D%7B238%7Dcapa_1.jpg
+
+-- Objetivo do preparo do solo: --
+O preparo do solo tem por objetivo melhorar as condições físicas e químicas do solo, bem como facilitar o plantio, o que representa realizar a incorporação dos corretivos da acidez em quantidades e na profundidade adequadas e melhorar as condições físicas do solo.
+
+-- Quando fazer: --
+Esse preparo do solo deve ser feito, no mínimo, com 90 dias de antecedência ao plantio.
+
+-- O que observar: --
+Deve-se dar bastante importância para a qualidade e a profundidade do solo, pois o êxito da lavoura estará condicionado às condições adequadas do solo, como ausência de compactação e áreas de boa drenagem.
+
+-- Descrição do processo: --
+As etapas no preparo do solo, para uma boa lavoura de tomate, em geral compreendem a aplicação da metade da dose total de calcário; subsolagem do terreno até a profundidade de 40cm; limpeza do terreno, retirando raízes, tocos e pedras; primeira aração na profundidade de correção pretendida de 20cm, seguida de gradagem; aplicação do restante do calcário; segunda aração e gradagem; semeadura do adubo verde (aveia preta ou branca); e, por fim, uma gradagem leve para incorporação das sementes de aveia.
+
+-- Preparo do solo no SISPIT: --
+O sistema de cultivo de tomate precisa garantir a preservação ambiental e utilizar um conjunto de práticas preconizadas no Sistema de Produção Integrada do Tomate Tutorado de Mesa (Sispit). Neste sistema, utiliza-se o preparo do solo de cultivo sobre a cobertura verde ou cobertura morta, irrigação por gotejamento e adubação de cobertura por fertirrigação.
+
+-- O cultivo sobre cobertura verde: --
+O cultivo sobre cobertura verde ou palha de aveia é uma técnica que propicia um maior controle de erosão do solo, diminuição de respingo do solo, evitando o favorecimento da propagação de doenças, além das plantas terem melhorias na condição de umidade e de população microbiana benéfica no solo. Quando o plantio é feito sobre cobertura vegetal, principalmente com aveia, os sulcos para a adubação e o plantio devem ser preparados entre aproximadamente duas e três semanas antes do plantio para melhor incorporação e mistura dos adubos químicos ou orgânicos que ficarão concentrados nos sulcos.
+
+-- Quando realizar a semeadura da planta de cobertura: --
+Ressalta-se que a semeadura da aveia deve ser planejada para que o plantio do tomate ocorra quando a aveia se encontra na fase de grão-leitoso. Nessa fase da aveia, não é necessária sua dessecação, pois ela é tombada pelo movimento das máquinas e trabalhadores.
+
+-- Preservação do solo com a cobertura vegetal: --
+É importante destacar que o sistema de plantio sobre cobertura vegetal, para a cultura do tomate, é uma técnica de grande utilidade para a preservação do solo. Isso porque, além de estar relacionada ao uso racional e eficiente da irrigação por gotejamento e fertirrigação, é associada à utilização de tratos culturais baseados em critérios técnicos definidos e ao adequado manejo pela mínima mobilização mecânica da superfície do solo, procurando mantê-lo coberto por cultivos sucessivos durante todo o ano através de uma rotação de cultura racional.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

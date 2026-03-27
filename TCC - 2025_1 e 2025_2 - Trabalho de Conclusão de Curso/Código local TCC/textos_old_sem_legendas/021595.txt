@@ -1,0 +1,26 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas - As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando - Várias folhas estão amareladas ou retorcidas, ou com manchas, enegrecidas ou secando - As folhas apresentam manchas diversas, pequenas ou grandes, eventualmente negras, que não rompem o limbo foliar (doenças fúngicas do arroz) - As manchas são grandes, largas e alongadas - As manchas se restringem à ponta das folhas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021595&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21593%5D%7B284%7Dpl05_manchaponta.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano está restrito às folhas
+As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando
+Várias folhas estão amareladas ou retorcidas, ou com manchas, enegrecidas ou secando
+As folhas apresentam manchas diversas, pequenas ou grandes, eventualmente negras, que não rompem o limbo foliar (doenças fúngicas do arroz)
+As manchas são grandes, largas e alongadas
+As manchas se restringem à ponta das folhas
+Ponta da folha esbranquiçada - PONTA BRANCA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21595%5D%7B91%7Dchv_pontabranca.jpg
+Legenda: Ponta da folha esbranquiçada - PONTA BRANCA
+21597
+Ponta da folha esbranquiçada - PONTA BRANCA
+Ponta da folha seca, com estrias onduladas de coloração escura - ESCALDADURA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21595%5D%7B237%7Dchv_escaldafolha.jpg
+Legenda: Ponta da folha seca, com estrias onduladas de coloração escura - ESCALDADURA
+21598
+Ponta da folha seca, com estrias onduladas de coloração escura - ESCALDADURA

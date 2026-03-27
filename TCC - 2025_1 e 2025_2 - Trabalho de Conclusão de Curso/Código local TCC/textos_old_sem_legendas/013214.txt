@@ -1,0 +1,39 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares fora da recomendação - Empasc 104
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013214&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+08. Cultivares
+Portfólio de cultivares Epagri
+Cultivares fora da recomendação
+Empasc 104
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11468%5D%7B291%7Dempasc104_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar Empasc 104 foi introduzido na Empasc/EEI em 1980 como linhagem IR 841-67-1-2 proveniente do IRGA, oriunda do cruzamento entre IR 262-43-8-11 e KDM 105 realizado no IRRI. A linhagem foi submetida a avaliações em ensaios regionais durante 5 anos, e lançada como cultivar em 1985. É um cultivar de tipo moderno e destaca-se pela qualidade dos grãos, potencial produtivo, ciclo tardio, resistência à brusone e tolerância a toxidez por ferro. Diferencia-se dos demais cultivares por ser um arroz aromático e glutinoso , características estas que a fizeram ser pouco cultivada, uma vez que a indústria não aprovava este tipo de arroz.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: 7,75t/ha • Altura da planta: 102cm • Ciclo: Tardio (150 dias) • Acamamento: Resistente • Reação à toxidez por ferro: Resistente • Reação à brusone: Resistente • Reação a baixas temperaturas (13°C): Suscetível
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 2 • Classe: Longo fino • Teor de amilose: 18% • Temperatura de gelatinização: Alta a média
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: 33cm • Largura: 1,7cm • Pubescência: Forte • Ângulo das folhas: Ereto • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Branca a verde • Cor da aurícula: Incolor a verde • Cor do colo: Verde-clara
+
+-- COLMO: --
+• Comprimento: 79cm • Espessura: 0,6cm • Perfilhamento: Bom • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Intermediário (24,3cm) • Exserção: Média • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Verde • Cor do apículo na maturação: Palha • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,3mm • Espessura: 1,8mm • Largura: 2,2mm • Relação C/L: 3,32 • Forma do grão: Alongado • Peso de mil grãos: 29,3g • Pilosidade: Média
+
+-- Informações Complementares --
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).
+• Rubens Marschalek (Dr. em Melhoramento - Epagri) Melhoramento e cultivares

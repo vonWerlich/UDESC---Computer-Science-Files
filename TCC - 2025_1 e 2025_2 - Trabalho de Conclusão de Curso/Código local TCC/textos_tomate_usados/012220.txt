@@ -1,0 +1,45 @@
+Título: 3) ESCOLHA DO LOCAL
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012220&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6688%5D%7B300%7D49.jpg
+
+-- 1) Declividade do Terreno: --
+O local para instalação deve ser levemente inclinado (até 3%) ou plano, com solo leve. Essa declividade facilita a drenagem do excesso de água de irrigação, no interior do abrigo, ou da chuva, externamente. Evitar locais de topografia que dificulte o trabalho de máquinas, de fácil erodibilidade, de muita argila ou de pedras.
+
+-- 2) Qualidade do solo: --
+Deve-se evitar locais terraplanados em que o solo não seja mais o original e dar preferência por solos férteis e bem drenados, sendo imprescindível o envio de uma amostra para a análise química. As correções necessárias devem ser feitas antes de instalar o abrigo (calagem) e pode ser realizado o cultivo de plantas de cobertura para condicionamento do solo.
+
+-- 3) Observar o vento predominante: --
+Optar por local não sujeito a ventos fortes e frequentes. Observar a direção dos ventos predominantes (o comprimento do abrigo deve estar paralelo ao vento e não contra).
+
+-- 4) Usar quebra-vento para proteger a estrutura: --
+Verificar a necessidade de implantação de quebra-ventos, de modo que a sua instalação não sombreie os cultivos. A distância mínima entre o quebra-vento e o abrigo deve ser de 10m e sua altura deve superar a parte superior da cumeeira do abrigo em 1,5m. Como sugestão de quebra vento do dossel baixeiro, pode-se utilizar a planta Flemingia , em filas duplas ou triplas, com espaçamento de 1 m entre filas e 0,5 m entre plantas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6688%5D%7B283%7D%5B683%5D%7B268%7D20181029_160904.jpg
+Legenda: Barreira vegetal feita de Flemingia. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6688%5D%7B55%7D49.jpg
+Legenda: Uso de quebra-vento próximo a abrigos de cultivo para proteção da estrutura. Foto: Rafael G. F. Morales
+
+-- 5) Observar a orientação solar: --
+Ensolarado (sol o dia todo), sendo que no Sul do Brasil deve ser construído no sentido Norte-Sul (importante para o cultivo de plantas tutoradas) (1); Deve-se evitar locais próximos a muros, em encosta onde não incida sol no período da manhã ou da tarde.
+
+-- 6) Cuidados com o nevoeiro: --
+Evitar construir abrigos em regiões sujeitas a nevoeiros.
+
+-- 7) Próximo a uma boa fonte de água: --
+Deve ser localizado o mais próximo possível de fonte de água limpa (deve-se fazer análise química) e em quantidade (que chegue preferencialmente por gravidade);
+
+-- 8) Evitar regiões de baixada: --
+Em regiões onde ocorram geadas, deve-se evitar o plantio em baixadas, devido ao acúmulo de frio e água.
+
+-- 9) Evitar áreas com histórico de doenças de plantas: --
+Evitar áreas com histórico de doenças relacionadas ao solo como nematoides, mofo-branco, murcha-de-fusário, etc.
+
+-- 10) Cuidados com a proximidade de lavouras vizinhas: --
+Evitar áreas próximas a cultivos convencionais de hortaliças, que podem trazer problemas com insetos-praga, tais como mosca-branca, tripes e pulgões, além de intoxicações por deriva das pulverizações com agrotóxicos.
+
+-- OBSERVAÇÃO: --
+Vale lembrar que é difícil conseguir atender a todas as condições consideradas ideais para a correta instalação de abrigo de cultivo. A decisão da escolha do local mais adequado deve ser tomada com bom senso e com base na análise conjunta dos fatores descritos acima.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

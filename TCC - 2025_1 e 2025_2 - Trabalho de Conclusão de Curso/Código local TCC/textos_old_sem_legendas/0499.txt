@@ -1,0 +1,32 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Plantas daninhas em arroz irrigado - Junquinho (Cyperus iria)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0499&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+10. Plantas daninhas
+Plantas daninhas em arroz irrigado
+Junquinho ( Cyperus iria )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B392%5D%7B393%7Dpldan_junquinho_fig12.jpg
+FOTO: Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B392%5D%7B340%7Dcyperus_iria84.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B392%5D%7B132%7Dpldan_junquinho_fig06.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B392%5D%7B547%7Dpldan_junquinho_fig07.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B392%5D%7B522%7Dpldan_junquinho_fig10.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B392%5D%7B427%7Dpldan_junquinho_fig12.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B392%5D%7B199%7Dpldan_junquinho_fig14.jpg
+
+-- Descrição Botânica: --
+Autor da Descrição: Horlandezan Bragança (1) Características da Planta: Família: Cyperaceae Divisão e Classe: Angyospermae Monocotyledoneae Ciclo: Anual Reprod./Propagação: Fruto; Habitat/Tipologia: Aéreo - Herbáceo Adaptações: Herbáceo ereto; Escapo triangular; Altura(cm): 40 Características das Folhas: Filotaxia: Trística Forma do Limbo: Lanceoladas: Linear Superfície: Glabras Consistência: Coriácea Nervação/Venação: Paralelinérveas Comprimento (cm): até 30 Características das Flores e do fruto: Inflorescência: Espiga Perianto: Aperiantada, Hermafrodita Tipologia do Fruto: Núcula
+
+-- Observações: --
+Espécie infestante em cultura de arroz irrigado, canais de irrigação e drenagem, margens de estradas e prefere solos inundados ou úmidos (1).
+
+-- Produtos com reconhecido controle da invasora: --
+Aurora ; Basagran ; 2,4-D ; Gladium(Constatada resistência ao herbicida) ; Heat ; Invest/Gulliver*(Constatada resistência ao herbicida) ; Loyant ; Nominee*(Constatada resistência ao herbicida) ; Only(Constatada resistência ao herbicida) ; Kifix(Constatada resistência ao herbicida) ; Propanil ; Ricer(Constatada resistência ao herbicida) ; Sirius(Constatada resistência ao herbicida) ; *Controle obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento (plântulas com até uma folha – V1).
+
+-- Produtos com controle médio (70% a 90%): --
+Propanil
+
+-- Informações Complementares --
+(1) AGROFIT. Site: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html (2) Agrolink. Site: https://www.agrolink.com.br/problemas/tiririca-do-brejo_362.html
+(1) AGROFIT. Site: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html (2) Agrolink. Site: https://www.agrolink.com.br/problemas/tiririca-do-brejo_362.html

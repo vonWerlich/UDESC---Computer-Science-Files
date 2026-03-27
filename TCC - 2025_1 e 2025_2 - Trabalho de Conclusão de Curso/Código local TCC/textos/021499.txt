@@ -1,0 +1,107 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Percevejo-do-colmo (Tibraca limbativentris)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021499&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11351%5D%7B123%7Dpcolmo_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B251%7Dpcolmo_fig01.jpg
+Legenda: 01. Percevejo-do-colmo. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B139%7Dpcolmo_fig01a.jpg
+Legenda: 02. Percevejo-do-colmo. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B323%7Dpcolmo_fig02.jpg
+Legenda: 03. Percevejo-do-colmo pouco frequente da espécie Glyphepomis spinosa. Fonte: J.A.F.Barrigossi (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B521%7Dpcolmo_fig03.jpg
+Legenda: 04. Percevejo-do-colmo pouco frequente da espécie Mormidea notulata. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B22%7Dpcolmo_fig05.jpg
+Legenda: 06. Vista ventral da fêmea (esquerda) e macho (direita). Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B68%7Dpcolmo_fig11.jpg
+Legenda: 11. Postura recente do percevejo-do-colmo (ovos verdes). Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B398%7Dpcolmo_fig12.jpg
+Legenda: 12. Ovos do percevejo-do-colmo próximos da eclosão (cor avermelhada). Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B428%7Dpcolmo_fig13.jpg
+Legenda: 13. Ovos parasitados do pervejo-do-grão (cor preta). Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B17%7Dpcolmo_fig13a.jpg
+Legenda: 14. Ninfas recém-eclodidas do percevejo-do-colmo. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B407%7Dpcolmo_fig14.jpg
+Legenda: 15. Ninfas de primeiro estágio do percevejo-do-colmo. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B142%7Dpcolmo_fig15a.jpg
+Legenda: 17. Ninfa de quarto estágio do percevejo-do-colmo. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B158%7Dpcolmo_fig016.jpg
+Legenda: 18. Ninfa de quinto estágio do percevejo-do-colmo. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B88%7Dpcolmo_fig21.jpg
+Legenda: 21. Percevejos-do-colmo em abrigo de hibernação. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B125%7Dpcolmo_fig22.jpg
+Legenda: 22. Percevejos-do-colmo em hibernação sob tábuas. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B414%7Dpcolmo_fig23.jpg
+Legenda: 23. Percevejos-do-colmo em hibernação entre telhas. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B76%7Dpcolmo_fig24.jpg
+Legenda: 24. Percevejos mortos por fungos na hibernação.Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B227%7Dpcolmo_fig25.jpg
+Legenda: 25. Percevejos mortos por fungos na hibernação. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B29%7Dpcolmo_fig36.jpg
+Legenda: 30. Abrigo de hibernação: capim rabo-de-burro. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B295%7Dpcolmo_fig31.jpg
+Legenda: 31. Abrigo de hibernação: capim alto na taipa. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B497%7Dpcolmo_fig32.jpg
+Legenda: 32. Abrigo de hibernação: capineira entre quadras. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B452%7Dpcolmo_fig35.jpg
+Legenda: 33. Abrigo de hibernação: bananal. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B118%7Dpcolmo_fig34.jpg
+Legenda: 34. Abrigo de hibernação: palmeira-real. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B92%7Dpcolmo_fig33.jpg
+Legenda: 35. Percevejos hibernando na palmeira-real Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B484%7Dpcolmo_fig40a.jpg
+Legenda: 41. Chegada de percevejos na lavoura. Fonte: IRGA (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B535%7Dpcolmo_fig41.jpg
+Legenda: 42. Adultos de ponta-cabeça na base da planta. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B186%7Dpcolmo_fig41a.jpg
+Legenda: 43. Adultos de ponta-cabeça na base da planta. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B3%7Dpcolmo_fig42.jpg
+Legenda: 44. Ninfas sugando de ponta-cabeça. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B116%7Dpcolmo_fig44.jpg
+Legenda: 46. Mancha no colmo, no ponto de sucção da seiva. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B511%7Dpcolmo_fig44a.jpg
+Legenda: 47. Manchas no ponto de sucção de seiva. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B310%7Dpcolmo_fig45.jpg
+Legenda: 48. Sintomas de corção morto. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B272%7Dpcolmo_fig45a.jpg
+Legenda: 49. Touceira com sintomas de coração morto. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B336%7Dpcolmo_fig47.jpg
+Legenda: 51. Panícula branca. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B404%7Dpcolmo_fig48.jpg
+Legenda: 52. Panícula branca. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B466%7Dpcolmo_fig51.jpg
+Legenda: 61. Lavoura sem água. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B499%7Dpcolmo_fig52.jpg
+Legenda: 62. Lavoura com água reposta. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B424%7Dpcolmo_fig53.jpg
+Legenda: 63. Percevejos nas folhas, desalojados pela água de irrigação. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B60%7Dpcolmo_fig54.jpg
+Legenda: 64. Controle biológico de percevejos com marreco-de-pequim. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B54%7Dpcolmo_fig55.jpg
+Legenda: 65. Vespas Telenomus (acima) e Trissolcus (abaixo) parasitoides de ovos. Composição: E.R.Hickel
+
+-- INFORMAÇÕES GERAIS: Praga primária --
+Espécie: Tibraca limbativentris Stål Ordem: Hemiptera Família: Pentatomidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B295%7Dpcolmo_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+• O adulto é um percevejo com cerca de 15mm de comprimento e coloração marrom; mais clara e lustrosa nos adultos novos e escura e fosca nos adultos velhos (que saem do repouso hibernal). • Os ovos são postos enfileirados sob as folhas e têm coloração verde quando recém-depositados e vermelha próximo da eclosão das ninfas. • A ninfa é semelhante aos adultos, porém sem asas. A coloração varia de acinzentada à marrom-escura.
+
+-- CICLO DE VIDA: --
+Na primavera, completa-se em cerca de 71 dias, sendo o período ninfal em torno de 64 dias e 7 dias a incubação dos ovos. Fêmeas adultas têm um período de pré-oviposição de 29 dias e podem por até 270 ovos durante a vida. O adulto passa o inverno em diapausa, em touceiras de capim alto.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B281%7Dpcolmo_ciclo.jpg
+Legenda: Ciclo de vida do percevejo-do-colmo, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de outubro a março. Crítico: novembro. Lavoura: do perfilhamento à colheita. Os percevejos adultos chegam nas lavouras em novembro, instalando-se inicialmente nas bordas dos quadros adjacentes a mato, capineiras, bananais ou palmeirais e nos locais onde a água é mais rasa. Depois persistem na área até a colheita.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11351%5D%7B169%7Dpcolmo_fenologia.jpg
+Legenda: Fenologia da ocorrência do percevejo-do-colmo na lavoura de arroz em Santa Catarina
+
+-- DANOS: --
+Os percevejos sugam a seiva nos colmos das plantas, preferencialmente na região do colo, onde permanecem de ponta-cabeça. Durante a fase vegetativa da cultura, o ataque provoca a morte da folha central, resultando no sintoma de "coração morto". O ataque na fase reprodutiva resulta em "panículas brancas", com espiguetas vazias.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Manter lâmina de água adequada no perfilhamento. • Nas áreas infestadas, aumentar a lâmina de água e introduzir marrecos-de-pequim. São necessários de 5 a 8 marrecos novos (18 a 25 dias de idade) por hectare para um bom controle. • Monitorar a população nas bordas das lavouras e nos locais onde a água é mais rasa. • Aplicar somente inseticidas registrados e recomendados para o controle do percevejo-do-colmo. • Em pós-colheita, eliminar a resteva e roçar taipas, valas e áreas adjacentes. Prover abrigos para captura de percevejos, colocando tábuas ou telhas sobre as taipas ou noutros locais. • Notando-se, na entressafra, a presença de aglomerações do percevejo em áreas adjacentes à lavoura, em capineiras ou touceiras de capim e em plantios de palmeira-real, proceder sua eliminação com inseticida ou outra medida de controle.
+
+-- Informações Complementares --
+FERREIRA, E.; ZIMMERMANN, F.J.P.; SANTOS, A.B.; NEVES, B.P. O percevejo-do-colmo na cultura do arroz . Goiânia: Embrapa-CNPAF, 1997. 43p. (Embrapa-CNPAF. Documento, 75).

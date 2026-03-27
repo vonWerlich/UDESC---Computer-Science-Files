@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Tymex F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0922&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B804%5D%7B157%7Dtymex.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Grupo: Salada; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Ff - Fulvia fulva (ex Cladosporium fulvum); Resistência a fungos: For - Fusarium oxysporum f.sp. radicis-lycopersici; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Vigor: Alto;
+
+-- INFORMAÇÕES DA EMPRESA: --
+• Híbrido indeterminado, tipo salada com excelente vigor; • Boa cobertura foliar dos frutos; • Ótima tolerância a doenças foliares; • Alta qualidade e rendimento de frutos 2A; • Peso médio de 220-240g; • Excelente tamanho de fruto no ponteiro.
+
+-- RESISTÊNCIA: --
+•HR: Va:1 (Eur 0) / Vd:1 (Eur 0) /Fol 1,2 (Eur 0,1) /ToMV /Ff (A,B,C,D,E) /For • IR: TYLCV /TSWV:T0 /Ma/Mi/Mj
+
+-- Informações Complementares --
+Site da Empresa.

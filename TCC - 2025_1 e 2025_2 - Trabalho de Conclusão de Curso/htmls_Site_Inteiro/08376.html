@@ -1,0 +1,333 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=97&amp;isEdicao=N&amp;epagriTEC=S">Fitossanidade</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7&amp;isEdicao=N&amp;epagriTEC=S">Fungos e Oomicetos</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1427&amp;isEdicao=N&amp;epagriTEC=S">Mofo cinzento  (Botrytis cinerea)</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="1269">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="1427">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[1269]{294}foto_14.png"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: D. Blancard (INRA) </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Mofo Cinzento - Botrytis cinerea Pers; Bolor cinzento. 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>FOTOS: </b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3436,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{422}foto_7.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3440,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{231}foto_12.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3441,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{550}foto_13.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3439,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{533}foto_11.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3443,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{165}foto_15.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3434,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{259}foto_5.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3437,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{33}foto_8.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3433,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{200}foto_4.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3438,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{43}foto_9.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3431,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{106}foto_2.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3432,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{296}foto_3.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3442,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{199}foto_14.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3446,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{400}foto_18.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,7397,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{472}screenshot_20200330-123556_adama_hf.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,7394,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{336}screenshot_20200330-123550_adama_hf.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,7395,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{166}screenshot_20200330-123552_adama_hf.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,7396,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{423}screenshot_20200330-123554_adama_hf.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3435,1427,1269,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{77}foto_6.png">  </a> 
+<br><br>
+<b>INFORMAÇÕES PARA O ESPECIALISTA: </b><br>
+<p class="p1"><div> Botrytis cinerea emite conidióforos robustos e longos, irregularmente ramificados, melanizando gradualmente na base. Os conídios são formados em conidióforos no final dos estigmas. Eles são monocelulares, ovóides a elípticos e hialinos a levemente pigmentados (6-18 x 4-11 μm).  <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3445,1427,1269,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{382}foto_17.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3444,1427,1269,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1269]{36}foto_16.png">  </a> 
+<br><br>
+<b>INFORMAÇÕES GERAIS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Em geral, ocorre sob condições de alta umidade e temperatura amena. Os órgãos afetados apresentam-se necrosados e com abundante mofo cinzento, constituído por micélio, conidióforos e conídios unicelulares (1).<br><br>
+
+Os agrotêxteis usados ​​às vezes para proteger as plantas dos insetos levam a um aumento da umidade, agravando o dano (2).<br><br>
+
+A esporulação pode começar em 3 dias após a contaminação inicial. A disseminação é efetuada pelo vento e correntes de ar e, em menor grau, pela chuva (salpicos de água). Também pode ser disseminado pelos trabalhadores durante os tratos culturais.  <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SINTOMAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Todos os órgãos aéreos do tomate podem ser afetados a qualquer momento de seu desenvolvimento. Quaisquer que sejam os órgãos afetados, os tecidos são cobertos com um denso fungo cinzento muito característico, constituído por conidióforos e conídios do fungo (2).<br><br>
+
+Os cotilédones senescentes permitem que o patógeno infecte os caules jovens; os cancros do caule podem então se desenvolver e prejudicar o desenvolvimento de plantas jovens nas semanas seguintes ao plantio (2). <br><br>
+
+Os folíolos têm frequentemente anéis concêntricos. Eles evoluem rapidamente e causam a secagem de importantes áreas foliares. Essas alterações podem levar ao apodrecimento, que se espalha e, eventualmente, prejudica as folhas inteiras, com o colapso do tecido e progressivamente necroses. Pode avançar para o pecíolos e infectar o caule (2).<br><br>
+
+As pétalas senescentes são particularmente vulneráveis. Elas permitem que o fungo se instale nas inflorescências e as faz apodrecer, usando-as como base nutritiva em primeiro lugar, a fim de assegurar infecções subsequentes em folhas e frutos (2).<br><br>
+
+O fruto verde, e, mais raramente maduros, têm anéis finos esbranquiçados, 2 a 10 mm de diâmetro, que rodeia uma lesão necrótica pequena central. Estes anéis, conhecidos como "pontos mortos" ( ponto fantasma ) são um pouco amarelados nos frutos maduros. Isso ocorre devido a uma reação nos frutos muito jovens após infecções, depois que os esporos germinaram e os filamentos germinativos penetraram nos tecidos (2).<br><br>
+
+Uma podridão macia e úmida pode ocorrer na cicatriz da haste da fruta e, em menor grau, na ponta. As lesões são bastante circulares e esbranquiçadas, de marrom claro a cinza; em muitos casos, o tecido finalmente entra em colapso e o fruto pode mumificar (2). <br><br>
+
+B. cinerea pode produzir escleródios pretos com 2-5 mm de diâmetro, raramente visíveis nas lesões (2). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ETIOLOGIA:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Como muitos fungos que atacam a parte aérea, ele é favorecido por ambientes úmidos. A umidade relativa de cerca de 95% e temperaturas que variam entre 17 e 23 ° C são condições favoráveis para o ataque. Estes parâmetros são encontrados principalmente sob abrigo, mas também em campo aberto durante períodos chuvosos ou como resultado de irrigações por aspersão. Plantas estioladas são particularmente vulneráveis (2). 
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CONTROLE: </b><br>
+<b>Medidas preventivas de controle: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;">   - Os abrigos devem ser ventilados ao máximo, a fim de diminuir a higrometria do ambiente e, em particular, evitar a presença de água livre nas plantas (2). <br>
+- A remoção precoce de brotos axilares evitará feridas grandes, minimizando os riscos da infecção pelo fungo (2).<br>
+- O trabalho de remoção dos brotos deverá ser feito pela manhã, porque naquele momento os tecidos, mais túrgidos, cortam mais facilmente. Além disso, as feridas têm mais tempo para secar durante o dia. Não é desejável desbrotar durante períodos úmidos. As feridas no caule, embora aparentemente secas, permanecem receptivas a B. cinerea por tempo suficiente. <br>
+- As feridas devem ser protegidas com um fungicida protetor, tal como a <a href="/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&amp;epagriTEC=S&amp;cdEstrutura=2181">Calda Bordalesa</a>.<br>
+- A irrigação deve ser por gotejamento. Em caso de irrigação por aspersão, esta deverá ser realizada pela manhã, e nunca ao entardecer, e muito menos à noite, o que permitirá que as plantas sequem o mais rápido possível. <br>
+- A adubação nitrogenada deve ser muito bem dosada. Assim, evitará tecidos suculentos muito receptivos (quando em excesso de N) e folhas cloróticas que constituem bases nutritivas ideais para B. cinerea (Quando o teor de N é baixo). <br>
+- Detritos das plantas atacadas devem ser eliminados muito rapidamente durante o cultivo, especialmente plantas com um ou mais cancros na haste e frutos podres com esporulação de B. cinerea. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Controle biológico: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os produtos biológicos cadastrados na ABCBio (Associação Brasileira das Empresas de Controle Biológico) em 23/08/2019 e que possuem em sua bula indicação de controle do B. cinerea são:<br>
+- <a href="/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&amp;epagriTEC=S&amp;cdEstrutura=258">Biobac</a> (Bacillus subtilis);<br>	
+- <a href="/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&amp;epagriTEC=S&amp;cdEstrutura=305">Ecoshot</a> (Bacillus amyloliquefaciens);<br>	
+- <a href="/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&amp;epagriTEC=S&amp;cdEstrutura=415">Serenade</a> (Bacillus subtilis);<br>
+- <a href="/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&amp;epagriTEC=S&amp;cdEstrutura=416">Sonata</a> (Bacillus pumilus);<br>
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Controle químico e genético:</b><br>
+<p class="p1"><div> - Não há produtos registrados para o controle da doença no tomateiro (4).<br>
+- Não há cultivares resistentes (4).<br> <br> </div></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+(1) C. Kurozawa &amp; M. A. Pavan.<br>
+Manual de fitopatologia/editado por Hiroshi Kimari ... [et al]. - 3. ed. São Paulo: Agronômica Ceres. 1995- 1997. 2v.: il.
+(2) Le portail INRA e-phytia héberge plusieurs applications en santé des plantes. Site: http://ephytia.inra.fr/fr/Home/index. Acesso em 23/08/2019.<br>
+(3) Aplicativo ADAMA Hortifruti Brasil. Para mais informações, consultar o site <a target="_blank" href="https://www.adama.com/brasil/pt/"> https://www.adama.com/brasil/pt/</a> ou diretamente pelo aplicativo <a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.livetouch.adamahortifruti"> ADAMA HF</a>.<br>
+(4) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro.
+Apresentação: Valdir Lourenço Junior. Tema:  Manejo de doenças causadas por fungos e oomicetos da parte aérea do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: <a target="_blank" href="https://youtu.be/nbTgf6CdmcY">href="https://youtu.be/nbTgf6CdmcY</a>
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 11/01/2019</font>
+<br> <font size="2"> Última atualização: 22/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=1427&amp;cdElemento=1269">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=1269');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

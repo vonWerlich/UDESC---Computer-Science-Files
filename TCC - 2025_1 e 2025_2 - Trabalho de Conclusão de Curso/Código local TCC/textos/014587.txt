@@ -1,0 +1,24 @@
+Título: CEBOLA - Manejo da água da irrigação - 1. Conceito Geral
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014587&isEdicao=N&epagriTEC=S
+
+
+-- IRRIGAÇÃO x PRODUTIVIDADE DE BULBOS: --
+O uso adequado da irrigação na cultura da cebola está entre os principais fatores que condicionam a produtividade. Segundo Marouelli et al. (2005), lavouras adequadamente irrigadas em Santa Catarina apresentam até 150% de aumento de rendimento, com bulbos superiores em tamanho, formato, aspecto visual e de melhor conservação pós-colheita. Tanto a escassez quanto o excesso de água são responsáveis por limitar a produtividade, seja por danos diretos (por exemplo, impossibilitar uma nutrição adequada mesmo na presença de nutrientes), seja por danos indiretos (por exemplo, propiciar condições microclimáticas ao estabelecimento de pragas e doenças).
+
+-- QUALIDADE DA ÁGUA: --
+Deve-se ter cuidado especial quanto à qualidade da água para irrigação, que deve ser limpa, sem poluentes e contaminantes para não causar danos à cultura da cebola.
+
+-- ARMAZENAMENTO DE ÁGUA: --
+Outro aspecto importante a ser considerado é o armazenamento de água para a irrigação. Considerando-se que em cada irrigação aplicam-se em torno de 200 mil litros (200m³) de água por hectare e que normalmente são feitas 4 ou 5 irrigações durante o ciclo, há a necessidade de armazenamento de pelo menos 1 milhão de litros (1.000m³) de água para garantir a irrigação de 1,0 hectare da cultura..
+
+-- MÉTODOS QUE PODEM SER EMPREGADOS: --
+O manejo ideal da irrigação deve considerar as necessidades de água da cultura em cada fase de cultivo e, para dotações adequadas às condições edafoclimáticas de cada localidade. Diversos métodos podem ser empregados e se encontram disponíveis na literatura. Para tal, indica-se consultar: FAO - Irrigation and Drainage Paper (Allen et al., 1998), Irrigação da cultura da cebola (Marouelli et al., 2005); Tensiômetros para o controle de irrigação em Hortaliças (Marouelli, 2008), Irrigação por aspersão em hortaliças (Marouelli et al., 2008), Uso e manejo de irrigação (Albuquerque & Durães, 2008) e Manejo de irrigação em hortaliças com Sistema Irrigas® (Marouelli & Calbo, 2009), entre outros.
+
+-- USAR UM MÉTODO OFICIAL: --
+Recomenda-se que o cebolicultor adote métodos de irrigação reconhecidos e preconizados pelos órgãos oficiais de pesquisa nacionais ou internacionais de reconhecido saber.
+
+-- DIMENSIONAR O SISTEMA COM UM ESPECIALISTA: --
+Para dimensionamento e uso correto do sistema de irrigação a assessoria inicial é indispensável. Indica-se, portanto, que o produtor de cebola sempre consulte um técnico especialista no assunto antes da aquisição e do manejo de sistemas de irrigação.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

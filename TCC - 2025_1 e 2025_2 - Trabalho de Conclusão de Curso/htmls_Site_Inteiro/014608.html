@@ -1,0 +1,290 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=8233&amp;isEdicao=N&amp;epagriTEC=S">CEBOLA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9911&amp;isEdicao=N&amp;epagriTEC=S">       Manejo do solo, correção, adubação e recomendações</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=14603&amp;isEdicao=N&amp;epagriTEC=S">Manejo dos nutrientes e recomendação de adubação</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=14604&amp;isEdicao=N&amp;epagriTEC=S">Nitrogênio (N)</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=14607&amp;isEdicao=N&amp;epagriTEC=S">3. Diagnose do estado de N em tempo real (diagnose foliar indireta)</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=14608&amp;isEdicao=N&amp;epagriTEC=S">Nitrato na seiva</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="12696">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="014608">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>CONCEITO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para obter um sistema de recomendação de adubação mais eficiente, uma das alternativas recentes em avaliação é o uso de métodos de diagnóstico em tempo real usando a planta como indicador. Elaborados em consonância com a agricultura de precisão, esses métodos permitem uma avaliação rápida e em área maior do que do que realmente é possível com a determinação em laboratório (FONTES, 2011). <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>RELAÇÃO ENTRE NITRATO NA SEIVA E NITROGÊNIO FOLIAR: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Nos estudos realizados por Kurtz (2015) em Ituporanga, SC, para a cultura da cebola em sistema de semeadura direta verificou-se boa correlação entre os teores de nitrato na seiva com o índice de clorofila (IC), com o teor de N no tecido folar e com o rendimento de bulbos, indicando a viabilidade de uso dessas ferramentas de diagnose para o manejo do N em cebola. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>VANTAGENS DO MEDIDOR PORTÁTIL: </b><br>
+<p class="p1"><div> A utilização de medidores portáteis de íons específicos para nitrato é vantajosa em relação ao método de análise convencional devido à rapidez e aos baixos custos (FOLEGATTI et al., 2005).<br> <br> </div></p>
+<b>NITRATO NA SEIVA x NITRATO NO SOLO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A concentração de nitrato na seiva é influenciada pelos fatores responsáveis pela disponibilidade do íon no solo e pelas condições edafoclimáticas e culturais a que a planta está submetida. Portanto, a concentração do nutriente na seiva indica a momentânea quantidade do nutriente em circulação na planta e o atual estado nutricional da planta, sendo o nitrato e o potássio os íons mais comuns determinados na seiva do pecíolo (FONTES, 2011). <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>MEDIDOR PORTÁTIL: </b><br>
+<p class="p1"><div> Essa medição é realizada por microeletrodo portátil, um sensor que converte a atividade do íon na seiva em potencial elétrico medido por um voltímetro. O procedimento é simples e rápido de ser executado (Figura 6).<br>
+ <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23769,014608,12696,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[12696]{246}figura_6.jpg">  </a> 
+<br><br>
+<b>NITRATO NA SEIVA x N KJEDAHL x PRODUÇÃO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A análise de nitrato na seiva tem apresentado estreita relação com a concentração de N na folha determinada pelo método tradicional de micro Kjedahl, com a produção da planta (ALCANTAR et al., 2002; ROSOLEM &amp; MELLIS, 2010; FONTES, 2011) e com a quantidade de N aplicada durante o ciclo da cultura (ALVA, 2007; KURTZ, 2015).<br><br>
+
+O teste de N-NO3- na seiva tem sido proposto como ferramenta auxiliar no manejo da fertilização nitrogenada em hortaliças. O medidor de N-NO3-, além de propiciar rapidez de análise, é utilizado no campo e determina com precisão a concentração de N-NO3- na seiva no momento da medição. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>DETECÇÃO DA DEFICIÊNCIA ANTECIPADAMENTE: </b><br>
+<p class="p1"><div> Assim, a deficiência de N pode ser detectada antes de ocorrer perda na cultura e pode assegurar que o suprimento de N está ótimo para o máximo crescimento e produtividade das plantas (VIDIGAL &amp; MOREIRA, 2009). <br> <br> </div></p>
+<b>O TEOR DE NITRATO PODE SER USADO ATÉ UM DETERMINADO MOMENTO DO CICLO: </b><br>
+<p class="p1"><div> O teor de N-NO3- na seiva pode ser usado como um critério no diagnóstico do estado de N na planta para um determinado momento do ciclo da cultura, pois o nitrato tende a diminuir ao longo do ciclo (ERREBHI et al., 1998). <br> <br> </div></p>
+<b>NITRATO NA SEIVA x DOSES DE N: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Nos estudos realizados por Kurtz (2015) em Ituporanga, SC, para a cultura da cebola em sistema de semeadura direta, verificou-se que os teores de NO3- na seiva apresentaram incremento expressivo em função do acréscimo das doses de N e, de maneira geral, não se observaram diferenças entre os cultivares Bola Precoce e Crioula para os valores de nitrato na seiva. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>USO DE ÁREA DE REFERÊNCIA COM DOSE ELEVADA DE N: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para a recomendação de N, baseando-se nos resultados das duas safras estudadas, sugere-se a implantação de área de referência na lavoura com dose elevada de N para o diagnóstico do nível crítico em relação à área geral da lavoura (Figura 7). Em função das variações nos teores de NO3- na seiva ao longo da safra e entre safras, este procedimento atenuaria problemas relacionados a essas variações. Nesse caso, quando as leituras de NO3- na seiva da folha mais nova totalmente expandida das plantas da lavoura em análise forem iguais ou inferiores a 90% do valor das leituras obtidas na área de referência (com alta dose de N), recomendar-se-ia a aplicação de N em cobertura. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23770,014608,12696,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[12696]{350}figura_7.jpg">  </a> 
+<br><br>
+<b>PARCELAMENTO EM COBERTURA CONFORME O NITRATO FOLIAR: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Com base nas máximas respostas a N obtidas para cebola em sistema de semeadura direta (KURTZ et al., 2016) para doses de até 194kg ha-1 nas safras 2012/13, 2013/14 e 2014/15 para um rendimento de 45t ha-1, a quantidade a ser aplicada nas épocas com diagnóstico de necessidade de N seria de 35kg ha-1 em cada cobertura realizada. Desse modo, seriam aplicados 20kg ha-1 na semeadura, 35kg ha-1 aos 45 DAS quando as plantas estiverem com 2 a 3 folhas (neste momento ainda não seria possível avaliar o NO3- na seiva pelo reduzido tamanho das folhas) e as outras coberturas nesta mesma quantidade seriam realizadas em até quatro vezes, conforme o diagnóstico de cada época (85, 105, 125, e 145 DAS). <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SE TODAS AS LEITURAS APONTAREM NECESSIDADE DE ADUBAÇÃO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Se o diagnóstico indicar a necessidade de adubação de cobertura em todas as leituras (iguais ou inferiores a 90% do valor na área de referência), teríamos ao final do ciclo um total de 195kg ha-1 de N adicionados, o que seria a dose de MET (máxima eficiência técnica) nas safras 2013/14 e 2014/15 para um rendimento de aproximadamente 45t ha-1. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+<a href="javascript:chamarPagina(13750)">CLIQUE AQUI</a> para acessar as referências na íntegra.
+ </div></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Claudinei Kurtz (Eng.- Agr. Dr. Ciências do Solo - Epagri)<br> &nbsp;&nbsp;Possui graduação em Agronomia e mestrado em Ciência do Solo pela UDESC, Doutorado em Ciência do Solo pela UFPR. Pesquisador da Epagri, Estação Experimental de Ituporanga, SC. Desenvolve trabalhos de pesquisa na área de Fertilidade e Manejo do Solo e Nutrição de Plantas, principalmente com a cultura da cebola. </font> 
+<br> <font size="2">• Fábio Satoshi Higashikawa (Eng.- Agr. Dr. Ciências do Solo - Epagri)<br> &nbsp;&nbsp;Engenheiro-Agrônomo, Mestre e Doutor em Ciência do Solo pela UFLA. Tem experiência com caracterização físico-química de resíduos orgânicos de origem animal, vegetal e urbana. Atualmente é pesquisador em fertilidade do solo e nutrição de plantas da Epagri na Estação Experimental de Ituporanga. </font> 
+<br> <font size="2">• Francisco Olmar Gervini de Menezes Júnior (Eng. Agr - Dr. Produção Vegetal - Epagri)<br> &nbsp;&nbsp;Possui graduação em Engenharia Agronômica (1994), mestrado (1998) e doutorado (2003) em Produção Vegetal pela FAEM/UFPel. Atualmente é pesquisador em Olericultura na EPAGRI de Ituporanga/SC. Desenvolve pesquisas relacionadas à Produção Integrada e Orgânica de Cebola. </font> 
+<br><br><br> <font size="2"> Criado em: 21/09/2021</font>
+<br> <font size="2"> Última atualização: 04/11/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=014608&amp;cdElemento=12696">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=12696');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

@@ -1,0 +1,16 @@
+Título: COMPOSTAGEM - Local da compostagem
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018473&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16105%5D%7B306%7Dfigura_11.jpg
+
+-- CARACTERÍSTICAS DO LOCAL: --
+A compostagem deve ser realizada em um local coberto com piso impermeabilizado e com sistema de coleta de eventuais chorumes (Figura 11). A cobertura é fundamental para o controle da umidade e aeração da pilha. O piso é indispensável para evitar contaminação do solo e das águas. É importante destacar que a instalação deve prever espaço e altura para manobras de máquinas, se for o caso de uso desses equipamentos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16105%5D%7B188%7Dfigura_11.jpg
+Legenda: Figura 11. Local de compostagem com cobertura, piso impermeabilizado e local para coleta de chorumes nas extremidades da instalação (indicado com a seta amarela). Foto: Rafael Ricardo Cantú
+
+-- COLETA DO CHORUME NO LOCAL: --
+Se houver a geração eventual de chorume, seja ele ocasionado pela umidade inicial do material no momento da sua correção com adição de água, seja por uma chuva incidente diretamente na leira, esse chorume deve ser coletado e preferencialmente recolocado no composto. O chorume também pode ser aplicado em jardins, gramados e áreas de recuperação ambiental, como exemplo.
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Ty2006 F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0183&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B87%5D%7B444%7Dty_2006.jpg
+
+-- CARACTERÍSTICAS: --
+Crescimento: Determinado; Empresa: Seminis; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Aal - Alternaria alternata f. sp. lycopersici; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Plantas vigorosas. Frutos grandes e firmes, de tamanho uniforme do início ao final da colheita. Ideal para cultivos da região Nordeste.
+
+-- DESCRIÇÃO DO PRODUTO: --
+Ciclo médio após semeadura: 95 a 110 dias. Peso médio do fruto: 180 g. Tipo do fruto: Saladete. Tipo da planta: Determinada.
+
+-- RESISTÊNCIA: --
+HR - ToMV:0-2, Aal, Fol:1, Sbl/Sl/Ss e Va:1/Vd:1 / IR – TYLCV e Ma/Mi/Mj.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.seminis.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.seminis.com.br.

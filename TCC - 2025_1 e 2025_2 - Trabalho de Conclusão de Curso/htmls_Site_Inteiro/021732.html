@@ -1,0 +1,426 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7983&amp;isEdicao=N&amp;epagriTEC=S">BANANA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21732&amp;isEdicao=N&amp;epagriTEC=S">Manejo e conservação do solo em bananais</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18419">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021732">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18419]{413}figura_5_a_cap_6.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO:  George Livramento </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  Bananal com planta de cobertura do solo 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>DESCRIÇÃO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O manejo do solo é uma expressão usada para se referir ao conjunto de todas 
+as operações de cultivo aplicadas ao sistema edáfico. O bom manejo preconiza, além 
+de condições favoráveis ao desenvolvimento das plantas, promover a manutenção e 
+a melhoria das características físicas, químicas e biológicas do solo. O manejo do solo, 
+na prática, está tão relacionado aos métodos de sua conservação que muitas vezes se 
+confundem. Por sua vez, a conservação do solo está estreitamente relacionada aos 
+métodos de controle da erosão hídrica.<br><br>
+
+ No passado, a conservação do solo era tida como 
+sinônimo de práticas mecânicas de controle de erosão (terraços, cordões em contorno, 
+banquetas, patamares e outras) que, se usadas isoladamente, contribuem muito pouco 
+para o controle da erosão hídrica. Mais de 90% do solo que se perde deve-se ao impacto 
+das gotas da chuva, quando não há cobertura vegetal. Assim, a manutenção permanente 
+da cobertura da superfície do solo é uma condição de fundamental importância para 
+um adequado controle da erosão. A cobertura verde na superfície de solos de bananais 
+implantados em áreas declivosas tem um grande efeito no controle da erosão. <br><br>
+
+A cobertura 
+verde reduz a perda de partículas de solo, de matéria orgânica (MO) e de nutrientes pela 
+ação do escoamento superficial. Isso ocorre porque os solos naturalmente adensados têm 
+baixa infiltração e elevada declividade, provocando o escoamento rápido da água da chuva (<sup>1</sup>) 
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28779,021732,18419,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18419]{439}figura_5_a_cap_6.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28778,021732,18419,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18419]{23}figura_4_a_cap_6.jpg">  </a> 
+<br><br>
+<b>IMPORTÂNCIA PARA OS BANANAIS</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Em Santa Catarina, a maior parte dos bananais comerciais está localizada em áreas 
+declivosas a excessivamente declivosas, em cujos solos raramente se realiza alguma prática 
+mecânica de conservação. Sendo assim, o manejo do solo no bananal pode estar restrito 
+ao manejo das plantas espontâneas que vegetam sob o pomar.<br><br>
+ A prática mais comum é o 
+bananicultor utilizar herbicidas pós-emergentes de ação total para o controle da vegetação 
+espontânea <b>(Figura abaixo)</b>. No entanto, essa prática, além de eliminar essa esparsa cobertura 
+vegetal, leva à redução da diversificação biológica do solo, intensificando o ataque de 
+pragas e doenças devido à redução de predadores naturais e dos competidores.<br><br>
+
+Nas demais áreas de produção representadas por áreas de planícies e várzeas 
+úmidas, o manejo do solo deve ser diferenciado daquele realizado em áreas declivosas. 
+Nesses locais, devemos dar atenção redobrada à drenagem correta das águas das chuvas, 
+controlando o nível do lençol freático.<br><br>
+
+Outro ponto importante no manejo do solo em bananais são as estradas internas, 
+construídas para facilitar a colheita, os tratos fitossanitários e o transporte de insumos. 
+Estas, por vezes, são compartilhadas por várias propriedades, cuja manutenção incorreta 
+acaba por agravar a erosão laminar e o assoreamento de pequenos canais e córregos, quando não acarretam prejuízos maiores em períodos de chuva intensa.<br><br> Grande parte 
+das estradas internas dos bananais necessita do uso de taludes vegetados, construção de 
+valetas laterais e bueiros para escoar as águas das chuvas de forma controlada aos córregos. 
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28775,021732,18419,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18419]{400}figura_1_cap_6.jpg">  </a> 
+<br><br>
+<b> ADUBAÇÃO VERDE E PLANTAS DE COBERTURA</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Recentemente, devido às preocupações relacionadas à conservação do solo, o 
+termo <b>“adubação verde”</b> foi substituído pelo termo <b>“plantas de cobertura”</b>, o qual abarca 
+tanto os benefícios das espécies utilizadas na fertilidade do solo como na sua conservação. <br><br>
+Assim, genericamente, as plantas de cobertura são chamadas de <b>“plantas para adubação 
+verde”</b> e <b>“plantas melhoradoras do solo”</b>. Contudo, para a bananicultura, o mais importante 
+é a capacidade de vegetar no ambiente semi-sombreado dos bananais, já que a presença 
+de raízes de outras espécies é muito importante para aliviar a pressão dos patógenos 
+(nematoides e fungos) sobre as raízes da bananeira.<br><br>
+
+As principais vantagens de se manter o solo permanentemente coberto com 
+espécies vegetais, segundo Koller (2013)(<sup>2</sup>), são:<br><br> diminuição da força do impacto das 
+gotas de chuva sobre o solo, resultando em menor deslocamento de partículas e menor 
+compactação deste;<br><br> redução da perda de adubos e corretivos aplicados; <br><br>redução da 
+velocidade de escoamento superficial da água das chuvas e da erosão laminar;<br><br> redução da 
+variação da temperatura da superfície do solo;<br><br> aumento do teor de MO do solo;<br><br> e aumento 
+da infiltração da água da chuva.<br><br>
+
+ Petry et al. (2012)(<sup>3</sup>) também consideram como melhoria 
+de características biológicas do solo:<br><br> a) o favorecimento da atividade de organismos 
+benéficos, como rizóbios, minhocas, colêmbolas, besouros decompositores, e micorrizas; <br>
+b) o controle do surgimento de plantas indesejadas por competição, sombreamento ou 
+liberação de substâncias que impedem seu crescimento; e <br> c) o controle da população de 
+nematoides fitófagos pelo aumento da diversidade de raízes e de inimigos naturais. <br><br>Esses 
+autores também ressaltam a melhoria de características químicas devido à incorporação 
+de nitrogênio proveniente da fixação biológica realizada por microrganismos; ao aumento 
+da capacidade do solo em armazenar e trocar cálcio, magnésio e potássio; ao aumento 
+da solubilização de nutrientes fixados nas argilas; e à diminuição da presença de alumínio 
+trocável e a acidez total.<br><br>
+
+As leguminosas se destacam entre as espécies vegetais que podem ser utilizadas 
+como plantas melhoradoras do solo por sua característica em obter a quase totalidade 
+do nitrogênio por meio da simbiose com bactérias específicas, as quais fixam o N2
+transformando-o em compostos nitrogenados. Além disso, apresentam raízes geralmente 
+bem ramificadas e profundas, que atuam estabilizando a estrutura do solo e ciclando 
+nutrientes.<br><br>
+
+As leguminosas podem ser utilizadas em pré-plantio ou como plantas de cobertura, cultivadas nas entrelinhas até o fechamento do bananal. A quantidade de 
+fitomassa produzida depende de fatores como época de plantio, disponibilidade de 
+água, práticas culturais, fertilidade do solo e incidência de pragas. Como a fitomassa 
+das leguminosas apresenta taxa de decomposição mais rápida, tem-se recomendado a 
+utilização de gramíneas como o milheto, cuja taxa de decomposição é mais lenta, cobrindo 
+o solo por mais tempo (<sup>4</sup>).<br><br> O uso de coquetel vegetal de leguminosas 
+e não leguminosas (gramíneas e crucíferas em pré-plantio) nas entrelinhas do bananal 
+permite a produção significativa de fitomassa com diferentes tempos de decomposição. 
+Ainda, a vegetação natural ou espontânea ceifada nas entrelinhas dos bananais, quando 
+espalhada no solo ou colocada em volta das touceiras, decompõe-se e disponibiliza 
+nutrientes às bananeiras. A trapoeraba (<i>Commelina</i> spp.) deve ser eliminada da área, pois 
+é hospedeira do <i>Cucumber mosaic virus</i> (CMV). (<sup>4</sup>) <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b> PROPOSTA DE USO DE PLANTAS DE COBERTURA</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Andreola (2013)(<sup>5</sup>) avaliou diversas espécies para uso em cobertura de solo, a 
+saber:<br><br><b> mucuna-anã, feijão-de-porco, Crotalaria spectabilis, kudzu tropical, guandu anão, 
+Crotalaria breviflora, calopogônio, labe-labe, Crotalaria ochroleuca, estilosantes, soja 
+comum, soja preta, soja perene, aveia preta, aveia branca, azevém anual, centeio, ervilhaca 
+comum, ervilhaca peluda, espérgula, nabo forrageiro, tremoço branco, trevo branco e 
+trevo vermelho</b>.<br> Todas as espécies tiveram um bom crescimento sob o bananal, porém, as 
+melhores avaliadas foram:<br><br> <b>mucuna-anã, feijão-de-porco, calopogônio, kudzu, aveia preta, 
+ervilhaca comum, nabo forrageiro e azevém anual</b>. <br>Os diversos ensaios e experimentos 
+realizados pela Epagri (<sup>5</sup>)(<sup>6</sup>)(<sup>7</sup>) permitiram coletar informações sobre o comportamento de diversas 
+espécies e sua adaptação aos bananais. Essas informações possibilitaram reunir as 
+espécies em dois grupos de acordo com a época de plantio:<br> o primeiro é próprio para 
+plantio no início do outono até o inverno <b>(Tabela 1 abaixo)</b> e o segundo, para plantio no início 
+da primavera até o verão <b>(Tabela 2 abaixo)</b>. <br>Essa seleção de espécies levou em consideração as 
+características botânicas, fenológicas e fitotécnicas mais adequadas para o ambiente do 
+bananal.<br> Além de todas as características ideais para espécies de plantas de cobertura já 
+citadas, também é recomendado que as espécies utilizadas nos bananais sejam tolerantes 
+ao sombreamento, tenham crescimento rápido e cubram bem o solo de forma que não 
+atrapalhem a movimentação dos trabalhadores, nem subam nas touceiras de bananeira. <br>
+Também são desejáveis espécies que apresentem sementes pequenas para facilitar o 
+semeio a lanço.<br> Por fim, após a semeadura manual, é recomendado o uso de roçadeiras 
+motorizadas para dispersar e aumentar o contato das sementes com a superfície do solo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28777,021732,18419,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18419]{212}tabela_cob..png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28776,021732,18419,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18419]{163}tabela_cob1.png">  </a> 
+<br><br>
+<b>ADUBAÇÃO ORGÂNICA COMO ESTRATÉGIA PARA MELHORIA NO MANEJO DO SOLO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A base da atividade biológica do solo é a MO, funcionando como regulador 
+metabólico das plantas, melhorando e elevando a disponibilidade dos nutrientes ao 
+sistema radicular, necessários para o desenvolvimento das plantas. Além disso, a MO 
+promove inúmeros outros benefícios aos cultivos como o aumento da retenção de água 
+no solo, supressão às doenças, entre outros aspectos. <br>Buscando o incremento da MO no 
+solo, o uso de compostos orgânicos diversos, como as camas de aviário compostadas, 
+representam fonte de micronutrientes importantes, ativando a microbiota do solo e 
+promovendo o crescimento e proliferação de organismos benéficos às raízes da bananeira, 
+além do aumento da MO no solo.<br> Restos vegetais compostados, como os engaços e frutas 
+de descarte, também são recomendados para a nutrição dos bananais, aumentando 
+a ciclagem de nutrientes empregados na produção.<br><br> Ressaltamos que, para a máxima 
+produção esperada por hectare, há necessidade de complementação com adubação mineral de forma equilibrada e compatível com as exigências da cultura e os resultados da 
+análise do solo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.<br><br>
+
+(<sup>1</sup>)LIVRAMENTO, G.; NEGREIROS, R.J.Z. Banana: Recomendações técnicas para o cultivo 
+no litoral norte de Santa Catarina. Florianópolis: Epagri,2016.101p. (Epagri. Sistemas de 
+Produção,49)<br><br>
+
+(<sup>2</sup>)KOLLER, O.L. Citricultura Catarinense. Florianópolis, Epagri, 2013.319p.<br><br>
+
+(<sup>3</sup>)PETRY, H.B et al. Adubação com compostos orgânicos e cobertura verde do solo em 
+pomar de tangerineiras sob cultivo orgânico. Pesquisa Agropecuária Gaúcha, v. 18, 
+p.156-166, 2012.<br><br>
+
+
+(<sup>4</sup>)BORGES, A.L. et al. Bananicultura Orgânica. Informe Agropecuário. Belo Horizonte, v.36, 
+n.287, p.74-83, 2015.<br><br>
+
+(<sup>5</sup>)ANDREOLA, F. Avaliação de espécies para a cultura de cobertura/adubação verde em 
+bananais. In: XX Reunião Internacional da Associação para Cooperação em Pesquisa e 
+Desenvolvimento Integral das Musáceas. Anais[…]. Fortaleza, 2013.<br><br>
+
+(<sup>6</sup>)ANDREOLA, F. et al. Avaliação preliminar de espécies vegetais para manejo do solo de 
+bananais. Anais[…]. Joinville, 2010.<br><br>
+
+(<sup>7</sup>)LIVRAMENTO, G.; SALVADOR, B. K. Unidade de Referência Técnica em Bananicultura: 
+Renovação de bananal com ênfase no manejo do solo. Florianópolis: Epagri, 2020. 56p. 
+(Documento, 329).<br><br>
+
+
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 02/05/2024</font>
+<br> <font size="2"> Última atualização: 02/05/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021732&amp;cdElemento=18419">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18419');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

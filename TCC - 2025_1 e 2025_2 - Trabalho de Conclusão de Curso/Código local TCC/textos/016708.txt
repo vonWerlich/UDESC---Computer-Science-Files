@@ -1,0 +1,18 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Manganês (Mn)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016708&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12704%5D%7B366%7Dfigura_17a.jpg
+
+-- IMPORTÂNCIA DO NUTRIENTE: --
+O manganês participa de diversas reações bioquímicas atuando como ativador de enzimas envolvidas nos processos de respiração e na síntese de aminoácidos e lignina. Atua também nas reações de oxirredução e transporte de elétrons nas células vegetais (TRANI et al., 2014).
+
+-- SINTOMAS DE DEFICIÊNCIA: --
+As plantas de cebola deficientes em Mn mostram folhas externas com faixas estreitas (“riscos”) cloróticas e esbranquiçadas seguindo-se o aparecimento de necroses. O crescimento das plantas é severamente reduzido tanto na parte aérea (Figura 17) quanto nas raízes e bulbos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12704%5D%7B388%7Dfigura_17.jpg
+Legenda: Figura 17. Na primeira foto à esquerda plantas sadias e ao lado plantas (direita) com deficiência de Mn; na segunda foto, visão geral de lavoura com manchas apresentando deficiência de Mn. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+
+-- RECOMENDAÇÃO DE MANGANÊS PARA CEBOLA: --
+Em áreas deficientes de manganês, recomenda-se realizar de 2 a 4 pulverizações foliares com sulfato de manganês na concentração de 0,5 a 1% em intervalos de uma a duas semanas. A correção do Mn via solo também pode ser adotada com a adição de 5 a 20kg ha-1, preferencialmente na linha de plantio ou semeadura. No entanto, a adubação com Mn via solo normalmente apresenta baixa eficiência em função da imobilização do nutriente no solo.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

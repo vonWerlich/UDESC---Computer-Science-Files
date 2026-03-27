@@ -1,0 +1,30 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - K) PRINCIPAIS PRAGAS E SEU CONTROLE - e) Lagarta mede-palmos (Trichoplusia ni e Chrysodeixis includens)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02999&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2765%5D%7B381%7Dfigura_35.jpg
+
+-- Reconhecimento dos danos: --
+As lagartas são de coloração verde e se locomovem de maneira espaçada, caracterizando o nome de “mede-palmos”. Observam-se nas folhas orifícios de alimentação das lagartas no limbo foliar, restando apenas as nervuras primárias. As lagartas destroem as folhas (Figura 35), reduzindo, consequentemente, a taxa fotossintética e a produtividade da cultura. Além disso, pode-se observar infecção de patógenos no local das lesões (Gravena & Benvenga, 2003).
+
+-- Monitoramento: --
+Batedura de ponteiros.
+
+-- Método de amostragem: --
+Batedura de ponteiros sobre um recipiente plástico de fundo branco para a quantificação de lagartas.
+
+-- Nível de ação: --
+Uma lagarta por ponteiro em média, ou 20% dos ponteiros com lagartas.
+
+-- Principais inimigos naturais: --
+Crisopídeos (C. externa e C. cubana), percevejos (Geocoris, Orius e Nabis), besouros carabídeos (Lebia e Calida), tesourinha (D. luteipes), vespas parasitoides (Leptomastix truncatellum, C. sonorensis e Trichogramma), formigas e aranhas predadoras.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2765%5D%7B199%7Dfigura_35.jpg
+Legenda: Folhas de tomateiro danificadas por lagartas mede-palmos. Foto: Janaína Pereira dos Santos
+
+-- Métodos de controle de lagartas: --
+• Eliminar solanáceas espontâneas das proximidades do plantio; • Retirar e destruir frutos danificados; • Transplantar as mudas em períodos diferentes ao cultivo do milho ou em locais distantes da área plantada; • Plantar sorgo ou nabo forrageiro a cada seis linhas de plantio ou nas curvas de nível para atrair inimigos naturais; • Ensacamento das inflorescências ou pencas (Figura 37), mantendo-se as embalagens até a colheita; • Utilizar inseticidas biológicos e que apresentam seletividade aos inimigos naturais, dando-se preferência aos que sejam à base de Bacillus thuringiensis. Reguladores de crescimento também são recomendados; • Fazer rotação de agrotóxicos, conforme o modo de ação e o grupo químico; • Liberação massiva de parasitoides Trichogramma; • Eliminar os restos da cultura e revolver o solo após o término do cultivo para destruir as pupas; • Fazer rotação de culturas e evitar o plantio sucessivo de culturas hospedeiras, tais como o milho e a soja.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2765%5D%7B541%7Dfigura_37.jpg
+Legenda: Folhas de tomateiro danificadas pela traça-do-tomateiro. Foto: Janaína Pereira dos Santos
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

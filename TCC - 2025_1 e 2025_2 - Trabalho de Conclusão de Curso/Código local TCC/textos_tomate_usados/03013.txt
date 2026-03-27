@@ -1,0 +1,33 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - L) TECNOLOGIA DE APLICAÇÃO DE PRODUTOS FITOSSANITÁRIOS - b) Condições climáticas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03013&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2777%5D%7B186%7Dcapa_1.jpg
+
+-- Condições climáticas: --
+Muitas das aplicações são recomendadas na ausência de vento, mas elas têm sido modificadas devido aos conhecimentos sobre os movimentos das partículas do ar e a energia necessária ao impacto da gota bem como de sua assimilação pelo alvo. Na Tabela 16 são caracterizadas as condições de vento para aplicação.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2777%5D%7B279%7Dtabela_16.jpg
+Legenda: Condições de vento e recomendação para pulverização. Fonte: Matuo (1998).
+
+-- Vento: --
+A ausência de vento não é recomendada para pulverização, porque nessas condições as gotas pequenas não têm energia suficiente para provocar o impacto no alvo, ficam flutuantes e se movem muito lentamente, dispersando-se no ambiente ao redor do sítio de aplicação. A brisa leve fornece condições ideais, pois há energia necessária para atingir o alvo.
+
+-- Horário de aplicação: --
+O horário de aplicação interfere na evaporação da calda aplicada e na disponibilidade do princípio ativo sobre o alvo. Com isso devem se evitar as horas mais quentes do dia.
+
+-- Luminosidade: --
+Outro fator importante é a intensidade luminosa, pois a luz do sol sobre o produto recém-aplicado (gotas aderidas) pode causar injúria (efeito “lente de aumento”) ou fitotoxidade (concentração do ingrediente ativo) nas folhas. Nesse caso, a bula deverá ser consultada para ver se existem recomendações contra pulverizações sob luz do sol intensa.
+
+-- Temperaturas do ar: --
+De uma forma geral, temperaturas do ar superiores a 30°C e umidade relativa do ar inferior a 55% são impróprias à pulverização, pois o tempo médio de duração da gota é bastante curto, conforme descrito na Tabela 17.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2777%5D%7B326%7Dtabela_17.jpg
+Legenda: Tempo médio de duração da gota de água em função da temperatura e umidade relativa do ar. Fonte: Boller et al. (2007).
+
+-- Na região do Alto Vale do Rio do Peixe: --
+Na região do Alto Vale do Rio do Peixe, o ideal é realizar a pulverização ao final da tarde, onde, além da temperatura amena, o orvalho que será formado durante a noite distribui o princípio ativo das gotículas postas sobre o alvo, maximizando a proteção da planta. Na pulverização feita logo ao amanhecer ocorre, na maioria das vezes, gotejamento do produto devido à formação de orvalho sobre a planta.
+
+-- Chuvas após a aplicação: --
+Normalmente, se a pulverização é seguida por um período de duas a três horas sem chuvas, ela será efetiva, especialmente se o agrotóxico é absorvido pela planta ou pela superfície cerosa das folhas. No caso de fungicidas protetores, se ocorrerem chuvas de 25mm ou mais, deve-se refazer a pulverização.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

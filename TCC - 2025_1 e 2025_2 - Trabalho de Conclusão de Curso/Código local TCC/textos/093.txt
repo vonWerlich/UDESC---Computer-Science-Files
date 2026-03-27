@@ -1,0 +1,47 @@
+Título: TOMATE - Fitossanidade - Vírus - Mosaico dourado (TGMV- Tomato Golden mosaic vírus)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=093&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1621%5D%7B220%7D1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B51%7Dtgmv_3.jpg
+Legenda: A virose não ocasiona sintomas em frutos. Contudo, o principal vetor da doença, a Mosca-Branca, causam esses sintomas e ajudam a identificação do vetor na área. Foto: P. C. T. Melo
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B340%7D8.jpg
+Legenda: BRS Sena, com bom nível de resistência a begomovírus. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B226%7D1.jpg
+Legenda: Clorose causada pelo vírus em folhas do tomateiro. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B373%7Dtgmv_1.jpg
+Legenda: Folhas com sintomas do mosaico dourado. Foto: A. C. Lopes
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B260%7D9.jpg
+Legenda: Mosca-branca: principal vetor do begomovírus. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B357%7D4.jpg
+Legenda: Nanismo de planta ocasionado pelo vírus. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B545%7D3.jpg
+Legenda: Necrose foliar causada pelo vírus. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B363%7Dtgmv_2.jpg
+Legenda: Nervuras amarelas. Foto: A. C. Lopes
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B232%7D7.jpg
+Legenda: Planta resistente a esquerda e suscetível a direita, ambas infectadas por begomovírus. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B313%7D6.jpg
+Legenda: Resultado da infecção em diferentes estágios da planta. A partir dos 30 dias, a infecção apresenta menores impactos produtivos do que quando infecta a lavoura no estágio inicial. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B531%7D2.jpg
+Legenda: Sintomas extremos da virose. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1621%5D%7B487%7D5.jpg
+Legenda: Sintomas suaves da doenças em cultivar resistente. Assim, a planta está infectada, com sintoma mais suave e perdas menos severas também. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+
+-- INFORMAÇÕES GERAIS: --
+O mosaico dourado (TGMV- Tomato Golden mosaic vírus), é uma virose de grande importância na cultura do tomateiro nos dias de hoje pela sua velocidade de disseminação e pela fácil adaptação do inseto vetor, a Mosca branca (Bemisia tabaci biótipo B ou B. argentifolii) (1). Essa virose é causada pelo vírus da família Geminiviridae, gênero Begomovírus, com mais de 25 espécies (no Brasil) (3). Atualmente os principais begomovírus transmitidos são o ToSRV e o ToMoLCV (3).
+
+-- PLANTAS HOSPEDEIRAS: --
+Geralmente as hospedeiras do TGMV pertecem à família das Solanaceae (1), mas a gama de hospedeiros é considerada grande, podendo atacar plantas daninhas, como: joá-de-capote (Nicandra physaloides) , quinquilho (Datura stramonium) , maria-pretinha (Solanum americanum) e guanxuma (Sida rhombifolia) (2). Além de cultivos comerciais, como soja e feijão (3).
+
+-- SINTOMAS: --
+No geral, os sintomas são mais evidentes em plantas jovens (1), mas são facilmente encontradas em plantas adultas. Plantas adultas: - Rugosidade (2). - Clorose internerval (2). Plantas jovens: - Amarelecimento de nervuras (2). - Mosaico-dourado (2). - Paralisia no crescimento (2). - Enrolamento de folhas (1). - Pouca floração (1). - Amadurecimento irregular (2). - Frutos parcialmente descoloridos (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+1) Cultivo em larga escala de hospedeiras aumenta risco de disseminação sem o controle do vetor (2). 2) Inseto vetor reproduz melhor em épocas secas (1). 3) Plantas daninhas podem ser hospedeiras naturais do TGMV (2) Solução: Eliminar as plantas daninhas com chances de fonte de inóculo para a doença. 4) Cultivo intensivo do tomateiro na mesma área pode selecionar as espécies mais agressivas (1).
+
+-- CONTROLE: --
+- Usar plantas resistentes (não há no mercado hoje cv. 100% resistentes, mas sim moderadamente resistentes), com os genes Ty1 e Ty3 (ambos apresentam respostas semelhantes de resistencia) (3). - Eliminar os restos culturais provenientes da cultivo anterior para diminuir a mosca-branca no campo (2). - Possíveis cultivos de tomate com sacos plásticos, para evitar chances de contato entre a raiz e solo contaminado (1). - Cultivos em áreas distantes da fonte de inóculo (2). - Barreira com plantas não hospedeiras, para proteger a cultura do tomate. - Evitar escalonar o tomate na mesma área (2). - Evitar plantar tomate em áreas com grandes infestações do Geminivírus (2). - Controle químico de moscas-brancas com inseticidas (2). - Eliminação de plantas daninhas (2).
+
+-- Informações Complementares --
+(1) Vale, F.X.R.; Zambolim,. L.; Zambolim, E.M.; Alvarenga, M.A.R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. UFLA, 2004. cap 9, pag 270-271. (2) Lopes CA, Santos JRM. Doenças do tomateiro. Brasília: Embrapa; 1994. (3) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Alice Kazuko Inoue-Nagata. Tema: Embrapa Hortaliças e o manejo de viroses em tomateiro. Data do evento: 14/09/2020. Para informações na íntegra, acessar: https://youtu.be/sgDHRSl-FeI .

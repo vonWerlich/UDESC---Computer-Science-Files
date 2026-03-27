@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Aligote F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0975&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B856%5D%7B351%7Daligote.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Empresa: Vilmorin; Finalidade: Copa; Grupo: Grape/Cherry/CockTail/Cereja/Outros; Polinização: Híbrido; Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: Va - Verticillium albo-atrum; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Tomate tipo grape com alto brix. VANTAGENS DO CULTIVAR: -Planta vigorosa com boa cobertura foliar rústica. -Excelente uniformidade até o ponteiro. -Excelente produtividade com frutos de alta qualidade. -Alto brix. -Excelente qualidade gustativa dos frutos.
+
+-- RESISTÊNCIA: --
+HR: V:0 IR: FOL:0,1
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.vilmorin.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.vilmorin.com.br.

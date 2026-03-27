@@ -1,0 +1,312 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13031&amp;isEdicao=N&amp;epagriTEC=S">ARROZ IRRIGADO</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13036&amp;isEdicao=N&amp;epagriTEC=S">11. Manejo de pragas</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21648&amp;isEdicao=N&amp;epagriTEC=S"> Inimigos naturais das pragas do arroz</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21649&amp;isEdicao=N&amp;epagriTEC=S">  Artrópodes atuantes no controle biológico</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18340">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021649">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18340]{114}btin_capa.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: imagem free remasterizada </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  Artrópodes atuantes no controle biológico 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>INTRODUÇÃO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Inúmeras são as espécies de inimigos naturais das pragas do arroz e listá-las pode tornar-se enfadonho. Assim, é mais importante saber identificar os grandes grupos de inimigos naturais e a que pragas ou grupo de pragas estão associados (Tabela abaixo).<br>
+A composição dos grupos de inimigos naturais nas lavouras arrozeiras pode variar de um ano para outro, porém há grupos predominantes. Normalmente, as micro-vespas parasitoides e as aranhas são os mais numerosos e podem compor de 35 a 60% da fauna desses artrópodes benéficos, quando coletadas sobre as plantas de arroz. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28538,021649,18340,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18340]{421}1_tabin.jpg">  </a> 
+<br><br>
+<b>PARASITOIDES</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Dentre os artrópodes benéficos com maior ação de controle biológico, estão as micro-vespas parasitoides (Hymenoptera: Chalcidoidea, entre outras) e as moscas-peludas (Diptera: Tachinidae). As micro-vespas são de dimensões diminutas e assim, dificilmente são vistas nas lavouras. As moscas peludas são maiores e aquelas de abdomen alaranjado (espécies dos gêneros <i>Cylindromyia</i> e <i>Beskia</i>) podem ser vistas pelas plantas, principalmente onde há enxames do percevejo-do-grão.<br>
+Desenvolvendo-se nas entranhas de diferentes fases de insetos, estas vespas e moscas mantêm sob controle inúmeras espécies. Lagartas de lepidópteros e ovos de percevejos, por exemplo, podem ser intensamente parasitados em determinadas situações. No caso do percevejo-do-colmo, o parasitismo de ovos é um dos fatores de maior mortalidade natural da espécie e pode chegar a taxas variando de 80 a 95%. Ou seja, de cada grupo de 100 ovos, emergem apenas 20 a 5 percevejos.<br>
+Inseticidas de largo espectro de ação normalmente têm forte efeito sobre os parasitoides, especialmente nas populações das pequenas vespas. Dada às diminutas proporções destes insetos, baixas concentrações de ingrediente ativo já podem ser extremamente letais. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28527,021649,18340,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18340]{316}btin_fig01.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28528,021649,18340,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18340]{67}btin_fig02.jpg">  </a> 
+<br><br>
+<b>PREDADORES</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os predadores normalmente ocorrem em quantidades menores que os parasitoides, porém superam no número de espécies. Assim, a contribuição destes inimigos naturais na regulação das espécies herbívoras também é expressiva. Contudo, os predadores têm fraca afinidade específica, podendo reter sua ação num determinado hospedeiro não nocivo em detrimento a outro hospedeiro nocivo ao arroz.<br>
+Os artrópodes predadores têm ampla capacidade de colonização das lavouras, justamente devido à sua busca incessante pelas presas. Porém, o contínuo deslocamento por entre a folhagem, os expõe rapidamente ao efeito letal dos agrotóxicos, especialmente àqueles que agem por contato. Dessa forma, as populações de predadores podem ser dizimadas por uma aplicação de inseticida. Não obstante, esse grupo tende a se recompor assim que cessa o efeito residual do produto.<br>
+As lavouras de arroz irrigado têm a peculiaridade de abrigarem tanto as espécies de predadores terrestres quanto as aquáticas. Os predadores terrestres mais comuns nas lavouras são as aranhas, os percevejos reduvídeos e as libélulas. Sob lâmina d’água ocorrem as larvas de besouro predadoras, os percevejos aquáticos e as náiades.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Aranhas</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> As aranhas (Araneae: Araneidae, Tetragnathidae e outras) compõem um grupo numeroso de artrópodes predadores nas lavouras. Nas quadras de arroz irrigado predominam as espécies construtoras de teias orbiculares e as caçadoras (que não tecem teias). A quantidade de aranhas nas arrozeiras aumenta com o tempo de cultivo, sendo máxima no período final do ciclo da cultura. A espécie <i>Alpaida veniliae</i> (Keyserling) (Araneidae), uma das mais frequentes, pode ocorrer em densidades médias de 8 indivíduos/m².
+Sob o ponto de vista do controle biológico, as aranhas são predadores generalistas, ou seja, não escolhem suas presas e assim podem eliminar não só insetos nocivos, mas qualquer outro inseto transeunte ou mesmo um inimigo natural.<br>
+As aranhas eliminam grande quantidade de moscas e mosquitos das arrozeiras, assim como pequenos lepidópteros, como mariposas da lagarta-boiadeira e da noiva-do-arroz. As cigarrinhas também são presas habituais das aranhas, sendo este grupo um dos maiores responsáveis pelo controle natural da sogata. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28530,021649,18340,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18340]{143}btin_fig04.jpg">  </a> 
+<br><br>
+<b>Reduvídeos e outros percevejos</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Percevejos da família Reduviidae são exímios predadores de insetos de corpo mole como mariposas e lagartas e ninfas de grilos e gafanhotos. Eventualmente também caçam as próprias aranhas. No agroecossistema das lavouras de arroz irrigado, durante todo o ciclo de cultivo, as espécies dos gêneros <i>Sirthenea</i> (percevejo-vermelho), <i>Rasahus</i> (percevejo-pirata) e <i>Pnirontis</i> (percevejo-assassino) ocorrem com frequência.<br> Os percevejos-vermelhos ocorrem por todo o ciclo de cultivo, com acréscimo de população no verão. As maiores populações de percevejos-pirata surgem no final do ciclo do arroz, enquanto que a maior incidência de percevejos-assassinos ocorre entre novembro e dezembro, época das proliferações primaveris dos lepidópteros.<br>
+Os percevejos reduvídeos são de hábito noturno e normalmente permanecem escondidos durante o dia, por isso dificilmente são vistos sobre as plantas. Contudo, as populações podem ser altas, evitando eventuais surtos de lagarta-militar, lagarta-das-panículas ou do curuquerê-dos-capinzais.<br>
+Além dos reduvídeos, outros percevejos predadores de menor tamanho podem ocorrer pelas plantas nas lavouras. Os mais comuns são os percevejos dos gêneros <i>Orius</i>, <i>Nabis</i> e <i>Geocoris</i>. No ambiente aquático também podem ocorrer vários percevejos predadores, principalmente das famílias Guerridae, Corixidae, Belostomatidae e Nepidae, entre outras. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28531,021649,18340,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18340]{214}btin_fig05.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28532,021649,18340,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18340]{517}btin_fig07.jpg">  </a> 
+<br><br>
+<b>Joaninhas e outros besouros</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> As lavouras de arroz irrigado abrigam tanto os besouros predadores aquáticos, quanto aqueles que caçam na vegetação. Os besouros predadores que caçam no chão, como os carabídeos e os cicindelídeos, normalmente não ocorrem, ou então só ficam na área até a inundação das quadras.<br>
+Um grupo pouco estudado de agentes de controle biológico nas áreas de arroz irrigado são as larvas de besouros aquáticos predadoras (Coleoptera: Dytiscidae, Hydrophilidae, Gyrinidae, entre outras). Apesar de serem caçadoras generalistas, já foram observadas predando larvas de primeiro estágio da bicheira-da-raiz.<br>
+Os besouros predadores que caçam na vegetação mais visíveis são as joaninhas da família Coccinellidae. Contudo, algumas outras famílias de Coleoptera também abrigam espécies predadoras. As joaninhas normalmente predam pulgões e cochonilhas, mas também podem caçar pequenas lagartas de Lepidoptera e comer ovos e ninfas de outros insetos. As joaninhas podem compor até 37% do total de besouros diurnos que habitam as arrozeiras, sendo as espécies do gênero <i>Hyperaspis</i> as mais frequentes.<br>
+Os besouros predadores de hábito noturno geralmente não são encontrados e computados nos levantamentos faunísticos executados nas arrozeiras. Porém, as coletas desses besouros em armadilhas luminosas são sempre numerosas. Diversos carabídeos, estafilinídeos, cicindelídeos, cantarídeos, entre outros, são atraídos pela luz e caem em grande quantidade nas armadilhas instaladas nas lavouras de arroz. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28533,021649,18340,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18340]{38}btin_fig08.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28534,021649,18340,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18340]{254}btin_fig09.jpg">  </a> 
+<br><br>
+<b>Outros predadores</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Vários outros predadores aquáticos estão pelas áreas de cultivo, como náiades de Odonata e algumas larvas de Trichoptera e Diptera, contribuindo também para manter sob controle várias espécies nesse ambiente.<br>
+A época de floração do arroz, com abundante liberação de pólen, atrai muitas espécies predadoras para as lavouras. Isto porque dermápteros, neurópteros, estafilinídeos e vários outros têm no pólen um alimento alternativo. Populações da tesourinhas <i>Doru luteipes</i> (Scudder) (Dermaptera: Forficulidae) podem variar de 2 a 5 indivíduos por planta neste período. Além destes predadores, marimbondos e vespas construtoras de casulos de barro circulam pelas lavouras em busca de aranhas ou lagartas de Lepidoptera para alimentar suas larvas.<br>
+Ácaros fitoseídeos, especialmente <i>Neoseiulus paraibensis</i> (Moraes et McMur.) e <i>Neoseiulus californicus</i> (McGregor) (ambos Acari: Phytoseiidae), ocorrem nas lavouras de arroz irrigado, mantendo baixas as populações dos ácaros fitófagos. O ácaro-da-mancha-branca é uma das espécies mantida sob controle, não sendo relatada como praga nas regiões produtoras catarinenses. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28535,021649,18340,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18340]{147}btin_fig10.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28536,021649,18340,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18340]{57}btin_fig11.jpg">  </a> 
+<br><br>
+<b>CONSIDERAÇÕES FINAIS</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Embora o controle biológico seja normalmente imaginado como a liberação de um inimigo natural para o rápido controle de uma praga, ele existe naturalmente e é fundamental preservá-lo e se possível incrementá-lo. Distúrbios ambientais drásticos, como a aplicação de agrotóxicos, interferem sobremaneira nesse controle e podem propiciar o incremento populacional de diversas pragas.<br>
+O controle biológico natural das pragas do arroz é atuante e importante. Parasitoides e predadores presentes nas lavouras restringem a ocorrência de pragas, a tal ponto, que apenas cinco espécies são efetivamente as pragas primárias do cultivo em Santa Catarina. Destas, apenas uma, a bicheira-da-raiz, tem realmente poucos inimigos naturais, sendo a maior mortalidade natural ocasionada por fungos entomopatogênicos, notadamente <i>Beauveria bassiana</i> (Bals.) Vuill. As outras quatro, o percevejo-do-colmo, o percevejo-do-grão, a sogata, e as lagartas militar e/ou das panículas, têm muitos inimigos naturais e sua ocorrência, muitas vezes, está associada à perda do controle biológico natural, quer por fatores abióticos extremos (altas temperaturas, secas ou enchentes), quer pelo uso rotineiro de agrotóxicos nas lavouras.
+Equacionar a aplicação de agrotóxicos nas lavouras de arroz, especialmente de inseticidas, é fundamental para a preservação do controle biológico natural e essencial na implantação de um programa progressivo de manejo integrado de pragas do arroz irrigado.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+HICKEL, E.R. <b>Artrópodes benéficos nas lavouras catarinenses de arroz irrigado: inimigos naturais</b>. Florianópolis: Epagri, no prelo.<br>
+FIUZA, L.M.; OLIVEIRA, J.V.; ALMEIDA, D.; KNAAK, N.; SCHOENFELD, R.; FISCHER, M.; HEINRICHS, E.A. <b>Guia de inimigos naturais das pragas orizícolas</b>. Cachoeirinha: IRGA, 2017. 30p. (IRGA. Boletim Técnico, 13).
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri)<br> &nbsp;&nbsp;Manejo integrado de pragas </font> 
+<br><br><br> <font size="2"> Criado em: 09/01/2024</font>
+<br> <font size="2"> Última atualização: 09/01/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021649&amp;cdElemento=18340">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18340');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

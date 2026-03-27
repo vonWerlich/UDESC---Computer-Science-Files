@@ -1,0 +1,12 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 1. Diagnóstico a partir da lavouraInicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca. - Não está havendo perda significativa de estande na lavoura (outros sintomas) - As plantas estão amareladas ou têm folhas, panículas ou grãos secando. Pode haver espuma branca no colo da planta - Apenas a folha central, a panícula ou grãos estão secando - Apenas a folha central ou a panícula está secando
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021496&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17084%5D%7B17%7Dlav09_colmoseco.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21496%5D%7B317%7Ddano_pcolmo.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21496%5D%7B469%7Ddano_noiva.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21496%5D%7B406%7Ddano_bcana.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21496%5D%7B351%7Ddano_bcolo.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21496%5D%7B512%7Ddano_lagelasmo.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21496%5D%7B263%7Ddano_moscamin.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21496%5D%7B321%7Ddano_brusone.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21496%5D%7B179%7Ddano_podrebainha.jpg

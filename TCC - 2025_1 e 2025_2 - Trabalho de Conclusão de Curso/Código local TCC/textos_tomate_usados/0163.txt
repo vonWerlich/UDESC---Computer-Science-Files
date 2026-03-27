@@ -1,0 +1,29 @@
+Título: TOMATE - Cultivares - Valerin F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0163&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B65%5D%7B330%7Dvalerin.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Indeterminado; Empresa: Sakata; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: Gv - ToSRV (Geminivírus); Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Médio
+
+-- INFORMAÇÕES DA EMPRESA: --
+Segmento: Tomate Salada Indeterminado. Destaque: Qualidade imbatível: combina tamanho e formato ideais, coloração vermelha intensa, alta firmeza e ausência de manchas e rachaduras nos frutos.
+
+-- BENEFÍCIOS: --
+Alta atratividade e valor agregado na comercialização.
+
+-- CARACTERÍSTICAS: --
+Planta de médio vigor. Média de início de colheita: 105 dias. Peso médio de frutos: 240g. Alto nível de resistência a manchas e rachaduras.
+
+-- VANTAGENS: --
+Alto nível de resistência ao Geminivírus e ao Vira-Cabeça. Mais de 90% da colheita com classificação AA. Plantas vigorosas, com frutos grandes da base ao ponteiro. Atratividade diferenciada na comercialização.
+
+-- INDICAÇÃO DE CULTIVO POR REGIÃO: --
+Esse cultivar apresenta boa produção e está sendo cultivado com sucesso na região de Palhoça, Biguaçu, Tijucas (De Quadra - 25/08/2020).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sakata.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sakata.com.br.

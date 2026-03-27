@@ -1,0 +1,14 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - F) CONTROLE DE PLANTAS DANINHAS - c) Manejo integrado de plantas daninhas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02931&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2694%5D%7B234%7Dcapa_1.jpg
+
+-- Balanço da interferência entre as plantas: --
+Em um programa de manejo de plantas daninhas é necessário ajustar o balanço da interferência entre as plantas (daninhas e cultivadas), de modo a favorecer o desenvolvimento das plantas cultivadas, no caso de tomate, reduzir o crescimento das plantas daninhas. Além disso, o manejo diminui o banco de sementes de plantas daninhas no solo, fazendo com que nos novos cultivos, na mesma área, o nível de infestação ocorra em menor intensidade. Essas metas podem ser alcançadas por meio do manejo integrado de plantas daninhas. O objetivo básico não é a erradicação total das plantas daninhas, mas sua redução a níveis que não interfiram na produtividade econômica das culturas, além de reduzir os danos ao meio ambiente.
+
+-- O manejo integrado de plantas daninhas: --
+O manejo integrado de plantas daninhas é o uso sequencial ou conjunto de diferentes métodos de controle das plantas daninhas, procurando-se obter maior eficácia com a menor interferência possível no meio ambiente. É importante manter um ambiente desfavorável ao mato mediante o emprego isolado ou combinado de métodos preventivos, culturais, físicos, mecânicos e químicos.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

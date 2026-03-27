@@ -1,0 +1,45 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - K) PRINCIPAIS PRAGAS E SEU CONTROLE - a) Manejo integrado de pragas (MIP)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02995&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2761%5D%7B139%7Dfigura_31.jpg
+
+-- Manejo integrado de pragas (MIP): --
+O controle de pragas, feito exclusivamente com agrotóxicos, afeta o estabelecimento e o desenvolvimento de inimigos naturais, reduz a diversidade biológica, desencadeia o aparecimento de novas pragas e a ressurgência de pragas consideradas secundárias (Santos, 2007). Dessa forma, métodos alternativos de controle e menos agressivos à entomofauna benéfica devem ser adotados, o que torna indispensável à utilização de estratégias baseadas no manejo integrado de pragas (MIP). Ressalta-se que, nesse sistema de manejo, devem-se levar em consideração as seguintes práticas:
+
+-- Prática n.1: --
+• Identificar as pragas-chave nos diferentes estádios fenológicos da planta;
+
+-- Prática n.2: --
+• Monitorar as pragas e seus inimigos naturais com amostragens frequentes;
+
+-- Prática n.3: --
+• Estabelecer os níveis de controle para cada praga;
+
+-- Prática n.4: --
+• Integrar vários métodos de controle;
+
+-- Prática n.5: --
+• Aplicar agrotóxicos somente quando necessário, procurando-se, sempre que possível, levar em consideração os níveis populacionais e as condições favoráveis para o desenvolvimento dos insetos. Dessa maneira, preconiza-se evitar a resistência das pragas, a elevação dos custos de produção, a presença de resíduos nos frutos colhidos e os riscos de intoxicação dos agricultores e consumidores.
+
+-- Prática n.6: --
+• Utilizar apenas agrotóxicos registrados para a cultura, conforme as exigências do Ministério da Agricultura, Pecuária e Abastecimento (Vide Agrofit) e da Cidasc (vide Sigen) – Sistema de Agrotóxicos Fitossanitários), certificando-se de que eles sejam devidamente prescritos por profissional habilitado;
+
+-- Prática n.7: --
+• Observar rigorosamente a forma de aplicação prevista no receituário agronômico e na bula, especialmente no que diz respeito à quantidade recomendada, carência e intervalo de aplicação.
+
+-- Demais práticas auxiliares de controle: --
+Adubação equilibrada com análise de solo prévia, manutenção da vegetação natural próxima à área de plantio como reservatório de inimigos naturais das pragas e a eliminação das solanáceas espontâneas, pois elas podem ser hospedeiras de importantes pragas do tomateiro (Mueller et al. 2008).
+
+-- Armadilhas do tipo Delta: --
+Para auxiliar a tomada de decisão de controle, podem-se instalar armadilhas do tipo Delta (Figura 31), contendo no interior um fundo adesivo e uma cápsula difusora do feromônio sexual sintético específico para a praga-alvo, ou seja, aquela que se pretende controlar (Santos, 2007).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2761%5D%7B74%7Dfigura_31.jpg
+Legenda: Armadilha do tipo Delta para o monitoramento de insetos-praga. Foto: Janaína Pereira dos Santos
+
+-- Armadilhas adesivas: --
+O monitoramento também pode ser feito com armadilhas adesivas de coloração amarela e azul (Figura 32), conforme Santos et al. (2008a).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2761%5D%7B123%7Dfigura_32.jpg
+Legenda: Armadilhas adesivas para a captura de insetos-praga: (A) amarela e (B) azul. Foto: Janaína Pereira dos Santos
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

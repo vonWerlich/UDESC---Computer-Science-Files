@@ -1,0 +1,25 @@
+Título: COMPOSTAGEM - Como calcular as misturas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018471&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16101%5D%7B271%7Dfigura_6.jpg
+
+-- CÁLCULO: --
+Para fazer uma mistura adequada dos materiais (Figura 6), buscando uma relação C/N inicial de 30/1, deve-se proceder o seguinte cálculo: PMRC / PMRN = (30 * %Nn) - %Cn / %Cc - (30 * %Nc) Onde: - PMRC (kg) – parte do material rico em carbono (C) (palhas, folhas, resíduos de alimentos vegetais, gramas, casca de palmeiras, resíduos de poda...); - PMRN (kg) – parte do material rico em nitrogênio (N) (estercos diversos, resíduos de abates de animais e de peixes, grãos residuais de soja, de mamona, folhas verdes de leguminosas como flemingea, crotalária, feijão-de-porco, entre outras). - Nn – teor de N do material rico em N; - Cn – teor de C do material rico em N; - Nc – teor de N do material rico em C; - Cc – teor de C do material rico em C.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16101%5D%7B244%7Dfigura_6-1.jpg
+Legenda: Figura 6A. Leira de compostagem misturando camadas de resíduos da indústria do palmito (C/N 50), com camadas de cama de aves (C/N 6), na proporção ideal por meio de cálculo, para atingir uma relação C/N inicial de 30. Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16101%5D%7B233%7Dfigura_6-2.jpg
+Legenda: Figura 6B. Leira de compostagem misturando camadas de resíduos da indústria do palmito (C/N 50), com camadas de cama de aves (C/N 6), na proporção ideal por meio de cálculo, para atingir uma relação C/N inicial de 30. Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16101%5D%7B58%7Dfigura_6-3.jpg
+Legenda: Figura 6C. Leira de compostagem misturando camadas de resíduos da indústria do palmito (C/N 50), com camadas de cama de aves (C/N 6), na proporção ideal por meio de cálculo, para atingir uma relação C/N inicial de 30. Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16101%5D%7B233%7Dfigura_6-4.jpg
+Legenda: Figura 6D. Leira de compostagem misturando camadas de resíduos da indústria do palmito (C/N 50), com camadas de cama de aves (C/N 6), na proporção ideal por meio de cálculo, para atingir uma relação C/N inicial de 30. Foto: Rafael Ricardo Cantú
+
+-- OBSERVAÇÃO 1: --
+* É importante destacar que os teores de N e C são determinados na matéria seca e, sendo assim, é preciso fazer o cálculo considerando a umidade dos materiais. Ou seja, deve-se fazer o cálculo da proporção com base na matéria seca dos materiais e depois corrigir com a sua umidade.
+
+-- OBSERVAÇÃO 2: --
+* É sugerido, após os cálculos considerando a umidade das proporções dos materiais em ‘peso’, transformá-las em volume buscando facilitar a montagem das pilhas, por exemplo: 15m3 de palha / 1m3 de esterco bovino.
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

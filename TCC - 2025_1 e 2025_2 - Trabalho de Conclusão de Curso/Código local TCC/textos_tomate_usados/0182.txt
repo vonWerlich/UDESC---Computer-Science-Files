@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - SV2444TH F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0182&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B86%5D%7B312%7Dsv2444th.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Seminis; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Plantas vigorosas, com excelente cobertura foliares e altas pegamento de frutos, mantendo bom calibre até o ponteiro. Frutos com excelente coloração para mercado fresco e pós-colheita. Alto potencial produtivo e amplo pacote de resistências.
+
+-- DESCRIÇÃO DO PRODUTO: --
+Peso médio do fruto: 220-240 g. Tipo do fruto: Salada redonda. Tipo da planta: Indeterminada.
+
+-- RESISTÊNCIA: --
+HR - TSWV, ToMV:0-2, Fol:1,2, Sbl/Sl/Ss e Va:1/Vd:1 / IR – TYLCV.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.seminis.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.seminis.com.br.

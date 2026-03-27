@@ -1,0 +1,486 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7983&amp;isEdicao=N&amp;epagriTEC=S">BANANA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21658&amp;isEdicao=N&amp;epagriTEC=S">        Correção e fertilidade do solo</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18413">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021658">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18413]{548}solo_comp._9.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Ricardo J. Z. de Negreiros </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  Solo com impedimento mecânico em bananal 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>APRESENTAÇÃO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A maior parte dos solos brasileiros são ácidos e apresentam baixa fertilidade natural, sendo estas condições inadequadas para o cultivo da bananeira.<br><br> Por isso, torna-se necessário realizar a correção da acidez do solo e a aplicação de fertilizantes para suprir a demanda nutricional dos bananais. Assim, é necessário adotar um adequado manejo nutricional com o monitoramento da fertilidade do solo e do estado nutricional das plantas por meio de análise de solo e de tecido foliar, respectivamente.<br><br> O diagnóstico e a recomendação de corretivos e fertilizantes devem ser realizados a partir da interpretação dos resultados das análises, com auxílio de classes/faixas para interpretação de atributos de solo e folha considerados adequados para o cultivo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COLETA E AMOSTRAGEM DE SOLO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Antes da implantação do pomar, devem-se coletar 20 amostras simples por área/gleba homogênea para formar a amostra composta que será analisada. As amostras devem ser coletadas de forma aleatória, cobrindo toda a área amostrada.<br><br>
+Além da 
+amostragem superficial <b>(0-20cm)</b>, recomenda-se coletar, sempre que possível, amostras 
+em subsuperfície <b>(20-40cm)</b>, principalmente para caracterização da fertilidade do solo que 
+antecede a implantação dos pomares e por ser o momento propício para incorporação de corretivos, condicionadores e fertilizantes em profundidade(¹)(²).<br><br>
+Já a amostragem em pomares de bananeira em produção leva em consideração a forma de aplicação dos fertilizantes na superfície do solo. Quando a fertilização é realizada em área total, devem ser coletadas no mínimo 20 amostras simples de forma aleatória e bem distribuídas em toda a área do pomar. Por outro lado, nos pomares em que os fertilizantes são aplicados na superfície do solo de forma localizada, como em faixa, em meia-lua na frente da planta filha ou via fertirrigação, as amostras simples devem ser coletadas próximo à área fertilizada (a uma distância aproximada de 30cm da faixa de aplicação dos fertilizantes), como ilustrado pela <b>figura abaixo</b>. Nesse caso, tendo em vista o gradiente de fertilidade e acidez do solo proporcionados pela adubação localizada “otimizada”, recomenda-se realizar a amostragem de solo também nas entrelinhas para monitorar a fertilidade do solo dessa área.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28744,021658,18413,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18413]{287}cap_7_figura_1.jpg">  </a> 
+<br><br>
+<b>MONITORAMENTO DA FERTILIDADE DO SOLO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para monitorar adequadamente a fertilidade do solo de pomares em produção, 
+recomenda-se realizar coletas de amostras com frequência anual.<br><br> Elas devem ser realizadas, 
+pelo menos, 30 dias após a última adubação, que geralmente ocorre no final do ciclo de 
+produção, correspondendo ao período de inverno na Região Sul do País. <br><br>Este momento é 
+também estratégico para avaliar a fertilidade do solo e planejar as próximas adubações 
+e calagem e/ou gessagem (quando necessárias). As amostras devem ser devidamente 
+identificadas e acondicionadas em sacos plásticos limpos (livres de contaminantes) e 
+enviadas para o laboratório <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COLETA E AMOSTRAGEM DE FOLHHA</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Assim como para amostragem de solo, a amostragem foliar deve ser realizada em 
+glebas/talhões com a máxima homogeneidade possível, a fim de reduzir os erros atribuídos 
+a essa etapa.<br><br> Convencionou-se que a amostragem foliar da bananeira deve ser realizada 
+no período entre o início da emissão do cacho e a abertura de todas as pencas femininas, 
+coletando-se amostra foliar da terceira folha a partir do ápice, constituindo uma faixa de 
+10 a 15cm da parte interna mediana de cada lado do limbo foliar, eliminando-se a nervura 
+central(³), conforme a <b>figura abaixo</b>.<br><br> Vale ressaltar que é possível realizar 
+a coleta da amostra foliar e preservar a terceira folha na planta, como demonstrado nas 
+<b>figuras abaixo</b>. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28745,021658,18413,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18413]{110}cap_7_figura_2a.jpg">  </a> 
+<br><br>
+<b>INTERPRETAÇÃO DA ANÁLISE DE SOLO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A interpretação dos resultados da análise de solo visa estabelecer enquadramento quantitativo para os atributos avaliados, com base em valores de referência.<br><br> A <b>tabela abaixo</b> apresenta as classes de interpretação de alguns atributos avaliados na análise química de solo.<br><br>
+A bananicultura é exigente em solos com elevados teores de matéria orgânica do solo (MOS), seja ela proveniente da deposição sobre o solo da parte aérea da planta, uso de plantas de cobertura ou pela aplicação de resíduos de origem animal. <br><br>O manejo da cultura da banana deve priorizar a manutenção da MOS que tem influência direta e positiva na atividade biológica do solo, consequentemente regulando a biodisponibilidade 
+dos nutrientes, como nitrogênio (N), fósforo (P) e enxofre (S), pela ciclagem biogeoquímica.<br><br> Outro fator relacionado à MOS é o aumento da capacidade de troca de cátions (CTC), especialmente em solos de textura mais arenosa, contribuindo significativamente 
+para a melhoria de sua fertilidade.<br><br>
+Para o bom desenvolvimento 
+da bananeira, as quantidades de potássio (K), cálcio (Ca) e magnésio (Mg) devem 
+corresponder a <b>10%, 60-70% e 20-30% da saturação por bases</b>, respectivamente(<sup>4</sup>). Além disso, a <b>relação Ca/Mg deve se situar em torno de 3,5 a 4,0</b>, sendo 
+recomendável manter o teor de Mg acima de 0,8cmolc dm−3(<sup>5</sup>). Além dos 
+teores adequados dos nutrientes, é recomendável manter a saturação de Al (m) em níveis 
+“muito baixos” ou próximos de zero, devido à toxidez causada pelo alumínio trocável (Al3+) 
+que compromete o desenvolvimento radicular das plantas. Por isso, recomenda-se que as 
+amostragens de solos sejam realizadas nas profundidades de 0-20cm e de 20-40cm <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28743,021658,18413,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18413]{117}fertilidade.png">  </a> 
+<br><br>
+<b>FÓSFORO</b><br>
+<p class="p1"><div> A disponibilidade de P no solo varia de acordo com o extrator utilizado. A <b>tabela abaixo</b> apresenta as classes de interpretação do teor de P no solo extraído pelo método Mehlich-1, 
+conforme o teor de argila ou P remanescente (P-rem) e extraído por resina de troca 
+aniônica (RTA). <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28746,021658,18413,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18413]{374}fosforo.png">  </a> 
+<br><br>
+<b>POTÁSSIO</b><br>
+<p class="p1"><div> A interpretação de K no solo para o cultivo da bananeira pode ser realizada com o 
+auxílio da <b>tabela abaixo</b>, que apresenta classes de interpretação do teor de K no solo extraídos 
+pelo método Mehlich-1 e resina de troca catiônica. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28747,021658,18413,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18413]{343}potassio.png">  </a> 
+<br><br>
+<b>MICRONUTRIENTES</b><br>
+<p class="p1"><div> A interpretação dos micronutrientes no solo para o cultivo da bananeira pode ser realizada com o auxílio da <b>tabela abaixo</b>, que apresenta classes de interpretação dos teores de 
+cobre (Cu), zinco (Zn), ferro (Fe) e manganês (Mn) no solo extraídos pelo método Mehlich-1 
+e boro (B) extraído pelo método da água quente. <br> </div></p>
+<b> INTERPRETAÇÃO DE ANÁLISE FOLIAR E DIAGNOSE DO ESTADO NUTRICIONAL DA BANANEIRA</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A interpretação dos resultados de análise foliar pode ser realizada por diferentes 
+métodos, desde os mais tradicionais – como nível crítico e faixa de suficiência com 
+interpretação análoga à análise de solo, utilizando os manuais e tabelas de recomendação 
+de adubação –, até métodos mais sofisticados, com abordagem multivariada, como a 
+Diagnose da Composição Nutricional (CND)(<sup>6</sup>)(<sup>7</sup>)<br><br>
+As informações da análise foliar complementam as informações provenientes da 
+análise de solo e auxiliam no ajuste das recomendações de corretivos e fertilizantes.<br><br>
+O manejo nutricional para obtenção de altas produtividades de banana necessita de quantidades e proporções adequadas dos nutrientes no solo como também na planta, ou seja, esta deve apresentar balanço e equilíbrio nutricional satisfatório para expressar o seu potencial produtivo.(<sup>8</sup>)(<sup>9</sup>)<br><br> A bananeira possui um padrão de partição de nutrientes em seus 
+órgãos, ou uma “compartimentalização ideal”, que lhe confere maiores produtividades. Portanto, é importante obter normas específicas e 
+regionais para a cultura, considerando o nível tecnológico, sistema de cultivo e condições edafoclimáticas
+(<sup>10</sup>). <br><br>
+Para fins de interpretação de análise foliar e diagnose do estado nutricional mais 
+precisas e exatas, é importante que cada estado ou região tenha seus valores de referência 
+(nível crítico, faixa de suficiência e normas CND) bem definidos e atualizados.<br><br> Para a Região 
+Sul, em especial o estado de Santa Catarina, o nível crítico e faixa de suficiência foram obtidos e atualizados com o auxílio do método CND <b>(tabela abaixo)</b>. Como exemplo, temos 
+que N=21,0g kg−1 representa o nível crítico, enquanto valores de N de 21,0 a 24,0g kg−1 
+correspondem à faixa de suficiência.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28748,021658,18413,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18413]{2}analise_foliar_1.png">  </a> 
+<br><br>
+<b>CORREÇÃO DA ACIDEZ DO SOLO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;">  A banana é uma cultura de baixa tolerância à acidez do solo, necessitando de correções para um adequado desempenho produtivo.<br><br>
+A acidez do solo é um atributo natural que ocorre na maioria dos solos brasileiros intemperizados, inclusive os da Região Sul do País. Além da ocorrência natural, a acidez do 
+solo pode ser acentuada por ações antrópicas devido às práticas de manejo e intensificação dos cultivos. Portanto, a correção da acidez do solo é uma prática que deve ser realizada de forma periódica e sempre que necessária, com base em análises de solo.<br><br>
+Nesse contexto, solos destinados à bananicultura devem apresentar <b>valores de pH 
+entre 6,0 e 6,5</b>, o que corresponde a saturação por bases <b>(V) em torno de 80%</b>. 
+Nessa faixa de pH, ocorre uma melhor disponibilidade dos nutrientes no solo, podendo-se 
+ainda minimizar os danos e a incidência de doenças como o mal-do-Panamá, causado pelo 
+fungo de solo <i>Fusarium oxysporum f. sp. cubense</i>, que se desenvolve preferencialmente 
+em solos ácidos. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CALAGEM</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> No Brasil, há diferentes métodos para determinar a necessidade de calagem (NC). 
+Nos estados da Região Sul, há dois critérios/métodos vigentes para a correção da acidez 
+do solo: a) pH referência; e b) saturação por bases.<br><br> Para a bananeira, a NC utilizando o 
+critério pH referência exige valor de pH igual a 6,0. Sendo assim, deve ser aplicada uma 
+quantidade de corretivo que deverá elevar o valor de pH em água (atual) até atingir o valor 
+de referência (6,0), conforme o índice SMP <b>(tabela abaixo)</b>. <br><br>Porém, em solos arenosos (pouco 
+tamponados), o índice SMP pode subestimar a NC, sendo recomendável, nesses casos, o 
+uso da <b>Equação 1 (CQFS-RS/SC, 2016)(<sup>1</sup>), conforme apresentada abaixo</b>.<br><br>
+O método de saturação por base é bastante difundido nos estados da Região Sul 
+e Sudeste do País e consiste em elevar a saturação inicial dos solos para níveis desejáveis 
+à cultura, sendo adotado para a bananicultura valor de V=80% tanto no Paraná (SBCS/
+NEPAR, 2019)(<sup>2</sup>) como no Rio Grande do Sul e Santa Catarina (CQFS-RS/SC, 2016)(<sup>1</sup>), conforme 
+a <b>Equação 2 apresentada abaixo</b>.<br><br>
+É importante destacar que a NC corresponde a uma dose teórica para a correção 
+do solo, utilizando o corretivo CaCO3
+ com PRNT=100% incorporado na profundidade de 
+0-20cm(<sup>12</sup>). Portanto, após determinar a NC, é necessário ainda calcular 
+a quantidade de calcário (QC) que será aplicada na área, conforme <b>Equação 3, apresentada abaixo</b>.<br><br>
+Em áreas implantadas com bananais em produção, em que o calcário é aplicado em 
+área total (SC=100) e sem incorporação no solo, deve ser considerada uma profundidade 
+de 10cm (PF=10cm), tendo em vista a baixa mobilidade do calcário no perfil do solo, o 
+que limita a espessura que será corrigida. Além disso, caso ainda não se disponha do 
+valor de PRNT do corretivo, deve-se adotar inicialmente PRNT=100, sendo realizado o 
+devido ajuste após a aquisição do corretivo – por exemplo, um corretivo com PRNT 125% 
+(100/125=0,8) ou com PRNT 80% (100/80=1,25), ou seja, aplicar 80% ou 125% da dose 
+inicial, respectivamente (SBCS/NEPAR, 2019). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28749,021658,18413,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18413]{459}equacao_1.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28751,021658,18413,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18413]{252}equacao_2.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28752,021658,18413,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18413]{253}equacao_3.png">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28750,021658,18413,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18413]{180}tabela_smp.png">  </a> 
+<br><br>
+<b>APLICAÇÃO DO CALCÁRIO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> No preparo do solo, a etapa que antecede a implantação do bananal é o momento 
+ideal para realizar a calagem, permitindo uma aplicação uniforme em área total, além da 
+incorporação do corretivo na camada de 0-20cm.<br><br> Para casos em que seja necessária a 
+correção em subsuperfície (21-40cm), o momento ideal para a incorporação do calcário 
+dependerá das condições de solo e disponibilidade de máquinas e implementos.<br><br> Na 
+calagem realizada antes da implantação e com incorporação, é preferível utilizar corretivos 
+de maior efeito residual (menores valores de PRNT). Quando não for possível a aplicação 
+e incorporação em área total, deve-se utilizar doses proporcionais ao volume de solo 
+correspondente à cova ou ao sulco de plantio.<br><br>
+Diferente da implantação, para bananais estabelecidos e já em produção, que 
+necessitem de correção da acidez, recomenda-se realizar aplicação superficial sem 
+incorporação, utilizando corretivos com granulometria mais fina (maiores valores de 
+PRNT) e em doses anuais não superiores a 1,0t ha−1 (SBCS/NEPAR, 2019)(<sup>2</sup>). <br><br>Corretivos com 
+granulometria mais fina têm a percolação facilitada de partículas do calcário no perfil do 
+solo(<sup>4</sup>), sendo mais expressiva em solos de textura média a arenosos, 
+com maior atividade microbiana e solos mais estruturados. Ainda assim, a movimentação 
+do calcário aplicado à superfície limita-se aos primeiros 10cm do solo(<sup>12</sup>).<br><br>
+Para a escolha do corretivo, é importante também avaliar o teor de Mg no solo, pois, 
+sempre que este for menor que 0,9cmolc dm−3, sugere-se empregar calcário que contenha 
+concentração de MgO&gt;12%. Para tal, é sempre recomendável conferir as informações 
+dos corretivos adquiridos, se estão atualizadas com as especificações e garantias mínimas 
+conforme a legislação vigente.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>GESSAGEM</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O aumento da saturação por bases e redução da atividade do Al³+ trocável sem modificar o pH do solo é possível com o uso do gesso agrícola (sulfato de cálcio “CaSO4.2H2O”), condicionador de solo bastante empregado para melhorar o ambiente 
+radicular em subsuperfície (21-40cm).<br><br> O gesso difere do calcário por não ser corretivo de 
+acidez, mas é uma fonte interessante de Ca e S, com solubilidade superior, o que permite 
+maior mobilidade do Ca no perfil do solo, melhorando e promovendo um aumento do 
+volume de solo explorado pelas raízes e, consequentemente, ampliando a tolerância da 
+planta a períodos de déficit hídrico.<br><br>
+A aplicação do gesso é recomendada quando o ambiente radicular em subsuperfície 
+(21-40cm) apresenta condições impróprias para um adequado desenvolvimento radicular, 
+definidas por:<br><br>
+a) Teor de Ca2+ ≤ 0,5cmolc dm−3 e/ou;<br><br>
+b) Teor de Al3+&gt;0,5cmolc dm−3 e/ou;<br><br>
+c) Saturação por Al3+ (m)&gt;20%.<br><br>
+A dose de gesso a ser aplicada pode ser calculada de acordo com a <b>Equação:
+NG = 0,25 x NC </b>
+Sendo:<br><br>
+NG = necessidade de gessagem (t ha−1);<br><br>
+NC = necessidade de calagem da camada subsuperficial (21 a 40cm) (t ha−1).<br><br>
+O gesso pode ser aplicado junto ao corretivo de acidez ou separado em 
+operações distintas após a calagem. Em áreas que utilizam gesso agrícola, recomenda-se realizar amostragens periódicas de solo das camadas subsuperficiais para monitorar 
+a movimentação de bases no perfil do solo.<br><br> O uso excessivo de gesso pode ocasionar 
+remoção de bases do volume de solo explorado pelo sistema radicular da bananeira. 
+Portanto, seu uso deve ser feito de forma criteriosa, considerando a textura do solo, e 
+com doses que não ultrapassem 700kg/ha em solos arenosos, 1.200kg/ha em solos de 
+textura média, 2.200kg/ha em solos argilosos e 3.200kg/ha em solos muito argilosos 
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.<br><br>
+
+(¹)CQFS-RS/SC – Comissão de Química e Fertilidade do Solo. Manual de calagem e adubação para os Estados de Rio Grande do Sul e de Santa Catarina. Viçosa, Sociedade Brasileira de Ciência do Solo, 2016. 376p.<br><br>
+
+(²)SBCS/NEPAR – Sociedade Brasileira de Ciência de Solo. Núcleo Estadual Paraná. Manual de adubação e calagem para o estado do Paraná (2ª edição). Curitiba: SBCS/NEPAR, 2019. 289p.<br><br>
+
+(³)MARTIN-PRÉVEL, P. BANANIER. IN: MARTIN-PRÉVEL, P.; GAGNARD, J.; GAUTIER, P. 
+(Eds.), L’analyse végétale dansle contrôle de l’alimentation des plantes tempérées et 
+tropicales. Paris: Lavoisier, 1984 p.715-751.<br><br>
+
+(<sup>5</sup>)BORGES, A.L. Interação entre nutrientes em bananeira. Cruz das Almas: Embrapa. 
+(Circular Técnica 55), 2004.<br><br>
+
+(<sup>4</sup>)SILVA, J.T.A.; PACHECO, D.D.; COSTA, E.L. Atributos químicos e físicos de solos cultivados 
+com bananeira “Prata-Anã” (AAB), em três níveis de produtividade, no norte de Minas 
+Gerais. Revista Brasileira de Fruticultura, v. 29, p.102-106, 2007.<br><br>
+
+(<sup>6</sup>)LIMA NETO, A. J.; ROSANE, D. E.; SANTOS, E. M. H. dos; DEUS, J. A L. de; NATALE, W.; 
+CORREA, M. C. de M. CND-banana. Universidade Estadual Paulista “Julio de Mesquita 
+Filho”. 2021. Disponível em: https://www.web.registro.unesp.br/sites/cnd_banana/. 
+Acesso em: 25 de maio de 2022.<br><br>
+
+(<sup>7</sup>)PARENT, L.E., DAFIR, M.A. Theoretical Concept of Compositional Nutrient Diagnosis. 
+Journal of American Society of Horticultural Science, v.117, p.239-242, 1992.<br><br>
+
+(<sup>8</sup>)DEUS, J.A.L. Demanda, partição de nutrientes e recomendação de adubação para 
+bananeira com base em análise de solo, diagnose foliar e produtividade. Universidade 
+Federal de Viçosa, Viçosa, Minas Gerais (Tese de Doutorado), 2016.<br><br>
+
+(<sup>9</sup>)DEUS, J.A.L.; NEVES, J.C.L.; LIMA NETO, A.J.; NATALE, W.; ALVAREZ, V.V.H.; ALBUQUERQUE, 
+F.M.R. Partitioning of macronutrients and nutritional efficiency in fertigated Prata 
+banana. Revista Brasileira de Fruticultura, v. 42, n. 4, e-611, 2020.<br><br>
+
+(<sup>10</sup>)GUIMARÃES, G.G.F.; DEUS, J.A.L.; ROZANE, D.E. Calagem, adubações e valores de 
+referência de nutrientes na cultura da banana. In. BRUNETTO, G. et al. Atualização sobre 
+calagem e adubação em frutíferas. Porto Alegre: Núcleo Regional Sul da Sociedade 
+Brasileira de Ciência do Solo, 2020. 65-77p.<br><br>
+
+
+
+(<sup>11</sup>)KAMINSKI, J.; SANTOS, D. R.; GATIBONI, L. C.; BRUNETTO, G.; SILVA, L.S. Eficiência da 
+calagem superficial e incorporada precedendo o sistema plantio direto em um argissolo 
+sob pastagem natural. Revista Brasileira de Ciência do Solo, v.29, n.4, p.573-580, 2005.<br><br>
+
+(<sup>12</sup>)RIBEIRO, A.C.; GUIMARÃES, P.T.G.; ALVAREZ V.V.H. (Ed.). Recomendações para o uso de 
+corretivos e fertilizantes em Minas Gerais. Viçosa: Comissão de Fertilidade do Solo do 
+Estado de Minas Gerais, 1999. (5ª. aproximação).<br><br>
+
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Gelton Geraldo Fernandes Guimaraes (Dr. - Epagri)<br> &nbsp;&nbsp; Pesquisador - Epagri - Itajaí </font> 
+<br><br><br> <font size="2"> Criado em: 20/03/2024</font>
+<br> <font size="2"> Última atualização: 02/05/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021658&amp;cdElemento=18413">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18413');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

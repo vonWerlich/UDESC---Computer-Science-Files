@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Sophia F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0161&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B63%5D%7B362%7Dsophia.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Indeterminado; Empresa: Sakata; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Tamanho do fruto: Médio (201 a 230 g); Vigor: Médio
+
+-- INFORMAÇÕES DA EMPRESA: --
+Planta de médio vigor. Internódios curtos. Alto pegamento e uniformidade de frutos. Peso médio de frutos: 230g. Alto nível de resistência a manchas e rachaduras nos frutos. Ciclo Médio Das*: 90 dias.
+
+-- SEGMENTO: --
+Salada Indeterminado.
+
+-- RESISTÊNCIA: --
+Vd raça 1, Fol raças 1, 2 e 3 e ToMV estirpe Tm1.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sakata.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sakata.com.br.

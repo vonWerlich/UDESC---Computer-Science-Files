@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - San Marzano OP
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0367&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B262%5D%7B369%7Dsan_marzano.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Isla; Finalidade: Copa; Grupo: Industrial; Grupo: Italiano; Grupo: Salada; Polinização: Polinização aberta; Precocidade: Alta (90 a 110 dias); Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Ciclo (dias): 110 no verão. Formato do Fruto: Cilíndrico alongado. Cor do Fruto: Vermelho. Tipo de crescimento: Indeterminado. Comprimento comercial: 06 - 08 cm (altura). Diâmetro comercial: 03 - 04 cm. Peso comercial: 60 - 70 g.
+
+-- USO/COMENTÁRIOS: --
+Frutos firmes e uniformes. Plantas com boa folhagem. Pode ser usado para salada ou indústria. Tomate tipo italiano. OBS.: O nome científico do tomate pode ser também Lycopersicon esculentum
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

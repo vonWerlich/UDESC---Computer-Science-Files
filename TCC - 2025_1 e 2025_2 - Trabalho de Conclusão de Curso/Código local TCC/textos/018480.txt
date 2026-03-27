@@ -1,0 +1,36 @@
+Título: COMPOSTAGEM - Tipos de compostagem - Leira com revolvimento automatizado
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018480&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16099%5D%7B184%7Dfigura_3.jpg
+
+-- DESCRIÇÃO: --
+O sistema de leira com revolvimento automatizado segue as mesmas recomendações do sistema de leira estática (vide item 2.1), diferenciando apenas no manejo de aeração/revolvimento. Esse sistema permite sobretudo a compostagem de resíduos mais úmidos e pastosos, com maior potencial de contaminação, apresentando menor risco aos operadores, além de facilitar a incorporação gradual e constante de materiais na compostagem. O método com leira estática também permite a incorporação gradual, mas no caso do sistema com revolvimento automatizado esse manejo é mais facilitado: basta adicionar o resíduo sobre a leira, que a máquina realiza a incorporação no material no interior da mesma.
+
+-- DIMENSIONAMENTO DO SISTEMA DE REVOLVIMENTO AUTOMATIZADO --
+O sistema de revolvimento automatizado deve ser dimensionado de acordo com as instalações e volume de material a ser compostado. É importante prever um sistema que permita o manejo de máquinas e caminhões dentro das baias de compostagem (Figura 4 A e B). O sistema permite também o emprego com baias mais estreitas e curtas, que podem ser utilizadas para menores volumes de materiais a serem compostados (Figura 4 C e D).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16099%5D%7B475%7Dfigura_4a.jpg
+Legenda: Figura 4A. Instalações de sistema automatizado de compostagem com capacidade de locomoção de máquinas e caminhões (A e B). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16099%5D%7B433%7Dfigura_4b.jpg
+Legenda: Figura 4B. Instalações de sistema automatizado de compostagem com capacidade de locomoção de máquinas e caminhões (A e B). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16099%5D%7B9%7Dfigura_4c.jpg
+Legenda: Figura 4C. Instalações de sistema automatizado de compostagem de menor dimensionamento com possibilidade de manejos de alocação e retirada de materiais com microtratores e carrinhos de mão (C e D). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16099%5D%7B508%7Dfigura_4d.jpg
+Legenda: Figura 4D. Instalações de sistema automatizado de compostagem de menor dimensionamento com possibilidade de manejos de alocação e retirada de materiais com microtratores e carrinhos de mão (C e D). Foto: Rafael Ricardo Cantú
+
+-- COMO MANEJAR REVOLVIMENTO AUTOMATIZADO: --
+O revolvimento automatizado requer apenas um operador capacitado para o acionamento da máquina. A frequência de revolvimento será de acordo com o tempo de compostagem e as características do material. Materiais mais úmidos e pastosos requerem até três revolvimentos por semana, sendo reduzido com o desenvolver da compostagem (Figura 5 A e B). Para materiais mais secos e fibrosos, os revolvimentos podem ser de uma vez ou menos por semana no início, reduzindo a frequência com o desenvolvimento da compostagem (Figura 5 C e D). Nesse sistema, a partir dos três meses, o composto já pode estar estabilizado, dependendo do material de origem.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16099%5D%7B305%7Dfigura_5a.jpg
+Legenda: Figura 5A. Sistema de compostagem automatizada de resíduos do abate e criação de suínos (A e B). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16099%5D%7B546%7Dfigura_5b.jpg
+Legenda: Figura 5B. Sistema de compostagem automatizada de resíduos do abate e criação de suínos (A e B). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16099%5D%7B328%7Dfigura_5c.jpg
+Legenda: Figura 5C. Sistema de compostagem automatizada de resíduos de poda de jardins misturado a grãos residuais de soja (C e D). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16099%5D%7B162%7Dfigura_5d.jpg
+Legenda: Figura 5D. Sistema de compostagem automatizada de resíduos de poda de jardins misturado a grãos residuais de soja (C e D). Foto: Rafael Ricardo Cantú
+
+-- EXEMPLO DE APLICAÇÃO DA TÉCNICA: --
+Local: Luiz Alves, SC. Ano da observação: 2018 Material compostado: A - resíduo da indústria do palmito (Relação C/N de 60/1). B - grãos de soja residual. Proporções utilizadas: 10 a 12 / 1 dos materiais A/B. Revolvimento da pilha: duas vezes por semana no primeiro mês; uma vez por semana no segundo mês; uma vez a cada duas semanas no terceiro mês. Tempo necessário para a finalização do processo: 90 dias
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

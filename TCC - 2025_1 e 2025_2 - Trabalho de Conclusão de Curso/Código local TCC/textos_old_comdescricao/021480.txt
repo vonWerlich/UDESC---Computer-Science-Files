@@ -1,0 +1,49 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 1. Diagnóstico a partir da lavouraInicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca. - Está ocorrendo perda de estande (número de plantas/m²) na lavoura - A falha no estande é pela perda de plantas já germinadas - As plantas estão sendo comidas por inteiro ou secando - As plantas estão amareladas ou têm folhas, panículas ou grãos secando. Pode haver espuma branca no colo da planta - Apenas a folha central, a panícula ou grãos estão secando - Apenas a folha central ou a panícula está secando
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021480&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21479%5D%7B130%7Dlav09_colmoseco.jpg
+DIAGNOSE VISUAL
+1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+Está ocorrendo perda de estande (número de plantas/m²) na lavoura
+A falha no estande é pela perda de plantas já germinadas
+As plantas estão sendo comidas por inteiro ou secando
+As plantas estão amareladas ou têm folhas, panículas ou grãos secando. Pode haver espuma branca no colo da planta
+Apenas a folha central, a panícula ou grãos estão secando
+Apenas a folha central ou a panícula está secando
+Verifique no local: PERCEVEJO-DO-COLMO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21480%5D%7B437%7Ddano_pcolmo.jpg
+Legenda: Verifique no local: PERCEVEJO-DO-COLMO
+17119
+Verifique no local: PERCEVEJO-DO-COLMO
+LAGARTA-ELASMO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21480%5D%7B177%7Ddano_lagelasmo.jpg
+Legenda: LAGARTA-ELASMO
+17120
+LAGARTA-ELASMO
+NOIVA-DO-ARROZ
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21480%5D%7B26%7Ddano_noiva.jpg
+Legenda: NOIVA-DO-ARROZ
+21481
+NOIVA-DO-ARROZ
+BROCA-DA-CANA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21480%5D%7B242%7Ddano_bcana.jpg
+Legenda: BROCA-DA-CANA
+17122
+BROCA-DA-CANA
+BROCA-DO-COLO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21480%5D%7B250%7Ddano_bcolo.jpg
+Legenda: BROCA-DO-COLO
+21483
+BROCA-DO-COLO
+BRUSONE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21480%5D%7B533%7Ddano_brusone.jpg
+Legenda: BRUSONE
+21534
+BRUSONE
+PODRIDÃO DA BAINHA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21480%5D%7B418%7Ddano_podrebainha.jpg
+Legenda: PODRIDÃO DA BAINHA
+21535
+PODRIDÃO DA BAINHA

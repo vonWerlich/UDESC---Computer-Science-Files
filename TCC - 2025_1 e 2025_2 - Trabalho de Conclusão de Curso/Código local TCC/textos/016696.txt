@@ -1,0 +1,6 @@
+Título: CEBOLA - DIAGNOSE VISUAL - Folhas - Buracos, galerias e raspagens
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016696&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B43%7D%5B12204%5D%7B236%7Dfigura_14_-_copia.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16696%5D%7B469%7D%5B12204%5D%7B236%7Dfigura_14_-_copia.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16696%5D%7B415%7D%5B12203%5D%7B40%7Dfigura_9.jpg

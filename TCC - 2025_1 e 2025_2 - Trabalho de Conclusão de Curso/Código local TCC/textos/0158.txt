@@ -1,0 +1,29 @@
+Título: TOMATE - Cultivares - Pietra F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0158&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B60%5D%7B245%7Dpietra.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Indeterminado; Empresa: Sakata; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Médio (201 a 230 g); Vigor: Médio
+
+-- INFORMAÇÕES DA EMPRESA: --
+Segmento: Tomate Salada Indeterminado. Destaque: Alto potencial de rendimento.
+
+-- BENEFÍCIO: --
+Maximização dos lucros do produtor.
+
+-- CARACTERÍSTICAS: --
+Planta de médio vigor. Média de início de colheita: 115 dias. Alto pegamento de frutos e internódios curtos. Peso médio de frutos: 230g. Alto nível de resistência a bacterioses, manchas e rachaduras.
+
+-- VANTAGENS: --
+Segurança em períodos chuvosos. Alto nível de resistência ao Vira-Cabeça. Frutos muito firmes com elevado pós-colheita. Padrão e calibre de frutos ideais para o mercado.
+
+-- RESISTÊNCIA: --
+Alto nível de resistência à Vd raça 1, Fol raças 1 e 2, ToMV estirpe Tm1, Mi raças 1, 2, 3 e 4 e Mj (nematoides) e TSWV (Vira-Cabeça).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sakata.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sakata.com.br.

@@ -1,0 +1,308 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13031&amp;isEdicao=N&amp;epagriTEC=S">ARROZ IRRIGADO</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13104&amp;isEdicao=N&amp;epagriTEC=S">10. Plantas daninhas</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13106&amp;isEdicao=N&amp;epagriTEC=S">   Manejo integrado de plantas daninhas</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="11385">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="013106">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11385]{360}pldan_metcontrol_caput.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO:  Composição E.R.Hickel </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  Métodos de controle das plantas daninhas 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>CONTROLE PREVENTIVO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O controle preventivo engloba as práticas que objetivam impedir a introdução de uma nova espécie na área e evitar disseminação das plantas daninhas de locais infestados para áreas limpas, destacando-se:<br>
+• Monitoramento e controle das plantas daninhas durante a entressafra, para evitar o aumento do banco de sementes.<br>
+• Uso de sementes de arroz isentas de sementes de plantas daninhas (sementes certificadas).<br>
+• Em lavouras infestadas, impedir que as plantas daninhas produzam sementes.<br>
+• Limpeza dos implementos agrícolas após o trabalho em áreas infestadas.<br>
+• Limpezas periódicas das estradas, taipas e canais para evitar a produção de sementes e proliferação de espécies daninhas.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CONTROLE FÍSICO OU MECÂNICO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O manejo do solo está entre os principais métodos mecânicos de controle de plantas daninhas, envolvendo:<br>
+• Destruição da palha - sem ou com pouca movimentação do solo, para que as sementes das plantas daninhas permaneçam na superfície e germinem ou sejam eliminadas por animais ou pela ação de microrganismos. Sementes de arroz-daninho enterradas tendem a ter maior longevidade do que aquelas dispostas na superfície.<br>
+• Destruição das plantas daninhas germinadas ou do rebrote do arroz - preferencialmente por dessecação com herbicidas não-seletivos, antes que elas produzam sementes.<br>
+• Bom preparo do solo - para o sistema pré-germinado, arrozeiras bem niveladas e alisadas facilitam o manejo da água para a supressão de plantas daninhas como arroz-daninho, capim-arroz, capim-macho, cuminho e junquinho.<br>
+• Associação do controle mecânico (grades ou rotativas) com o químico (dessecação) - em áreas drenadas na entressafra proporciona adequado controle das plantas perenes, como a grama-boiadeira. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CONTROLE CULTURAL:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O controle cultural diz respeito a práticas agrícolas que favorecem a competitividade da lavoura de arroz ou resultam em supressão do crescimento e do desenvolvimento das plantas daninhas, destacando-se:<br>
+• Escolha do cultivar – cultivares adaptados às condições regionais proporcionam o rápido estabelecimento da lavoura, reduzindo o período crítico de competição.<br>
+• Densidade de semeadura – maior densidade de plantas favorece a competitividade do arroz, especialmente em relação à sagitária, podendo até eliminar a necessidade da aplicação de herbicidas para o controle dessa espécie.<br>
+• Época de semeadura adequada – semeadura em períodos com baixas temperaturas atrasa o desenvolvimento inicial do arroz, possibilitando o desenvolvimento e a competição das plantas daninhas.<br>
+• Manejo da água de irrigação – no sistema pré-germinado, a manutenção de lâmina de água contínua na lavoura após a semeadura resulta em supressão de várias plantas daninhas, principalmente gramíneas, como o capim-arroz e o arroz-daninho e algumas ciperáceas, como o cuminho. No sistema de semeadura em linhas, com solo seco, é muito importante realizar a inundação da lavoura, imediatamente após a aplicação dos herbicidas. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CONTROLE BIOLÓGICO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A criação de marrecos em lavouras de arroz no período de entressafra apresenta bons resultados no controle de plantas daninhas, especialmente do arroz-daninho (<b>figuras abaixo</b>). Os marrecos alimentam-se das sementes existentes na camada superficial do solo, reduzindo o banco de sementes e diminuindo o potencial de infestação para as safras seguintes. É fundamental que os marrecos sejam colocados nas áreas infestadas após a colheita, após o rebaixamento da resteva e antes de qualquer movimentação no solo. O retorno dos marrecos para as áreas após o preparo do solo e antes da semeadura do arroz no sistema pré-germinado, possibilita a eliminação de sementes e de plantas que, durante o revolvimento do solo, foram dispostas próximo da superfície.<br>
+A prática da piscicultura em arrozeiras, denominada de rizipiscicultura, também reduz a infestação das plantas daninhas. Nesta prática, a piscicultura pode ser realizada na entressafra do arroz ou em consórcio durante a safra. A colocação de peixes nas arrozeiras, após a colheita do arroz, possibilita a eliminação das sementes das plantas daninhas, especialmente do arroz-daninho, reduzindo assim o banco de sementes. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23248,013106,11385,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11385]{363}plantadan_marreco02.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23247,013106,11385,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11385]{53}plantadan_marreco01.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23249,013106,11385,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11385]{500}plantadan_marreco03.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23250,013106,11385,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11385]{530}plantadan_marreco04.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23251,013106,11385,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11385]{117}plantadan_marreco05.jpg">  </a> 
+<br><br>
+<b>CONTROLE QUÍMICO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os herbicidas podem ser aplicados antes da semeadura do arroz (dessecação em pré-semeadura), após a semeadura, mas antes da germinação das plantas daninhas (pré-emergência) ou após a emergência do arroz e das plantas daninhas (pós-emergência).<br>
+Na escolha de um determinado herbicida, devem-se levar em consideração alguns fatores, como:<br>
+• plantas daninhas infestantes;<br>
+• ocorrência de plantas daninhas resistentes a herbicidas;<br>
+• estádio de desenvolvimento das plantas daninhas e da cultura;<br>
+• herbicidas aplicados nas safras anteriores;<br>
+• método de aplicação do herbicida;<br>
+• tipo de solo;<br>
+• custo do herbicida;<br>
+• toxicidade do produto ao homem e ao ambiente.<br><br>
+A aplicação de herbicidas em benzedura, em pré-semeadura do arroz, é sugerida como prática a ser utilizada apenas pelos produtores de sementes certificadas de arroz que utilizam o sistema pré-germinado. Tal alternativa deve-se à necessidade de produção de sementes livres de arroz-daninho. As condicionantes para o uso desta prática são:<br>
+• Utilização dos herbicidas Goal ou Ronstar nas doses de registro no Mapa.<br>
+• Após a aplicação do herbicida, manter as quadras fechadas, apenas com reposição da lâmina de água, por um período mínimo de 30 dias, seguido da semeadura sem a drenagem da área. Caso no período após a aplicação ocorram temperaturas inferiores a 20°C, retardar a semeadura para minimizar os riscos de ocorrência de fitotoxicidade no arroz.<br>
+• Manter a lavoura com inundação constante após a semeadura. Caso seja necessária a aplicação de herbicidas em pós-emergência, drenar por um curto período, mantendo o solo saturado para evitar a re-infestação por arroz-daninho.<br>
+• Nunca realizar a drenagem de água com resíduo de herbicidaspara o ambiente.<br>
+A aplicação de herbicidas em benzedura, em pós-emergência do arroz, prática tradicionalmente utilizada no passado em Santa Catarina, tem se tornado ineficiente, em função da proliferação de populações de plantas daninhas resistentes (sagitária, cuminho, tiririquinha, capim-arroz) aos herbicidas comumente utilizados nesta modalidade de aplicação (Ally, Facet, Gladium, Invest, Ricer, Sirius).
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+NOLDIN, J.A.; EBERHARDT, D.S. Manejo das plantas daninhas. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. <b>Recomendações para a produção de arroz irrigado em Santa Catarina</b> (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.36-51.
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• José Alberto Noldin (PhD Herbologia - Epagri)<br> &nbsp;&nbsp; Manejo de plantas daninhas </font> 
+<br><br><br> <font size="2"> Criado em: 16/07/2021</font>
+<br> <font size="2"> Última atualização: 17/08/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=013106&amp;cdElemento=11385">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=11385');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

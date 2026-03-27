@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Herbicidas indicados para o arroz irrigado - 2,4-D
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015644&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+10. Plantas daninhas
+Herbicidas indicados para o arroz irrigado
+2,4-D
+
+-- INFORMAÇÕES GERAIS: --
+- Ingrediente ativo: 2,4-D; - Formulação e Concentração (g/L ou kg): várias; - Dose (quantidade/ha): 0,3 a 0,5 L3 - Época de aplicação: Pós; - Classificação tóxicológica: 4 (produto pouco tóxico, faixa azul); - Classificação ambiental: III (perigoso ao ambiente); - Intervalo de segurança (dia): NE;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+- Adicionar adjuvante específico na dose recomendada (vide bula). - A aplicação de todo e qualquer tratamento herbicida deve seguir as recomendações do receituário agronômico, utilizando-se equipamentos de proteção individual (EPI) e acompanhado de um responsável técnico.
+
+-- INFORMAÇÕES SOBRE O CONTROLE DE PLANTAS DANINHAS NO ARROZ: --
+Aguapé: controla. Angiquinho: Controla. Arroz-daninho: não controla. Capim-arroz: não controla. Capim-macho: não controla. Cuminho: não controla. Junquinho: controla. Sagitária: controla, mas pode ser obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento (plântulas com até uma folha – V1).
+
+-- Informações Complementares --

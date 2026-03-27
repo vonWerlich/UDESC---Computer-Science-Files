@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Dolcetto F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0333&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B229%5D%7B134%7Ddolcetto.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Indeterminado; Empresa: Isla; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus
+
+-- INFORMAÇÕES DA EMPRESA: --
+A doçura do seu fruto é sua característica principal. Tomate do tipo grape, muito resistente a rachaduras. Coloração vermelha intensa. Também se destaca pela uniformidade dos frutos. Época de Semeadura: Verão. Ciclo Verão (dias): 90. Cor da polpa: Vermelha intensa. Tipo de crescimento: Indeterminado. Peso comercial: 10 – 15g.
+
+-- USO/COMENTÁRIOS: --
+Brix 10-11. Sabor, resistência a doenças.
+
+-- RESISTÊNCIA: --
+ToMV, Fol: 0,1, Va, Vd.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

@@ -1,0 +1,37 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Preparação do viveiro - Manejo do solo após despesca
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010478&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9474%5D%7B504%7Dpreparacao.jpg
+
+-- IMPORTÂNCIA: --
+A preparação do solo após a despesca irá garantir melhores condições da qualidade da água ao longo do cultivo, interferindo diretamente no sucesso da produção daquele ciclo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9474%5D%7B16%7Dpreparacao.jpg
+Legenda: Preparação do viveiro. Foto: Haluko Massago
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9474%5D%7B215%7Dpreparacao_do_solo.png
+Legenda: Cronologia da preparação do solo Bruno Corrêa da Silva
+
+-- Realização da despesca: --
+1 dia
+
+-- Retenção dos últimos 40cm de água para decantação: --
+2 dias
+
+-- Descarte da água e manutenção do solo úmido (não deixar rachar o solo).: --
+14 a 21 dias. Para a decomposição da matéria orgânica, aplicar calcário e uréia. Também pode aplicar o probiótico.
+
+-- Desinfecção do viveiro, se necessário (apenas as poças): --
+1 dia.
+
+-- Enchimento do viveiro, monitoramento do pH da água, fertilização e povoamento: --
+3 a 7 dias.
+
+-- RECOMENDAÇÕES GERAIS: --
+- São necessários no mínimo 21 dias entre uma despesca e um povoamento, para uma adequada preparação; - Se o vazio sanitário durar um tempo maior, deixe o solo com mínimo de umidade para não rachar; - Logo após esvaziar o viveiro realize a correção do pH do solo com calcário dolomítico e adicione ureia (100 kg por hectare) para auxiliar na degradação da matéria orgânica do solo entre um ciclo e outro; - A ureia deverá ser diluída em água e aspergida no solo úmido; - Caso o cultivo anterior não tenha apresentado problemas de enfermidades, realize a desinfecção do solo somente antes de encher novamente o viveiro; - Não encha o viveiro com muita antecedência ao povoamento, isto atrairá animais indesejados que podem prejudicar o cultivo (odonatas, barata d¿água, rã, entre outros).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9474%5D%7B33%7Dgirino_de_ra.jpg
+Legenda: Girino de rã. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9474%5D%7B171%7Dodonata_e_barata_d_agua.jpg
+Legenda: Odonata e barata d água. Foto: Bruno Corrêa da Silva
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

@@ -1,0 +1,16 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - G) MANEJO DAS PRINCIPAIS DOENÇAS FÚNGICAS - f) Fusariose ou murcha-de-fusário
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02939&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2701%5D%7B416%7Dfigura_18.jpg
+
+-- Fusariose ou murcha-de-fusário (Fusarium oxysporum f.sp. lycopersici): --
+Plantas novas infectadas apresentam as folhas mais velhas curvadas para dentro, seguido por murcha e morte. Em plantas adultas os danos ficam mais evidentes quando os frutos iniciam a fase de maturação. Plantas infectadas apresentam amarelecimento normalmente em um dos lados da planta e mesmo as folhas podem apresentar folíolos sadios de um lado, e no oposto, com sintomas. Geralmente, um só lado da planta pode expressar sintoma e, com o tempo, toda a planta murcha, amarelece e morre. O amarelecimento progride das folhas mais velhas para as mais novas. O xilema da planta, quando infectado, fica de cor marrom-claro; essa obstrução dos vasos provoca a murcha da planta (Figura 18).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2701%5D%7B442%7Dfigura_18.jpg
+Legenda: Sintoma da fusariose ou murcha-de-fusário (Fusarium oxysporum f.sp. lycopersici) apresentando vasos lenhosos com coloração marrom-clara. Foto: Walter Ferreira Becker
+
+-- Condições que favorecem a doença: --
+Em infecções severas, a descoloração dos vasos atinge desde a raiz até o ponteiro da planta, sendo mais intensa na base do caule. A doença desenvolve-se melhor com temperatura ambiente entre 21 a 33°C, sendo a temperatura ótima de 28°C. O fungo penetra pelas raízes e dissemina-se rapidamente através dos vasos condutores de água da planta (xilema). A ação de nematoides pode facilitar a manifestação da doença ao quebrar a resistência do cultivar ao fusário.
+
+-- Informações Complementares --
+Walter Ferreira Becker & Leandro Luiz Marcuzzo in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

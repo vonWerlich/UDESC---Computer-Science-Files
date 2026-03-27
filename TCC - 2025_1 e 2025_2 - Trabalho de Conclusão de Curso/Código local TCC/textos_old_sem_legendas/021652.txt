@@ -1,0 +1,18 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inimigos naturais das pragas do arroz - Periculosidade dos inseticidas aos artrópodes benéficos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021652&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inimigos naturais das pragas do arroz
+Periculosidade dos inseticidas aos artrópodes benéficos
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18343%5D%7B396%7Dfrascoagrotox.jpg
+
+-- INTRODUÇÃO --
+Os ingredientes ativos dos produtos fitossanitários, quando aplicados para o controle de pragas, sempre acarretam algum efeito colateral nas populações de artrópodes benéficos presentes nas lavouras. No caso do arroz irrigado, não apenas na fauna benéfica da parte aérea das plantas, mas também naquela que vive na água (Tabela abaixo). O efeito colateral normalmente é maléfico, porém sua intensidade varia muito com o tipo de ingrediente ativo utilizado. Também pode variar de acordo com o grupo de agentes de controle natural, devido à sensibilidade diferenciada aos ingredientes ativos aplicados. Outro aspecto a considerar, é que os testes de toxicidade são normalmente executados em laboratório, assim o efeito tóxico é obtido em sua máxima expressão. No campo este efeito tende ser mais brando. Produtos fitossanitários, tidos como de largo espectro e aplicados em cobertura, normalmente eliminam boa parte da fauna de artrópodes benéficos das lavouras. Produtos de ação mais específica, como os inseticidas microbianos e os reguladores de crescimento, são menos antagônicos aos agentes de controle biológico. Cabe ressaltar que nem sempre a toxicidade de um inseticida (a cor da faixa no rótulo) tem relação direta com seu efeito sobre os agentes de controle biológico. Em alguns casos, produtos muito tóxicos têm pouco efeito sobre a fauna benéfica, seja devido à formulação, ao método de aplicação ou ao modo de ação do ingrediente ativo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18343%5D%7B280%7D1_tabperigo.jpg
+
+-- Informações Complementares --
+HICKEL, E.R. Artrópodes benéficos nas lavouras catarinenses de arroz irrigado: inimigos naturais . Florianópolis: Epagri, no prelo.
+HICKEL, E.R. Artrópodes benéficos nas lavouras catarinenses de arroz irrigado: inimigos naturais . Florianópolis: Epagri, no prelo.
+• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri) Manejo integrado de pragas

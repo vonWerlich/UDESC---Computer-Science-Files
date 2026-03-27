@@ -1,0 +1,350 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9860&amp;isEdicao=N&amp;epagriTEC=S">PISCICULTURA EM VIVEIROS ESCAVADOS</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="/sedimob/img/icone_vazio.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9895&amp;isEdicao=N&amp;epagriTEC=S">Tilapicultura</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=10505&amp;isEdicao=N&amp;epagriTEC=S">Povoamento</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="17919">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="010505">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[17919]{163}alevino_1.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Leandro Bortoli </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>ORIGEM DOS ALEVINOS (GENÉTICA): </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b>A linhagem GIFT:</b><br><br>
+
+Conhecer o fornecedor dos alevinos é fundamental. A primeira questão é a linhagem dos alevinos. Em Santa Catarina, as principais linhagens de tilápia são derivadas da GIFT, sigla em inglês que significa “Genetic Improvement Farmed Tilapia”. A linhagem GIFT é uma variedade da tilápia-do-nilo desenvolvida por meio de melhoramento genético por seleção nas Filipinas pela empresa World Fish Center. O melhoramento dessa espécie teve início nos anos 80 e foi amplamente difundido na Ásia no ano 2000, tendo sido introduzida no Brasil cinco anos após pela Universidade Estadual de Maringá (UEM) com auxílio da antiga Secretaria de Aquicultura e Pesca (SEAP). A UEM deu continuidade ao melhoramento dessa linhagem no Brasil, difundindo para diversos produtores de alevinos de Santa Catarina e do país.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Empresas envolvidas no melhoramento: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Algumas empresas privadas e governamentais adquiriram esta genética e estão realizando programas de melhoramento. As duas principais origens de linhagens derivadas da GIFT que estão fornecendo matrizes para produtores de alevinos são: a empresa Realfish, sediada no Paraná (linhagem TILAMAX), e a Epagri, cujo Centro de Desenvolvimento em Aquicultura e Pesca (Cedap) inclui o Campo Experimental de Piscicultura de Itajaí (Cepit) localizada no município de Itajaí-SC (linhagem Epagri SC). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>A Epagri: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A Epagri vem trabalhando na seleção de tilápias mais adaptadas às condições de temperatura (clima subtropical) e sistema de cultivo (viveiro escavado) utilizado em Santa Catarina. Pesquisas da Epagri comprovaram um ganho no peso final das tilápias selecionadas ao longo das gerações em relação à geração anterior. Hoje, o programa já se encontra em sua quarta geração. Além disso, o programa tem realizado estudos de genotipagem do DNA, estudos morfométricos e avaliação do desempenho a campo desse material genético, com o intuito de assegurar a qualidade do material entregue aos produtores. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26107,010505,17919,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17919]{68}tilapia_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26109,010505,17919,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17919]{116}tilapia_3.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26108,010505,17919,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17919]{444}tilapia_2.jpg">  </a> 
+<br><br>
+<b>QUALIDADE DO ALEVINO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Abaixo apresentamos na tabela a seguir algumas características que podem ser observada para avaliar a qualidade do alevino: <br><br>
+
+<u>Inversão sexual:</u> maior que 99%.<br>
+A cada 1.000 alevinos o lote deverá possuir no máximo nove indivíduos não machos (fêmeas ou intersexos).<br><br>
+
+<u>Aspectos sanitários (visual):</u><br>
+- Alevinos com aspectos saudáveis, sem sinais de doenças bacterianas (columnariose e septicemia);<br>
+- Brânquias com cor vermelho vivo, sem sinais de lesões e necroses;<br>
+- Baixa presença de trichodina e monogenea no muco e brânquia (análise a fresco no microscópio).<br><br>
+
+<u>Aspectos nutricionais (visual):</u><br>
+- Alevino I &gt; maior que 2cm;<br>
+- Região dorsal bem desenvolvida;<br>
+- Brânquia com coloração vermelho vivo.<br><br>
+
+<u>Uniformidade:</u><br>
+- Alevinos classificados em uma faixa de tamanho de abertura de malha com variação máxima de 2 a 4mm entre elas. Por exemplo, alevinos que passaram na malha 12mm, classificar em no máximo uma malha 8mm.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26110,010505,17919,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17919]{143}alevino_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26113,010505,17919,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17919]{205}alevino_4.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26112,010505,17919,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17919]{301}alevino_3.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26111,010505,17919,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17919]{6}alevino_2.jpg">  </a> 
+<br><br>
+<b>PERÍODO DE POVOAMENTO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - O período mais indicado para o povoamento dessa espécie em viveiro escavado fica entre os meses de outubro a abril.
+- Considerar a temperatura mínima de 20°C da água do viveiro para realizar o povoamento;<br><br>
+
+- Devido ao clima subtropical, o estado de Santa Catarina acaba naturalmente limitando a oferta natural de alevinos de tilápia para os meses mais quentes do ano (início da primavera ao outono);<br><br>
+
+- A transferência dos peixes do viveiro berçário para o de engorda seja feita antes da chegada do inverno (ou de uma mudança brusca de temperatura, entrada de sistemas de baixa pressão, etc.);<br><br>
+
+- Os alevinos são mais sensíveis ao frio e, por isso, são mais suscetíveis às doenças relacionadas a essa época de grandes variações de temperatura.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>TRANSPORTE E ACLIMATAÇÃO: </b><br>
+<p class="p1"><div> Há dois tipos de transportes comumente utilizados para tilápia:  o transporte em <u>sacos plásticos</u>; ou em caixas de transporte, popularmente chamadas de <u>“transfish”</u>. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26114,010505,17919,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17919]{169}caixa_-_copia.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26115,010505,17919,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17919]{35}caixa.jpg">  </a> 
+<br><br>
+<b>RECOMENDAÇÕES: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b>Depuração:</b><br><br>
+
+Para o transporte os alevinos devem estar depurados de 24 a 48h, ou seja, mantidos em água limpa com renovação, evitando a ingestão das fezes pelo peixe, sem contato com o solo e sem alimentação (inerte ou natural) para o total esvaziamento do estômago e trato intestinal, evitando, assim, problemas por excesso de fezes e compostos tóxicos (amônia, sulfetos e CO<sub>2</sub>) na água do transporte.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Quantidade: </b><br>
+<p class="p1"><div> As quantidades adequadas de peixe para o transporte em cada sistema estão apresentadas na tabela a seguir: <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26116,010505,17919,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[17919]{242}quantidade_de.jpg">  </a> 
+<br><br>
+<b>Horário: </b><br>
+<p class="p1"><div> Recomenda-se que o transporte seja realizado preferencialmente nas primeiras horas da manhã, quando a temperatura está mais amena. <br> </div></p>
+<b>Aparência dos animais: </b><br>
+<p class="p1"><div> Examinar a aparência geral dos animais: natação ativa, integridade das nadadeiras e ausência de feridas no corpo. <br> </div></p>
+<b>Ar nos sacos plásticos: </b><br>
+<p class="p1"><div> Em caso do transporte em sistema fechado, os sacos plásticos devem chegar no local de destino estufados, isto é, contendo ar. <br> </div></p>
+<b>Produtos para transporte: </b><br>
+<p class="p1"><div> É indicado para o transporte, o uso de alguns produtos como sal (4 kg/m³), pastilhas efervescentes, e/ou produtos antimicrobianos (por exemplo o Biogermex), com intuito de diminuir o estresse do transporte e prevenir doenças e/ou mortalidades durante e após o transporte. <br> </div></p>
+<b>ACLIMATAÇÃO E SOLTURA EM SACO PLÁSTICO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para que os peixes não sofram um choque de temperatura nem de pH no momento da soltura, é importante o produtor seguir alguns passos conforme o sistema adotado: <br><br>
+
+- Acondicionar os sacos plásticos fechados dentro do viveiro por um período de 20 a 40 minutos, é esperado que a temperatura da água do saco se equilibre com a do viveiro (a diferença na temperatura da água não deve ser superior a 2°C);<br>
+- O produtor deve abrir o saco plástico e adicionar um pouco da água do viveiro para dentro do saco (a quantidade deve ser pelo menos o dobro do volume de água já existente dentro do saco). Essa medida evitará que os peixes sofram um choque por pH, cujos valores tendem a reduzir nos transportes por saco plástico acima de 4h; <br>
+- Aguardar mais alguns minutos, retirar os peixes com o auxílio de um puçá e os libertar no viveiro.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ACLIMATAÇÃO E SOLTURA NO TRANSFISH: </b><br>
+<p class="p1"><div> - A aclimatação deve ser feita na própria caixa de transporte, liberando aproximadamente 60% da água de transporte e completando lentamente com a água do viveiro receptor; <br>
+- Aguarde por aproximadamente 30 minutos e, após, liberte os peixes com auxílio de puçá.<br> <br> </div></p>
+<b>QUAL DENSIDADE UTILIZAR EM CADA FASE: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b>IMPORTÂNCIA:</b><br>
+O povoamento de peixes é realizado em termos de número de alevinos por metro quadrado. Portanto, é fundamental que o produtor saiba exatamente a área do seu viveiro para não correr risco de colocar mais peixes do que o seu sistema suporta. 
+Aspectos como: as características do viveiro e disponibilidade de água; manejos da qualidade de água e aeradores; o tamanho de comercialização; o conhecimento do técnico ou produtor responsável pela propriedade; e a capacidade financeira de custeio; todos esses fatores nortearão quanto o produtor terá capacidade de produzir.<br><br>
+
+<b>DENSIDADE NO BERÇÁRIO: </b><br>
+As densidades nos berçários podem variar de 30 a 100 peixes por m², dependendo dos fatores citados acima. Sendo assim, nos berçários poderemos obter biomassa final de 10 a 30 toneladas por hectare (1 a 3 kg por m²). <br><br>
+
+<b>DENSIDADE NA ENGORDA: </b><br>
+A Epagri preconiza que produtores com pouca experiência e/ou baixo recurso hídrico, dependendo da capacidade financeira para o custeio, produzam, por safra, cerca de 15 a 20 toneladas por hectare (1,5 a 2kg por m²). <br>
+Contudo, se o produtor ou técnico responsável já possui experiência na atividade, a propriedade possui adequado recurso hídrico e o produtor possui capacidade de custeio adequada para tal, a Epagri recomenda que a produção seja de 20 a 50 toneladas por hectare (2 a 5kg por m²).<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Haluko Massago (Dra. - Epagri) </font> 
+<br> <font size="2">• Bruno Corrêa da Silva (Dr. - Epagri) </font> 
+<br> <font size="2">• Natália da Costa Marchiori (Dra. - Epagri) </font> 
+<br> <font size="2">• Jorge de Matos Casaca (Dr. - Epagri) </font> 
+<br><br><br> <font size="2"> Criado em: 09/03/2023</font>
+<br> <font size="2"> Última atualização: 28/03/2023</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=010505&amp;cdElemento=17919">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=17919');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

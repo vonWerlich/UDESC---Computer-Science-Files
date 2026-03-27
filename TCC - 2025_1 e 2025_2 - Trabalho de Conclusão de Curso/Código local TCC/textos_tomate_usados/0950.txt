@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - Bosco (E15C.41103) F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0950&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B832%5D%7B180%7Dbosco_%28e15c.41103%29.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Enza zaden; Finalidade: Copa; Grupo: Grape/Cherry/CockTail/Cereja/Outros; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Ff - Fulvia fulva (ex Cladosporium fulvum); Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Muito Pequeno (menor que 170 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Tomate tipo “grape” muito produtivo, com frutos firmes de padrão muito regular. O híbrido Bosco possui resistência ao geminivirus e cladosporium.
+
+-- PLANTAS E FRUTOS: --
+Muito rústica e vigorosa, fornece a força necessária para obter alta produção mesmo no terço superior da planta. Frutos com ótimo grau brix, muito padronizados até o ponteiro com peso médio de 15 gr e excelente pós colheita.
+
+-- INFORMAÇÃO ADICIONAL: --
+Indicado para as principais regiões produtoras do Brasil.
+
+-- RESISTÊNCIA: --
+ToMV:0-2 (Mosaico); Va e Vd (Verticillium); Fol (Fusarium); Ff:A-E (Cladosporium); TSWV (Vira-cabeça); TYLCV (Geminivírus); Ma/Mi/Mj (Nematóides);
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://webkiosk.enzazaden.com/tomate-e-pimentao-2018-2019/60794704 ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://webkiosk.enzazaden.com/tomate-e-pimentao-2018-2019/60794704

@@ -1,0 +1,29 @@
+Título: CEBOLA - Manejo de doenças - Bacterioses
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014159&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12411%5D%7B33%7Dpodridao_bacteriana_principal.jpg
+
+-- FOTOS: --
+As doenças bacterinas da cebola são causadas por várias espécies de bactérias, como Burkholderia gladioli pv. allicola, Burkholderia cepacia, Pantoea ananatis, Pantoea agglomerans, Pseudomonas viridiflava, Pectobacterium carotovora pv. carotovora
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12411%5D%7B372%7Dpodridao_bacteriana_principal.jpg
+Legenda: Sintomas típicos da doença nos bulbos. Foto: Edivânio R. de Araújo e Renata S. Resende
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12411%5D%7B106%7Dpodridao_bacteriana_2.jpg
+Legenda: Sintomas típicos da doença nos bulbos. Foto: Edivânio R. de Araújo e Renata S. Resende
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12411%5D%7B330%7Dpodridao_bacteriana_1.jpg
+Legenda: Sintomas típicos da doença nos bulbos. Foto: Edivânio R. de Araújo e Renata S. Resende
+
+-- SINTOMAS: --
+Os sintomas podem ser observados no campo ou durante o armazenamento. As escamas, externas e/ou internas, apresentam aspecto encharcado e coloração creme-amarronzada. Em alguns casos, a podridão pode ficar restrita em poucas escamas internas, fazendo que com os bulbos apresentam aparência de sadios, mesmo estando infectados. Com o passar do tempo, a infecção pode evoluir para uma podridão generalizada que emite mal cheiro em função de bactérias saprófitas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12411%5D%7B267%7Dimg-9338_%281%29.jpg
+Legenda: Plantas no campo com sintomas de bacteriose Resende, RSR
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12411%5D%7B209%7Dimg-9340_%281%29.jpg
+Legenda: Plantas no campo com sintomas de bacteriose 2 Resende, RSR
+
+-- CONDIÇÕES CLIMÁTICAS FAVORÁVEIS: --
+Temperaturas altas e alta umidade relativa do ar favorecem a ocorrência dessas doenças. Chuvas intensas no período de bulbificação, na colheita e durante cura no campo predispõem o ataque das bactérias causadoras de podridões.
+
+-- CONTROLE: --
+- Evitar irrigação por aspersão; - Controlar tripes (pode transmitir algumas espécies de bactérias); - Colher bulbos em dias secos; - Evitar ferimento nos bulbos.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

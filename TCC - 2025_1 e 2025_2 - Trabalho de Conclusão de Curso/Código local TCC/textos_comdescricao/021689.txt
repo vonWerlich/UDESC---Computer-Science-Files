@@ -1,0 +1,28 @@
+Título: BANANA - Manejo do bananal - Poda de coração
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021689&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Manejo do bananal
+Poda de coração
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18376%5D%7B58%7Dpoda_coracao.jpg
+Desbrota na cultura da banana, ilustrando a aplicação precisa de um desbrotador manual, ferramenta metálica conhecida como "Lurdinha" ou "sacador de gemas", no centro da gema apical de um perfilho (rebento) recém-seccionado rente ao solo, uma prática de manejo cultural essencial que visa à destruição do meristema para impedir a regeneração de brotos indesejados, otimizando a alocação de nutrientes e água para a planta-mãe e o perfilho seguidor selecionado, garantindo assim maior vigor e produtividade do bananal.
+FOTO: Keny H. Marigueli
+
+-- DESCRIÇÃO --
+É a eliminação do botão floral de flores masculinas (coração ou mangará), e sinaliza para a planta que sua fase reprodutiva já acabou. Este manejo interrompe o fluxo de seiva para o botão floral, de modo que a planta passa a priorizar o desenvolvimento do cacho( 1 ).
+
+-- QUANDO E COMO FAZER --
+Recomenda-se eliminar o coração quando este se encontra cerca de 10cm abaixo da última penca de frutos , preferencialmente pela quebra manual da ráquis masculina. Em plantas altas, a poda pode ser feita com utilização de foices com cabo longo. Todavia, o corte feito em bisel cria uma superfície aberta maior do que com a quebra manual da ráquis, o que pode facilitar a entrada e disseminação de fungos causadores da seca-do-rabo. ( 2 )
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18376%5D%7B334%7Dcoracao_1.jpg
+Acondicionamento organizado de cachos de banana em uma casa de embalagem, onde múltiplos cachos de bananas verdes, em estado fisiológico pré-climatérico, são estrategicamente suspensos por seus pedúnculos em um sistema de transporte aéreo do tipo monotrilho, uma operação logística crucial que otimiza o espaço, facilita a movimentação contínua ao longo da linha de processamento e previne danos mecânicos aos frutos, garantindo a manutenção da sua qualidade para as etapas subsequentes.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18376%5D%7B403%7Dcoracao_2.jpg
+Processo de beneficiamento em uma casa de embalagem de bananas, um ambiente semi-industrial onde trabalhadores realizam a desgomagem e lavagem de pencas de bananas verdes em tanques, seguida da cuidadosa acomodação das frutas selecionadas em caixas de madeira com forro plástico, que são então dispostas em uma linha de produção contínua sobre uma estrutura metálica, ilustrando uma etapa da cadeia de valor para garantir a qualidade pós-colheita do produto.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18376%5D%7B241%7Dcoracao_3.jpg
+Cacho de bananas em estágio inicial de desenvolvimento, caracterizado por frutos de coloração verde-claro a médio, ainda imaturos, dispostos em pencas (mãos) bem formadas, que se organizam de maneira espiralada ao redor de um robusto pedúnculo central (raque) de coloração verde, o qual sustenta a estrutura do cacho; o aspecto mais relevante e em conformidade com o tema da cultura da banana e a prática de "remoção de restos florais dos frutos" é a presença evidente, na extremidade distal (ponta) de cada fruto individualmente, de um pequeno e distinto remanescente floral murcho, de tonalidade purpúreo-escura a preta, correspondente aos vestígios do perianto e estigma da flor que persistiram após a fecundação e o desenvolvimento inicial do fruto, cuja permanência constitui um ponto de entrada para patógenos fúngicos e bacterianos (como Colletotrichum musae, causador da antracnose) e um local de retenção de umidade, comprometendo a fitossanidade e a qualidade comercial dos frutos, ilustrando precisamente a condição que antecede a intervenção agronômica de desfloramento manual (desponte), uma prática cultural essencial para prevenir doenças e melhorar a aparência e a vida de prateleira do produto final.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )BORGES, A.L.; SILVA, A. L.S.; BATISTA, D.C.; MOREIRA, F.R.B.; FLORI, J.E.; MORAIS, J.E.; ARAUJO, J.L.P.; PINTO, J.M.; CASTRO, J.M.C.; BESERRA, M.S.; AZOUBEL, P.M.; CUNHA, T.J.F.; SILVA, S.O.; CORDEIRO, Z.J.M. Sistema de produção da bananeira irrigada. Embrapa Semiárido Sistemas de Produção, 4 ISSN 1807-0027 Versão Eletrônica Jul/2009 ( 2 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )BORGES, A.L.; SILVA, A. L.S.; BATISTA, D.C.; MOREIRA, F.R.B.; FLORI, J.E.; MORAIS, J.E.; ARAUJO, J.L.P.; PINTO, J.M.; CASTRO, J.M.C.; BESERRA, M.S.; AZOUBEL, P.M.; CUNHA, T.J.F.; SILVA, S.O.; CORDEIRO, Z.J.M. Sistema de produção da bananeira irrigada. Embrapa Semiárido Sistemas de Produção, 4 ISSN 1807-0027 Versão Eletrônica Jul/2009 ( 2 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p.
+• Ricardo José Zimmermann de Negreiros (Msc. - Epagri) Pesquisador - Epagri - Itajaí
+• Jorge Luiz Malburg (Msc. - Epagri) Pesquisador - Epagri - Itajaí

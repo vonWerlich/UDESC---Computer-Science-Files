@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - Yamato F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018386&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16026%5D%7B24%7Dyamato.png
+
+-- INFORMAÇÕES GERAIS: --
+-Obter mudas de qualidade, bem enraizadas e sadias: -Eliminar restos de cultura; -Realizar rotação de culturas, como por exemplo com gramíneas, visando reduzir níveis de patógenos no solo; -Não causar ferimentos nas raízes ou hastes da planta; -Eliminar as plantas suspeitas de infecção; retirando a planta com cuidado e colocando em sacos para evitar a disseminação; -Evitar o contato da parte aérea (cavaleiro) com o solo contaminado: transplantar a muda corretamente, sem enterrar o cavaleiro, eliminar as folhas mais baixas da planta e fazer a condução do tomateiro no tempo certo (sem deixar o cavaleiro encostar ao solo); -Manejo da irrigação correta para a cultura (sem excessos); se atentar com vazamentos de canos de irrigação ou gotejadores; -Esterilizar equipamentos, mãos, ferramentas e utensílios que entrarão em contato com as plantas; -Uso de mulching.
+
+-- OBSERVAÇÃO: --
+Tolerâncias: Ralstonia solanacearum (murcha bacteriana); Fusarium raças 1,2 e 3; Fusarium crown; Pyrenochaeta lycopersici; Verticilium raças 1; Nematoide das Galhas, TMV (mosaico do tabaco); Recomendado para áreas com Murcha bacteriana; Nota 9 para o aumento no vigor de plantas.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://blueseeds.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://blueseeds.com.br.

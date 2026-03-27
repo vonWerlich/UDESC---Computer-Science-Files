@@ -1,0 +1,62 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Septoriose (Septoria lycopersici)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04929&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1855%5D%7B531%7Dfolder2021-1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B487%7D20190508_144548.jpg
+Legenda: Esporos de Septoria vistos no microscópio. Fonte: Fernando Pereira Monteiro
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B358%7Desporos_produzidos_em_cirrus.jpg
+Legenda: Esporos produzidos em cirrus. Fonte: Fernando Pereira Monteiro
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B481%7Dseptoriose.jpg
+Legenda: Manchas típicas de septoriose em folha de tomateiro Fonte: Fernando Pereira Monteiro
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B33%7Dfolder2021-5.jpg
+Legenda: Septoriose em mudas de tomateiro. Foto: Fernando Monteiro et al. (5)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B7%7D20190125_153328.jpg
+Legenda: Septoriose nas mudas em sementeira. Fonte: Fernando Pereira Monteiro
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B184%7Damanda_do_prado_mattos.jpg
+Legenda: Sintomas da doença. Foto: Amanda do Prado Mattos
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B170%7Dseptoria_lycopersici53.jpg
+Legenda: Sintomas da doença. R Pitblado
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B134%7Djosiane_de_matos_scariot.jpg
+Legenda: Sintomas de septoriose. Josiane de Matos Scariot
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B91%7Dfolder2021-2.jpg
+Legenda: Sintomas e sinais da septoriose típicos da doença (A); Massa de conídios conhecida como cirros (B); Esporos de Septoria lycopercisi (C); Sintomas no caule (D); Lesão típica com os picnídios no centro (E). Foto: Fernando Monteiro et al. (5)
+
+-- INFORMAÇÕES GERAIS: --
+- Consultar o AGROCONNECT no site da Epagri/CIRAM para saber o grau de risco de ocorrência da doença. Clique aqui! - Ocorre praticamente em todas as regiões produtoras de tomate do mundo, sendo mais comum em épocas quentes e chuvosas (1). - O patógeno não se propaga por sementes (4).
+
+-- SINTOMAS: --
+- A septoriose pode ocorrer em qualquer fase de desenvolvimento, mas os sintomas normalmente aparecem nas folhas baixeiras logo após o início da frutificação, mas podem aparecer também nos pecíolos, caule e flores da planta, raramente nos frutos (1). - Os sintomas típicos nas folhas são manchas circulares com bordas escurecidas e centro que varia de cor marrom a cinza que aparecem inicialmente no terço inferior da planta próxima ao solo (Figura 1A). Após alguns dias, aparecem pequenos pontos pretos no centro das lesões, que correspondem às estruturas reprodutivas do fungo (picnídios – Figura 1E). Em condições favoráveis, pode ocorrer a formação de cirrus (Figura 1B), que é uma massa de esporos (Figura 1C) disseminados pela água. Com o progresso da doença, as lesões podem coalescer, tornarem-se amarelas e depois marrons. Então, as folhas murcham, ressecam e se desprendem da planta. Lesões semelhantes podem ocorrer na haste (Figura 1D). Os frutos raramente são afetados (5).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Cultivo em condições Favoráveis à doença (Temperatura 22-26ºC, alta umidade e chuvas frequentes) (3). Solução: Cultivar as plantas em abrigos de cultivo para diminuir a favorabilidade de ocorrência da doença. - Aumento da proliferação do doença devido a sua forma de disseminação (respingos de chuva e água de irrigação) (3). Solução: utilizar a irrigação por gotejamento. - Manutenção do patógeno em restos culturais na lavoura (3). Em estudos na Embrapa foi observado sobrevivência por até 140 dias nos restos culturais quando não incorporados (4). Solução: após o término do ciclo de cultivo todos os restos culturais devem ser eliminados da área.
+
+-- PLANTAS HOSPEDEIRAS: --
+Berinjela e Jiló.
+
+-- CONTROLE: Genético --
+Não há cultivares resistentes (4).
+
+-- CONTROLE: Químico --
+Os fungicidas recomendados com a discriminação de doses para o controle da septoriose estão disponíveis no site da Cidasc/Sigen . É importante checar a situação do produto junto à Cidasc/Sigen, pois em alguns momentos o registro pode ter sido cancelado ou suspenso (5). Estudos da Estação Experimental de Caçador (Epagri/EECd) avaliaram, por 3 anos, 34 ingredientes ativos de fungicidas. Dentre os fungicidas registrados para o controle da septoriose em tomateiro, os melhores resultados no controle da doença foram: fluxapiroxade + piraclostrobina (58,5+116,6mg/L de ingrediente ativo, respectivamente), mancozebe (4.000mg/L), difenoconazol (125mg/L), clorotalonil (1.500mg/L), propinebe (2.100mg/L), fluazinam + tiofanato-metílico (375 + 375mg/L) e metiram + piraclostrobina (1.100 + 10mg/L). Tais fungicidas, quando aplicados preventivamente, controlaram mais do que 70% da severidade da septoriose comparados com a testemunha. Em aplicação curativa, todos os fungicidas recomendados para o controle da doença perdem drasticamente a eficiência (5). Assim, recomenda-se a aplicação preventiva, quando ocorrer o alerta para septoriose, dos fungicidas sistêmicos fluxapiroxade (registrados para Septoria na formulação junto com piraclostrobina) ou difenoconazol, sempre combinada com os fungicidas multissítios (mancozebe, clorotalonil, propinebe ou metiram) ou o protetor fluazinam (registrado para Septoria na formulação junto com o tiofanato-metílico), nas doses recomendadas em bula, sempre rotacionando os modos de ação. A aplicação dos fungicidas deve ser feita separadamente, sem mistura em tanque, nas horas mais frescas do dia para evitar fitotoxidez ao tomateiro. Repetir a aplicação dos protetores caso haja precipitação pluvial superior a 12mm (5). IMPORTANTE: Eficiência dos fungicidas de acordo com o isolado de Septoria A eficiência dos fungicidas pode variar de acordo com o isolado de Septoria empregado no estudo. Da mesma maneira, a eficiência dos fungicidas pode ser diferente entre propriedades rurais devido à variabilidade genética do patógeno e do manejo empregado pelo produtor rural.
+
+-- Medidas auxiliares de manejo: --
+– Evitar irrigações freqüentes, quando for por aspersão (2). – Fazer rotação de culturas com gramíneas (3;6). – Destruir os restos culturais logo após a colheita (2). – Evitar plantios próximos a lavouras mais velhas ou infectadas (3;6). – Fazer adubação balanceada (2). – Permitir bom arejamento entre as plantas (2). - Usar mudas sadias (4).
+
+-- PODE SER CONFUNDIDO COM: mancha-de-alternaria (Alternaria sp.) --
+Existe uma considerável variabilidade nos sintomas da septoriose em função do isolado, de fatores ambientais e também da idade da folha atacada (Figura 2). Alguns desses sintomas são facilmente confundidos com aqueles causados por Alternaria sp (5).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B258%7Dfolder2021-3.jpg
+Legenda: Variabilidade de sintomas da septoriose em folhas de tomateiro *Folhas com sintomas similares à Alternaria, cujo diagnóstico foi Septoria lycopersici via observação dos esporos em microscópio.Foto: Fernando Monteiro et al. (5)
+
+-- PODE SER CONFUNDIDO COM: mancha-bacteriana (Xanthomonas sp.) --
+Em algumas situações, os sintomas da septoriose podem ser confundidos com aqueles causados por bactérias (Figura 3), devido à similaridade entre eles. No entanto, o aspecto encharcado da lesão bacteriana na parte debaixo da folha ajuda a fazer uma diagnose correta (Figura 3C-D) (5).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B470%7Dfolder2021-4.jpg
+Legenda: Figura 3. Sintomas causados por bactérias em folhas de tomateiro: parte de cima da folha de tomateiro (A e B); parte debaixo da folha de tomateiro (C e D). Foto: Fernando Monteiro et al. (5)
+
+-- SISTEMA DE ALERTA PARA SEPTORIOSE: --
+A Epagri tem um sistema de alerta para a ocorrência da septoriose (PreviSep), validado para a região do Alto Vale do Rio do Peixe. Esse sistema pode ser acompanhado através do Agroconnect no site Ciram/Epagri (Figura 5) ao selecionar “Tomate” na aba “Atividade agropecuária”. Quando há um alerta, recomenda-se a aplicação de fungicida de contato e também um fungicida sistêmico indicado para tratamento da septoriose (5).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1855%5D%7B496%7Dfolder2021-6.jpg
+Legenda: Figura 5. Site do AgroConnect da Epagri/Ciram. Foto: Fernando Monteiro et al. (5)
+
+-- Informações Complementares --
+(1) Malurriê Cristine Viana Ribeiro et al. Avaliação de fungicidas no controle de septoriose em tomateiro. III Jornada Científica da Embrapa Hortaliças, 10 e 11 de junho, Embrapa Hortaliças 2013. (2) Ailton Reis, Leonardo S. Boiteux, Carlos Alberto Lopes. Mancha-de-septória: doença limitante do tomateiro no período de chuvas. Comunicado Técnico 37. ISSN 1414-9850, Dezembro, 2006, Brasília, DF. (3) ZAMBOLIM, L.; VALE; F. X. R. do; COSTA, H. Controle integrado das doenças de hortaliças. Viçosa : UFV, Departamento de Fitopatologia, 1997. (4) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Valdir Lourenço Junior. Tema: Manejo de doenças causadas por fungos e oomicetos da parte aérea do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: https://youtu.be/nbTgf6CdmcY (5) Fernando Pereira Monteiro et al. Septoriose do tomateiro (Septoria lycopersici). Folder técnico. Edição: Epagri/DEMC Divulgação: on-line. Florianópolis, outubro de 2021.

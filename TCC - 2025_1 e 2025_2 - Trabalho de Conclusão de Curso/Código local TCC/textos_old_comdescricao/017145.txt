@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Esfenvalerato
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017145&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Esfenvalerato
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Esfenvalerato; Nome comercial: Sumidan; Grupo químico: Piretroide; Dose de produto comercial ((Spodoptera frugiperda): 1.000mL/ha; Carência (dia): 21 Classe Toxicológica: 4 = pouco tóxico (faixa azul); Classe ambiental: II = muito perigoso;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”.
+
+-- PRAGAS QUE CONTROLA: --
+Lagarta-militar (Spodoptera frugiperda)
+
+-- Informações Complementares --

@@ -1,0 +1,34 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - E) MANEJO DA IRRIGAÇÃO POR GOTEJAMENTO - d) Equipamentos para a medição da tensão do solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02924&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2687%5D%7B487%7Dcapa_1.jpg
+
+-- Escolher cuidadosamente o local de implantação dos sensores: --
+Na instalação de qualquer instrumento de medição ou estimativa da umidade do solo, deve-se escolher cuidadosamente o local de implantação, pois esses aparelhos refletem medidas pontuais. A uniformidade de distribuição de água da irrigação influi no número de sensores a serem instalados em uma área irrigada. Em sistemas com distribuição uniforme o número de sensores pode ser menor quando comparado a sistemas menos eficientes.
+
+-- Utilizar mais de uma estação de controle: --
+Como recomendação geral, deve ser utilizada mais de uma estação de controle para o manejo da água e elas deverão ser implantadas em locais que recebam a lâmina média de água aplicada pelo equipamento.
+
+-- O local de instalação deve ser representativo: --
+O local de instalação deve ser de fácil acesso e ser representativo do tipo de solo e do desenvolvimento da cultura da área irrigada, ou seja, se a planta próxima ao sensor morrer ou apresentar um desenvolvimento muito inferior ao resto da lavoura, os equipamentos devem ser realocados próximos a uma planta sadia e em pleno desenvolvimento.
+
+-- Cuidar ao andar próximo ao sensor: --
+Depois de instalados os equipamentos, deve-se evitar o pisoteio excessivo ao seu redor.
+
+-- Sugestão de número e profundidade de sensores na área: --
+Em cada estação de controle deverão ser instalados de dois a três sensores cada um em uma profundidade diferente. Como sugestão podem ser instaladas de uma a duas estações por hectare, dependendo da uniformidade da área, com tensiômetros instalados a 20 e 40cm.
+
+-- Instalação dos sensores e áreas com gotejamento: --
+Em irrigações por gotejamento os sensores de umidade devem ser instalados entre duas plantas e entre dois gotejadores com distância de 10 a 15cm da mangueira gotejadora, dependendo da dimensão do bulbo molhado.
+
+-- Aferição da tensão no solo com o tensiômetro: --
+O equipamento mais utilizado para a aferição da tensão no solo é o tensiômetro (Figura 14A), por ser simples e de fácil operação. É constituído de um tubo de PVC de 1/2 polegada, tendo na extremidade inferior do tubo uma cápsula porosa e na parte superior uma tampa de borracha. Entre o tubo de PVC e a rolha existe um tubo acrílico, no qual se pode ver o nível de água dentro do tensiômetro. Ao completar o tubo com água o ar é expulso para fora. A extremidade com a cápsula deve ser enterrada no solo na profundidade efetiva do sistema radicular. É importante que a cápsula do tensiômetro fique em contato com o solo, sem a presença de ar entre o solo e cápsula, para evitar leituras superestimadas ou subestimadas de tensão. No interior do tubo se forma uma pressão atmosférica efetiva igual a zero. O solo, quando está saturado, possui uma pressão efetiva igual a zero, caso contrário a pressão é menor que zero. Dessa forma, existe uma tendência natural do tensiômetro, assim que instalado, (maior potencial) perder água para o solo (menor potencial), até que o equilíbrio se estabeleça. À medida que o tensiômetro vai perdendo água para o solo, cria-se uma tensão em seu interior até se estabelecer um equilíbrio com o solo, tornando o potencial de água dentro do tensiômetro igual ao potencial de água no solo. A medição do potencial da água (tensão) é feita com tensiômetro digital de agulha Figura 14B.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2687%5D%7B254%7Dfigura_14.jpg
+Legenda: Equipamentos para medição da tensão do solo: (A) tensiômetro digital de punção e (B) tensiômetro de punçãoFoto: Anderson Luiz Feltrim
+
+-- O uso da agulha para fazer a tomada de tensão: --
+A agulha serve para se fazer a tomada de tensão, inserindo-a na rolha que está na parte superior do tensiômetro. É recomendável não encher totalmente o tensiômetro de água para seu funcionamento, para evitar o contato da agulha do tensiômetro com a água no momento da aferição da tensão.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

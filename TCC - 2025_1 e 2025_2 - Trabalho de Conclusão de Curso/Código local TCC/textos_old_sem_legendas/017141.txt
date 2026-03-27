@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Beta-ciflutrina
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017141&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Beta-ciflutrina
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Beta-ciflutrina; Nome comercial: Bulldock; Grupo químico: Piretroide; Dose de produto comercial (pulverização foliar): 50mL/ha; Carência (dia): 20 Classe Toxicológica: 4 = pouco tóxico (faixa azul); Classe ambiental: I = altamente perigoso ao meio ambiente;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”.
+
+-- PRAGAS QUE CONTROLA: --
+Bicheira-da-raiz (Oryzophagus oryzae)
+
+-- Informações Complementares --

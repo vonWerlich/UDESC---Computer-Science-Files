@@ -1,0 +1,14 @@
+Título: BIOFERTILIZANTE EEI - Uso do biofertilizante em sistemas de irrigação
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018802&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16386%5D%7B85%7Dfigura_26._filtro_de_biofertilizante_para_uso_em_gotejamento.jpg
+O biofertilizante precisa ser previamente filtrado para ser aplicado na irrigação, sob o risco de entupimento de todo o sistema de irrigação. Sugerimos a construção de um “Filtro” (Figura 26D) composto por um saco de tecido voal ou “volta ao mundo” (Figura 26A) dentro de um saco de sombrite (Figura 26B) colocado em um cesto metálico (Figura 26C). O voal funcionará como filtro e o sombrite impedirá que o voal se rasgue dentro do cesto que dá a estrutura do sistema de filtro (Figura 26E). Mesmo realizando a préfiltragem, não se deve deixar de passar o biofertilizante pelo elemento filtrante do sistema de gotejamento (Figura 26F).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16386%5D%7B141%7Dfigura_26._filtro_de_biofertilizante_para_uso_em_gotejamento.jpg
+Legenda: Figura 26. Montagem do sistema de filtração do biofertilizante para uso em gotejamento. A) Saco de tecido voal ou “volta ao mundo”. B) Saco de “sombrite”. C) Cesto de tela metálica. D) Filtro montado. E) Biofertilizante sendo filtrado. F) Filtro de sistema de gotejamento. Autor: Alexandre Visconti
+
+-- IMPORTANTE: --
+Para o uso do biofertilizante em sistema de gotejamento ou microaspersão é obrigatória a sua pré-filtração no “voal”, além da utilização do elemento filtrante do conjunto do gotejo, evitando assim o entupimento do sistema de irrigação.
+
+-- Informações Complementares --
+Visconti, A.; Schallenberger, E. Morales, R.G.F.; Cantú, R.R. Unidade Portátil de Produção de Biofertilizante Aeróbico, Modelo Epagri. Cartilha da Epagri, Florianópolis, Março de 2022.

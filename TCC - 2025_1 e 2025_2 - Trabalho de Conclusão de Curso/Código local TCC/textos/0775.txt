@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Guaraci F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0775&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B655%5D%7B544%7Dguaraci-234x234.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Blueseeds; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1
+
+-- INFORMAÇÕES DA EMPRESA: --
+Hábito de Crescimento : Indeterminados ; Grupo : Grape ; Peso Médio : 26 a 30g ; Ciclo : precoce ; Nº de Lócus : 2 ; Tolerância : F¹, T ; Densidade do plantio : 1,20×1,50m – 0,60×0,40m ; Nº de hastes : 4
+
+-- CARACTERÍSTICAS TÉCNICAS: --
+Ciclo: 60 dias pós-transplante. Nº de lócus: 2. Peso médio de fruto: 20 a 40 gramas. Tolerância: Fusarium raça 1 e vírus do tabaco.
+
+-- MANEJO DO CULTIVO: --
+Semeio: ano todo. Densidade de plantio: 1,20 a 1,50m x 0,60 a 0,40m. Condução: com 2 ou mais hastes.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://blueseeds.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://blueseeds.com.br.

@@ -1,0 +1,29 @@
+Título: TOMATE - Cultivares - Serato F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0104&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B10%5D%7B436%7Dserato.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agristar TopSeed; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: For - Fusarium oxysporum f.sp. radicis-lycopersici; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: On - Oidium neolycopersici; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Pontos fortes: Excelente pegamento de frutos, com alto rendimento até o ponteiro. Frutos graúdos e pesados (Maior rendimento de caixa). Resistencia a nematoide e TSWV (vira-cabeça).
+
+-- PLANTAS E FRUTOS: --
+Crescimento indeterminado, muito vigorosa, precoce e boa sanidade. Frutos: Altos e de excelente coloração.
+
+-- CARACTERÍSTICAS: --
+Planta de crescimento rápido, com pencas definidas. Indicado para o plantio em campo aberto e cultivo protegido.
+
+-- RESISTÊNCIA: --
+Fol:0,1,For,Ma,Mi,Mj, On, ToMV, TSWV, Va e Vd.
+
+-- Informações para a fertirrigação: --
+Em estudo com os híbridos Serato, Purquerio et al. (2016), no final do ciclo de cultivo, verificaram os máximos acúmulos totais (planta e frutos) estimados na seguinte ordem, em g planta-1: 33,0 de K, 19,8 de N, 8,4 de Ca, 4,0 de S, 2,7 de Mg e 2,6 P, expressos em g planta-1, com produtividade de 158,7 t ha-1 para Serato (2 apud 3).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

@@ -1,0 +1,42 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Queima das bainhas ou rizoctoniose (Rhizoctonia solani)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021638&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+12. Manejo de doenças
+Queima das bainhas ou rizoctoniose ( Rhizoctonia solani )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11373%5D%7B365%7Dqueimab_caput.jpg
+FOTO: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B424%7Dqueimab_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B530%7Dqueimab_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B243%7Dqueimab_fig02a.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B426%7Dqueimab_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B8%7Dqueimab_fig03a.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B235%7Dqueimab_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B62%7Dqueimab_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B267%7Dqueimab_fig06.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B169%7Dqueimab_fig07.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B513%7Dqueimab_fig08.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B20%7Dqueimab_fig09.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B111%7Dqueimab_fig10.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: fungo Rhizoctonia solani A queima das bainhas é uma das principais doenças fúngicas que ocorrem no colmo e na bainha das plantas de arroz. A doença vem assumindo uma maior importância devido ao uso inadequado de fertilizantes, extensão do período de cultivo do arroz pelo aproveitamento do rebrote ou soca e problemas de manejo na entressafra. A queima das bainhas geralmente manifesta-se em reboleiras, a partir da fase final do perfilhamento, sendo menos comum em plantas jovens.
+
+-- SINTOMAS: --
+Os sintomas são observados inicialmente nos colmos e bainhas das folhas, na forma de lesões ovaladas ou arredondadas, de coloração branco-acinzentada, com bordos de cor marrom bem definidos. Sob condições favoráveis, as lesões coalescem, podendo atingir todo o colmo, provocando a seca das folhas. No limbo foliar a doença provoca lesões semelhantes às do colmo, porém de formato irregular. Pode haver ainda a exserção incompleta da panícula com esterilidade dos grãos em sua base.
+
+-- CONDIÇÕES FAVORÁVEIS: --
+• Alta densidade de semeadura, sinergizada pela elevada capacidade de perfilhamento dos cultivares de alto rendimento - formam microclima favorável (pouca luz e alta umidade). • Solos orgânicos. • Excesso de adubação nitrogenada ou fosfatada. • Deficiência de potássio. A sobrevivência do patógeno na entressafra ocorre em plantas voluntárias de arroz, hospedeiros alternativos e restos culturais, na forma de micélio ou escleródios, o que constitui o inóculo primário.
+
+-- CONTROLE: --
+• Realizar a análise de solo e suprir adequadamente as deficiências nutricionais. • Evitar o uso de doses elevadas de fertilizantes, principalmente de nitrogênio e fósforo. • Após a colheita, proceder a destruição da palha, preferencialmente por meio da incorporação superficial e manter os quadros com baixa infestação de plantas daninhas ou rebrotes do arroz.
+
+-- Controle químico: --
+Nos casos em que se estiver utilizando cultivares suscetíveis, em áreas com histórico da doença, é necessária a aplicação de fungicidas, preferencialmente no estádio de emborrachamento, podendo ser necessária uma segunda aplicação em pleno florescimento. Principais fungicidas registrados para o controle de doenças na cultura do arroz no Brasil: Alterne ; Aproach Prima ; Bim 750 BR ; Brio ; Certeza N1 ; Dithane NT ; Folicur 200 EC ; Fusão EC ; Helmstar Plus ; Manzate 800 ; Nativo ; Priori ; Priori Top ; Score ; Tilt ; Vitavax-Thiram 200 SC1 ;
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11373%5D%7B213%7Dqueimab_controle.jpg
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+• Klaus Konrad Scheuermann (Dr. em Fitopatologia - Epagri) Manejo de doenças

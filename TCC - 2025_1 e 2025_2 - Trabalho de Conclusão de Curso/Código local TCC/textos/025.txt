@@ -1,0 +1,30 @@
+Título: TOMATE - Calagem e Adubação - Adubação Orgânica
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=025&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B4787%5D%7B507%7Dadubacao_organica.jpg
+
+-- Recomendação ROLAS (1): --
+Para dimensionar as adubações utilizando compostos em solos já cultivados onde não houver a necessidade da adubação de correção do solo, ou seja, onde os teores dos nutrientes e MO sejam ‘altos’, pode-se optar pela adubação de manutenção. Assim, no caso de utilizar a adubação exclusiva com composto é possível fazer o seguinte cálculo: A = QD/((B/100) x (C/100) x D) onde: - A é a dose do composto a ser aplicado (kg ha-1); - QD é a quantidade de nitrogênio a ser aplicado, conforme uma recomendação oficial para a cultura; - B é a matéria seca do composto (%); - C é a concentração do nutriente na matéria seca do composto (%) (Anexo 2); - D é o índice de eficiência de cada nutriente descrito no manual de adubação da CQFS / NS (2016) (Anexo 1). Para o nitrogênio deve-se usar o aproveitamento proposto no ANEXO 2.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4787%5D%7B508%7Daproveitamento.jpg
+Legenda: Anexo 1. Valores médios de eficiência agronômica dos nutrientes de diferentes adubos orgânicos aplicados no solo em dois cultivos sucessivos. Fonte: ROLAS 2016.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4787%5D%7B287%7Daproveitamento_2.jpg
+Legenda: Anexo 2. Valores médios de umidade, massa seca, aproveitamento de nitrogênio e teor de nitrogênio, fósforo e potássio de adubos orgânicos comumente utilizados na adubação do tomateiro. Fonte: TOMATORG, 2019.
+
+-- Provável composição físico-química dos principais adubos orgânicos: --
+Buscando facilitar a recomendação da adubação orgânica para o tomateiro, foi sintetizada a provável composição físico-química dos principais adubos utilizados nesse sistema de produção. A tabela foi construída utilizando características médias dos compostos e, desta maneira, sempre que possível é importante caracterizar o composto a ser utilizado e realizar os cálculos de recomendação já apresentados nesse tópico. A estimativa do aproveitamento de nitrogênio descrita tem como base os dados de mais de 10 anos de pesquisas realizadas na Estação Experimental da Epagri de Itajaí e da CQFS/NS (2016).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4787%5D%7B418%7Daproveitamento_2.jpg
+Legenda: Valores médios de umidade, massa seca, aproveitamento de nitrogênio e teor de nitrogênio, fósforo e potássio de adubos orgânicos comumente utilizados na adubação do tomateiro. Fonte: TOMATORG, 2019.
+
+-- Sugestão da quantidade de adubo orgânico: --
+Sugestão da quantidade de adubo orgânico a ser aplicado com base na análise de matéria orgânica do solo e a quantidade de nitrogênio, fósforo e potássio que será aplicada na dose sugerida (2). Essa sugestão de adubação está limitada à escala de três níveis (<2,5; 2,6 a 5,0; >5,0) de interpretação de MO do solo utilizada pelo CQFS / NS (2016). Assim, caso a análise indique que o solo tenha 2,5% de MO, a recomendação pelo manual será de 190kg/ha de N. Com o aumento de apenas um décimo da MO do solo, ou seja, 2,6% de MO, a recomendação vai para o próximo nível que é 140kg/ha de N e, mesmo subindo outros 24 décimos, a recomendação continua sendo os mesmos 140kg/ha de N. Com isso, levando-se em consideração apenas esses três níveis de MO para a interpretação, ocorre uma transição abrupta entre as doses, o que reduz a precisão de uma recomendação de N. Para ajustar essa dose, consultar o próximo tópico (2).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4787%5D%7B183%7Dsugestao_adubacao_morales.jpg
+Legenda: Sugestão da quantidade de adubo orgânico a ser aplicado com base na análise de matéria orgânica do solo e a quantidade de nitrogênio, fósforo e potássio que será aplicada na dose sugerida. Fonte: TOMATORG, 2019.
+
+-- Fórmula prática para cálculo da adubação (TOMATORG): --
+Para evitar a transição abrupta entre as doses (Tópico anterior), há uma proposta de cálculo de adubo orgânico com distribuição contínua. Assim, com base no teor de N desejado, bem como no teor de MO do solo, é possível calcular uma dose mais precisa de adubo, o que teoricamente proporcionará maior eficiência produtiva à planta. Todavia, é importante observar o desenvolvimento da cultura, o histórico da área e a qualidade do fertilizante orgânico, buscando flexibilizar as doses de acordo com cada situação (2).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4787%5D%7B487%7Dproposta_formula.jpg
+Legenda: Cálculo da quantidade de composto (t/ha) a ser utilizado com base no teor de nitrogênio desejado ou pela matéria orgânica do solo. Fonte: TOMATORG, 2019.
+
+-- Informações Complementares --
+(1) ROLAS. Manual de calagem e adubação para os Estados do Rio Grande do Sul e de Santa Catarina. Sociedade Brasileira de Ciência do Solo - Núcleo Regional Sul. - [s.l]: Comissão de Química e Fertilidade do Solo - RS/SC, 2016. 376 p.: il. ISBN: 978-85-66301-80-9. (2) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. XXp. (Epagri. Boletim Técnico, 53).

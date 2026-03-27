@@ -1,0 +1,35 @@
+Título: BANANA - Fitossanidade - Principais pragas da bananeira
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021654&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais pragas da bananeira
+ÁCAROS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18391%5D%7B494%7Dacaro_3.jpg
+21701
+ÁCAROS
+BROCA-DO-RIZOMA OU MOLEQUE-DA-BANANEIRA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18387%5D%7B490%7Dbroca.jpg
+21697
+BROCA-DO-RIZOMA OU MOLEQUE-DA-BANANEIRA
+BROCA-RAJADA DA BANANEIRA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18388%5D%7B284%7Dbroca_rajada.jpg
+21698
+BROCA-RAJADA DA BANANEIRA
+TÉCNICAS DE MANEJO INTEGRADO DAS PRAGAS DA BANANEIRA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18393%5D%7B207%7Dmoleque_fungo.png
+21703
+TÉCNICAS DE MANEJO INTEGRADO DAS PRAGAS DA BANANEIRA
+TRAÇA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18392%5D%7B256%7Dtraca_adulto_1.png
+21702
+TRAÇA
+TRIPES-DA-ERUPÇÃO/TRIPES-DA-FLOR
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18390%5D%7B282%7Dtripes_da_erupcao_1.jpg
+21700
+TRIPES-DA-ERUPÇÃO/TRIPES-DA-FLOR
+TRIPES-DA-FERRUGEM-DOS-FRUTOS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18389%5D%7B165%7Dtripes_ll.jpg
+21699
+TRIPES-DA-FERRUGEM-DOS-FRUTOS

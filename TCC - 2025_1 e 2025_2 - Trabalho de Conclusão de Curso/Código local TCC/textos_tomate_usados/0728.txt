@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Aquarius F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0728&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B609%5D%7B134%7Daquarius_f1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: TSV Sementes; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Tamanho do fruto: Grande (231 a 250 g); Tamanho do fruto: Médio (201 a 230 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido do tipo longa vida, com plantas vigorosas. Produz frutos do tipo caqui, de coloração vermelho intenso, pesando de 200 a 250g. Ciclo (nº de dias): 90 a 110 dias; Hábito de crescimento: Indeterminado.
+
+-- RESISTÊNCIA: --
+Tolerâncias: ToMV, V, Fol: 1, 2.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br.

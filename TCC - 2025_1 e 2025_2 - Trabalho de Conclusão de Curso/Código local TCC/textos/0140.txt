@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - Piccolo F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0140&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B44%5D%7B25%7Dpiccolo.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Empresa: Agristar TopSeed; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: Ff - Fulvia fulva (ex Cladosporium fulvum); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: Pl - Podridão corticosa (Pyrenochaeta lycopersici); Resistência a viroses: TMV - Tobacco mosaic virus; Tamanho do fruto: Muito Pequeno (menor que 170 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Pontos Fortes: Excelente sabor e produtividade.
+
+-- PLANTAS E FRUTOS: --
+Plantas: Hábito de crescimento indeterminado e alto vigor. Frutos: Alongados com 2 a 3 lóculos.
+
+-- CARACTERÍSTICAS: --
+Tem ótima coloração. Pode ser cultivado em estufas ou em campo aberto. Indicado para comercialização em racimos (pencas), bandejas ou a granel.
+
+-- Resistência: --
+Fol: 0, Ff, Pi, ToMV e TMV.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

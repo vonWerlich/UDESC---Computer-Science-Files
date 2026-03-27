@@ -1,0 +1,53 @@
+Título: TOMATE - Fitossanidade - Pragas - Mosca Branca (B. tabaci biótipo B)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04662&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B4230%5D%7B261%7D221.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4230%5D%7B269%7D226.jpg
+Legenda: Amadurecimento irregular. Foto: P. C. T. Melo
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4230%5D%7B106%7D225.jpg
+Legenda: Foto ampliada da mosca branca sendo parasitada. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4230%5D%7B428%7D220.jpg
+Legenda: Imagem ampliada da mosca branca. Fonte: Revista Campo e Negócio / HortiFruti
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4230%5D%7B203%7D221.jpg
+Legenda: Infestação da Mosca branca no cultivo do tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4230%5D%7B394%7D224.jpg
+Legenda: Mosca branca no cultivo do tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4230%5D%7B190%7D9.jpg
+Legenda: Mosca branca no cultivo do tomateiro. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4230%5D%7B63%7D222.jpg
+Legenda: Mosca branca no cultivo do tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4230%5D%7B155%7D218.jpg
+Legenda: Mosca branca no cultivo do tomateiro. Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4230%5D%7B68%7D223.jpg
+Legenda: Mosca branca no cultivo do tomateiro. Rafael G. F. Morales
+
+-- IDENTIFIQUE A PRAGA CORRETAMENTE: --
+No Brasil, este grupo engloba indivíduos das espécies Bemisia tabaci (Gennadius, 1889), Bemisia argentifolii Bellows & Perring, 1994 (Hemiptera: Aleyrodidae) e Trialeurodes vaporariorum (Westwood, 1856). Erroneamente chamados de mosca-branca, estes hemípteros medem cerca de 1 mm e possuem quatro asas membranosas recobertas de uma pulverulência esbranquiçada.
+
+-- CICLO: --
+O período de desenvolvimento, que engloba desde o ovo até a fase adulta, dura em média 15 dias, favorecendo o aparecimento de altas populações em campo (1). Contudo, em estudos de laboratório, realizados com temperatura controlada (28 ± 2ºC), verificou-se oque o tempo necessário foi de 22,4 dias para o tomate (2).
+
+-- SINTOMAS: --
+Ninfas e adultos destes insetos sugam a seiva, causando debilidade e até mesmo a morte da planta em ataques severos. Adicionalmente, a alimentação destes insetos favorece o aparecimento da fumagina, um fungo oportunista que se desenvolve sobre as substâncias açucaradas excretadas pela mosca branca na superfície do tomateiro, comprometendo a fotossíntese nas folhas e provocando amadurecimento irregular em frutos (1). Quanto mais cedo ocorrer a infecção, maiores serão as perdas (2).
+
+-- HOSPEDEIROS: --
+Tomate, pimentão, batata; repolho e outras brássicas; melão, abóbora e outras cucurbitáceas, feijão, algodão, soja, uva, plantas ornamentais (poinsétia). As plantas daninhas hospedeiras de mosca-branca já identificadas até o momento são amendoim bravo (Euphorbia heterophylla) , erva-de-Santa-Maria (Chenopodium ambrosioides) , fedegoso (Senna obtusifolia) , guanxuma-rasteira (Sida urens), maria-pretinha (Solanum americanum) , mentruz (Lepidium virginicum) , perpétua-brava (Gomphrena celosioides) e poaia-do-cerrado (Richardia scabra) (2).
+
+-- MONITORAMENTO: --
+Para monitorar a presença de mosca-branca na lavoura de tomate industrial recomenda-se a utilização de armadilhas amarelas, que atraem os adultos. Estas armadilhas devem ser dispostas ao redor da área de plantio e podem ser utilizadas cartolinas, lonas, plásticos ou etiquetas de coloração amarela, untadas com óleo (vegetal ou mineral). Se essas armadilhas coletarem adultos antes do transplante, o produtor deve realizar a primeira pulverização de inseticidas para o controle da praga, tão logo vença o período de proteção do produto aplicado antes do transplantio.
+
+-- Controle Cultural: --
+1) A produção de mudas deve ser efetuada em viveiros com pedilúvio (caixa com cal virgem) na porta de entrada, antecâmaras de no mínimo 1,5 m x 1,5 m e telados com malha máxima de 0,239 mm (Instrução Normativa n.º 05, de 13/11/2007 - GO). Os viveiros devem ser instalados longe de campos infectados pelo geminivírus e infestados pela mosca-branca. As sobras das mudas não devem retornar aos viveiros (2). 2) Outra prática importante a ser adotada é a manutenção da lavoura no limpo, eliminando-se as plantas daninhas hospedeiras de mosca-branca e viroses antes do plantio e nos primeiros dias do estabelecimento da lavoura (2). 3) Eliminação dos restos culturais, a fim de eliminar a população remanescente na área.
+
+-- Controle Químico: --
+A utilização do controle químico em programas de Produção Integrada deve levar em consideração o nível de dano recomendado para a praga em uma determinada cultura. Nesse sentido, o nível de dano econômico adotado para a mosca-branca em tomate indústria é a simples presença de um adulto por planta, uma vez que este inseto é transmissor de viroses, embora há relatos literários que apenas 0,3 adulto do inseto/planta seja suficiente para disseminar a virose (2). Deve ser iniciado com um inseticida do grupo químico dos neonicotinóides, que age sobre os adultos do inseto, inibindo a alimentação, voo e movimento, reduzindo a oviposição (2). A prática mais recomendada é o emprego de um produto por três semanas, seguido da aplicação de outro produto pelas três semanas seguintes. Nessa rotação devem ser escolhidos para uso produtos de grupos químicos diferentes (2). Uma alternativa aos inseticidas é o uso de óleos e detergentes neutros em baixa concentração (0,5%). Esses produtos interferem no metabolismo e na respiração do inseto, além de provocar mudanças na estrutura da folha e repelência. Os efeitos diretos sobre a mosca-branca são redução na oviposição e transtornos no desenvolvimento das ninfas, especialmente no primeiro estádio, onde as ninfas não se alimentam na superfície tratada com óleo e morrem desidratadas (2). A tecnologia de aplicação dos inseticidas também é importante para o aumento da eficiência de controle. Como os adultos e ninfas de moscabranca se localizam na parte inferior das folhas, o jato de aplicação deve ser direcionado de baixo para cima, de modo que os inseticidas, detergentes e óleos, que normalmente são produtos de contato, cubram de maneira homogênea a parte inferior da folhagem (2). As pulverizações devem ser realizadas entre 6:00 h e 10:00 h ou a partir das 16:00 h, para evitar a rápida evaporação da água e a degradação dos produtos (2).
+
+-- OBSERVAÇÕES: --
+- O principal risco advindo da presença destes insetos ainda está relacionado à transmissão de patógenos, principalmente viroses, que causam redução do vigor, nanismo acentuado, enrugamento severo das folhas terminais e amarelecimento completo da planta, podendo causar a morte das plantas e o total comprometimento da produção (1). Os vírus transmitidos pela mosca-branca são: Broto Crespo (Gênero Geminivirus) e Mosaico dourado (TGMV- Tomato Golden mosaic vírus) .
+
+-- B. tabaci biótipo Q (Mediterranean - Med): --
+Vale salientar que, além da espécie B. tabaci biótipo B existem muitas outras espécies e biótipos de mosca-branca. Mundialmente, estima-se que existam mais de 20 biótipos, cada um com um comportamento diferenciado. É importante comentar que dentre esses biótipos, existe um, o biótipo Q, que teve introdução no Brasil a partir de 2015 (4) e deve ser motivo de preocupação para todos os envolvidos com a cultura do tomateiro. Isso porque esse biótipo, além de ser resistente à maioria dos inseticidas hoje eficientes para o controle da mosca-branca, é vetor do geminivírus Tomato yellow leaf curl vírus (TYLCV), que também é exótico no País e que, se introduzido no Brasil, pode causar danos severos à tomaticultura nacional. Assim sendo, a dispersão mundial do biótipo Q deve ser bem monitorada, para evitar sua entrada no país. As suas prováveis vias de ingresso no Brasil são mudas de hortaliças e plantas ornamentais, principalmente as do gênero Euphorbia (2).
+
+-- Informações Complementares --
+(1) Sistema de produção de tomate orgânico (TOMATORG). 2019. (2) Geni Litvin Villas Bôas e Marina Castelo Branco. Manejo Integrado da Mosca-Branca (Bemisia tabaci biótipo B) em Sistema de Produção Integrada de Tomate Indústria (PITI). Circular Técnica 70, Brasília, DF, Novembro, 2009. (3) Aplicativo ADAMA Hortifruti Brasil. Para mais informações, consultar o site https://www.adama.com/brasil/pt/ ou diretamente pelo aplicativo ADAMA HF . (4) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Alice Kazuko Inoue-Nagata. Tema: Embrapa Hortaliças e o manejo de viroses em tomateiro. Data do evento: 14/09/2020. Para informações na íntegra, acessar: https://youtu.be/sgDHRSl-FeI .

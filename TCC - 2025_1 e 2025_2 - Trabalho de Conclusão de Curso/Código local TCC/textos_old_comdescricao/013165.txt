@@ -1,0 +1,25 @@
+Título: ARROZ IRRIGADO - 14. Colheita, secagem e armazenamento - Ponto de colheita
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013165&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+14. Colheita, secagem e armazenamento
+Ponto de colheita
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11422%5D%7B57%7D12_ptocolhe_caput.jpg
+FOTO: D.S.Eberhardt (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+A época adequada de colheita corresponde à fase de maturação do arroz, em que se obtém maior rendimento de grãos inteiros no beneficiamento e menor perda de grãos no campo. Tanto colheitas antecipadas como tardias afetam o rendimento industrial dos cultivares. A drenagem da lavoura para a colheita varia de acordo com as características do solo e deve ser efetuada, geralmente, com antecedência de dez dias. A drenagem antecipada, embora favoreça a economia de água, pode acarretar em decréscimo na produtividade.
+
+-- PONTO DE COLHEITA: --
+Para realizar a colheita do arroz, deve se observar o teor de umidade nos grãos. Os valores devem estar em torno de 20% para grãos e 22% para sementes. Após a colheita, deve ser feito a secagem dos grãos, reduzindo a umidade para aproximadamente 13% de umidade, para correta armazenagem. Na falta de aparelhos para determinar o teor de umidade dos grãos, o produtor pode se basear na mudança de cor das glumelas (cascas) e considerar como ideal quando dois terços dos grãos da panícula estiverem maduros. Apertar os grãos pode também ser um indicativo útil (se amassar, ainda está imaturo e, se quebrar, está no ponto de colheita).
+
+-- PERDAS NA COLHEITA: --
+As perdas de grãos na lavoura ocorrem em duas etapas: antes e durante a colheita. Antes da colheita, as perdas, chamadas de naturais, se devem principalmente à ocorrência de ventos, granizo, debulha natural e ataque de pássaros; e geralmente estão relacionadas com o atraso na colheita. Durante a colheita, as perdas ocorrem devido à incorreta regulagem e manutenção dos mecanismos internos da colheitadeira (cilindro ou rotor, peneiras e saca-palhas) e pela realização da operação fora do ponto fisiológico de maturação da cultura (antecipada ou atrasada) e com umidade fora do ideal. De forma geral, tolera-se até 1,5 sc/ha de perdas de grãos na colheita mecanizada do arroz.
+
+-- FATORES PREDISPONENTES ÀS PERDAS: --
+Os principais fatores associados às perdas na colheita são o gessamento, a má formação e a quebra dos grãos. A colheita de grãos antes do ponto de maturação e com umidade acima de 23%, aumenta o percentual de grãos gessados e mal formados, os quais se quebram facilmente durante o beneficiamento. Por outro lado, a colheita tardia, com baixo teor de umidade nos grãos, promove um forte aumento no percentual de grãos quebrados, principalmente quando há rápida alternância entre períodos de chuva e sol intenso.
+
+-- Informações Complementares --
+• Ricieri Verdi (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola
+• Fabrício Campos Masiero (Dr. Pós-colheita e armazenagem - IFC/Campus Rio do Sul) Manejo pós-colheita e armazenagem

@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - B) BOTÂNICA, ORIGEM E CLIMA PARA O TOMATEIRO - e) Referências
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02490&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2254%5D%7B49%7Dcapa_1.jpg
+
+-- Referências: --
+MUELLER, S.; WAMSER, A.F.; BECKER, W.F. et al. Indicações técnicas para tomateiro tutorado na Região do Alto Vale do Rio do Peixe. Florianópolis: Epagri, 2008. 78p. (Epagri. Sistemas de Produção, 45). NAIKA, S.; JEUDE, J.VL.; GOFFAU, M. et al. A cultura do tomate. Fundação Agromisa e CTA, Wageningen, 2006. Disponível em: http://publications.cta.int/media/publications/downloads/1319_PDF.pdf Acesso em: 08 jul 2014. SANTOS, F.F.B. Obtenção e seleção de híbridos de tomate visando à resistência ao Tomato yellow vein streak virus (ToYVSV). 2009. 75f. Dissertação (Mestrado em Agricultura Tropical e Subtropical) - Instituto Agronômico, Campinas, SP. SILVA, J.B.C. da; GIORDANO, L.B.; FURUMOTO, O. et al. Cultivo de Tomate para Industrialização. Brasília, DF, 2006. (Embrapa Hortaliças, Sistemas de Produção, 1). Disponível em: . Acesso em: 10 abr. 2015. TOMATE. Dicionários gastronômicos - Alimentando o saber, aprimorando o paladar. Disponível em: http://correiogourmand.com.br/info_03_dicionarios_gastronomicos_alimentos_ hortalicas_fruto_tomate.htm Acesso em: 19 fev. 2014.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

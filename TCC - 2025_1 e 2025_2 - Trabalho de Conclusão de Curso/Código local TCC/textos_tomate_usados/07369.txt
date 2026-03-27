@@ -1,0 +1,24 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - d) Manejo de plantas e do cultivo para produção orgânica - 3) Tutoramento e condução de plantas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07369&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6653%5D%7B305%7D20-2_-_copia.jpg
+
+-- TUTORAMENTO VERTICAL: --
+O tutoramento vertical é o mais indicado para a produção de tomate salada no sistema orgânico. Esse método permite melhor distribuição da radiação solar e ventilação dentro do cultivo, com menor molhamento foliar e, por conseguinte, menor severidade das doenças foliares. Além disso, permite uma melhor cobertura foliar dos fungicidas de contato, como é o caso da calda bordalesa, proporcionando uma maior eficiência do uso da calda. Os principais métodos de tutoramento vertical são o vertical com bambu e o vertical com fitilho.
+
+-- Tutoramento com fitilhos: --
+Para o tutoramento com fitilhos, a estrutura consiste de dois fios de arame estendidos ao longo da linha de cultivo. Eles podem ser suportados por postes independentes da estrutura do abrigo de cultivo. O fitilho é amarrado no fio de arame, que fica rente ao solo, e no outro, que geralmente fica a uma altura de 2 metros do solo, variando essa altura conforme o número de cachos desejados (geralmente de 6 a 7 cachos) ou na altura que facilite o manejo pelo trabalhador. A planta é enrolada no fitilho vertical conforme vai crescendo, realizando-se a capação ao passar da altura do arame. Um dos pontos negativos do uso do fitilho é a baixa estabilidade de sustentação da planta. Assim, quando a lavoura está em plena produção, com plantas carregadas de frutos, pode ocorrer o rompimento do fitilho, com queda da planta e dos frutos. Esse problema pode ser agravado pelas correntes de vento em abrigos desprovidos de tela nas laterais.
+
+-- Tutoramento com bambu: --
+O tutoramento com bambu dá maior estabilidade à planta, trazendo benefícios muito semelhantes àqueles observados pelo uso de fitilhos. A principal diferença é que nesse sistema a planta tem que ser fixada no bambu por meio de fitilhos próprios para o amarrio, fazendo um “8” com o amarrilho, prevenindo-se desta forma lesões nas hastes devido ao atrito com a vara. Em um ciclo cultural, faz-se até sete amarrios por plantas. É importante utilizar varas de bambu novas, já que varas velhas disseminam fitopatógenos. Contudo, caso a estratégia seja o reaproveitamento de varas dos cultivos anteriores, o produtor deverá mergulhá-las por 4 horas em calda bordalesa, na concentração de 3 a 5%.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6653%5D%7B365%7D27.jpg
+Legenda: Amarrio com fitilho em “oito” e tamanho do broto lateral na fase ideal de remoção (broto superior) e passando da fase de desbrota (broto inferior). Fonte: Morales et al., 2019.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6653%5D%7B390%7D26.jpg
+Legenda: Tutoramento vertical do tomateiro com haste única em varas de bambu. Fonte: Morales et al., 2019.
+
+-- Número de hastes: --
+A condução da planta com uma haste, sem poda apical ou com poda a 2m acima do solo, é o método de condução indicado para a produção de tomate no sistema orgânico, principalmente em cultivo protegido. Normalmente se deixam de sete a oito cachos de tomate por planta, sendo que o último cacho fica na altura do arame superior que auxilia no tutoramento. Ao se escolher o último cacho a ficar, desponta-se a haste a três folhas acima dele. Até o momento não foram conduzidos na Epagri de Itajaí cultivos do tomateiro com mais de uma haste em sistema orgânico, motivo pelo qual não será recomendado o seu uso nesse momento.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

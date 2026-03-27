@@ -1,0 +1,51 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Análise de solo, tecido vegetal e diagnose visual - Análise de solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014629&isEdicao=N&epagriTEC=S
+
+Segundo a Comissão de Química e Fertilidade do Solo (CQFS - RS/SC, 2016), o sistema de recomendação de adubação e de calagem indicado para os estados do Rio Grande do Sul e de Santa Catarina para a cultura da cebola é baseado na análise de solo e, para algumas situações, pode ser complementado com a análise de tecido vegetal e diagnose visual. O sistema é composto pelas etapas descritas na imagem a seguir.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12717%5D%7B243%7Dfigura.jpg
+Legenda: Procedimento entre a amostragem e a recomendação da adubação. null
+
+-- IMPORTÂNCIA DE UMA BOA AMOSTRAGEM DE SOLO: --
+É importante salientar que em cada uma dessas etapas podem ocorrer erros que alteram as recomendações de fertilizantes e de corretivos. O erro no procedimento de coleta do solo para a análise (amostragem) é o mais prejudicial, pois ele não pode ser corrigido nas etapas seguintes. Uma amostragem não representativa (mal realizada) pode causar grandes distorções na avaliação da fertilidade do solo. A amostragem de solo deve ser executada criteriosamente em relação à divisão da área em glebas homogêneas e em relação aos procedimentos de coleta, pois uma pequena quantidade de solo representará um volume muito maior de solo de áreas que pode chegar a alguns hectares.
+
+-- CONHECER O HISTÓRICO DA ÁREA A SER AMOSTRADA: --
+É muito importante conhecer o tipo de solo e o histórico das áreas antes da implantação da cultura da cebola. Através do conhecimento do histórico é possível planejar análises da área para verificar a necessidade de intervenções e medidas corretivas caso sejam necessárias.
+
+-- MANEJO DO SOLO COM IMPEDIMENTO FÍSICO: --
+Impedimento físico como a compactação do solo pode ser corrigida com uso de equipamentos como subsolador, arado de discos e, de preferência, integrada com outras práticas culturais como o uso de plantas de cobertura. Para as operações o solo não deve apresentar umidade excessiva ou estar muito seco, sendo recomendável essas operações quando o solo estiver “friável”.
+
+-- DEFINIÇÃO DE GLEBAS HOMOGÊNEAS: --
+Deve-se levar em consideração a vegetação, a posição topográfica, as características perceptíveis do solo (declividade, drenagem, etc.), o histórico da área, a produtividade observada, o uso de insumos, entre outros. Sugere-se que cada gleba não seja superior a 10ha (CFSEMG, 1999; RAIJ, 2011).
+
+-- PONTOS PARA EVITAR: --
+Deve-se evitar pontos próximos a edificações, formigueiros, cupinzeiros, estradas e áreas onde circulam animais, estercos, manchas de solo, depósitos de fertilizantes e corretivos (RAIJ et al., 1997).
+
+-- COLETA DE SOLO FRIÁVEL: --
+Recomenda-se coletar solo quando ele estiver friável, ponto em que o material (“solo”) é coletado e, ao ser apertado com a mão, se parte ou se esboroa com facilidade. Isso facilita a coleta e a homogeneização das amostras simples ou subamostras que irão compor a amostra composta (CFSEMG, 1999).
+
+-- LIMPAR OS PONTOS DE COLETA: --
+Os pontos de coleta devem ser previamente limpos com a retirada da cobertura vegetal e de outros materiais sem o revolvimento do solo.
+
+-- AMOSTRAGEM: --
+A amostragem de solo é feita com a coleta de amostras simples ou subamostras que variam de 12 a 30 dentro da gleba homogênea no sistema convencional (CFSEMG, 1999; CQFS – RS/SC, 2016) e devem ter volumes iguais para formarem as amostras compostas enviadas aos laboratórios. O ideal é que as subamostras sejam homogeneizadas dentro de um balde para retirar aproximadamente 0,5kg de solo para identificar e enviar ao laboratório.
+
+-- EQUIPAMENTOS DE COLETA: --
+Os amostradores de solo mais comuns para coletar solo são o trado de rosca, trado calador, trado holandês, trado caneca, pá-de-corte e o trado fatiador (CQFS – RS/SC, 2016). Independentemente do amostrador escolhido, deve-se verificar se ele não está enferrujado para evitar contaminações das amostras. No entanto, para o sistema de plantio direto não é recomendada a utilização dos trados de rosca ou holandês devido à perda de 1 a 2 cm da camada superficial do solo (CQFS – RS/SC, 2016). Após o uso recomenda-se a lavagem com água para retirar todo o solo remanescente no amostrador e assim evitar o enferrujamento do equipamento. Os procedimentos de amostragem com esses equipamentos dependem do sistema de cultivo, se é convencional ou de plantio direto. No sistema de plantio direto a variabilidade vertical e horizontal da fertilidade do solo é maior em relação ao convencional devido à presença da cobertura de solo, a permanência de linhas de adubação e a aplicação superficial de insumos (CQFS – RS/SC, 2016).
+
+-- AMOSTRAGEM MALFEITA: --
+Quando a amostragem é malfeita, independente do sistema de cultivo adotado, não há como corrigir esse erro no laboratório, mesmo que sejam utilizadas as metodologias e os equipamentos mais modernos. A amostragem inadequada resulta consequentemente em interpretações e recomendações equivocadas que podem acarretar grandes prejuízos econômicos ao produtor e danos ao ambiente (CFSEMG, 1999). Por essa razão, é de extrema importância que a pessoa responsável pela coleta das amostras seja devidamente treinada e que conheça muito bem o manuseio do amostrador escolhido. Adicionalmente é fundamental estabelecer e planejar adequadamente a amostragem de solo para que as amostras sejam representativas (EMBRAPA, 2009). As amostras de solo devem ser manejadas com materiais limpos e livres da presença de possíveis contaminantes.
+
+-- PROFUNDIDADE DA COLETA: --
+No sistema de plantio convencional a coleta da amostra deve ser realizada na camada de 20cm. No caso de sistema plantio direto consolidado, recomenda-se a coleta de amostras nas camadas de 0-10cm e de 10-20cm para verificar possíveis diferenças de fertilidade entre camadas (CQFS – RS/SC, 2016).
+
+-- QUANTO TEMPO ANTES DO PLANTIO DEVE-SE FAZER A AMOSTRAGEM: --
+É recomendável que a amostragem de solo seja feita 6 meses antes do plantio, pois há de se considerar os seguintes fatores: possíveis atrasos na entrega dos resultados pelo laboratório, tempo mínimo de 3 meses antes do plantio para reação do calcário e planejamento do agricultor em relação a preço e prazo de entrega de fertilizantes e corretivos (FURTINI NETO et al., 2001).
+
+-- FREQUENCIA DE AMOSTRAGEM: --
+A frequência de amostragem de solo depende de vários fatores, como: o sistema de cultivo (convencional, cultivo mínimo ou plantio direto), se há rotação de cultura, a intensidade de aplicação de insumos, a irrigação, forma de aplicação de fertilizantes (em linha ou área total), a exportação de nutrientes pela cultura, entre outros. No entanto, como a cultura da cebola é anual e muito sensível a variações de fertilidade, recomenda-se amostrar anualmente para o adequado manejo e monitoramento da fertilidade do solo.
+
+-- COMO PROCEDER APÓS A COLETA: --
+Caso não seja possível enviar as amostras imediatamente para um laboratório é recomendável fazer a secagem das amostras ao ar em local sombreado e ventilado (EMBRAPA, 2009; CQFS – RS/SC, 2016).
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

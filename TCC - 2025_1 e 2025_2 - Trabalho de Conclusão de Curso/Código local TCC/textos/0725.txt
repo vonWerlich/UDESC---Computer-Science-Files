@@ -1,0 +1,22 @@
+Título: TOMATE - Cultivares - Dany F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0725&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B606%5D%7B499%7Ddany_f1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: TSV Sementes; Finalidade: Copa; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Tamanho do fruto: Gigante (maior do que 280 g); Tamanho do fruto: Muito grande (251 a 280 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Plantas rústicas e vigorosas, apresentando um ótimo enfolhamento, não necessita de raleio de pencas. Produz frutos graúdos, firmes e pesados de coloração vermelha intensa. Peso médio de 250 a 300 gramas. Ciclo (nº de dias): 110 a 120 dias. Hábito de crescimento: Semi-determinado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B606%5D%7B270%7D5.jpg
+Legenda: Folder de divulgação do produto.null
+
+-- RESISTÊNCIA: --
+Tolerâncias: V, Fol 3, ToMV e BST.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br.

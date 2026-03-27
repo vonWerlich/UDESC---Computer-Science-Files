@@ -1,0 +1,22 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Fungos - Saprolegniose
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=020609&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17914%5D%7B204%7Dsaprolegniose_-_copia.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Enfermidade causada por fungos oportunistas pertencentes a alguns gêneros, tais como Saprolegnia, Achlya e Dictyuchus.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17914%5D%7B113%7Dsaprolegniose.jpg
+Legenda: Tilápia com o sintoma da doença. Bruno Corrêa da Silva.
+
+-- OCORRÊNCIA: --
+Ela ocorre tipicamente no período de inverno, em consequência de uma queda brusca na temperatura da água em um curto período de tempo (24 horas, por exemplo) ou de sua permanência por um período prolongado (uma semana, por exemplo). Outros fatores que favorecem o aparecimento da doença no inverno incluem a presença de lesões (machucados e perda de escamas) na pele do peixe (estas acabam virando uma espécie de porta de entrada para o fungo), má qualidade de água, excesso de matéria orgânica e estresse.
+
+-- FASE QUE ATACA: --
+Essa doença pode acometer todas as fases da tilápia: ovo, larva, alevino, juvenil e adulta. Animais menores, como larvas e alevinos, são mais susceptíveis.
+
+-- SINTOMAS: --
+Os principais sintomas da saprolegniose são a perda de apetite, natação errática, despigmentação da epiderme e, no processo mais avançado, o aparecimento de “tufos” de coloração marrom pelo corpo em decorrência do acúmulo de matéria orgânica grudada nas hifas do fungo
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

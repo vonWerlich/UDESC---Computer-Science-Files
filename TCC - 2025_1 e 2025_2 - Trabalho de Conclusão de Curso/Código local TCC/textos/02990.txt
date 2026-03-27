@@ -1,0 +1,13 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - I) DOENÇAS CAUSADAS POR VÍRUS - e) Mosaico-dourado-do-tomateiro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02990&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2757%5D%7B519%7Dfigura_28.jpg
+
+-- Mosaico-dourado-do-tomateiro - (Begomovirus: ToSRV; ToYVSV): --
+Os sintomas ocorrem nas folhas mais novas na forma de amarelecimento das nervuras a partir do pecíolo e se estende pelo limbo foliar (Figura 28). Os folíolos ficam enrolados e ocorre pouca floração. Ocorrem áreas descoloridas nos frutos. A doença é causada por um complexo de vírus ainda não totalmente identificados, transmitidos pela mosca-branca (Bemisia argentifolii); dentre as diversas espécies de begomovírus (geminivírus) relatadas no Brasil, Tomato severe rugose virus (ToSRV) ocorre em todas regiões produtoras e Tomato yellow vein streak virus (ToYVSV) nas regiões Sudeste e Centro-Oeste.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2757%5D%7B141%7Dfigura_28.jpg
+Legenda: Mosaico-dourado-do-tomateiro. Foto: Walter Ferreira Becker
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

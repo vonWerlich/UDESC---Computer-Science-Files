@@ -1,0 +1,25 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - c) Escolha dos cultivares, produção de mudas e plantio - 7) Plantio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07363&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6648%5D%7B438%7D19-1.jpg
+
+-- Padrão da muda para plantio: --
+O plantio das mudas é feito quando elas possuírem de 4 a 5 folhas definitivas e altura aproximada de 10 a 12cm. Mudas que não apresentem bom aspecto, malformadas e/ou doentes, devem ser eliminadas.
+
+-- Uso da irrigação em pré-plantio: --
+Um dia antes do plantio, deve-se diminuir a irrigação até que as mudas apresentem uma leve murcha. No momento ligeiramente anterior ao plantio, as bandejas devem ser irrigadas para facilitar a retirada da muda com o torrão inteiro e para recuperar a turgidez após o transplante.
+
+-- Profundidade da muda no solo: --
+A única parte da muda que deve ter contato direto com o solo é o torrão (substrato + raízes), não permitindo o contato do solo com a gema de crescimento da muda ou com o caule.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6648%5D%7B99%7D25.jpg
+Legenda: Muda de tomateiro na altura ideal após o transplantio para o campo. Fonte: Morales et al., 2019.
+
+-- Horário de plantio: --
+Quanto ao horário de plantio, deve-se procurar fazê-lo quando a transpiração for menor, como ao final da tarde, para que seja restabelecida a absorção de água e nutrientes no período noturno. Pode-se também optar por dias nublados e de alta umidade relativa do ar, pois as condições favorecem o pegamento das mudas. Se o ambiente protegido possuir telas de sombreamento do tipo aluminizada, o plantio poderá ser feito nos demais horários do dia.
+
+-- Plantio: --
+Quanto maior o volume de substrato que se mantém aderido à muda durante e após o plantio, menores serão os estresses. Reduzindo-se estes estresses, menor será o “choque de transplante”. Deve-se fazer uma irrigação no local do plantio definitivo logo após a operação de plantio.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

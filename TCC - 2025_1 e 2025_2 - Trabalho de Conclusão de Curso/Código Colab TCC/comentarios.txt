@@ -1,0 +1,18 @@
+A versão atual do colab dificulta a vida do código (é difícil manter as 
+versões congeladas no que funcionava em 2025/2)
+
+Dividir em 3 partes diferentes o meu código pode ajudar:
+-pré-processamento (chunking+embedding)
+-geração de respostas
+-avaliação com bert Score
+
+Nota importante: se for gerar um número grande de respostas, é importante
+salvar cada uma num csv ou algo do tipo a cada iteração. Com o llama3 e o
+gemma levou em torno de 2-10 min por resposta; e o collab desconecta o 
+ambiente depois de um tempo.
+
+Uso do drive: no meu trabalho usei a versão promocional (free para estudantes) da Google de acesso ao Gemini, e incluso no pacote vinham 2 TB no drive.
+Por isso optei por colocar tudo que pude no código para armazenar cache do hugging faces, e também fazer upload local.
+Sem isso precisa usar a parte comentada do código e baixar tudo direto do hugging faces (e sem cache), e o código perde muito tempo baixando essas coisas. O cache também gasta uma quantidade muito grande de armazenamento, recomendo não usar se não tiver um plano.
+
+Sugestão: Se acabar a sua cota de GPU, use outro email!

@@ -1,0 +1,8 @@
+Título: LEGISLAÇÕES - Indústrias de Pequeno Porte - MAPA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09601&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8654%5D%7B79%7Dcanva_-_farm_theme_icon.svg
+INSTRUÇÃO NORMATIVA Nº29, DE 23 DE ABRIL DE 2020 - Estabelece os requisitos para o livre comércio de produtos de origem animal, inspecionados por consórcio público de Municípios. Acessar Instrução Normativa. INSTRUÇÃO NORMATIVA Nº5, DE 14 DE FEVEREIRO DE 2017 - Dispõe sobre requisitos para avaliação de equivalência ao Sistema Unificado de Atenção à Sanidade Agropecuária relativos à estrutura física, dependências e equipamentos de estabelecimento agroindustrial de pequeno porte de produtos de origem animal. Acessar Instrução Normativa. INSTRUÇÃO NORMATIVA Nº16, DE 23 DE JUNHO DE 2015 - Estabelece, em todo o território nacional, as normas específicas de inspeção e a fiscalização sanitária de produtos de origem animal, referente às agroindústrias de pequeno porte. Acessar Instrução Normativa. DECRETO Nº 8.471, DE 22 DE JUNHO DE 2015 – Altera o Anexo ao Decreto nº 5.741, de 30 de março de 2006, que regulamenta os arts. 27-A, 28-A e 29-A da Lei nº 8.171, de 17 de janeiro de 1991, e organiza o Sistema Unificado de Atenção à Sanidade Agropecuária. Acessar Decreto.
+
+-- Informações Complementares --

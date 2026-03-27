@@ -1,0 +1,13 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Manejo dos insetos praga - Controle comportamental
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015006&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+
+-- USO DE FEROMÔNIOS: --
+Existem opções de feromônios sexuais sintéticos (substâncias utilizadas pelos insetos para comunicação), que podem ser utilizados para o monitoramento e para a coleta em armadilhas de diversas pragas do tomateiro. Estas substâncias simulam o odor emitido pelos adultos destes insetos no período reprodutivo, atraindo e facilitando a captura dos mesmos. No Brasil, hoje é possível adquirir estes produtos voltados para o controle da broca-pequena-do-tomateiro, da traça-do-tomateiro e de brocas-grandes (Helicoverpa e Spodoptera).
+
+-- ARMADILHAS DE CORES: --
+Além da capacidade de guiar seu comportamento por estímulos químicos, os insetos também são capazes de se orientar utilizando a visão. Desta forma, a utilização de armadilhas de cores atrativas a determinadas espécies colabora para a captura massal, amostragem e controle de insetos-praga. Armadilhas ou faixas contendo cola entomológica nas cores amarela capturam com eficiência pulgões, mosca-branca, vaquinhas, mosca-minadora e tripes, esses últimos também são capturados por armadilhas de coloração azul.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

@@ -1,0 +1,23 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas) - A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora) - A praga é um invertebrado (artrópode ou molusco) - A praga é um molusco (caramujo ou lesma) - A praga é um caramujo de concha achatada, fusiforme ou globosa
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016931&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16928%5D%7B67%7Dchave_fig26.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas)
+A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora)
+A praga é um invertebrado (artrópode ou molusco)
+A praga é um molusco (caramujo ou lesma)
+A praga é um caramujo de concha achatada, fusiforme ou globosa
+O caramujo é pequeno, com concha redonda achatada ou fusiforme
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16931%5D%7B2%7Dchave_fig27.jpg
+Legenda: O caramujo é pequeno, com concha redonda achatada ou fusiforme
+16933
+O caramujo é pequeno, com concha redonda achatada ou fusiforme
+O caramujo é grande, podendo chegar ao tamanho de uma maçã. A concha é globosa, dura e com faixas escuras em espiral. Quando retraído, o caramujo fecha a concha com uma tampa (o opérculo) - CARAMUJO-GRANDE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16931%5D%7B33%7Dchv_cmujg.jpg
+Legenda: O caramujo é grande, podendo chegar ao tamanho de uma maçã. A concha é globosa, dura e com faixas escuras em espiral. Quando retraído, o caramujo fecha a concha com uma tampa (o opérculo) - CARAMUJO-GRANDE
+16932
+O caramujo é grande, podendo chegar ao tamanho de uma maçã. A concha é globosa, dura e com faixas escuras em espiral. Quando retraído, o caramujo fecha a concha com uma tampa (o opérculo) - CARAMUJO-GRANDE

@@ -1,0 +1,46 @@
+Título: PLANTAS PARA ADUBAÇÃO VERDE - Trigo (Triticum aestivum)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012863&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11196%5D%7B508%7Dtrigo_apresentacao_lauro.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11196%5D%7B312%7Dtrigo_apresentacao_lauro.jpg
+Legenda: Lavoura em pleno crescimento. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11196%5D%7B549%7Dtrigo_atalanta_2022_foto_leandro_justen.jpg
+Legenda: Lavoura em ponto de colheita. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11196%5D%7B143%7Dtrigo_21_novembro_leoberto_leal_foto_juliane_justen.jpg
+Legenda: Panícula madura. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11196%5D%7B331%7Dtrigo1_set2022_foto_leandro_do_prado_wildner.jpg
+Legenda: Sementes. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11196%5D%7B305%7Dtrigo_apresentacao_lauro1.jpg
+Legenda: Trigo_apresentação Lauro. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11196%5D%7B435%7Dtrigo_apresentacao_lauro2.jpg
+Legenda: Trigo_apresentação Lauro. Foto: Lauro Krunvald.
+
+-- INFORMAÇÕES GERAIS: --
+OUTROS NOMES COMUNS: Trigo. NOME CIENTÍFICO: Triticum aestivum L. FAMÍLIA: Poaceae (Gramíneas). ORIGEM: Oriente médio.
+
+-- CARACTERÍSTICAS BOTÂNICAS: --
+PORTE: Herbáceo. HÁBITO DE CRESCIMENTO: Ereto. CAULE: Colmo normalmente oco, cilíndrico e com 5 a 6 entrenós. ALTURA DA PLANTA (m): 0,5 a 1,5. SISTEMA RADICULAR: Fasciculado, podendo atingir até 1,5m de profundidade.
+
+-- INFORMAÇÕES FENOLÓGICAS: --
+CICLO VEGETATIVO: Anual. ÉPOCA IDEAL DE PLANTIO: Outono/inverno. ÉPOCA PREFERENCIAL DE PLANTIO: Maio a julho. ÉPOCA POSSÍVEL DE PLANTIO: Abril a agosto. CICLO PARA FLORESCIMENTO (dias): 50 a 60. CICLO PARA COLHEITA DE SEMENTES (dias): 110 a 120.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+PRODUÇÃO DE FITOMASSA (MS t/ha): 1,5 a 4. PRODUÇÃO DE FITOMASSA (MV t/ha): 10 a 14. TOLERÂNCIA À GEADA: Tolerante. VELOCIDADE NA COBERTURA INICIAL DO SOLO: Rápida. APTIDÃO PARA PASTAGEM: Forte. Existem cultivares adaptadas ao duplo propósito (pastoreio e produção de grãos). Grãos podem fazer parte da composição de ração animal.
+
+-- SEMENTES: --
+PRODUTIVIDADE DE SEMENTES (t/ha): 3500 a 5000. PESO DE MIL SEMENTES (gramas): 40 a 60. PRESENÇA DE SEMENTES DURAS: Não registrado.
+
+-- SEMEADURA: --
+ESPAÇAMENTO ENTRE LINHAS (metros): 0,17 a 0,20. DENSIDADE DE SEMEADURA EM LINHA (sem/m2): 300 a 400.
+
+-- COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: --
+ROTAÇÃO DE CULTURAS: soja, feijão. OUTROS USOS: Alimentação animal (suínos, aves e ruminantes) em todas as suas formas: grãos, forragem, silagem, feno e palha.
+
+-- INFORMAÇÕES FITOSSANITÁRIAS: --
+SUSCEPTIBILIDADE A PRAGAS E DOENÇAS: Brusone ( Pyricularia grisea , Cooke), ferrugem-do-colmo ( Puccinia graminis ), ferrugem-da-folha ou ferrugem-da-coroa ( Puccinia coronata ), giberela ( Fusarium graminearum , Schwabe), mancha-parda ( Bipolaris sorokiniana , Sacc. In Sorok,), ergotismo ( Claviceps purpúrea ), Percevejo-barriga-verde ( Dichelops melacanthus e D. furcatus ), lagarta desfolhadora ( Spodoptera frugiperda ) e lagarta-do-trigo ( Pseudaletia sequax ), curuquerê-dos-capinzais ( Mocis latipes , Guenée), pulgão-verde dos cereais ( Schizaphis graminum , Rondani), pulgão-do-colmo do trigo ou pulgão-da-aveia ( Rhopalosiphum padi , Linnaeus), pulgão-da-folha ( Metopolophium dirhodum , Walker) e pulgão-da-espiga do trigo ( Sitobion avenae , Fabricius); corós ( Diloboderus abderus , Sturm; Phyllophaga triticophaga , Moron & Salvadori); broca-do-colo ( Elasmopalpus lignosellus , Zeller), broca-da-coroa-do-azevém ( listronotus bonariensis , Kuschel), e broca-da-cana ( Diatraea saccharalis , Fabricius).
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+DESENVOLVIMENTO EM SANTA CATARINA: Seguir as informações do zoneamento agrícola do estado e as recomendações de cultivo da Comissão Brasileira de Pesquisa de Trigo e Triticale (https://www.conferencebr.com/conteudo/arquivo/informacoes-tecnicas-para-trigo-e-triticale--safra-2022-1649081250.pdf). CARACTERÍSTICA DESTAQUE: Manejo de plantas daninhas.
+
+-- Informações Complementares --
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, CLIQUE AQUI!

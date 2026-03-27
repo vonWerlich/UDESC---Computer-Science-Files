@@ -1,0 +1,29 @@
+Título: TOMATE - Cultivares - Conquistador F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0143&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B47%5D%7B279%7Dconquistador.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Sakata; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+BENEFÍCIO: Maximização de rendimento com excelente classificação. DESTAQUE: Frutos grandes e altos pegamento de frutos da base ao ponteiro.
+
+-- CARACTERÍSTICAS: --
+Planta de alta vigor. Média de início de colheita: 110 DAS. Internódios curtos. Excelente coloração e uniformidade dos frutos. Peso médio de frutos: 250g.
+
+-- VANTAGENS: --
+Alto pegamento de frutos da base ao ponteiro. Alto nível de resistência ao Vira-Cabeça. Ótimo desempenho em cultivo protegido.
+
+-- SEGMENTO: --
+Tomate Salada Indeterminado.
+
+-- RESISTÊNCIA: --
+Vd raça 1, Fol raças 1 e 2, ToMV estirpe Tm1, Mi raças 1, 2, 3 e 4 e Mj(nematoides) e TSWV (Vira-Cabeça).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sakata.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sakata.com.br.

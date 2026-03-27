@@ -1,0 +1,6 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é nas partes internas da planta (incluso grãos descascados) - O colmo apresenta galerias ou manchas escuras internamente - O colmo está broqueado - A galeria está nos entrenós, geralmente acima do nível da lâmina d’água. Pode haver excrementos no lado de fora
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017070&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17068%5D%7B174%7Dplt_brocas.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17070%5D%7B126%7Ddano_bcana.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17070%5D%7B344%7Ddano_noiva.jpg

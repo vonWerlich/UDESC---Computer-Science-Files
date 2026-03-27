@@ -1,0 +1,10 @@
+Título: CEBOLA - Escolha do cultivar - Dourada
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014469&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12597%5D%7B207%7Ddourada.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Agritu Polinização: Polinização aberta Ciclo maturação/dias: Médio/170-180 Formato do bulbo: Globular Cor da película do bulbo: Amarelo avermelhado Cor da polpa do bulbo: Branca Região/Época de plantio: Sul: Maio a Julho
+
+-- Informações Complementares --
+Informações coletadas e organizadas pelo autor

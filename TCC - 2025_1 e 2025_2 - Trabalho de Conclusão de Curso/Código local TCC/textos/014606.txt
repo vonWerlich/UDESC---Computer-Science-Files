@@ -1,0 +1,27 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Nitrogênio (N) - 2. Recomendação de nitrogênio para a cebola
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014606&isEdicao=N&epagriTEC=S
+
+
+-- RECOMENDAÇÃO DE NITROGÊNIO PARA CEBOLA: --
+Para a recomendação de nitrogênio são usados como referência os teores de matéria orgânica do solo, conforme indicado na Tabela 3.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12695%5D%7B30%7Dtabela_3.jpg
+Legenda: Tabela 3. Recomendação de nitrogênio com base nos teores de matéria orgânica do solo (Kurtz, 2016). null
+
+-- PARCELAMENTO: --
+Adicionar aproximadamente 15% da dose no plantio e o restante da dose dividir em pelo menos três parcelas de 25, 35 e 25% da dose em cobertura aos 35, 60 e 85 dias após o transplante (Figura 4).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12695%5D%7B525%7Dfigura_4.jpg
+Legenda: Figura 4. Estádios fenológicos (dias após o transplante - DAT) para a cultura da cebola (cultivares OP – cultivares de polinização aberta) em sistema de transplante e a indicação do momento adequado para realização da adubação de cobertura com nitrogênio. null
+
+-- ADUBAÇÃO COM NITROGÊNIO EM SISTEMA DE SEMEADURA DIRETA: --
+Para o sistema de semeadura direta (semeadura em área definitiva), acrescentar 20% para as doses indicadas na Tabela 3, aplicando-se 20kg ha-1 (~10%) na semeadura e o restante da dose dividir em pelo menos quatro aplicações em cobertura aos 45, 80, 110 e 135 dias após a semeadura (Figura 5).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12695%5D%7B146%7Dfigura_5.jpg
+Legenda: Figura 5. Estádios fenológicos (dias após a semeadura – DAS) para a cultura da cebola (cultivares OP – cultivares de polinização aberta) em sistema de semeadura direta em campo definitivo e a indicação do momento adequado para realização da adubação de cobertura com nitrogênio. null
+
+-- NO CASO DE PLANTIO DIRETO NA PALHA: --
+No manejo do solo em sistema de plantio direto de hortaliças (na palha) já consolidado ou no caso de armazenamento da produção por período longo, sugere-se reduzir as doses em até 25% em relação aos valores indicados na Tabela 3. Preferencialmente usar parte da adubação de fontes orgânicas. Neste sistema de recomendação a adubação nitrogenada busca seguir a curva de absorção de N com parcelamento em maior número de vezes e doses, conforme a demanda da cultura em cada época.
+
+-- NÚMERO DE APLICAÇÕES EM COBERTURA: --
+O parcelamento do N recomendado anteriormente para ambos os sistemas de cultivo indica um número mínimo de aplicações do N em cobertura, se houver possibilidade de parcelar estas adubações em maior número de vezes, pode ser vantajoso.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

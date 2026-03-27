@@ -1,0 +1,20 @@
+Título: BANANA - Manejo do bananal - Desfollha
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021687&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18374%5D%7B255%7D2014-02-14_10.22.12.jpg
+
+-- DESCRIÇÃO --
+A desfolha é uma prática que consiste na eliminação de folhas inativas (secas, senescentes, doentes), ou até mesmo as ativas (ainda verdes) quando estão localizadas entre ou junto às pencas, causando deformações ou ferimentos nos frutos. O objetivo da desfolha é aumentar a luminosidade e o arejamento do bananal, reduzindo a ocorrência de pragas e danos aos frutos, acelerando o crescimento dos filhotes e reduzindo o ciclo de produção. O arejamento reduz a umidade, contribuindo para a diminuição da incidência de doenças fúngicas e insetos pragas. Folhas secas ou atacadas por doenças podem servir como fonte de inóculo de fungos e abrigar insetos-praga. O atrito entre folhas secas e frutos facilita a penetração de fungos, potencializando a incidência de doenças como ponta-de-charuto e antracnose.( 1 )( 2 )
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18374%5D%7B125%7Ddefolha.jpg
+Legenda: Desfolha da bananeira Foto: Keny H. Marigueli
+
+-- FERRAMENTAS PARA DESFOLHA --
+O corte da folha deve ser feito na base do pecíolo, de baixo para cima, rente ao pseudocaule, utilizando-se facão, penado, foice bifurcada ou podão tipo espátula. ( 1 )
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18374%5D%7B8%7Ddesfolha_2.jpg
+Legenda: Foice bifurcada Foto: Keny H. Marigueli
+
+-- OBJETIVOS DA DESFOLHA --
+Aumentar a luminosidade e o arejamento do bananal, reduzir a ocorrência de pragas e danos aos frutos. O arejamento reduz a umidade, contribuindo para a diminuição da incidência de doenças fúngicas e insetos pragas. O atrito entre folhas secas e frutos facilita a penetração de fungos, potencializando a incidência de doenças como ponta-de-charuto e antracnose
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p. ( 2 )RODRIGUES, M.G.V.; DIAS, M. S. C.; PACHECO, D.D. Influência de diferentes níveis de desfolha na produção e qualidade dos frutos da bananeira ‘Prata-Anã’. Revista Brasileira de Fruticultura, v.31, n.3, 2009.

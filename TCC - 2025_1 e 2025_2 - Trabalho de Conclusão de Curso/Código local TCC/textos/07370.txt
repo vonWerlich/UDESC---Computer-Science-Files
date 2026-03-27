@@ -1,0 +1,25 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - d) Manejo de plantas e do cultivo para produção orgânica - 4) Desbrota
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07370&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6654%5D%7B75%7D22_-_copia.jpg
+
+-- Finalidade: --
+O tomateiro possui uma quantidade muito grande de brotos localizados nas axilas de cada folha e até mesmo em cachos florais, que é um indicativo de excesso de nitrogênio. Esses brotos crescem rapidamente e, caso não sejam eliminados, viram um dreno muito forte de fotoassimilados, além de mudarem a arquitetura de condução da planta.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6654%5D%7B37%7D28.jpg
+Legenda: Brotação no cacho floral indicando a possibilidade de excesso de nitrogênio no solo. Fonte: Morales et al., 2019.
+
+-- Como fazer: --
+A técnica consiste na eliminação dos brotos quando estes estão entre 2 e 5cm de tamanho (Figura 22), realizando a quebra dos mesmos manualmente, ou com o auxílio de tesoura. No primeiro caso, é importante utilizar luvas de látex, ou higienizar as mãos com sabão, principalmente fumantes, para reduzir o risco de transmitir viroses dentro da lavoura.
+
+-- Horário: --
+A desbrota deve ser feita pela manhã, ou com a planta bem túrgida e enxuta.
+
+-- Frequência: --
+Recomenda-se realizar a desbrota com a maior frequência possível, evitando-se intervalos maiores do que três dias. Uma sugestão é entrar na lavoura a cada dois dias para realizar a desbrota e a condução da planta no tutor simultaneamente. A correta realização dessa prática cultural permite melhor aeração dentro do cultivo e facilita o controle fitossanitário.
+
+-- Cuidados com contaminações: --
+As mãos de quem faz a desbrota devem estar limpas, principalmente de terra para não inocular Erwinia sp. no ferimento provocado pela retirada dos brotos. Quanto ao uso de tesoura, ou outro objeto cortante, é importante mergulhar estes objetos numa solução de hipoclorito de sódio (50%), entre a desbrota de uma planta e outra, reduzindo-se assim as chances de transmissão de doenças. Uma dica é utilizar dois ou mais objetos para a desbrota durante o procedimento e, enquanto utiliza um deles, o que será utilizado na próxima planta está imerso na solução de hipoclorito de sódio.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

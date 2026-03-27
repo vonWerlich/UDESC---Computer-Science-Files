@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Teflubenzuron
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017148&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Teflubenzuron
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Teflubenzuron; Nome comercial: Antrimo, Kalontra, Nomolt; Grupo químico: Benzoiluréia; Dose de produto comercial (Tratamento de sementes): 100-200mL/ha; Carência (dia): 40 Classe Toxicológica: Não; Classe ambiental: II = muito perigoso;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”.
+
+-- PRAGAS QUE CONTROLA: --
+Lagarta-militar (Spodoptera frugiperda)
+
+-- Informações Complementares --

@@ -1,0 +1,44 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Boas práticas de manejo - Uso de aeradores
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010483&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17900%5D%7B264%7Daeradores_2.jpg
+
+-- IMPORTÂNCIA: --
+A principal função do aerador é a incorporação de oxigênio da atmosfera na coluna de água por meio do aumento da interface ar/água. Também é empregado para evitar a estratificação térmica e realizar a eliminação de compostos químicos indesejados. Com o acompanhamento da qualidade da água, é possível visualizar a flutuação e tendências de elevação ou redução no oxigênio dissolvido em cada unidade de cultivo, possibilitando ao produtor se antecipar aos problemas de déficits de oxigênio.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17900%5D%7B518%7Daeradores_1.jpg
+Legenda: Modelo de aerador chafariz utilizado na piscicultura de viveiro escavado. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17900%5D%7B266%7Daeradores_2.jpg
+Legenda: Modelo de aerador tipo pá utilizado na piscicultura de viveiro escavado. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17900%5D%7B202%7Dresultado_aerador.jpg
+Legenda: Resultado de uso de aerador em viveiro raso. Foto: Haluko Massago
+
+-- Aerador chafariz e de pás: --
+O aerador chafariz possui menor manutenção. Já o aerador de pás proporciona uma melhor circulação de água, realizando a mistura da água do viveiro mais eficientemente, de forma horizontal. De forma geral, tem-se orientado para viveiros menores, até 3.000m², usar apenas aeradores de chafariz. Já em viveiros maiores, ou com formatos muito irregulares, deverão ser utilizados os dois tipos de aeradores em conjunto.
+
+-- Profundidade: --
+A profundidade do viveiro também é importante. O uso de aeradores chafariz em locais com profundidade inferior a 1,3 metro pode ocasionar o revolvimento do material depositado no fundo do viveiro, ocasionando problemas na qualidade da água, além de acumular lodo na parte de baixo do aerador, que atrapalhará na hora da despesca.
+
+-- Quanto a eficiência: --
+A eficiência que cada aerador possui para incorporar o oxigênio na água. Sendo assim, o produtor deve verificar os dados de eficiência do aerador (SAE e SORT2), que deverão ser informados pelo fabricante.
+
+-- Quantidade de aeradores: --
+A quantidade de aeradores variará principalmente com a biomassa presente no viveiro, que será consequência da densidade e peso de despesca. No geral, recomenda-se 1hp de potencial de aeração para 3 toneladas de tilápias adultas, porém, essa quantidade pode variar de acordo com o nível de insolação da região, a densidade do cultivo, taxa de arraçoamento, incidência de ventos na região, e a taxa de renovação aplicada na produção.
+
+-- Período ligado: --
+Após ligado o aerador a noite, este deverá permanecer ligado até o amanhecer, quando se inicia o processo de produção de oxigênio pelo fitoplâncton através da fotossíntese. O aerador também deverá ser ligado durante o dia, caso haja muita diferença de temperatura da água da superfície e do fundo (estratificação térmica). Neste caso deverá permanecer ligado por pelo menos 2 a 3 horas até que faça uma boa homogeneização da coluna de água. O aerador também deve ser ligado em dias nublados e chuvosos durante o dia, pois, nesses períodos, a produção de oxigênio natural pela fotossíntese será menor.
+
+-- Baixas de pressão atmosférica: --
+Atentar no uso do aerador nas baixas de pressão atmosféricas, que interferem diretamente na saturação do oxigênio dissolvido na água. Ou seja, em quedas de pressões atmosféricas o corpo de água possui menor capacidade de segurar o oxigênio dissolvido, e este dissipa para atmosfera.
+
+-- Uso de geradores: --
+No cultivo preconizado por este documento (2 a 6 tilápias por m²), mesmo nas menores densidades, é extremamente necessário o uso de gerador. O gerador deverá atender essencialmente os aeradores. A falta de energia durante a noite, principalmente quando a biomassa for superior a 1kg/m² (10 toneladas por hectare), pode trazer perdas de todo o cultivo de uma só vez.
+
+-- TEMPO DE ACIONAMENTO: Como calcular o tempo que o aerador deverá ficar ligado durante a noite? --
+O horário em que o aerador deverá ligar pode ser calculado através do método chamado de “método das leituras noturnas”. O método baseia-se na leitura da concentração de oxigênio dissolvido na água (OD) em dois períodos durante a noite em um intervalo de 2 horas. Este método é consideravelmente seguro e prático. Exemplo: O produtor realizou a 1º leitura às 19h (11mg por litro de OD) e, após 2h, realizou a 2º leitura às 21h (8mg por litro). A previsão de queda de oxigênio daquele viveiro ao longo da noite é de 1,5mg por litro de OD em uma hora. Para manter o OD acima de 4mg por litro no início da manhã, o produtor deve ligar o aerador quando este estiver ao redor de 5mg por litro. Sendo assim, o horário indicado para ligar o aerador é às 23h.
+
+-- MONITORAMENTO AO FINAL DO CULTIVO: --
+Ao final do cultivo, principalmente quando a biomassa é elevada, preconiza-se que o produtor, além de fazer o monitoramento diário pela manhã, faça esse monitoramento com frequência ao longo do dia (no meio da tarde e início da noite). Esse monitoramento com maior frequência prevenirá situações críticas de oxigênio, possibilitando que o produtor tenha maior tempo para resolver qualquer imprevisto.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

@@ -1,0 +1,10 @@
+Título: CEBOLA - Escolha do cultivar - Lola
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014528&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12620%5D%7B350%7Dlola.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Feltrin Polinização: Polinização aberta Ciclo maturação/dias: Precoce/150-160 Formato do bulbo: Globular Cor da película do bulbo: Amarela Cor da polpa do bulbo: Branca Região/Época de plantio: Sudeste: Fevereiro a Maio
+
+-- Informações Complementares --
+Informações coletadas e organizadas pelo autor

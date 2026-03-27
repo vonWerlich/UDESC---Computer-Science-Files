@@ -1,0 +1,13 @@
+Título: BANANA - Manejo do bananal - Manejo do pseudocaule após a colheita
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021693&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18380%5D%7B180%7Dpseudocaule_1.png
+
+-- DESCRIÇÃO --
+Nos cultivares do subgrupo Cavendish recomenda-se cortar o pseudocaule da bananeira, na colheita, o mais alto possível, deixando-o em pé por até dois meses. Após este período, o pseudocaule deve ser rebaixado gradativamente, à medida em que vai secando. Ainda para este grupo de cultivares, em regiões de baixa luminosidade ou bananais de alta densidade, recomenda-se a eliminação total do pseudocaule dois meses após a colheita, permitindo assim melhores condições de crescimento dos Filhotes. Nas bananeiras de outros grupos de cultivares, os filhotes normalmente já se encontram bastante desenvolvidos no momento da colheita. Nestes casos, o pseudocaule pode ser totalmente removido após este ponto.( 1 )
+
+-- MANEJO DO PSEUDOCAULE DEPOIS DE CORTADO --
+Após a derrubada, os pseudocaules devem ser cortados em pedaços e colocados nas entrelinhas do bananal( 2 ). Em bananais plantados em linhas duplas, devem ser colocados nas ruas mais largas. Em regiões de clima seco, devem ser rachados longitudinalmente para acelerar a decomposição e, nas encostas, devem ser colocados logo abaixo da linha de plantas, no sentido transversal à caída do terreno.( 1 )
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p. ( 2 )LIMA, M. B.; MENEZES, A.J.E. Sistema de Produção de Banana para o Estado do Pará.Sistema de Produção Embrapa, 8, 2014. Disponível em: https://www.alice.cnptia. embrapa.br/bitstream/doc/1002134/1/TratosCulturais.pdf. Acesso em: 22 de fevereiro de 2022.

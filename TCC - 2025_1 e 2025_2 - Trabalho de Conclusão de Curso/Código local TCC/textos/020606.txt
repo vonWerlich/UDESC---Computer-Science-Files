@@ -1,0 +1,22 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Vírus
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=020606&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17911%5D%7B506%7Dvirus_2.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Diversas doenças virais têm preocupado a tilapicultura mundial nos últimos anos. Contudo, até o presente momento no Brasil temos notificado apenas um vírus de notificação obrigatória, o ISKNV. Do inglês Infecous Spleen and Kidney Necrosis Virus (ISKNV), o vírus da necrose infecciosa do baço e rim foi notificado pela primeira vez no cultivo de tilápia no país em 2020.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17911%5D%7B382%7Dvirus.jpg
+Legenda: Tilápia do Nilo infectada por ISKNV com ascite (a), palidez branquial (b), hepatomegalia e vísceras hemorrágicas (c), presença de líquido na cavidade celomática e (d) congestão hepática. Foto: Figueiredo et al. (2021).
+
+-- FASE QUE OCORRE: --
+Está doença tem acometido principalmente nas fases inicias (alevino e juvenis), que apresentam grandes mortalidades após manejos de rotina, como classificação e transferência.
+
+-- SINTOMAS: --
+A sua identificação é dificultada, pois não apresenta sinais clínicos aparente. Facilmente pode ser confundida com sinais clínicos de outras doenças de origem bacteriana ou fungíca. Porém, alguns sinais apresentados são: líquidos no intestino, palidez branquial e alteração no baço (pálido, hemorrágico ou atrofiado).
+
+-- MORTE POR IMUNODEPRESSÃO: --
+Em alguns casos a mortalidade não é causada pelo vírus, contudo, ele causa a imunodepressão abrindo portas para patógenos oportunistas que ocasionam a mortalidade.
+
+-- Informações Complementares --
+NETO, J.D. 2020. ISKNV é o novo vírus que desafia a criação de tilápia e preocupa piscicultores brasileiros, Panorama da aquicultura, 179. FIGUEIREDO et al. (2021). Figueiredo, H. C. P., Tavares, G. C., Dorella, F. A., Rosa, J. C. C., Marcelino, S. A. C., Pierezan, F., & Pereira, F. L. (2021). First report of infectious spleen and kidney necrosis virus in Nile tilapia in Brazil. Transboundary and Emerging Diseases.

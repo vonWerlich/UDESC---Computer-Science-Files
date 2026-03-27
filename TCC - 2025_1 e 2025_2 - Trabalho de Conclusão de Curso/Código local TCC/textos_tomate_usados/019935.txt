@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Castelpro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019935&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17441%5D%7B490%7Dcastelpro.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Tipologia: Porta-enxerto para tomates; Resistência: HR : Fol:1;2;3, V:Va/Vd, Rs; IR : M; Época de plantio: Ano todo; Benefícios: Permite plantio em áreas afetadas pelos agentes causadores da Murcha-do-tomateiro; Planta: Porta-enxerto de vigor médio; Permite ótimo equilibrio vegetativo/produtivo; Não interfere no calibre e peso de frutos; Indicado para cultivo protegido e campo aberto; Raizes: Incremento no volume de raizes; Altos níveis de resistência para Fusarium 1, 2 e 3, Verticillium e Ralstonia; Compatível com a maioria dos híbridos no mercado.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.vilmorinmikado.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.vilmorinmikado.com.br/porta-enxerto/castelpro-f1

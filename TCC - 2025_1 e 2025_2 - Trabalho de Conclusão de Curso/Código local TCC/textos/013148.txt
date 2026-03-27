@@ -1,0 +1,21 @@
+Título: ARROZ IRRIGADO - 07. Manejo da água - Irrigação e drenagem da lavoura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013148&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11413%5D%7B491%7D07_irrigadrena_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O sucesso do manejo da água e seus efeitos estão relacionados ao nivelamento e eliminação de pequenas irregularidades no terreno e a um bom acabamento final no preparo do solo. Essas práticas proporcionam uma uniformidade na lâmina de água e, consequentemente, maior eficiência no uso da água, menores custos com irrigação e melhor manejo das plantas daninhas. A inundação e preparo antecipado do solo também permitem a sedimentação das partículas sólidas. A ausência de turbidez na água favorece o rápido estabelecimento das plântulas de arroz após a semeadura.
+
+-- ÁGUA NA SEMEADURA: --
+A semeadura deve ser feita em uma lâmina de água com profundidade suficiente para cobrir a superfície do solo, normalmente em torno de 5cm. Para realizar a semeadura, a temperatura da água deve ser superior a 15°C, uma vez que baixas temperaturas são prejudicais à germinação e ao desenvolvimento das plântulas. À medida que as plantas se desenvolvem, o nível de água pode ser gradativamente elevado até 10 a 15cm, mantendo-se assim até que a maioria dos grãos tenha alcançado o estado pastoso. Em áreas com maior incidência de ventos a lâmina deve ser mantida entre 5 e 10cm para evitar o acamamento das plantas.
+
+-- DRENAGEM NO PERFILHAMENTO: --
+No perfilhamento pleno, uma drenagem intermediária poderá ser efetuada, com o objetivo de melhorar a sustentação física do solo para a colheita. Porém, esta prática deve ser adotada com bastante cautela, pois aumenta o risco de incidência do percevejo-do-colmo e da brusone . Além disso, é necessário que haja disponibilidade de água para rápida reposição, visto a grande demanda de água pela planta de arroz no estágio reprodutivo.
+
+-- DRENAGEM FINAL: --
+Para a supressão final da água, deve-se levar em consideração a textura do solo. Para solos argilosos pode-se suprimir a irrigação de 10 a 15 dias após a floração plena e para solos arenosos, aos 20 dias, sem que haja prejuízo para o rendimento da lavoura e qualidade dos grãos.
+
+-- CUIDADOS ADICIONAIS: --
+Para reduzir perdas de água durante o período de irrigação, deve-se manter os canais de drenagem fechados e, sempre que possível, com água. A limpeza e manutenção das estruturas de captação, derivação e bombeamento, bem como os canais de irrigação e drenagem devem ser realizadas no período de entressafra, para que o sistema funcione bem durante o período de irrigação.
+
+-- Informações Complementares --

@@ -1,0 +1,11 @@
+Título: 1) REGULAMENTAÇÃO - 3) Plano de manejo orgânico
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012233&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_alface.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6626%5D%7B529%7Dcapa_tomatorg.jpg
+
+-- Plano de manejo orgânico: --
+O plano de manejo orgânico do período de conversão deve ser específico, contemplando os regulamentos técnicos e todos os aspectos relevantes do processo de produção, tais como: histórico de utilização da área; manutenção ou incremento da biodiversidade; manejo dos resíduos; conservação do solo e da água; manejos da produção vegetal; da produção animal e dos animais de serviço, produção para subsistência e outros procedimentos para pós-produção, envase, armazenamento, processamento, transporte e comercialização. Finalmente, devem-se observar as medidas para prevenção e mitigação de riscos de contaminação externa; procedimentos que contemplem a aplicação das boas práticas de produção; as inter-relações ambientais, econômicas e sociais; a ocupação da unidade de produção considerando os aspectos ambientais e as ações que visem evitar contaminações internas e externas.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

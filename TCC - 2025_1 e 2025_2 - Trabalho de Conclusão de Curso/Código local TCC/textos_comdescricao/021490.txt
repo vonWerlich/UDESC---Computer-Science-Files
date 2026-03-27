@@ -1,0 +1,46 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Lesma-omalonix (Omalonyxspp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021490&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Lesma-omalonix ( Omalonyx spp. )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11363%5D%7B54%7Dlesma_caput.jpg
+FOTO: Não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B361%7Dlesma_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B472%7Dlesma_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B217%7Dlesma_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B2%7Dlesma_fig11.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B160%7Dlesma_fig12.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B513%7Dlesma_fig13.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B401%7Dlesma_fig14.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B330%7Dlesma_fig15.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B199%7Dlesma_fig16.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B469%7Dlesma_fig17.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B38%7Dlesma_fig18.jpg
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie: Omalonyx sp. Ordem: Eupulmonata Família: Succineidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B85%7Dlesma_base.jpg
+
+-- IDENTIFICAÇÃO: --
+As lesmas do gênero Omalonyx são "quase caramujos" (ou "semi-lesmas" para alguns autores), pois têm uma concha externa reduzida, achatada e em forma de unha na região mediana do dorso. Essas lesmas atingem em torno de 3cm de comprimento e a coloração é amarelo-pardacenta.
+
+-- CICLO DE VIDA: --
+As lesmas são hermafrodidas, herbívoras, anfíbias e limnófilas, ou seja habitam ambientes de transição entre a terra firme e a água, sendo encontradas no solo úmido ou sobre plantas aquáticas e demais vegetações adjacentes de brejos, lagos e planícies de inundação de rios. A postura é feita em grupos de 15 a 20 ovos, que incubam por 13 a 20 dias. Entre 86 e 90 dias os indivíduos chegam no estágio adulto, completando o ciclo de vida.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B170%7Dlesma_ciclo.jpg
+
+-- OCORRÊNCIA: --
+Anual: de agosto a novembro. Crítico: outubro. Lavoura: da semeadura ao perfilhamento.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11363%5D%7B302%7Dlesma_fenologia.jpg
+
+-- DANOS: --
+As lesmas comem o arroz, deixando as folhas novas com raspagens no sentido das nervuras, que podem levar a seca dessas folhas. Plantas pequenas podem ser tombadas e completamente consumidas pelas lesmas, o que ocasiona perda de estande na lavoura.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Investigar as causas do aumento populacional desses animais e tentar corrigir essas causas. • Drenar as quadras, objetivando limitar a dispersão das lesmas na área e ao mesmo tempo forçá-las a retornar para seus locais de origem. • Em situações emergenciais, polvilhar cal hidratada sobre os indivíduos.
+
+-- Informações Complementares --
+GARCIA, M.V.B.; ARRUDA, J.O.; PIMPÃO, D.M.; GARCIA, T.B. Ocorrência e controle de lesmas do gênero Omalonyx (Gastropoda, Succineidae), pragas de capim-elefante Pennisetum purpureum (Poaceae) em Rio Preto da Eva, Amazonas. Acta Amazonica , v.42, n.2, p.227-230, 2012.
+GARCIA, M.V.B.; ARRUDA, J.O.; PIMPÃO, D.M.; GARCIA, T.B. Ocorrência e controle de lesmas do gênero Omalonyx (Gastropoda, Succineidae), pragas de capim-elefante Pennisetum purpureum (Poaceae) em Rio Preto da Eva, Amazonas. Acta Amazonica , v.42, n.2, p.227-230, 2012.
+• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri) Manejo integrado de pragas

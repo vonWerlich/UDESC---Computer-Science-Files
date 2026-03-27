@@ -1,0 +1,72 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - c) Escolha dos cultivares, produção de mudas e plantio - 6) Enxertia
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07362&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6647%5D%7B377%7D16.jpg
+
+-- A enxertia do tomateiro: --
+A enxertia do tomateiro é uma técnica amplamente conhecida e utilizada em países desenvolvidos cuja produção de hortaliças apresenta um caráter mais intensivo. Em Santa Catarina, a técnica está sendo muito difundida pelos técnicos e procurada por produtores, e vem se consolidando dentre as tecnologias fundamentais para o manejo de doenças de solo. De maneira geral, busca-se, por meio de um porta-enxerto (PE), a resistência genética a doenças do solo que limitam o crescimento de raízes, tanto em cultivos a céu aberto como em cultivo protegido. Enxerta-se o cultivar comercial sobre um PE resistente, pertencente a outro cultivar, espécie ou gênero da mesma família botânica.
+
+-- Principais resistências adquiridas via Porta-Enxerto: --
+No mercado brasileiro existem PE resistentes a diversas doenças, com destaque para murcha-bacteriana (Ralstonia solanacearum), murcha de verticílio (Verticillium spp.), murcha de fusário (Fusarium oxysporum f.sp. lycopersici), podridão da coroa e da raiz (Fusarium oxysporum f.sp. radicis-lycopersici), mosaico do tomateiro (Tomato mosaic virus) e nematoides (Meloidogyne arenaria, M. incógnita, M. javanica).
+
+-- Principal motivo para fazer a enxertia no tomateiro: --
+Apesar de todas as doenças supracitadas serem importantes, a prática da enxertia é justificável principalmente por causa de uma doença: a murcha-bacteriana. Isso ocorre porque ainda não há no mercado cultivares resistentes a essa bactéria. Se o problema de murcha for causado pela presença de nematoides na área de cultivo, basta selecionar um cultivar comercial que tenha em sua genética os genes de resistência aos nematoides, como é o caso dos cultivares relacionados na Tabela 5. Com isso, descarta-se a necessidade da enxertia, com economia de tempo e dinheiro, pois todo o processo eleva consideravelmente o custo da muda.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B117%7D14.jpg
+Legenda: Resistências a doenças encontradas em porta-enxertos de tomateiro às principais doenças de solo. Fonte: Morales et al., 2019.
+
+-- Caso a área de cultivo tenha histórico de problemas com a murcha bacteriana: --
+Existem duas possibilidades a ser consideradas nessa ocasião: a primeira é evitar o plantio de solanáceas na área em questão e iniciar um manejo de solo, principalmente com plantas de cobertura não suscetíveis à bactéria; a segunda e mais eficiente é utilizar um PE que tenha resistência genética à bactéria, o que traz, na maioria das vezes, resultados muito consistentes.
+
+-- Uso de outras solanáceas para a enxertia: --
+Para o controle da murcha-bacteriana, o PE resistente pode ser um genótipo de tomateiro ou de outras solanáceas resistentes pertencentes a espécies ou gêneros distintos, sendo mais conhecidas as várias espécies de “jurubebas” (gênero Solanum subgênero Leptostemonum), o jiló e a berinjela (Goto et al., 2003). Entretanto, a utilização de acessos do próprio tomateiro como PE tem a vantagem de reduzir o problema de incompatibilidade associada ao uso de espécies/gêneros diferentes. Além disso, essa estratégia simplifica a operação de enxertia, pois o enxerto e o PE podem ser plantados simultaneamente.
+
+-- Quebra da resistência do Porta-Enxerto: --
+É possível que o agente fitopatogênico consiga infectar plantas enxertadas com PE resistentes, causando a murcha característica e a perda da produção. Isso ocorre em áreas que tenham grande quantidade de bactérias fitopatogênicas, em solo mal manejado, encharcado, com baixa quantidade de matéria orgânica, aliado a um ambiente estressante, principalmente sob altas temperaturas. Assim, o PE deve fazer parte de uma estratégia maior para um controle eficiente da doença, e não deve ser usado isoladamente como única ação.
+
+-- MÉTODO DE ENXERTIA: --
+Para a enxertia do tomateiro, o método por estaca terminal é mais eficiente do que a enxertia por aproximação (encostia). Entretanto, o manejo deve ser mais cuidadoso no que se refere às condições ambientais pós-enxertia (temperatura e umidade). O procedimento descrito a seguir foi adaptado de Lopes & Mendonça (2014), conforme segue:
+
+-- 1 - Produção das mudas: --
+Semear simultaneamente o PE e o cultivar comercial em bandejas para produção de mudas. Bandejas com 128 células são as mais recomendadas. O substrato comercial deve ter adubação equilibrada, em especial sem excesso de nitrogênio, e as mudas irrigadas moderadamente para evitar a ocorrência de tombamento. As mudas devem ser produzidas em ambiente bem iluminado para que não fiquem estioladas. É essencial dispor de plantas vigorosas do enxerto e do porta-enxerto.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B372%7D15.jpg
+Legenda: Padrão de muda de tomateiro utilizado no processo de enxertia. Fonte: Morales et al., 2019.
+
+-- 2- Tempo para enxertia e ferramentas: --
+Dependendo das condições meteorológicas, o tempo para realizar a enxertia vai variar entre 20 e 25 dias após a semeadura. As ferramentas usadas são a lâmina de barbear ou bisturi e clipes próprios para a enxertia do tomateiro.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B289%7D17.jpg
+Legenda: Modelos de clipes utilizados para a enxertia. Fonte: Morales et al., 2019.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B505%7D16.jpg
+Legenda: Uso de lâmina de barbear para o corte do caule para a enxertia. Fonte: Morales et al., 2019.
+
+-- 3 - Como cortar: --
+A preparação do PE para receber o enxerto consiste em cortar transversalmente (oblíquo) o caule da muda do PE a cerca de 8cm de altura. No preparo do enxerto, corta-se transversalmente (obliquo) a muda na altura das folhas cotiledonares.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B380%7D18.jpg
+Legenda: Corte transversal (oblíquo) na altura das folhas cotiledonares. Fonte: Morales et al., 2019.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B145%7D19.jpg
+Legenda: Encaixe do cultivar copa (cavaleiro), de tal forma que haja um contato perfeito entre as duas superfícies. Fonte: Morales et al., 2019.
+
+-- 4- Junção do Cavaleiro (Parte Aérea) no Cavalo (Raiz): --
+A enxertia em si consiste na junção perfeita do segmento transversal do enxerto com a do porta-enxerto, de modo a estabelecer um contato íntimo entre os tecidos dos dois genótipos. Deve-se usar uma presilha para auxiliar o contato entre os tecidos dos dois genótipos. Existem diferentes modelos e tamanhos de presilhas para a enxertia do tomateiro. A utilizada na Epagri/EEI é uma presilha de silicone de 2mm de espessura em formato de grampo. Para ajudar a reduzir a pressão sobre o ponto de enxerto, recomenda-se fixar junto a cada planta enxertada um palito de madeira ou varetas de bambu.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B456%7D20.jpg
+Legenda: Fixação do enxerto no porta-enxerto com presilha de silicone. Fonte: Morales et al., 2019.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B77%7D21.jpg
+Legenda: Uso de presilhas plásticas fixadas com varetas de bambu para reduzir a pressão sobre o ponto de enxertia. Fonte: Morales et al., 2019.
+
+-- 5- Câmara de enxertia: --
+Após a operação da enxertia é normal o enxerto murchar, devido ao rompimento dos vasos vasculares e interrupção do suprimento de seiva. Por isso, as mudas devem ser levadas rapidamente após a enxertia para um local com elevada umidade relativa do ar, de no mínimo 80% (câmara úmida), sob o risco de perder a viabilidade das enxertias. Para aumentar a umidade da câmara, devem-se umedecer todas as superfícies internas e colocar jornal abaixo das bandejas, o que auxilia na manutenção da umidade da câmara. A câmara úmida deve permanecer num local fresco e de meia-luz, tal como as proximidades de clareira de uma mata. O monitoramento da umidade da câmara deve ser constante, pois a redução da umidade ambiente é fator decisivo para a redução da viabilidade dos enxertos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B104%7D22.jpg
+Legenda: Câmara úmida para manutenção da umidade das mudas após a enxertia. Fonte: Morales et al., 2019.
+
+-- 8- Aclimatação após a enxertia e antes do plantio: --
+As plantas enxertadas devem permanecer na câmara por cerca de quatro dias. Após esse período, as mudas devem ser colocadas em um abrigo, protegidas da insolação por telas de sombreamento (vermelha ou aluminizada). Caso a temperatura interna da câmara ultrapasse os 35oC, esta deve ser aberta somente para a troca de ar e fechada imediatamente. O tempo de permanência nesse ambiente varia entre 3 e 4 dias. Após, a câmara deve ser aberta e as plantas devem permanecer nesse local por mais 1 a 2 dias. Completado todo esse período entre a enxertia e a aclimatação e cicatrização do enxerto, as mudas estarão prontas para o transplante. A retirada dos clipes de enxertia pode ser realizada imediatamente antes ou dois dias após o transplantio.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B367%7D24.jpg
+Legenda: Tomateiro em pleno crescimento vegetativo. Fonte: Morales et al., 2019.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6647%5D%7B211%7D23.jpg
+Legenda: Tomateiro enxertado e recém transplantado para o campo. Fonte: Morales et al., 2019.
+
+-- Observações Gerais: --
+- A temperatura ambiente deve ser baixa e a umidade relativa do ar elevada no momento da enxertia; - Uma ampla superfície de contato entre o cultivar e o porta-enxerto aumenta o pegamento das enxertias; - Ao enxertar, deve-se tomar cuidados fitossanitários para prevenir infecções por patógenos nas feridas produzidas; - É essencial que não se faça amontoa do tomateiro acima do ponto de enxertia; - A irrigação por gotejamento ajuda a reduzir a contaminação dos enxertos, devido à ausência de respingos de água; - No caso do uso de aspersão, deve-se usar cobertura morta para dificultar que respingos de água contaminados levem o patógeno até os tecidos do enxerto.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

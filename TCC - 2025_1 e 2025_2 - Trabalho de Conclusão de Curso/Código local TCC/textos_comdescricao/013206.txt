@@ -1,0 +1,37 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares CL (Clearfield) - SCS121 CL
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013206&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+08. Cultivares
+Portfólio de cultivares Epagri
+Cultivares CL ( Clearfield )
+SCS121 CL
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11460%5D%7B224%7Dscs121_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar SCS121 CL é oriundo do cruzamento feito em 2001 entre Epagri 108 com a linhagem PCW16, portadora de gene de resistência a herbicidas do grupo das imidazolinonas. Posteriormente dois outros retrocruzamentos foram realizados. A linhagem SC 742 resultante foi submetida a avaliações em ensaios regionais durante 2 anos, em três regiões edafoclimáticas do Estado e lançada como cultivar em .... É um cultivar de tipo moderno e destaca-se pela tolerância aos herbicidas do grupo das imidazolinonas inclusive o Kifix, sendo considerado um cultivar de segunda geração.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: Alto Vale do Itajaí: 9,0t/ha; Litoral Norte: 8,4t/ha; Sul do Estado: 8,2t/ha • Altura da planta: 85cm • Ciclo: Tardio (141 dias) • Acamamento: Moderadamente resistente • Reação à toxidez por ferro: Moderadamente suscetível • Reação à brusone: Moderadamente suscetível • Reação a baixas temperaturas (13°C): ...
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 2 • Classe: Longo fino • Renda do beneficiamento: 71% • Rendimento de grãos inteiros: 58,5% • Teor de amilose: 23% • Temperatura de gelatinização: Intermediária/alta
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: ...cm • Largura: ...cm • Pubescência: Média • Ângulo das folhas: ... • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Incolor a verde • Cor da aurícula: Verde-clara • Cor do colo: ...
+
+-- COLMO: --
+• Comprimento: 85cm • Espessura: 0,38cm • Perfilhamento: Bom • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde-clara
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Intermediário (24,3cm) • Exserção: Médio/completa • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Amarela • Cor do apículo na maturação: Palha • Cor da pálea e lema: Palha • Cor das glumelas: Palha/dourada
+
+-- GRÃOS: --
+• Comprimento: 7,3mm • Espessura: 1,8mm • Largura: 2,2mm • Relação C/L: 3,32 • Forma do grão: Alongado • Peso de mil grãos: 29,9g • Pilosidade: Média
+
+-- Informações Complementares --
+• Alexander de Andrade (Dr. em Melhoramento - Epagri) Melhoramento e cultivares

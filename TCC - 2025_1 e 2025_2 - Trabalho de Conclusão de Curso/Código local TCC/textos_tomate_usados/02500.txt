@@ -1,0 +1,20 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - C) MANEJO DE PLANTAS NA PRODUÇÃO INTEGRADA - i) Desfolha
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02500&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2263%5D%7B69%7Dcapa_1.jpg
+
+-- Conceito: --
+A prática de eliminação das folhas mais velhas é indicada para melhorar o arejamento, a iluminação e o controle fitossanitário. Entretanto, a desfolha não deve ser muito severa, porque as folhas são fontes de suprimento de energia.
+
+-- Como fazer: --
+As folhas velhas da parte inferior da planta devem ser retiradas mantendo-se de 2 a 3cm de pecíolo. Pode-se manter até três folhas logo abaixo do cacho ainda produtivo da planta, dependendo de suas condições fitossanitárias. Recomenda-se a realização dessa prática em dias secos. Após a desfolha, os cortes dos pecíolos devem ser pulverizados com produtos à base de cobre.
+
+-- Quando fazer: --
+A primeira desfolha deve ser realizada antes da primeira colheita dos frutos. A resposta do tomateiro à desfolha depende do cultivar, do hábito de crescimento e da estatura das plantas, pois a combinação desses fatores resulta em dosséis com diferentes potenciais para a fotossíntese, assim como diferentes pontos de equilíbrio entre massa vegetativa e reprodutiva, numa perspectiva de maximização da produtividade.
+
+-- Vantagens: --
+Essa prática contribui para a diminuição da disseminação de doenças e evita o contato ou a proximidade das folhas com o solo, dificultando com isso a entrada de doenças bacterianas pelos respingos de chuva.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

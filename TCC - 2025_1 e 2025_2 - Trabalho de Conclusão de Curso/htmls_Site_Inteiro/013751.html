@@ -1,0 +1,344 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=8233&amp;isEdicao=N&amp;epagriTEC=S">CEBOLA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9907&amp;isEdicao=N&amp;epagriTEC=S">Manejo de pragas</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13751&amp;isEdicao=N&amp;epagriTEC=S">Mosca-da-Cebola (Delia platura)</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="11971">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="013751">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11971]{121}5.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>FOTOS E VÍDEOS: </b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23565,013751,11971,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{495}figura_2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25534,013751,11971,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{271}1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23566,013751,11971,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{80}figura_3.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25535,013751,11971,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{173}2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25537,013751,11971,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{535}3.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25538,013751,11971,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{178}4.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25539,013751,11971,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{536}5.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25540,013751,11971,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{301}6.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25541,013751,11971,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{30}7.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25542,013751,11971,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{75}8.jpg">  </a> 
+<br><br>
+<img src="./img/iconeDocumento.png">  <a target="_blank" style="text-decoration: none;" href="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{312}larvas_de_delia_sp._em_cebola._aurora,_sc_-_2021.mp4">Vídeo 1. Larvas de Delia sp. em cebola. Aurora, SC - 2021. </a> <br>
+<img src="./img/iconeDocumento.png">  <a target="_blank" style="text-decoration: none;" href="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{402}larva_delia_sp._2_-_2021.mp4">Vídeo 2. Larva Delia sp. 2 - 2021. </a> <br>
+<img src="./img/iconeDocumento.png">  <a target="_blank" style="text-decoration: none;" href="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{214}whatsapp_video_2022-06-11_at_14.23.48.mp4">Vídeo 3. Larva Delia sp. - 2021. </a> <br>
+<br>
+<b>INFORMAÇÕES GERAIS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A mosca-da-cebola, Delia sp., (Figura 1) também conhecida popularmente como bicheira, bichinho da raiz ou mosca-da-raíz-da-cebola, são insetos de hábito saprófito e, por isso, se alimentam de matéria orgânica em decomposição, porém podem atacar plantas cultivadas ou não. Esse inseto tem sido registrado na cultura da cebola em nossa região.<br><br>
+
+É uma praga de ocorrência esporádica para as condições do Alto Vale do Itajaí. Recentemente foram também observados surtos populacionais de Delia sp. nas regiões do Alto Vale do Rio do Peixe, Grande Florianópolis e Serra Catarinense em áreas cultivadas com cebola. Apesar de ser uma praga esporádica seus surtos podem causar grandes prejuízos aos cebolicultores devido a capacidade destrutiva da praga.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ASPECTOS BIOLÓGICOS E IDENTIFICAÇÃO: </b><br>
+<p class="p1"><div> A mosca-da-cebola apresenta quatro fases distintas de desenvolvimento: ovo, larva, pupa e adulto.  <br> </div></p>
+<b>Ovos:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> As fêmeas adultas, moscas, depositam os ovos no solo junto as plantas ou em áreas com a presença de elevada quantidade de matéria orgânica ainda em decomposição. Os ovos são brancos com formato semelhante a grãos de arroz (Figura 2). A fase de ovos dura de 2 a 7 dias dependendo da temperatura do ambiente, quanto mais frio maior a duração da fase de desenvolvimento.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25543,013751,11971,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{352}2.jpg">  </a> 
+<br><br>
+<b>Larvas: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> As larvas eclodem e se dirigem para as raízes das plantas onde passam a se alimentar (Figura 3). Apresentam coloração branco-amareladas, sendo do tipo vermiforme, ou seja não apresentam pernas (ápodas), corpo cilíndrico, 0,6cm de comprimento, com um leve traço escuro no sentido longitudinal (região do aparelho bucal do inseto), onde é possível identificar a região da cabeça. De forma geral a fase de larva dura 15 dias, variando de 8 a 55 dias, também de acordo com a temperatura.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25544,013751,11971,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{119}3.jpg">  </a> 
+<br><br>
+<b>Pupas: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Com o término da fase de larva é formada a pupa (Figura 3), se trata de uma estrutura semelhante a um casulo de largarta no qual a larva irá se transformar em uma mosca adulta. A fase de pupa ocorre no interior do solo e dura aproximadamente 14 dias, variando de 8 a 29 dias.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25545,013751,11971,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{102}4.jpg">  </a> 
+<br><br>
+<b>Adultos: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os adultos saem das pupas (emergem) no início da manhã, sendo possível ver moscas saindo de dentro do solo literalmente. As moscas possuem em torno de 0,8cm de comprimento, são menores que a mosca doméstica, de corpo delgado e apresentam coloração preto-acinzentada (Figura 1). O comportamento de voo é lento, principalmente no início da manhã, tendo hábito de permanecer em repouso para se aquecer, as asas permancendo em posição penpendicular ao corpo (Figura 5).<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25546,013751,11971,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{262}1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25547,013751,11971,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{49}5.jpg">  </a> 
+<br><br>
+<b>OCORRÊNCIA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A mosca-da-cebola costuma ocorrer em plantas novas de cebola com até duas a três folhas. Pode atacar plantas recém germinadas, especialmente em áreas de semeadura definitiva e, em canteiros de formação de mudas quando o sistema utilizado é de transplantio. Porém, a maioria dos ataques registrados tem ocorrido logo após o transplantio. O pico de atividade das moscas é entre os meses de junho a agosto, coincidindo com as baixas temperaturas que ocorrem em Santa Catarina.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>DANOS E SINTOMAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Inicialmente as larvas alimentam-se das raízes, provocando um dano chamado pelos agricultores de “aleijamento das mudas”, o qual consiste na redução ou até mesmo eliminação das raízes das plantas (Figura 6).<br><br>
+
+Conforme as larvas vão crescendo estas perfuram as mudas na área de emissão das raízes, chamada de disco e, em seguida o “pescoço da planta” (pseudocaule). As larvas penetram no interior do pseudocaule causado danos semelhantes a de um inseto broqueador, impedindo a translocação de água e nutrientes pela planta (Figura 7).<br><br>
+
+As plantas atacadas apresentam amarelecimento e murchamento das folhas, sistomas semelhantes a falta de água e nutrientes. Pode também ser verificado aprodrecimento das plantas causado microorganismos que aproveitam os orifícios abertos pelas larvas. Ataques severos causam a morte das plantas de cebola rapidamente.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25548,013751,11971,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{220}6.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25549,013751,11971,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{152}7.jpg">  </a> 
+<br><br>
+<b>IMPORTANTE: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> 1) A mosca-da-cebola, Delia sp., possui hábito de saprófita, provavelmente por isso prefere plantas estressadas predispostas ao processo de decomposição. Portanto, qualquer estresse que a planta sofre atrai o inseto para colocar seus ovos.<br><br>
+
+2) Geralmente nos locais onde ocorrem ataques de larvas há algum agente causador de estresse que deve ser detectado e evitado para prevenir futuras perdas por este inseto.<br><br>
+
+3) Este estresse pode ser causado por vários fatores: seca; leve fitotoxidez causada por herbicidas ou algum insumo aplicado via foliar; alumínio tóxico; dano fisiológico nas plantas pela decomposição, fermentação da matéria orgânica, que pode ser proveniente de esterco não curtido, plantas invasoras, adubo verde, ou de cultura presente anteriormente na área.<br><br>
+
+4) Na safra 2021/22 foi verificada maior incidência da Delia sp. em mudas de cebola transplantadas em áreas anteriormente utilizadas como canteiro. Além disso, a presença de restos culturais, principalmente mudas descartadas e podas serve como atrativo para as moscas adultas ovipositarem (Figura 8).<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,25550,013751,11971,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11971]{100}8.jpg">  </a> 
+<br><br>
+<b>CONTROLE QUÍMICO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O controle químico da larva não tem sido recomendado, pois não há inseticidas registrados para controle deste inseto em condições brasileiras.<br><br>
+
+A aplicação de inseticidas para eliminar as larvas ainda presentes na área deve ser realizada apenas com produtos registrados para a cultura para se evitar fitotoxidez e estar de acordo com a legislação vigente.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>RECOMENDAÇÕES DE MANEJO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> ●	Preparar os canteiro de produção de mudas com antecedência;<br><br>
+●	Utilizar adubação orgânica bem curtida;<br><br>
+●	Evitar causar estresse nas plantas, tais como: falta ou excesso de água e adubos além de machucados nas mudas no momento do transplante;<br><br>
+●	Áreas com histórico de ocorrência de mosca-da-cebola deve-se realizar a rotação de culturas, evitando o cultivo sucessivo de cebola;<br><br>
+●	Evitar transplante de mudas em áreas que foram utilizadas como canteiro;<br><br>
+●	Remover restos de podas de mudas das áreas de cultivo, assim como bulbos descartados de uma safra para outra.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>MÍDIAS DISPONÍVEIS SOBRE A PRAGA:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> NSC TV: <a target="_blank" href="https://globoplay.globo.com/v/9838536/">Pesquisadores buscam defensivos para o combate de moscas na plantação de cebola</a><br><br>
+
+Vale Agrícola: <a target="_blank" href="https://www.youtube.com/watch?v=skCziyxrN_g">Mosca causa prejuízo na cebola</a><br><br>
+
+Rádio Sintonia 94,7 FM: <a target="_blank" href="https://www.sintonia.fm.br/noticias/alto-vale/agricultura/aumento-de-casos-de-moscas-da-cebola-preocupa-pesquisadores-da-epagri-de-ituporanga-35545.html#:~:text=Segundo%20a%20Epagri%20%C3%A9%20mais,canteiros%20ou%20em%20semeadura%20direta">Aumento de casos de moscas da cebola preocupa pesquisadores da Epagri de Ituporanga</a><br>
+
+
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+<a href="javascript:chamarPagina(13750)">CLIQUE AQUI</a> para acessar as referências na íntegra.
+ </div></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Leandro Delalibera Geremias (Eng.- Agr. Dr. Entomologia - Epagri)<br> &nbsp;&nbsp;Tem experiência na área de Agronomia, com ênfase em Entomologia Agrícola. Atualmente, está como pesquisador na Epagri, Estação Experimental de Ituporanga e realiza pesquisas com manejo de Thrips tabaci em cebola. </font> 
+<br> <font size="2">• Paulo Antônio de Souza Gonçalves (Eng.- Agr. Dr. Ecol. e Recursos Naturais - Epagri)<br> &nbsp;&nbsp;Trabalhos publicados e assessoria nos seguintes temas: manejo ecológico e orgânico de hortaliças com foco em cebola; Allium cepa; manejo ecológico de tripes, Thrips tabaci; agroecologia; agricultura orgânica; manejo ecológico de mosca-das-frutas, Anastrepha fraterculus; homeopatia vegetal.  </font> 
+<br><br><br> <font size="2"> Criado em: 09/09/2021</font>
+<br> <font size="2"> Última atualização: 11/06/2022</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=013751&amp;cdElemento=11971">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=11971');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

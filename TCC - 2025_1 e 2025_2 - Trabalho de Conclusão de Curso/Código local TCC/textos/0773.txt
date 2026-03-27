@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - BS IGR0023 F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0773&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B653%5D%7B116%7Dbs_igr0023.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Blueseeds; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Pst - Pseudomonas syringae pv. tomato; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: Vd - Verticillium dahliae
+
+-- INFORMAÇÕES DA EMPRESA: --
+Hábito de Crescimento : Indeterminados ; Grupo : Grape ; Peso Médio : 26 a 32g ; Ciclo : precoce ; Nº de Lócus : 2 ; Tolerância : V¹, F¹, T, Sw, P ; Densidade do plantio : 1,50×1,80m – 0,40×0,60m ; Nº de hastes : 2 a 4
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://blueseeds.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://blueseeds.com.br.

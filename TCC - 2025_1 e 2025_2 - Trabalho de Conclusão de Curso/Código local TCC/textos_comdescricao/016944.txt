@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016944&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16886%5D%7B82%7Dchave_fig02.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo)
+A praga tem uma espécie de agulha na cabeça, para picar as plantas
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16944%5D%7B118%7Dchave_fig07.jpg
+Legenda: A praga tem uma espécie de agulha na cabeça, para picar as plantas
+16945
+A praga tem uma espécie de agulha na cabeça, para picar as plantas
+A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16944%5D%7B35%7Dchave_fig08.jpg
+Legenda: A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo
+16946
+A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo

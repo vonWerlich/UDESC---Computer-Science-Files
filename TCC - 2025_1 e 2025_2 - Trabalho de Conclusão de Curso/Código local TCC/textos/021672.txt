@@ -1,0 +1,10 @@
+Título: BANANA - Cultivares - Branca
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021672&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18355%5D%7B95%7Dbranca.png
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAB, subgrupo Prata. Apresenta porte alto variando de 3 a 5,6m de altura e produz cachos pequenos em torno de 10 kg. Cultivar muito rústico e recomendado para cultivos agroflorestais ou orgânicos. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹)
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.

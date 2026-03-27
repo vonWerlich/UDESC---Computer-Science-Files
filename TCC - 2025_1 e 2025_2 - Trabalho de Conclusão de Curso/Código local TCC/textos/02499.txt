@@ -1,0 +1,14 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - C) MANEJO DE PLANTAS NA PRODUÇÃO INTEGRADA - h) Poda apical ou desponte
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02499&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2262%5D%7B188%7Dcapa_1.jpg
+
+-- Conceito: --
+Consiste em podar o ápice das hastes de produção da planta quando estas ultrapassarem a altura do tutor ou quando cada haste tiver de seis a sete cachos de frutos formados. Deve-se deixar duas a três folhas acima do último cacho para favorecer o nível de fonte de fotoassimilados para o desenvolvimento dos frutos. Essa prática auxilia o crescimento dos frutos dos cachos mais altos. A poda é realizada para controlar o desenvolvimento vegetativo acentuado do tomateiro, manter robustez da planta, aumentar o tamanho dos frutos e propiciar sua maturação precoce.
+
+-- Benefícios: --
+O desponte ou poda apical, quando se deixa um menor número de cachos por planta, traz benefícios à cultura do tomate, tais como: redução do ciclo, facilidade de execução dos tratos culturais, aumento da massa média dos frutos, redução e maior segurança na aplicação de agrotóxicos. Além disso, a limitação do número de cachos por planta é uma prática recomendada principalmente nos cultivos cujas condições ambientais limitem o crescimento da planta e consequentemente o número de cachos produtivos.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

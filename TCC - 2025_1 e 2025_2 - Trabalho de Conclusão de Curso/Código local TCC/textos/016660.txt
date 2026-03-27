@@ -1,0 +1,6 @@
+Título: CEBOLA - DIAGNOSE VISUAL - Raízes
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016660&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16643%5D%7B225%7D%5B7390%5D%7B162%7Dscreenshot_20200330-145257_adama_hf.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16660%5D%7B103%7D%5B7394%5D%7B279%7Dscreenshot_20200330-145456_adama_hf.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16660%5D%7B419%7D%5B7390%5D%7B162%7Dscreenshot_20200330-145257_adama_hf.jpg

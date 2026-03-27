@@ -1,0 +1,47 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Pulgão-da-raiz (Rhopalosiphum rufiabdominale)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021506&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11362%5D%7B345%7Dpulgao_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B310%7Dpulgao_fig01.jpg
+Legenda: 01. Indivíduo alado do pulgão-da-raiz. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B428%7Dpulgao_fig03.jpg
+Legenda: 03. Indivíduos alados do pulgão-da-raiz. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B176%7Dpulgao_fig06.jpg
+Legenda: 06. Colônia de pulgão-da-raiz numa folha. Fonte: UGA (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B141%7Dpulgao_fig07.jpg
+Legenda: 07. Colônia de pulgão-da-raiz nas raízes. Fonte: T.F.S.Freitas (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B327%7Dpulgao_fig11.jpg
+Legenda: 11. Planta de arroz infestada por pulgão-da-raiz. Fonte: T.F.S.Freitas (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B156%7Dpulgao_fig12.jpg
+Legenda: 12. Planta atacada por pulgão-da-raiz. Fonte: E.Ferreira (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B370%7Dpulgao_fig13.jpg
+Legenda: 13. Ataque de pulgão-da-raiz em lavoura de coxilha. Fonte: T.F.S.Freitas (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B273%7Dpulgao_fig14.jpg
+Legenda: 14. Plantas secas atacadas por pulgão-da-raiz na taipa. Fonte: D.N.Gassen (remasterizada)
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie: Rhopalosiphum rufiabdominale (Sazaki) Ordem: Hemiptera Família: Aphididae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B546%7Dpulgao_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+O pulgão mede em torno de 2mm de comprimento e tem abdome verde-alaranjado com manchas avermelhadas na base dos sifúnculos. Pode ser áptero ou dotado de um par de asas hialinas.
+
+-- CICLO DE VIDA: --
+O pulgão é parido após um período pré-vivíparo de 1 a 3 dias. Após 6 a 12 dias adquire a capacidade reprodutiva. Fêmeas ápteras vivem 12 a 28 dias e parem duas a cinco ninfas por dia, num total de 27 a 78 ninfas. As fêmeas aladas vivem 9 a 19 dias e geram de 23 a 50 ninfas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B4%7Dpulgao_ciclo.jpg
+Legenda: Ciclo de vida do pulgão-da-raiz, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de setembro a novembro. Crítico: setembro. Lavoura: da semeadura ao perfilhamento. Nota: praga de plantio em solo seco.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11362%5D%7B24%7Dpulgao_fenologia.jpg
+Legenda: Fenologia da ocorrência do pulgão-da-raiz na lavoura de arroz em Santa Catarina.
+
+-- DANOS: --
+Os pulgões sugam as raízes do arroz, ocasionando o amarelecimento e seca das folhas, com o consequente definhamento e morte da planta. Eventualmente, em cultivos infestados que foram inundados, os pulgões podem subir para os colmos e folhas do arroz e lá permanecerem.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Inundar quadros com presença de sintomas. • Em áreas com histórico de ocorrência de pulgão-da-raiz, semear sementes tratadas com inseticida.
+
+-- Informações Complementares --
+BECERA, G.F.P. Ciclo de vida del afido Rhopalosiphum rufiabdominalis (Homoptera, Aphididae). Arroz , v.43, n.391, p.34-37, 1994.

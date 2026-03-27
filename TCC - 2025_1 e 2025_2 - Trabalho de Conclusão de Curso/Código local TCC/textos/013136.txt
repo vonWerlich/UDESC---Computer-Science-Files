@@ -1,0 +1,21 @@
+Título: ARROZ IRRIGADO - 05. Manejo de entressafra - Drenagem da área
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013136&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11403%5D%7B100%7D05_drenagem_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O período de entressafra do arroz, que vai desde a colheita até a semeadura da safra seguinte, é de grande importância para o manejo da cultura. Nele é possível atuar sobre importantes fatores de produção, permitindo melhorar o potencial produtivo da lavoura.
+
+-- O SOLO SECO: --
+A manutenção do solo com baixa umidade favorece a atividade de microrganismos que degradam a palha do arroz e atacam as sementes que permaneceram na superfície do solo. Também favorece a germinação de plantas daninhas fora da safra, promovendo a redução do banco de sementes, bem como favorece a estabilização do terreno, facilitando o trânsito de máquinas na safra seguinte.
+
+-- DRENAGEM DA ÁREA: --
+As operações de drenagem da área consistem no nivelamento da superfície, na adequação dos canais de drenagem e na abertura de micro-canais ou valetas. • Nivelamento da superfície - deve ser feito durante a incorporação da palha, sendo o rolo-faca o implemento que melhor desempenha essa função. Após o uso do rolo-faca, a água remanescente na lavoura deve ser mantida por aproximadamente 20 dias, para evitar possíveis contaminações dos rios com materiais em suspensão. • Adequação dos canais de drenagem - a profundidade do canal deve ser suficiente para escoar a água da superfície e das valetas. • As valetas de drenagem - devem ser abertas logo após a operação de nivelamento da superfície , ou 20 dias após o nivelamento quando a operação for realizada com o rolo-faca. As valetas devem evitar a formação de poças d’água na área e sua distribuição pode ser regular, com espaçamento fixo entre drenos, ou irregular, com a abertura das valetas no sentido do fluxo de água na superfície do solo. A quantidade de valetas depende do nivelamento da superfície, sendo menor para superfícies bem niveladas. A abertura das valetas pode ser feita com o auxílio de valetadeiras ou até mesmo com o rodado do trator SAP.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11403%5D%7B56%7D05_canaldrena.jpg
+Legenda: 01. Adequação do canal de drenagem. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11403%5D%7B145%7D05_valetas_01.jpg
+Legenda: 02. Valetas feitas com rodado de pneus. Fonte: M.L.C. Vale
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11403%5D%7B493%7D05_valetas_02.jpg
+Legenda: 02. Valetas feitas com rodado do trator SAP. Fonte: D.S.Eberhardt (remasterizada)
+
+-- Informações Complementares --

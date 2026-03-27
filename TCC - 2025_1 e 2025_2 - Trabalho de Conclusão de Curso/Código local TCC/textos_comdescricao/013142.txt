@@ -1,0 +1,37 @@
+Título: ARROZ IRRIGADO - 06. Manejo nutricional - Recomendação de adubação
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013142&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+06. Manejo nutricional
+Recomendação de adubação
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11408%5D%7B1%7D06_adubo_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+As atividades que compõem o manejo nutricional se destinam principalmente à elevar o potencial produtivo da lavoura e a sua correta execução é fundamental para se obter boa rentabilidade.
+
+-- AVALIAÇÃO DOS NÍVEIS DE FERTILIDADE DO SOLO: --
+A avaliação dos níveis de fertilidade do solo é feita apenas para o fósforo e o potássio. As interpretações das análises dos teores de fósforo (P) e de potássio (K) no solo, para recomendação de adubação fosfatada ou potássica para o arroz irrigado estão nas tabelas abaixo . A adubação fosfatada nos níveis alto e muito alto se destina à manutenção da fertilidade do solo, não sendo esperadas respostas significativas em produtividade. O teor de fósforo apresentado na tabela se refere ao método Melich 1. Para análises feitas pelo método Melich 3, o valor deve ser corrigido de acordo com a seguinte equação: Mehlich 1 (mg/dm³) = Fósforo Mehlich 3 (mg/dm³)/[2 - (0,02 x argila %)] O teor de potássio apresentado se refere ao método Melich 1. Para análises feitas pelo método Melich 3, o valor deve ser corrigido de acordo com a seguinte equação: Mehlich 1 (mg/dm³) = Mehlich 3 (mg/dm³) x 0,83
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11408%5D%7B286%7D06_tabteorp_2021.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11408%5D%7B295%7D06_tabteork_2021.jpg
+
+-- EXPECTATIVA DE RESPOSTA À ADUBAÇÃO: --
+No sistema atual, a recomendação da quantidade de nutrientes a ser aplicada depende da expectativa de resposta do arroz à adubação (média, alta e muito alta). O enquadramento em cada classe deve ser baseado nas condições de cultivo, no material genético e nas condições climáticas. Para fins práticos, o enquadramento por ser feito com base nos seguintes critérios: • Histórico de produção da área (informação fornecida pelo produtor). • Produtividade média da cultivar na região de cultivo (veja tabelas do Capítulo 8.1 ). • Previsão das condições climáticas para a safra. Consultar a previsão climática trimestral na página da Epagri/Ciram . • Considerar a seguinte ordem de importância dos critérios: Histórico de produção > Produtividade média > Previsão climática A expectativa média corresponde a áreas com histórico de produtividade menores que 150 sacos/ha, com cultivares de produtividade média na região menor que 160 sacos/ha e com previsão de clima chuvoso ou de estiagem severa (caso o produtor não possua capacidade de armazenamento de água). A expectativa muito alta corresponde a áreas com histórico de produtividade acima de 180 sacos/ha, com cultivares de produtividade média na região maior que 180 sacos/ha e com previsão climática de alta radiação, principalmente no período de enchimento de grãos.
+
+-- DOSE DE FÓSFORO E PARCELAMENTO DA APLICAÇÃO: --
+A dose de fósforo (em kg/hA) deve ser definida conforme a tabela abaixo e a aplicação deve ser feita em dose única da seguinte forma: • No sistema pré-germinado, aplicar no início do perfilhamento (20 a 30 dias após a semeadura) ou no preparo final do solo (formação da lama). A aplicação no preparo final é mais indicada para áreas que serão semeadas no final do inverno (agosto e início de setembro), visando evitar o atraso no fornecimento de fósforo pelo atrelamento da adubação à aplicação de herbicidas. • Nos sistemas com semeadura em solo seco, a aplicação do fósforo deve ser feita na linha de semeadura.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11408%5D%7B1%7D06_tabdosep_2021.jpg
+
+-- DOSE DE POTÁSSIO E PARCELAMENTO DA APLICAÇÃO: --
+A dose de potássio (em kg/ha) deve ser definida conforme a tabela abaixo . Também devem ser consideradas as seguintes recomendações: • Para teores de potássio iguais ou maiores que o dobro da classe muito alto , aplicar apenas 3kg de potássio para cada tonelada de grãos produzida, para repor a quantidade exportada. • A aplicação deve ser parcelada para solos com CTCpH7 menor que 7,5 cmolc/dm³; ou quando a dose recomendada for maior que 50kg/ha de potássio; ou quando forem realizadas drenagens após o início do perfilhamento. • No sistema pré-germinado, a aplicação deve ser feita em dose única no início do perfilhamento ou parcelada em 50% no início do perfilhamento e 50% na diferenciação da panícula. Em áreas com histórico de ocorrência de toxidez por ferro, cultivadas com materiais de ciclo tardio e que não serão drenadas após o início do perfilhamento, a segunda aplicação deve ser feita no perfilhamento pleno. • Nos sistemas com semeadura em linha, a aplicação deve ser feita em dose única na linha de semeadura ou parcelada em 50% na linha de semeadura e 50% na diferenciação da panícula.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11408%5D%7B230%7D06_tabdosek_2021.jpg
+
+-- DOSE DE NITROGÊNIO E PARCELAMENTO DA APLICAÇÃO: --
+A dose de nitrogênio (em kg/ha) e o parcelamento da aplicação devem ser definidas conforme as tabelas abaixo . Também devem ser consideradas as seguintes recomendações: Sistema pré-germinado • No início do perfilhamento, a aplicação deve ser feita preferencialmente após a aplicação do herbicida e antes da entrada da água. • As aplicações de fertilizantes no perfilhamento pleno e na diferenciação da panícula devem ser feitas preferencialmente sobre a lâmina de água. • Para áreas onde há necessidade de drenagem no perfilhamento pleno, a aplicação da segunda dose deve ser feita um dia antes do retorno da irrigação. Sistemas com semeadura em linha • Em solos com menos de 2% de matéria orgânica, aplicar 10 kg/ha de N junto com o fósforo e potássio na linha de semeadura. • Para cultivares de ciclo precoce e médio, aumentar a quantidade aplicada no início do perfilhamento quando a dose recomendada for maior que 100 kg/ha de N, porém mantendo uma aplicação de pelo menos 40kg/ha de N na diferenciação da panícula. Sistema orgânico • Aplicação em dose única antes da inundação do solo ou parcelado em cobertura. • Para a dose única, a aplicação deve ser feita no máximo 10 dias antes da entrada de água, sem incorporação do fertilizante. • O parcelamento da dose é recomendado apenas quando forem utilizados fertilizantes orgânicos peletizados ou granulados. Neste caso, aplicar 3/4 (75%) da dose no início do perfilhamento e 1/4 (25%) da dose na diferenciação da panícula.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11408%5D%7B140%7D06_tabdosen_2021.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11408%5D%7B86%7D06_tabparcn_2021.jpg
+
+-- Informações Complementares --
+• Rafael Ricardo Cantú (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação
+• Marcos Lima Campos do Vale (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação
+• Gelton Geraldo Fernandes Guimaraes (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação

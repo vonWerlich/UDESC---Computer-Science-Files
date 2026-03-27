@@ -1,0 +1,31 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares conveniados ou contratados - Sabbore
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013224&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11481%5D%7B118%7Dsabore_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar Sabbore foi introduzido na Epagri/EEI 1990 como linhagem CT-8008-3-5-1P-M proveniente do CIAT, oriunda do cruzamento CT 7347//IR21015-72-3-3-3-1 realizado no CIAT. A linhagem foi submetida a avaliações em ensaios regionais durante 3 anos no Estado do Rio Grande do Sul e lançada como cultivar em 2003, com proteção. É um cultivar de tipo moderno e destaca-se pelo excelente potencial produtivo, boa qualidade de grãos e ciclo curto. Este cultivar foi desenvolvido para o Estado do Rio Grande do Sul através do convênio Syngenta/Epagri, e também recomendado para outras regiões. Foi bastante cultivado durante três anos após o lançamento.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: ###t/ha • Altura da planta: 98cm • Ciclo: Médio (125 dias) • Acamamento: Resistente • Reação à toxidez por ferro: Resistente • Reação à brusone: Resistente • Reação a baixas temperaturas (13°C): Suscetível
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 1 • Classe: Longo fino • Renda do beneficiamento: 70,2% • Rendimento de grãos inteiros: 64,8% • Teor de amilose: 29,0% • Temperatura de gelatinização: Média
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: 31cm • Largura: 1,7cm • Pubescência: Forte • Ângulo das folhas: Ereto • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Branca a verde • Cor da aurícula: Incolor a verde • Cor do colo: Verde-clara
+
+-- COLMO: --
+• Comprimento: 67cm • Espessura: 0,6cm • Perfilhamento: Médio • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Intermediário (25,6cm) • Exserção: Média (1 a 5cm) • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Verde • Cor do apículo na maturação: Palha • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,6mm • Espessura: 1,8mm • Largura: 2,2mm • Relação C/L: 3,45br> • Forma do grão: Alongado • Peso de mil grãos: 29,8g • Pilosidade: Média
+
+-- Informações Complementares --
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).

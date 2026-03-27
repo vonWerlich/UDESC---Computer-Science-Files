@@ -1,0 +1,26 @@
+Título: ARROZ IRRIGADO - 07. Manejo da água - Armazenamento de água
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013149&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11414%5D%7B495%7D07_armazemagua_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Cerca de 60% da água necessária para a cultura é captada dos corpos de água, e a dependência unicamente da captação nos córregos e rios, pode não ser suficiente para atender a demanda da cultura em algumas fases importantes do seu desenvolvimento. Neste sentido, o armazenamento e aproveitamento da água da chuva é uma prática recomendada para diminuir os prejuízos devidos a estiagens, gerando também outros benefícios de ordem ambiental e econômica.
+
+-- DIMENSIONAMENTO DO RESERVATÓRIO: --
+Os volumes utilizados durante o cultivo são grandes e conceber um reservatório para armazenar a água demandada durante todo o ciclo é inviável na maioria das propriedades. Portanto, em nível de propriedade, açudes ou barragens menores devem ser concebidos para atender a demanda nos períodos curtos de estiagem. Essa técnica já vem sendo adotada por alguns produtores para diminuir os prejuízos pela falta d’água, com resultados positivos, utilizando-se reservatórios dimensionados para o armazenamento de 1.500 a 2.000m³ para cada hectare a ser irrigado ( figura abaixo ). Áreas de menor produtividade ou de interesse para cultivo agrícola podem ser destinadas para a construção de reservatórios de armazenamento de água. É importante observar a necessidade de um projeto técnico para a construção dos açudes ou barragens, conforme definido em legislação.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11414%5D%7B484%7D07_armazemagua_fig01.jpg
+Legenda: 01. Reservatório de água para irrigação do arroz em Nova Veneza. Fonte: D.Lucietti (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11414%5D%7B536%7D07_armazemagua_fig02.jpg
+Legenda: 02. Reservatório de água para irrigação do arroz. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11414%5D%7B326%7D07_armazemagua_fig03.jpg
+Legenda: 03. Reservatório de água para irrigação em propriedade rural. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11414%5D%7B367%7D07_armazemagua_fig04.jpg
+Legenda: 04. Reservatório de água para irrigação em propriedade rural. Fonte: não identificada (remasterizada)
+
+-- ÁGUA PARA ARMAZENAGEM: --
+A forma de captação e do armazenamento dependem das condições locais, como relevo, topografia, vazão disponível e volume necessário. O aproveitamento da água da chuva pode ser realizado pelo armazenamento de parte da água escoada superficialmente no terreno ou derivada de cursos d’água em períodos de excesso hídrico. A derivação poderá seguir por gravidade ou através de bombeamento.
+
+-- MELHORIA DAS TAIPAS: --
+Outra prática importante para aumentar a disponibilidade de água na propriedade é o redimensionamento das taipas que circundam as quadras. Cada quadra é um “micro-reservatório” de água, e a manutenção de taipas com altura de no mínimo 40cm, bem compactas e reforçadas é fundamental para um melhor aproveitamento das águas da chuva.
+
+-- Informações Complementares --

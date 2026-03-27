@@ -1,0 +1,22 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Frutos ocados
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04597&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1486%5D%7B270%7Dimg-20190205-wa0025.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1486%5D%7B181%7Dimg-20190205-wa0025.jpg
+Legenda: Sintomas típicos de frutos ocados. Foto: Autor desconhecido.
+
+-- INFORMAÇÕES GERAIS: --
+- A relação N:K na fase de formação do tomate deve ficar em torno de 1:2 ou 1:3 (2).
+
+-- SINTOMAS: --
+Distúrbio caracterizado pela presença de frutos com lóculos vazios, com pouca ou nenhuma semente. A ausência de sementes e da mucilagem que as envolve torna os frutos leves e de conformação quinada (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Altos teores de nitrogênio e baixos teores de potássio (2). - Deficiência de potássio no pico produtivo. - Temperaturas extremas, que afetam a polinização, a fertilização e o desenvolvimento normal das sementes (1).
+
+-- CONTROLE: --
+- Adubações de coberturas equilibradas, diminuindo o fornecimento de Nitrogênio e aumentando a disponibilidade de potássio na época de formação do fruto (2). - Em cultivo protegido, pode-se utilizar telas aluminetizadas, para redução da temperatura ambiente e aclimatação da planta.
+
+-- Informações Complementares --
+(1) LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005. (2) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Ufla, 2004.

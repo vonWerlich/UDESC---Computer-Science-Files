@@ -1,0 +1,76 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 1. Diagnóstico a partir da lavouraInicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca. - Não está havendo perda significativa de estande na lavoura (outros sintomas) - As plantas estão amareladas ou têm folhas, panículas ou grãos secando. Pode haver espuma branca no colo da planta - Todas as folhas estão amareladas e/ou secando
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017083&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17079%5D%7B446%7Dlav08_plantassecas.jpg
+DIAGNOSE VISUAL
+1. Diagnóstico a partir da lavoura Inicie por aqui, caso tenha apenas o sintoma visual de lavoura, caracterizado por perda de estande (número de plantas/m²) ou vigor, amarelecimentos e seca.
+Não está havendo perda significativa de estande na lavoura (outros sintomas)
+As plantas estão amareladas ou têm folhas, panículas ou grãos secando. Pode haver espuma branca no colo da planta
+Todas as folhas estão amareladas e/ou secando
+Verifique no local: BICHEIRA-DA-RAIZ
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B485%7Ddano_bicheira.jpg
+Legenda: Verifique no local: BICHEIRA-DA-RAIZ
+17082
+Verifique no local: BICHEIRA-DA-RAIZ
+CASCUDO-PRETO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B82%7Ddano_cpreto.jpg
+Legenda: CASCUDO-PRETO
+17081
+CASCUDO-PRETO
+SOGATA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B386%7Ddano_sogata.jpg
+Legenda: SOGATA
+21507
+SOGATA
+ÁCARO-DA-MANCHA-BRANCA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B333%7Ddano_acaro.jpg
+Legenda: ÁCARO-DA-MANCHA-BRANCA
+21510
+ÁCARO-DA-MANCHA-BRANCA
+CIGARRINHAS-DAS-PASTAGENS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B85%7Ddano_cigpasto.jpg
+Legenda: CIGARRINHAS-DAS-PASTAGENS
+21508
+CIGARRINHAS-DAS-PASTAGENS
+LAGARTA-ELASMO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B547%7Ddano_lagelasmo.jpg
+Legenda: LAGARTA-ELASMO
+21505
+LAGARTA-ELASMO
+PERSEQUITO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B186%7Ddano_perseq.jpg
+Legenda: PERSEQUITO
+21509
+PERSEQUITO
+PULGÃO-DA-RAIZ
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B302%7Ddano_pulgao.jpg
+Legenda: PULGÃO-DA-RAIZ
+21506
+PULGÃO-DA-RAIZ
+BRUSONE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B207%7Ddano_brusone.jpg
+Legenda: BRUSONE
+21528
+BRUSONE
+ENROLAMENTO DO ARROZ
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B533%7Ddano_virusenrola.jpg
+Legenda: ENROLAMENTO DO ARROZ
+21531
+ENROLAMENTO DO ARROZ
+NEMATOIDE-DAS-GALHAS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B199%7Ddano_nemat.jpg
+Legenda: NEMATOIDE-DAS-GALHAS
+21530
+NEMATOIDE-DAS-GALHAS
+PODRIDÃO DO PÉ
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B212%7Ddano_podrepe.jpg
+Legenda: PODRIDÃO DO PÉ
+21532
+PODRIDÃO DO PÉ
+QUEIMA-DAS-BAINHAS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17083%5D%7B454%7Ddano_queimab.jpg
+Legenda: QUEIMA-DAS-BAINHAS
+21529
+QUEIMA-DAS-BAINHAS

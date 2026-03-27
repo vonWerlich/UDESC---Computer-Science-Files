@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Trinidade F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0932&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B814%5D%7B58%7Dtrinidade.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: HM Clause; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Vigor: Médio
+
+-- INFORMAÇÕES DA EMPRESA: --
+• Planta com vigor e ótima cobertura foliar dos frutos; • Fruto tipo Saladette oval, alongado e sem bico; • Excelente coloração, sabor e firmeza dos frutos; • Indicado para plantio em campo aberto.
+
+-- RESISTÊNCIA: --
+• HR: Va:1 (Eur 0) /Vd:1 (Eur 0) /Fol 1,2,3 (Eur 0,1,2) /ToMV • IR: TSWV:T0
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://hmclause.com/nossa-empresa/?lang=pt-br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://hmclause.com/nossa-empresa/?lang=pt-br.

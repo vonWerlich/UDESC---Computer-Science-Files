@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Bacillus thuringiensis
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017161&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Bacillus thuringiensis
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Bacillus thuringiensis; Nome comercial: Agree, Bac Control, BtFert, Crystal,Dipel, Helimax, Tarik, Thuricide, Xentari; Grupo químico: Microbiológico; Dose de produto comercial (Spodoptera frugiperda): variável; Carência (dia): - Classe Toxicológica: 5 = improvável de causar dano agudo (faixa azul); Classe ambiental: IV = pouco perigoso;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”. Consulte o Agrofit para acessar a lista completa de nomes comerciais ou doses.
+
+-- PRAGAS QUE CONTROLA: --
+Lagarta-militar (Spodoptera frugiperda)
+
+-- Informações Complementares --

@@ -1,0 +1,13 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - C) MANEJO DE PLANTAS NA PRODUÇÃO INTEGRADA - e) Método de condução
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02496&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2259%5D%7B165%7Dfigura_6.jpg
+
+-- Método de condução: --
+As plantas podem ser conduzidas com duas ou uma haste guia por planta. A condução de duas hastes por planta é feita mantendo o broto imediatamente abaixo do primeiro cacho e retirando os demais, tanto da haste principal como da segunda haste (Figura 6A). Já na condução de uma haste por planta se retiram todos os brotos laterais da haste principal, ajustando o espaçamento entre plantas para metade do espaçamento utilizado na condução de duas hastes por planta. A produtividade comercial de frutos é maior com a condução de uma haste por planta, entretanto a necessidade de mudas por área é o dobro, em relação à condução de duas hastes por planta
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2259%5D%7B394%7Dfigura_6.jpg
+Legenda: Planta de tomate no momento da definição da segunda haste: (A) seta amarela indica o broto mais vigoroso logo abaixo do primeiro cacho comparando com os demais brotos menos vigorosos (setas azuis). (B) Detalhe da retirada do broto mantendo cerca de dois centímetros de altura do caule (seta vermelha). Fonte: Sispit 2016.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

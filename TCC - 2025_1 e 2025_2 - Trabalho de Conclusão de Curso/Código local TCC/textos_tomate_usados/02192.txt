@@ -1,0 +1,31 @@
+Título: TOMATE - Tratos Culturais - Consorciação de culturas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02192&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1983%5D%7B461%7Dconsorciacao.jpg
+
+-- Conceito: --
+A consorciação de culturas pode ser definida como um sistema em que duas ou mais espécies ou cultivares diferentes, desenvolvem-se na mesma área. Pode ser definida também como tipo de agricultura que utiliza diferentes plantas, tentando imitar a diversidade dos ecossistemas naturais.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1983%5D%7B498%7Dconsorciacao.jpg
+Legenda: Exemplo de consorciação da cultura do tomateiro com plantas aromáticas. Foto: Luciana Marques de Carvalho
+
+-- Quais plantas utilizar: --
+Existem diversos relatos de sucesso do uso da consorciação de culturas, principalmente quando envolve cultivos de plantas de porte alto, como diversas frutíferas, erva-mate, café, etc., com plantas de porte baixo, como plantas de cobertura e hortaliças.
+
+-- Vantagens: --
+Dentre as vantagens, destaca-se que a diversidade vegetal mantém a estabilidade da densidade populacional dos insetos fitófagos, pois favorece os insetos benéficos por meio da maior disponibilidade de pólen e néctar, promovendo o controle biológico natural. Além disso, reduz a competitividade de plantas daninhas, o que é um fator importante a ser considerado numa área de produção de orgânicos. Além disso, otimiza a área de cultivo, devido a condução de dois ou mais cultivos simultaneamente na mesma área.
+
+-- Exemplo de sucesso com o tomateiro: --
+Para o cultivo do tomateiro, existem diversos relatos bibliográficos que indicam que a consorciação de culturas pode trazer benefícios diretos e indiretos a lavoura de tomate. Tomateiros cultivados em sistemas monoculturais e policulturais, consorciando tomate com coentro (Coriandrum sativum) e tagetes (Tagetes minuta) circundados por uma faixa de sorgo (Sorghum bicolor) indicou que houve redução de três vezes no ataque de trips na consorciação, maior ataque do vira cabeça no monocultivo (transmitido por insetos) e também menor ataque da broca-pequena-do-tomateiro, quando este estava consorciado. Em cultivo protegido, a consorciação do tomateiro com tagetes (Tagetes patula L.), manjericão (Ocimum basilicum L.), alface (Lactuca sativa L.) e mostarda branca (Sinapis alba L.), para avaliar a incidência de nematoides da galha (Meloidogyne spp.) indicou que a mostarda branca, juntamente com o tagetes, aparecem como o melhor tratamento contra o nematoide Meloidogyne no tomate produzido em cultivo protegido. A supressão de nematoides causada pelas brássicas como a mostarda branca é atribuída ao alto conteúdo de glucosinolatos nos tecidos das plantas, cujos produtos de sua degradação inibem a germinação de ervas e também o aparecimento de algumas doenças. O cultivo do tomateiro consorciado com coentro em sistema orgânico e convencional em relação ao ataque da mosca branca, mostrou que a população de adultos da mosca branca foi menor no tomate quando este estava consorciado com coentro, nos dois tipos de cultivo. O coentro pode possuir ação repelente devido a produção de compostos voláteis tóxicos, além de contribuir para o aumento de habitats para a proliferação de inimigos naturais e dificultar a localização da planta hospedeira pela mosca branca.
+
+-- Cuidados: --
+Apesar de serem destacados neste texto as vantagens da consorciação de culturas, alguns cuidados devem ser tomados para o uso no cultivo do tomateiro, principalmente em abrigos de cultivo. O primeiro deles é que não deve haver competição por luz, pois além da competição direta pelas plantas, há perda de parte da luz fotossintéticamente ativa devido ao plástico de cobertura. Esses fatores somados a um período de baixa luminosidade pode limitar o crescimento da planta e a expressão do seu máximo potencial produtivo. Quanto a nutrição, a planta companheira deve ser considerada na hora do cálculo da adubação, para não limitar o crescimento do tomateiro. A irrigação deve ser igualmente dimensionada, para suprimento das exigências hídricas das plantas. Um cuidado especial deve ser tomado quanto a umidade ambiente, pois o aumento da massa vegetal dentro de um abrigo de cultivo, principalmente aqueles com telas anti-insetos nas laterais, pode aumentar em demasia a umidade foliar, favorecendo a ocorrência de doenças.
+
+-- Considerações técnicas: --
+Devido aos inúmeros fatores envolvidos nos cultivos consorciados, que tornam mais complexo o correto manejo do tomateiro, deve-se dar preferência pelo cultivo solteiro, procurando o aumento da diversidade biológica através da introdução de plantas em áreas adjacentes ao abrigo, pela rotação de culturas ou cultivo de plantas de cobertura na entressafra do tomateiro. Novas pesquisas devem ser realizadas para se determinar com precisão as melhores opções de consorciação de plantas para o cultivo do tomateiro orgânico em abrigo, como forma de reduzir aplicações de produtos fitossanitários, aumentar a rentabilidade do cultivo e facilitar o manejo das principais pragas e doenças.
+
+-- Nos sistemas de produção: --
+- No Sistema de Produção Integrada (Sispit) não é prática recomendada. - No Sistema de Produção Orgânica (Tomatorg) é aceita, utilizando plantas de porte baixo, como por exemplo alface, rúcula, salsinha, etc.
+
+-- Informações Complementares --
+Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019.

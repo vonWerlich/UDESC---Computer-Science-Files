@@ -1,0 +1,33 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Fósforo (P)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016705&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12699%5D%7B299%7Dfigura_11.jpg
+
+-- IMPORTÂNCIA DO NUTRIENTE: --
+O fósforo é parte essencial da estrutura de ésteres de carboidratos, fosfolipídeos, coenzimas e ácidos nucleicos (ATP e ADP). Desempenha também um papel fundamental na respiração, seja no desdobramento inicial da glicose, seja no armazenamento, na transferência e utilização da energia gerada no processo (TRANI et al., 2014).
+
+-- SINTOMAS DE DEFICIÊNCIA: --
+Quando a planta de cebola apresenta deficiência de P, suas folhas mais velhas mostram-se amareladas e secam facilmente (Figura 11). As folhas intermediárias e as mais novas apresentam coloração verde-escura. Quando a disponibilidade é limitada, o crescimento da planta é comprometido afetando diretamente o rendimento do bulbo e retardando, além disso a maturação. A cultura da cebola é mais suscetível a deficiências desse nutriente do que a maioria das plantas cultivadas, por causa do seu sistema radicular superficial, pouco ramificado e com baixa densidade de pelos radiculares, respondendo muito bem à adição de fertilizantes (ABDISSA et al., 2011).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12699%5D%7B276%7Dfigura_11.jpg
+Legenda: Figura 11. Plantas com solução nutritiva completa e ao lado plantas em solução nutritiva na ausência de P. null
+
+-- RECOMENDAÇÃO DE FÓSFORO PARA A CEBOLA: --
+Para a recomendação do fósforo para a cultura da cebola com base na análise de solo é necessário a interpretação do teor de P no solo conforme a Tabela 4 e indicação das doses segundo a Tabela 5. Para a expectativa de rendimento maior do que 30t ha-1, acrescentar aos valores das tabelas 3kg de P2O5 por tonelada adicional de bulbos a serem produzidos. Caso os teores de P no solo forem três vezes maiores do que o teor crítico (nível superior da interpretação de teor médio), não se recomenda adicionar fósforo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12699%5D%7B534%7Dtabela_4.jpg
+Legenda: Tabela 4. Interpretação do teor de fósforo no solo extraído pelo método Mehlich-1, conforme o teor de argila para a cultura da cebola (Grupo 2) (CQFS - RS/SC, 2016). null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12699%5D%7B455%7Dtabela_5.jpg
+Legenda: Tabela 5. Recomendação de dose de P2O5 a ser adicionada para a cultura da cebola (CQFS- RS/SC, 2016). null
+
+-- MODO DE APLICAÇÃO DE FÓSFORO: --
+Com relação ao modo de aplicação do fósforo, os fertilizantes são geralmente aplicados em locais próximos às plantas na linha ou a lanço em área total. O melhor modo de aplicação depende da cultura que está sendo adubada, das características físicas e químicas do solo e do fertilizante utilizado. Para os adubos fosfatados, devido a sua reação de adsorção no solo, em particular em solos argilosos, a maneira mais adequada para a aplicação deste nutriente em culturas anuais é concentrada na linha de semeadura, posicionando o adubo abaixo e ao lado da linha de distribuição das sementes (CERETTA et al., 2007). Para a cultura da cebola, segundo Weingärtner (2016), não há diferença significativa para rendimento de bulbos entre as aplicações na linha de plantio ou a lanço incorporado (Figura 12).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12699%5D%7B310%7Dfigura_12.jpg
+Legenda: Figura 12. Rendimento de cebola em resposta a doses crescentes de P2O5 aplicadas na linha de plantio ou a lanço incorporado. Fonte: Weingärtner (2016).
+
+-- FORMA DE APLICAÇÃO DO FÓSFORO EM FUNÇÃO DA ANÁLISE DO SOLO: --
+Como regra geral, o modo de aplicação dos fertilizantes fosfatados depende dos níveis de fósforo na análise do solo. Quando os teores de fósforo se apresentarem em níveis: • Muito baixo, baixo ou médio: As doses de fósforo incluem a correção mais a manutenção da cultura. Neste caso, a maior parte do fertilizante fosfatado pode ser aplicada a lanço e incorporada, aplicando a outra parte na linha de plantio/semeadura em doses até a faixa de 100 a 120kg ha-1 de P2O5, de acordo com a necessidade indicada pela análise; • Alto e muito alto: não há a necessidade de correção com fósforo e pode se fazer uso de toda adubação de manutenção no sulco de semeadura, a lanço incorporado ou em superfície antes da semeadura/plantio no sistema de plantio direto.
+
+-- APLICAÇÃO DE FÓSFORO EM NÍVEIS ALTOS: --
+Quando os teores de fósforo se encontram em níveis altos no solo, tem-se maior flexibilidade com relação ao modo de aplicação dos fertilizantes fosfatados, pois mesmo realizando toda a adubação de manutenção a lanço em superfície, não há comprometimento do potencial produtivo. A alternativa de adubação de manutenção com fósforo a lanço sem incorporação em sua totalidade não pode ser expandida para solos com teores médios ou baixos de fósforo, pois nesta condição há perda de rendimento.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

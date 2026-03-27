@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas) - A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora) - A praga é um invertebrado (artrópode ou molusco) - A praga é um artrópode (ácaro ou crustáceo)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016929&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16926%5D%7B448%7Dchave_fig24.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas)
+A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora)
+A praga é um invertebrado (artrópode ou molusco)
+A praga é um artrópode (ácaro ou crustáceo)
+A praga é um ácaro diminuto, com 0,8mm de comprimento, amarelo-esverdeado, sob as folhas em meio à teia - ÁCARO-DA-MANCHA-BRANCA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16929%5D%7B315%7Dchv_acaro.jpg
+Legenda: A praga é um ácaro diminuto, com 0,8mm de comprimento, amarelo-esverdeado, sob as folhas em meio à teia - ÁCARO-DA-MANCHA-BRANCA
+21451
+A praga é um ácaro diminuto, com 0,8mm de comprimento, amarelo-esverdeado, sob as folhas em meio à teia - ÁCARO-DA-MANCHA-BRANCA
+A praga assemelha-se a um pequeno camarão e quando em terra seca, pula como uma pulga - PULGA-D ÁGUA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16929%5D%7B236%7Dchv_pulgadagua.jpg
+Legenda: A praga assemelha-se a um pequeno camarão e quando em terra seca, pula como uma pulga - PULGA-D ÁGUA
+21452
+A praga assemelha-se a um pequeno camarão e quando em terra seca, pula como uma pulga - PULGA-D ÁGUA

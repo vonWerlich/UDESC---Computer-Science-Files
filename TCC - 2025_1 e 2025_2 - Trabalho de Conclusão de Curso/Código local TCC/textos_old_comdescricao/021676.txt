@@ -1,0 +1,18 @@
+Título: BANANA - Cultivares - Figo cinza
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021676&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Figo cinza
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18359%5D%7B42%7Dcap_3_-_fig_3_-_letra_e_-_buque_maduro_figo_cinza_-_autoria_eliseu_emanoel_dos_santos.jpg
+"Tabela 1. Principais características dos cultivares de banana", uma tabela informativa organizada em quatro colunas principais: a primeira, "Cultivar/híbrido", lista nomes de diferentes variedades e híbridos de banana, como 'BRS SCS Belluna', 'Nanicão', 'Grande Naine', 'Williams', 'BRS Platina (Pacovan Ken)', 'SCS451 Catarina', 'BRS Tropical', 'BRS Fhia Maravilha', 'SCS453 Noninha', 'SCS454 Carvoeira', e 'Ouro'; a segunda coluna, "Sinonímia/códigos", apresenta nomes alternativos ou códigos de identificação para esses cultivares, por exemplo, 'BRS SCS Belluna' é também 'Nam' ou 'Baby Prata', 'Nanicão' é 'Caturrão' ou 'D'Água', 'Williams' é 'Mons Mari' ou 'Williams Hybrid', 'BRS Platina' não possui sinônimo listado (indicado por um traço), e 'BRS Fhia Maravilha' é 'FHIA-01'; a terceira coluna, "Grupo genômico", classifica cada cultivar de acordo com sua composição genética, indicando a ploidia e a contribuição das espécies parentais Musa acuminata (A) e Musa balbisiana (B), com exemplos como 'AAA' para 'BRS SCS Belluna', 'Nanicão', 'Grande Naine' e 'Williams', 'AAB' para 'SCS451 Catarina', 'SCS453 Noninha' e 'SCS454 Carvoeira', 'AAAB' para 'BRS Tropical' e 'BRS Fhia Maravilha', e 'AA' para 'Ouro'; a quarta coluna, "Subgrupo", refina a classificação, agrupando cultivares com características semelhantes dentro de cada grupo genômico, como 'Belluna' para 'BRS SCS Belluna', 'Cavendish' para 'Nanicão', 'Grande Naine' e 'Williams', 'Prata' para 'BRS Platina' e 'SCS451 Catarina', 'Tetraploide tipo Maçã' para 'BRS Tropical', 'Tetraploide tipo Prata' para 'BRS Fhia Maravilha', 'Noninha' para 'SCS453 Noninha', 'Carvoeira' para 'SCS454 Carvoeira', e 'Ouro' para o cultivar 'Ouro', sendo que a tabela possui linhas com sombreamento alternado em branco e verde-acinzentado claro para melhor visualização e distinção entre as entradas, servindo como um guia de referência detalhado para a identificação e classificação de diferentes tipos de banana.
+FOTO: Eliseu E. dos Santos
+
+-- Descrição --
+Esta variedade apresenta dupla aptidão, ou seja, assim como as bananas-da-terra, elas também são muito utilizadas em pratos quentes (bananas cozidas, fritas, assadas, em farofas etc.), porém, quando estão maduras, são consumidas in natura.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18359%5D%7B427%7Dcap_3_-_fig_3_-_letra_b_-_figo_cinza_-_autoria_eliseu_emanoel_dos_santos.jpg
+Sistema de cabo aéreo, uma infraestrutura logística fundamental na bananicultura moderna, consistindo em um robusto cabo de aço suspenso que atua como um monotrilho no qual cachos de banana recém-colhidos, já ensacados para proteção, são transportados por meio de ganchos deslizantes desde a área de colheita até o galpão de beneficiamento, representando uma solução tecnológica que otimiza a mão de obra, reduz drasticamente os danos mecânicos aos frutos e garante a máxima eficiência e qualidade na cadeia produtiva.
+
+-- Informações Complementares --
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

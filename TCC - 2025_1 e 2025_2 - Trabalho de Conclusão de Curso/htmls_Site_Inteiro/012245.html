@@ -1,0 +1,349 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2181&amp;isEdicao=N&amp;epagriTEC=S">CALDA BORDALESA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="1969">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="2181">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[1969]{221}calda_bordalesa.jpg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Preparo e Uso da Calda Bordalesa 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>Informações gerais:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Dentre os fungicidas tradicionais utilizados na agricultura, destaca-se a calda bordalesa, que é elaborada e aplicada em diversos sistemas de produção por mais de 100 anos. É empregada em caráter preventivo em pulverização sobre os órgãos verdes das plantas, sendo considerado um biocida de amplo espectro. Ela também tem efeito fungistático, agindo sobre o esporo em germinação. A eficiência comprovada dessa calda contra diversos fitopatógenos faz com que ela seja a principal estratégia de manejo de doenças foliares em cultivos no sistema orgânico. Receitas de preparo e uso desta calda estão disponíveis em abundância na literatura, porém, em muitos casos, contém erros básicos de preparo, o que compromete a sua eficiência.<br><br>
+
+Serão descritos nos tópicos seguintes o material necessário e o passo a passo para o preparo e uso, de tal forma que se obtenha um produto de excelente qualidade. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Material Empregado: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> •	Vasilha não metálica com capacidade igual ou superior a 20% do volume final da calda;<br>
+•	Vasilha com capacidade igual ou superior à metade do volume final da calda;<br>
+•	Balança com precisão de uma grama;<br>
+•	Pano ou peneira de plástico para coar cal apagado;<br>
+•	Pás de madeira para agitação;<br>
+•	Tiras de papel tornassol ou peagâmetro;<br>
+•	Cal virgem;<br>
+•	Sulfato de cobre em forma de cristais moídos. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Concentração de sulfato de cobre:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A concentração de sulfato de cobre na calda bordalesa, seja para ser aplicada durante a fase vegetativa ou não de hortaliças, varia de 0,25 a 1%. Isto significa empregar de 250g a 1kg do produto para 100L de calda. Como via de regra, utiliza-se a concentração de 0,3% de sulfato de cobre, o que evita o acréscimo de cobre no solo, além de fitotoxicidade, até porque, a efetividade no controle de doenças está na qualidade da calda e da aplicação e não na excessiva concentração de cobre. O sulfato de cobre (25% de cobre) deve ter pureza maior que 99%. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Preparo:</b><br>
+<p class="p1"><div> Para o preparo de 10 litros de calda bordalesa a 0,3% de concentração, deve-se preparar inicialmente duas soluções, sendo: 5 litros de solução de sulfato de cobre e outros 5 litros de “leite” de cal.  <br> </div></p>
+<b>Preparo da solução de sulfato de cobre: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para o preparo da solução de cobre, dilui-se 30g do sulfato de cobre em vasilha não metálica e em água apenas o suficiente para dissolvê-lo. É importante dar preferência ao sulfato de cobre em forma de cristais moídos, que se dissolvem quase que imediatamente em água, mesmo fria. Quando na forma de pedras, precisa ser moído e posto a dissolver por certo tempo em água morna ou quente. Depois de dissolvida, deve ser acrescida água, de modo que o volume final seja a metade da quantidade de calda a ser obtida, neste caso 5 litros (5L da solução de cobre + 5L da solução da cal = 10 L de calda bordalesa). Essa vasilha deve ser capaz de receber cerca de 20% a mais do volume final da calda. Essa folga permitirá que a calda seja transportada e constantemente agitada sem derramamentos. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6620,2181,1969,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{492}[1969]{363}66-4.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6621,2181,1969,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{83}[1969]{363}66-4.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6623,2181,1969,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{55}[1969]{420}66-6.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6622,2181,1969,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{216}[1969]{36}67-8.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6626,2181,1969,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{289}[1969]{134}66-1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6625,2181,1969,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{39}[1969]{270}66-2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6627,2181,1969,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{245}[1969]{240}66-5.jpg">  </a> 
+<br><br>
+<b>Preparo da solução de hidróxido de cálcio: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A quantidade a empregar de hidróxido de cálcio variará de 50 a 80% da quantidade de sulfato de cobre a empregar. Esta variação ocorre devido ao uso de óxido de cal (cal virgem) a apagar ou de hidróxido de cálcio recentemente preparado por estar relacionada à capacidade de ambos em reagir com o sulfato de cobre. A cal utilizada deve ter teor de óxido de cálcio maior que 90%, ou seja, a cal deve ser nova.<br><br>
+ 
+Considerando a quantidade de cal em 50% da quantidade de sulfato de cobre, são necessárias 15 g de cal virgem para o preparo de 10 litros de calda bordalesa a 0,3%. A cal passará pelo processo de apaga, em 500mL de água. A cal virgem produz calor quando hidratada (CaO + H2O ==&gt; Ca[OH]2 + calor), o que não acontece com o hidróxido de cálcio. A cal, quando dissolvida na água, dissocia-se em íons cálcio (Ca++) e íons hidroxilas (Ca[OH]2 ==&gt; Ca++ + 2OH-). Neste processo se observa o aquecimento e evaporação da água com resfriamento gradual, a medida que a reação se finda, formando-se a cal hidratada. Após resfriamento, deve-se fazer a filtragem da mistura saturada de cal e água, utilizando pano, filtro de plástico ou peneira inox de malha fina, sendo descartado o material que fica no filtro. Para finalizar o preparo da cal, deve-se adicionar o restante do volume de água para completar os 5 litros.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6630,2181,1969,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{136}[1969]{311}67-3.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6631,2181,1969,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{331}[1969]{23}67-6.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6632,2181,1969,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{147}[1969]{233}67-4.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6628,2181,1969,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{176}[1969]{36}67-8.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6633,2181,1969,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{307}[1969]{103}67-1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6634,2181,1969,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{364}[1969]{443}67-2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6635,2181,1969,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{426}[1969]{27}67-5.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6636,2181,1969,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{277}[1969]{346}67-7.jpg">  </a> 
+<br><br>
+<b>Mistura do leite de cal na solução de sulfato de cobre: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Agitando cada um dos componentes da calda bordalesa, derramar vagarosamente, jamais de forma abrupta, a suspensão de hidróxido de cálcio (“leite” de cal) na solução de sulfato de cobre <mark>(NUNCA FAZER O INVERSO)</mark>. A mistura também deve ser agitada durante o processo de preparo da calda. Note-se que o azul da solução de cobre vai clareando até obter a tonalidade azul celeste. Nesse momento, interrompe-se a aplicação do “leite” de cal para a medição do pH da calda. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Controle do pH:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O pH deve ser levemente ácido (entre 6,5 e 6,8). Torna-se necessário parar a reação antes do pH atingir índice 7, porque mesmo após parar de derramar o “leite” de cal, o pH continua subindo vagarosamente, ao passo que no momento da aplicação a calda estará alcalina. Se preciso for, aplica-se mais “leite” de cal e tantas interrupções, sob agitação, e medições para se garantir a obtenção do pH recomendado.<br><br>
+
+O ideal é o emprego de um peagâmetro digital para o controle do pH  ou fitas indicadoras de pH. O emprego de lâminas de ferro, facas ou pregos para estimar o pH da calda não é recomendado, pois apenas indica que a calda está ácida ou alcalina, mas sem quantificação. Em calda ácida metais escurecem, e em calda alcalina nenhuma reação ocorre.<br><br>
+
+Obs:<br>
+Existem publicações que recomendam calda bordalesa com pH acima de 10. Contudo, as recomendações são embasadas em observações práticas, e não se sabe ao certo a qualidade da calda preparada, o forma que foi mensurado o pH e a reprodutibilidade dessa recomendação. Assim, recomenda-se o pH próximo da neutralidade, tal como relatado nesse item. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6637,2181,1969,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{123}[1969]{312}68-2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6638,2181,1969,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{363}[1969]{135}68-3.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6639,2181,1969,8);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{226}[1969]{384}68-1.jpg">  </a> 
+<br><br>
+<b>Etapa final do preparo da calda bordalesa: </b><br>
+<p class="p1"><div> Se, ao atingir o pH buscado, houver sobra de “leite” de cal, que deverá ser mínima, completa-se o volume final da calda bordalesa com água pura e o “leite” de cal restante deve ser descartado. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6640,2181,1969,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{300}[1969]{477}69-1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6641,2181,1969,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{89}[1969]{301}69-2.jpg">  </a> 
+<br><br>
+<b>Coloração da calda bordalesa:</b><br>
+<p class="p1"><div> A cor da calda orienta para seu pH: quando esverdeada, indica excesso de cobre (ácida: pH &lt; 7) e tem menor tenacidade; quando esbranquiçada, indica excesso de cal (alcalina: pH &gt; 7) e tem maior tenacidade, porém muito gesso, o que não interessa. O tom azul-celeste indica pH neutro (pH = 7) ou próximo dele. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6642,2181,1969,10);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{459}[1969]{77}70.jpg">  </a> 
+<br><br>
+<b>Uso em pulverizadores:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Uma vez pronta, a calda deve ser transferida para os pulverizadores, passando por peneira para a última filtragem de resíduos. Quando da aplicação, o agricultor deverá utilizar os equipamentos de proteção individual, bem como deverá banhar-se após as pulverizações. Deve-se atentar para o fato de lavar bem os equipamentos de pulverização após o uso como garantia para sua conservação, evitando fazê-lo em nascentes, cursos d’água, açudes, etc., onde também não fará o descarte de excedentes de calda.<br><br>
+
+A aplicação em grande volume deve ser feita na parte aérea da planta, empregando-se equipamentos terrestres manuais ou motorizados, sejam pulverizadores de barra, sejam pistolas ou costais com pressão acima de 40lb pol-2, provido de bico cone em cerâmica ou em aço inoxidável, obtendo-se microgotículas que façam plena cobertura da folha a ser protegida. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6643,2181,1969,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{505}[1969]{245}71-2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6644,2181,1969,11);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{292}[1969]{218}71-1.jpg">  </a> 
+<br><br>
+<b>Carência para uso:</b><br>
+<p class="p1"><div> A calda, por ser quimicamente considerada uma suspensão coloidal, é instável, por isso deve ser aplicada pura e no mesmo dia do preparo. Após 24 horas da sua elaboração, a calda experimenta transformações no precipitado, que passa do gelatinoso ao cristalino, o que reduz a tenacidade e o valor biocida. <br> </div></p>
+<b>Condições ambientais para aplicação: </b><br>
+<p class="p1"><div> A pulverização da calda bordalesa deve ser feita em dias calmos, não muitos secos (UR &gt; 65%) e no período com temperatura entre 25 e 30ºC. Deve-se evitar a aplicação em folhagem molhada. Durante a pulverização, a calda dever ser agitada continuamente. <br> </div></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6645,2181,1969,13);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{81}[1969]{477}72.jpg">  </a> 
+<br><br>
+<b>Cuidados com produtos à base de enxofre:</b><br>
+<p class="p1"><div> Produtos à base de enxofre aplicados antes ou depois da aplicação de calda bordalesa podem causar fitotoxidade. Recomenda-se que se observe intervalo de pelo menos 25 dias entre uma aplicação e outra. Em cultivo protegido, o período de permanência dos produtos nas plantas é maior. Assim, o controle do intervalo de aplicações deverá ser melhor observado. <br> </div></p>
+<b>Qualidade da calda bordalesa e a suspensibilidade:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> À medida que se acrescenta o “leite” de cal, o sulfato de cobre reage, formando membranas de precipitação em torno das partículas de hidróxido de cálcio. Quanto melhor a qualidade da cal, menores as vesículas de precipitação e melhores as propriedades físico-químicas da calda bordalesa.<br><br>
+
+A suspensibilidade da calda indica sua qualidade. A avaliação é feita tomando-se uma porção em um copo de vidro para avaliar a velocidade do precipitado, que em uma boa calda tem velocidade média. Caldas ácidas têm precipitação mais rápida que neutra, baixa persistência na planta e são fitotóxicas em face da presença de cobre livre. Caldas muito alcalinas têm lenta precipitação, são também fitotóxicas e, por terem as fontes de cobre bloqueadas, têm pouco efeito biocida. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6647,2181,1969,15);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{51}[1969]{177}73.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6646,2181,1969,15);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1969]{457}[1969]{542}74-5.jpg">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção
+de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019.
+176p. (Epagri. Sistemas de Produção, 53).<br>
+REBELO, J.A.; REBELO, A.M.; SCHALLENBERGER, E. Calda bordalesa: componentes, obtenção e características. Florianópolis: Epagri, 2015. 36p. (Boletim Técnico, 166).<br>
+
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Rafael Gustavo Ferreira Morales (Eng.-Agrônomo, Dr. Fitotecnia - Epagri)<br> &nbsp;&nbsp;Utiliza atualmente para o controle de doenças no sistema orgânico na Estação Experimental da Epagri de Itajaí (EEI). Ministra cursos sobre o tema. </font> 
+<br><br><br> <font size="2"> Criado em: 07/02/2019</font>
+<br> <font size="2"> Última atualização: 19/05/2022</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=2181&amp;cdElemento=1969">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=1969');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

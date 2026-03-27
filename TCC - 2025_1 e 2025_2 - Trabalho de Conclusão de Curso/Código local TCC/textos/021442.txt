@@ -1,0 +1,41 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Ácaro-da-mancha-branca (Schizotetranychus oryzae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021442&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18335%5D%7B1%7Dacaro_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18335%5D%7B3%7Dacaro_fig01.jpg
+Legenda: 01. Ácaro-da-mancha-brancaFonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18335%5D%7B472%7Dacaro_fig02.jpg
+Legenda: 02. Colônia de ninfasFonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18335%5D%7B22%7Dacaro_fig12.jpg
+Legenda: 03. Ácaro e manchas na folha ampliadosFonte: Louisiana Rice (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18335%5D%7B177%7Dacaro_fig11.jpg
+Legenda: 04. Sintomas de mancha-branca nas folhasFonte: Louisiana Rice (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18335%5D%7B498%7Dacaro_fig13.jpg
+Legenda: 05. Planta atacada por ácaro com folhas amarelecendoFonte: Plantix (remasterizada)
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie: Schizotetranychus oryzae Rossi Ordem: Acari Família: Tetranychidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18335%5D%7B392%7Dacaro_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+• O adulto é diminuto (0,8mm de comprimento) e tem o corpo alongado, algo piriforme, de coloração amarelo-esverdeada com abdome escurecido. • Os ovos são globosos e translúcidos, e ficam no emaranhado de teia e detritos na face inferior das folhas. • As ninfas são menores que os adultos e mais esverdeadas.
+
+-- CICLO DE VIDA: --
+O ciclo de vida perfaz-se em 11 dias, sendo 5 dias a incubação dos ovos e 2 dias cada fase do desenvolvimento ninfal. Os machos vivem por 15 dias e as fêmeas por até um mês, pondo de 30 a 40 ovos nesse período.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18335%5D%7B519%7Dacaro_ciclo.jpg
+Legenda: Ciclo de vida do ácaro-da-mancha-branca, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de dezembro a março. Crítico: feveriro. Lavoura: do florescimento à maturação. As populações do ácaro-da-mancha-branca aumentam a partir de meados de fevereiro, atingindo os maiores níveis em março. Por esse motivo, elas têm pouco efeito sobre a produção de grãos, visto as lavouras, nessa época, já estarem em maturação. Acontece que esse ácaro é favorecido por tempo quente e seco. Assim, estiagens no verão podem promover o rápido crescimento populacional em períodos anteriores, quando os grãos ainda estão sendo formados.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18335%5D%7B414%7Dacaro_fenologia.jpg
+Legenda: Fenologia da ocorrência do ácaro-da-mancha-branca na lavoura de arroz em Santa Catarina
+
+-- DANOS: --
+• Adultos e ninfas perfuram a superfície foliar para sugar o conteúdo celular. Desta ação resulta, inicialmente, finas riscas esbranquiçadas que depois convergem para estrias longitudinais cloróticas – as manchas brancas, visíveis na face superior das folhas. • Com a continuidade do ataque, as folhas tornam-se amareladas e secam, podendo causar retardo no crescimento e diminuição do perfilhamento das plantas. • Atenção: os sintomas foliares do ataque de ácaro são semelhantes ao resultante do ataque de percequito ou da pulga-da-folha e pode também ser confundido com viroses ou outros distúrbios, como a clorose gerada por desequilíbrios nutricionais ou por fitotoxicidade de herbicidas.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• A incidência de ácaro-da-mancha-branca nas lavouras de arroz, normalmente não necessita de intervenção com medidas específicas de controle. Quer porque as populações são baixas, quer porque ocorrem tardiamente. • O ácaro também pode estar sobre forte pressão de controle biológico, especialmente pelos ácaros predadores Neoseiulus paraibensis (Moraes and McMur.) e Neoseiulus californicus (McGregor). • Monitorar a ocorrência do ácaro nos períodos de estiagem, examinando folhas para verificar a presença de manchas e confirmando a infestação por ácaro com auxílio de lente de aumento. Não basta apenas observar o sintoma foliar, pois o mesmo pode ser devido a outros fatores. • O controle químico dos ácaros é dificultado pela inexistência de produtos registrados para aplicação em arroz.
+
+-- Informações Complementares --
+FERREIRA, E. Fauna prejudicial. In: SANTOS, A.B.; STONE, L.F.; VIEIRA, N.R.A. (eds). A cultura do arroz no Brasil . Santo Antônio de Goias: Embrapa Arroz e Feijão, 2006. 1.000p.

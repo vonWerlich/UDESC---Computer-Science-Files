@@ -1,0 +1,38 @@
+Título: TOMATE - Cultivares - DRC564 F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0175&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B79%5D%7B532%7D2.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Empresa: Seminis; Finalidade: Copa; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus
+
+-- INFORMAÇÕES DA EMPRESA: --
+Mini tomate para colheita em pencas ou frutos individuais. Frutos de coloração vermelha bem atrativa, excelente aparência, sabor e doçura. Desenvolvido para cultivo em ambiente protegido, mas também pode ser conduzido em campo aberto.
+
+-- DESCRIÇÃO DO PRODUTO: --
+Peso médio do fruto: 18 a 22 g. Tipo do fruto: Cocktail. Tipo da planta: Indeterminada.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B79%5D%7B391%7D1.jpg
+Legenda: -Site da Empresa.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B79%5D%7B486%7D3.jpg
+Legenda: -Site da Empresa.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B79%5D%7B123%7D4.jpg
+Legenda: -Site da Empresa.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B79%5D%7B264%7D2.jpg
+Legenda: -Site da Empresa.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B79%5D%7B221%7Ddrc_564-2.jpg
+Legenda: DESCRIÇÃO DO CULTIVAR:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B79%5D%7B413%7Ddrc_564-1.jpg
+Legenda: DESCRIÇÃO DO CULTIVAR:null
+
+-- RESISTÊNCIA: --
+HR - ToMV: 0-2, TSWV, Fol: 1,2 e Va:1/Vd:1 / IR - Ma/Mi/Mj.
+
+-- Vídeo de divulgação: --
+Vídeo 1. Vídeo 2.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.seminis.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.seminis.com.br.

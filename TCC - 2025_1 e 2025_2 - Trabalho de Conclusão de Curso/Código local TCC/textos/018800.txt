@@ -1,0 +1,29 @@
+Título: BIOFERTILIZANTE EEI - Preparo do biofertilizante
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018800&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16384%5D%7B179%7Dfigura_23._nivel_maximo_de_producao_do_biofertilizante.jpg
+
+-- A) Peneira: --
+O primeiro passo, que é o mais IMPORTANTE, é peneirar todos os insumos sólidos, inclusive os solúveis (ex.: açúcar), com peneira de malha para “areia de reboco” (Figura 22), evitando desta maneira o entupimento do sistema.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16384%5D%7B272%7Dfigura_22._peneira_com_malha_para_areia_de_reboco.jpg
+Legenda: Figura 22. Peneira com malha para “areia de reboco”. null
+
+-- B) Capacidade da bombona: --
+O tanque de fermentação (bombona) deve ser abastecido com, no máximo, 50% de sua capacidade. Volumes superiores diminuem a capacidade de oxigenação (Figura 23).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16384%5D%7B360%7Dfigura_23._nivel_maximo_de_producao_do_biofertilizante.jpg
+Legenda: Figura 23. Nível máximo de enchimento da bombona para a produção do biofertilizante. Autor: Alexandre Visconti
+
+-- C) Modo de preparo: --
+coloque a água e ligue a UPPB. Despeje todos os ingredientes na bombona e mantenha sob agitação contínua até que todos os ingredientes se misturem na água, o que demora de 30 a 50 minutos em média. A partir deste momento, a unidade de fermentação, por meio da conexão da bomba, será ligada ao timer (Figura 24), o qual, por sua vez, está conectado à energia elétrica.
+
+-- D) Bombeamento de oxigênio: --
+Bombear oxigênio por 6 a 8 dias durante as 24 horas. Com o “timer” analógico (Figura 24), programam-se intervalos de agitação/repouso de 15/15 minutos ou 15/30 minutos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16384%5D%7B148%7Dfigura_24._timer_analogico.jpg
+Legenda: Figura 24. “Timer” analógico. Autor: Alexandre Visconti
+
+-- IMPORTANTE: --
+O biofertilizante aeróbico não permite armazenamento. Deve ser utilizado, preferencialmente, no momento em que estiver pronto (entre o sexto e o oitavo dia) e, no máximo, até o décimo segundo dia, mantendo sempre o sistema oxigenado.
+
+-- Informações Complementares --
+Visconti, A.; Schallenberger, E. Morales, R.G.F.; Cantú, R.R. Unidade Portátil de Produção de Biofertilizante Aeróbico, Modelo Epagri. Cartilha da Epagri, Florianópolis, Março de 2022.

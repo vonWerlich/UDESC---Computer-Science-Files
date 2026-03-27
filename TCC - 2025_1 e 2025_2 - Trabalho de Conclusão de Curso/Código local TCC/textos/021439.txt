@@ -1,0 +1,74 @@
+Título: TERMOTERAPIA PARA SUBSTRATOS - O Desinfestador de substratos – Modelo Epagri
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021439&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18332%5D%7B295%7Dfigura_3._unidade_geradora_de_vapor_d_agua.jpg
+
+-- MODELO EPAGRI: --
+A Epagri, na Estação Experimental de Itajaí (EEI), desenvolveu a unidade de termoterapia a vapor para substratos (Figura 3), uma estrutura de baixo custo de construção e manutenção.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B473%7Dfigura_3._unidade_geradora_de_vapor_d_agua.jpg
+Legenda: Figura 3. Unidade geradora de vapor d água. Foto: Alexandre Visconti (Epagri/EEI)
+
+-- DIMENSÕES: --
+O modelo foi concebido no formato de uma baia. Possui paredes de alvenaria com dimensões internas de 1,0m de largura, 3,5m de comprimento e altura variando entre 85 e 95cm (Figura 2)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B216%7Dfigura_2._dimensoes_do_desinfestador.jpg
+Legenda: Figura 2. Dimensões do desinfestador. Fonte: Alexandre Visconti (Epagri/EEI)
+
+-- FONTE DE CALOR: --
+Em uma das extremidades se encontra a fonte de calor, o vaporizador de água, equipamento utilizado em saunas residenciais, com resistência blindada de 9 kW (Figura 3).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B446%7Dfigura_3._unidade_geradora_de_vapor_d_agua.jpg
+Legenda: Figura 3. Unidade geradora de vapor d água. Foto: Alexandre Visconti (Epagri/EEI)
+
+-- EXTREMIDADE OPOSTA: --
+A extremidade oposta é fechada com uma portinhola de madeira dentro de uma guia móvel (Figura 4), facilitando a sua retirada para a descarga do substrato.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B547%7Dfigura_4._portinhola_na_extremidade_oposta_do_desinfestador.jpg
+Legenda: Figura 4. Portinhola na extremidade oposta do desinfestador. Foto: Alexandre Visconti (Epagri/EEI
+
+-- ENERGIA E ÁGUA: --
+O vaporizador requer ligação à rede de energia elétrica e de abastecimento de água (Figura 5).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B40%7Dfigura_5._ligacao_eletrica_e_de_agua_do_vaporizador.jpg
+Legenda: Figura 5. Ligação elétrica e de água do vaporizador. Foto: Alexandre Visconti (Epagri/EEI)
+
+-- O INTERIOR DA BAIA: --
+O interior da baia contém um conjunto de seis canos de ferro, três na parte superior e três na parte inferior, dispostos nas laterais e ao centro, furados (broca 3mm) a cada 15–20cm de distância para a passagem do vapor no substrato (Figuras 6, 7 e 8).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B54%7Dfigura_6._canos_distribuidores_de_vapor_no_interior_da_baia.jpg
+Legenda: Figura 6. Canos distribuidores de vapor no interior da baia. Foto: Alexandre Visconti (Epagri/EEI)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B10%7Dfigura_7._canos_distribuidores_de_vapor_ligados_a_unidade_geradora_de_vapor_d_agua.jpg
+Legenda: Figura 7. Canos distribuidores de vapor ligados à unidade geradora de vapor d água. Fonte: Alexandre Visconti (Epagri/EEI)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B141%7Dfigura_8._estrutura_dos_canos_e_conexoes_metalicas_para_distribuicao_do_vapor_d_agua.jpg
+Legenda: Figura 8. Estrutura dos canos e conexões metálicas para distribuição do vapor d água. Fonte: Alexandre Visconti (Epagri/EEI)
+
+-- DISTRIBUIÇÃO DO CALOR: --
+O conjunto de canos que distribui o vapor dágua está conectado entre si e ao vaporizador através de curvas, "tês", uniões e cruzetas de ferro que permitem desmontagem e manutenção do sistema (Figuras 9 e 10).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B62%7Dfigura_10._conexoes_do_sistema_de_distribuicao_de_vapor_que_fazem_ligadas_ao_final_do_sistema.jpg
+Legenda: Figura 10. Conexões do sistema de distribuição de vapor ligadas ao final do sistema. Foto: Alexandre Visconti (Epagri/EEI)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B539%7Dfigura_9._conexoes_do_sistema_de_distribuicao_de_vapor_ligadas_ao_vaporizador.jpg
+Legenda: Figura 9. Conexões do sistema de distribuição de vapor ligadas ao vaporizador. Foto: Alexandre Visconti (Epagri/EEI)
+
+-- ACIONAMENTO ELÉTRICO: --
+O acionamento é elétrico em sistema trifásico, realizado por contactor (Figura 11) conectado a um controlador de temperatura (Figura 12A) com termopar (Figura 12B) inserido na parte superior e ao fundo da pilha de substrato, a 2cm da superfície (Figura 13).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B28%7Dfigura_11._painel_eletrico.jpg
+Legenda: Figura 11. Painel elétrico. Foto: Alexandre Visconti (Epagri/EEI)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B258%7Dfigura_12._controlador_eletronico_e_termopar.jpg
+Legenda: Figura 12. A - Controlador eletrônico; B - Termopar. Foto: Alexandre Visconti (Epagri/EEI)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B459%7Dfigura_13._ponto_de_coleta_da_temperatura.jpg
+Legenda: Figura 13. Ponto de coleta da temperatura. Foto: Alexandre Visconti (Epagri/EEI)
+
+-- FECHAMENTO SUPERIOR: --
+O fechamento superior é feito com um filme plástico transparente anti-UV de 100 micrômetros (Figura 14).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B419%7Dfigura_14._fechamento_superior_do_desinfestador.jpg
+Legenda: Figura 14. Fechamento superior do desinfestador. Foto: Alexandre Visconti (Epagri/EEI)
+
+-- FIXAÇÃO DO PLÁSTICO: --
+Fixa-se o plástico, colocando-o sobre o perfil de alumínio (Figura 15A) e aplicando em seguida a mola sobre o plástico, encaixando no perfil (Figura 15B).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18332%5D%7B121%7Dfigura_15._fechamento_superior_do_desinfestador.jpg
+Legenda: Figura 15. Fechamento superior do desinfestador: A - Perfil de alumínio; B - Mola sobre o plástico encaixado no perfil. Foto: Alexandre Visconti (Epagri/EEI)
+
+-- CAPACIDADE DE DESINFESTAÇÃO: --
+A capacidade de desinfestação é de 3,3 metros cúbicos (m3), atingindo a temperatura de 70°C em todo o volume em 3 horas e doze minutos, para um substrato 3:1:1 de solo argiloso, cama de aves e areia fina. Para substratos com menor densidade o tempo de desinfestação será menor.
+
+-- CONSUMO DE ENERGIA ELÉTRICA: --
+O consumo de energia elétrica para a desinfestação de 3,3m3 de substrato foi de R$ 10,85 ou R$ 0,03 por litro de substrato (valor em agosto de 2023).
+
+-- Informações Complementares --
+Visconti et al. Unidade de termoterapia a vapor para desinfestação de substratos. Cartilha. Epagri, 2023.

@@ -1,0 +1,16 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - L) TECNOLOGIA DE APLICAÇÃO DE PRODUTOS FITOSSANITÁRIOS - e) Bicos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03016&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2780%5D%7B277%7Dcapa_1.jpg
+
+-- Bicos: --
+É possível fazer boas pulverizações com um pulverizador usado, mas não com bicos usados. Portanto, indiferente do tipo de equipamento de pulverização, deve-se trocar a cada safra o bico de pulverização, pois ele determina a distribuição uniforme das gotículas do agrotóxico no alvo biológico. Os bicos ou pontas de pulverização são fabricados com diferentes materiais, graus de resistência ou desgaste por abrasão ou corrosão. Na Tabela 22 são apresentadas suas características.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2780%5D%7B129%7Dtabela_22.jpg
+Legenda: Classificação da resistência dos materiais utilizados na fabricação de bicos. Fonte: Chaim (2009).
+
+-- Marcas de bicos: --
+No Brasil são comercializadas diferentes marcas de bicos e cada fabricante adota uma codificação para identificar seus produtos baseada em vazão, ângulo de jato, cor de ponta, material de fabricação. Assim, o usuário deve solicitar a tabela de bicos de sua marca preferida e, na escolha, deve levar em conta o tipo de calda, o tamanho de gota adequada ao alvo, à vazão, pressão, tipo de equipamento. No entanto, o grau de cobertura do alvo e o tamanho de gota deverão ser os parâmetros orientadores para escolha do bico.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

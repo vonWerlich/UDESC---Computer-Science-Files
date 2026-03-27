@@ -1,0 +1,22 @@
+Título: TOMATE - Cultivares - Marisa F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0721&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B602%5D%7B209%7Dte_200_%28marisa%29.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: TSV Sementes; Finalidade: Copa; Grupo: Santa Cruz; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus
+
+-- INFORMAÇÕES DA EMPRESA: --
+Tomate tipo Santa Cruz, apresenta ótimo enfolhamento, conferindo proteção dos frutos, altíssima produtividade até o ponteiro, frutos firmes de longa vida estrutural, com paredes grossas. Boa rusticidade e resistência ao transporte. Ciclo (nº de dias): 95 dias; Hábito de crescimento: Indeterminado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B602%5D%7B467%7D6.jpg
+Legenda: Folder de divulgação do produto.null
+
+-- RESISTÊNCIA: --
+Fol:1, 2, Mj, Mi (raças 1 , 2, 3 e 4),TSWV* *Igual ocorre com todos os genótipos com resistência a Ty e TSWV disponíveis no mercado, o nível de resistência expresso pelo genótipo pode oscilar em função dos seguintes parâmetros da equação: NIR = RG + MAF + MNU + CL onde NIR = Nível de resistência, RG = Resistência genética, MAF = Manejo fitossanitário, MNU = Manejo Nutricional, CL = Clima.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br.

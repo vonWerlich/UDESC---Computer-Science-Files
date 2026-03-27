@@ -1,0 +1,363 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2431&amp;isEdicao=N&amp;epagriTEC=S">Sistemas de Produção</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=2435&amp;isEdicao=N&amp;epagriTEC=S">Produção Orgânica (TOMATORG)</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7421&amp;isEdicao=N&amp;epagriTEC=S">l) Colheita, armazenagem e comercialização</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="6695">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="07421">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[6695]{471}73.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Morales et al. 2019. </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>INÍCIO DA COLHEITA: </b><br>
+<p class="p1"><div> A colheita se inicia por volta dos 60 e 70 dias após o transplantio das mudas para o
+campo, dependendo do clima do local de cultivo, manejo cultural e cultivares. O período
+total de colheita é igualmente variável e depende principalmente do número de cachos a
+serem colhidos. <br> </div></p>
+<b>COMO PROCEDER NA COLHEITA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A colheita é feita manualmente, duas a três vezes por semana, e depende da
+habilidade do coletor que deve avaliar se o fruto está dentro dos critérios preestabelecidos.
+O coletor deve colher os frutos evitando deteriorar a planta do tomateiro. Os acessórios
+mais comumente utilizados são sacolas, cestos, caixas e outras embalagens. Os tipos
+de instrumentos e acessórios utilizados são fundamentais para realizar uma colheita
+eficiente, pois esses influenciam a qualidade dos frutos e o rendimento do processo. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ESTÁDIO DE MATURAÇÃO PARA A COLHEITA:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A escolha do estádio de maturação para colheita depende das preferências regionais, dos locais de comercialização e emprego culinário. De acordo com a Portaria n° 553/95 do Maara (BRASIL, 1995) e Anexo XVII da Portaria SARC nº 085/02 do Mapa (BRASIL, 2002a), o estádio de maturação classifica o tomate de coloração vermelha em cinco subgrupos:<br><br>
+
+- Verde-maduro: quando se evidencia o início do amarelecimento na região apical do fruto;<br>
+- Pintado: quando as cores amarelo, rosa ou vermelho encontram-se entre 10% a 30% da superfície do fruto;<br>
+- Rosado: quando 30% a 60% do fruto encontra-se vermelho;<br>
+- Vermelho: quando o fruto apresenta entre 60% e 90% da sua superfície vermelha;<br>
+- Vermelho maduro: quando mais de 90% da superfície do fruto encontra-se vermelha.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>LIMPEZA DE FRUTOS:</b><br>
+<p class="p1"><div> Após realizar a colheita, é necessário fazer uma limpeza superficial dos frutos para
+retirar os resíduos das caldas protetoras e nutricionais que são aplicadas para efetuar o
+manejo das principais doenças e pragas do tomateiro. <br> </div></p>
+<b>MATURAÇÃO DOS FRUTOS APÓS A COLHEITA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para mercados próximos, o tomate de mesa pode ser colhido no estádio rosado
+ou vermelho maduro, enquanto para mercados distantes pode ser colhido no estádio de
+maturação fisiológica verde maduro e completar sua maturação fora da planta (FERREIRA,
+2004). Como o tomate é um fruto climatérico, pode desenvolver cor, aroma e sabor
+característicos em pós-colheita. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>DEFEITOS NOS FRUTOS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os defeitos encontrados no tomate na classificação definem o valor comercial do
+produto. Características como tamanho, cor, firmeza da polpa e casca, defeitos fisiológicos
+aparentes ou não, aparência geral do fruto, são determinantes para a preferência do
+consumidor (FERREIRA, 2004). A classificação do tomate in natura para o consumo pode
+ser efetuada pela identificação de grupos, subgrupos, classe e tipo, segundo a Portaria do
+Maara n° 553/95 (BRASIL, 1995). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>TEMPERATURA DE ARMAZENAGEM: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> No período pós-colheita do tomate, quando os frutos são colhidos e rapidamente comercializados, as transformações são mais rápidas à medida que aumenta a temperatura
+de exposição dos frutos. Em temperatura ambiente, a vida de prateleira do tomate é
+variada, dependendo do grau de maturação, cultivar, manejo pós-colheita e embalagem
+(FERREIRA, 2004). A condição ideal de armazenamento é de temperatura entre 10 e 12°C
+e de 85 a 90% de umidade relativa do ar.
+Tomates colhidos no estádio verde-maduro e submetidos ao armazenamento
+em temperatura de 25°C e 70%UR têm aproximadamente 15 dias de vida de prateleira
+(MOURA et al., 2002). Contudo, o período ideal para o consumo é de aproximadamente
+oito dias, devido ao aumento da ocorrência de bolores e leveduras, redução da qualidade
+sensorial e redução da firmeza ao toque a partir do oitavo dia (FERREIRA, 2004). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>VIDA DE PRATELEIRA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O aumento de vida de prateleira está relacionado à presença do gene ‘rin’, que
+proporciona redução da degradação das paredes celulares do pericarpo, na síntese do
+etileno, carotenoides e na respiração do fruto, que lhes proporcionam vida pós-colheita
+de 12 a 28 dias, dependendo do grau de maturação e da estação do ano (DELLA VECCHIA
+&amp; KOCH, 2000). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CONSERVAÇÃO PÓS-COLHEITA: </b><br>
+<p class="p1"><div> Como os frutos de tomate orgânico apresentam elevado valor de mercado, técnicas de conservação pós-colheita podem ser aplicadas para a manutenção da qualidade dos
+frutos. Uma delas é a aplicação de cera, por imersão ou pulverização, reduzindo a perda
+de água e conferindo aspecto atrativo após a secagem e polimento. <br> </div></p>
+<b>COMERCIALIZAÇÃO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A logística de distribuição apresenta dois circuitos distintos: circuitos curtos e
+longos. De acordo com pesquisa realizada recentemente (PESQUISA, 2017), os circuitos
+longos de comercialização ainda são os principais meios pelos quais o consumidor acessa
+os produtos orgânicos, principalmente através das grandes redes de supermercado
+(varejistas). Posteriormente, a comercialização em circuitos curtos, como é o caso das
+feiras livres, assume papel fundamental nessa etapa, pois cumpre a função de integrar o
+produtor e o consumidor final sem a necessidade de intervenção de intermediários. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CANAIS DE VENDA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Além das redes de supermercados (varejo), das feiras livres, existem outras
+formas de comercialização ainda pouco exploradas pelo produtor, porém não menos
+importantes. Pode-se citar a comercialização para mercados institucionais, a exemplo o
+Programa Nacional de Alimentação Escolar (PNAE), e a comercialização para indústrias de
+processamento de alimentos. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>FORMAS DE APRESENTAÇÃO DO PRODUTO FINAL: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Quanto às formas de apresentação do produto nos pontos de venda (PDVs),
+os tomates orgânicos podem ser encontrados expostos sem embalagens, vendidos
+diretamente pelo produtor geralmente em feiras livres. Nas redes de varejo,
+é muito comum o uso de bandejas de isopor rasas envoltas por filme plástico e embalagens plásticas transparentes de formatos variados. Contudo, existem diversas
+outras embalagens que são utilizadas no mercado de não orgânicos e que podem ser
+utilizadas pelos produtores para diferenciar o seu produto dos demais. Os tomates devem ser acondicionados em embalagens novas, limpas, secas e que não transmitam odor ou
+sabor estranho ao produto. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6284,07421,6695,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6695]{38}74.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,6283,07421,6695,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[6695]{49}73.jpg">  </a> 
+<br><br>
+<b>NÃO PODE MISTURAR COM TOMATE DO SISTEMA CONVENCIONAL: </b><br>
+<p class="p1"><div> Os tomates orgânicos não devem estar mesclados aos tomates provenientes dos
+sistemas de produção convencional, tanto por ocasião da comercialização quanto na
+armazenagem e no transporte, para que não ocorra contaminação do produto exposto
+para venda. <br> </div></p>
+<b>PREÇO DO TOMATE ORGÂNICO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O preço praticado pelo produtor vai depender de diversos fatores, como a oferta
+de produtos orgânicos na região, a época do ano e, sobretudo, a qualidade do produto. O
+valor de mercado do tomate orgânico normalmente praticado no litoral Norte Catarinense
+varia entre R$8,00 a R$12,00 o quilograma, podendo atingir até R$15,00. Há relatos de
+produtores de outras regiões catarinenses comercializando a produção com valores acima
+de R$20,00/quilograma, o que torna o tomate orgânico um dos cultivos mais rentáveis
+dentre as principais espécies vegetais olerícolas. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>VIABILIDADE ECONÔMICA DO TOMATORG: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A receita bruta com a produção do tomate orgânico é, aproximadamente, o dobro da receita com a produção do tomate
+convencional e o lucro líquido da produção orgânica corresponde a 2,7 vezes mais que
+a convencional. Com isso, os autores concluíram que, seguida as recomendações do
+Tomatorg, o tomate orgânico é uma alternativa altamente viável e rentável no litoral do
+Norte Catarinense. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção
+de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019.
+176p. (Epagri. Sistemas de Produção, 53).
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 17/02/2020</font>
+<br> <font size="2"> Última atualização: 01/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=07421&amp;cdElemento=6695">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=6695');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

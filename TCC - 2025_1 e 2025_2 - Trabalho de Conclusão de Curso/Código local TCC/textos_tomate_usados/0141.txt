@@ -1,0 +1,28 @@
+Título: TOMATE - Cultivares - Sungrape F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0141&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B45%5D%7B271%7Dsungrape.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto amarelo; Empresa: Agristar TopSeed; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Pontos fortes: Sabor adocicado e formato e coloração diferenciados.
+
+-- PLANTAS E FRUTOS: --
+Plantas: Vigorosa e com ótima sanidade foliar, conseguindo assim excelente longevidade de colheita. Frutos: Formato uva, uniformes e com coloração atraente ao consumidor.
+
+-- CARACTERÍSTICAS: --
+Apresenta alto potencial produtivo e frutos com longa vida de prateleira.
+
+-- Resistência: --
+Fol e N.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B45%5D%7B506%7Dimg-20190120-wa0019.jpg
+Legenda: Foto na lavoura de um produtor. Foto: Satossi Kauvauti
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

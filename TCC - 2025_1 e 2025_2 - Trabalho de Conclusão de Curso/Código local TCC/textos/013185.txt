@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 02. Caracterização da planta de arroz - Componentes de rendimento
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013185&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11440%5D%7B231%7D02_comprend_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Os componentes de rendimento estão associados à formação de estruturas da planta de arroz (panículas, espiguetas ou grãos), cuja combinação define a produtividade da lavoura (conforme apresentado na equação abaixo). Produtividade (kg/ha) = [nº panículas/m² x nº de grãos/panícula x esterilidade de espiguetas (%) x massa de 1.000 grãos (g)]/1.000
+
+-- COMPONENTES DE RENDIMENTO E ÉPOCAS-CHAVE DO ARROZ: --
+Na tabela abaixo são apresentados os componentes de rendimento e as épocas-chave nas quais estes são definidos.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11440%5D%7B260%7D02_tabcomprendmto_2021.jpg
+Legenda: Componentes do rendimento e as fases, épocas-chave e períodos em que são definidos.
+
+-- Informações Complementares --

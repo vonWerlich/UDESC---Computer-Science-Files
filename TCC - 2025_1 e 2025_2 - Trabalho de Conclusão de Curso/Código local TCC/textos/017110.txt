@@ -1,0 +1,61 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Sogata (Tagosodes orizicolus)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017110&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11353%5D%7B86%7Dsogata_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B152%7Dsogata_fig01.jpg
+Legenda: 01. Macho, fêmeas aladas e fêmeas braquípteras em folha de arroz. Fonte: M.Cruz (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B383%7Dsogata_fig02.jpg
+Legenda: 02. Machos (esquerda) e fêmeas aladas (direita) de sogata. Fonte: CIAT (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B166%7Dsogata_fig03.jpg
+Legenda: 03. Macho de sogata. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B298%7Dsogata_fig04.jpg
+Legenda: 04. Deatalhe da cabeça, mostrando as antenas espessas. Fonte: não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B398%7Dsogata_fig05.jpg
+Legenda: 05. Vista dos ovos de sogata no interior da nervura principal. Fonte: UGA (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B484%7Dsogata_fig06.jpg
+Legenda: 06. Ninfas de sogata em diferentes estágios. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B7%7Dsogata_fig08.jpg
+Legenda: 08. Ninfa de sogata. Fonte: Unv.Delaware (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B175%7Dsogata_fig09.jpg
+Legenda: 09. Ninfa de sogata. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B488%7Dsogata_fig11.jpg
+Legenda: 11. Sintoma de seca em lavoura infestada. Fonte: R.Junior (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B57%7Dsogata_fig13.jpg
+Legenda: 12. Sintoma de seca em lavoura infestada. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B442%7Dsogata_fig12.jpg
+Legenda: 13. Plantas secando devido ao ataque intenso de sogata. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B118%7Dsogata_fig16.jpg
+Legenda: 16. Sogatas em planta infestada na lavoura. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B248%7Dsogata_fig17.jpg
+Legenda: 17. Fumagina nas folhas de arroz. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B201%7Dsogata_fig18.jpg
+Legenda: 17. Plantas de arroz com fumagina nas folhas. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B516%7Dsogata_fig21.jpg
+Legenda: 21. Adultos de sogata capturados com rede de varredura. Fonte: E.R.Hickel
+
+-- INFORMAÇÕES GERAIS: Praga primária --
+Espécies: Tagosodes orizicolus (Müir) Ordem: Hemiptera Família: Delphacidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B487%7Dsogata_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+• O adulto é uma pequena cigarrinha variando de 2 a 4mm de comprimento, sendo os machos pretos e as fêmeas de coloração castanho-amarelada. Em ambos os sexos, uma faixa mediana de cor clara percorre o dorso, da cabeça ao final do abdome. • Os ovos são postos em grupos de 8 a 20 no interior da nervura principal. • As ninfas são branco-amareladas, ápteras e com duas faixas escuras dorso-longitudinais.
+
+-- CICLO DE VIDA: --
+Os ovos incubam por 3 a 5 dias. A fase ninfal varia de 15 a 18 dias, sucedendo-se as gerações em cerca de 20 dias. Os adultos vivem por 20 a 30 dias.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B465%7Dsogata_ciclo.jpg
+Legenda: Ciclo de vida da sogata, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de outubro a abril. Crítico: verão. Lavoura: do perfilhamento à colheita. As sogatas podem chegar nas lavouras a partir do perfilhamento, atingindo altas populações no verão. O ataque torna-se crítico a partir do emborrachamento até o estágio de grão leitoso.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11353%5D%7B91%7Dsogata_fenologia.jpg
+Legenda: Fenologia da ocorrência da sogata na lavoura de arroz em Santa Catarina
+
+-- DANOS: --
+A sogata suga a seiva do arroz, nas folhas, talos e panículas. Isso causa o amarelecimento e posterior seca das partes verdes da planta, com perdas significativas na produção em caso de infestação severa. A excreção do excesso de seiva sugada leva ao desenvolvimento de fumagina nas folhas e atrai muitos dípteros muscoides. Outra importância da sogata está na transmissão do vírus da folha branca (HBV). Incidindo nos estágios iniciais da lavoura, o vírus da folha branca compromete gravemente o desenvolvimento e posterior floração das plantas atacadas. Essa virose ainda não foi constatada no Brasil.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Destruição de restos culturais após a colheita, evitando o cultivo da soca em lavouras previamente infestadas. • Preservação e incremento do controle biológico, evitando pulverizações desnecessárias de fungicidas e inseticidas. • Plantio de cultivares resistentes à sogata e ao vírus (quando disponíveis). • Realizar vistorias periódicas na lavoura a partir do perfilhamento, intensificando-as de dezembro em diante. A sogata fica na parte baixa das plantas e é preciso afastar os colmos com um pedaço de taquara para se fazer essas inspeções. • Controle químico com inseticidas sistêmicos. Após a fase de grão leitoso, não se recomenda mais a pulverização de inseticidas.
+
+-- Informações Complementares --
+FERREIRA, E.; BARRIGOSSI, J.A.F.; CASTRO, E.M. Homópteros associados ao arroz . Santo Antônio de Goias: Embrapa Arroz e Feijão, 2003. (Embrapa Arroz e Feijão. Documentos, 152). RINCON, V.H.P.; ACOSTA, O.L.H.; BASTIDAS, H.; HERNANDEZ, P.; REYES, L.A. Manejo integrado de sogata ( Tagosodes orizicolus ) Muir em el cultivo de arroz em los Llanos Orientales . Villavicencio: Fedearroz, 1999. s.p. Disponível em: http://bibliotecadigital.agronet.gov.co/bitstream/11348/6456/1/Manejo%20integrado%20de%20sogata%20muir%20en%20el%20cultivo%20de%20arroz.pdf. Acesso em: 01.jun.2020.

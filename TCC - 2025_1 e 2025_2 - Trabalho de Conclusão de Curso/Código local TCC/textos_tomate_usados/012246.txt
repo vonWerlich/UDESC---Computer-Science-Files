@@ -1,0 +1,30 @@
+Título: CALDA SULFOCÁLCICA DA EPAGRI DE ITAJAÍ
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012246&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1970%5D%7B128%7D76.jpg
+
+-- Informações gerais: --
+É resultante de uma reação corretamente balanceada entre o cálcio e o enxofre, dissolvidos em água e submetidos à fervura, constituindo uma mistura de polissulfetos de cálcio.
+
+-- Ingredientes (para 20 litros de calda sulfocálcica): --
+- 5 kg de enxofre; - 2,5 kg de cal virgem.
+
+-- Modo de preparo: uso do cal --
+Em um tambor de ferro ou latão, sobre forno ou fogão, adicionar vagarosamente a cal virgem a 10 litros de água, agitando constantemente com uma pá de madeira.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1970%5D%7B480%7D75.jpg
+Legenda: Calda sulfocálcica, adição da cal. Foto: Alexandre Visconti
+
+-- Modo de preparo: uso do enxofre --
+No início da fervura, misturar vagarosamente o enxofre previamente dissolvido em água quente e colocar o restante da água, também pré-aquecida, até a fervura completa. Quando a calda passar da cor vermelha para pardo-avermelhada estará pronta. Após o resfriamento, deverá ser coada em pano ou peneira fina para evitar entupimento dos pulverizadores. A borra restante pode ser empregada para caiação do tronco de árvores.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1970%5D%7B427%7D76.jpg
+Legenda: Calda sulfocálcica, adição do enxofre. Foto: Alexandre Visconti
+
+-- Como armazenar a calda pronta: --
+A calda pronta deve ser estocada em recipiente de plástico opaco ou vidro escuro e armazenada em local escuro e fresco, por um período relativamente curto, sendo ideal sua utilização até, no máximo, 60 dias após a preparação.
+
+-- DICAS: --
+- A qualidade e a pureza dos componentes da calda determinam sua eficácia, sendo que a cal não deve ter menos que 95% de CaO; - A calda é alcalina e altamente corrosiva, danifica recipientes de metal, as roupas e a pele. Após manuseá-la, é necessário lavar bem os recipientes e as mãos com uma solução a 10% de suco de limão ou de vinagre em água; - A calda pode ser fitotóxica para muitas plantas, principalmente quando a temperatura ambiente é elevada, sendo conveniente testá-la antes do emprego em maior escala e sempre dar preferência para aplicações ao final da tarde; - Utilizar equipamento de proteção individual (EPI) quando da realização das pulverizações; - Não descartar os excedentes em nascentes, cursos d’água, açudes ou poços; - Após aplicação de caldas à base de cobre (bordalesa e viçosa), deve-se respeitar o intervalo mínimo de 20 dias para tratamento com sulfocálcica.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

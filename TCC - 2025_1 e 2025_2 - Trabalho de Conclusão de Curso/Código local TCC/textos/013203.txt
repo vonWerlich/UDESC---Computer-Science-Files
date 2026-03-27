@@ -1,0 +1,30 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares convencionais recomendadas - SCS122 Miura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013203&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11457%5D%7B527%7Dscs122_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Em 2003 foi realizado cruzamento de plantas da linhagem PR 122 (linhagem do IAPAR oriunda do Banco de Germoplasma) e o cultivar SCSBRS Tio Taka. Em 2004 foi realizado retrocruzamento entre a F1 obtida deste cruzamento e a linhagem da Epagri SC 354. A linhagem SC 681 foi considerada promissora e em 2011 e 2012 foi levada para avaliação nos ensaios de competição regional, localizados em seis diferentes regiões do Estado, seguido, em 2012 e 2013 dos Ensaios de Valor de Cultivo e Uso em três regiões de Santa Catarina. Após as avaliações agronômicas, a linhagem SC 681 foi também submetida a avaliação de desempenho industrial, sendo que foi considerada adequada aos processos de beneficiamento para arroz branco e parboilizado. A linhagem SC 681 recebeu o nome de SCS122 Miura. É um cultivar de alto potencial produtivo, com tolerância ao acamamento, bom perfilhamento e resistência à brusone.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: Alto Vale do Itajaí: 11,2t/ha; Litoral Norte: 8,7t/ha; Sul do Estado: 9,5t/ha • Altura da planta: 83cm • Ciclo: Tardio (137 dias) • Acamamento: Resistente • Reação à toxidez por ferro: Moderadamente suscetível • Reação à brusone: Moderadamente resistente • Reação a baixas temperaturas (13°C): ...
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 2 • Classe: Longo fino • Renda do beneficiamento: 67,5% • Rendimento de grãos inteiros: 50,6% • Teor de amilose: 21,7% • Temperatura de gelatinização: Alta
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: ...cm • Largura: ...cm • Pubescência: Forte • Ângulo das folhas: ... • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Incolor a verde • Cor da aurícula: Verde-clara • Cor do colo: ...
+
+-- COLMO: --
+• Comprimento: 75cm • Espessura: 0,4cm • Perfilhamento: Excelente • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde-clara
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Médio (26cm) • Exserção: Média/justa • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Amarela • Cor do apículo na maturação: Amarela • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,2mm • Espessura: 1,7mm • Largura: 2,1mm • Relação C/L: 3,48 • Forma do grão: Alongado • Peso de mil grãos: 28,6g • Pilosidade: Média
+
+-- Informações Complementares --

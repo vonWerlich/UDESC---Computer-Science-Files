@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Evimeria
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019395&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16996%5D%7B518%7Devimeria.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Superseed; Pós colheita: Muito boa; Tamanho Médio: 6,5 x 8,5 cm; Peso Médio: 250 g; Ciclo Médio: 110 dias; Tipo de fruto: Salada; Resistencia: Fol:0-2, Pf, Ma, Mi, Mj, Ss, ToMV, TSWV, TYLCV, Va e Vd; PONTOS FORTES: Possui um pacote completo de resistência (geminivírus, vira-cabeça, fusarium raça 3, nematoides e stemphylium). Apresenta ainda frutos grandes e boa firmeza; PLANTA: Vigorosa, com pencas bem definidas; FRUTOS: Mais altos, com destaque para o tamanho e muito firmes. Apresenta ainda boa tolerância a rachadura de frutos no período chuvoso; CARACTERÍSTICAS: Indicado para regiões com problemas de F3, além de proporcionar maior segurança por apresentar resistência as principais viroses (TYLCV e TSWV). Se destaca ainda pela sanidade foliar devido a resistência genética ao stemphylium.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://agristar.com.br.

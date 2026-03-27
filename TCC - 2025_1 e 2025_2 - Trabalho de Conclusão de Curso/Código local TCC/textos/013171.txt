@@ -1,0 +1,25 @@
+Título: ARROZ IRRIGADO - 13. Tecnologia de aplicação de agrotóxicos em arroz irrigado - Preparação para pulverização
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013171&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11428%5D%7B398%7D11_preparapulveriza_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+A preparação para pulverização envolve todas as tarefas de manutenção dos equipamentos, para a correta aplicação dos tratamentos.
+
+-- REVISÃO DOS PULVERIZADORES: --
+A primeira tarefa antes de se iniciar a operação de pulverização é a revisão geral dos componentes dos pulverizadores, verificando: • eventuais vazamentos no tanque, mangueiras e conexões; • o volume correto de óleo da bomba; • o funcionamento da tomada de força do trator, se não apresenta oscilações quando em funcionamento; • o adequado estado de conservação e limpeza dos filtros utilizados nas diferentes partes do pulverizador; e • o estado de funcionamento do manômetro.
+
+-- CHECAGEM DAS PONTAS DE PULVERIZAÇÃO: --
+Também se faz necessário uma prévia avaliação das pontas de pulverização, para verificar: • se não estão desgastadas; • se têm as mesmas especificações ou tipos que deseja utilizar no tratamento; • se estão com distanciamento igual entre si; e • se o jato formado em cada ponta é uniformidade, principalmente nas extremidades.
+
+-- AFERIÇÃO DA VAZÃO DE CADA PONTA: --
+A medição da vazão individual de cada ponta completa a avaliação do estado das pontas de pulverização. No campo, a maneira mais prática de verificar o volume de líquido liberado pelas pontas é pela coleta e medição em proveta ou recipiente graduado de fácil visualização. Para tal, determina-se um tempo cronometrado igual para todas as pontas, repetindo-se por três vezes e fazendo a média das respectivas leituras de vazão.
+
+-- INSPEÇÃO DA BARRA DE PULVERIZAÇÃO: --
+Na sequência, deve-se fazer a verificação da uniformidade de distribuição de todos os jatos ao longo da barra e se há alinhamento em toda a extensão da barra, mantendo a mesma distância entre a saída do jato da ponta e o topo das plantas. Normalmente, essa altura de barra fica em torno de 0,5m para a maioria das pontas, tanto de jato leque quanto cônico, para que haja o cruzamento entre os jatos de cada ponta, sem deixar áreas com super ou sub-deposição ( figura abaixo ). Em barras equipadas com pontas de jato plano, é de grande importância que a angulação das ranhuras das pontas em relação à barra seja de 9°, para evitar que os jatos gerados colidam, ocasionando deposição irregular ( figura abaixo ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11428%5D%7B9%7D11_sobrepoe_fig01.jpg
+Legenda: 01. Altura da barra para obter a sobreposição dos jatos com pontas de pulverização tipo jato plano. Fonte: Velloso (modificado)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11428%5D%7B122%7D11_sobrepoe_fig02.jpg
+Legenda: 02. Angulação correta das pontas de pulverização do tipo jato plano. Fonte: Velloso (modificado)
+
+-- Informações Complementares --

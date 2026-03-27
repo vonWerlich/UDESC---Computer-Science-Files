@@ -1,0 +1,77 @@
+Título: PLANTAS PARA ADUBAÇÃO VERDE - Trigo mourisco (Fagopyrum esculentum)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012889&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11198%5D%7B300%7Dtrigo_mourisco_-_floracao%2C_epagri-cepaf%2C_2008_1..jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B196%7Ddsc_%28100%29.jpg
+Legenda: DSC (100). Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B76%7Ddsc_%28101%29.jpg
+Legenda: DSC (101). Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B494%7Dfloracao_trigo_mourisco._epagri-cepaf%2C_cda_2012.jpg
+Legenda: Floração trigo mourisco. Epagri-Cepaf, CDA 2012. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B357%7Dfloracao_trigo_mourisco._epagri-cepaf%2C_2020..jpg
+Legenda: Floração trigo mourisco. Epagri-Cepaf, 2020. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B316%7Dfrutificacao_trigo_mourisco%2C_epagri-cepaf%2C_2006_1..jpg
+Legenda: Frutificação trigo mourisco, Epagri-Cepaf, 2006. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B393%7Dhpim0446.jpg
+Legenda: HPIM0446. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B276%7Dimg_20170116_085209674.jpg
+Legenda: IMG_20170116_085209674. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B54%7Dimg_20171201_111221185.jpg
+Legenda: IMG_20171201_111221185. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B133%7Dimg_20200108_141415759.jpg
+Legenda: IMG_20200108_141415759. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B194%7Dlavoura_trigo_mourisco._epagri-cepaf%2C_2017.jpg
+Legenda: Lavoura trigo mourisco. Epagri-Cepaf, 2017. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B402%7Dmilheto_capim_sudao_trigo_mourisco_cepaf.jpg
+Legenda: Milheto_capim sudão_trigo mourisco_Cepaf. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B38%7Dproducao_sementes_trigo_mourisco_cepaf_2019.jpg
+Legenda: produção sementes Trigo mourisco_Cepaf_2019. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B198%7Dtrigo__mourisco_inicio_floracao._epagri-cepaf%2C_2017.jpg
+Legenda: Trigo mourisco início floração. Epagri-Cepaf, 2017. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B116%7Dtrigo_mourisco_foto_juliane.jpg
+Legenda: Trigo mourisco. Foto: Juliane Garcia Knapik Justen.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B83%7Dtrigo_mourisco_-_floracao._epagri-cepaf%2C_2006_001.jpg
+Legenda: Trigo mourisco - floração. Epagri-Cepaf, 2006. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B59%7Dtrigo_mourisco_-_floracao%2C_epagri-cepaf%2C_2008_1..jpg
+Legenda: Trigo mourisco - floração, Epagri-Cepaf, 2008. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B333%7Dtrigo_mourisco_-_floracao._epagri-cepaf%2C_2008..jpg
+Legenda: Trigo mourisco - floração. Epagri-Cepaf, 2008. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B422%7Dtrigo_mourisco%2C_epagri-cepaf%2C_2019..jpg
+Legenda: Trigo mourisco, Epagri-Cepaf, 2019. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B242%7Dtrigo_mourisco_agronomica_2019_foto_juliane.jpg
+Legenda: Trigo mourisco_Agronômica_2019. foto: Juliane Garcia Knapik Justen.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11198%5D%7B440%7Dtrigo_mourisco_dona_emma_28marco18_foto_juliane.jpg
+Legenda: Trigo mourisco_Dona Emma_28março18. Foto: Juliane Garcia Knapik Justen.
+
+-- INFORMAÇÕES GERAIS: --
+OUTROS NOMES COMUNS: Trigo-mouro, Trigo-sarraceno, trigo-preto, trigo-vermelho, sarraceno, beech wheat, buckwheat, common buckwheat, emarginate knotgrass, japanese buckwheat, silver hull. NOME CIENTÍFICO: Fagopyrum esculentum Moench. FAMÍLIA: Polygonaceae. ORIGEM: Ásia Central.
+
+-- CARACTERÍSTICAS BOTÂNICAS: --
+PORTE: Herbáceo. HÁBITO DE CRESCIMENTO: Ereto. CAULE: Ereto/ramificado. ALTURA DA PLANTA (m): 0,6 a 1,0. SISTEMA RADICULAR: Pivotante/muito ramificado/agressivo.
+
+-- INFORMAÇÕES FENOLÓGICAS: --
+CICLO VEGETATIVO: Anual. ÉPOCA IDEAL DE PLANTIO: Primavera/verão. ÉPOCA PREFERENCIAL DE PLANTIO: Outubro a fevereiro. ÉPOCA POSSÍVEL DE PLANTIO: Setembro a março. CICLO PARA FLORESCIMENTO (dias): 35 a 50. CICLO PARA COLHEITA DE SEMENTES (dias): 70 a 85.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+PRODUÇÃO DE FITOMASSA (MS t/ha): 3 a 6. PRODUÇÃO DE FITOMASSA (MV t/ha): 15 a 28. TOLERÂNCIA À GEADA: Suscetível. TOLERÂNCIA A SOLOS ÁCIDOS: Alta. TOLERÂNCIA A BAIXA FERTILIDADE DO SOLO: Alta. TOLERÂNCIA AO DÉFICIT HÍDRICO: Média. TOLERÂNCIA AO ENCHARCAMENTO: Baixa. TOLERÂNCIA A BAIXA TEMPERATURA: Média a baixa. TOLERÂNCIA AO SOMBREAMENTO TEMPORÁRIO: Baixa. VELOCIDADE NA COBERTURA INICIAL DO SOLO: Muito rápida. APTIDÃO PARA PASTAGEM: Forte (uso de grãos).
+
+-- SEMENTES: --
+PRODUTIVIDADE DE SEMENTES (kg/ha): 1000 a 2000. PESO DE MIL SEMENTES (gramas): 32 a 37. PRESENÇA DE SEMENTES DURAS: Não registrado.
+
+-- SEMEADURA: --
+ESPAÇAMENTO ENTRE LINHAS (metros): 0,17 a 0,35. DENSIDADE DE SEMEADURA (kg/ha, em linha): 40 a 60. DENSIDADE DE SEMEADURA (kg/ha, a lanço): 80 a 90.
+
+-- COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: --
+NITROGÊNIO (% na massa seca): 1,80 a 2,01. FÓSFORO (P2O5 % na massa seca): 0,20 a 0,31. POTÁSSIO (K2O % na massa seca): 3,00 a 3,71.
+
+-- INDICAÇÃO DE USO / CULTIVO: --
+MISTURAS DE ADUBOS VERDES: Milheto, capim-sudão, crotalárias, guandu-anão, mucuna-anã, tremoços e nabo-forrageiro. SUGESTÕES DE CONSÓRCIO: Milheto (5 a 8kg/ha) + trigo-mourisco (15 a 20 kg/ha) + crotalaria-espectabilis ou crotalária-breviflora ou crotalária-ocroleuca (6 a 8kg/ha cada ou misturadas); milheto (5 a 8kg/ha) + trigo-mourisco (15 a 20kg/ha) + crotalária-espectabilis ou crotalária-breviflora ou crotalária-ocroleuca (6 a 8kg/ha cada ou misturadas) + guandu-anão ou mucuna-anã (10 a 15kg/ha); aveia-preta (30kg/ha) + tremoço-branco (25 a 30kg/ha) + nabo-forrageiro (5kg/ha) + ervilhaca- comum (20 a 25kg/ha) + trigo-mourisco (10 a 15kg/ha). Sugestão geral para misturas: trigo mourisco (18 a 25kg/ha) + 2 ou 3 espécies; trigo mourisco (15 a 18kg/ha + 4 a 6 espécies). CONSÓRCIO COM CULTURAS (sucessão/intercalares): Cebola, soja, feijão, culturas perenes (citros) e milho. OUTROS USOS: Alimentação humana (grãos e farinha sem glúten) e animal (grãos e forragem); excelente pasto apícola.
+
+-- INFORMAÇÕES FITOSSANITÁRIAS: --
+SUSCEPTIBILIDADE A PRAGAS E DOENÇAS: Não há relatos de doenças que ataquem a cultura; há poucos registros da incidência de tripes ( Frankliniella schultzei ); vaquinha ( Diabrotica speciosa ); burrinho da batatinha ( Epicauta atomaria ) e formigas cortadeiras ( Atta sp . e Acromyrmex sp ). SUSCEPTIBILIDADE A NEMATOIDES: Não é hospedeiro de Pratylenchus brachyurus , Meloidogyne javanica , Meloidogyne incognita e Heterodera glycines .
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+DESENVOLVIMENTO EM SANTA CATARINA: Ótimo desenvolvimento vegetativo em todas as regiões do estado. Nas regiões quentes (Clima Cfa) é possível fazer duas safras a partir de setembro/outubro. MANEJO DA FITOMASSA: Manejo mecânico (rolo-faca) a partir da floração. DICAS: Suporta restrições prolongadas de umidade. Excelente pasto apícola. É considerado um excelente atrativo para “vespas” em cultivos próximos a parreirais. ATENÇÃO: Esta espécie tem apresentado efeitos negativos quando antecedendo ao cultivo de trigo. Recomenda-se o cultivo do trigo mourisco em misturas com outras espécies de adubos verdes devido à baixa persistência de sua fitomassa sobre o solo. CARACTERÍSTICA DESTAQUE: Ciclagem de fósforo com micorrizas; boa capacidade de competição com plantas espontâneas.
+
+-- Informações Complementares --
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, CLIQUE AQUI!

@@ -1,0 +1,31 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares fora da recomendação - SCS 112
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013217&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11471%5D%7B141%7Dscs112_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar SCS 112 é oriundo do cruzamento entre Empasc 101 e Cica 8, realizado na Epagri – EEI em 1987. A linhagem foi submetida a avaliações em ensaios regionais durante 3 anos, em seis regiões edafoclimáticas do Estado e lançada como cultivar em 2002. Foi o primeiro cultivar da Epagri a ser protegido. É um cultivar de tipo moderno e destaca-se pelo excelente potencial em produtividade, tendo alta capacidade de perfilhamento, boa qualidade de grãos e ciclo longo. Foi cultivado em todo Estado, predominando em algumas regiões.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: 10,0t/ha • Altura da planta: 105cm • Ciclo: Tardio (140 dias) • Acamamento: Resistente • Reação à toxidez por ferro: Moderadamente suscetível • Reação à brusone: Moderadamente resistente • Reação a baixas temperaturas (13°C): Suscetível
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 1 • Classe: Longo fino • Renda do beneficiamento: 72,0% • Rendimento de grãos inteiros: 62,0% • Teor de amilose: 27,4% • Temperatura de gelatinização: Média a alta
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: 30cm • Largura: 1,6cm • Pubescência: Média • Ângulo das folhas: Ereto • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Branca a verde • Cor da aurícula: Incolor a verde • Cor do colo: Verde-clara
+
+-- COLMO: --
+• Comprimento: 76cm • Espessura: 0,6cm • Perfilhamento: Excelente • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Intermediário (26,3cm) • Exserção: Média (1 a 5cm) • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Verde • Cor do apículo na maturação: Palha • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,6mm • Espessura: 1,8mm • Largura: 2,2mm • Relação C/L: 3,44 • Forma do grão: Alongado • Peso de mil grãos: 30,0g • Pilosidade: Média
+
+-- Informações Complementares --
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).

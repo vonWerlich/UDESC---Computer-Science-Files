@@ -1,0 +1,20 @@
+Título: MANGARITO - Tratos Culturais - a) Escolha da área
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09154&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8387%5D%7B255%7D%5B8387%5D%7B312%7Dmangarito_roxo_plantado_em_coivara.jpg
+
+-- ESCOLHA DA ÁREA: --
+A área a ser escolhida depende do tipo de mangarito a ser cultivado.
+
+-- MANGARITO BRANCO (Xanthosoma riedelianum Schott): --
+Como trata-se de uma planta domesticada há muito anos Ave Lallemant, (1953), as plantas são mais resistentes ao manejo convencional que o mangarito roxo. Os solos devem ser, preferencialmente, ricos em matéria orgânica e sem aplicação de calcário, que causa apodrecimento por ataque de Erwinia).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8387%5D%7B534%7Dfigura_7.jpg
+Legenda: Figura 5. Mangarito branco em Joinville plantado em área plana e solo bem trabalhado. Foto: Dione Benevenutti
+
+-- MANGARITO ROXO (Xanthosoma poecile): --
+o mangarito roxo sendo muito mais sensível que o mangarito branco, exige áreas preferenciais de encostas, viradas ao lado leste, para incidir o sol da manhã (Figura 6). Da mesma forma que o mangarito branco, essa cultura não exige aplicação de calcário.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8387%5D%7B270%7Dfigura_8.jpg
+Legenda: Figura 6. Mangarito roxo cultivado em Ilhota em encosta voltada ao leste. Foto: Antônio Henrique dos Santos
+
+-- Informações Complementares --
+Antônio H. dos Santos e Rafael G. F. Morales. Cultivo do mangarito em Santa Catarina. Cartilha. Edição: Epagri/DEMC Florianópolis, agosto/2022. AUTORES CITADOS: - AVÉ LALLEMANT, R. Viagem ao Sul do Brasil no ano de 1858. Rio de Janeiro: Instituto Nacional do Livro, 1953, 360p.

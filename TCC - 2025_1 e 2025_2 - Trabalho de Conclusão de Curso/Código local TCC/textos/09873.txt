@@ -1,0 +1,8 @@
+Título: LEGISLAÇÕES - Tabela Tipi - Receita Federal
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09873&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8923%5D%7B279%7Dcanva_-_delivery_checklist_clipboard_line_style_icon.svg
+DECRETO Nº11.158, DE 29 DE JULHO DE 2022 - Aprova a Tabela de Incidência do Imposto sobre Produtos Industrializados - TIPI. Acessar Decreto. TABELA TIPI Acessar Tabela.
+
+-- Informações Complementares --

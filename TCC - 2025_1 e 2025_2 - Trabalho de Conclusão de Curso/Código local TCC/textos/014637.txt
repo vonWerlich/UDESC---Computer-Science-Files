@@ -1,0 +1,30 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Calagem
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014637&isEdicao=N&epagriTEC=S
+
+
+-- OBJETIVO DA CALAGEM: --
+A recomendação de calcário para solos ácidos visa proporcionar um ambiente adequado ao crescimento do sistema radicular, diminuindo a atividade de elementos tóxicos para as plantas cultivadas, como o Al e o Mn, e favorecer a disponibilidade de alguns elementos essenciais à nutrição das plantas (CQFS – RS/SC, 2016). Além disso, nunca é demais lembrar que o calcário é fonte de cálcio e magnésio para as plantas.
+
+-- ACIDEZ DO SOLO (pH): --
+A cultura da cebola apresenta alta sensibilidade à toxidez do Al. O pH do solo recomendado para essa hortaliça é 6,0. Para os estados de Santa Catarina e do Rio Grande do Sul o método preferencial para indicar a necessidade de calcário é o índice SMP (CQFS – RS/SC, 2016).
+
+-- USO DO MÉTODO DE SATURAÇÃO DE BASES: --
+Alternativamente ao índice SMP, a dose de calcário poder ser estimada usando o método de saturação por bases. Embora ainda não tenha sido calibrado o valor de saturação de bases das diferentes culturas para os solos do RS e SC, segundo a CQFS – RS/SC (2016), assume-se uma provável correspondência entre o valor do pH de referência das culturas com o valor V%, sendo: pH 5,5 (V = 65%); pH 6,0 (V = 75%) e pH 6,5 (V = 85%).
+
+-- MÉTODO EM SOLOS COM BAIXO PODER TAMPÃO: --
+Para solos com baixo poder tampão (arenosos e/ou pobres em matéria orgânica), o índice SMP pode subestimar a acidez potencial e indicar uma dose de calcário insuficiente para elevar o pH até o valor desejado ou ainda apresentar teores de Al prejudiciais ao desenvolvimento das plantas. Nesses casos, recomenda-se utilizar equações polinomiais que consideram o teor de matéria orgânica e de Al trocável para definir a dose de calcário, conforme equações indicadas pela CQFS – RS/SC (2016).
+
+-- CORRETIVOS PARA CORREÇÃO DO pH: --
+Para a correção da acidez do solo, existem diversos tipos de corretivos, sendo os calcários mais comercializados em função do menor custo. Os calcários podem ser classificados em função do teor de óxido de magnésio (MgO) como calcíticos, magnesianos e dolomíticos. Aqueles que apresentam menos de 5% de MgO são denominados calcíticos; de 5 a 12% de MgO, magnesianos; e acima de 12% de MgO, dolomíticos. Para a escolha do tipo de calcário a ser usado, deve-se levar em conta os teores de Ca e Mg, a relação de Ca/Mg ou a proporção desses cátions na CTC. Para os solos de SC, na maioria dos casos pode ser usado o calcário dolomítico para a correção da acidez.
+
+-- RELAÇÃO Ca/Mg: --
+Embora não sejam comprovados prejuízos no rendimento e na qualidade da maioria das culturas quando a relação de Ca/Mg é igual ou maior a 1:1, a relação desses cátions considerada ideal situa-se entre 3:1 e 4:1. Para hortaliças que de maneira geral são mais exigentes em Ca, quando a relação Ca/Mg estiver menor que 2:1 ou a saturação de Ca na CTC estiver menor que 50%, pode ser indicado o uso de calcário calcítico.
+
+-- QUANTO TEMPO ANTES DEVE-SE APLICAR O CALCÁRIO? --
+A aplicação do calcário é recomendada com antecedência mínima de 60 a 90 dias antes do plantio para permitir a reação do corretivo no solo.
+
+-- INCORPORAÇÃO DO CALCÁRIO: --
+Para a incorporação do calcário, quando as doses forem maiores que 5t ha-1, recomenda-se incorporar o corretivo a uma profundidade de aproximadamente 20cm em duas etapas: adicionar 50% da dose e realizar uma aração e posteriormente adicionam-se os outros 50%, precedido de gradagem para incorporação. Para a incorporação do calcário na profundidade de 20cm não é indicado o uso de subsolagem em substituição à aração , pois com este equipamento a incorporação não é adequada. Portanto, a operação deve ser feita com arado!
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

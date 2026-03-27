@@ -1,0 +1,104 @@
+Título: TOMATE - Cultivares - BRS Nagai F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0852&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B729%5D%7B356%7Dnagai.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agrocinco; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Pto ou Xcv - Xanthomonas campestris pv. vesicatoria; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: Sw5 - Tospovírus; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido indeterminado saladete, crescimento vigoroso com alta produtividade. Frutos longa vida, com peso médio de 180g a 200g. Boa tolerância de campo a bactérias. Origem: Agrocinco Seeds of Value e Embrapa Hortaliças
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B389%7Dnagai_1.jpg
+Legenda: 1)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B442%7Dnagai_10.jpg
+Legenda: 10)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B446%7Dnagai_11.jpg
+Legenda: 11)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B296%7Dnagai_12.jpg
+Legenda: 12)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B277%7Dnagai_13.jpg
+Legenda: 13)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B115%7Dnagai_14.jpg
+Legenda: 14)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B162%7Dnagai_15.jpg
+Legenda: 15)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B147%7Dnagai_16.jpg
+Legenda: 16)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B167%7Dnagai_17.jpg
+Legenda: 17)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B234%7Dnagai_18.jpg
+Legenda: 18)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B246%7Dnagai_19.jpg
+Legenda: 19)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B14%7Dnagai_2.jpg
+Legenda: 2)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B503%7Dnagai_20.jpg
+Legenda: 20)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B117%7Dnagai_22.jpg
+Legenda: 22)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B408%7Dnagai_23.jpg
+Legenda: 23)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B381%7Dnagai_24.jpg
+Legenda: 24)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B77%7Dnagai_25.jpg
+Legenda: 25)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B288%7Dnagai_26.jpg
+Legenda: 26)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B466%7Dnagai_27.jpg
+Legenda: 27)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B300%7Dnagai_28.jpg
+Legenda: 28)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B269%7Dnagai_29.jpg
+Legenda: 29)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B253%7Dnagai_3.jpg
+Legenda: 3)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B530%7Dnagai_30.jpg
+Legenda: 30)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B411%7Dnagai_31.jpg
+Legenda: 31)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B250%7Dnagai_32.jpg
+Legenda: 32)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B362%7Dnagai_33.jpg
+Legenda: 33)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B521%7Dnagai_34.jpg
+Legenda: 34)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B212%7Dnagai_35.jpg
+Legenda: 35)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B101%7Dnagai_36.jpg
+Legenda: 36)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B225%7Dnagai_37.jpg
+Legenda: 37)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B262%7Dnagai_38.jpg
+Legenda: 38)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B281%7Dnagai_39.jpg
+Legenda: 39)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B461%7Dnagai_4.jpg
+Legenda: 4)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B260%7Dnagai_40.jpg
+Legenda: 40)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B219%7Dnagai_41.jpg
+Legenda: 41)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B484%7Dnagai_42.jpg
+Legenda: 42)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B400%7Dnagai_43.jpg
+Legenda: 43)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B202%7Dnagai_5.jpg
+Legenda: 5)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B435%7Dnagai_6.jpg
+Legenda: 6)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B130%7Dnagai_7.jpg
+Legenda: 7)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B415%7Dnagai_8.jpg
+Legenda: 8)null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B729%5D%7B489%7Dnagai_9.jpg
+Legenda: 9)null
+
+-- RESISTÊNCIA: --
+Sm = Stemphylium solani e Stemphylium lycopersici Pto = Pseudomonas syringae pv. tomato I-1 = Fusarium raça 1 I-2 = Fusarium raça 2 Ve = Verticillum dahlie e Verticillum albo-atrum Sw-5 = TSWV Mi = Meloidogyne javanica, Meloidogyne incognita, Meloidogyne arenaria (nematóides) Cf-2 = Cladosporium raça 2 Cf-5 = Cladosporium raça 5 Ty = TYLCV Tmv = Tobacco mosaic
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.agrocinco.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.agrocinco.com.br/2013/produto_detalhes.asp?idprod=71&idcat=1&idsub=2

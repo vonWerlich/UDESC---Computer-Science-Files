@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Herbicidas indicados para o arroz irrigado - Sirius
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015665&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+10. Plantas daninhas
+Herbicidas indicados para o arroz irrigado
+Sirius
+
+-- INFORMAÇÕES GERAIS: --
+- Ingrediente ativo: Pirazossulfurom-etílico; - Formulação e Concentração (g/L ou kg): SC 250; - Dose (quantidade/ha): 60 a 80 mL; - Época de aplicação: Pós; - Classificação tóxicológica: 5 (produto improvável de causar dano agudo, faixa azul); - Classificação ambiental: III (perigoso ao ambiente); - Intervalo de segurança (dia): 30;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+- Adicionar adjuvante específico na dose recomendada (vide bula). - A aplicação de todo e qualquer tratamento herbicida deve seguir as recomendações do receituário agronômico, utilizando-se equipamentos de proteção individual (EPI) e acompanhado de um responsável técnico.
+
+-- INFORMAÇÕES SOBRE O CONTROLE DE PLANTAS DANINHAS NO ARROZ: --
+Aguapé: Controla. Angiquinho: Controla. Arroz-daninho: não controla. Capim-arroz: não controla. Capim-macho: não controla. Cuminho: Controla, mas pode apresentar resistência ao herbicida. Junquinho: Controla, mas pode apresentar resistência ao herbicida. Sagitária: Controla, mas pode apresentar resistência ao herbicida.
+
+-- Informações Complementares --

@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo) - A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo - A praga é uma lagarta, com falsas pernas no abdome. Pode estar nas folhas, abrigada num cartucho ou dentro do colmo das plantas - A lagarta se alimenta da medula, broqueando o colmo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016987&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16957%5D%7B81%7Dchave_fig36.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo)
+A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo
+A praga é uma lagarta, com falsas pernas no abdome. Pode estar nas folhas, abrigada num cartucho ou dentro do colmo das plantas
+A lagarta se alimenta da medula, broqueando o colmo
+A lagarta broqueia o colmo entre os internódios
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16987%5D%7B376%7Dchave_fig36.jpg
+Legenda: A lagarta broqueia o colmo entre os internódios
+16990
+A lagarta broqueia o colmo entre os internódios
+A lagarta broqueia o colmo ao nível do solo, onde constrói um abrigo com terra e outros detritos ligados com teia, que se prende no orifício de entrada da lagarta - LAGARTA-ELASMO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16987%5D%7B192%7Dchv_lagelasmol.jpg
+Legenda: A lagarta broqueia o colmo ao nível do solo, onde constrói um abrigo com terra e outros detritos ligados com teia, que se prende no orifício de entrada da lagarta - LAGARTA-ELASMO
+16989
+A lagarta broqueia o colmo ao nível do solo, onde constrói um abrigo com terra e outros detritos ligados com teia, que se prende no orifício de entrada da lagarta - LAGARTA-ELASMO

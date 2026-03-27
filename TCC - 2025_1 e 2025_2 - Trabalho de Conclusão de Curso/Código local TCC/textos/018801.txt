@@ -1,0 +1,21 @@
+Título: BIOFERTILIZANTE EEI - Aplicação do biofertilizante em sistemas de produção
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018801&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16385%5D%7B410%7Dfigura_25._modos_de_aplicacao_do_biofertilizante..jpg
+
+-- FORMAS DE APLICAÇÃO: --
+O biofertilizante pode ser aplicado com regador no sistema de irrigação (aspersão, chuveiro ou gotejo) e também em sistemas mecanizados (Figura 25).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16385%5D%7B295%7Dfigura_25._modos_de_aplicacao_do_biofertilizante..jpg
+Legenda: Figura 25. Modos de aplicação do biofertilizante. Autor: Alexandre Visconti
+
+-- CONCENTRAÇÃO DO BIOFERTILIZANTE: --
+A concentração do biofertilizante: água pode ser de 1:4 (20%), 1:3(25%) e 1:1 (50%). Atenção: Concentrações superiores a 60% podem ocasionar fitotoxidez às plantas (Tabela 4).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16385%5D%7B234%7Dtabela_4.jpg
+Legenda: Tabela 4. Sugestão de doses de aplicação. Autor: Alexandre Visconti
+
+-- USO EM BAIXAS CONCENTRAÇÕES: --
+- Baixas concentrações, inferiores a 20%, podem não produzir o efeito desejado.
+
+-- Informações Complementares --
+Visconti, A.; Schallenberger, E. Morales, R.G.F.; Cantú, R.R. Unidade Portátil de Produção de Biofertilizante Aeróbico, Modelo Epagri. Cartilha da Epagri, Florianópolis, Março de 2022.

@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - D) MANEJO DE SOLO, ADUBAÇÃO E NUTRIÇÃO DE PLANTAS - k) Referências
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02522&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2282%5D%7B333%7Dcapa_1.jpg
+
+-- Referências: --
+ALVARENGA, M.A.R. (Ed.) Tomate: produção em campo, casa-de-vegetação e em hidroponia. Lavras, MG: UFLA, 2004. 400p. CQFS-RS/SC - COMISSÃO DE QUÍMICA E FERTILIDADE DO SOLO DOS ESTADOS DO RIO GRANDE DO SUL E SANTA CATARINA. Manual de adubação e calagem para os Estados do Rio Grande do Sul e Santa Catarina. 10.ed. Porto Alegre, RS: SBCS-Núcleo Regional Sul, 2004. 400p. FONTES, P.C.R. Adubação nitrogenada de hortaliças: princípios e práticas com o tomateiro. Viçosa, MG: UFV, 2007. 148p. FORTES, P.C.R. Diagnóstico do estado nutricional das plantas. Viçosa, MG: UFV, 2001. 122p. INMETRO. Portaria nº 443, de 23 de novembro de 2011. Requisitos de avaliação da conformidade para produção integrada agropecuária – PI Brasil. Diário Oficial [da] República Federativa do Brasil, Brasília, DF, 27 dez. 2012. MUELLER, S.; WAMSER, A.F.; BECKER, W.F. et al. Indicações técnicas para o tomateiro tutorado na Região do Alto Vale do Rio do Peixe. Florianópolis: Epagri, 2008. 78p. (Epagri. Sistemas de Produção, 45). SUZUKI, A.; MUELLER, S.; BASSO, C. et al. Avaliação de fontes de N e K aplicados via fertirrigação no tomateiro. In: REUNIÃO SUL-BRASILEIRA DE CIÊNCIA DO SOLO, 7., 2008, Santa Maria, RS. Anais...Santa Maria, RS: UFSM. 2008. MUELLER, S.; SUZUKI, A.; BASSO, C. et al. Adubação do tomate na Região do Alto Vale do Rio do Peixe – safra 2006-2007. In: REUNIÃO SUL-BRASILEIRA DE CIÊNCIA DO SOLO, 7., 2008, Santa Maria, RS. Anais... Santa Maria, RS: UFSM. 2008.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

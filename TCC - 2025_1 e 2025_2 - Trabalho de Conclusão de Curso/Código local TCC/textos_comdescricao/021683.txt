@@ -1,0 +1,20 @@
+Título: BANANA - Cultivares - BRS Thap Maeo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021683&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+BRS Thap Maeo
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18369%5D%7B40%7Dcap_3_-_fig_4_-_letra_g_-_buque_maduro_thap_maeo_-_autoria_eliseu_emanoel_dos_santos.jpg
+Corte transversal de um pseudocaule de bananeira severamente acometido pelo Mal-do-Panamá, causado pelo fungo Fusarium oxysporum f. sp. cubense (Foc), revelando como sintoma patognomônico a necrose e a intensa descoloração marrom-avermelhada a quase negra dos feixes vasculares, que se manifestam como pontos e anéis descontínuos distribuídos pelo xilema, decorrente do colapso e obstrução dos vasos condutores pelo crescimento micelial do patógeno e pela produção de tiloses e gomas pela planta em resposta à infecção, contrastando com as bainhas foliares mais externas e as áreas de parênquima ainda sadias, que mantêm uma coloração branco-creme, evidenciando o comprometimento sistêmico do transporte de água e nutrientes que leva ao colapso da planta.
+FOTO: Eliseu E. dos Santos
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAAB, híbrido tetraploide subgrupo Conquista. Bananeira de porte alto e cachos com muitas pencas e frutos pequenos. Moderadamente resistente à broca da bananeira, altamente resistente ao mal do panamá (raça 1), nematoides e às sigatokas amarela e negra. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18369%5D%7B486%7Dcap_3_-_fig_4_-_letra_c_-_thap_maeo_-_autoria_eliseu_emanoel_dos_santos.jpg
+Distanciador para cabo aéreo, um componente de engenharia fundamental no sistema de transporte de bananas, que consiste em uma barra metálica rígida e linear interligando dois conjuntos de roldanas ou carrinhos adjacentes no monotrilho, com a função técnica de manter um espaçamento pré-determinado e invariável entre os cachos de banana suspensos, prevenindo assim colisões, danos mecânicos por atrito e oscilação excessiva durante o seu deslocamento contínuo.
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

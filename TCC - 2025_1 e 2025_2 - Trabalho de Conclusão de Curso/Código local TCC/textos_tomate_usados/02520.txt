@@ -1,0 +1,19 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - D) MANEJO DE SOLO, ADUBAÇÃO E NUTRIÇÃO DE PLANTAS - i) Análise foliar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02520&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2280%5D%7B224%7Dcapa_1.jpg
+
+-- Análise foliar: --
+Para o diagnóstico do estado nutricional das plantas, além dos sintomas visuais, a análise foliar do tomate é um instrumento bastante útil. Porém, essa prática tem de ser rápida e precisa. A dificuldade de se fazer a diagnose foliar é devido à interpretação dos resultados. Atualmente, para os estados do Rio Grande do Sul e Santa Catarina (CQFS-RS/SC, 2004), a interpretação dos resultados de concentração de nutrientes foliar serve apenas para amostragem de folhas no início da maturação do fruto. Nesse ponto, eventuais problemas nutricionais já ocorreram, e sua correção se torna tardia. Para coletas realizadas anteriormente a esse período, não existem padrões disponíveis para interpretação, devendo o produtor valerse de análise visual ou comparar os resultados da análise foliar de plantas com sintomas de deficiência com resultados da análise foliar de plantas bem nutridas.
+
+-- Quando e como fazer a amostragem: --
+Recomenda-se que a análise foliar do tomate seja feita por amostragem de folhas completas (limbo com pecíolo): coletar a terceira folha a partir da ponta, por ocasião do 1o fruto maduro. Cada amostra deverá ser composta de, aproximadamente, 25 plantas, dependendo da homogeneidade. Cada amostra representa uma condição nutricional. Assim, folhas com sintomas de deficiência nutricional não devem ser misturadas com folhas normais. Cada amostra deve ser constituída de folhas de plantas da mesma idade e do mesmo cultivar. As folhas que compõem a amostra devem estar livres de doenças e de danos causados por insetos.
+
+-- Valores para interpretação dos resultados: --
+Na Tabela 8 são apresentados os valores para interpretação dos resultados da análise foliar realizada em amostras coletadas da terceira folhas a partir da ponta, por ocasião do primeiro fruto maduro, para as condições do Sul do Brasil.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2280%5D%7B474%7Dtabela_8.jpg
+Legenda: Faixas de interpretação dos resultados de análise foliar do tomateiro para amostras coletadas da terceira folha com pecíolo a partir da ponta, por ocasião do primeiro fruto maduro. Fonte: Sispit 2016.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas - As folhas estão comidas ou raspadas - O limbo foliar está cortado ou esfiapado - O limbo foliar está cortado de forma irregular, normalmente a partir dos bordos da folha
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017013&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17010%5D%7B395%7Dpl13_danoborda.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano está restrito às folhas
+As folhas estão comidas ou raspadas
+O limbo foliar está cortado ou esfiapado
+O limbo foliar está cortado de forma irregular, normalmente a partir dos bordos da folha
+Folhas comidas pelas bordas, sem cartucho resultante da união dos bordos da folha, no limbo foliar
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17013%5D%7B55%7Dplt_lagartas.jpg
+Legenda: Folhas comidas pelas bordas, sem cartucho resultante da união dos bordos da folha, no limbo foliar
+17017
+Folhas comidas pelas bordas, sem cartucho resultante da união dos bordos da folha, no limbo foliar
+Um cartucho, resultante da união dos bordos da folha, está presente no limbo foliar - LAGARTA-ENROLADEIRA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17013%5D%7B304%7Dplt_enrola.jpg
+Legenda: Um cartucho, resultante da união dos bordos da folha, está presente no limbo foliar - LAGARTA-ENROLADEIRA
+17014
+Um cartucho, resultante da união dos bordos da folha, está presente no limbo foliar - LAGARTA-ENROLADEIRA

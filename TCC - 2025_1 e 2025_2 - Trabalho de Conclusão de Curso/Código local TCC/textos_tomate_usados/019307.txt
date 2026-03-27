@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Tronus
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019307&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16932%5D%7B534%7Dtronus.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Rijk Zwaan; Tomate do tipo salada; Internódios curtos com pencas definidas; Padronização de frutos; Frutos com boa coloração, brilho, sabor, firmeza e boa pós colheita; Tipo de planta: Indeterminado; Resistência Alta (HR): ToMV:0-2/Ff:A-E/Fol:0,1/Sbl/Va:0/Vd:0; Resistência intermediária (IR): TSWV/Ma/Mi/Mj; Cor: Vermelho.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.rijkzwaan.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.rijkzwaan.com.br.

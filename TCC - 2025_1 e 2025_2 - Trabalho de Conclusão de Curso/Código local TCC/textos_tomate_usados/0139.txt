@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Mascot F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0139&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B43%5D%7B298%7Dmascot.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Empresa: Agristar TopSeed; Finalidade: Copa; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Pontos fortes: Alto brix, uniformidade e elevada produtividade.
+
+-- PLANTAS E FRUTOS: --
+Planta: Hábito de crescimento indeterminado, ciclo precoce, excelente vigor e com menor brotação lateral. Frutos: Saborosos, alongados, firmes, com excelente coloração e ombros uniformes.
+
+-- RESISTÊNCIA: --
+Fol, TMV e Vd.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

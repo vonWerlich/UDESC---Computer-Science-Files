@@ -1,0 +1,280 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9346&amp;isEdicao=N&amp;epagriTEC=S">LEGISLAÇÕES</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9348&amp;isEdicao=N&amp;epagriTEC=S">PNAE</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9536&amp;isEdicao=N&amp;epagriTEC=S">Dúvidas Frequentes</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="8590">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="09536">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>1) Há cobertura legal para que, durante a suspensão das aulas, sejam realizadas novas aquisições com recursos do PNAE de gêneros da agricultura familiar para distribuição às famílias dos estudantes matriculados na rede pública de ensino?</b><br>
+<p class="p1"><div> Sim, a Lei nº 13.987/2020 autoriza a distribuição de gêneros alimentícios adquiridos com recursos do PNAE. A Resolução CD/FNDE nº 2/2020 regulamenta a aquisição de produtos da agricultura familiar no artigo 5º. <br> </div></p>
+<b>2) Há previsão legal para aquisição de gêneros da agricultura familiar por meio de dispensa de licitação, não realizando chamada pública, considerando o estado de calamidade pública decretado no país?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Sim, a Lei nº 8.666/1993 e suas alterações permite que haja dispensa de licitação em caso de calamidade pública. Entretanto, ainda que se trate de situação excepcional, é necessário que os preços praticados pelos fornecedores sejam compatíveis com o mercado, e que isso seja devidamente justificado e comprovado, como também a justificativa formal da escolha do fornecedor. Nesse contexto, deverá a administração pública apresentar, dentre outros documentos que achar necessário, no bojo do processo administrativo próprio: 1º Requisição do órgão com a descrição do objeto e a motivação expressa que levou à contratação emergencial; 2º Autorização do ordenador da despesas; 3º Justificativa das razões da escolha do fornecedor; 4º Justificativa de preços com a apresentação de 03 (três) propostas válidas; 5º Documentos que comprovem a regularidade fiscal e trabalhista da empresa; 6º Ato constitutivo da empresa; 7º Reserva orçamentária; 8º Termo de Referência ou Projeto Básico; 9º Parecer da Comissão de Licitação; 10º Minuta de contrato; e 11º Parecer jurídico. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>3) Tendo-se um processo de chamada pública em trâmite, ainda não concluído, mas em fase final de análise de documentação apresentada pelas cooperativas e associações de agricultores familiares, pode-se utilizar os preços que constam nela para realizar uma dispensa de licitação e adquirir os produtos para distribuição às famílias dos alunos?</b><br>
+<p class="p1"><div> Sim, desde que para a definição dos preços constantes na chamada pública tenha sido utilizado o disposto no art. 29 da Resolução CD/FNDE nº 26/2013, atualizada pela Resolução CD/FNDE nº 04/2015, fazendo com que eles representem o preço médio praticado no mercado local. <br> </div></p>
+<b>4) As Chamadas Públicas para a aquisição de alimentos da Agricultura Familiar, por meio da utilização de recursos financeiros federais à conta do PNAE, podem permanecer sendo realizadas de maneira presencial?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Em função da recomendação de distanciamento social, está permitido às Entidades Executoras realizarem as chamadas públicas totalmente por meios eletrônicos, contemplando todas as etapas referentes ao processo de aquisição e finalizando com o contrato de compra e venda.
+
+Aos agricultores familiares, bem como a suas organizações produtivas que não dispõem dos meios eletrônicos necessários para viabilizar a sua participação no processo de Chamada Pública virtual e à distância, sugere-se que busquem o apoio de uma entidade de ATER, sindicato ou uma entidade parceira para viabilizar apoio para a participação. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>5) Pode-se utilizar o valor referente à obrigatoriedade da aquisição de 30% destinados à agricultura familiar para os kits/cestas básicas ou deve-se guardar para utilizar após finalizar o período de calamidade pública e emergência de saúde pública?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O repasse dos recursos financeiros federais destinados à execução do PNAE estão mantidos e devem ser investidos para a aquisição de gêneros alimentícios para os estudantes, visando garantir a segurança alimentar e nutricional e o direito à alimentação.
+
+O valor referente à utilização de, no mínimo, 30% dos recursos para a agricultura familiar será calculado com base em todos os gastos feitos com a aquisição de produtos da agricultura familiar ao longo do ano de 2020, considerando tanto o período regular das aulas quanto o período excepcional de distribuição da alimentação escolar.
+
+Recomenda-se registrar e documentar todas as tomadas de decisão da gestão local, durante este período excepcional, para fins de prestação de contas. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>6) As deliberações sobre empates de propostas e/ou outros resultados dos projetos de vendas devem ser realizadas em sessões públicas? Em caso positivo, em sessões que envolvam todos os participantes ou apenas os interessados nos fornecimentos específicos que restaram empatados?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> De acordo com a Resolução CD/FNDE nº 02/2020, no caso de ausência dos interessados, a Comissão deverá fornecer a todos os participantes a ata de análise e resultados das propostas vencedoras (Art. 5º, § 5º) e a Entidade Executora poderá criar mecanismos necessários para que os agricultores familiares e/ou suas organizações participem da análise por meio de videoconferência, quando houver possibilidade (Art. 5º, § 6º A). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>7) Há necessidade de os resultados provisório e definitivo da Chamada Pública serem apresentados em sessão pública com os interessados ou somente publicados em imprensa oficial e meios de comunicação (site oficial, redes sociais) das Secretarias para visualização remota de todos os interessados?</b><br>
+<p class="p1"><div> Os resultados deverão ser publicados na imprensa oficial e outros meios de comunicação, por exemplo, redes sociais, acessíveis aos agricultores familiares e suas organizações (Resolução CD/FNDE nº 02/2020 Art. 5º, § 8º). <br> </div></p>
+<b>8) Um município que destinou todo o recurso federal para a chamada pública, mas o edital ainda não foi publicado, precisa realizar o processo e adquirir os alimentos, ou pode finalizar o processo, sendo a entrega dos alimentos postergada para o retorno das aulas?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O município poderá optar por realizar a chamada pública de forma virtual, conforme descrito na Resolução CD/FNDE nº 02/2020, e a gestão local poderá negociar com os fornecedores vencedores das chamadas públicas da agricultura familiar a entrega dos gêneros alimentícios perecíveis para o reinício das aulas. Nesse caso, o gestor deve atentar para: a) adotar a medida somente para produtos que sejam impossíveis de estocar e distribuir nos kits às famílias dos estudantes; b) garantir, sempre que possível, o fornecimento semanal de porções de frutas in natura, verduras, legumes e de hortaliças, conforme recomendações do FNDE; c) atentar para o fato de que os agricultores fornecedores possuem um calendário de produção que foi organizado em função das chamadas públicas e que, diante da atual conjuntura, uma possível suspensão da entrega de determinados gêneros pode inviabilizar sua produção futura e trazer prejuízos às famílias envolvidas, uma vez que os demais canais de comercialização também foram prejudicados com a crise. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>9) Como fazer a pesquisa de preços em três mercados locais quando se está em teletrabalho ou em distanciamento social?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Em função da recomendação de distanciamento social, está permitido às Entidades Executoras realizar as novas chamadas públicas totalmente por meios eletrônicos, contemplando todas as etapas referentes ao processo de aquisição e finalizando com o contrato de compra e venda conforme Artigo 5º da Resolução CD/FNDE nº 02/2020. Ou seja, a pesquisa de preço poderá ser realizada de forma eletrônica, desde que os orçamentos sejam devidamente assinados, escaneados e encaminhados aos gestores por e-mail. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+Fonte: <a target="_blank" href="https://www.fnde.gov.br/index.php/programas/pnae/pnae-perguntas-frequentes">FNDE - Acessar.</a><br><br>  
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 22/06/2020</font>
+<br> <font size="2"> Última atualização: 22/06/2020</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=09536&amp;cdElemento=8590">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=8590');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

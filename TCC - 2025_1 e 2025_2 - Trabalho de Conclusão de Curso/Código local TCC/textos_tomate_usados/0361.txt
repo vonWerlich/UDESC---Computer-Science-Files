@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Verônica F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0361&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B256%5D%7B259%7Dveronica.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Empresa: Isla; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: Ff - Fulvia fulva (ex Cladosporium fulvum); Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: For - Fusarium oxysporum f.sp. radicis-lycopersici; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Tamanho do fruto: Gigante (maior do que 280 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Época de Semeadura: Verão. Ciclo Verão (dias): 90. Peso comercial: 340 a 360g. Diferenciais: Frutos achatados com nervuras e uniformes. Pode ser cultivado em estufas, campo aberto e em solos salinos. Coloração verde escuro brilhante com ombros marcados e vermelho atraente quando maduro. Sabor excelente.
+
+-- USO/COMENTÁRIOS: --
+Boas características organolépticas.
+
+-- RESISTÊNCIA: --
+ToMV, Ff: 1-5, Fol: 0,1, For, Va, Vd.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

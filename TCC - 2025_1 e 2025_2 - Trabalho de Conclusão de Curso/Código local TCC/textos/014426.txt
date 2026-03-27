@@ -1,0 +1,55 @@
+Título: CEBOLA - Aspectos Fitotécnicos: Produção de mudas e espaçamento - Espaçamentos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014426&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12544%5D%7B127%7Dfigura_1.jpg
+
+-- RECOMENDAÇÕES DE ESPAÇAMENTO: --
+Recomendam-se espaçamentos que proporcionem densidades populacionais de 250 mil a 600 mil plantas por hectare (MENEZES JÚNIOR & VIEIRA NETO, 2012; MENEZES JÚNIOR et al., 2021).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12544%5D%7B121%7Dplantio_sobre_palhada.jpg
+Legenda: O ideal - Plantio sobre plantas de cobertura acamadas Menezes Júnior, FOG
+
+-- CONDIÇÕES PARA MENORES DENSIDADES DE PLANTIO: --
+Em regiões onde predominam os Cambissolos, de menor altitude (475m), pouco ventiladas, com maior nebulosidade e/ou potencial de inóculo, e maior possibilidade de problemas fitossanitários, indicam-se populações de até 400 mil plantas/ha.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12544%5D%7B449%7D300_mil.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12544%5D%7B385%7D300_mil_ha.jpg
+Legenda: 300 mil plantas por ha Menezes Júnior, FOG
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12544%5D%7B166%7D400_mil.jpg
+Legenda: 400 mil plantas por ha Menezes Júnior, FOG
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12544%5D%7B4%7D400_mil_ha.jpg
+Legenda: 400 mil plantas por ha Menezes Júnior, FOG
+
+-- CONDIÇÕES PARA MAIORES DENSIDADES DE PLANTIO: --
+Em regiões de maior altitude, mais arejadas, em solos mais profundos, a exemplo do Meio-Oeste catarinense, onde predominam os Nitossolos Bruno, podem ser empregadas populações de até 600 mil plantas/ha (MENEZES JÚNIOR et al., 2021).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12544%5D%7B131%7D500_mil.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12544%5D%7B318%7D500_mil_ha.jpg
+Legenda: 500 mil plantas ha Menezes Júnior, FOG
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12544%5D%7B162%7D600_mil.jpg
+Legenda: 600 mil plantas por ha Menezes Júnior, FOG
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12544%5D%7B250%7D600_mil_ha.jpg
+Legenda: 600 mil plantas por ha Menezes Júnior, FOG
+
+-- ESPAÇAMENTO NO SISTEMA CONVENCIONAL: --
+São usuais espaçamentos no sistema convencional de 40cm entre linhas e 7,5cm entre plantas. Isso equivale, dependendo dos terraços e caminhos que são construídos na lavoura, a uma densidade populacional de aproximadamente 333 mil plantas por hectare.
+
+-- ESPAÇAMENTO NO CULTIVO MÍNIMO: --
+No cultivo mínimo, em que as linhas de transplante são preparadas com rotacaster ou microtrator, o espaçamento entre linhas irá variar segundo a distância entre os conjuntos das enxadas rotativas do equipamento. Na maioria dos casos, a distância entre enxadas rotativas está ajustada para o intervalo de 33 a 50cm. Nesse caso, as densidades populacionais irão variar de 266 a 400 mil mudas por hectare.
+
+-- ESPAÇAMENTO EM SISTEMAS FERTIRRIGADOS: --
+Em sistemas fertirrigados, para um melhor aproveitamento das fitas de gotejo se recomenda dispor a população de plantas indicada para cada local de cultivo em linhas simples distanciadas em 10cm e linhas duplas distanciadas em 40 cm (Figura 1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12544%5D%7B388%7Dfigura_1.jpg
+Legenda: Figura 1. Disposição das plantas em sistema de cultivo fertirrigado da cebola. Foto: Francisco Olmar Gervini de Menezes Júnior
+
+-- ESPAÇAMENTO EM SISTEMAS ORGÂNICOS: --
+Em sistemas orgânicos e agroecológicos de produção podem ser utilizadas densidades populacionais menores que as indicadas. Nesse caso, recomendam-se espaçamentos maiores, de 50 a 60cm entre linhas e 15cm na linha, pois densidades populacionais menores proporcionarão maior ventilação entre as plantas, menor sombreamento e menor competição por nutrientes, água e luz, tornando-as mais vigorosas e mais resistentes às doenças foliares.
+
+-- CASO A OPÇÃO SEJA POR AUMENTAR A DENSIDADE DE PLANTIO: --
+Indica-se que sempre que o produtor optar por aumentar a densidade de plantas essa seja obtida pelo estabelecimento de mais linhas de plantio, uma vez que a competição entre plantas (intraespecífica) pelos fatores de produção (luz, água, nutrientes e etc.) sempre será maior entre plantas na mesma linha.
+
+-- ADUBAÇÃO CONFORME O ESPAÇAMENTO: --
+A adubação da cultura deverá ser ajustada conforme a densidade populacional e/ou nível de produtividade a ser atingido.
+
+-- OUTRAS FONTES PARA CONSULTA SOBRE O TEMA: --
+Em caso de dúvidas, o SPC (Epagri, 2013), referenciais tecnológicos para a produção de cebola em sistemas orgânicos nº 142 (GONÇALVES et al., 2008) e Manual de Adubação e de Calagem para os Estados do Rio Grande do Sul e Santa Catarina (CQFS-RS/SC, 1994) ou edições mais recentes deverão ser consultadas.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas) - A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora) - A praga é um invertebrado (artrópode ou molusco) - A praga é um molusco (caramujo ou lesma) - A praga é um caramujo de concha achatada, fusiforme ou globosa - O caramujo é pequeno, com concha redonda achatada ou fusiforme
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016933&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16931%5D%7B2%7Dchave_fig27.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas)
+A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora)
+A praga é um invertebrado (artrópode ou molusco)
+A praga é um molusco (caramujo ou lesma)
+A praga é um caramujo de concha achatada, fusiforme ou globosa
+O caramujo é pequeno, com concha redonda achatada ou fusiforme
+O caramujo tem a concha espiral achatada, como um botão, com até 3cm de diâmetro - CARAMUJO-CHATO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16933%5D%7B413%7Dchv_cmujc.jpg
+Legenda: O caramujo tem a concha espiral achatada, como um botão, com até 3cm de diâmetro - CARAMUJO-CHATO
+16934
+O caramujo tem a concha espiral achatada, como um botão, com até 3cm de diâmetro - CARAMUJO-CHATO
+O caramujo tem a concha fusiforme, em espiral, com até 1,5cm de comprimento - CARAMUJO-PEQUENO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16933%5D%7B47%7Dchv_cmujp.jpg
+Legenda: O caramujo tem a concha fusiforme, em espiral, com até 1,5cm de comprimento - CARAMUJO-PEQUENO
+16935
+O caramujo tem a concha fusiforme, em espiral, com até 1,5cm de comprimento - CARAMUJO-PEQUENO

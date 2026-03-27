@@ -1,0 +1,350 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=670&amp;isEdicao=N&amp;epagriTEC=S">PLANTAS PARA ADUBAÇÃO VERDE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=12893&amp;isEdicao=N&amp;epagriTEC=S">Mucuna Preta (Mucuna aterrima)</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="11223">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="012893">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11223]{428}mucuna_preta,_epagri-cepaf,_2006.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Leandro Wildner.  </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Mucuna aterrima (Pip. et. Trac.) Holland. (Stizolobium aterrimum Pip. et. Trac.), Feijão veludo, 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>FOTOS: </b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22152,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{521}comparacao_sementes_mucunas,_epagri-cepaf,_2015..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22153,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{507}flores_mucuna_preta,_epagri-cepaf,_2006.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22155,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{351}frutos_muc_preta_(pitanga,_pr),_epagri-cepaf,_2015.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22193,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{65}mucuna_preta_foto_juliane.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22161,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{70}mucuna_preta,_epagri-cepaf,_2006.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22158,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{231}mucuna_preta_pd,_epagri-cepaf,_2005_-_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22179,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{204}mucuna_preta_agronomica_jul2020_foto_juliane.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22175,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{56}mucuna_preta_agronomica_2013_foto_juliane.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22186,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{317}mucuna_preta_cobertura_para_spdh_alfredo_wagner_2019_foto_daniel_cansian.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22190,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{225}mucuna_preta_consorcio_milho_apresentacao_leandro.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22192,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{251}mucuna_preta_consorcio_nogueira_peca_agronomica.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22194,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{353}mucuna_preta_rizobio_apresentacao_leandro_wildner.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22171,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{386}mucuna_preta_2006_apresentacao_leandro_wildner1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22164,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{425}mucuna_preta_2006_apresentacao_leandro_wildner.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26344,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{9}mucuna_preta1_set2022_foto_leandro_do_prado_wildner.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,22195,012893,11223,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11223]{496}vagens_semenetes_mucuna_preta,_epagri-cepaf,_2015..jpg">  </a> 
+<br><br>
+<b>INFORMAÇÕES GERAIS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> OUTROS NOMES COMUNS: Feijão-veludo, Bengal bean, Black velvet bean, Mauritius bean.<br><br>
+NOME CIENTÍFICO E SINONÍMIAS: <i>Mucuna aterrima</i> (Pip. et. Trac.) Holland. (<i>Stizolobium aterrimum</i> Pip. et. Trac.).<br><br>
+FAMÍLIA: <i>Fabaceae</i> (Leguminosas).<br><br>
+ORIGEM: África.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CARACTERÍSTICAS BOTÂNICAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> PORTE: Herbáceo.<br><br>
+HÁBITO DE CRESCIMENTO: Volúvel/trepador.<br><br>
+CAULE: Pequeno caule que se transforma em longas hastes flexíveis e entrelaçadas.<br><br>
+ALTURA DE PLANTA (m): 0,5 a 1,0.<br><br>
+SISTEMA RADICULAR: Pivotante.<br><br>
+PROFUNDIDADE DE RAIZ: até 50cm.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INFORMAÇÕES FENOLÓGICAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> CICLO VEGETATIVO: Anual.<br><br>
+ÉPOCA IDEAL DE PLANTIO: Primavera/verão.<br><br>
+ÉPOCA PREFERENCIAL DE PLANTIO: Outubro e novembro.<br><br>
+ÉPOCA POSSÍVEL DE PLANTIO: Setembro a janeiro.<br><br>
+CICLO PARA FLORESCIMENTO (dias): 140 a 180.<br><br>
+CICLO PARA COLHEITA DE SEMENTES (dias): 200 a 240.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CARACTERÍSTICAS AGRONÔMICAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> PRODUÇÃO DE FITOMASSA (MS t/ha): 6 a 9.<br><br>
+PRODUÇÃO DE FITOMASSA (MV t/ha): 40 a 50.<br><br>
+TOLERÂNCIA À GEADA: Suscetível.<br><br>
+TOLERÂNCIA A SOLOS ÁCIDOS: Alta.<br><br>
+TOLERÂNCIA À BAIXA FERTILIDADE DO SOLO: Alta.<br><br>
+TOLERÂNCIA AO DÉFICIT HÍDRICO: Alta.<br><br>
+TOLERÂNCIA AO ENCHARCAMENTO: Baixa.<br><br>
+TOLERÂNCIA A BAIXA TEMPERATURA: Baixa.<br><br>
+TOLERÂNCIA AO SOMBREAMENTO TEMPORÁRIO: Média.<br><br>
+VELOCIDADE DE COBERTURA INICIAL DO SOLO: Média.<br><br>
+APTIDÃO PARA PASTAGEM: Média.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SEMENTES: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> PRODUTIVIDADE DE SEMENTES (kg/ha): 1500 a 2000.<br><br>
+PESO DE MIL SEMENTES (gramas): 600 a 800.<br><br>
+PRESENÇA DE SEMENTES DURAS: Sim. Para redução do problema, as sementes podem ser acondicionadas em sacos de estopa e imersas em água aquecida entre 60°C e 80°C por 8 a 10 segundos imediatamente antes da semeadura ou podem ser deixadas sob o sol, durante o período mais quente do dia por aproximadamente uma semana.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SEMEADURA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> ESPAÇAMENTO ENTRE LINHAS (metros): 0,8 a 1,0.<br><br>
+DENSIDADE DE SEMEADURA (kg/ha, em linha): 25 a 30.<br><br>
+DENSIDADE DE SEMENTES APTAS POR ÁREA (sem/m2): 3 a 5.<br><br>
+DENSIDADE DE SEMENTES APTAS POR METRO LINEAR (sem/m): 3 a 5.<br><br>
+OBSERVAÇÕES: Priorizar plantio em covas distanciadas de 1 m entre linhas e 0,5 m entre covas e com 2-3 sementes por cova.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> QUANTIDADE ACUMULADA DE NITROGÊNIO (kg/ha): 60 a 75.<br><br>
+RELAÇÃO C/N: 12 a 21.<br><br>
+NITROGÊNIO (% na massa seca): 1,97 a 3,08.<br><br>
+FÓSFORO (P2O5 % na massa seca): 0,11 a 0,61.<br><br>
+POTÁSSIO (K2O % na massa seca): 0,78 a 2,05.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INDICAÇÃO DE USO / CULTIVO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> MISTURAS DE ADUBOS VERDES: Milho, capim-sudão, girassol, milheto e teosinto.
+SUGESTÕES DE CONSÓRCIO: Milho (13 a 16kg/ha) + mucuna-preta (25kg/ha); Capim-sudão (10 a 15kg/ha) + mucuna-preta (15-25 kg/ha).<br><br>
+CONSÓRCIO COM CULTURAS (sucessão/intercalares): Arroz, milho, mandioca, cebola, fumo e trigo.<br><br>
+ROTAÇÃO DE CULTURAS: Arroz, feijão e milho.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INFORMAÇÕES FITOSSANITÁRIAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> SUSCEPTIBILIDADE A PRAGAS E DOENÇAS: Ácaro Rajado (<i>Tetranychus urticae</i>); pulgões (<i>Aphis craccivora</i>); lagarta da soja (<i>Anticarsia sp</i>.); burrinho da batatinha (<i>Epicauta atomaria</i>) e formigas cortadeiras (<i>Acromyrmex spp</i>. e <i>Atta spp</i>.) na fase inicial de crescimento; <i>Cercospora sp</i> e <i>Colletotrichum sp</i>.<br><br>
+SUSCEPTIBILIDADE A NEMATOIDES: É boa hospedeira e aumenta a população de <i>Pratylenchus brachyurus</i>.<br><br>
+CONTROLE DE NEMATOIDES: Não é hospedeira e reduz a população das espécies <i>Rotylenchulus reniformis</i> e <i>Heterodera glycines</i>. É má hospedeira ou apresenta resposta variável para os nematoides das espécies <i>Meloidogyne javanica</i> e <i>Meloidogyne incognita</i>.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INFORMAÇÕES COMPLEMENTARES: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> DESENVOLVIMENTO EM SANTA CATARINA: Ótimo desenvolvimento vegetativo em regiões quentes do estado (Clima Cfa).<br><br>
+MANEJO DA FITOMASSA: Manejo mecânico com rolo discos ou manejo químico antes do plantio da cultura comercial, necessário principalmente em regiões em que não ocorrem geadas. Devido a sua sensibilidade ao frio, morre facilmente pela ação da geada, considerada como um herbicida natural para manejo da mucuna em Santa Catarina.<br><br>
+DICAS: Efeito alelopático positivo sobre várias espécies de plantas espontâneas.<br><br>
+ATENÇÃO: Ciclo um pouco mais longo do que as outras espécies de mucunas.<br><br>
+CARACTERÍSTICA DESTAQUE: Planta melhoradora de solos, com elevada produção de fitomassa e reciclagem de N.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, <a href="javascript:chamarPagina(12822)">CLIQUE AQUI!</a><br>
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Rafael Gustavo Ferreira Morales (Eng.-Agrônomo, Dr. Fitotecnia - Epagri)<br> &nbsp;&nbsp;Pesquisador de olericultura na área de agricultura orgânica. </font> 
+<br> <font size="2">• Juliane Garcia Knapik Justen (Eng.Florestal, Msc Ciências Florestatais - Epagri)<br> &nbsp;&nbsp;Coordenação Programa Desenvolvimento e Sustentabilidade Ambiental, atuando em restauração de ecossistemas degradados, vegetação ripária, conservação do solo e da água, prestação de serviços ambientais, legislação ambiental.
+ </font> 
+<br> <font size="2">• Leandro do Prado Wildner (Eng.-Agrônomo, MSc. Agronomia - Epagri)<br> &nbsp;&nbsp;Experiência por mais de 30 anos trabalhando com introdução, avaliação e manejo de plantas de cobertura em sistemas conservacionistas de produção no Estado de Santa Catarina. </font> 
+<br><br><br> <font size="2"> Criado em: 11/03/2021</font>
+<br> <font size="2"> Última atualização: 19/07/2023</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=012893&amp;cdElemento=11223">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=11223');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

@@ -1,0 +1,10 @@
+Título: CEBOLA - Escolha do cultivar - BR19
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014457&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12572%5D%7B312%7Dbr19.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Agristar Polinização: Polinização aberta Ciclo maturação/dias: Hiper precoce/165-175 Formato do bulbo: Globular Cor da película do bulbo: Amarela Clara Cor da polpa do bulbo: Branca Região/Época de plantio: Sul: Abril a Maio
+
+-- Informações Complementares --
+Informações coletadas e organizadas pelo autor

@@ -1,0 +1,38 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Nematoide-das-galhas (Meloidogyne graminicola)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021538&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+12. Manejo de doenças
+Nematoide-das-galhas ( Meloidogyne graminicola )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11376%5D%7B181%7Dnemat_caput.jpg
+FOTO: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11376%5D%7B144%7Dnemat_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11376%5D%7B242%7Dnemat_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11376%5D%7B248%7Dnemat_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11376%5D%7B332%7Dnemat_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11376%5D%7B311%7Dnemat_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11376%5D%7B429%7Dnemat_fig06.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11376%5D%7B102%7Dnemat_fig07.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11376%5D%7B11%7Dnemat_fig08.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: nematoide Meloidogyne graminicola Galhas são engrossamentos das raízes das plantas de arroz, que ocorrem em resposta a toxinas secretadas por nematoides do gênero Meloidogyne , sendo a espécie M. graminicola a mais comumente encontrada no arroz.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11376%5D%7B46%7Dnemat_fig09.jpg
+
+-- SINTOMAS: --
+Em solos com alta infestação do nematoide, os sintomas podem ser observados poucos dias após a semeadura, na forma de reboleiras de plantas amareladas na lavoura. Ao se arrancar essas plantas, observa-se a presença das galhas no sistema radicular, indicando tratar-se de uma nematose. Plantas com alta incidência do nematoide podem apresentar redução no crescimento.
+
+-- CONDIÇÕES FAVORÁVEIS: --
+• Movimentação de solo entre áreas - o nematoide pode vir no solo aderido a máquinas, equipamentos, botas ou mesmo em suspensão na lama. • Presença contínua de hospedeiros na área (arroz e plantas daninhas). • Desequilíbrio microbiano do solo. Nota: A infecção das raízes do arroz ocorre principalmente em condições de solo seco ou drenado.
+
+-- CONTROLE: --
+• Manter a área livre de hospedeiros na entressafra - aplicação de herbicidas intercaladas com revolvimento do solo, por pelo menos um mês. • Melhorar os níveis de matéria orgânica do solo - contribui para o restabelecimento do equilíbrio microbiano. • Evitar a drenagem do solo durante a estação de cultivo.
+
+-- Controle químico: --
+Sem opções de ingredientes ativos atualmente.
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+• Klaus Konrad Scheuermann (Dr. em Fitopatologia - Epagri) Manejo de doenças

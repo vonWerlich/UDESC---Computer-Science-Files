@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo) - A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo - A praga é outro tipo de larva (sem pernas no abdome) ou outro tipo de bicho - A praga é outro tipo de bicho - A praga é outro tipo de bicho - A praga tem perna aparentes
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016963&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16962%5D%7B442%7Dchave_fig44.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo)
+A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo
+A praga é outro tipo de larva (sem pernas no abdome) ou outro tipo de bicho
+A praga é outro tipo de bicho
+A praga é outro tipo de bicho
+A praga tem perna aparentes
+A praga não é inseto, é um ácaro ou crustáceo
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16963%5D%7B174%7Dchave_fig24.jpg
+Legenda: A praga não é inseto, é um ácaro ou crustáceo
+16966
+A praga não é inseto, é um ácaro ou crustáceo
+A praga é um gafanhoto de coloração verde, com cabeça oblíqua e longas antenas filiformes - GAFANHOTO-VERDE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16963%5D%7B443%7Dchv_gafverden.jpg
+Legenda: A praga é um gafanhoto de coloração verde, com cabeça oblíqua e longas antenas filiformes - GAFANHOTO-VERDE
+16965
+A praga é um gafanhoto de coloração verde, com cabeça oblíqua e longas antenas filiformes - GAFANHOTO-VERDE

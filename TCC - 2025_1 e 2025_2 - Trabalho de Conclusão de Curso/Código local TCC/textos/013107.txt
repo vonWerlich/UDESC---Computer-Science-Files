@@ -1,0 +1,29 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Manejo de arroz-daninho
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013107&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11386%5D%7B314%7Dpldan_manejocl_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O sistema CL ( Clearfield ) não pode ser considerado como uma solução definitiva para eliminar totalmente as infestações de arroz-daninho, e da mesma forma, não deveria ser utilizado em áreas sem ocorrência de arroz-daninho. O sucesso dessa tecnologia depende de três condições básicas: utilização de cultivares apropriados, uso do herbicida recomendado e adoção de um programa de monitoramento das infestações de arroz-daninho nas lavouras.
+
+-- CULTIVARES: --
+O sistema CL de produção de arroz irrigado consiste no uso de cultivares de arroz portadores de genes que conferem resistência a herbicidas do grupo químico das imidazolinonas. Atualmente, em Santa Catarina, é recomendado o cultivar: • SCS121 CL, de segunda geração. As Recomendações Técnicas da Pesquisa para o Sul do Brasil , também recomendam para o sistema CL os cultivares: • BRS Sinuelo CL, BRS A701 CL, BRS Pampa CL, IRGA 424 CL, IRGA 428 CL, IRGA 431 CL, PUITÁ INTA CL, GURI INTA CL e Primoriso CL. Também são recomendados para o sistema CL, os híbridos: • IRGAP H7CL, IRGAP H9CL, Avaxi CL, Inov CL, Titan CL e Lexus CL.
+
+-- HERBICIDAS: --
+Os herbicidas Only e Kifix são registrados e recomendados para o sistema de produção CL. Estes herbicidas apresentam elevada eficiência no controle seletivo do arroz-daninho, propiciando níveis de controle superiores a 95%.
+
+-- APLICAÇÃO: --
+• No sistema pré-germinado, o herbicida Only deve ser aplicado sequencialmente, em pós-emergência, em doses de 0,75L/ha, totalizando 1,5L/ha. Para o herbicida Kifix, recomenda-se a aplicação sequencial, em pós-emergência, em doses de 140g/ha. A primeira aplicação deve ser realizada com plântulas de arroz-daninho com duas a quatro folhas, e a segunda, 8 a 10 dias após a primeira ( figura abaixo ). À medida que atrasa a aplicação, diminui a eficiência dos herbicidas. A irrigação da área deve ocorrer até o terceiro dia após a segunda aplicação do herbicida. • No sistema de cultivo mínimo, com semeadura em linhas em solo drenado, recomenda-se a aplicação sequencial dos herbicidas Only ou Kifix, em pré ou em pós-inicial e em pós-emergência (3 a 4 folhas). O herbicida Only deve ser aplicado em duas doses de 0,75L/ha e o herbicida Kifix em duas doses de 140g/ha. Na aplicação no ponto de agulha, os herbicidas poderão ser misturados em tanque com glifosato e com herbicidas de pré-emergência (Gamit, Herbadox/Prowl H2O, Goal ou Ronstar) ( figuras abaixo ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11386%5D%7B52%7Dpldan_clpregerm.jpg
+Legenda: Manejo da lavoura em pré-germinado associado ao sistema CL para o cultivar SCS121 CL
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11386%5D%7B136%7Dpldan_clsoloseco.jpg
+Legenda: Manejo da lavoura em solo seco associado ao sistema CL para o cultivar SCS121 CL
+
+-- OUTRAS RECOMENDAÇÕES: --
+• Não cultivar arroz CL na mesma área por mais de dois anos consecutivos. • Utilizar de forma conjunta os cultivares resistentes e os herbicidas recomendados. • Não usar sementes de arroz contaminadas com arroz-daninho. • Não permitir que plantas de arroz-daninho, não controladas pelo herbicida, venham a produzir sementes. Nessa situação, sugere-se a erradicação manual das plantas ou a utilização de herbicida não seletivo com auxílio da barra química. • Manter canais, drenos, estradas e bordas da lavoura livres de arroz-daninho. • Destruir a soca de plantas após a colheita do arroz. Não deve ser cultivada a soca em áreas plantadas com cultivares ou híbridos CL, uma vez que esta prática acelera o surgimento de resistência do arroz-daninho. Se entre os objetivos do agricultor está o cultivo da soca, este deve utilizar cultivares convencionais.
+
+-- ADVERTÊNCIA: --
+No Rio Grande do Sul e em Santa Catarina tem sido constatada intensa ocorrência de áreas altamente infestadas com populações de arroz-daninho resistentes a todos os herbicidas do grupo das imidazolinonas, significando que a tecnologia CL está perdida para estes agricultores.
+
+-- Informações Complementares --
+NOLDIN, J.A.; EBERHARDT, D.S. Manejo das plantas daninhas. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.36-51.

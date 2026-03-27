@@ -1,0 +1,18 @@
+Título: BANANA - Cultivares - Ouro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021684&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Ouro
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18370%5D%7B123%7Dcap_3_-_fig_4_-_letra_e_-_buque_maduro_ouro_-_autoria_eliseu_emanoel_dos_santos.jpg
+FOTO: Eliseu E. dos Santos
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AA, diploide do subgrupo Ouro. Bananeira de porte médio e frutos pequenos, que após o amadurecimento apresentam coloração amarelo intenso e sabor peculiar. Altamente resistente ao mal do panamá (raça 1). Altamente suscetível à sigatoka amarela e moderadamente resistente à sigatoka negra. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18370%5D%7B322%7Dcap_3_-_fig_4_-_letra_b_-_ouro_-_autoria_eliseu_emanoel_dos_santos.jpg
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

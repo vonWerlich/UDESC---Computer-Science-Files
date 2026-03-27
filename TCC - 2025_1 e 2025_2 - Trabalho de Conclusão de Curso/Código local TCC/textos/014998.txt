@@ -1,0 +1,18 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Minadores
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014998&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12996%5D%7B424%7D51-1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12996%5D%7B397%7D51-1.jpg
+Legenda: Adulto de mosca-minadora. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12996%5D%7B218%7D51-2.jpg
+Legenda: Dano ocasionado pelo ataque da mosca-minadora em folha de tomateiro. null
+
+-- INFORMAÇÕES GERAIS: --
+As principais espécies são Liriomyza sativae (Blanchard) e Liriomyza trifolii (Burgess) (Agromyzidae) (Figura 51), que podem causar dano econômico quando atacam plantas debilitadas ou quando se multiplicam intensamente em áreas adjacentes aos cultivos, migrando em grande número para a área hortícola.
+
+-- DANOS: --
+Entre os dípteros, destacam-se as larvas das moscas-minadoras, que fazem galerias nas folhas consumindo o parênquima foliar e diminuindo a capacidade de fotossíntese. Além disso, suas galerias são vias para entrada de patógenos.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

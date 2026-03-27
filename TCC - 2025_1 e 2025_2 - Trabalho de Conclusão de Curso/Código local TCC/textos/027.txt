@@ -1,0 +1,24 @@
+Título: TOMATE - Calagem e Adubação - Calagem
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=027&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+
+-- CONCEITO: --
+A correção da acidez do solo, pela calagem, é de fundamental importância para o desenvolvimento e produção da cultura, uma vez que a acidez elevada afeta a disponibilidade de nutrientes no solo, influenciando a assimilação deles pelas plantas. A faixa ideal de pH para o tomateiro é de 5,5 a 6,5 (Ideal 6,0), com saturação por bases entre 70 e 80%.
+
+-- ÍNDICE SMP (Preferencial): --
+Em função do valor desse índice, as doses de calcário (PRNT 100%) a serem aplicadas para que o solo da camada de 0 a 20 cm atinja valores de referência de 5,5; 6,0 e 6,5 constam na tabela a seguir:
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4795%5D%7B321%7Dsmp.jpg
+Legenda: Quantidade de calcário (PRNT 100%) necessárias para elevar o pH em água do solo da camada de 0 a 20 cm, a 5,5, 6,0 e 6,5, estimadas pelo índice SMP. Fonte: ROLAS 2016.
+
+-- MÉTODO DE SATURAÇÃO POR BASES: --
+Fórmula: NC = [(V1 - V2)/100] x CTC Em que: NC = necessidade de calcário (PRNT 100%) em t/ha, para corrigir o pH na camada de 0 a 20 cm; V1 = saturação por bases desejada (Para o tomate usar 75%); V2 = saturação por bases do solo, expressa no laudo da análise; CTC = capacidade de troca de cátions estimada a pH 7,0. Esse valor de 75% de saturação de bases sugerido é um valor médio de vários solos e, portanto, é aproximado. Em geral, ele pode ser cerca de cinco pontos percentuais menor em solos com baixos valores de CTC (<7,5 cmolc/dm3) e em torno de cinco pontos percentuais maior em solos com altos valores de CTC (>15 cmolc/dm3).
+
+-- MÉTODO DO ALUMÍNIO TROCÁVEL: --
+Em solos com baixo poder tampão (arenosos e/ou com baixos teores de matéria orgânica, geralmente com índice SMP acima de 6,3), o índice SMP pode subestimar a acidez potencial e, consequentemente, indicar uma dose de calcário insuficiente para elevar o pH até o valor desejado. Nesse caso, recomenda-se usar equações polinomiais que levam em conta o teor de matéria orgânica e de alumínio trocável para definir a dose de calcário. Para pH 5,5 - NC = -0,653 + 0,480 MO + 1,937 Al; Para pH 6,0 - NC = -0,516 + 0,805 MO + 2,435 Al; Para pH 6,5 - NC = -0,122 + 1,193 MO + 2,713 Al; Em que: NC = necessidade de calcário (PRNT 100%) em t/ha, para corrigir o pH na camada de 0 a 20 cm; MO = teor de matéria orgânica (%); Al = alumínio trocável do solo, em cmolc/dm3.
+
+-- OBSERVAÇÕES: --
+- Na primeira calagem, no estabelecimento de um novo cultivo de longa duração (SPDH), o calcário deve ser incorporado, sempre que possível, na camada de 20 a 40 cm (1). - Solos que vão receber calcário pela primeira vez devem ter a dose de calcário estimada pelo índice SMP e, para reaplicações de calcário, a definição da dose a aplicar pelos diferentes critérios, ou mesmo por sua média, é uma decisão do técnico. - Solos com elevados teores de Ca e Mg (soma de ambos acima de 10 cmolc.dm3), ou alta acidez potencial (acima de 5 - Ver anexo 1), o método de saturação por bases tende a indicar uma dose menor de calcário do que aquele indicado pelo índice SMP.
+
+-- Informações Complementares --
+(1) ROLAS. Manual de calagem e adubação para os Estados do Rio Grande do Sul e de Santa Catarina. Sociedade Brasileira de Ciência do Solo - Núcleo Regional Sul. - [s.l]: Comissão de Química e Fertilidade do Solo - RS/SC, 2016. 376 p.: il. ISBN: 978-85-66301-80-9.

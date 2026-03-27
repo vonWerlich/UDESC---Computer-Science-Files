@@ -1,0 +1,25 @@
+Título: COMPOSTAGEM - Manejo da compostagem - Umidade
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018483&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16103%5D%7B349%7Dfigura_9.jpg
+
+-- UMIDADE: --
+A umidade é um fator determinante para o pleno desenvolvimento da compostagem. A umidade ideal da pilha é em torno de 50%, que pode ser aferida com equipamentos, secagem em estufa ou pelo método mais prático (contudo, menos preciso) conforme demonstrado na Figura 9.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16103%5D%7B532%7Dfigura_9a.jpg
+Legenda: Figura 9A - Local de coleta da amostra na pilha de compostagem para monitoramento da umidade. Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16103%5D%7B188%7Dfigura_9b.jpg
+Legenda: Figura 9B. Amostra demonstrando falta de umidade as ser pressionada na mão. Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16103%5D%7B438%7Dfigura_9c.jpg
+Legenda: Figura 9C. Amostra com excesso de umidade. Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16103%5D%7B166%7Dfigura_9d.jpg
+Legenda: Figura 9D. Amostra com umidade ideal, formando um agregado firme e úmido sem gerar chorume. Foto: Rafael Ricardo Cantú
+
+-- TEMPERATURA COMO INDICADOR DA UMIDADE: --
+Outro indicador de possíveis inconformidades da umidade é a temperatura, sendo que se no início da compostagem ela declinar rapidamente, pode ser um indicativo de excesso ou falta de água.
+
+-- CORREÇÃO DA UMIDADE: --
+A umidade deve ser aferida e, se houver inconformidade, ela deve ser corrigida com a adição de água ou, em caso de excesso, revolvimentos para secagem do material. A correção da umidade deve ser com adição de água bem distribuída sobre a pilha, até o momento de iniciar a ocorrência de chorumes (Figura 9).
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

@@ -1,0 +1,16 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Parasitos (Protozoários e moluscos) - Tricodinídeos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09880&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8934%5D%7B495%7Dtricodina.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8934%5D%7B434%7Dtrichodina_santiago.png
+Legenda: Tilápia-do-nilo com necrose branquial devido ao parasitismo por tricodinídeos. Pádua et al. (2011)
+
+-- INFORMAÇÕES GERAIS: --
+Protozoários ciliados oportunistas da família Trichodinidae são comuns na tilapicultura comercial, principalmente na fase de larvicultura, além de abrir portas para outras doenças oportunistas. Apesar dos registros para esse protozoário já publicados em Santa Catarina relatarem índices de infecção considerados baixos.
+
+-- SINTOMAS: --
+Esses parasitos podem ser encontrados na superfície do corpo, nadadeiras e brânquias de peixes. Quando intensamente parasitados, apresentam palidez das brânquias, manchas esbranquiçadas com aspecto “leitoso” e podem apresentar comportamento de natação próximos às margens do viveiro, tentando “retirar” os parasitas do corpo.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52). JERÔNIMO, G. T. et al. Monogenea: parasitos versáteis e problemáticos. Disponível em https://www.aquaculturebrasil.com/artigo/14/monogenea-%E2%80%93-parasitos-versateise-problematicos . Acesso em 09/03/2023. Pádua, S.B.; Nomura-Varandas, D.; Dias-Neto, J.; Pilarski, F. Primeiro registro de Trichodina centrostrigeata (Ciliophora: Trichodinidae) em tilápia do Nilo cultivada no Brasil. In.: 22º Congresso Brasileiro de Parasitologia, São Paulo, 2011.

@@ -1,0 +1,43 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Plantas daninhas em arroz irrigado - Angiquinho (Aeschynomene indica)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0463&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B359%5D%7B438%7Dpldan_anjiquinho_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B499%7Dunnamed.jpg
+Legenda: Planta. Fonte: http://tropical.theferns.info/image.php?id=Aeschynomene+indica
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B35%7Daeschynomene_indica_pod.jpg
+Legenda: Semente. Fonte: https://en.wikipedia.org/wiki/Aeschynomene_indica
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B149%7Dpldan_anjiquinho_fig01.jpg
+Legenda: 01. Planta de angiquinho. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B518%7Dpldan_anjiquinho_fig02.jpg
+Legenda: 02. Angiquinho em lavoura de arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B441%7Dpldan_anjiquinho_fig03.jpg
+Legenda: 03. Angiquinho em lavoura de arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B112%7Dpldan_anjiquinho_fig04.jpg
+Legenda: 04. Angiquinho em lavoura de arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B144%7Dpldan_anjiquinho_fig05.jpg
+Legenda: 05. Angiquinho em lavoura de arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B20%7Dpldan_anjiquinho_fig06.jpg
+Legenda: 06. Angiquinho em lavoura de arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B298%7Dpldan_anjiquinho_fig07.jpg
+Legenda: 06. Angiquinho em lavoura de arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B171%7Dpldan_anjiquinho_fig08.jpg
+Legenda: 08. Lavoura de arroz infestada por angiquinho. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B517%7Dpldan_anjiquinho_fig11.jpg
+Legenda: 09. Plântula de angiquinho em área de lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B359%5D%7B81%7Dpldan_anjiquinho_fig12.jpg
+Legenda: 10. Detalhe das plantas de angiquinho. Fonte: D.S.Eberhardt (remasterizada)
+
+-- DESCRIÇÃO BOTÂNICA: --
+Autor da Descrição: Rafael Morales Características da Planta: Família: Fabaceae (leguminosae) Divisão e Classe: Angyospermae Dicotyledoneae Ciclo: Anual Reprod./Propagação: Sementes Habitat/Tipologia: Aéreo - Arbustivo Adaptações: Arbustivo ereto; Altura(cm): até 200 Características das Folhas: Filotaxia: Alternada Forma do Limbo: Compostas: Penada Paripenada Superfície: Glabras Consistência: Membranácea Nervação/Venação: Peninérveas Comprimento (cm): 4-12 Características das Flores e do fruto: Inflorescência: Cacho ou Rácemo Perianto: Diperiantada, Arquiclamídea, Hermafrodita Tipologia do Fruto: Lomento
+
+-- OBSERVAÇÕES: --
+Vegeta em ambientes encharcados antropizados. Invasora agressiva em lavouras de arroz irrigado, estabelecendo-se rapidamente e formando populações densas que competem por espaço, luz e nutrientes, além de elevar os custos da produção em função do difícil controle (1).
+
+-- Produtos com reconhecido controle da invasora: --
+Ally ; Aurora ; 2,4-D ; Facet ; Gamit ; Gladium ; Heat ; Invest/Gulliver ; Loyant ; Nominee ; Only ; Kifix ; Propanil* ; Ricer ; Sirius ; *Controle obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento (plântulas com até uma folha – V1).
+
+-- Produtos com controle médio (70% a 90%): --
+Gamit Propanil
+
+-- Informações Complementares --
+(1) AGROFIT: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html

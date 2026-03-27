@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Candeia F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0328&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B224%5D%7B494%7Dcandeia.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Isla; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Época de Semeadura: Verão. Ciclo Verão (dias): 120. Tipo de crescimento: Indeterminado. Altura Comercial (cm): 6-7cm. Diâmetro comercial: 5-6cm. Peso comercial: 100 - 140g. DIFERENCIAIS: Planta produtiva de excelente carga.
+
+-- USO/COMENTÁRIOS: --
+Produto diferenciado na produção e sabor.
+
+-- RESISTÊNCIA: --
+V, F2 e TMV.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

@@ -1,0 +1,25 @@
+Título: CEBOLA - Manejo de doenças - Podridão branca (Stromatinia cepivora)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016654&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12409%5D%7B474%7Dpodridao_branca_principal.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12409%5D%7B5%7Dpodridao_branca_principal.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Edivânio R. de Araújo e Renata S. Resende
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12409%5D%7B167%7Dpodridao_branca_2.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Edivânio R. de Araújo e Renata S. Resende
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12409%5D%7B106%7Dpodridao_branca_1.jpg
+Legenda: Sintomas típicos da doença nas folhas. Foto: Edivânio R. de Araújo e Renata S. Resende
+
+-- SINTOMAS: --
+Na lavoura são observadas reboleiras. Subdesenvolvimento da planta e amarelecimento das folhas são sintomas comuns da doença. Condições de alta umidade relativa favorecem o desenvolvimento micelial cotonoso branco sobre o bulbo e próximo ao solo. Bulbos e raízes podem apodrecer. As hifas desses fungos (micélio) são observadas 24 a 48 horas após a infecção e dão origem a estruturas de resistência chamadas de escleródios. A ocorrência de escleródios auxilia no diagnóstico da doença.
+
+-- HOSPEDEIROS: --
+Cebola e alho.
+
+-- CONDIÇÕES CLIMÁTICAS FAVORÁVEIS: --
+A podridão branca costuma ocorrer em condições de temperaturas inferiores a 20°C associadas à alta umidade relativa do ar.
+
+-- CONTROLE: --
+- Evitar cultivo consecutivo em área onde ocorre a doença; - Evitar transporte de máquinas e pessoas entre áreas contaminadas e áreas livres do patógeno; - Eliminar plantas doentes; - Reduzir escoamento superficial da água; - Não existem fungicidas registrados e/ou comprovadamente eficazes no manejo dessa doença.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

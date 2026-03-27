@@ -1,0 +1,43 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Curuquerê-dos-capinzais (Mocis latipes)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016997&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11364%5D%7B438%7Dcuruqre_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11364%5D%7B526%7Dcuruqre_fig02.jpg
+Legenda: 02. Mariposa do curuquerê-dos-capinzais. Fonte: Bayer (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11364%5D%7B532%7Dcuruqre_fig11.jpg
+Legenda: 11. Curuquerê-dos-capinzais. Fonte: I.Cruz (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11364%5D%7B490%7Dcuruqre_fig12.jpg
+Legenda: 12. Curuquerê-dos-capinzais. Fonte: Cultiven Int. (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11364%5D%7B480%7Dcuruqre_fig14.jpg
+Legenda: 14. Curuquerê-dos-capinzais. Fonte: Bayer (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11364%5D%7B352%7Dcuruqre_fig21.jpg
+Legenda: 21. Folhas de arroz cortadas por lagartas. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11364%5D%7B260%7Dcuruqre_fig22.jpg
+Legenda: 22. Infestação de curuquerê-dos-capinzais em capim-elefante. Fonte: não identificada (remasterizada)
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie: Mocis latipes (Guenée) Ordem: Lepidoptera Família: Noctuidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11364%5D%7B281%7Dcuruqre_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+• A mariposa tem 42mm de envergadura e é de coloração pardo-acinzentada, com uma linha pós-mediana que corta a base do triângulo formado pelas asas. • A lagarta é do tipo “mede-palmo” com coloração variável do marrom-amarelado ao preto, geralmente listrado longitudinalmente, inclusive a cabeça. Atinge até 50mm de comprimento.
+
+-- CICLO DE VIDA: --
+Completa-se em 37 dias, sendo de 4 a 12 dias a incubação dos ovos, 21 dias a fase larval e de 10 a 14 dias como crisálida. As crisálidas se formam em casulos feitos pelas lagartas com restos de palha, nas plantas ou junto ao solo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11364%5D%7B338%7Dcuruqre_ciclo.jpg
+Legenda: Ciclo de vida do curuquerê-dos-capinzais, com duração média, em dias, das fases.
+
+-- OCORRÊNCIA: --
+Anual: de setembro a março. Crítico: novembro. Lavoura: da emergência à colheita. Nota: a infestação das lavouras de arroz pelo curuquerê-dos-capinzais é rara e isso provavelmente se deve à presença da lâmina d’água sobre o solo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11364%5D%7B242%7Dcuruqre_fenologia.jpg
+Legenda: Fenologia da ocorrência do curuquerê-dos-capinzais na lavoura de arroz em Santa Catarina.
+
+-- DANOS: --
+As lagartas se alimentam das folhas novas do arroz, podendo cortar plantas jovens rente ao solo. O ataque é mais prejudicial durante a fase vegetativa, ou seja, aproximadamente nos primeiros 50 dias após a semeadura.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Bom preparo e nivelamento do solo. • Inundar quadros com presença de sintomas. • Manter lâmina de água uniforme. • Realizar vistorias periódicas durante o estabelecimento da lavoura, inspecionando inclusive capins nas taipas e valas. • Adotar controle localizado, sempre que possível. • Em pós-colheita, eliminar a resteva e roçar taipas, valas e áreas adjacentes.
+
+-- Informações Complementares --
+FERREIRA, E. Fauna prejudicial. In: SANTOS, A.B.; STONE, L.F.; VIEIRA, N.R.A. (eds). A cultura do arroz no Brasil . Santo Antônio de Goiás: Embrapa Arroz e Feijão, 2006. 1.000p.

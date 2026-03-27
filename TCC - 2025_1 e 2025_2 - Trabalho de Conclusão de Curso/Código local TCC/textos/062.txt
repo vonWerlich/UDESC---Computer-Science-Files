@@ -1,0 +1,32 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Mofo branco (Sclerotinia sclerotiorum)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=062&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1861%5D%7B240%7D3.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1861%5D%7B461%7Dss1.jpg
+Legenda: Escleródio no caule do tomateiro. Fonte: https://es.haenselblatt.com/tomatoes-with-sclerotinia-stem-rot-how-treat-tomato-timber-rot
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1861%5D%7B482%7D20181129_101909.jpg
+Legenda: Micélio de coloração branca e escleródios pretos. Fonte: Fernando Pereira Monteiro
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1861%5D%7B538%7D20190308_094920.jpg
+Legenda: Mofo branco em tomateiro. Fonte: Fernando Pereira Monteiro
+
+-- INFORMAÇÕES GERAIS: --
+- É uma doença importante principalmente no tomate cultivado como indústria (3). - Ficar atento ao escleródio, que parece um cocô de rato, sendo essa a forma mais fácil de identificar o patógeno ainda no campo. - Sobrevive no solo por muitos anos devido a estrutura de resistência (Escleródio) (3).
+
+-- SINTOMAS: --
+Todos os órgãos aéreos da planta são suscetíveis, mas a incidência é maior no caule. Em ataque severo a planta pode apresentar murcha generalizada. A região afetada apresenta cor pardo-escura no início e depois esbranquiçada. A extensão da lesão varia e causa completo anelamento do caule, o qual torna-se quebradiço e exibe, externamente e/ou na medula, numerosos escleródios de cor negra (similares a cocô de rato), que constituem sinais característicos da doença. Em condições de alta umidade, nos tecidos afetados ocorre, externamente, um crescimento cotonoso branco do fungo. As partes acima da região afetada murcham e secam (2).
+
+-- ETIOLOGIA: --
+Ascósporos de S. sclerotiorum são produzidos em apotécios pedicelados, carnosos, de cor rosada a pardo-clara, em forma de taça, cujo diâmetro pode alcançar 10 mm. Os 8 ascósporos produzidos por asco são descarregados no ar com alta velocidade e disseminados a longas distâncias. Isso ocorre em épocas chuvosas ou em terrenos irrigados nos períodos frescos do ano (15 a 21º C) (2). O fungo é polífago, atacando cerca de 400 espécies de plantas de inúmeras famílias, sendo muito comum em solanáceas, crucíferas e fabáceas (2;4;5).
+
+-- CONDIÇÕES QUE FAVORECEM A DOENÇA: --
+- Temperatura alta (15 a 25°C), sendo o ótimo entre (18 a 20°C) (3). - Alta umidade do solo e do ar (3).
+
+-- DISPERSÃO: --
+- Água irrigação, máquinas e implementos, Vento (ascósporos) (3).
+
+-- CONTROLE: --
+- Não plantar em solo compactado sujeito a encharcamento (1). - Não fazer cultivos sucessivos de batata, ervilha, feijão, girassol, pimentão, soja e tomate (1). - Adotar menor adensamento em locais e épocas favoráveis a doença (1). - Plantar preferencialmente cultivares de porte ereto (1). - Evitar o excesso de água no solo, principalmente durante a floração e formação dos frutos (1). - Incorporar os restos culturais o mais profundo possível (1). - Em áreas novas e ainda não infestadas, fazer rotação da cultura com gramíneas, para evitar a entrada e o aumento da população do fungo no solo (1). - Monitorar a doença sob condição de clima frio e chuvoso (2). - Rotação de culturas, principalmente com gramíneas (2). - Evitar plantio em solos contaminados (2). - Aração profunda de tal forma que inverta bem as camadas do solo (2). - Pulverização com fungicidas antes dos patógenos colonizarem os tecidos senescentes e matá-los. Iprodiona e procimidona são os produtos recomendados (2).
+
+-- Informações Complementares --
+(1) https://sistemasdeproducao.cnptia.embrapa.br/FontesHTML/Tomate/TomateIndustrial/doenca_fungo.htm. (2) C. Kurozawa & M. A. Pavan. Manual de fitopatologia/editado por Hiroshi Kimari ... [et al]. - 3. ed. São Paulo: Agronômica Ceres. 1995- 1997. 2v.: il. (3) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Ailton Reis. Tema: Manejo de doenças causadas por fungos e oomicetos da parte radicular do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: https://youtu.be/CChRRIZ99FM

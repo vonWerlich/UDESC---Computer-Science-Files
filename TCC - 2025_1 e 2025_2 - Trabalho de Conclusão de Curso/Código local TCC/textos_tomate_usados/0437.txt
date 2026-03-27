@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Stella F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0437&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B332%5D%7B315%7Dstella.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Horticeres Sementes; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: As - Alternaria solani; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Planta: Vigorosa com hábito de crescimento indeterminado, internódios curtos e alta produtividade. Frutos: Tipo salada, firmes e uniformes. Peso médio de 240 a 260g.
+
+-- DESCRIÇÃO: --
+ÉPOCA: Ano todo. CICLO: 90-100 dias. ESPAÇAMENTO: Entre fileiras 1,00 – 1,30 m. Entre Plantas 0,50 – 0,70 m. PLANTAS /HÁ: 11 a 18 mil.
+
+-- RESISTÊNCIA: --
+ToMV, TYLCV, TSWV, murcha-de-verticílio, murcha-de-fusário raças 1,2, nematoides, mancha-de-estenfílio e pinta preta.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.horticeres.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.horticeres.com.br.

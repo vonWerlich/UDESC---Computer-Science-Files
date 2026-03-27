@@ -1,0 +1,47 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Noiva-do-arroz (Rupela albinella)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016991&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Noiva-do-arroz ( Rupela albinella )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11367%5D%7B356%7Dnoiva_caput.jpg
+FOTO: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B20%7Dnoiva_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B308%7Dnoiva_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B462%7Dnoiva_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B87%7Dnoiva_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B417%7Dnoiva_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B341%7Dnoiva_fig10.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B255%7Dnoiva_fig11.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B478%7Dnoiva_fig12.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B517%7Dnoiva_fig13.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B289%7Dnoiva_fig21.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B102%7Dnoiva_fig22.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B196%7Dnoiva_fig23.jpg
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie: Rupela albinella Cramer Ordem: Lepidoptera Família: Pyralidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B211%7Dnoiva_base.jpg
+
+-- IDENTIFICAÇÃO: --
+• O adulto é uma mariposa branca, de aspecto sedoso, com tufos de pelos brancos próximo à cabeça, tal como vestida de noiva. Atinge de 30 a 40mm de envergadura e é maior que a mariposa da lagarta-boiadeira, que também é branca. • Os ovos são postos em massas compactas sobre as folhas, com 80 a 100 ovos, cobertos por densa pilosidade oriunda das escamas da fêmea, dando à massa o aspecto de um floco de algodão. • A lagarta é branco-amarelada e mede de 25 a 30mm de comprimento. Apresenta uma linha longitudinal marrom no dorso e a cabeça avermelhada, pequena em relação ao corpo.
+
+-- CICLO DE VIDA: --
+Perfaz-se entre 54 a 77 dias, sendo o período larval de 35 a 50 dias e o pupal de sete a doze dias. A incubação dos ovos finda em 7 dias.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B51%7Dnoiva_ciclo.jpg
+
+-- OCORRÊNCIA: --
+Anual: de setembro a maio. Crítico: dezembro. Lavoura: do perfilhamento à colheita. Nota: a noiva-do-arroz normalmente está sob forte pressão de controle biológico, o que impede a ocorrência de populações elevadas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11367%5D%7B64%7Dnoiva_fenologia.jpg
+
+-- DANOS: --
+As lagartas broqueiam a região tenra da medula da planta de arroz. Isto normalmente ocasiona murchamentos e culmina com os sintomas típicos de coração morto ou panícula branca.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Manter lâmina de água uniforme. • Primar por uma adubação equilibrada. • No manejo das pragas principais, evitar pulverizações frequentes e desnecessárias de inseticidas.
+
+-- Informações Complementares --
+CORDERO, C.R.P. Observaciones bioecológicas de los barrenadores en el cultivo de arroz. s.l. Engormix Agricultura , 2018. s.p. Disponível em: https://www.engormix.com/agricultura/articulos/observaciones-bioecologicas-barrenadores-cultivo-t41878.htm. Acesso em: 05 out 2020.
+CORDERO, C.R.P. Observaciones bioecológicas de los barrenadores en el cultivo de arroz. s.l. Engormix Agricultura , 2018. s.p. Disponível em: https://www.engormix.com/agricultura/articulos/observaciones-bioecologicas-barrenadores-cultivo-t41878.htm. Acesso em: 05 out 2020.
+• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri) Manejo integrado de pragas

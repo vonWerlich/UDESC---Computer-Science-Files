@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Rasteiro Rio Grande OP
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0366&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B261%5D%7B501%7Drasteiro_rio_grande.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Isla; Finalidade: Copa; Grupo: Industrial; Grupo: Salada; Polinização: Polinização aberta; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Época de Semeadura: Agosto a Dezembro. Ciclo (dias): 120 Verãos. Ciclo Verão (dias): 120. Tipos de Frutos: Globular achatado. Cor das Cascas: Vermelha. Tipo de crescimento: Determinado. Comprimento comercial: 07 cm (Altura). Diâmetro comercial: 05 cm. Peso comercial: 100 g.
+
+-- USO/COMENTÁRIOS: --
+Indicado para saladas e uso industrial. OBS.: O nome científico do tomate pode ser também Lycopersicon esculentum.
+
+-- RESISTÊNCIA: --
+Verticilium e Fusarium 1 e 2.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - F3ra
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019116&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16759%5D%7B191%7Dtomate-f3ra-hs19197-copia.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Planta: Hábito de crescimento indeterminado; Frutos: Tipo redondo, grandes, uniformes e firmes; Época: Foco regiões com problemas de Fusarium Raça 3 (ES, MG, RJ). Inverno e verão para regiões com problemas de TYLCV e TSWV; Resistência: Fusarium Fol: 0-2, Nematóide N (Mi, Ma, Mj), Verticillium Va/ Vd, Vírus do mosaico do tabaco TMV, Vira cabeça TSWV, Geminivírus TYLCV; Destaque: Planta vigorosa com boa cobertura foliar.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.horticeres.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.horticeres.com.br.

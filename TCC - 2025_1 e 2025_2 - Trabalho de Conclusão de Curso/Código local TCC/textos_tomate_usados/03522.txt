@@ -1,0 +1,26 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - M) PROCEDIMENTOS DE COLHEITA, BENEFICIAMENTO, CLASSIFICAÇÃO E ROTULAGEM - b) Beneficiamento e classificação
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03522&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B3267%5D%7B324%7Dcapa_1.jpg
+
+-- Qualidade da produção: --
+Um produto pronto para o consumo humano deve apresentar condições higiênico-sanitárias satisfatórias, ou seja, deve estar limpo: ausente de solo, resíduos vários, sujidades e ou outras substâncias indesejáveis; e desinfetado: com um número de micro-organismos reduzido a um nível que não comprometa a segurança do alimento.
+
+-- A inocuidade dos alimentos consumidos: --
+A inocuidade dos alimentos consumidos tem sido uma preocupação constante em todo o mundo. A população entende que sua saúde está intimamente relacionada com o alimento consumido.Se por um lado o consumo de hortaliças, no caso tomate, possibilita uma vida mais saudável, por outro pode também ser o veículo de uma série de toxinfecções alimentares causadas por micro-organismos e intoxicação pelo excesso ou mau uso de agrotóxicos.
+
+-- Fase inicial do beneficiamento: --
+Na fase inicial do beneficiamento, frequentemente é realizado um processo de separação em que são retirados frutos com anomalias de diversas naturezas, tais como: forma muito irregular, cor ou tamanho discrepante, aderências ou irregularidades superficiais evidentes, ação de insetos e pragas ou, simplesmente, presença de corpos estranhos ao fruto em processo. O processo de separação na unidade de beneficiamento pode ser automático em função das propriedades físicas diferenciadas dos corpos a serem separados ou, mais facilmente, de forma manual em função do largo espectro de irregularidades que pode existir em determinados produtos.
+
+-- Limpeza para retirar impurezas da superfície: --
+Depois da separação, os frutos podem ser submetidos a um processo de limpeza para retirar impurezas de sua superfície e melhorar seu aspecto. A etapa de limpeza em uma unidade de beneficiamento pode ser realizada por lavagem com água, com ou sem escovação, seguida de secagem com ventilação aérea ou por vibração.
+
+-- Classificação dos frutos: --
+Para conseguir maior uniformidade de propriedades, os frutos podem ser classificados por peso, tamanho, forma e cor, por meio de balanças, peneiras, leitos pneumáticos ou recursos óticos com processamento digital da informação.
+
+-- Etapa final do beneficiamento: --
+O processo de beneficiamento normalmente é finalizado com as operações de pesagem, embalagem e rotulagem.O beneficiamento e a classificação em packing houses não implicam obrigatoriamente o uso de máquinas. O sistema pode ser totalmente manual. Os equipamentos de classificação de frutos de tomate podem ser divididos em sistemas mecânicos e eletrônicos. Os de classificação mecânica classificam os frutos em tamanho mediante o uso de correia de lona furada, rolete transversal e longitudinal e taças; já os com sistema eletrônico classificam os frutos por diâmetro, peso, cor e eliminação de defeitos.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

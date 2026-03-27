@@ -1,0 +1,31 @@
+Título: ARROZ IRRIGADO - 01. Caracterização do ambiente de cultivo - Clima
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013125&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11394%5D%7B358%7Dmapasc_relevo.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O clima é extremamente importante para o desenvolvimento da cultura do arroz, principalmente fatores como a temperatura, precipitação e radiação. A variabilidade inter-anual desses fatores promove em alguns anos a redução na produtividade da cultura, principalmente quando as baixas temperaturas e radiação solar coincidem com fases fenológicas importantes da planta. No caso dos cultivares adaptados a região ou, aqueles provenientes de melhoramento, o fotoperíodo normalmente não configura como fator limitante, desde que respeitadas os períodos recomendados para o plantio.
+
+-- TEMPERATURA: --
+As temperaturas adequadas em cada estádio fenológico da cultura são fundamentais para o bom desenvolvimento, com reflexo positivo nas produtividades do arroz. Na tabela abaixo , estão listadas as temperaturas críticas e ótimas para as diferentes fases de desenvolvimento do arroz. Os limites de temperaturas críticas inferiores e superiores são importantes para definição da possibilidade do cultivo em microclimas ou regiões consideradas toleradas. Nas condições do Sul do Brasil, a ocorrência de baixas temperaturas entre os meses de maio a setembro constitui fator limitante para a cultura do arroz irrigado; sendo assim, o cultivo normalmente se desenvolve fora desse período.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11394%5D%7B437%7Dtabtempera_2021.jpg
+Legenda: Temperaturas críticas mínima, máxima e ótima para diferentes estágios de desenvolvimento do arroz
+
+-- RADIAÇÃO SOLAR: --
+A necessidade da planta em relação à quantidade de radiação disponível está associada à fase fenológica, sendo a reprodutiva a mais exigente. Vários componentes da produção como, número de grãos por panícula, peso de grãos, número de panículas por m², número de espiguetas por panículas e outros, são influenciados pela quantidade de radiação disponível e esta disponibilidade reduz em dias nublados e chuvosos. Indica-se, portanto, que a época de plantio de cada cultivar leve em consideração os momentos críticos da cultura em relação à radiação e que estes coincidam com os meses de maior quantidade de radiação solar, normalmente os meses de dezembro e janeiro.
+
+-- PRECIPITAÇÃO: --
+A precipitação pluviométrica está relacionada ao atendimento do requerimento de água da lavoura de arroz e também ao manejo e preparo da área de plantio. Em anos de normalidade climatológica a necessidade de água pelas lavouras de arroz e a reserva de água nos mananciais são atendidas em Santa Catarina. Já em anos de estiagem, o atendimento à demanda hídrica da cultura pode ficar seriamente comprometido. A média anual de precipitação pluvial varia de 1.200mm no Litoral Sul a 1.900mm no Litoral Norte. Os meses de abril, maio, junho e julho são de menor precipitação e em outubro, novembro, dezembro e janeiro ocorrem as maiores precipitações. Estas, por sua vez, coincidem com as épocas de maior demanda hídrica da cultura. A frequência de ocorrência de estiagens, no período de maior demanda de água na lavoura, é em média 50%.
+
+-- CLIMA NAS REGIÕES PRODUTORAS: --
+Na tabela abaixo são apresentados os valores médios de temperatura média, máxima e mínima, de radiação total e de precipitação total para o período de agosto a fevereiro (época de cultivo) em quatro regiões produtoras no Estado, em função das áreas mapeadas de produção de arroz. Essas variáveis foram estimadas com base em modelos estatísticos e matemáticos e observa-se que a variação existente é pequena, dada a concentração da produção de arroz irrigado na parte leste do Estado; em áreas com condições semelhantes de relevo nas regiões de cultivo e já enquadradas nas condições climáticas ideais ao desenvolvimento do arroz.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11394%5D%7B411%7Dtabcondregiao_2021.jpg
+Legenda: Região produtora de arroz, temperaturas mínima, média e máxima, precipitação total e radiação totalpara o período de agosto a fevereiro (médias climatológicas)
+
+-- CLIMA E SEMEADURA: --
+De modo geral, a melhor época de semeadura é aquela em que o período reprodutivo das plantas de arroz coincide com a maior disponibilidade de radiação e temperatura. Na maioria das regiões de cultivo de Santa Catarina a maior incidência de radiação solar ocorre no período de dezembro a fevereiro, sendo a semeadura entre final de setembro e início de novembro a mais indicada para a maior parte das regiões produtoras do Estado. A análise em conjunto das variáveis de solo e clima, permite a definição dos períodos de cultivo do arroz irrigado em Santa Catarina e as datas recomendadas são publicadas em portarias específicas para cada safra no Ministério na Agricultura, Pecuária a Abastecimento em função do ciclo da cultura e município. Na tabela abaixo são apresentados os períodos de plantio praticados atualmente nas quatro regiões produtoras do Estado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11394%5D%7B26%7D01_tabepocaplantio_2021.jpg
+Legenda: Períodos de plantio do arroz irrigado por ciclo e por região produtora no estado de Santa Catarina.
+
+-- Informações Complementares --
+FICK, S.E.; HIJMANS, R.J. WorldClim 2: new 1km spatial resolution climate surfaces for global land areas. International Journal of Climatology , v.37, n.12, p.4302-4315, 2017. FU, P.; RICH, P.M. A geometric solar radiation model with applications in agriculture and forestry. Computers and Electronics in Agriculture , v.37, p.25–35, 2002. MASSIGNAM, A.M.; PANDOLFO, C. Estimativa das médias das temperaturas máximas, médias e mínimas do ar decendiais e anuais do Estado de Santa Catarina . Florianópolis: Epagri. Série Documentos. n.224, 2006. YOSHIDA, S. Fundamentals of rice crop science . Los Baños, Laguna, Philippines: IRRI, 1981. p. 72. 269p.

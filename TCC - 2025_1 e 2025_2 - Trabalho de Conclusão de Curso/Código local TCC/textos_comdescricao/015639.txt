@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Herbicidas indicados para o arroz irrigado - Ally
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015639&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+10. Plantas daninhas
+Herbicidas indicados para o arroz irrigado
+Ally
+
+-- INFORMAÇÕES GERAIS: --
+- Ingrediente ativo: Metsulfurom-metílico; - Formulação e Concentração (g/L ou kg): GD 600; - Dose (quantidade/ha): 3,3 g; - Época de aplicação: Pós; - Classificação tóxicológica: 5 (produto improvável de causar dano agudo, faixa azul); - Classificação ambiental: III (perigoso ao ambiente); - Intervalo de segurança (dia): 30;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+- Adicionar adjuvante específico na dose recomendada (vide bula). - A aplicação de todo e qualquer tratamento herbicida deve seguir as recomendações do receituário agronômico, utilizando-se equipamentos de proteção individual (EPI) e acompanhado de um responsável técnico.
+
+-- INFORMAÇÕES SOBRE O CONTROLE DE PLANTAS DANINHAS NO ARROZ: --
+Aguapé: controla. Angiquinho: controla. Arroz-daninho: não controla. Capim-arroz: não controla. Capim-macho: não controla. Cuminho: não controla. Junquinho: não controla. Sagitária: controla, mas pode apresentar resistência ao herbicida.
+
+-- Informações Complementares --

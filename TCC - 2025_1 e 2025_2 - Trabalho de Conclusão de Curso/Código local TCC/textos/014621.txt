@@ -1,0 +1,34 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Adubação orgânica
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014621&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12710%5D%7B385%7Daplicacao_de_composto_organico_sobre_a_palhada_de_adubacao_verde_antes_do_plantio_da_cebola_em_sistema_de_plantio_direto..jpg
+
+-- FINALIDADE: --
+A adubação orgânica é feita com resíduos orgânicos, na forma sólida in natura ou após sofrer processo de compostagem ou na forma líquida, permitindo a reciclagem de nutrientes e a redução do uso de fertilizantes minerais.
+
+-- ORIGEM DOS RESÍDUOS E MISTURAS: --
+Os resíduos orgânicos são originados das diversas atividades humanas e podem ser de origem animal, vegetal, urbana, agroindustrial ou industrial (SHARMA et al., 1997; SILVA, 2008). As misturas e os usos de camas em estercos, a espécie vegetal e o sistema de manejo da biomassa produzida e o grau de compostagem dos materiais utilizados são todos fatores ligados à origem ou aos processos de produção e exercem influência sobre a composição química e as doses de resíduos aplicadas nas lavouras (ABAD et al., 2002; ABREU-JÚNIOR et al., 2005; SILVA, 2008).
+
+-- USO DE RESÍDUOS E CONTROLE DE QUALIDADE: --
+A disposição segura de resíduos orgânicos na agricultura requer sua adequada caracterização para que seja analisado seu potencial de uso agrícola (SILVA, 2008). No entanto, a caracterização é apenas uma etapa no uso de resíduos orgânicos, pois é necessário considerar a legislação vigente, o monitoramento contínuo da aplicação desses materiais e avaliar os efeitos dos resíduos aplicados no ambiente, na produção das culturas e no produto colhido (HIGASHIKAWA et al., 2010). Em relação aos resíduos orgânicos, além de seguir critérios técnicos, deve-se utilizar materiais disponíveis local ou regionalmente, pois o transporte pode ser uma limitação econômica (HIGASHIKAWA & KURTZ, 2016).
+
+-- DESBALANÇO E VARIABILIDADE DE NUTRIENTES NOS ADUBOS: --
+O desbalanço e a variabilidade de nutrientes em relação às exigências das plantas (WESTERMAN & BICUDO, 2005), bem como de outros atributos, tanto de ordem química quanto física, podem ser limitantes para o uso agrícola de resíduos orgânicos e de seus compostos para a adubação orgânica. Essas variações na composição devem ser consideradas para o manejo da adubação orgânica.
+
+-- SINCRONISMO ENTRE A TAXA DE LIBERAÇÃO DE NUTRIENTES E A DEMANDA DAS PLANTAS: --
+Em relação à adubação orgânica o maior desafio é conhecer o sincronismo entre a taxa de liberação de nutrientes dos resíduos orgânicos e a demanda da cebola considerando que para cada tipo de resíduo e para cada tipo de cultivar de cebola há especificidade. No caso dos estercos a mineralização é influenciada pela temperatura, pela umidade do solo, pelas propriedades do solo, pelas características do esterco e pela atividade microbiana (EGHBALL et al., 2002).
+
+-- Vidigal et al. (2010): --
+Vidigal et al. (2010b) avaliaram o efeito de cinco doses de esterco sólido de suíno (0, 10, 20, 30 e 60t ha-1) na produtividade da cebola cv. CNPH 6400 em sistema orgânico de produção. Os autores verificaram que a dose de 43t ha-1 proporcionou a produtividade máxima de bulbos comerciais de 60t ha-1 e com estado nutricional satisfatório para o cultivar de cebola avaliado.
+
+-- Santos et al. (2012): --
+Santos et al. (2012) avaliaram o efeito de diferentes coberturas mortas (bambu – Bambuza sp; gliricídia – Gliricidia sepium) e ausência de cobertura morta associadas a doses de torta de mamona (0, 100, 200 e 300g m-2) aplicadas em cobertura na produção de cebola cv. Alfa Tropical cultivado em canteiros com adubação de base de 10t ha-1 de esterco bovino curtido. Os autores não encontraram efeitos das doses e nem interação entre as coberturas mortas com a adubação com torta de mamona. No entanto, a ausência de cobertura morta reduziu drasticamente a produção de cebola que foi de apenas 13t ha-1 em comparação às produções obtidas com as coberturas com palha de bambu (26t ha-1) e com palha de gliricídia (25t ha-1).
+
+-- Menezes Júnior et al. (2014): --
+Menezes Júnior et al. (2014) avaliaram a produtividade da cebola cv. Empasc 352 Bola Precoce cultivado no sistema convencional e orgânico com biofertilizantes à base de dejeto líquido de bovino (concentrações de 3, 5 e 10%). Os autores obtiveram uma produtividade de 31t ha-1 no cultivo em sistema convencional, enquanto a produtividade máxima alcançada pelos tratamentos orgânicos foi de 20t ha-1. Com base nos dados obtidos, os autores concluíram que a adubação orgânica, por meio de pulverizações de biofertilizantes, não atendeu as exigências nutricionais requeridas para o pleno desenvolvimento da cebola.
+
+-- Higashikawa & Menezes Júnior (2017): --
+Higashikawa & Menezes Júnior (2017) compararam as produtividades da cebola cv. Empasc 352 Bola Precoce em função da adubação orgânica com esterco de aves granulado ou com adubação mineral com nitrato de amônio. As doses de esterco de aves foram calculadas para atender a mesma quantidade de nitrogênio fornecido pelo fertilizante mineral. Os autores parcelaram as adubações orgânicas com esterco de aves, da mesma forma como foi feito para o nitrato de amônio, para reduzir as perdas de nitrogênio. Após as aplicações em cobertura foram realizadas irrigações para acelerar a mineralização e a disponibilidade de nutrientes do esterco de aves para a cebola. Com esse manejo, as produtividades obtidas no estudo variaram de 26,5 a 31t ha-1 e não diferiram estatisticamente. Pelos resultados obtidos nesse estudo é possível inferir que, independente de a fonte ser orgânica ou mineral, a produtividade alcançada pode ser semelhante. No entanto, a vantagem da adubação orgânica, como observado pelos autores, é a melhoria da fertilidade do solo em função do efeito residual do resíduo orgânico no solo. Consequentemente, a adubação orgânica permite a reciclagem de nutrientes e a redução de fertilizantes minerais para os cultivos posteriores. Todavia, é necessário monitorar anualmente o solo se a adubação orgânica for frequente para que se possam ajustar as doses de acordo com a disponibilidade de nutrientes do solo e a exigência da planta.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

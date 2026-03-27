@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - A) INTRODUÇÃO GERAL SOBRE O SISPIT - f) Referências
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02484&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2248%5D%7B331%7Dcapa_1.jpg
+
+-- Referências: --
+BRASIL. Ministério da Agricultura, Pecuária e Abastecimento. Produção integrada no Brasil: agropecuária sustentável alimentos seguros. Brasília, DF, 2009. 1008p. CAMARGO FILHO, W.P.; CAMARGO, F.P. Acomodação da produção olerícola no Brasil e em São Paulo, 1990-2010 – Análise Prospectiva e Tendências 2015. Instituto de Economia. Disponível em: http://www. abhorticultura.com.br/downloads/Artigo Mercado Hort IEA2011.pdf). Acesso em: 03 out. 2012. CAMARGO FILHO, W.P.; CAMARGO, F.P. Organização do levantamento estatístico da produção olerícola no estado de São Paulo. Campinas, CATI, 2011. Disponível em: . Acesso em: 26 jun. 2014. CARVALHO, C.R.F. Sustentabilidade e análise econômica da tomaticultura de Cambuci-RJ. 2014. 98f. Dissertação (Mestrado em Produção Vegetal) – Universidade Estadual do Norte Fluminense Darcy Ribeiro, Campos dos Goytacazes, RJ. LEVANTAMENTO SISTEMÁTICO DA PRODUÇÃO AGRÍCOLA. Rio de Janeiro, v.25, n.02, p. 1-88, 2012. MUELLER, S.; WAMSER, A.F.; BECKER, W.F.; SANTOS, J.P. dos. Indicações técnicas para o tomateiro tutorado na Região do Alto Vale do Rio do Peixe. Florianópolis: Epagri, 2008. 78p. (Sistema de Produção no 45). SÍNTESE ANUAL DA AGRICULTURA DE SANTA CATARINA 2007-2008. Florianópolis: Epagri/Cepa, 2008. 322p. SÍNTESE ANUAL DA AGRICULTURA DE SANTA CATARINA 2010-2011. Florianópolis: Epagri/Cepa, 2011. 184p. SÍNTESE ANUAL DA AGRICULTURA DE SANTA CATARINA 2013-2014. Florianópolis: Epagri/Cepa, 2014. 208p. TITI, A.E.L.; BOLLER, E.F.; GENDRIER, J.P. (eds.) Producción integrada: principios y directrices técnicas. IOBC/WPRS Bulletin, v18, 1995. 22p.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

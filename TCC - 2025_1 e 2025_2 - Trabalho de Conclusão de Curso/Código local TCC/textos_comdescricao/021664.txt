@@ -1,0 +1,16 @@
+Título: BANANA - Cultivares - Terra
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021664&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Terra
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18361%5D%7B417%7Dcap_3_-_fig_3_-_letra_f_-_buque_maduro_terra_-_autoria_eliseu_emanoel_dos_santos.jpg
+Fruto de bananeira em fase de desenvolvimento, onde se observam danos característicos causados pelo Trips-da-Erupção (Frankliniella spp. Ordem: Thysanoptera Família: Thripidae), que se manifestam como inúmeras lesões pontuais, pequenas e discretas, de coloração marrom-escura a preta, dispersas irregularmente sobre a epiderme verde e lisa do fruto. Cada ponto representa uma injúria necrótica resultante da atividade de alimentação do inseto, que raspa e suga o conteúdo das células superficiais da casca, levando à morte celular e à posterior formação de um tecido cicatricial suberoso (cortiçoso). Essa reação da planta confere às lesões uma textura ligeiramente elevada ou rugosa, originando o nome popular "erupção". Embora o dano seja estritamente estético e não comprometa a qualidade da polpa, a intensa pontuação na casca deprecia significativamente o valor comercial do fruto, tornando-o inadequado para o mercado de frutas frescas.
+FOTO: Eliseu E. dos Santos
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAB, subgrupo Terra. As variedades do subgrupo Terra, também conhecidas como ‘Plátanos’, apresentam um nicho de mercado exclusivo, uma vez que se trata de bananas normalmente consumidas cozidas, fritas ou assadas. Isto ocorre porque, diferentemente das bananas consumidas in natura, cuja quase totalidade do amido se transforma em açúcares à medida que a fruta amadurece, nas bananas-da-terra uma grande parte do amido permanece até o amadurecimento.
+
+-- Informações Complementares --
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

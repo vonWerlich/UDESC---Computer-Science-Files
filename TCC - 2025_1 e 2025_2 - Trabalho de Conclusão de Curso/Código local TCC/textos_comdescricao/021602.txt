@@ -1,0 +1,37 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Escaldadura (Microdochium oryzae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021602&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+12. Manejo de doenças
+Escaldadura ( Microdochium oryzae )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11374%5D%7B248%7Descalda_caput.jpg
+FOTO: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11374%5D%7B132%7Descalda_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11374%5D%7B59%7Descalda_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11374%5D%7B201%7Descalda_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11374%5D%7B426%7Descalda_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11374%5D%7B84%7Descalda_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11374%5D%7B344%7Descalda_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11374%5D%7B394%7Descalda_fig6.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11374%5D%7B221%7Descalda_fig06.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: fungo Microdochium oryzae A escaldadura do arroz manifesta-se a partir do pleno perfilhamento até a fase final do ciclo da cultura. A doença ocorre predominantemente nas folhas, podendo ser observada também na bainha, partes da panícula e grãos.
+
+-- SINTOMAS: --
+Os sintomas característicos da doença são observados nas pontas ou margens das folhas que apresentam lesões (manchas) de coloração marrom, contendo faixas alternadas de coloração marrom-claro e marrom-escuro. O contínuo crescimento e a coalescência das lesões, pode resultar na queima de uma fração significativa do limbo foliar. Em condições favoráveis, a doença se manifesta também nas panículas provocando manchas nas glumelas.
+
+-- CONDIÇÕES FAVORÁVEIS: --
+• Alta umidade relativa do ar. • Alta disponibilidade de nitrogênio. • Elevada densidade de plantas.
+
+-- CONTROLE: --
+• Uso de cultivares resistentes. • Adubação nitrogenada equilibrada.
+
+-- Controle químico: --
+Tratamentos fungicidas realizados para outras doenças do arroz são, em sua maioria, eficazes também contra a escaldadura.
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+• Klaus Konrad Scheuermann (Dr. em Fitopatologia - Epagri) Manejo de doenças

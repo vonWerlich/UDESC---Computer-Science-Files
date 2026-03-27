@@ -1,0 +1,10 @@
+Título: BANANA - Cultivares - Prata Anã
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021669&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18352%5D%7B549%7Dcap_3_-_fig_1_-_letra_f_-_buque_maduro_prata_ana_-_autoria_eliseu_emanoel_dos_santos.jpg
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAB, subgrupo Prata. Mutação natural da banana branca no início do século XX no sul de Santa Catarina. Apresenta porte médio. É moderadamente suscetível à sigatoka amarela e ao mal do panamá, e suscetível à sigatoka negra. Espaçamentos de plantio de 2,5m x 3,0m; 2,0m x 3,5m; 2,0m x 4,0m, ou 1.200 plantas por hectare. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.

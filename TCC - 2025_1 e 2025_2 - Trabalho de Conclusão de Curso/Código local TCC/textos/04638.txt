@@ -1,0 +1,41 @@
+Título: TOMATE - Nutrição Mineral - Boro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04638&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B750%5D%7B517%7Dimg-20161119-wa0010.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B750%5D%7B303%7Dcaptura_de_tela_2019-02-21_16.21.02.png
+Legenda: Sintomas de deficiência de boro em tomateiro: podridão do fruto. Foto: Rosa Honorato de Oliveira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B750%5D%7B240%7Dcaptura_de_tela_2019-02-21_16.21.02_-_copia.png
+Legenda: Sintomas de deficiência de boro em tomateiro: podridão do fruto. Foto: Rosa Honorato de Oliveira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B750%5D%7B315%7Dfb_img_1567282223410.jpg
+Legenda: Provável deficiência de boro. Autor Desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B750%5D%7B70%7Dfb_img_1567282032998.jpg
+Legenda: Provável deficiência de boro. Autor Desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B750%5D%7B505%7Ddef._boro.jpg
+Legenda: Sintoma típico de deficiência de boro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B750%5D%7B155%7D111.jpg
+Legenda: Sintomas de deficiência de Boro. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B750%5D%7B383%7Dimg-20161119-wa0010.jpg
+Legenda: Sintomas típicos da deficiência de boro em frutos de tomateiro. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B750%5D%7B276%7Dimg-20160608-wa0096.jpg
+Legenda: Sintomas típicos da deficiência de boro em frutos de tomateiro. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B750%5D%7B515%7Dimg-20160609-wa0001.jpg
+Legenda: Sintomas típicos da deficiência de boro no caule do tomateiro. Foto: Autor desconhecido.
+
+-- Informações gerais: --
+Em solos tropicais o B e o Zn são os micronutrientes que mais apresentam ocorrências de deficiência nas culturas (5). É um nutriente imóvel via floema de muitas espécies, portando não se redistribui na planta (1). O B é um importante nutriente para o florescimento e para o processo de frutificação (6). Mais frequentemente esse sintoma aparece em frutos pluriloculares (caqui e salada), por serem mais exigentes desse micronutriente (1). Deve-se cuidar com a aplicação desse micronutriente, visto que é causador de toxicidade com muita facilidade. Isso ocorre pelo fato de que o limite entre o teor adequado e o teor tóxico para a planta ser muito estreito (5). Quando ocorre toxicidade de B ocorre clorose nas margens das folhas mais velhas que posteriormente evoluem para necrose (7).
+
+-- Como identificar: --
+Na ausência de boro, o desenvolvimento de tecido meristemático é paralisado, com morte da gema terminal. Plantas deficientes apresentam o encurtamento de internódios, deformação das folhas e de frutos e entrenós curtos. Pode ocorrer também uma leve clorose internerval nos folíolos das folhas jovens, permanecendo pequenas e se enrolando para dentro (1). Os sintomas nos frutos são os mais característicos. Caracterizam-se pela exposição da placenta, mais conhecido por “lóculo aberto” (1), que é uma rachadura profunda, seca e cicatrizada no fruto (2). Frutos com espaços ocos entre a parede externa e os lóculos, também são sintomas de deficiência nos frutos (4). Necrose de pontas e ramificações, raízes curtas com as pontas espessas e necróticas (4), torção, clorose e afilamento de folhas, além da consistência quebradiça dos pecíolos (3).
+
+-- O que pode estar ocorrendo: --
+- Solos com pH alto (acima de 7,0) e com excesso de nitrogênio na adubação (2). - Excesso de calagem do solo (4). - Baixo teor de matéria orgânica no solo, ausência de adubação orgânica e cultura em época de alta precipitação pluvial, especialmente em solos arenosos (7).
+
+-- Controle: --
+- O controle preventivo é realizado com a aplicação de bórax no plantio, na dosagem de 30 a 50 Kg ha-1, misturado com outros adubos no plantio (Leandro Hahn, Epagri de Caçador). Para ler mais sobre a adubação com Boro, clicar aqui! . - O controle curativo pode ser realizado com o uso de ácido bórico, na concentração de 2 a 3 g L-1 de água, em pulverização com jato dirigido aos frutos, e devem ser realizadas de 7 em 7 dias (1).
+
+-- RESULTADOS DE PESQUISA: --
+- A aplicação foliar de B, como ácido bórico, aumentou o teor de B na folha diagnose, porém sem efeito na produção e na incidência de lóculo aberto nos frutos (Anexo 1).
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. et al. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) LOPES, C. A.; ÁVILA, A. C. de. Doenças do tomateiro. Brasilia: Embrapa Hortaliças, 2005. (3) FERREIRA, M. E. et al. Nutrição e adubação de hortaliças. Potafós, Piracicaba-SP, 1993. (4) YARA. Disponível em: . Acesso em 18/10/2018. (5) FAQUIN, V. Nutrição Mineral de Plantas. Lavras: UFLA/FAEPE, 2005. (6) DECHEN, A.R.; et al. Micronutrientes. In: FERNANDES, M. S.; SOUZA, S. R. DE; SANTOS, L. A. (Eds.). . Nutrição mineral de plantas. 2. ed. Viçosa: Sociedade Brasileira de Ciência do Solo, 2018. p. 491–562. (7) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474. Anexo 1. Hahn et al. 2017. Aplicação de formulações de cálcio e boro na cultura do tomateiro tutorado. Agropecuária Catarinense, Florianópolis, v.30, n.3, p.61-66, set./dez. 2017.

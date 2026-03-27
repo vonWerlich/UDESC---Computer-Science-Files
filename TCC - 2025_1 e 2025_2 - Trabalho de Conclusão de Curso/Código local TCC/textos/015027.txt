@@ -1,0 +1,28 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - j) Principais doenças do tomateiro no Litoral Norte de Santa Catarina - Murcha-de-fusário
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015027&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+
+-- INFORMAÇÕES GERAIS: --
+Doença destrutiva que ocorre em todas as regiões do Brasil. Tem se apresentado como doença secundária, devido a obtenção de variedades resistentes as raças fisiológicas 1 e 2 existentes no Brasil. Contudo, o aparecimento da raça 3 tem provocado surtos isolados. A doença é favorecida pela alta temperatura e em plantios cultivados em solos ácidos e arenosos. O fungo pode ser transmitido por sementes.
+
+-- SINTOMAS: --
+O sintoma característico é o amarelecimento das folhas mais velhas, quando a planta está em fase de florescimento e início da frutificação, progredindo para as folhas mais novas. Ocorre a murcha da planta nas horas mais quentes do dia. Os sintomas podem ocorrer inicialmente apenas em um lado da planta. Os folíolos murcham e ficam amarelos, mas as folhas não se destacam da planta. Ocorre o escurecimento dos tecidos vasculares.
+
+-- ETIOLOGIA: --
+O fungo produz clamidósporos, macro e micro conídios. A disseminação a outras lavouras dá-se através do vento, água, tratos culturais em áreas contaminadas e implementos agrícolas. A longa distância dissemina-se por sementes. A doença é favorecida por temperaturas entre 21 a 33 °C com o ótimo em 28 °C. Solos deficientes em cálcio favorecem a doença.
+
+-- Controle genético: --
+Os cultivares disponíveis no mercado, do grupo salada, com resistência a Fusarium oxysporum f.sp. lycopersici - raça 1, 2 e 3, são os seguintes: Royale, Astuto, Batalha, Bravence, BS IS0010, BS IS0035, BS IS0082, Duncan, Dylla, Ensure, Festy, Fusion, Gislani, Kariri, Kyora, Minotauro, Onix, Sophia, Upiã.
+
+-- Controle cultural: --
+- Evitar o trânsito de máquinas e de pessoas de áreas infestadas para não infestadas; - Fazer rotação de culturas; - Elevados níveis de fósforo (superfosfato) acima do requerido para o crescimento do tomateiro aumentam a severidade de F. oxysporum f.sp. lycopersici em pH 6,0 (Zambolim et al., 2012). - Níveis equilibrados de cálcio contribuem para a redução da severidade de F. oxysporum f.sp. lycopersici (Zambolim et al., 2012).
+
+-- Controle físico: --
+Solarização do solo durante as estações mais quentes do ano.
+
+-- Controle biológico: --
+- Uso de biofertilizantes a 5%, aplicado através do sistema de gotejo, durante todo o ciclo da lavoura, com objetivo de estimular a microbiota antagonista presente no solo. - Trichoderma asperellum está registrado no MAPA para o controle de Fusarium solani em sistemas orgânicos de produção.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

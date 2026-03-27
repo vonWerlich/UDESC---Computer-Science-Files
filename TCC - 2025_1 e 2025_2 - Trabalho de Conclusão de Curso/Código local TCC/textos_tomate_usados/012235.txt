@@ -1,0 +1,62 @@
+Título: 1) REGULAMENTAÇÃO - 5) CERTIFICAÇÃO (Controle dos requisitos para a conformidade orgânica)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012235&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_alface.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6631%5D%7B178%7D1.png
+
+-- Controle dos requisitos para a conformidade orgânica: --
+Há três formas possíveis de regularização da produção orgânica: através de Organismos de Avaliação da Conformidade (OAC), Organizações Participativas de Avaliação da Conformidade Orgânica (OPAC) ou, ainda, através das Organizações de Controle Social (OCS). Nos dois primeiros casos, desde que atendidos os requisitos da legislação orgânica brasileira, resultam em uma certificação que permite o uso do selo SisOrg Orgânico Brasil. Já no terceiro, por não haver certificação, somente é permitida a venda direta de alimentos para o governo ou ao consumidor em feiras-livres. Todos os casos são fiscalizados pelo Mapa.
+
+-- Processo de Credenciamento Da Unidade de Produção Orgânica (UPO): --
+Síntese da forma de acesso ao mercado, forma de controle da conformidade e uso do selo Orgânico Brasil para cada tipo de regulamentação da produção. O detalhamento de cada um deles é feito em seguida.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6631%5D%7B458%7D1.jpg
+Legenda: Diagrama da conformidade orgânica das UPO, acesso ao mercado, tipos de entidades certificadoras e uso do selo orgânico. Fonte: Morales et al., 2019.
+
+-- OPACs CREDENCIADAS PARA AVALIAÇÃO DA CONFORMIDADE ORGÂNICA EM SANTA CATARINA: --
+A base para a certificação por uma OPAC é o controle social, modelo cujos próprios produtores, integrantes do organismo, assumem o protagonismo na verificação da conformidade, criando comissões de auditoria e inspeção. Destas, podem fazer parte integrantes externos ao organismo, mas a decisão sempre é interna do próprio grupo. O resultado final do processo de certificação, em caso de atendimento da legislação, resulta em certificado de conformidade orgânica. Para atuarem no Sistema Brasileiro de Avaliação da Conformidade Orgânica, todos os OPAC são credenciados junto ao Mapa, havendo 24 OPACs credenciadas no Mapa em 2018.
+
+-- a) Associação Ecovida de Certificação Participativa – Rede Ecovida --
+Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produtos de origem vegetal e extrati vismo sustentável orgânico. Site: www.ecovida.org.br/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6631%5D%7B360%7D9.jpg
+Legenda: Selo de identi fi cação da Rede de Agroecologia Ecovida. Fonte: Morales et al., 2019.
+
+-- b) Associação de Agricultura Biodinâmica do Sul (ABD-Sul) --
+Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal, extrativismo sustentável orgânico. Site: www.abdsul.org.br/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6631%5D%7B509%7D8.jpg
+Legenda: Selo de identificação da Associação. Fonte: Morales et al., 2019.
+
+-- OACs ATUANTES NO ESTADO DE SANTA CATARINA: --
+Nesta modalidade de certificação, a UPO recebe auditoria externa por terceira parte, popularmente conhecida como certificadora, acreditada pela Coordenação Geral de Acreditação (CGCRE) do Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro) segundo a ABNT NBR ISO/IEC 17065: Avaliação da Conformidade - Requisitos para organismos de certificação de produtos, processos e serviços e credenciada junto ao Ministério da Agricultura, Pecuária e Abastecimento. O processo de certificação junto a uma dessas empresas é em geral iniciado com a solicitação formal de certificação por parte do cliente. Em seguida, a certificadora analisa a viabilidade da solicitação, definindo se possui ou não condições de realizar a certificação. Em caso positivo, o processo é continuado dentro da empresa, sendo gerado um contrato de prestação de serviços e solicitado o Plano do Manejo Orgânico da unidade de produção. A inspeção é agendada pela certificadora, por meio de um inspetor contratado e designado que vai até a unidade de produção orgânica e verifica o atendimento à legislação orgânica brasileira, conforme o escopo de certificação. Em seguida, tais informações são encaminhadas a outro especialista, que fará a análise das informações ofertadas pelo inspetor. O resultado final, em caso de conformidade, é a emissão do certificado de conformidade orgânica. Caso o projeto não atenda aos requisitos de certificação, o produtor recebe uma notificação do resultado, podendo reclamar ou apelar contra práticas e decisões. Um exemplo do processo de certificação pode ser observado na Figura abaixo:
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6631%5D%7B352%7D2.jpg
+Legenda: Diagrama do processo de certificação por empresas de auditoria.Fonte: Morales et al., 2019.
+
+-- a) Ecocert Brasil Certificadora Ltda.: --
+Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal e extrativismo sustentável orgânico. Site: www.ecocert.com.br/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6631%5D%7B442%7D7.jpg
+Legenda: Selo de identificação da Ecocert Brasil Certificadora Ltda. Fonte: Morales et al., 2019.
+
+-- b) Cugnier Certificadora EIRELI: --
+Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal e extrativismo sustentável orgânico. Site: www.cugnier.com/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6631%5D%7B53%7D6.jpg
+Legenda: Selo de identificação da Cugnier Certificadora EIRELI. Fonte: Morales et al., 2019.
+
+-- c) Kiwa BCS Oko-Garantie do Brasil Ltda. --
+Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal e extrativismo sustentável orgânico. Site: https://www.kiwa.com/lat/pt-br/servicos-na-america-latina/certificacao-organica-brasil/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6631%5D%7B148%7D5.jpg
+Legenda: Selo de identificação da Kiwa Bcs oko-garantie do Brasil Ltda. Fonte: Morales et al., 2019.
+
+-- d) Associação de Certificação Instituto Biodinâmico (IBD), IBD Certificações Ltda.: --
+Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal, extrativismo sustentável orgânico e processamento de insumos agrícolas. Site: www.ibd.com.br/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6631%5D%7B179%7D4.jpg
+Legenda: Selo de identificação da Associação de Certificação Instituto Biodinâmico. Fonte: Morales et al., 2019.
+
+-- e) IMO Control do Brasil: --
+Escopo: produção primária animal, produção primária vegetal, processamento de produtos de origem animal, processamento de produto de origem vegetal e extrativismo sustentável orgânico. Site: www.imocontrol.com.br/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6631%5D%7B317%7D3.jpg
+Legenda: Selo de identificação da IMO Control do Brasil. Fonte: Morales et al., 2019.
+
+-- RELAÇÃO DOS ORGANISMOS CADASTRATOS NO MAPA: --
+Para baixar o pdf com a relação atualizada de todos os organismos cadastrados junto ao MAPA, basta clicar aqui!
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

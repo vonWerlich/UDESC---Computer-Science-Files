@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Lambdacialotrina Sulfoxaflor
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017157&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Lambdacialotrina Sulfoxaflor
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Lambdacialotrina Sulfoxaflor; Nome comercial: Expedition, Haffor, Sortic; Grupo químico: Piretroide + Sulfoxamina; Dose de produto comercial (Oebalus poecilus): 200-300mL/ha; Carência (dia): 21 Classe Toxicológica: 2 = altamente tóxico (faixa vermelha); Classe ambiental: I = altamente perigoso ao meio ambiente;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”.
+
+-- PRAGAS QUE CONTROLA: --
+Percevejo-do-grão (Oebalus spp.)
+
+-- Informações Complementares --

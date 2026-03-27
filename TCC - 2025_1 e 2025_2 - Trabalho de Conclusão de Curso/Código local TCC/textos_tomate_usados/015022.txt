@@ -1,0 +1,30 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - j) Principais doenças do tomateiro no Litoral Norte de Santa Catarina - Oídio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015022&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B13019%5D%7B334%7D60-1_-_copia.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Estes patógenos causam a doença chamada oídio, característico do crescimento fúngico na superfície superior e inferior da folha, deixando a aparência de um pó branco e fino na superfície foliar. Encontrado em algumas lavouras a céu aberto é muito comum sob cultivo protegido, com irrigação por gotejamento, onde a folha não é lavada pela chuva.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13019%5D%7B23%7D60-2.jpg
+Legenda: Sintomas de ataque severo do oídio em folha de tomateiro. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13019%5D%7B372%7D60-1.jpg
+Legenda: Sintomas iniciais de ataque do oídio em folha de tomateiro. null
+
+-- SINTOMAS: --
+Os sintomas de O. sicula são evidenciados pela presença de áreas amareladas na superfície superior dos folíolos e a presença de crescimento pulverulento branco na face inferior. Em fases mais avançadas da doença, as manchas coalescem resultando em clorose generalizada. Para O. lycopersisci, o principal sintoma é o aspecto pulverulento branco ou cinza, em ambas faces do folíolo. Nos estádios mais avançados, as plantas afetadas passam a apresentar amarelamento seguido de necrose. Para ambos agentes causais da doença, os sintomas são mais evidentes nas folhas mais velhas (Lopes & Ávila, 2005).
+
+-- ETIOLOGIA: --
+São fitopatógenos biotróficos, mantendo-se nas lavouras por meio de hospedeiros alternativos. Os conídios germinam e penetram na folha via estômatos, formando um profundo emaranhado micelial no mesófilo após penetração. Os dois patógenos podem causar oídio em tomateiro numa ampla faixa de temperatura, que pode variar de 10°C a 35°C no caso de O. haplophylli (Oidiopsis sicula). A faixa de temperatura para ocorrência do oídio de O. neolycopersici ainda não está bem clara, mas a doença ocorre em verões e invernos secos (Reis & Lopes, 2009).
+
+-- Controle genético: --
+Cultivares resistentes disponíveis: - Serato e Runner – com resistência a Leveillula taurica (anamorph: Oidiopsis sicula); - Hechicero, Seleto, Silvestre, Vento, com resistência a Oidium neolycopersici.
+
+-- Controle cultural: --
+- Excluir todo material contaminado; - Eliminar plantas hospedeiras (ex: solanáceas e cucurbitáceas); - Favorecer a aeração da cultura (Lopes & Ávila, 2005).
+
+-- Controle químico: --
+Aplicações preventivas com produtos à base de enxofre.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

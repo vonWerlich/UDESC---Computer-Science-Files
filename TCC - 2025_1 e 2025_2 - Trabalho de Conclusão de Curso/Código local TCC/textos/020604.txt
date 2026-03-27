@@ -1,0 +1,24 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Preparação do viveiro - Desinfecção do solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=020604&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17908%5D%7B180%7Daplicacao_cal_virgem.jpg
+
+-- DESINFECÇÃO: --
+A desinfecção do solo poderá ser realizada com os seguintes produtos e dosagens: Cal virgem: 100 a 200 g por m² Cloro granulado (hipoclorito de sódio 65%): 3 a 5 g por m²
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17908%5D%7B443%7Daplicacao_cal_virgem.jpg
+Legenda: Aplicação de cal virgem. Foto: Haluko Massago
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17908%5D%7B415%7Daplicacao_hipoclorito.jpg
+Legenda: Aplicação de hipoclorito. Foto: Haluko Massago
+
+-- RECOMENDAÇÕES GERAIS: --
+- O armazenamento inadequado da cal virgem poderá interferir na sua eficiência de desinfecção. Por isso, não é recomendado armazenar por muito tempo; - Podem ser usados outros princípios ativos semelhantes ao cloro granulado, indicado para piscinas (exemplo: hipoclorito de cálcio ou dicloroisocianurato de sódio), sendo indicada a mesma dosagem de cloro ativo; - Os produtos podem ser utilizados apenas nas poças, ou espalhado na superfície do solo; - O cloro granulado deverá ser diluído em água antes da aplicação, na concentração máxima de 100g por litro; - Esses produtos devem ser manuseados com auxílio de EPIs (Equipamentos de proteção individual), como: óculos de proteção, luvas e máscaras apropriadas.
+
+-- ANEXO 1: FOLDER DE DESINFECÇÃO DE SOLO --
+CLIQUE AQUI!
+
+-- ANEXO 2: USO DE PRODUTOS CLORADOS PARA DESIFECÇÃO DE VIVEIROS --
+CLIQUE AQUI!
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

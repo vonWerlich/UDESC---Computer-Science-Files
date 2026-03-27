@@ -1,0 +1,13 @@
+Título: CEBOLA - Escolha do cultivar - Cimarron
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018358&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16005%5D%7B160%7Dcimarron.png
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Nunhems Polinização: Híbrido Cor da película do bulbo: Amarela Cor da polpa do bulbo: Branca
+
+-- OBSERVAÇÃO: --
+- Alta produtividade aliada à qualidade de pele; - Excelente qualidade de bulbo; - Elevada resistência à raiz rosada e ao florescimento prematuro; - Elevado índice de centro único.
+
+-- Informações Complementares --
+Informações coletadas no site da empresa ( https://www.nunhems.com/br/pt.html ).

@@ -1,0 +1,40 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Falso-carvão (Ustilaginoidea virens)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021645&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11375%5D%7B462%7Dfalsocarvao_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11375%5D%7B336%7Dfalsocarvao_fig01.jpg
+Legenda: 01. Sintoma inicial de falso-carvão no grão. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11375%5D%7B128%7Dfalsocarvao_fig01a.jpg
+Legenda: 02. Esporulação recente de falso-carvão. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11375%5D%7B31%7Dfalsocarvao_fig02.jpg
+Legenda: 03. Sintoma avançado de falso-carvão. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11375%5D%7B159%7Dfalsocarvao_fig03.jpg
+Legenda: 04. Esporulação enegrecida do falso-carvão. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11375%5D%7B36%7Dfalsocarvao_fig04.jpg
+Legenda: 05. Grãos infectados pelo falso-carvão. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11375%5D%7B354%7Dfalsocarvao_fig05.jpg
+Legenda: 06. Panícula enegrecida pelos esporos do falso-carvão. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11375%5D%7B532%7Dfalsocarvao_fig06.jpg
+Legenda: 07. Panícula enegrecida pelos esporos do falso-carvão. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11375%5D%7B133%7Dfalsocarvao_fig07.jpg
+Legenda: 08. Falso-carvão em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11375%5D%7B343%7Dfalsocarvao_fig08.jpg
+Legenda: 09. Falso-carvão em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: fungo Ustilaginoidea virens A doença surge nas plantas de arroz principalmente durante o emborrachamento. É uma doença de ocorrência frequente, cujos danos são pouco expressivos. Entretanto, o fungo produz a micotoxina ustiloxina, que pode contaminar os grãos.
+
+-- SINTOMAS: --
+Os grãos são recobertos por esporos que formam uma massa esponjosa. Os esporos imaturos apresentam coloração amarelo-esverdeada, enquanto que os esporos maduros têm coloração verde-oliva, quase preta. Normalmente, somente alguns grãos da panícula são afetados, tornando-se estéreis; porém grãos próximos podem ficar enegrecidos pela espalhamento dos esporos.
+
+-- CONDIÇÕES FAVORÁVEIS: --
+• Períodos chuvosos ou mesmo de alta umidade durante o emborrachamento e florescimento. • Excesso de nitrogênio nas plantas. • Semeaduras tardias.
+
+-- CONTROLE: --
+• Semear no início da época recomendada, dando preferência a cultivares com ciclo menor, nas áreas com histórico de ocorrência da doença. • Evitar excesso de adubação nitrogenada.
+
+-- Controle químico: --
+Para a maioria das áreas, o controle químico específico para o falso-carvão é desnecessário, devido ao seu baixo potencial de dano. Entre os fungicidas descritos com ação contra o falso-carvão estão o propiconazol e a mistura azoxistrobina + difenoconazol.
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.

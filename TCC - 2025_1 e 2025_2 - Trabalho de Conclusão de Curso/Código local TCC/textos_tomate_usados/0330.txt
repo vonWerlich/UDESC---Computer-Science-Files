@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Catânia F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0330&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B226%5D%7B132%7Dcatania.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto amarelo; Empresa: Isla; Finalidade: Copa; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Época de Semeadura: Agosto a Março. Ciclo Verão (dias): 100 a 120. Tipos de Frutos: Redondo. Cor das Cascas: Laranja. Cor da polpa: Laranja. Comprimento comercial: 2cm. Diâmetro comercial: 2cm. Peso comercial: 10 a 20g.
+
+-- DIFERENCIAIS: --
+Variedade de tomate altamente diferenciada com ótimo potencial de mercado. O Tomate Catânia possui coloração laranja e formato redondo, apresenta alto grau brix, variando entre 10 a 11, sendo muito doce e de excelente sabor. A cultivar tem uma planta vigorosa com alto pegamento de frutos, cachos muito produtivos e colheita prolongada. O Catânia é um produto de alto valor agregado no segmento de mini hortaliças devido ao seu sabor adocicado e levemente ácido. Ideal para quem não abre mão do sabor mediterrâneo em seus pratos, os frutos resgatam o prazer das pessoas em consumir alimentos saborosos e suculentos e certamente agradará paladares exigentes dentro da categoria de tomates super saborosos.
+
+-- RESISTÊNCIA: --
+TMV, Ff, F, Va, Vd, TSWV, N.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

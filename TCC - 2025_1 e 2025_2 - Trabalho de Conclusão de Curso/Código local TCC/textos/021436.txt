@@ -1,0 +1,24 @@
+Título: TERMOTERAPIA PARA SUBSTRATOS - Como funciona a termoterapia
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021436&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18330%5D%7B523%7Dfigura_14._fechamento_superior_do_desinfestador.jpg
+
+-- COMO FUNCIONA: --
+A redução da carga de patógenos ou até mesmo a esterilização do solo pode ser conseguida pelo aquecimento da água contida no substrato ou pela emissão de vapor de água.
+
+-- USO DE CÂMARAS: --
+Para o solo ou misturas de solo utilizado como substrato, recomenda-se o uso de câmaras desenvolvidas para essa finalidade.
+
+-- INATIVAÇÃO PELO VAPOR: --
+O vapor produzido é injetado no substrato, de modo que se atinjam as temperaturas de inativação para cada fitopatógeno, bactéria ou sementes de plantas invasoras nos tempos de exposição indicados na Tabela 1.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18330%5D%7B265%7Dtabela_1.jpg
+Legenda: Tabela 1. Temperatura e tempo de exposição para inativação de fitopatógenos e sementes de plantas invasoras. Fonte: Visconti et al. (2023)
+
+-- CONTROLE DE PATÓGENOS DE SOLO: --
+Esse procedimento é uma alternativa viável, principalmente no controle de patógenos veiculados pelo solo difíceis de serem controlados por outros métodos.
+
+-- O QUE CONTROLA? --
+A combinação da alta temperatura com a umidade elimina, além dos microrganismos fitopatogênicos, sementes de plantas invasoras, ovos e larvas de insetos.
+
+-- Informações Complementares --

@@ -1,0 +1,19 @@
+Título: BANANA - Cultivares - BRS SCS Belluna
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021678&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+BRS SCS Belluna
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18364%5D%7B335%7Dbelluna.jpg
+FOTO: Arquivo Epagri
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAA. cultivar de banana com qualidades nutricionais diferenciadas. Os frutos são ricos em fibras e apresentam menores conteúdos de carboidratos e de valores calóricos quando comparados aos frutos dos subgrupos mais comercializados no país, Prata e Cavendish. A BRS SCS Belluna é resistente a Sigatoka-amarela e a murcha de Fusarium e moderadamente resistente a Sigatoka-negra. É indicada tanto para o consumo in natura quanto processada, em especial sob a forma de farinha e passas (banana desidratada). (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18364%5D%7B204%7Dcap_3_-_fig_4_-_letra_d_-_belluna_-_autoria_eliseu_emanoel_dos_santos.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18364%5D%7B7%7Dimg_3659.jpg
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

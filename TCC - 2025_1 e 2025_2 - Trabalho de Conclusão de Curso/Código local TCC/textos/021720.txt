@@ -1,0 +1,20 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - PODRIDÃO DA COROA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021720&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18407%5D%7B316%7Dpodridao_coroa_1.png
+
+-- DESCRIÇÃO --
+O processo de despencamento e elaboração de buquês de banana criam grandes ferimentos que são portas de entrada para várias espécies de fungos oportunistas. Esses fitopatógenos podem causar perdas significativas na falta de manuseio adequado, podendo acelerar o processo de maturação de frutos, bem como deixá-los impróprios para o consumo( 1 )( 2 ). Essa doença é associada a vários patógenos, como: Cephalosporium sp., Fusarium spp., Verticillium theobromae , Colletotrichum sp. Deightoniella sp. Ceratocystis paradoxa , Nigrospora sp. O agente causal dessa doença pode variar em função da localidade e da época do ano( 1 )( 2 ). A infecção ocorre principalmente durante as práticas pós-colheita dos frutos, no entanto, não pode ser descartada a infecção em campo. O inóculo que vive saprofiticamente em restos de cultura ou na superfície dos frutos são carregados para a coroa através do vento, da água, durante a despenca do cacho ou na água de lavagem durante a remoção do látex, sendo os dois últimos processos os mais importantes. Além disso, os frutos podem ser contaminados após a lavagem quando manipulados ou armazenados de maneira inadequada, como em caixas não higienizadas.
+
+-- SINTOMAS --
+Fitopatógenos penetram no ferimento na almofada do buquê de banana, que provoca o escurecimento e necrose do tecido infectado. Em seguida, o escurecimento se espalha para o pedicelo, podendo alcançar os frutos e provocar seu despencamento (Figuras abaixo) .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18407%5D%7B263%7Dfigura_12b_podridao_coroa.jpg
+Legenda: PODRIDÃO DA COROA EM FRUTOS DE BANANA DO SUBGRUPO CAVENDISH Foto: Alessandro Borini Lone
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18407%5D%7B446%7Dfigura_12a_prodridao_coroa.jpg
+Legenda: PPDRIDÃO DA COROA EM FRUTO DE BANANA DO SUBGRUPO CAVENDISH Foto: Alessandro Borini Lone
+
+-- CONTROLE --
+O controle da podridão da coroa se inicia no campo, com práticas que reduzam o inóculo dos fitopatógenos, como eliminação de folhas mortas e restos de flores, além de processos de pós-colheita: despenca dos cachos e elaboração dos buquês com ferramenta limpa e afiada; aplicação de fungicida recomendado para a cultura; limpeza e desinfestação do tanque de lavagem dos frutos, da casa de embalagem, da câmara de maturação e da caixa de armazenamento; e redução do tempo entre colheita e refrigeração da fruta.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )CORDEIRO, Z.J.M.; MATOS, A.P.; KIMATI, H. Doenças da bananeira (Musa sp.) In: KIMATI, H.; AMORIM, L.; BERGAMIN FILHO, A.; CAMARGO, L.E.A. (Ed.). Manual de fitopatologia. 4.ed. São Paulo: Agronômica Ceres, 2005. v.2. p.99-117. ( 2 )JONES, D.R. Handbook of diseases of banana, abacá and enset. Wallingford: CABI Publishing, 2000. 544 p.

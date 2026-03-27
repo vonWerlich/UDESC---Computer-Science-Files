@@ -1,0 +1,31 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares fora da recomendação - Empasc 105
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013215&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11469%5D%7B444%7Dempasc105_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar Empasc 105 foi introduzido na Empasc/EEI em 1980 como linhagem Taichung Sem Yu 195 proveniente do IRGA, originária de Taiwan. A linhagem foi avaliada durante seis anos em ensaios regionais e lançada como cultivar em 1987. É um cultivar de tipo moderno e destaca-se pela boa qualidade dos grãos e elevado potencial produtivo. Sua excelente adaptação a solos orgânicos permitiu ser cultivado por muitos anos. Seu cultivo foi comprometido pelo fato do cultivar apresentar grãos glutinosos.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: 7,09t/ha • Altura da planta: 82cm • Ciclo: Tardio (150 dias) • Acamamento: Resistente • Reação à toxidez por ferro: Resistente • Reação à brusone: Resistente • Reação a baixas temperaturas (13°C): Suscetível
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 2 • Classe: Longo fino • Renda do beneficiamento: 69,8% • Rendimento de grãos inteiros: 58,7% • Teor de amilose: 20% • Temperatura de gelatinização: Baixa
+
+-- FOLHAS: --
+• Cor: Verde-clara • Comprimento: 30cm • Largura: 1,4cm • Pubescência: Forte • Ângulo das folhas: Intermediário • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Branca a verde • Cor da aurícula: Incolor a verde • Cor do colo: Verde-clara
+
+-- COLMO: --
+• Comprimento: 61cm • Espessura: 0,5cm • Perfilhamento: Bom • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Intermediário (23,3cm) • Exserção: Média • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Microarista a pouco aristado • Cor estigma: Branca • Cor do apículo na floração: Verde • Cor do apículo na maturação: Palha • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,1mm • Espessura: 1,8mm • Largura: 2,3mm • Relação C/L: 3,07 • Forma do grão: Alongado • Peso de mil grãos: 28,2g • Pilosidade: Média
+
+-- Informações Complementares --
+VIEIRA, J.; MARSCHALEK, R.; SCHIOCCHET, M.A. Cultivares de arroz da Epagri - Descrição e Caracterização. Florianópolis: Epagri, 2007. 76p. (Epagri. Boletim Técnico, 138).

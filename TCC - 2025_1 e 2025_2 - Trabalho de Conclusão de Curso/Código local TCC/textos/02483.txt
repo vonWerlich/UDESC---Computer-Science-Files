@@ -1,0 +1,24 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - A) INTRODUÇÃO GERAL SOBRE O SISPIT - e) Produção de tomate de mesa em Santa Catarina
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02483&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2247%5D%7B114%7Dfigura_1.jpg
+
+-- Produção de tomate de mesa em Santa Catarina: --
+Em Santa Catarina, o cultivo de tomate se destina ao consumo in natura, ou tomate de mesa. Em relação à produção, o estado avançou da oitava para a sétima posição, porém, na produtividade evidencia-se o maior avanço tecnológico na cultura em Santa Catarina, passando da sexta para a terceira posição (Tabela 1). O clima propício nas regiões do Litoral e Meio-Oeste permitem conduzir as várias etapas do cultivo do tomate durante o ano todo e em sequência nas diferentes microrregiões/mesorregiões (Tabela 2).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2247%5D%7B537%7Dtabela_2.jpg
+Legenda: Época de produção do tomate de mesa nas principais microrregiões/mesorregiões catarinenses produtoras. Fonte: Sispit 2016.
+
+-- Considerando as seis mesorregiões catarinenses: --
+Considerando as seis mesorregiões catarinenses, a Oeste representa 53% da área e 64% da produção; a Grande Florianópolis tem 26% da área e 15% da produção; a Serrana tem 9,4% da área e 12% da produção. As três juntas representam 88,4% da área plantada e 92% da produção. Por ordem de importância as demais mesorregiões são: Vale do Itajaí, Região Norte e Região Sul (Síntese..., 2011).
+
+-- Considerando a safra 2013/14: --
+Considerando a safra 2013/14, a microrregião geográfica de Joaçaba detém 47% da área plantada e 54% da produção, constituindo-se no principal polo produtor do estado; as demais microrregiões geográficas de importância na produção de tomate são a do Tabuleiro, Florianópolis e Lages que somam 34% da área plantada e 32% da produção (Síntese..., 2014)
+
+-- Considerando os municípios de Caçador, Lebon Régis e Rio das Antas: --
+Considerando os municípios de Caçador, Lebon Régis e Rio das Antas, que fazem parte da microrregião de Joaçaba, eles continuam liderando a maior área plantada, com 985 hectares e uma produtividade de 82 mil quilos por hectare. Os três municípios representam a significativa parcela de 54% da produção estadual e colocam a microrregião de Joaçaba como a maior do Estado, fornecedora de tomates durante o verão (Síntese..., 2014).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2247%5D%7B476%7Dfigura_1.jpg
+Legenda: Aspecto da produção de tomate em sistema de produção integrada de tomate de mesa (Sispit) em Caçador, SC. Fonte: Sispit 2016.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

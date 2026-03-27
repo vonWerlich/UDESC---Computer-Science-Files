@@ -1,0 +1,56 @@
+Título: TOMATE - Fitossanidade - Pragas - Broca-pequena-dos-frutos (Neoleucinoides elegantalis)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04661&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8%5D%7B36%7D2015-07-21_10.17.31_-_copia.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B301%7Dimg_20211124_160447393_hdr.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B449%7D52-1.jpg
+Legenda: Lagartas da broca pequena. Foto: Marcelo Mendes de Haro
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B277%7D2015-09-21_15.07.06.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B89%7D2015-12-21_16.39.01.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B346%7D2015-12-28_14.29.51.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B301%7D2016-01-06_09.35.30.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B185%7D2016-01-06_09.35.35.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B440%7D2016-01-13_09.45.01.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B530%7D2016-01-13_09.45.08.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B278%7D2016-01-22_09.10.43.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B8%7Dimg-20161119-wa0018.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B214%7D2015-07-21_10.17.31_-_copia.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B206%7D2015-07-01_15.06.11.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8%5D%7B484%7D2015-12-21_16.39.16.jpg
+Legenda: Sintomas de frutos atacados pela broca-pequena-do-fruto. Foto: Rafael G. F. Morales
+
+-- INFORMAÇÕES GERAIS: --
+Ataca a cultura do tomateiro principalmente no período chuvoso do ano, onde as altas temperaturas e umidades relativas são mais favoráveis ao crescimento populacional da praga.
+
+-- CARACTERÍSTICAS GERAIS: --
+Os ovos são depositados no pecíolo, no cálice ou diretamente na superfície do fruto. As lagartas recém-eclodidas raspam a casca do fruto e se alojam em seu interior, alimentando-se da polpa. Totalmente desenvolvida, a lagarta sai do fruto para transformar-se em pupa no solo, logo abaixo da planta. Os frutos infestados tornam-se impróprios para o consumo (1). O adulto da broca pequena do tomateiro realiza suas atividades de cópula, alimentação e oviposição durante a noite, iniciando-as por volta das 19 horas. Essa mariposa de aproximadamente 25 mm de envergadura possui asas brancas e ligeiramente transparentes. As asas anteriores apresentam na parte mediana três manchas irregulares de coloração marrom e no ápice, uma de cor avermelhada. As asas posteriores são ornadas com alguns pontos escuros quase pretos e no ápice uma mancha de cor preta menos intensa (2).
+
+-- ASPECTOS BIOLÓGICOS (2): --
+- Período de pré-oviposição: dois dias; - Oviposição: sete dias (com picos de postura no 5 e 6 dias após a emergência); - Incubação: cinco dias; - Período larval: 21 dias; - Pré-pupa: 1,6 dias; - Pupa: 12 dias; - Longevidade de machos e fêmeas, respect.: quatro e seis dias; - Ciclo de ovo a adulto: 39,6 dias; - Razão sexual 1:1.
+
+-- O QUE PODE ESTAR OCORRENDO: --
+1- Ausência de inimigos naturais: Solução: Evitar monocultivos. Diversificar o ambiente produtivo, cultivando plantas com potencial para a atração e manutenção da fauna de predadores e parasitoides da broca-pequena-dos-frutos. Dar preferência a plantas que possuam floração contínua. 2- Monitoramento ausente ou feito de forma inadequada: Solução: Monitorar a lavoura com frequência, conhecendo os danos reais causados pelo inseto para tomada de decisão, evitando surtos populacionais. 3- Manutenção de plantas hospedeiras ou restos da cultura anterior próximo ao cultivo: Solução: Eliminar resíduos restantes de culturas anteriores, principalmente solanáceas que podem abrigar e manter populações da praga para a posterior contaminação do cultivo.
+
+-- MONITORAMENTO: --
+Consiste na avaliação semanal de pencas com frutos em fase inicial de desenvolvimento (2 cm de diâmetro) devendo-se percorrer toda a lavoura em zigue-zague e examinar, no mínimo, dez pontos de amostragem por talhão, sendo consideradas infestadas aquelas que apresentarem, pelo menos, um fruto com ovos ou com sinais de entrada de lagartas. Recomenda-se que o monitoramento comece no início do florescimento e seja intensificado durante a estação chuvosa e quente do ano. Efetuar o controle quando 5% das plantas amostradas apresentarem danos (1).
+
+-- CONTROLE: --
+Cultural: – Catação manual e destruição dos frutos perfurados, eliminar solanáceas silvestres, como juás e jurubeba. Não cultivar hospedeiras próximas ao cultivo. Podar os brotos terminais quando a planta apresentar seis a sete cachos. Biológico: – Utilização do parasitoide de ovos Trichogramma pretiosum em liberações inundativas duas vezes por semana. Aplicação de Bacillus thuringiensisi para o controle da broca. Químico: – Sempre dar preferência a inseticidas de classes toxicológicas menos tóxicas, fazendo sempre a rotação dos princípios ativos para evitar a indução da resistência dos organismos alvo.
+
+-- Controle cultural (Ensacamento de pencas): --
+Ensacamento de pencas: O ensacamento de frutos é um método simples e prático de controle de pragas e não exige elevado investimento com materiais de consumo. Na cultura do tomateiro, o ensacamento está sendo proposto para ser associado ao método de controle químico convencional. Para confecção dos saquinhos optou-se pelo papel-manteiga por ser resistente ao rompimento e ao molhamento, por sua permeabilidade a trocas gasosas dos frutos, flexibilidade ao ser amarrado na penca sem danificá-la, disponibilidade no mercado local e baixo custo. As dimensões do saquinho foram de 35 x 30 cm. Foram ensacadas as primeiras pencas de tomates, com no mínimo os primeiros dois frutos da penca em início de desenvolvimento, para prevenir posturas. Para otimizar o efeito do ensacamento, pode-se colocar uma pastilha desodorante dentro do pacote para aumentar o efeito repelente. A pastilha desodorizante, com tamanhos de aproximadamente 90 mm3, consistiu em um material sólido que é utilizado como fragrância em vasos sanitários que, em contato com a umidade do ar e a água das irrigações, produz espuma e odores (3).
+
+-- Informações Complementares --
+(1) MORALES et al. 2019. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina (no prelo). (2) CARNENO, J. da S.; HAJi, F.N.P.; SANTOS, F. de A.M. dos. Bioecologia e controle da broca pequena Neoleucinodes elegantalis. Teresina: Embrapa Meio-Norte, 1998, 14 p. (Embrapa Meio-Norte. Circular Técnica, 26). (3) Aplicativo ADAMA Hortifruti Brasil. Para mais informações, consultar o site https://www.adama.com/brasil/pt/ ou diretamente pelo aplicativo ADAMA HF .

@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - G) MANEJO DAS PRINCIPAIS DOENÇAS FÚNGICAS - j) Referências
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02943&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2705%5D%7B523%7Dcapa_1.jpg
+
+-- Referências: --
+AGROFIT. Sistema de agrotóxicos fitossanitários, 2012. Disponível em: < http://agricultura.gov.br/agrofit> Acesso em: 10 ago. 2012. BECKER, W.F., MONDARDO, M. Validação de sistemas de previsão da requeima do tomateiro. In: CONGRESSO BRASILEIRO DE FITOPATOLOGIA, 37. 2004, Gramado, RS. Fitopatologia Brasileira. Fortaleza, CE: Fitopatologia Brasileira. v.29. p.64, 2004. BECKER, W.F. Validação de dois sistemas de previsão para o controle da requeima do tomateiro na região de Caçador, SC. Agropecuária Catarinense 18: 63-68, 2005. BECKER, W.F.; MUELLER, S.; SANTOS, J.P. et al. Viability of a prediction system for tomato late blight in the integrated production of tomato in Caçador, Brazil. Horticultura Brasileira, Brasília, DF, v.29, n.4, p.520-525, out.-dez. 2011. EPAGRI. Avaliação de cultivares para o Estado de Santa Catarina 2006/07. Florianópolis, SC, 2006. 162p. (Epagri. Boletim Técnico, 128). LOPES, C.A.; SANTOS, J.R.M. dos. Doenças do tomateiro. Brasília, DF: EMBRAPA-SPI, 1994, 67 p. KUROZAWA C.; PAVAN, M. A. Doenças do tomateiro (Lycopersicon esculentum Mill.) In: BERGAMIM FILHO, A.; KIMATI, H.; AMORIM, L. (Editores). Manual de Fitopatologia. Princípios e Conceitos. São Paulo, SP: Ceres, v.1, 3ed. p.698-704, 1995. LOPES, C.A.; ÁVILA, A.C. Doenças do tomateiro. Brasília, DF: Embrapa-CNPH, 2005, 151p. LOPES, C.A.; QUEZADO-SOARES, M.A. Doenças bacterianas de hortaliças. Brasília, DF: Embrapa-CNPH, p.10-15, 1994. LOPES, C.A.; SANTOS, J.R.M. Doenças do tomateiro. Brasília, DF: Embrapa-CNPH, p.51-58, 1997.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

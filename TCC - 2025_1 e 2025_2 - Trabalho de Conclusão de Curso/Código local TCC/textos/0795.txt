@@ -1,0 +1,17 @@
+Título: TOMATE - Cultivares - BS IS0010 F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0795&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B675%5D%7B432%7Dbs_is0010.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Blueseeds; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: Ty1 - Tomato yellow leaf curl virus 1 (ToLCV); Tamanho do fruto: Gigante (maior do que 280 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Hábito de Crescimento : Indeterminados ; Grupo : Salada ; Peso Médio : 300 a 340g ; Ciclo : médio ; Nº de Lócus : 4 ou mais ; Tolerância : V¹, F¹, F², F³, N, T, Ty, LSL ; Densidade do plantio : 1,40×1,80m – 0,50×0,60m ; Nº de hastes : 2
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://blueseeds.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://blueseeds.com.br.

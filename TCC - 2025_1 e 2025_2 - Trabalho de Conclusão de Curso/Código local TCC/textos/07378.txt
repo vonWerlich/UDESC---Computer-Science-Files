@@ -1,0 +1,17 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - e) Adubação e manejo do solo - 1) Escolha da área de cultivo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07378&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6661%5D%7B204%7Dcapa_tomatorg.jpg
+
+-- CARACTERÍSTICAS DESEJÁVEIS DO SOLO: --
+Para poder expressar seu potencial produtivo, o tomateiro necessita de solos bem estruturados, férteis, ricos em matéria orgânica e bem drenados. Em face dos tratos culturais específicos que exige, deve-se optar por terrenos planos ou ligeiramente inclinados, bem ensolarados e ventilados. O solo é a base de sustentação das plantas, sua estrutura e textura têm efeito direto sobre sua capacidade de infiltração, retenção da água e oxigênio necessários à vida e às reações químicas a ele relacionadas.
+
+-- DEVE-SE EVITAR OS SEGUINTES TIPOS DE SOLOS: --
+De difícil drenagem ou sujeitos a enchentes, de topografia que dificulte o trabalho de máquinas, muito argiloso e pedregoso. Evitem-se, ainda, áreas com histórico de pragas relacionadas ao solo como nematoides, murcha-de-estenfílio, murcha-de-fusário e murcha-bacteriana.
+
+-- ANÁLISE DE SOLO: --
+A fertilidade do solo e as suas características físico-químicas são conhecidas por meio de análise laboratorial. Para tanto, é importante que a amostragem seja tecnicamente realizada. Por isso, não se dispensa a presença ou as orientações de técnicos da área da Agronomia, os quais auxiliarão a interpretar os resultados e orientarão sobre as correções a serem feitas no solo.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

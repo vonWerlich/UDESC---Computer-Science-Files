@@ -1,0 +1,26 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas - As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando - Várias folhas estão amareladas ou retorcidas, ou com manchas, enegrecidas ou secando - As folhas apresentam manchas diversas, pequenas ou grandes, eventualmente negras, que não rompem o limbo foliar (doenças fúngicas do arroz) - As manchas são grandes, largas e alongadas - As manchas se distribuem pelo limbo foliar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021596&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21593%5D%7B169%7Dpl06_manchalimbo.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano está restrito às folhas
+As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando
+Várias folhas estão amareladas ou retorcidas, ou com manchas, enegrecidas ou secando
+As folhas apresentam manchas diversas, pequenas ou grandes, eventualmente negras, que não rompem o limbo foliar (doenças fúngicas do arroz)
+As manchas são grandes, largas e alongadas
+As manchas se distribuem pelo limbo foliar
+As manchas são alongadas de bordas irregulares
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21596%5D%7B256%7Dpl07_manchairregular.jpg
+Legenda: As manchas são alongadas de bordas irregulares
+21599
+As manchas são alongadas de bordas irregulares
+As manchas são arredondadas ou ovaladas de borda definida
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21596%5D%7B531%7Dpl08_manchaoval.jpg
+Legenda: As manchas são arredondadas ou ovaladas de borda definida
+21600
+As manchas são arredondadas ou ovaladas de borda definida

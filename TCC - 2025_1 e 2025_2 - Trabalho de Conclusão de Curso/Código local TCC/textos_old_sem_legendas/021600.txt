@@ -1,0 +1,27 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas - As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando - Várias folhas estão amareladas ou retorcidas, ou com manchas, enegrecidas ou secando - As folhas apresentam manchas diversas, pequenas ou grandes, eventualmente negras, que não rompem o limbo foliar (doenças fúngicas do arroz) - As manchas são grandes, largas e alongadas - As manchas se distribuem pelo limbo foliar - As manchas são arredondadas ou ovaladas de borda definida
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021600&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21596%5D%7B531%7Dpl08_manchaoval.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano está restrito às folhas
+As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando
+Várias folhas estão amareladas ou retorcidas, ou com manchas, enegrecidas ou secando
+As folhas apresentam manchas diversas, pequenas ou grandes, eventualmente negras, que não rompem o limbo foliar (doenças fúngicas do arroz)
+As manchas são grandes, largas e alongadas
+As manchas se distribuem pelo limbo foliar
+As manchas são arredondadas ou ovaladas de borda definida
+Mancha ocelar grande, com borda escura e centro cinza-claro. Uma risca marrom, partindo do centro da borda superior em direção ao ápice da folha, normalmente presente - MANCHA CIRCULAR
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21600%5D%7B272%7Dchv_mcircular.jpg
+Legenda: Mancha ocelar grande, com borda escura e centro cinza-claro. Uma risca marrom, partindo do centro da borda superior em direção ao ápice da folha, normalmente presente - MANCHA CIRCULAR
+21603
+Mancha ocelar grande, com borda escura e centro cinza-claro. Uma risca marrom, partindo do centro da borda superior em direção ao ápice da folha, normalmente presente - MANCHA CIRCULAR
+Mancha grande ovalada ou arredondada, cinza-palha com borda escura bem definida - QUEIMA DAS BAINHAS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21600%5D%7B162%7Dchv_queimabfolha.jpg
+Legenda: Mancha grande ovalada ou arredondada, cinza-palha com borda escura bem definida - QUEIMA DAS BAINHAS
+21604
+Mancha grande ovalada ou arredondada, cinza-palha com borda escura bem definida - QUEIMA DAS BAINHAS

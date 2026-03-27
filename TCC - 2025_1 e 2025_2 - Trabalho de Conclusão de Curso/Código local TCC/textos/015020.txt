@@ -1,0 +1,33 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - j) Principais doenças do tomateiro no Litoral Norte de Santa Catarina - Mancha-de-cladospório
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015020&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B13017%5D%7B79%7D59-2_-_copia.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Doença dependente de longos períodos de alta umidade relativa do ar. É mais comum em cultivos protegidos, dificilmente causando danos em lavouras a céu aberto na região Sul do Brasil (Lopes & Ávila, 2005).
+
+-- SINTOMAS: --
+Apesar de ocorrer em toda a parte aérea da planta, os sintomas ocorrem primeiramente nas folhas mais velhas. São observadas lesões cloróticas, com margens pouco definidas. Na parte de baixo das folhas, correspondente as lesões, ocorrem manchas irregulares com produção de massa de esporos de cor verde-oliva. Em alta incidência do fungo pode ocorrer intensa desfolha da planta (Lopes & Ávila, 2005).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13017%5D%7B283%7D59-2.jpg
+Legenda: Sintomas da mancha-de-cladospório (Cladosporium fulvum) na face abaxial de folhas de tomateiro.null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13017%5D%7B469%7D59-1.jpg
+Legenda: Sintomas da mancha-de-cladospório (Cladosporium fulvum) na face adaxial (Esquerda) de folhas de tomateiro. null
+
+-- ETIOLOGIA: --
+Prefere longos períodos de alta umidade relativa do ar (>85 %) (Lopes & Ávila, 2005) e temperaturas oscilando entre 21 a 25 °C (Kurosawa & Pavan, 2005). É encontrada em regiões sujeitas a nevoeiros constantes. Os esporos são facilmente disseminados pelo vento e, a longas distâncias, a doença é disseminada por sementes contaminadas.
+
+-- Controle genético: --
+Cultivares registradas com resistência a F. fulva: Alambra, Batalha, Bermello, Bosco (E15C.41103), Capitão, Cardyna, DSC2015, E 26.34770, Egara, Ellity, Forty, Giacomo, Hechicero, HMX 7885, Itaipu, Lezaforta, Mestiço, Moriá, Norty, Piccolo, Platinum, Runner, Sêneca, Spartus, Sylviana, Tropical, UG 8169, Valouro, Verdi, Verônica, Vinicio, Wanda e Zorayda.
+
+-- Controle cultural: --
+- Eliminar restos culturais (Lopes & Santos, 1994); - Desfolha das folhas baixeiras atacadas, eliminando o inóculo e melhorando a ventilação; - Evitar adubações nitrogenadas pesadas.
+
+-- Controle físico: --
+Tratamento térmico das sementes com água quente a 55 °C por seis horas (Kurozawa & Pavan, 2005).
+
+-- Controle químico: --
+Aplicações preventivas de calda bordalesa a 0,3% ou calda viçosa em períodos de clima favoráveis ao desenvolvimento da doença.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

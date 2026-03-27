@@ -1,0 +1,16 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - H) MANEJO DAS PRINCIPAIS DOENÇAS BACTERIANAS - e) Talo-oco
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02949&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2717%5D%7B140%7Dfigura_24.jpg
+
+-- Talo-oco - Pectobacterium carotovorum subsp. carotovorum (sin: Erwinia carotovora subsp. carotovora): : --
+As bactérias causadoras do talo-oco são habitantes naturais dos solos e atacam um grande número de plantas hospedeiras, principalmente as de estrutura carnosa como batata, cenoura, repolho, couve-flor e tomateiro. Mas suas perdas são acentuadas quando as condições climáticas são favoráveis, como ocorre no verão com excesso de chuva. A água contaminada é o veículo mais eficiente de disseminação da doença, embora ela possa também ser transmitida por insetos, gotículas de água, equipamentos, animais e operários que manuseiam as plantas durante a desbrota e o amarrio. Condições de temperaturas entre 25 e 30 C, aliadas à alta umidade relativa e ao excesso de nitrogênio, são fatores predisponentes para seu desenvolvimento.
+
+-- Sintomas: --
+O principal sintoma é o apodrecimento da região medular da planta, que se rompe pela compressão com dedos. Quando se efetua corte longitudinal, toda a medula interna encontra-se apodrecida (Figura 24). Em consequência disso, a planta murcha, tendo ou não um leve amarelecimento na parte aérea. Nos frutos, a bactéria penetra via ferimentos de inseto, onde o fruto fica pendurado como se fosse uma bolsa de água (Figura 24).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2717%5D%7B195%7Dfigura_24.jpg
+Legenda: Sintoma do talo-oco do tomateiro: (A) na haste e (B) no fruto. Foto: C. A. Lopes
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

@@ -1,0 +1,29 @@
+Título: TOMATE - Cultivares - Vento F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0117&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B23%5D%7B246%7Dvento.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Indeterminado; Empresa: Agristar TopSeed; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Lt - Leveillula taurica (anamorph: Oidiopsis sicula); Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Pontos fortes: Ótima tolerância a doenças foliares e a rachadura de fruto no período chuvoso. Alto pegamento de frutos.
+
+-- PLANTAS E FRUTOS: --
+Planta: Crescimento indeterminado, alto vigor e bom enfolhamento. Frutos: Excelente qualidade e coloração. Inserção peduncular pequena. Apresenta alta tolerância ao Craqueamento em período chuvoso.
+
+-- CARACTERÍSTICAS: --
+Elevada produtividade.
+
+-- RESISTÊNCIAS: --
+Fol: 0,1, Lt, Ma, Mi, Mj, Pf, TMV, Va e Vd.
+
+-- Informações para a fertirrigação: --
+Para o híbrido Vento, Silva et al. (2013), verificaram o acúmulo total de macronutrientes (parte aérea e frutos) aos 126 DAT nas quantidades de: K (19,7) > N (14,5) > Ca (6,3) > S (4,4) > P (3,6) > Mg (1,5), expressas em g planta-1; para os micronutrientes as quantidades, expresso em mg planta-1 foram: Cu (132,9) > Mn (72,6) > (Fe 57,2) > (Zn 32,9) > (B 16,4), com produtividade de 109,9 t ha-1 (2).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

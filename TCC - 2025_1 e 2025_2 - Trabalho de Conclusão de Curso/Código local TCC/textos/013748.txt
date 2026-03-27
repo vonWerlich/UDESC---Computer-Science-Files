@@ -1,0 +1,27 @@
+Título: CEBOLA - Manejo de pragas - Vaquinha (Diabrotica speciosa)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013748&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11969%5D%7B435%7Dfigura_1_-_copia.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11969%5D%7B314%7Dfigura_1.jpg
+Legenda: Figura 1. Adulto de vaquinha em mudas de cebola. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+
+-- IDENTIFICAÇÃO: --
+É um besouro de 5mm de comprimento de cabeça castanha e asas de cor verde com manchas amarelas (Figura 1).
+
+-- DANOS: --
+O dano que causa em plantas de cebola caracteriza-se por rasgadura das folhas, porém raramente atinge severas proporções.
+
+-- OCORRÊNCIA: --
+A vaquinha tem sido observada com frequência, principalmente em canteiros semeados mais cedo, pois coincidem com o fim do verão que facilita o desenvolvimento da praga.
+
+-- INSETO POLÍFAGO: --
+É um inseto de hábito polífago, ou seja, se alimenta de várias culturas como feijão, tomate, soja, e várias outras espécies. Portanto, é comum à sua migração de culturas adjacentes.
+
+-- CONTROLE: Químico --
+O controle de adultos pode ser feito utilizando inseticidas registrados para cebola, porém como a vaquinha é uma praga secundária para cebola o uso de controle químico torna-se antieconômico.
+
+-- CONTROLE: Alternativo --
+Em pequenas áreas o uso de raízes de tajujá ( Cayaponia tayuya ), catuto, ou porongo ( Lagenaria vulgaris ) cortado ao meio, mergulhadas em calda inseticida (com produto recomendado para a cultura) por 24 horas e espalhadas ao redor dos canteiros, atua como isca inseticida auxiliando no controle da praga.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

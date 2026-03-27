@@ -1,0 +1,35 @@
+Título: TOMATE - Tratos Culturais - Irrigação - 3.1) Manejo da água da irrigação - método do tato-aparência
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02197&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1989%5D%7B483%7D32-5.jpg
+
+-- Conceito: --
+O método do tato-aparência é o mais aplicado no dia a dia em lavouras de tomate em diferentes partes do Brasil. Contudo, o que se observa, é a simplificação do método, resumindo-se a formação do torrão ao comprimir fortemente um punhado de solo com a mão (1).
+
+-- Como fazer: --
+O método se baseia numa avaliação visual e subjetiva da umidade do solo, geralmente na camada superficial. Assim, para ter uma precisão minimamente aceitável, deve-se amostrar o solo entre 30 e 50 % da profundidade das raízes, junto a planta, em pelo menos três pontos representativos na área. Para a coleta das amostras recomenda-se o trado tipo meia-cana, medindo entre 2,0 e 2,5 cm de diâmetro (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1989%5D%7B140%7D%5B1989%5D%7B71%7D32-1.jpg
+Legenda: 1) Coleta da amostra e trado utilizado. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1989%5D%7B290%7Dsem_titulo.jpg
+Legenda: 2) 0% de AD (ponto de murcha permanente). Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1989%5D%7B81%7Dsem_titulo.jpg
+Legenda: 3) 0 a 25% de AD (seco). Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1989%5D%7B84%7Dsem_titulo.jpg
+Legenda: 4) 25 a 50% de AD (moderadamente seco). Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1989%5D%7B388%7Dsem_titulo.jpg
+Legenda: 5) 50 a 75% de AD (moderadamente úmido). Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1989%5D%7B80%7Dsem_titulo.jpg
+Legenda: 6) 75 a 100% de AD (úmido). Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1989%5D%7B225%7Dsem_titulo.jpg
+Legenda: 7) 100% de AD (capacidade de campo). Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1989%5D%7B197%7Dsem_titulo.jpg
+Legenda: 8) Condição de saturação. Foto: Rafael G. F. Morales
+
+-- Interpretação do resultado da técnica: --
+Conforme a consistência e aparência visual do solo ao ser comprimido com a mão, determina-se a água disponível para as plantas em função da textura do solo. As regas devem ser feitas quando a água disponível (AD) estiver entre 50 e 75% no estádio vegetativo e 75 e 100% nos demais estádios de desenvolvimento (inicial, frutificação e maturação) (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1989%5D%7B442%7Dcaptura_de_tela_2019-02-13_10.16.32.png
+Legenda: Guia prático para estimativa da água disponível no solo (AD), conforme a textura, consistência e aparência visual do solo. Fonte: Marouelli et al. (2014)
+
+-- Informações Complementares --
+(1) MAROUELLI, W.A.; LAGE, D.A.C.; BRAGA, M.B. Irrigação da cultura do tomateiro orgânico: enfoque no manejo de doenças e de insetos-praga. Brasília, DF: EMBRAPA, 2014. 107 p.

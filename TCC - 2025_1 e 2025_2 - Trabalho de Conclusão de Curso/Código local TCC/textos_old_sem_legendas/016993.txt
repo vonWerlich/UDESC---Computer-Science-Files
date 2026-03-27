@@ -1,0 +1,23 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo) - A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo - A praga é uma lagarta, com falsas pernas no abdome. Pode estar nas folhas, abrigada num cartucho ou dentro do colmo das plantas - A lagarta se alimenta de folhas do arroz - A lagarta habita um cartucho feito com folha de arroz
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016993&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16988%5D%7B506%7Dchave_fig38.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio imaturo (é uma larva ou lagarta, ou não tem asas aparentes; ou então é um bicho muito pequeno e/ou difícil de saber se já é adulto ou não (pode estar oculto por uma carapaça ou casulo)
+A praga tem outro tipo de aparelho bucal, ou não é possível vê-lo
+A praga é uma lagarta, com falsas pernas no abdome. Pode estar nas folhas, abrigada num cartucho ou dentro do colmo das plantas
+A lagarta se alimenta de folhas do arroz
+A lagarta habita um cartucho feito com folha de arroz
+A lagarta habita um cartucho reto, cortado da planta, que normalmente fica boiando na água - LAGARTA-BOIADEIRA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16993%5D%7B491%7Dchv_lagboil.jpg
+Legenda: A lagarta habita um cartucho reto, cortado da planta, que normalmente fica boiando na água - LAGARTA-BOIADEIRA
+16995
+A lagarta habita um cartucho reto, cortado da planta, que normalmente fica boiando na água - LAGARTA-BOIADEIRA
+O cartucho da lagarta não se desprende da folha do arroz - LAGARTA-ENROLADEIRA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16993%5D%7B273%7Dchv_enrolal.jpg
+Legenda: O cartucho da lagarta não se desprende da folha do arroz - LAGARTA-ENROLADEIRA
+16996
+O cartucho da lagarta não se desprende da folha do arroz - LAGARTA-ENROLADEIRA

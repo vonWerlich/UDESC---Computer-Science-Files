@@ -1,0 +1,374 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7983&amp;isEdicao=N&amp;epagriTEC=S">BANANA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_banana_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21695&amp;isEdicao=N&amp;epagriTEC=S">  Renovação de bananais</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18383">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021695">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18383]{419}figura_13_-_a.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Ricardo J. Z. de Negreiros   </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  BANANAL APÓS RENOVAÇÃO PARCIAL DE PLANTAS 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>DESCRIÇÃO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Por ter reprodução vegetativa a partir de gemas laterais localizadas no rizoma da planta, a cada ano a posição da família de plantas de bananeiras formada por mãe, filha e neta, muda 
+de lugar dentro do bananal. <br><br>A má condução durante os desbastes de filhos pode causar o desalinhamento e, consequentemente, o aumento ou diminuição da densidade de plantas em talhões de produção, assim como alterar a distribuição espacial das plantas. <br><br>As consequências desse desarranjo na distribuição das plantas 
+no bananal são as mais variadas, tais como redução da produtividade; interferência na qualidade de frutos (cor, tamanho e danos diversos); dificuldade no controle de pragas e doenças; aumento do tempo do ciclo de produção das plantas; dificuldades na realização 
+de manejos como controle de plantas invasoras, desfolha e desbastes, adubação, entre 
+outros.(<sup>1</sup>)(<sup>2</sup>)  <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>DECLÍNIO DA PRODUÇÃO E PRODUTIVIDADE</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A densidade de plantio de um bananal afeta diretamente a duração do ciclo de 
+produção, interferindo na relação de número anual de cachos por planta – calculada pela 
+divisão do total anual de cachos pela população média, que se apresenta maior em 
+baixas populações, porém com produtividades menores.<br><br> Altas populações apresentam 
+baixos índices dessa relação, com frutos menores e baixa qualidade para frutos de mesa. <br><br>
+O equilíbrio, expresso na recomendação técnica da densidade para cada cultivar, garante a 
+produtividade e a qualidade dos frutos. <br><br>A produção por área e o peso dos cachos também 
+são afetados diretamente pela alta ou baixa densidade de plantas. Outra consequência da reprodução vegetativa da bananeira é a ocorrência de mutações 
+naturais, que podem resultar em características agronômicas negativas ou positivas para o bananal.  <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>OUTROS MOTIVOS PARA RENOVAÇÃO DO BANANAL</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Com o passar do tempo muitos bananais também apresentam “afloramento” dos 
+rizomas, com exposição acima do nível do solo de brotações e raízes primárias. Isto ocorre devido 
+aos seguintes fatores:<br><br>
+• <b>erros na condução de filhos;<br><br>
+• perda de solo em terrenos de encostas;<br><br>
+• adubação localizada;<br><br>
+• falta de correção de acidez do solo em profundidade;<br><br>
+• presença com nível de danos de nematoides;<br><br>
+• uso incorreto de herbicidas; <br><br>
+• estresse hídrico por falta ou excesso de água</b>. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>RENOVAÇÃO PARCIAL DO BANANAL</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Se dá pela renovação de plantas dentro 
+do bananal, sem interrupção total da produção. <br><br>Esse método deve ser utilizado principalmente quando se necessita corrigir o 
+alinhamento de plantas, a densidade para o cultivar plantado, o padrão genético com 
+substituição de plantas que passaram por mutações naturais ou o afloramento de rizomas 
+devido ao manejo incorreto de filhos.<br><br> Nesse método de renovação, mudas produzidas 
+em laboratórios de multiplicação de meristemas são transplantadas para embalagens 
+maiores para que possam atingir de 40cm de altura, tamanho com o qual serão 
+plantadas em covas alinhadas e no espaçamento recomendado no bananal em produção.<br><br>
+Para o rápido desenvolvimento dessas mudas, o plantio deve ser realizado entre os 
+meses de setembro, outubro e novembro. Alguns dias antes, deve ser realizado o seguinte 
+procedimento:<br><br>
+• <b>demarcar o novo alinhamento na área a ser renovada;<br><br>
+• manter na área apenas as plantas com cacho ou próximas do florescimento;<br><br>
+• colher os cachos prontos e eliminar as demais plantas da família (filha e neta);<br><br>
+• eliminar todos os perfilhos das plantas com cachos ou próximas do florescimento;<br><br>
+• famílias que tiverem sua posição coincidente com a cova do novo alinhamento e 
+que sejam saudáveis, manter todas as plantas dessa família</b>. <br><br>A abertura das covas para plantio das mudas deve ser feita após os procedimentos 
+citados, facilitando o trabalho e preservando a integridade das mudas recém plantadas.
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28599,021695,18383,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18383]{502}figura_15.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28600,021695,18383,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18383]{171}figura_16.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28604,021695,18383,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18383]{467}figura_14.jpg">  </a> 
+<br><br>
+<b>RENOVAÇÃO TOTAL DO BANANAL</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Este método consiste na eliminação total das plantas da área e pousio da área por cerca de dois anos, ou cultivo de outras plantas. A área total terá o preparo do solo antecipado e deve ser 
+considerado principalmente quando há: <br><br>
+- <b>necessidade de substituição de cultivares; <br><br>
+- presença de pragas ou doenças do solo (necessidade de pousio ou rotação de culturas na 
+área); <br><br>
+- possibilidade de correção da acidez do solo em profundidade;<br><br>
+- presença de tombamento de maior parte das plantas com exposição de raízes, causado por ventos fortes ou ciclones; <br><br>
+- ou se for economicamente viável ao produtor, independente das condições citadas anteriormente</b>.<br><br>
+Para se evitar a queda repentina de produção do bananal, recomenda-se a renovação gradual dos bananais da propriedade em cerca de 10% a 20% da área plantada a cada ano. Desta forma, divide-se a propriedade em cinco ou dez talhões e, a cada ano,
+renova-se um talhão, em forma de rodízio. Esta prática sendo incorporada à rotina das 
+atividades da propriedade possibilita a renovação total dos bananais a cada cinco ou dez 
+anos. Esta estratégia também pode ser aplicada ao método da renovação 
+gradual de plantas com o bananal em produção, caso o relevo dificulte o preparo do solo, 
+recomendado na renovação total do bananal. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28602,021695,18383,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18383]{196}figura_12.jpg">  </a> 
+<br><br>
+<b>QUANDO RENOVAR O BANANAL?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A tomada de decisão do momento correto para se fazer a renovação do bananal e qual método utilizar vai depender da resposta às seguintes perguntas para se ter um diagnóstico do bananal:<br><br>
+• <b>Como está a densidade do bananal?<br><br>
+• Como está o padrão genético do bananal? Mantém as características típicas do 
+cultivar plantado?<br><br>
+• Como está a ocupação espacial das plantas dentro do bananal?<br><br>
+• Como está a sanidade do bananal?<br><br>
+• Como estão as condições físico-químicas do solo do bananal?<br><br>
+• Como está a relação de número de cachos por planta por ano?<br><br>
+• A propriedade está capitalizada ou possui crédito para este investimento em 
+renovação?</b><br><br>
+Para auxiliar na tomada de decisão de quando iniciar a renovação, é importante 
+também que se faça o levantamento das condições agronômicas do bananal através de 
+uma amostragem estatística da densidade de plantas.<br><br> Esta amostragem pode ser obtida 
+pelo método do “círculo aleatório”(<sup>3</sup>), no qual se conta o número de famílias 
+de bananeiras numa área formada por um círculo com raio de 8m em pontos aleatórios do 
+bananal ou talhão que está sendo avaliado.<br><br>
+Após a contagem das plantas dentro do círculo, multiplica-se o número encontrado 
+pelo fator de correção (constante de valor=50). Esta constante se obtém a partir da área 
+do círculo formado (área=π×R²), ou seja:<br><br> 3,1416×82
+=200m2
+. <br><br>Como o hectare equivale 
+a 10.000m², temos, portanto: <b>10.000m2
+/200m2
+=50</b>. <br><br>A média dos valores resultantes 
+de várias amostragens é a estimativa da densidade (número de plantas por hectare de 
+bananal).<br><br> Por exemplo, se o resultado da contagem de unidades de produção (famílias) 
+no interior do círculo for de <b>32, temos: 32 unidades de produção×50=1.600 unidades de 
+produção (plantas) por hectare</b>.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28606,021695,18383,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18383]{317}figura_18.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28605,021695,18383,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18383]{507}figura_17.jpg">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. <br><br> 
+
+(<sup>1</sup>)LICHTEMBERG, L. A.; MALBURG, J. L.; SCHMITT, A. T.; HINZ, R. H.; ZAFFARI, G. R.; 
+GONÇALVES, M. I. F. XIV Curso de Bananicultura. Florianópolis, SC: Secretaria de 
+Agricultura e Abastecimento – EPAGRI, 2005. 184p.<br><br>
+
+(<sup>2</sup>)NEGREIROS, R. J. Z. de.; HINZ, R. H.; STUKER, H.; MARO, L. A. C. Estimativa da densidade 
+populacional de bananeiras do subgrupo Cavendish em áreas de produção na região do 
+litoral norte catarinense. Agropecuária Catarinense, v.29, n.1, p.73-77, 2016.<br><br> 
+
+(<sup>3</sup>)SIERRA, L.E. El cultivo del banano: producción y cultivo. 1.ed. Pereira, Colombia: Editorial 
+Gráficas Olímpica, 1993. 679p.
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Ricardo José Zimmermann de Negreiros (Msc. - Epagri)<br> &nbsp;&nbsp; Pesquisador - Epagri - Itajaí </font> 
+<br><br><br> <font size="2"> Criado em: 28/02/2024</font>
+<br> <font size="2"> Última atualização: 25/04/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021695&amp;cdElemento=18383">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18383');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

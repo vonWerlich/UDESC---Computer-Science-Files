@@ -1,0 +1,38 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - E) MANEJO DA IRRIGAÇÃO POR GOTEJAMENTO - e) Manejo de irrigação com base em dados climáticos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02925&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2689%5D%7B35%7Dcapa_1.jpg
+
+-- A evapotranspiração da cultura (ETc): --
+O manejo de irrigação com base em dados meteorológicos tem como principal objetivo determinar a evapotranspiração da cultura (ETc). A ETc corresponde à quantidade de água evapotranspirada para a atmosfera por uma cultura em condições normais de cultivo. Em razão das dificuldades de obter uma medida direta da ETc é feita uma medida indireta a partir da evapotranspiração de referência (ETo) e do coeficiente da cultura (Kc).
+
+-- Kc da cultura: --
+A ETo corresponde à evapotranspiração de uma superfície gramada (8-15cm) e o Kc integra as características da cultura e do clima local. Esse Kc é um coeficiente adimensional dado pela relação entre a ETc e a ETo e pode variar de acordo com a textura e o teor de umidade do solo, a profundidade e densidade do sistema radicular e as características fenológicas da planta. Dessa forma, para uma maior precisão na determinação do ETc é necessário determinar o Kc da região ou escolher um Kc em que as condições edafoclimáticas em que o Kc foi determinado assemelham-se às características da região produtora.
+
+-- Tanque Classe A: --
+Os dados de ETo são obtidos nas estações meteorológicas ou na própria propriedade com a instalação de Tanque Classe A ou com uso de termohigrógrafos. A instalação do Tanque Classe “A” deve ser acompanhada por técnicos, pois exige uma série de normas, que, se não cumpridas, podem subestimar ou superestimar a ETo. Existem outros métodos para estimar a evapotranspiração. De forma prática podemos utilizar os valores das normais climatológicas de temperatura e umidade relativa do ar para estimar a evapotranspiração ou instalar um termohigrógrafo junto à área cultivada. Na Tabela 9 estão representados os valores das estimativas de evapotranspiração em função da temperatura e da umidade relativa.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2689%5D%7B49%7Dtabela_9.jpg
+Legenda: Evapotranspiração de referência (ETo), em mm/dia, em função da temperatura e umidade relativa média mensal do ar. Foto: Anderson Luiz Feltrim
+
+-- Valores de Kc nos diferentes estágios de desenvolvimento da cultura: --
+Na Tabela 10 encontram-se os diferentes valores de Kc nos diferentes estágios de desenvolvimento para a cultura do tomate de mesa.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2689%5D%7B12%7Dtabela_10.jpg
+Legenda: Valores de Kc nos diferentes estágios de desenvolvimento do tomate de mesa. Foto: Anderson Luiz Feltrim
+
+-- Cálculo da ETc: --
+Com os dados de ETo e Kc estima-se a ETc através da formula: ETc=Kc*ETo Sendo: ETc = Evapotranspiração da cultura (mm/dia) ETo = Evapotranspiração de referência (mm/dia) Kc = Coeficiente da cultura (adimensional)
+
+-- A lâmina líquida de irrigação: --
+A lâmina líquida de irrigação (LL) é determinada pelo somatório da evapotranspiração da cultura (ETc) em um dado período (T) entre duas irrigações consecutivas (turno de rega) menos a precipitação (P) no mesmo período (T), conforme fórmula a seguir: *Nesse caso também se deve considerar a porcentagem da área molhada e a eficiência do sistema.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2689%5D%7B190%7Dfigura_14-1.jpg
+Legenda: Cálculo da lâmina líquida de irrigação. Foto: Anderson Luiz Feltrim
+
+-- Determinação da lâmina bruta de irrigação: --
+Determinada a lâmina bruta de irrigação, então se calcula o tempo de irrigação por meio da seguinte equação: T= ((ETc*SI*SG)/(EI*VG))*60 Sendo: T = Tempo de irrigação em minutos ETc = Evapotranspiração da cultura (mm/dia) SI = Espaçamento entre linhas (m) SG = Espaçamento entre gotejadores (m) EI = Eficiência do sistema (decimal) VG = Vazão do gotejador (L h-1)
+
+-- Exemplo para a região de Caçador: --
+Na região de Caçador, SC, Feltrim et al. (2014) relatam que, independente do turno de rega, lâminas de irrigação acima de 118% e abaixo de 97% da evapotranspiração da cultura (ETc) prejudicam as produtividades de frutos total e comercial. Dessa forma, turnos de rega maiores (3 e 4 dias) exigem uma maior lâmina de água aplicada; para turnos de rega menores (1 a 2 dias), a lâmina de água aplicada é menor. Para a região de Caçador, utilizando o tanque classe “A” como método para determinar a evapotranspiração da cultura (ETc), sugere-se um turno de rega de 1 a 3 dias com lâminas de 100% da evapotranspiração.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

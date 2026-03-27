@@ -1,0 +1,357 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=8233&amp;isEdicao=N&amp;epagriTEC=S">CEBOLA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9914&amp;isEdicao=N&amp;epagriTEC=S">    Manejo de plantas daninhas</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=14592&amp;isEdicao=N&amp;epagriTEC=S">Manejo e Controle</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=14597&amp;isEdicao=N&amp;epagriTEC=S">5. Manejo químico</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="12688">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="014597">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>INFORMAÇÕES GERAIS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O manejo químico através do emprego de herbicidas tem se consolidado por ser eficiente e econômico. Este tem sido utilizado nos canteiros de cebola, em função da sua grande praticidade, eficiência e rapidez. No entanto, por se tratar de método que envolve o uso de produtos químicos tóxicos, subentende-se como pré-condição os conhecimentos mínimos sobre ação dos herbicidas, principalmente para atender aos requisitos fundamentais, que são alcançar máxima eficiência biológica e causar o mínimo impacto ambiental. Recomenda-se a participação de um técnico experiente, tanto para recomendação como para acompanhamento da aplicação dos agrotóxicos.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>OBJETIVOS DO CONTROLE: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Ao usar um herbicida para controlar as plantas infestantes na cultura da cebola o produtor deve lembrar-se dos seguintes objetivos do manejo de plantas indesejáveis: <br><br>
+
+- Evitar perdas devido à interferência das plantas indesejáveis;<br>
+- Beneficiar as condições de colheita;<br>
+- Evitar o aumento de infestações;<br>
+- Evitar a contaminação do meio ambiente. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>HERBICIDAS REGISTRADOS PARA A CULTURA DA CEBOLA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Há muitos herbicidas registrados para a cultura da cebola, com opções de doses e métodos de aplicação. A escolha deve ser daquele que melhor se ajustar às condições de cada lavoura ou sistema de cultivo. Se necessário o controle químico, os produtos registrados no Ministério da Agricultura, Pecuária e Abastecimento (Mapa) estão listados na Tabela 2, elaboradas conforme as informações disponíveis no <a target="_blank" href="http://agrofit.agricultura.gov.br/agrofit_cons/principal_agrofit_cons">Agrofit</a>.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PRODUTO 1: Select  (Cletodim) </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> CONTROLE: Estreitas <br>
+USO: Pós <br>
+AÇÃO: Sistêmico <br>
+DOSE: 20 a 30 ml/20 litros; 0,3 a 0,4 litro/ha<br>
+OBSERVAÇÕES: Adicionar 0,5% de óleo mineral. <br><br>
+
+INTERVALO DE SEGURANÇA: 40 dias.<br><br>
+
+NÚMERO, ÉPOCA E INTERVALO DE APLICAÇÃO:<br>
+- Deve ser aplicado uma vez quando a maioria da sementeira das gramíneas tenha germinado. A aplicação pode ser feita em qualquer estágio de crescimento da cultura, porém antes da competição das gramíneas com a cultura. <br><br>
+
+- Condições ideais de aplicação: deve ser aplicado em gramíneas em fase ativa de crescimento, no caso de gramíneas anuais no estádio de 4 folhas até 4 perfilhos ou 6 folhas até 2 perfilhos, e no caso de gramíneas perenes no estádio de 20 a 40cm. <br><br>
+
+As doses maiores devem ser utilizadas para controlar as plantas daninhas em estádio de crescimento maior. Para controle satisfatório é necessário observar as condições de umidade do solo, temperatura média entre 20 - 35°C e boa umidade do ar (acima de 60%). Em períodos de seca prolongada recomenda-se não aplicar o produto.<br><br>
+
+LIMITAÇÕES DE USO: <br>
+Não fazer aplicações onde culturas de gramíneas possam ser atingidas.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PRODUTO 2: Herbadox pendimetalina</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> CONTROLE: Estreitas/largas <br>
+USO: Pré <br>
+AÇÃO: Contato <br>
+DOSE: 80 a 100 ml/20 litros; 2,0 a 3,5 l/ha <br>
+OBSERVAÇÕES: Bom controle de nabo e mau para picão branco e preto.<br><br>
+
+INTERVALO DE SEGURANÇA: Não determinado.<br><br>
+
+NÚMERO, ÉPOCA E INTERVALO DE APLICAÇÃO:<br>
+Aplique em pré-emergência sobre o solo bem preparado na hora do plantio, ou logo após, porém sempre antes da germinação das plantas.<br><br>
+
+LIMITAÇÕES DE USO: <br>
+O produto é seletivo para as culturas indicadas, quando observados os métodos de aplicação recomendados.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PRODUTO 3: Ronstar Oxadiazona</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> CONTROLE: Estreitas/largas<br>
+USO: Pré/Pós<br>
+AÇÃO: Contato <br>
+DOSE: 15 ml/20 litros; 1,5 a 4,0 l/ha<br>
+OBSERVAÇÕES: controla bem trevo e azedinha.<br><br>
+
+INTERVALO DE SEGURANÇA: Não determinado<br><br>
+
+NÚMERO, ÉPOCA E INTERVALO DE APLICAÇÃO:<br>
+Pós-repicagem, pré-emergência das ervas daninhas, 4 l/ha. Aplicar após o transplante das mudas. Em solos leves pode-se usar 3,0 litros/ha. No Alto Vale do Itajaí, SC, têm sido recomendadas doses de 1,5 a 2,0 l/ha<br><br>
+
+LIMITAÇÕES DE USO: Não especificadas.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PRODUTO 4: Flumyzin  Flumioxazina</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> CONTROLE: Largas <br>
+USO: Pré/Pós<br>
+AÇÃO: Contato<br>
+DOSE: 120 a 180 g/ha <br><br>
+
+INTERVALO DE SEGURANÇA: 90 dias<br><br>
+
+NÚMERO, ÉPOCA E INTERVALO DE APLICAÇÃO:<br>
+No Alto Vale do Itajaí, SC, têm sido recomendadas doses de 100 a 120g/ha.<br><br>
+
+LIMITAÇÕES DE USO: Evitar o uso em condições de seca (plantas com deficiência hídrica). Quando a aplicação for realizada sobre as mudas transplantadas, NÃO adicionar qualquer tipo de adjuvante ou óleo mineral nem outros produtos fitossanitários à calda de pulverização, evitando danos às culturas.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PRODUTO 5: Podium fenoxaprope-P-etílico</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> CONTROLE: Estreitas<br>
+USO: Pós <br>
+AÇÃO: Contato<br>
+DOSE: 30 a 50 ml/20 litros; 0,8 a 1,0 litro/ha<br>
+OBSERVAÇÕES: Adicionar 0,5 % de óleo mineral.<br><br>
+
+INTERVALO DE SEGURANÇA: 65 dias<br><br>
+
+NÚMERO, ÉPOCA E INTERVALO DE APLICAÇÃO:<br>
+Em única aplicação nos estádios entre 5 a 10cm da cultura, com as gramíneas no estágio de 2 a 4 perfilhos.
+<br><br>
+
+LIMITAÇÕES DE USO: <br>
+É incompatível com produtos à base de dinitro e herbicidas hormonais, devendo-se observar um intervalo entre aplicações de 6 dias (p. ex. Butacloro e Propanil).<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>MÉTODOS DE CONTROLE DE PLANTAS INDESEJÁVEIS: </b><br>
+<b>Aplicação em pré-emergência das plantas indesejáveis e pós-transplante da cebola: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A pulverização é feita com solo limpo, destorroado e em boas condições de umidade. Estes herbicidas controlam as plantas indesejáveis no estádio inicial, quando as sementes estão germinando e as plantas ainda não emergiram. <br>
+Exemplo: Pendimethalina. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Aplicação em pós emergência:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os herbicidas pós-emergentes são aplicados na folhagem da cebola e das plantas indesejáveis. Na escolha de herbicidas e doses a aplicar, deve-se levar em consideração as espécies presentes no local e o estádio de desenvolvimento no momento da aplicação. <br>
+Exemplos: Fluozifop-p-butil. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CONTROLE DE FOLHAS LARGAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Durante a fase de muda, há uma predominância de plantas indesejáveis de folhas largas. Conforme trabalhos realizados pela Epagri, o herbicida ioxynil proporcionou bom controle e foi seletivo para as mudas de cebola. Foi observado no mesmo trabalho que o ioxynil pode ser usado na dose de 0,25, 0,50 e 1,00L do i.a./ha para mudas com, respectivamente, 1 a 2, 2 e 3 folhas. Recentemente este produto foi retirado do mercado. Para gramíneas as opções são o Fenoxaprop-p–ethyl e Clethodim.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CONTROLE COM DESSECANTE FOLIAR: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Outra opção para o manejo químico de planta indesejáveis na produção de mudas de cebola é preparar os canteiros com antecedência mínima de quinze dias, irrigar para provocar a emergência das plantas das ervas e, em seguida, aplicar um herbicida de ação total, como Gliphosate ou Paraquat.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>HERBICIDAS A BASE DE DIURON: </b><br>
+<p class="p1"><div> Os diversos produtos comerciais à base do diuron já foram muito utilizados para as lavouras de cebola na região, pela sua seletividade e baixa toxicidade. <br> <br> </div></p>
+<b>PLANTAS DE DIFÍCIL CONTROLE COM HERBICIDAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Nos canteiros ou lavouras de cebola técnicos e produtores têm enfrentado problemas no manejo do <a href="javascript:chamarPagina(5889)">pastinho de inverno (Poa annua L.)</a>, alho bravo (Nothoscordum fragans (vent.) Kunth.), aipo bravo (Apium leptophyllum (Pers.) Muller) e palminha (Sisyrinchium spp.), para os quais os herbicidas utilizados não têm sido eficientes.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+<a href="javascript:chamarPagina(13750)">CLIQUE AQUI</a> para acessar as referências na íntegra.
+ </div></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Francisco Olmar Gervini de Menezes Júnior (Eng. Agr - Dr. Produção Vegetal - Epagri)<br> &nbsp;&nbsp;Possui graduação em Engenharia Agronômica (1994), mestrado (1998) e doutorado (2003) em Produção Vegetal pela FAEM/UFPel. Atualmente é pesquisador em Olericultura na EPAGRI de Ituporanga/SC. Desenvolve pesquisas relacionadas à Produção Integrada e Orgânica de Cebola. </font> 
+<br> <font size="2">• Édio Zunino Sgrott (Eng.-Agrônomo - Epagri)<br> &nbsp;&nbsp;Extensionista rural da Epagri no município de Ituporanga/SC. Presta assistência técnica em lavouras de cebola dentre outras culturas. </font> 
+<br><br><br> <font size="2"> Criado em: 21/09/2021</font>
+<br> <font size="2"> Última atualização: 04/11/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=014597&amp;cdElemento=12688">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=12688');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

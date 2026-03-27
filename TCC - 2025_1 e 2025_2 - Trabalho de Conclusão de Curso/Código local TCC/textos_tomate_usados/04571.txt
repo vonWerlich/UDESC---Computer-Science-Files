@@ -1,0 +1,20 @@
+Título: TOMATE - Fitossanidade - Bactérias - Mancha-Syringae (Pseudomonas syringae pv. syringae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04571&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1631%5D%7B275%7Dsy.jpg
+
+-- SINTOMAS: --
+Em geral, ocorre necrose nas bordas ou pequenas manchas encharcadas, com ou sem halos amarelados (1). A sintomatologia aparente dessa enfermidade ocorre na parte aérea, com manchas pequenas de aspecto necrótico, circundada por um halo amarelado. Em condições favoráveis, o progresso da doença leva à queima e à desfolha precoce do tomateiro (2).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+A doença é favorecida por condições de alta umidade e temperatura amena (18ºC a 25ºC), e por ferimentos superficiais nas folhas (1).
+
+-- CONTROLE: --
+- A principal medida de controle desta enfermidade é a aquisição de sementes sadias (1;2), acompanhada do uso de variedades resistentes portadoras do gene Pto (2). - Cultivar em áreas bem ventiladas, evitando irrigação por aspersão (1). - Cuidar ao realizar os tratos culturais para não ocorrer ferimentos nas plantas (1). - Desinfetar equipamentos utilizados nos tratos culturais (1). - Incorporar os restos culturais após a colheita (1). - Fazer rotação de culturas com gramíneas (1). - Ainda são utilizados agroquímicos cúpricos e ditiocarbamatos em grande escala, mas apresentam baixa eficiência na redução da doença (2).
+
+-- OBSERVAÇÕES GERAIS: --
+Nos últimos anos, a doença tornou-se importante nas principais regiões produtoras de tomate industrial, cultivado ou não sob pivô central, em condições de temperaturas entre 20º e 25º C, com umidade elevada. Há estimativas de que as perdas possam chegar a 30%. Contudo, há dados mais alarmantes, com perdas de 75%, quando a doença se manifesta no início do cultivo (2). O surgimento da doença no campo pode estar diretamente relacionado com a principal fonte de inóculo, a semente, pois, quando infestadas, plântulas podem desenvolver sintomas e iniciar epidemias severas. Contudo, outras fontes possíveis de inóculo são restos culturais, plantas voluntárias e solo (2).
+
+-- Informações Complementares --
+(1) LOPES, C. A.; AVILA, A. C.. Doenças do tomateiro. 2. ed. Brasília- Df: Embrapa Hortaliça, 2005. 144 p. (2) Lanna Filho, Roberto. Controle da mancha (Xanthomonas vesicatoria) e pinta (Pseudomonas syringae pv. tomato GFP-marcada) bacteriana do tomateiro por isolados endofíticos de Bacillus sp. / Roberto Lanna Filho. Lavras: UFLA, 2011. 106 p.: il. Tese (doutorado) – Universidade Federal de Lavras, 2011.

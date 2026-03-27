@@ -1,0 +1,20 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - E) MANEJO DA IRRIGAÇÃO POR GOTEJAMENTO - f) Considerações finais
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02926&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2690%5D%7B64%7Dcapa_1.jpg
+
+-- Uso combinado dos valores de evapotranspiração da cultura com os de tensão do solo: --
+Uma estratégia que pode ser utilizada é o uso combinado dos valores de evapotranspiração da cultura com os de tensão do solo. Dessa forma, o tensiômetro indicaria o momento das irrigações, enquanto a evapotranspiração, a quantidade de água a ser aplicada, independente do método de estimativa da evapotranspiração.
+
+-- É fundamental um monitoramento constante dos tensiômetros: --
+Deve-se considerar que a evapotranspiração é função de vários coeficientes. Dessa forma, pode ser super ou subestimada. Diante disso, é fundamental um monitoramento constante dos tensiômetros antes e depois das irrigações. A quantidade de água é considerada insuficiente quando a tensão antes da irrigação, indicada pelos tensiômetros mais superficiais, for sistematicamente maior que a tensão crítica de água no solo recomendada para o tomateiro. Nesse caso, a quantidade de água aplicada deve ser aumentada entre 5 e 10% no valor de Kc. Por outro lado, se a tensão indicada pelos tensiômetros mais profundos atingir valores inferiores a 20kPa, deve-se reduzir o valor de Kc e, assim, diminuir a irrigação, juntando os valores para cada situação de cultivo. No caso de a tensão indicada pelos tensiômetros superficiais ser muito maior que a tensão recomendada (> 50%) e a tensão dos tensiômetros profundos muito baixa (<10kPa), deve-se reduzir o intervalo entre irrigações. Essa constatação é um indicativo de que o solo não tem capacidade de reter toda a água aplicada e que está ocorrendo perda de água (e de nutrientes) por drenagem profunda.
+
+-- O tomate apresenta um consumo de água diferenciado ao longo do seu ciclo: --
+Esses ajustes são necessários, pois o tomate apresenta um consumo de água diferenciado ao longo do seu ciclo e a exigência aumenta com o período de desenvolvimento dos frutos. A cultura responde positivamente a aplicação de água, principalmente nesses períodos e no seu estabelecimento. Portanto, a prática da irrigação é de suma importância para a obtenção de uma maior produção de frutos de melhor qualidade.
+
+-- Escolha do método mais adequado: --
+Nesse breve relato sobre manejo de irrigação foram apresentados somente dois métodos para determinar quantidade e momento da aplicação de água na cultura: um baseado no solo e outro no clima. Cabe ao técnico e ao produtor escolher o mais adequado para cada região.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

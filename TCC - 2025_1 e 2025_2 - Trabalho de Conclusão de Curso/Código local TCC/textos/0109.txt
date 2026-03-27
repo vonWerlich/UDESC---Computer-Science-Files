@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Carina Ty F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0109&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B15%5D%7B400%7Dcarina_ty1.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Indeterminado; Empresa: Sakata; Finalidade: Copa; Grupo: Santa Cruz; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Tamanho do fruto: Pequeno (170 a 200 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Planta de médio vigor vegetativo e alto vigor generativo; Média de início de colheita: 105 DAS; Plantas compactas, com entrenódios curtos e alto pegamento de frutos; Peso médio dos frutos: 200g; Alta resistência a bacterioses, manchas e rachaduras a nível de campo. DESTAQUE: Alto rendimento, com qualidade referência de mercado.
+
+-- VANTAGENS: --
+Segurança em períodos chuvosos. Plantas rústicas com alto pegamento de frutos. Alta qualidade e atratividade na comercialização.
+
+-- RESISTÊNCIAS: --
+Alto nível de resistência a Vd raça 1, Fol raças 1 e 2, Mi raças 1, 2, 3 e 4 e Mj; Nível intermediário de resistência ao TOSRV.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sakata.com.br/hortalicas ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sakata.com.br/hortalicas.

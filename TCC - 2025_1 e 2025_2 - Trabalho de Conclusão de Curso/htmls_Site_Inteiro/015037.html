@@ -1,0 +1,320 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=14962&amp;isEdicao=N&amp;epagriTEC=S">PANCS</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=15037&amp;isEdicao=N&amp;epagriTEC=S">Ora-pro-nóbis (<i>Pereskia aculeata</i>)</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="13032">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="015037">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[13032]{14}ora-pro-nobis.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Aires Mariga/Epagri </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>INFORMAÇÕES GERAIS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> NOME CIENTÍFICO: Pereskia aculeata sp. <br><br>
+
+FAMÍLIA BOTÂNICA: Cactaceae.<br><br>
+
+OUTROS NOMES POPULARES: Carne vegetal, pereskia mori, guaiapá, lobrobo.<br><br>
+
+ORIGEM: Nativa da América Tropical incluindo Sul, Sudeste e Nordeste do Brasil. Com uso tradicional em algumas regiões de MG e GO.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COMO IDENTIFICAR?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> É uma planta perene, com características de trepadeira, mas pode crescer sem a presença de anteparo com porte arbustivo que pode chegar a 4 metros de altura, com folhas suculentas lanceoladas.<br>
+Possui ramos longos, prostrados, folhas simples, pecíolos curtos, elípticas, de lâmina plana, textura carnosa, com até 12cm de comprimento. O caule possui espinhos (acúleos) e por isso, além de sua arquitetura, é utilizada em cercas vivas. A inflorescência é composta por cachos de coloração branca e os frutos são do tipo baga com sementes pretas e espinhos externos. Esta espécie apresenta grande variabilidade genética, com brotos arroxeados a verde-claros, folhas variando do verde-claro ao verde-escuro e a
+presença de espinhos de mais proeminentes a menos agressivos.<br>
+Existem outras espécies de ora-pro-nóbis com características diferentes (cor da flor, forma dos espinhos e arquitetura da planta) que podem ser consumidas, mas algumas apenas após cozimento.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COMO CULTIVAR?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Por ser uma planta rústica, sua propagação é muito facilitada, podendo ser feita via estaca com aproximadamente 30cm com ou sem folhas. Fica linda em muros e cercas.<br>
+Para produção das mudas, deve ser utilizado material proveniente da região intermediária do caule, localizada entre as partes mais tenras e as partes mais lenhosas da haste, pois esse material apresenta um melhor pegamento. Logo após o corte, as estacas devem ser colocadas num leito, para que haja enraizamento. Esse leito poderá ser constituído de uma parte de terra de subsolo (barranco) e uma parte de esterco curtido. As estacas devem ser enterradas até um terço do seu comprimento.<br>
+O transplante deverá ser feito de 30 a 40 dias após as estacas enraizaram. Também pode ser feita a propagação via semente em sementeiras com substrato e sempre manter o solo úmido, mas sem encharcar. <br>
+O espaçamento no caso da produção de folhas deve ser de 1,0 a 1,3m entre fileiras e 0,4 a 0,6m entre plantas.<br>
+No manejo da cultura, para manter a planta bem conduzida e com maior produção de folhas, é recomendada uma poda de três em três meses, deixando os ramos com o comprimento de 1,2 a 1,5m.<br>
+Quando for necessário o rebaixamento da parte aérea, este poderá ser realizado a 60cm de altura em relação ao solo, retirando-se também todos os ramos doentes ou secos.<br>
+A produtividade varia de 2,5 mil a 5 mil kg/ha. <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PARA QUE SERVE?</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Seu nome vem do latim, ora pro nobis, que significa “rogai por nós”, por ser uma planta muito nutritiva. <br>
+As folhas contêm biopolímeros do tipo arabinogalactanos que fortalecem o sistema imunológico e proteínas de alta digestibilidade e valor biológico com cerca de 25% até 35% de proteína que contém aminoácidos essenciais (aqueles que precisamos consumir pois nosso organismo não produz). Contêm ainda apreciáveis quantidades de vitaminas A, B e C, além de potássio, cálcio, ferro, lisina, magnésio, zinco, fósforo, fibras e substâncias mucilaginosas. <br>
+As mucilagens presentes nas folhas possuem atividade medicinal, são polissacarídeos complexos e conferem consistência semelhante à clara do ovo nas receitas. Também são usadas como corante verde para massas. <br>
+Os níveis de proteína, lisina, cálcio, fósforo e magnésio são mais elevados do que no repolho, alface e espinafre.<br>
+Cem gramas de frutos atendem cerca de 13% das fibras totais recomendadas diariamente. Os frutos maduros contêm vitamina A e quando imaturos são fonte de vitamina C.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COMO USAR?</b><br>
+<b>Partes comestíveis:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Folhas, frutos, flores e brotos.<br>
+As folhas e as flores jovens sem acúleos (espinhos) podem ser consumidas de diversas formas, em saladas cruas, refogadas, cozidas, em sopas, tortas, omelete, polenta e até mesmo no arroz com feijão.<br>
+Uma boa alternativa é triturar as folhas com água no liquidificador e juntar à massa do pão ou outras massas, conferindo ao produto final uma melhor composição nutricional
+e uma atraente cor verde. As folhas podem substituir a clara de ovo em receitas, triturando 10 folhas com ¿ xícara de água.<br>
+Os frutos podem ser consumidos (retirando os espinhos que são apenas externos) crus, em geleias, xaropes, sucos, compotas, mousses e licores. Podem ser fermentados e conservados com açúcar para a elaboração de bebidas.<br>
+Os brotos são utilizados como aspargos.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>HAMBÚRGUER DE ORA-PRO-NÓBIS:</b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23994,015037,13032,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[13032]{368}hamburguer_de_ora-pro-nobis.jpg">  </a> 
+<br><br>
+<b>INGREDIENTES:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> ● 75 ml de azeite.<br>
+● 1 cebola.<br>
+● 3 dentes de alho.<br>
+● 50 g de gengibre ralado.<br>
+● 200 g de lentilha.<br>
+● 100 g de batata ou aipim.<br>
+● 80 g de gergelim.<br>
+● 75 g de folhas de ora-pro-nóbis (lavadas e higienizadas).<br>
+● 1 ovo.<br>
+● Sal e pimenta do reino a gosto.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>MODO DE PREPARO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Cozinhe as lentilhas na panela de pressão por 15 a 20 minutos.
+Asse as batatas com casca (ou aipim descascado) e um dente de alho, tudo regado com azeite, sal e pimenta, em forno médio, coberto com papel alumínio.<br>
+Depois de assado amasse com um garfo.<br>
+Em uma panela, doure a cebola no azeite com o restante do alho e o gengibre ralado.<br>
+Junte as folhas de ora-pro-nóbis higienizadas e a lentilha cozida.<br>
+Deixe esfriar e processe em multiprocessador ou liquidificador.
+Misture o gergelim e tempere com sal e pimentado- reino a gosto.
+Acrescente o ovo e a batata ou aipim amassado aos poucos, até obter uma massa homogênea.<br>
+Com as mãos molhadas em água para não grudar, forme discos em formato de hambúrguer e leve ao refrigerador.<br>
+Numa frigideira untada com azeite doure os hambúrgueres de ambos os lados.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+CALLEGARI, C.R.; MATOS FILHO, A.M. Plantas Alimentícias Não Convencionais - PANCs. Florianópolis: Epagri, 2017. 53p. (Epagri, Boletim Didático, 142). ISSN 1414-5219.
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+<br><br><br> <font size="2"> Criado em: 01/10/2021</font>
+<br> <font size="2"> Última atualização: 01/10/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=015037&amp;cdElemento=13032">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=13032');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

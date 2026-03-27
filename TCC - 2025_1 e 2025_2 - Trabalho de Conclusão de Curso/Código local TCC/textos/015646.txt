@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Herbicidas indicados para o arroz irrigado - Gamit
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015646&isEdicao=N&epagriTEC=S
+
+
+-- INFORMAÇÕES GERAIS: --
+- Ingrediente ativo: Clomazona; - Formulação e Concentração (g/L ou kg): CE 500; - Dose (quantidade/ha): 0,8 a 1,4 L; - Época de aplicação: Pré/pós; - Classificação tóxicológica: 5 (produto improvável de causar dano agudo, faixa azul); - Classificação ambiental: II (muito perigoso ao ambiente); - Intervalo de segurança (dia): ND;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+- Adicionar adjuvante específico na dose recomendada (vide bula). - A aplicação de todo e qualquer tratamento herbicida deve seguir as recomendações do receituário agronômico, utilizando-se equipamentos de proteção individual (EPI) e acompanhado de um responsável técnico.
+
+-- INFORMAÇÕES SOBRE O CONTROLE DE PLANTAS DANINHAS NO ARROZ: --
+Aguapé: controla. Angiquinho: Controla. Arroz-daninho: não controla. Capim-arroz: controla, mas obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento . Capim-macho: não controla. Cuminho: não controla. Junquinho: não controla. Sagitária: não controla.
+
+-- Informações Complementares --

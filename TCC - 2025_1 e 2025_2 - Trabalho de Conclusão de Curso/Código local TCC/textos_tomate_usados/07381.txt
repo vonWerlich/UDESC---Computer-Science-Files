@@ -1,0 +1,42 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - e) Adubação e manejo do solo - 4) Adubação com composto orgânico
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07381&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6664%5D%7B510%7D28-1.jpg
+
+-- ADUBAÇÃO COM DOSE ÚNICA: --
+Resultados de pesquisa e experiências constatadas por diferentes autores (SCHALLENBERGER et al., 2008; CANTÚ et al., 2017) confirmam que é possível obter produções e concentração de nutrientes pelo tomateiro em níveis satisfatórios, até mesmo acima da média nacional, com a utilização exclusiva de compostos orgânicos. Contudo, para obter tais resultados, devem-se levar em conta alguns aspectos, como a composição do composto e a disponibilidade dos nutrientes, associados às demandas das culturas previstas em manuais de adubação como o da CQFS / NS (2016). Os compostos podem ser aplicados em dose única no início do cultivo, na linha de plantio ou pontualmente no local de implantação da muda. Obs: É importante destacar que o conhecimento do potencial de produção da área baseado em cultivos anteriores, associado às experiências do uso de determinados compostos, deve ser considerado para a flexibilização da dose a ser utilizada.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6664%5D%7B440%7D34.jpg
+Legenda: Distribuição do composto na linha de cultivo para produção de tomate orgânico. Fonte: Morales et al., 2019.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6664%5D%7B505%7D35.jpg
+Legenda: Incorporação do composto na linha de cultivo para produção de tomate orgânico. Fonte: Morales et al., 2019.
+
+-- CÁLCULO DA ADUBAÇÃO ORGÂNICA: --
+Para dimensionar as adubações utilizando compostos em solos já cultivados onde não houver a necessidade da adubação de correção do solo, ou seja, onde os teores dos nutrientes e MO sejam ‘altos’, pode-se optar pela adubação de manutenção. Assim, no caso de utilizar a adubação exclusiva com composto é possível fazer o seguinte cálculo: A = QD/((B/100) x (C/100) x D) onde: A = dose do composto a ser aplicado (kg ha-1); QD = quantidade de nitrogênio a ser aplicado, conforme uma recomendação oficial para a cultura; B = matéria seca do composto (%); C = concentração do nutriente na matéria seca do composto (%); D = índice de eficiência de cada nutriente descrito no manual de adubação da CQFS / NS (2016).
+
+-- DESBALANÇO DE NUTRIENTES NA ADUBAÇÃO VIA COMPOSTO: --
+Outro aspecto importante a ser observado é que os compostos orgânicos disponíveis para a adubação das lavouras apresentam, na maioria das vezes, nutrientes em concentrações e relações que não atendem diretamente a demanda do tomateiro. Quando se busca atender o nutriente mais demandado pela planta, normalmente o N, muitas vezes isso resulta na aplicação de outros nutrientes, como fósforo (P) e potássio (K), em dose superior ou inferior à demanda. Esse aspecto pode ocasionar problemas de ordem econômica, ambiental, fisiológica e química (planta e solo), especialmente em abrigos onde não ocorre lixiviação. Tais riscos costumam ocorrer com o emprego de compostos que normalmente apresentam teores de P e K superiores às demandas da planta, como o de cama de frangos, com 3,8% de N, 4,0% de P2O5 e 3,5% de K2O.
+
+-- COMPOSTOS COM DIFERENTES COMPOSIÇÕES: --
+A utilização de compostos com diferentes composições pode ser uma alternativa para melhorar a disponibilidade dos nutrientes de acordo com a demanda do tomateiro. Segundo Schallenberger et al. (2015) é possível obter compostos orgânicos com concentração e relação diferenciada de nutrientes por meio da compostagem de diferentes materiais, procurando atender a demanda das plantas e do solo. Destacamse os exemplos dos compostos elaborados com crotalária, feijão-de-porco e resíduos de soja, que apresentam teores até quatro vezes mais elevados de N do que de P e K (SCHALLENBERGER et al. 2015; CANTÚ et al. 2018).
+
+-- UMIDADE DO COMPOSTO: --
+A umidade do composto também deve ser observada, uma vez que a maioria das análises são em base seca ou na umidade original do composto que está sujeito a variações durante a armazenagem. Esse aspecto influencia diretamente a concentração dos nutrientes.
+
+-- PROVÁVEL COMPOSIÇÃO FÍSICO-QUÍMICA DOS PRINCIPAIS ADUBOS: --
+Buscando facilitar a recomendação da adubação orgânica para o tomateiro, foi sintetizada na Tabela 6 a provável composição físico-química dos principais adubos utilizados nesse sistema de produção. A tabela foi construída utilizando características médias dos compostos e, desta maneira, sempre que possível é importante caracterizar o composto a ser utilizado e realizar os cálculos de recomendação já apresentados nesse tópico. A estimativa do aproveitamento de nitrogênio descrita na Tabela tem como base os dados de mais de 10 anos de pesquisas realizadas na Estação Experimental da Epagri de Itajaí e da CQFS/NS (2016).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6664%5D%7B328%7D36.jpg
+Legenda: Valores médios de umidade, massa seca, aproveitamento de nitrogênio e teor de nitrogênio, fósforo e potássio de adubos orgânicos comumente utilizados na adubação do tomateiro. Fonte: Morales et al., 2019.
+
+-- Sugestão da quantidade de adubo orgânico: --
+Sugestão da quantidade de adubo orgânico a ser aplicado com base na análise de matéria orgânica do solo e a quantidade de nitrogênio, fósforo e potássio que será aplicada na dose sugerida (2). Essa sugestão de adubação está limitada à escala de três níveis (<2,5; 2,6 a 5,0; >5,0) de interpretação de MO do solo utilizada pelo CQFS / NS (2016). Assim, caso a análise indique que o solo tenha 2,5% de MO, a recomendação pelo manual será de 190kg/ha de N. Com o aumento de apenas um décimo da MO do solo, ou seja, 2,6% de MO, a recomendação vai para o próximo nível que é 140kg/ha de N e, mesmo subindo outros 24 décimos, a recomendação continua sendo os mesmos 140kg/ha de N. Com isso, levando-se em consideração apenas esses três níveis de MO para a interpretação, ocorre uma transição abrupta entre as doses, o que reduz a precisão de uma recomendação de N. Para ajustar essa dose, consultar o próximo tópico (2).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6664%5D%7B59%7D37.jpg
+Legenda: Sugestão da quantidade de adubo orgânico a ser aplicado com base na análise de matéria orgânica do solo e na quantidade de nitrogênio, fósforo e potássio que será aplicada na dose sugerida. Fonte: Morales et al., 2019.
+
+-- Fórmula prática para cálculo da adubação (TOMATORG): --
+Para evitar a transição abrupta entre as doses (Tópico anterior), há uma proposta de cálculo de adubo orgânico com distribuição contínua. Assim, com base no teor de N desejado, bem como no teor de MO do solo, é possível calcular uma dose mais precisa de adubo, o que teoricamente proporcionará maior eficiência produtiva à planta. Todavia, é importante observar o desenvolvimento da cultura, o histórico da área e a qualidade do fertilizante orgânico, buscando flexibilizar as doses de acordo com cada situação (2).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6664%5D%7B483%7D38.jpg
+Legenda: Cálculo da quantidade de composto (t/ha) a ser utilizado com base no teor de nitrogênio desejado ou pela matéria orgânica do solo. Fonte: Morales et al., 2019.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

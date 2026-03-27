@@ -1,0 +1,21 @@
+Título: COMPOSTAGEM - Manejo da compostagem - Aeração
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018484&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16104%5D%7B534%7Dfigura_10-2.jpg
+
+-- AERAÇÃO: --
+A aeração é determinante para a atividade microbiana decompositora dos resíduos orgânicos. Com a aeração adequada há uma rápida elevação da temperatura, gerando calor, CO2 e vapor d água. Neste caso, ocorre uma rápida decomposição do material sem geração de mau cheiro e chorume.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16104%5D%7B403%7Dfigura_10-2.jpg
+Legenda: Figura 10. Revolvimento manual da pilha de compostagem e correção da umidade. Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16104%5D%7B451%7Dfigura_10-1.jpg
+Legenda: Figura 10. Revolvimento manual da pilha de compostagem e correção da umidade. Foto: Rafael Ricardo Cantú
+
+-- FALTA DE AERAÇÃO: --
+Se a pilha não for aerada adequadamente, ocorrerá a redução da temperatura e a produção de gases de mau cheiro, pela atividade microbiana anaeróbica, além de chorumes e elevada presença de moscas.
+
+-- AERAÇÃO DA LEIRA ESTÁTICA: --
+No caso da leira estática, a aeração se faz por meio de revolvimento da pilha (Figura 10) a cada 20 a 30 dias, ou quando a temperatura declinar abaixo de 40oC nos dois primeiros meses. Todavia, a experiência com o material trabalhado é o que vai determinar a melhor frequência de revolvimentos, tomando como base a temperatura e, se possível, o teor de oxigênio.
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

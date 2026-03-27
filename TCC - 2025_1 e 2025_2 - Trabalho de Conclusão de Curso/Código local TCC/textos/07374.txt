@@ -1,0 +1,22 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - d) Manejo de plantas e do cultivo para produção orgânica - 6) Rotação de culturas e plantas de cobertura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07374&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6658%5D%7B472%7D25.jpg
+
+-- Conceito: --
+É desejável que a lavoura seja conduzida com alternância de diferentes culturas, não repetindo o plantio do tomateiro ou outra solanácea duas vezes consecutivas na mesma área, o que propicia maior benefício à produção e maior sanidade das plantas (1).
+
+-- A escolha da cultura de sucessão: --
+Uma opção muito comumente adotada por tomaticultores orgânicos é o cultivo de feijão-de-vagem em sequência à lavoura de tomate, com o objetivo de aproveitar o tutor e os nutrientes do residual da adubação orgânica. A escolha da cultura de sucessão deve ser feita em função do mercado que o produtor atende. Caso o produtor insista erroneamente em dois cultivos sucessivos de tomateiro, o uso de enxertia no segundo cultivo é imprescindível (1).
+
+-- Plantas de cobertura em cultivo protegido: --
+O abrigo de cultivo é uma área muito valorizada na propriedade, onde ocorre cultivo intensivo durante vários anos consecutivos. Caso observe degradação do solo, devido ao revolvimento, ou acúmulo de sais, provocados pela ausência de lavagem pela água da chuva, o produtor pode optar por não fazer um ciclo de cultivo com plantas comerciais e adotar o uso de plantas recicladoras, como as leguminosas de verão crotalária-juncea, feijão-de-porco, feijão-guandu, dentre outras, que podem ser consorciadas com as gramíneas sorgo e milheto. No inverno pode-se associar aveia com ervilhaca. Assim, num novo ciclo de cultivo, após esses cultivos para recuperação da área, a probabilidade de sucesso no cultivo do tomateiro se torna maior (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6658%5D%7B526%7D31.jpg
+Legenda: Cultivo de plantas de cobertura para recuperar área com cultivo intensivo de hortaliças. Fonte: Morales et al., 2019.
+
+-- Observação: --
+Existem poucos estudos consistentes a respeito da rotação de plantas com o cultivo de tomateiros. Como sugestão, é possível utilizar hortaliças folhosas e também cereais como o milho verde.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

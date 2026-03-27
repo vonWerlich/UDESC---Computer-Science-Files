@@ -1,0 +1,16 @@
+Título: ARROZ IRRIGADO - 07. Manejo da água - Gestão e monitoramento da irrigação
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013150&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11415%5D%7B357%7D07_monitorirrgiga_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Para a gestão eficiente dos recursos hídricos é necessário conhecer o volume de água pretendido pelos diferentes usuários. Existem muitos sistemas coletivos de irrigação que atendem um grande número de propriedades, administrados por Associações ou Cooperativas de Irrigação e Drenagem. Porém, na maioria dos casos de captação de água, realizada de forma individual ou coletiva, a irrigação está baseada somente na disponibilidade de água, não havendo avaliação da eficácia do sistema de irrigação, nem medida dos volumes gastos na operação. Em regiões onde há escassez de água e conflitos pelo uso da água, a implementação de ações que visem à gestão dos recursos hídricos é de fundamental importância
+
+-- MONITORAMENTO DA IRRIGAÇÃO: --
+O método de monitoramento da vazão de irrigação depende: • das condições do local; • do tipo de captação; • das condições hidráulicas do canal e; • da vazão a ser medida. Em geral, podem ser usados vertedores e calhas medidoras, destacando-se as calhas Parshall e as calhas CTR ( figuras abaixo ). A instalação da calha e de um sensor de nível permite obter o registro de vazão de forma contínua e dessa forma monitorar o consumo de água.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11415%5D%7B267%7D07_monitorirrgiga_fig01.jpg
+Legenda: 01. Calha Parshall usada para monitorar a vazão de irrigação em associações de irrigantes de Nova Veneza – SC. Fonte: D.Lucietti (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11415%5D%7B311%7D07_monitorirrgiga_fig02.jpg
+Legenda: 02. Calha CTR com sensor de nivel usada para monitorar a vazão de irrigação em associações de irrigante de Nova Veneza – SC. Fonte: D.Lucietti (remasterizada)
+
+-- Informações Complementares --

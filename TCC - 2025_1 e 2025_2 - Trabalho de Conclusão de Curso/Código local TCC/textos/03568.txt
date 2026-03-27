@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - N) CUSTO DE PRODUÇÃO - d) Referências
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03568&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B3303%5D%7B287%7Dcapa_1.jpg
+
+-- Referências: --
+DELEO, J.P.B.; PAGLIUCA, L.G. Tomate – Gestão sustentável - Como sobreviver aos altos e baixos da cultura. Hortifruti Brasil, Piracicaba, SP, ano 13, n.134, p.6-26, jun. 2014. DELEO, J.P.B. Especial hortaliças gestão sustentável – Sustentabilidade econômica das hortaliças é desafiada pelos altos custos da mão de obra. Hortifruti Brasil, Piracicaba, SP, ano 12, n.124, p.8-22, jun.2013. FILGUEIRA, F.A.R. Agrotecnologia moderna na produção e comercialização de hortaliças. In: Novo manual de olericultura. Lavras, MG: UFV, 3ed. 2008. IDEAGRI. Como lançar, de forma correta, a depreciação de máquinas, equipamentos e benfeitorias. Disponível em: . Acesso em: 05 Ago. 2014. PAGLIUCA, L.G. Análise do risco financeiro da produção de tomate de mesa de Caçador (SC) e Mogi Guaçu (SP). 2014. 93p. Dissertação (Mestrado em Ciências). Escola Superior de Agricultura “Luiz de Queiroz” - Universidade de São Paulo, Piracicaba, SP. PAGLIUCA, L. G.; DELEO, J.P.B. Gestão sustentável – “O que não se mede não se gerencia”. Hortifruti Brasil, Piracicaba, SP, ano 11, no.113, pg.4-26, jun.2012. SÍNTESE ANUAL DA AGRICULTURA DE SANTA CATARINA – 2012/2013. Disponível em: . Acesso em: 1 ago. 2014.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

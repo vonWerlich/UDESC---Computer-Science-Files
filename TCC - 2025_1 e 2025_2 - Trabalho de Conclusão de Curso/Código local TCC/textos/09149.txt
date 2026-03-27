@@ -1,0 +1,16 @@
+Título: MANGARITO - Calagem e Adubação
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09149&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8918%5D%7B519%7Dfigura_10b.jpg
+
+-- CALAGEM: --
+Os mangaritos roxo e branco não suportam solos corrigidos. Por serem plantas nativas, domesticadas por indígenas em épocas pré-colombianas, estão bem adaptadas aos nossos solos, que naturalmente possuem um pH baixo. O mangarito branco vem sendo cultivado em Joinville em solos já corrigidos para outras hortaliças. Contudo, os agricultores relatam comumente problemas sérios com ataque de erwinia, inviabilizando muitas vezes os seus cultivos.
+
+-- ADUBAÇÃO PARA MANGARITO BRANCO: --
+A adubação é feita com esterco de aviário numa dose de 8 a 10 toneladas por hectare, aplicado nas linhas de plantio. Podem ser aplicados adubos químicos compostos por potássio e nitrogênio, em cobertura, por ocasião da amontoa. Recomenda-se utilizar a recomendação de adubação similar à recomendada para a cultura do inhame (C. esculenta Schott) que seria: 180kg de P2O5 e 90kg de K2O por hectare, fornecendo 50% do K no plantio. Em cobertura, fornecer o N e o restante do K parcelados em duas a três vezes (MADEIRA et al., 2015).
+
+-- ADUBAÇÃO PARA MANGARITO ROXO: --
+Para o mangarito roxo, a adubação utilizada consiste apenas de esterco de aviário na cova e após podem ser feita mais algumas aplicações desse esterco em cobertura, conforme a aparência das plantas.
+
+-- Informações Complementares --
+Antônio H. dos Santos e Rafael G. F. Morales. Cultivo do mangarito em Santa Catarina. Cartilha. Edição: Epagri/DEMC Florianópolis, agosto/2022. AUTORES CITADOS: - MADEIRA, N. R. et al. Mangarito: sabor de tradição. Horticultura Brasileira. Vitória da Conquista, v.33, p.409, Set, 2015.

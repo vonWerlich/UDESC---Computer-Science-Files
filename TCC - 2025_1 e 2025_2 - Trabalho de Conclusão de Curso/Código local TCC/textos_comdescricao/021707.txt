@@ -1,0 +1,27 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - MANCHA DE CORDANA
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021707&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+MANCHA DE CORDANA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18397%5D%7B355%7Dcordana.png
+Bananal, com a proeminente figura de uma bananeira em estágio de frutificação destacando-se ao centro, exibindo um cacho vigoroso e pendente de bananas em franco desenvolvimento, notavelmente ainda imaturas com coloração verde-clara e uniforme, onde foi aplicada a técnica agrícola de 'poda de penca' ou desbaste, evidenciada pela remoção intencional das pencas inferiores subdesenvolvidas e da flor masculina terminal (mangará/coração) para otimizar o fluxo de nutrientes e o crescimento das aproximadamente cinco a seis pencas remanescentes, que se apresentam bem distribuídas ao longo do ráquis robusto e verde, com os dedos (frutos individuais) de formato alongado e curvado, densamente agrupados; o pseudocaule da planta principal é espesso e fibroso, suportando eficazmente o peso do cacho, enquanto ao redor se observa uma vasta extensão de outras bananeiras, algumas com seus próprios cachos parcialmente visíveis e protegidos por sacos plásticos de coloração clara, uma prática para proteção contra pragas e melhoria da qualidade; na base, o solo rico em matéria orgânica é composto por folhas secas e restos vegetais, e surgem brotos jovens (filhos) da planta-mãe, indicando a renovação e o manejo contínuo do plantio, com tocos de pseudocaules cortados ao fundo evidenciando ciclos de colheita anteriores, tudo sob uma iluminação natural abundante que realça o verde intenso da folhagem larga e laminada das plantas.
+FOTO: Gasparotto
+
+-- DESCRIÇÃO --
+A mancha foliar de Cordana é considerada uma doença secundária da cultura. É observada com frequência nos bananais, mas seus sintomas geralmente ocorrem associados aos do complexo de Sigatoka, considerando-se que seus danos não são relevantes. O agente causal dessa doença sofreu uma alteração no seu gênero, passando de Cordana para Neocordana . Duas espécies de Neocordana estão associadas com essa doença: Neocordana musae ( Cordana musae ) e Neocordana johnstonii ( Cordana johnstonii )( 1 )
+
+-- SINTOMAS --
+Os sintomas iniciais de Cordana muitas vezes podem ser confundidos com os da Sigatoka amarela. As manchas causadas pela doença são grandes, com formato piriforme, circundadas por halo amarelado e podem apresentar zonas concêntricas (Figura abaixo) .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18397%5D%7B371%7Dfig.4_cordana.jpg
+Equação para determinação da quantidade de calcário para solos arenosos é expressa como NC = -0,516 + 0,805 x MO + 2,435 x Al³⁺, onde NC representa a necessidade de calagem (t/ha) para um corretivo com PRNT de 100%, MO é o teor de matéria orgânica do solo (%), e Al³⁺ é o teor de alumínio trocável (cmol_c/dm³).
+
+-- CONTROLE --
+As medidas de controle aplicadas para o complexo de Sigatoka também reduzem os danos causados pela mancha de Cordana. Por este motivo, não são necessárias medidas específicas para esta doença.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )HERNANDEZ-RESTREPO, M.; GROENEWALD, J.Z.; CROUS, P.W. Neocordana gen. nov., the causal organism of Cordana leaf spot on banana. Phytotaxa, v. 205, n.4, p.229-238, 2015.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )HERNANDEZ-RESTREPO, M.; GROENEWALD, J.Z.; CROUS, P.W. Neocordana gen. nov., the causal organism of Cordana leaf spot on banana. Phytotaxa, v. 205, n.4, p.229-238, 2015.
+• André Boldrin Beltrame (Dr. - Epagri) Pesquisador - Epagri - Itajaí

@@ -1,0 +1,18 @@
+Título: CEBOLA - Manejo de plantas daninhas - Manejo e Controle - 7. Controle integrado
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014599&isEdicao=N&epagriTEC=S
+
+
+-- CONCEITO: --
+O controle integrado de plantas indesejáveis envolve a associação de vários métodos oferecendo vantagens em relação à utilização de um único método. Essas vantagens dizem respeito, principalmente, aos custos e à eficiência do controle, minimizando inclusive o impacto ambiental dos herbicidas.
+
+-- ÁREAS COM MÉDIA E ALTA INFESTAÇÃO: --
+Em áreas que apresentam de médias a altas infestações a integração de métodos mecânicos e herbicidas é viável para a cultura da cebola.
+
+-- ÁREAS COM BAIXA INFESTAÇÃO: --
+Já em áreas com baixa infestação de plantas indesejáveis ou onde o plantio é em pequenas áreas, com topografia acidentada, o controle pode ser complementado com repasse manual com enxada.
+
+-- IMPORTÂNCIA DA ROTAÇÃO DE CULTURAS E PLANTAS DE COBERTURA: --
+Todo programa de manejo de plantas indesejáveis deve ser complementado com rotação de culturas e com plantas de cobertura, na entressafra da cultura da cebola. Assim, uma vez colhidas, as lavouras de cebola devem ser bem manejadas, implantando culturas sequenciais ou culturas recuperadoras de solo (adubação verde), visando manter o solo coberto para evitar reinfestação e ainda devem ser usados herbicidas ou algum meio mecânico para roçar a parte aérea das plantas indesejáveis antes do florescimento.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

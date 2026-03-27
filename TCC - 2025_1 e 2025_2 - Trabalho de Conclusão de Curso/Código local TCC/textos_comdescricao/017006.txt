@@ -1,0 +1,21 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017006&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17003%5D%7B492%7Dpl06_folhas.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano está restrito às folhas
+As folhas estão comidas ou raspadas
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17006%5D%7B347%7Dpl08_folhacomida_.jpg
+Legenda: As folhas estão comidas ou raspadas
+17008
+As folhas estão comidas ou raspadas
+As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17006%5D%7B293%7Dpl09_folhaamarela.jpg
+Legenda: As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando
+17009
+As folhas estão amareladas ou retorcidas, ou têm folhas com manchas, enegrecidas ou secando

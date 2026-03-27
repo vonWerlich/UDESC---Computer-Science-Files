@@ -1,0 +1,24 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - J) DOENÇAS CAUSADAS POR NEMATOIDES
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02993&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2760%5D%7B389%7Dfigura_30.jpg
+
+-- Introdução: --
+Nematoides são organismos tipicamente vermiformes, mas em algumas espécies as fêmeas podem apresentar dilatação do corpo em forma de limão. Para se nutrir da célula vegetal esses organismos se valem de um estilete junto à cavidade bucal para perfurar as células dos tecidos da planta. As fêmeas adultas depositam seus ovos e estes, ao eclodirem, liberam larvas que por sua vez irão parasitar novos sítios da planta. No tomateiro o principal nematoide é o formador de galhas (Meloidogyne spp.) em raízes da planta.
+
+-- Nematoides-de-galhas (Meloidogyne incognita, M. javanica e M. arenaria): --
+Esses nematoides atacam as raízes formando sintoma típico de galha, e interferem na absorção de nutrientes (Figuras 29 e 30). As plantas ficam menores e amareladas e apresentam sintomas de deficiência nutricional. Os nematoides ocasionam maiores danos ao tomate em solos arenosos e têm ciclo leva em média 17 dias, desde a penetração da larva até o estádio de fêmea adulta.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2760%5D%7B27%7Dfigura_30.jpg
+Legenda: Detalhe da raiz de uma planta de tomate infestada por Meloidogyne spp. e a formação das galhas. Foto: Walter Ferreira Becker
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2760%5D%7B34%7Dfigura_29.jpg
+Legenda: Sintoma do nematoide-de-galhas (Meloidogyne spp.) em plantas de tomate. Foto: Walter Ferreira Becker
+
+-- Medidas gerais para o manejo de doenças causadas por nematoides: --
+1) Cultivares resistentes: utilizar cultivares resistentes. A presença do nematoide pode quebrar a resistência de cultivares do tomateiro ao Fusarium e Verticillium. 2) Práticas culturais: espécies de plantas-armadilha como mucuna e crotalária podem ser empregadas na rotação; efetuar rotação de culturas por três anos com gramíneas. Na rotação é importante a identificação da espécie do nematoide para selecionar a sequência dos cultivos. 3) Adubação: diversas fontes de matéria orgânica possuem efeito nematicida, porém, a diversidade da composição destas fontes resulta em controle inconsistente. A palha de café, turfa, esterco de curral e biofertilizante tem apresentado resultados promissores no controle do nematoide das galhas. Esta adubação ajuda a compensar as perdas de produção decorrentes da ação do parasita. No tomateiro, pelo menos uma parte do requerimento nutricional da planta deve ser proveniente da adubação orgânica. A liberação de substâncias húmicas e amônia, pelo composto orgânico, ou o acúmulo de fenóis na planta atuam na supressão do nematoide. O potássio em excesso na planta favorece o aumento de população de algumas espécies de Meloidogyne. 4) Controle químico: na produção integrada não é indicado o uso de nematicidas, pois eles afetam a microbiota do solo interferindo na sustentabilidade do sistema.
+
+-- Referências --
+BERNARDO, J.T.; FREITAS, L.G.; YAMADA, J.K. et al. Efeito de adubos orgânicos sobre Meloidogyne javanica em tomateiro. Nematologia Brasileira, Piracicaba, SP, v.35, n.1-2, p.10-19, 2011. MACEDO, J.R. de; CAPACHE, C.L.; MELO, A. da S. et al. Recomendações técnicas para a produção de tomate ecologicamente cultivado – TOMATEC. Rio de Janeiro, RJ: Embrapa-CNPS, 2005. 10p. (Embrapa-CNPS. Circular técnica, 33). MACHADO, J.C.; VIEIRA, B.S.; LOPES, E.A. et al. Paecilomyces lilacinus e esterco bovino para o controle de Meloidogyne incógnita em tomateiro e alface. Nematologia Brasileira, Piracicaba, SP, v.34, n.4, p. 231-235, 2010. ZAMBOLIM, L.; SANTOS, M.A.; BECKER, W.F. et al. Agro-waste soil amendments for the control of Meloidogyne javanica on tomato. Fitopatologia Brasileira, Brasília, DF, v.21, n.2, p.250-253, 1996.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

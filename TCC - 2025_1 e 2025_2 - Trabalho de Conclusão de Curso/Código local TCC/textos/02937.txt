@@ -1,0 +1,16 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - G) MANEJO DAS PRINCIPAIS DOENÇAS FÚNGICAS - d) Mancha de septoria ou septoriose
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02937&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2699%5D%7B1%7Dfigura_17.jpg
+
+-- Mancha de septoria ou septoriose (Septoria lycopersici): --
+Os primeiros sintomas são observados nas folhas inferiores da planta, geralmente na formação do primeiro cacho. As lesões foliares são necróticas e circulares (1-3mm de diâmetro), com os bordos escurecidos e o centro de coloração cinza-palha, com pequenas pontuações pretas, que a diferem de doenças como a mancha-bacteriana ou a pinta-preta (Figura 17). As lesões podem agrupar-se e causar a seca completa da folha. Atualmente, essa doença é muito frequente na região do AVRP.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2699%5D%7B164%7Dfigura_17.jpg
+Legenda: Sintomas de septoriose na folha apresentando lesões de cor parda e centro cinza, com ou sem halo clorótico, causada por Septoria lycopersici. Foto: Walter Ferreira Becker
+
+-- Condições que favorecem a doença: --
+A doença desenvolve-se melhor em temperaturas ambiente entre 22 e 26°C, com alta umidade relativa do ar ou chuvas prolongadas; um molhamento foliar de 16 horas aumenta significativamente a severidade da doença.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

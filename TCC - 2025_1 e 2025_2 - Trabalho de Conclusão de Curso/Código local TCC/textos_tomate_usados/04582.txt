@@ -1,0 +1,28 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Enrolamento dos folíolos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04582&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1450%5D%7B110%7Dimg_20211021_102950981_-_copia.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1450%5D%7B2%7Dimg_20211021_102944450.jpg
+Legenda: Folhas do tomateiro enroladas. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1450%5D%7B379%7Dimg_20211021_103011976.jpg
+Legenda: Folhas do tomateiro enroladas. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1450%5D%7B282%7Dimg_20211021_103011976.jpg
+Legenda: Folhas do tomateiro enroladas. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1450%5D%7B383%7Dimg_20211021_102950981.jpg
+Legenda: Folhas do tomateiro enroladas. Foto: Rafael G. F. Morales
+
+-- INFORMAÇÕES GERAIS: --
+- Cultivares de hábito de crescimento determinado, portadoras do gene recessivo wt, exibem enrolamento característico de folíolos (1). - Em alguns casos severos, os frutos ficam mais expostos e mais vulneráveis ​​à radiação solar e podem ser observadas escaldaduras nos frutos.
+
+-- SINTOMAS: --
+O tomateiro apresenta as margens dos folíolos enroladas, especialmente na zona basal da planta. As folhas ficam retorcidas, semelhantes aquelas que sofrem por estresse salino ou hídrico do solo.
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Muita carga de produção (2); - Podas excessivas (2); - Excesso de água ou stress hídrico (2); - Diferenças de temperatura entre o dia e a noite (2); - Excesso de adubação nitrogenada; - Plantios adensados; - Sensibilidade varietal (2);
+
+-- CONTROLE: --
+- Adubação adequada, sem excesso de nitrogênio (1). - Controle da irrigação (1). - Realizar o plantio em espaços mais adensados (1).
+
+-- Informações Complementares --
+(1) LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005. (2) António Pedro Tavares GUERRA. Divisão Produção Agrícola. Propriedade: D.R.A.P.N. Edição e distribuição: Núcleo de Documentação e Relações Públicas Primeira edição: Outubro 2008.

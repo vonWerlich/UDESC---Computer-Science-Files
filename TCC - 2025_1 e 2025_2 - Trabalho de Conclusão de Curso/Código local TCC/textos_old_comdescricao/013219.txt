@@ -1,0 +1,36 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Portfólio de cultivares Epagri - Cultivares fora da recomendação - SCS115 CL
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013219&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+08. Cultivares
+Portfólio de cultivares Epagri
+Cultivares fora da recomendação
+SCS115 CL
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11474%5D%7B420%7Dscs115_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+O cultivar SCS115 CL é oriundo do cruzamento entre Epagri 109 e a linhagem VIII (Irga 369/AS3510), realizado na Epagri-EEI em 1998. A partir de 1999 iniciou-se intenso trabalho de seleção durante 6 anos, o que permitiu a obtenção da linhagem SC 169. Esta foi submetida a avaliações em ensaios regionais durante 3 anos, em cinco regiões edafoclimáticas do Estado. Foi lançado e protegido como cultivar em 2007. É um cultivar que se diferencia dos demais por apresentar resistência a herbicidas do grupo das imidazolinonas, sendo seu cultivo destinado ao manejo de plantas daninhas, especialmente arroz-vermelho. É um cultivar de tipo moderno e se caracteriza pelo bom potencial em produtividade, tendo alta capacidade de perfilhamento, boa qualidade de grãos e ciclo longo.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+• Produtividade: 8,5t/ha • Altura da planta: 110cm • Ciclo: Médio (135 dias) • Acamamento: Resistente • Reação à toxidez por ferro: Resistente • Reação à brusone: Moderadamente resistente • Reação a baixas temperaturas (13°C): Suscetível
+
+-- CARACTERÍSTICAS INDUSTRIAIS: --
+• Gesso: 1 • Classe: Longo fino • Renda do beneficiamento: 70,0% • Rendimento de grãos inteiros: 60,3% • Teor de amilose: 28,0% • Temperatura de gelatinização: Média
+
+-- FOLHAS: --
+• Cor: Verde • Comprimento: 35cm • Largura: 1,7cm • Pubescência: Forte • Ângulo das folhas: Intermediário • Ângulo da folha bandeira: Ereto (menor que 30°) • Cor da bainha: Verde • Cor da lígula: Branca a verde • Cor da aurícula: Incolor a verde • Cor do colo: Verde-clara
+
+-- COLMO: --
+• Comprimento: 85cm • Espessura: 0,8cm • Perfilhamento: Excelente • Ângulo dos perfilhos: Ereto (menor que 30°) • Cor do internó: Verde
+
+-- PANÍCULAS: --
+• Tipo: Normal • Comprimento: Intermediário (22,3cm) • Exserção: Média (1 a 5cm) • Degrane: Intermediário • Axis: Caído
+
+-- ESPIGUETA: --
+• Arista: Ausente • Cor estigma: Branca • Cor do apículo na floração: Verde • Cor do apículo na maturação: Palha • Cor da pálea e lema: Palha • Cor das glumelas: Palha
+
+-- GRÃOS: --
+• Comprimento: 7,8mm • Espessura: 1,8mm • Largura: 2,3mm • Relação C/L: 3,39 • Forma do grão: Alongado • Peso de mil grãos: 31,6g • Pilosidade: Média
+
+-- Informações Complementares --

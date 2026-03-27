@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - IPA 6 (Feltrin)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0232&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B130%5D%7B220%7Dipa_6.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Determinado; Empresa: Feltrin; Finalidade: Copa; Grupo: Industrial; Grupo: Saladette; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Cultivar: Tomate Ipa 6. Colheita (Dias): 110 A 120. Hábito De Crescimento: Determinado. Peso: 100 A 150 G. Uso: Indústria, Mercado Fresco.
+
+-- DESTAQUE: --
+Alta Produtividade E Frutos Firmes.
+
+-- RESISTÊNCIA: --
+V1 (Va: Verticillium Albo-Atrum E Vd: Verticillium Dahliae); F1 (Fusarium Oxysporum Raça 1); N (Meloidogyne Incógnita - Meloidogyne Javanica - Nematoide); R (Rachadura).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sementesfeltrin.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sementesfeltrin.com.br.

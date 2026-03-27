@@ -1,0 +1,23 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - NEMATOIDES - NEMATOIDE DAS GALHAS RADICULARES (Meloidogynespp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021715&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+NEMATOIDES
+NEMATOIDE DAS GALHAS RADICULARES ( Meloidogyne spp.)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18404%5D%7B32%7Dnematoide_das_galhas_das_raizes.png
+Coração' ou 'mangará' da bananeira, a inflorescência masculina terminal da planta, caracterizada por sua forma cônica-alongada e coloração roxo-avermelhada intensa, pendendo na extremidade distal do ráquis abaixo do cacho de frutos verdes já formados; esta estrutura é composta por brácteas coriáceas que protegem as flores masculinas e sua presença indica o fim da diferenciação de flores femininas, sendo sua remoção uma prática agronômica ('decapitação' ou 'desbotoamento') essencial para redirecionar os fotoassimilados da planta exclusivamente para o desenvolvimento e enchimento ('engorda') dos frutos, otimizando o peso final e a qualidade do cacho.
+FOTO: Arquivo Epagri
+
+-- DESCRIÇÃO --
+Os nematoides do gênero Meloidogyne apresentam amplo círculo de hospedeiros. O gênero compreende centenas de espécies descritas, sendo as espécies Meloidogyne incognita e Meloidogyne javanica as mais disseminadas em bananais no Brasil( 1 ). A principal característica do ataque de Meloidogyne nas raízes é a formação de galhas e redução do volume do sistema radicular. As plantas ficam com seu tamanho reduzido, folhas amarelecidas e desenvolvimento prejudicado. É comum serem observadas galhas nas pontas das raízes( 2 ). Os danos causados se limitam às raízes e não atingem os rizomas( 2 ). O parasitismo de Meloidogyne difere daquele de outras espécies importantes da bananeira por não causar necrose das células parasitadas. Ao invés disso, é necessário que as células afetadas estejam vivas formando o tecido que será responsável por nutrir a fêmea, chamado “tecido nutridor”. A partir dessa modificação celular, o nematoide é capaz de desviar fotoassimilados que seriam úteis para a produção de frutos. Com isso, o prejuízo na produção é significativo em áreas infestadas por esses nematoides. Meloidogyne spp. causam redução do tamanho e peso e atraso na maturação dos cachos, pouco perfilhamento e seus danos podem levar a planta à morte( 1 )( 3 ).
+
+-- CICLO DE VIDA --
+Diferentemente das outras espécies, a única fase móvel de Meloidogyne spp. é a fase J2; é ela que eclode do ovo e migra no solo até encontrar as raízes para infectá-las. Após a penetração das raízes, o J2 atinge a periferia do cilindro central e estabelece o seu sítio de alimentação, onde permanece e sofre ecdises, passando pelas fases J3 e J4 até atingir sua fase adulta. Por ter este comportamento, Meloidogyne spp. são considerados endoparasitas sedentários. As fêmeas, quando maduras, fazem a postura de seus ovos em massas gelatinosas. Cada fêmea produz, em média, 500 ovos durante sua vida.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )COSTA, D.C.; SILVA, S.O.; ALVES, F.R. Reação dos genótipos de bananeira (Musa spp.) a Radopholus similis e Meloidogyne incognita. Nematologia Brasileira, v. 22, n. 2, p. 49-57, 1998. ( 2 )ZEM, A.C.; ALVES, E.J. Observações sobre perdas provocadas por nematóides em bananeira (Musa acuminata Simm. & Sherp.) cv. Nanicão. Cruz das Almas: EMBRAPA/ CNPMF, 1981. 10p. (Boletim de Pesquisa, n. 6). ( 3 )PATEL, B.A.; VYAS, R.V.; PATEL, D.J.; PATEL, R.S. Susceptibility of banana cultivars to rootknot nematodes (Meloidogyne spp.). InfoMusa, v.5, p.26-27, 1996
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )COSTA, D.C.; SILVA, S.O.; ALVES, F.R. Reação dos genótipos de bananeira (Musa spp.) a Radopholus similis e Meloidogyne incognita. Nematologia Brasileira, v. 22, n. 2, p. 49-57, 1998. ( 2 )ZEM, A.C.; ALVES, E.J. Observações sobre perdas provocadas por nematóides em bananeira (Musa acuminata Simm. & Sherp.) cv. Nanicão. Cruz das Almas: EMBRAPA/ CNPMF, 1981. 10p. (Boletim de Pesquisa, n. 6). ( 3 )PATEL, B.A.; VYAS, R.V.; PATEL, D.J.; PATEL, R.S. Susceptibility of banana cultivars to rootknot nematodes (Meloidogyne spp.). InfoMusa, v.5, p.26-27, 1996
+• André Boldrin Beltrame (Dr. - Epagri) Pesquisador - Epagri - Itajaí

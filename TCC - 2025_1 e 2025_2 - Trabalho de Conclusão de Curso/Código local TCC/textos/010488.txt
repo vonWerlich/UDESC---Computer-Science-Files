@@ -1,0 +1,45 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Boas práticas de manejo - Prevenção contra predadores
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010488&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17906%5D%7B84%7Dsoco.jpg
+
+-- AVES E MAMÍFEROS: --
+As aves e mamíferos predatórios podem causar grandes prejuízos ao cultivo de tilápia, pois podem consumir um número grande de peixes por dia, chegando de 20 a 30% de perda no cultivo. Além disso, as aves podem ser hospedeiros intermediários ou vetores de doenças. As aves mais comumente encontradas em pisciculturas com potencial de causarem prejuízos são: biguá, garça, socó, martim pescador e bem-te-vi.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17906%5D%7B329%7Daves_1.jpg
+Legenda: Aves comumente encontradas em pisciculturas com potencial de causarem prejuízos. Foto: Ofélia Maria Campigotto
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17906%5D%7B227%7Daves_3.jpg
+Legenda: Aves comumente encontradas em pisciculturas com potencial de causarem prejuízos. Foto: Ofélia Maria Campigotto
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17906%5D%7B345%7Daves_2.jpg
+Legenda: Aves comumente encontradas em pisciculturas com potencial de causarem prejuízos. Foto: Ofélia Maria Campigotto
+
+-- Controle de aves e mamíferos: --
+Como é proibido eliminar estes animais, é preciso adotar estratégias que minimizem estas perdas para o produtor. Algumas alternativas, como o uso de espantalho, armas sonoras (imitando o barulho de tiros) ou foguetes são comumente utilizados, contudo, sem muito sucesso. Uma das alternativas mais eficientes é o uso de tela de proteção à pássaro, contudo, possui alto custo. Uma alternativa é utilizá-la apenas nos berçários, fase de maior perda por predação de aves e morcegos, pois são viveiros com áreas menores que possuem uma maior densidade de peixes.
+
+-- PREDADORES AQUÁTICOS: --
+Na água de cultivo, também é possível encontrar diversos predadores de alevinos que precisam ser controlados ou evitados, pois esses são capazes de causar grandes perdas nas fases iniciais de cultivo. Dentre estes predadores, os principais são: girino de rã e sapo, insetos aquáticos e outros peixes.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17906%5D%7B516%7Dpredadores_1.jpg
+Legenda: Predadores aquáticos de alevinos que podem ser encontrados no viveiro. Foto: Ofélia Maria Campigotto
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17906%5D%7B241%7Dpredadores_3.jpg
+Legenda: Predadores aquáticos de alevinos que podem ser encontrados no viveiro. Foto: Ofélia Maria Campigotto
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17906%5D%7B462%7Dpredadores_2.jpg
+Legenda: Predadores aquáticos de alevinos que podem ser encontrados no viveiro. Foto: Haluko Massago
+
+-- Controle de predadores aquáticos: --
+A melhor medida contra esses casos é a prevenção. Para prevenir, pode-se tomar algumas medidas, como: - Não deixar o viveiro por muitos dias cheio antes de povoar; - Vistoriar e retirar ninhos de desova de rãs ou sapos no talude do viveiro; - Verificar a presença destes animais junto com os alevinos que serão povoados, e, se necessário, retira-los; - Povoamento de alevinos maiores (alevinos II) e juvenil.
+
+-- Uso de inseticidas: --
+É comum o uso em piscicultura de inseticidas antes do povoamento, contudo, o uso destes produtos não é permitido atualmente. Além disso, eles prejudicam o desenvolvimento do zooplâncton.
+
+-- PEIXES PREDADORES: --
+Os mais comuns são: lambari, traíra e acará. Esses peixes são capazes de comer alevinos de tilápia, sendo necessário evitá-los.
+
+-- Controle de peixes predadores: --
+Dentre as medidas para evitar a presença desses peixes no início do cultivo, é possível destacar as seguintes: - Secagem total e desinfecção de poças entre ciclos de cultivo; - Utilização de telas de nylon na entrada de água; ou construção de caixas de passagem com brita no canal de abastecimento dos viveiros.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17906%5D%7B472%7Dlambari.jpg
+Legenda: LambariFoto: Ofélia Maria Campigotto
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17906%5D%7B443%7Dtuvira.jpg
+Legenda: TuviraFoto: Ofélia Maria Campigotto
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

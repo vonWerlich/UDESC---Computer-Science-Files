@@ -1,0 +1,24 @@
+Título: CEBOLA - Manejo de doenças - Antracnose (Colletotrichum gloeosporioides)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=08236&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B7377%5D%7B163%7Dcoll._principal_%281%29.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B7377%5D%7B6%7Dscreenshot_20200330-145127_adama_hf.jpg
+Legenda: Sintomas da doença. Foto: Angelo Yoshimura
+
+-- INFORMAÇÕES GERAIS: --
+- Este fungo é um dos patógenos mais importantes de frutos de mamão no período pós-colheita; - Causa perdas de até 90% de frutos em estações favoráveis à doença.
+
+-- IDENTIFICAÇÃO: --
+-A doença manifesta-se, inicialmente, na forma de manchas pardo-avermelhadas que se estendem por todo o fruto; - Em seguida, pontuações escuras, levemente salientes, formadas pelos acérvulos do fungo, aparecem na casca dos frutos; - Neste estádio, a doença pode ser confundida com a podridão amarga; - Em condições de alta umidade, os conídios são expostos, envoltos por uma massa mucilaginosa rosada, permitindo, então, a diferenciação entre as doenças; - Os frutos afetados ficam enrugados e caem.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B7377%5D%7B267%7Dcoll._3.jpg
+Legenda: Sintomas nas flores e sinais (esporos). Foto: Resende, RSR
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B7377%5D%7B493%7Dcoll._1_%282%29.jpg
+Legenda: Sintomas no pseudocaule. Foto: Resende, RSR
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B7377%5D%7B14%7Dcoll._2_%281%29.jpg
+Legenda: Sintomas no pseudocaule. Foto: Resende, RSR
+
+-- CICLO DE VIDA: --
+- Períodos prolongados de chuvas, orvalho e neblina favorecem o desenvolvimento de epidemias, fazendo com que os conídios produzidos nas florescências se disseminem rapidamente por toda a planta e, ou, para as plantas vizinhas; - As chuvas com ventos carregam gotas de água juntamente com os conídios, aumentando assim a dispersão lateral; - A temperatura não possui tanta influência para a infecção do patógeno, porém considera-se a faixa ótima para o desenvolvimento da doença entre 23°C e 27°C.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - Tyson F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0116&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B22%5D%7B187%7Dtyson.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Agristar TopSeed; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Médio (201 a 230 g); Vigor: Médio
+
+-- INFORMAÇÕES DA EMPRESA: --
+Ponto forte: Resistência ao F3, TYLCV (geminivirus) e ao TSWV (vira-cabeça), precocidade e alto pegamento de frutos. Apresenta planta vigorosa com boa resistência foliar.
+
+-- PLANTAS E FRUTOS: --
+Planta: Crescimento indeterminado e bom equilíbrio entre as relações folha, fruto e espessura de haste. Frutos: Uniformes e de alta qualidade.
+
+-- CARACTERÍSTICAS: --
+Proporciona segurança ao produtor em áreas com incidência de geminivírus, vira-cabeça e fusarium raça 3.
+
+-- RESISTÊNCIAS: --
+Fol: 0-2, TMV, TSWV, TYLCV, Va e Vd.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.agristar.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.agristar.com.br.

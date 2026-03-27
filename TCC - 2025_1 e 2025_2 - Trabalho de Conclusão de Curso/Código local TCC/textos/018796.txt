@@ -1,0 +1,13 @@
+Título: BIOFERTILIZANTE EEI - O biofertilizante aeróbico
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018796&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16380%5D%7B229%7Dfigura_2._biofertilizante_aerobico.jpg
+
+-- MOTIVOS PARA O USO DE UM BIOFERTILIZANTE AERÓBICO: --
+- São de baixo custo de produção; - São formulados com poucos insumos e que são facilmente encontrados; - São de fácil produção e aplicação; - O tempo de fermentação é muito curto (8 a 12 dias está pronto) em relação aos biofertilizantes anaeróbicos (45 a 90 dias), sendo este o principal motivo para recomendação de uso; - Nas doses recomendadas não são tóxicos às plantas, animais e ao homem; - Podem atuar sobre doenças de plantas; - São fontes de nutrientes; - São de fácil adoção nos sistemas de produção, podendo ser aplicados manualmente ou em sistemas de irrigação convencionais, como o gotejo; - Têm em seu conteúdo a presença de elevada comunidade microbiana benéfica de bactérias, fungos, leveduras e actinobactérias, que são promotores do crescimento das plantas e podem atuar no controle de fitopatógenos habitantes do solo, causadores de murchas ou podridões de raízes em plantas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16380%5D%7B279%7Dfigura_2._biofertilizante_aerobico.jpg
+Legenda: Figura 2. Biofertilizante aeróbico. Foto: Alexandre Visconti
+
+-- Informações Complementares --
+Visconti, A.; Schallenberger, E. Morales, R.G.F.; Cantú, R.R. Unidade Portátil de Produção de Biofertilizante Aeróbico, Modelo Epagri. Cartilha da Epagri, Florianópolis, Março de 2022.

@@ -1,0 +1,24 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Boas práticas de manejo - Uso de alimentadores automáticos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010486&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17903%5D%7B294%7Dalimentador_1.jpg
+
+-- IMPORTÂNCIA: --
+O uso de alimentador automático no cultivo de tilápia arraçoada é recomendado, e pode auxiliar o produtor no manejo alimentar, pois o alimentador distribuirá melhor a ração pelo viveiro. Além disso, o produtor poderá aumentar a frequência de alimentação diária (6 a 8 alimentações diárias) nas fases iniciais, com intuito de homogeneizar o tamanho do lote, melhorar a conversão alimentar e o crescimento.
+
+-- Alimentador flutuante: --
+Distribuem a ração ao seu redor, possuindo diferentes tamanhos de armazenagem de ração e, de acordo com o modelo e com a granulometria da ração, são capazes de arremessar o pélete em um raio de 20 a 60m do alimentador;
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17903%5D%7B53%7Dalimentador_1.jpg
+Legenda: Alimentador flutuante. Foto: Haluko Massago
+
+-- Alimentador para tratores ou microtratores: --
+É um alimentador automático, geralmente a combustível ou ar-comprimido, para ser acoplado a tratores ou adaptados à plataforma de microtratores. Ele diminui o tempo e o esforço gasto com a alimentação manual.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17903%5D%7B474%7Dalimentador_2.jpg
+Legenda: Alimentador para tratores ou microtratores. Foto: Haluko Massago
+
+-- IMPORTANTE: --
+É importante salientar que, apesar do produtor usar o alimentador automático, isso não descarta a necessidade de estar atento na hora da alimentação. O mais indicado é o ligamento e desligamento manual do alimentador pelo produtor, para que ele esteja pessoalmente verificando como está a atividade de alimentação do peixe.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

@@ -1,0 +1,62 @@
+Título: TOMATE - Fitossanidade - Fungos e Oomicetos - Requeima (Phytophthora infestans)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04560&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B5%5D%7B536%7D20170804_165755.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B315%7D%5B5%5D%7B362%7D2015-07-15_15.24.44.jpg
+Legenda: Sintomas típicos da doença destruindo toda a parte aérea da planta. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B351%7D20170804_165755.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B373%7D20170817_082449.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B57%7D20170804_165710.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B195%7D20170804_165705.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B169%7D20170804_165643.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B459%7D20170804_165638.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B303%7D2015-09-10_09.00.53.jpg
+Legenda: Sintomas típicos da doença em folhas de tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B345%7Dimg-20170722-wa0028.jpg
+Legenda: Sintomas típicos da doença em frutos de tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B285%7D20170823_095420.jpg
+Legenda: Sintomas típicos da doença em frutos de tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B548%7D20170823_095414.jpg
+Legenda: Sintomas típicos da doença em frutos de tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B389%7D2014-09-16_13.58.04.jpg
+Legenda: Sintomas típicos da doença em frutos de tomate. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B458%7Dimg-20161028-wa0025.jpg
+Legenda: Sintomas típicos da doença no caule do tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B416%7D2014-09-11_09.47.26.jpg
+Legenda: Sintomas típicos da doença no caule do tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B532%7D20170927_085256.jpg
+Legenda: Sintomas típicos da doença no caule do tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B474%7D20170804_165510.jpg
+Legenda: Sintomas típicos da doença no caule do tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B234%7D2015-07-15_15.24.22.jpg
+Legenda: Sintomas típicos da doença no caule do tomateiro. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B5%5D%7B277%7D2014-09-11_09.48.00.jpg
+Legenda: Sintomas típicos da doença no caule do tomateiro. Foto: Rafael G. F. Morales
+
+-- INFORMAÇÕES GERAIS: --
+- Consultar o AGROCONNECT no site da Epagri/CIRAM para saber o grau de risco de ocorrência da doença. Clique aqui! - Não existem cultivares resistentes à doença. - Não ocorre transmissão via semente. - Em temperaturas acima de 30ºC, dificilmente ocorre, mas o patógeno permanece nos restos culturais por cerca de 45-60 dias e pode provocar danos assim que as condições climáticas tornarem-se favoráveis (1). - É a mais destrutiva entre as doenças do tomateiro, podendo dizimar culturas inteiras em poucos dias (2).
+
+-- SINTOMAS: --
+A requeima afeta todos os órgãos aéreos do tomateiro e é geralmente mais notada na metade superior da planta. Nas folhas: Iniciam-se com lesão aquosa que cresce rapidamente, fica necrosada e com as bordas de um verde mais claro que o dos tecidos sadios. Sob condições de alta umidade, na face inferior das folhas, surge um mofo esbranquiçado. Quando o ataque é severo, pode haver coalescência das lesões, com a destruição rápida da folhagem, dando a ela um aspecto de que foi queimada por geada, daí o nome de “requeima”. No Pecíolo/Caule: Semelhante às da folha e tendem a causar um anelamento de todo o órgão, podendo atingir 3 a 10 cm de comprimento. Nos frutos: Lesões do tipo podridão dura, de cor pardo escura, profundas e de superfície irregular e podem expandir até atingir o fruto inteiro. Em ambiente úmido, micélio branco-cinza pode cobrir as áreas lesionadas (2). Os sintomas severos assemelham-se a uma queimadura por geada.
+
+-- O QUE PODE ESTAR OCORRENDO: --
+1- Condições climáticas altamente favoráveis, que é a baixa temperatura (12 a 16°C) e alta umidade relativa (91 a 100%). Solução: manejar o ambiente para evitar tais condições, como o uso de exaustores, telas laterais que permitam uma melhor circulação de ar (sugestão: 1mm), aumentar o espaçamento entre plantas (sugestão: 60cm), não irrigar ao entardecer, de modo a evitar que o solo fique úmido a noite; limpar a cobertura plástica no inverno para aumentar a insolação dentro do abrigo e reduzir o tempo de molhamento foliar. 2- Plantas sobreviventes e voluntárias nas proximidades. Solução: Essas plantas devem ser removidas da área de plantio e das proximidades e os restos culturais devem ser destruídos, pois o patógeno permanece nos restos culturais. Evitar o plantio próximo de outras lavouras de tomate e batata. 3- Plantio em terrenos de baixada, úmidos ou sombreados, ou próximas de lavouras velhas. Solução: Evitar essas áreas. 4- Irrigação por aspersão. Solução: Trocar o sistema pelo de gotejamento.
+
+-- PLANTAS HOSPEDEIRAS: --
+Phytophthora infestans possui um grande número de plantas hospedeiras, principalmente da família Solanaceae, com predominância em várias espécies do gênero Solanum, sendo a batateira (Solanum tuberosum) a principal hospedeira. Pimentão (Capsicum annum), Arrebenta-cavalo ( Solanum sisymbrifolium ), figueira do inferno ( Datura stramonium ), picão branco ( Galinsoga parviflora ), gerânio (Pelargonium hortorum), corda de viola ( Ipomoea purpurea ), maravilha ( Mirabilis jalapa ), falso-joá-de-capote ( Nicandra physaloides ), petúnia (Petunia hybridah), joá-de-capote ( Physalis angulata ), maria pretinha ( Solanum nigrum ), cacau ( Theobroma cacao ) e berinjela ( Solanum melongena ) são hospedeiras potencialmente importantes para as condições brasileiras. Vale destacar que apesar destas espécies terem sido descritas como hospedeiras, não há na maioria dos casos maior detalhamento quanto a importância destas espécies como fonte de inóculo (4).
+
+-- CONTROLE: --
+- Não existem cultivares de tomateiro com boas características agronômicas e resistência duradoura a P. infestans (3). Controle cultural: - Evitar o plantio em baixadas, em locais úmidos e sujeitos a neblina; - Evitar épocas de plantio com temperaturas médias variando entre 12 a 20°C e com chuvas e neblinas frequentes; - Favorecer a ventilação; - Evitar o plantio adensado (5); - Não utilizar sementes de frutos doentes; - Fazer rotação de culturas por 2 ou 3 anos, com gramíneas; - Eliminação de restos culturais; - Níveis equilibrados de cálcio contribuem a redução da severidade da doença (3). Manejo preventivo: Usar calda bordalesa (0,3%) quando as condições ambientais forem favoráveis (alta umidade e baixas temperaturas). **Esse método é o utilizado na produção de tomate orgânico na Epagri EEI. Resultados altamente satisfatórios quando a calda bordalesa é corretamente preparada (Link Calda Bordalesa) . Sugestão de estratégias de controle: - Baixa Favorabilidade: Se T°>16°C; UR<90%; + ausência de chuva fina; Molhamento Foliar (MF) > 10h = Pulverizar fungicida protetor semanalmente. - Média Favorabilidade: Se 12°C 90%; + ausência de chuva fina; MF > 10h = Pulverizar semanalmente um fungicida protetor, com possibilidade de uso de fungicida sistêmico, alternadamente. - Alta Favorabilidade: Se 12°C 90%; Presença de chuva fina, Nevoeiro; MF > 10h = Pulverizar fungicida sistêmico alternando com fungicida protetor até duas vezes por semana.
+
+-- Controle químico: --
+Usar a associação entre fungicidas protetor/contato, junto com fungicidas sistêmicos/translaminar. Os principais ingredientes ativos que são recomendados hoje para o controle da requeima são (5): Fungicida protetor/contato (5): Clorotalonil, ciazofamida, fluazinam, hidróxido de cobre, mancozebe, metiram, oxicloreto de cobre, óxido cuproso, propinebe, zozamida. Fungicida sistêmico/translaminar (5): Benalaxil, bendiavalicarbe isoproprilico, cimoxanil, cloridrato de propamocarbe, dimetomorfe, famoxadona, fenamidona, fluopicolide, mandipropamida, metalaxyl-M.
+
+-- Informações Complementares --
+(1) DUARTE, H.S.S., ZAMBOLIM, L. & RODRIGUES, F.A. Controle da requeima em tomateiro industrial com fungicidas e silicato de potássio. Fitopatologia Brasileira 32:257-260. 2007. (2) http://www.agencia.cnptia.embrapa.br/gestor/tomate/arvore/CONT000fhjql8s902wyiv801z2f4wf4xgbos.html. (3) ZAMBOLIM, L.; VENTURA, J. A.; ZANÃO JR, L. A. Efeito da nutrição mineral no controle de doenças de plantas. Viçosa, MG: Os autores, 2012, 321p. Demais informações: Rafael Morales. Pesquisador de olericultura da Epagri de Itajaí. (4) Site Agrolink: https://www.agrolink.com.br/problemas/requeima_1523.html. (5) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Valdir Lourenço Junior. Tema: Manejo de doenças causadas por fungos e oomicetos da parte aérea do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: https://youtu.be/nbTgf6CdmcY

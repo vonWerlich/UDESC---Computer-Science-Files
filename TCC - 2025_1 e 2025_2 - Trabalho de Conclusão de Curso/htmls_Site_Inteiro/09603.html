@@ -1,0 +1,327 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9346&amp;isEdicao=N&amp;epagriTEC=S">LEGISLAÇÕES</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9603&amp;isEdicao=N&amp;epagriTEC=S">Inspeção Industrial e Sanitária de Produtos de Origem Animal</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="8656">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="09603">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[8656]{126}canva_-_isolated_meat_icon_fill_design.svg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b><h1> JULHO 2021 À ABRIL 2024</h1></b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b> PORTARIA MAPA Nº672, DE 08 DE ABRIL DE 2024 </b>- Estabelece os procedimentos de cadastro no Sistema de Gestão de Serviços de Inspeção (e-Sisbi), as diretrizes e as regras de transição para a integração de Serviços de Inspeção ao Sistema Brasileiro de Inspeção de Produtos de Origem Animal (Sisbi-Poa).<a target="_blank" href="https://www.in.gov.br/web/dou/-/portaria-mapa-n-672-de-8-de-abril-de-2024-552780312">Acessar Portaria.</a><br><br> 
+
+<b> PORTARIA SDA Nº744, DE 25 DE JANEIRO DE 2023 </b> - Aprova a nomenclatura de produtos de origem animal, não formulados, em natureza e comestíveis, para as espécies de açougue.<a target="_blank" href="https://www.in.gov.br/en/web/dou/-/portaria-sda-n-744-de-25-de-janeiro-de-2023-460782093">Acessar Portaria.</a><br><br> 
+
+<b> PORTARIA Nº289, DE 13 DE SETEMBRO DE 2021 </b>  - Estabelece regulamento para enquadramento dos produtos de abelhas e seus derivados em Artesanal para concessão do selo ARTE.<a target="_blank" href="https://www.in.gov.br/en/web/dou/-/portaria-n-289-de-13-de-setembro-de-2021-344351478">Acessar Portaria.</a><br><br> 
+
+<b> LEI Nº18.189, DE 23 DE AGOSTO DE 2021 </b> - Institui a Política Estadual de Pesca Artesanal, Industrial, Amadora ou Esportiva no Estado de Santa Catarina e adota outras providências.
+<a target="_blank" href="https://www.legisweb.com.br/legislacao/?id=419261#:~:text=Institui%20a%20Pol%C3%ADtica%20Estadual%20de,Catarina%20e%20adota%20outras%20provid%C3%AAncias.">Acessar Lei.</a><br><br>
+
+<b> LEI Nº18.188, DE 23 DE AGOSTO DE 2021 </b> - Dispõe sobre a aquisição, por restaurantes e estabelecimentos congêneres, de pescado fresco diretamente dos pescadores artesanais e aquicultores.<a target="_blank" href="https://leisestaduais.com.br/sc/lei-ordinaria-n-18188-2021-santa-catarina-dispoe-sobre-a-aquisicao-por-restaurantes-e-estabelecimentos-congeneres-de-pescado-fresco-diretamente-dos-pescadores-artesanais-e-aquicultores">Acessar Lei.</a><br><br>
+
+<b>PORTARIA INMETRO Nº327, DE 28 DE JULHO DE 2021 </b> - Dispõe sobre a indicação da quantidade líquida de produtos cárneos pré-embalado <a target="_blank" href="https://www.in.gov.br/en/web/dou/-/portaria-inmetro-n-327-de-28-de-julho-de-2021-335761884">Acessar Portaria.</a><br><br>
+
+<b> PORTARIA GAB/MAPA Nº240, DE 23 DE JULHO DE 2021 </b> - Altera o anexo da Instrução Normativa MAPA nº 22, de 24 de novembro de 2005, que aprova o Regulamento Técnico para rotulagem de produto de origem animal embalado.<a target="_blank" href="https://www.in.gov.br/web/dou/-/portaria-n-240-de-23-de-julho-de-2021-334483686">Acessar Portaria.</a><br><br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b><h1> DEZEMBRO 2020 À JUNHO 2021 </h1></b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b> PORTARIA Nº176, DE 16 DE JUNHO DE 2021  </b> – Estabelece o Regulamento para enquadramento do pescado e do produto alimentício derivado do pescado em artesanais necessário à concessão do selo ARTE.<a target="_blank" href="https://www.in.gov.br/web/dou/-/portaria-n-176-de-16-de-junho-de-2021-327670560">Acessar Portaria.</a><br><br>
+
+<b> PORTARIA INMETRO Nº250, DE 09 DE JUNHO DE 2021 </b> - Aprova o Regulamento Técnico Metrológico consolidado que estabelece a metodologia para a determinação de conteúdo efetivo em pescados, moluscos e crustáceos glaciados pré-embalados. <a target="_blank" href="http://www.inmetro.gov.br/legislacao/rtac/pdf/RTAC002776.pdf">Acessar Portaria.</a><br><br>
+
+<b> PORTARIA SAR Nº 1, DE 05 DE JANEIRO DE 2021 </b> – Estabelece a obrigatoriedade do cadastro, registro e monitoramento sanitário dos estabelecimentos avícolas de pequena escala em Santa Catarina.<a target="_blank" href="http://www.cidasc.sc.gov.br/defesasanitariaanimal/files/2021/01/Cesav-Portaria-SAR-001-2021-estabelecimentos-av%C3%ADcolas-pequena-escala.pdf">Acessar Portaria.</a><br><br>
+
+<b> RESOLUÇÃO RDC Nº459, DE 21 DE DEZEMBRO DE 2020 </b> – Estabelece as instruções de preparo, uso e conservação obrigatórias na rotulagem de produtos de carne crua suína e de aves.<a target="_blank" href="https://www.in.gov.br/en/web/dou/-/resolucao-de-diretoria-colegiada-rdc-n-459-de-21-de-dezembro-de-2020-295779485#:~:text=Estabelece%20as%20instru%C3%A7%C3%B5es%20de%20preparo,crua%20su%C3%ADna%20e%20de%20aves.&amp;text=1%C2%BA%20Esta%20Resolu%C3%A7%C3%A3o%20estabelece%20as,crua%20su%C3%ADna%20e%20de%20aves.">Acessar Resolução.</a><br><br>
+
+<b> INSTRUÇÃO NORMATIVA Nº 67, DE 14 DE DEZEMBRO DE 2020 </b> – SDA/MAPA - Altera e retifica o anexo da Instrução Normativa MAPA nº 22, de 24 de novembro de 2005 que aprova o Regulamento Técnico para rotulagem de produto de origem animal embalado. <a target="_blank" href="https://www.in.gov.br/en/web/dou/-/instrucao-normativa-n-67-de-14-de-dezembro-de-2020-294301069">Acessar Instrução Normativa.</a><br><br> 
+
+<b> INSTRUÇÃO NORMATIVA Nº 66, DE 08 DE DEZEMBRO DE 2020 </b> – SDA/MAPA - Altera a Instrução Normativa nº 61, de 16 de novembro de 2020 (produtos cárneos artesanais).  <a target="_blank" href="https://www.in.gov.br/en/web/dou/-/instrucao-normativa-n-66-de-8-de-dezembro-de-2020-293240738">Acessar Instrução Normativa.</a><br><br>  <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<img src="./img/iconeDocumento.png">  <a target="_blank" style="text-decoration: none;" href="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8656]{398}perguntas_e_respostas_riispoa_versao_agosto_2020.pdf">PERGUNTAS E RESPOSTAS - RIISPOA VERSÃO AGOSTO 2020</a> <br>
+<br>
+<b><h1> 2020 </h1></b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b> INSTRUÇÃO NORMATIVA Nº92, DE 18 DE SETEMBRO DE 2020</b> Dispõe Sobre a Identidade e os Requisitos de Qualidade do Charque, da Carne Salgada Curada Dessecada, do Miúdo Salgado Dessecado e do Miúdo Salgado Curado Dessecado.
+<a target="_blank" href="https://alimentusconsultoria.com.br/instrucao-normativa-no-92-de-18-de-setembro-de-2020-sda-mapa/">Acessar Instrução Normativa.</a><br><br>
+
+<b>DECRETO Nº10.468, DE 18 DE AGOSTO DE 2020</b> - Altera o Decreto nº 9.013, de 29 de março de 2017, que regulamenta a Lei nº 1.283, de 18 de dezembro de 1950, e a Lei nº 7.889, de 23 de novembro de 1989, que dispõem sobre o regulamento da inspeção industrial e sanitária de produtos de origem animal. <a target="_blank" href="http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10468.htm#:~:text=DECRETO%20N%C2%BA%2010.468%2C%20DE%2018,de%20produtos%20de%20origem%20animal.">Acessar Decreto.</a><br><br>
+
+<b> PORTARIA SAR Nº23, DE 17 DE AGOSTO DE 2020</b> Aprova a Norma Interna Regulamentadora da Linguiça Blumenau no Estado de Santa Catarina.<a target="_blank" href="https://www.legisweb.com.br/legislacao/?id=400163">Acessar Portaria.</a><br><br>
+
+<b> PORTARIA SAR Nº20, DE 28 DE JULHO DE 2020 </b> - Estabelece o procedimento para a concessão do Selo ARTE aos produtos alimentícios de origem animal registrados no Serviço de Inspeção Oficial - municipal (SIM), Estadual (SIE) ou Federal (SIF), produzidos de forma artesanal no Estado de Santa Catarina. <a target="_blank" href="http://www.cidasc.sc.gov.br/inspecao/files/2020/07/Portaria-SAR-20-2020-Selo-ARTE.pdf">Acessar Portaria.</a><br><br> 
+
+<b>PORTARIA SAR Nº17, DE 22 DE JUNHO DE 2020 </b> – Estabelece que o Serviço de Inspeção Industrial e Sanitária de Produtos de Origem Animal no Estado de Santa Catarina será executado de acordo com o Regulamento da Inspeção Industrial e Sanitária de Produtos de Origem Animal, aprovado pelo Decreto Estadual nº 3.748, de 1993, alterado pelo Decreto Estadual nº 2.740, de 2009, em conformidade com as normas operacionais estabelecidas nesta Portaria, ou por demais normativas que venham a alterar ou substituir a legislação vigente. <a target="_blank" href="http://www.cidasc.sc.gov.br/inspecao/files/2020/06/Portaria-SAR-17-2020-Estabelece-os-procedimentos-de-inspe%C3%A7%C3%A3o-e-fiscaliza%C3%A7%C3%A3o.pdf">Acessar Portaria.</a><br><br>
+
+<b> INSTRUÇÃO NORMATIVA Nº29, DE 23 DE ABRIL DE 2020</b> - Estabelece os requisitos para o livre comércio de produtos de origem animal, inspecionados por consórcio público de Municípios. <a target="_blank" href="https://www.in.gov.br/en/web/dou/-/instrucao-normativa-n-29-de-23-de-abril-de-2020-253757948">Acessar Instrução Normativa.</a><br><br>
+
+<b>OFÍCIO CIRCULAR DIPOA/SDA/MAPA Nº28, DE 30 DE MARÇO DE 2020</b> - Estabelece medidas administrativas temporárias para execução de atividades exercidas pelo Serviço de Inspeção Federal considerando as medidas de prevenção ao contágio pelo Novo Coronavírus (COVID-19). Decreto Legislativo nº 06, de 20/03/2020. Decreto 10.282, de 20/03/2020. Medida Provisória nº 927, de 22/03/2020. Medida Provisória nº 928, de 22/03/2020. Instrução Normativa nº 21, de 16/03/2020. Portaria GM nº 123, de 23/03/2020. Ofício-Circular nº 15/2020/SDA/MAPA. Portaria GM nº 116, de 26 de março de 2020. <a target="_blank" href="https://www.cnabrasil.org.br/assets/arquivos/OFI%CC%81CIO-CIRCULAR-N%C2%BA-28-2020-DIPOA-SDA.pdf">Acessar Ofício Circular.</a><br><br>
+
+<b>INSTRUÇÃO NORMATIVA Nº17, DE 06 DE MARÇO DE 2020</b> – Estabelece os Procedimentos para Reconhecimento da Equivalência e Adesão Ao Sistema Brasileiro de Inspeção de Produtos de Origem Animal (Sisbi-Poa), do Sistema Unificado de Atenção à Sanidade Agropecuária (SUASA). <a target="_blank" href="http://www.in.gov.br/en/web/dou/-/instrucao-normativa-n-17-de-6-de-marco-de-2020-247281167">Acessar Instrução Normativa.</a><br><br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b><h1>2019</h1></b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b>INSTRUÇÃO NORMATIVA Nº73, DE 23 DE DEZEMBRO DE 2019</b> – Estabelece, em todo o território nacional, o Regulamento Técnico de Boas Práticas Agropecuárias destinadas aos produtores rurais fornecedores de leite para a fabricação de produtos lácteos artesanais, necessárias à concessão do selo ARTE, na forma desta Instrução Normativa e do seu Anexo. <a target="_blank" href="http://www.in.gov.br/en/web/dou/-/instrucao-normativa-n-73-de-23-de-dezembro-de-2019-235851288">Acessar Instrução Normativa.</a><br><br>
+
+<b> DECRETO Nº9.918, DE 18 DE JULHO DE 2019</b> - Regulamenta o art. 10-A da Lei nº 1.283, de 18 de dezembro de 1950, que dispõe sobre o processo de fiscalização de produtos alimentícios de origem animal produzidos de forma artesanal. <a target="_blank" href="https://www.in.gov.br/en/web/dou/-/decreto-n-9918-de-18-de-julho-de-2019-198615217">Acessar Decreto.</a><br><br>
+
+<b>RESOLUÇÃO RDC Nº272, DE 14 DE MARÇO DE 2019</b> – Estabelece os aditivos alimentares autorizados para uso em carnes e produtos cárneos. <a target="_blank" href="http://www.in.gov.br/web/guest/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/67378977/do1-2019-03-18-resolucao-da-diretoria-colegiada-rdc-n-272-de-14-de-marco-de-2019-67378770">Acessar Resolução.</a><br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b><h1>2005 à 2018</h1></b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b>INSTRUÇÃO NORMATIVA Nº20, DE 26 DE JULHO DE 2018 </b> – Aprova o plano de amostragem e limites de referência para o Plano Nacional de Controle de Resíduos e Contaminantes em Produtos de Origem Animal – PNCRC de 2018 para as cadeias de carnes bovina, suína, caprina, ovina, equina, coelho, aves, avestruz, de leite, pescado, mel e ovos. <a target="_blank" href="https://alimentusconsultoria.com.br/instrucao-normativa-no-20-de-26-de-julho-de-2018-mapa/">Acessar Instrução Normativa.</a><br><br>
+
+<b>LEI Nº13.680, DE 14 DE JUNHO DE 2018</b> -  Altera a Lei nº 1.283, de 18 de dezembro de 1950, para dispor sobre o processo de fiscalização de produtos alimentícios de origem animal produzidos de forma artesanal. <a target="_blank" href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/Lei/L13680.htm#:~:text=LEI%20N%C2%BA%2013.680%2C%20DE%2014,animal%20produzidos%20de%20forma%20artesanal./">Acessar Lei.</a><br><br>
+
+<b>INSTRUÇÃO NORMATIVA Nº17, DE 29 DE MAIO DE 2018</b> – Aprova o Regulamento Técnico sobre a identidade e requisitos de qualidade que deve atender o produto cárneo temperado, na forma desta Instrução Normativa. <a target="_blank" href="http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/16742430/do1-2018-06-01-instrucao-normativa-n-17-de-29-de-maio-de-2018-16742426">Acessar Instrução Normativa.</a><br><br>
+
+<b>DECRETO Nº9.069, DE 31 DE MAIO DE 2017 </b> - Altera o Decreto nº 9.013, de 29 de março de 2017, que regulamenta a Lei nº 1.283, de 18 de dezembro de 1950, e a Lei nº 7.889, de 23 de novembro de 1989, que dispõem sobre a inspeção industrial e sanitária de produtos de origem animal (RIIISPOA). <a target="_blank" href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/D9069.htm">Acessar Decreto.</a><br><br>
+
+<b>DECRETO Nº9.013, DE 29 DE MARÇO DE 2017</b> -  Regulamenta a Lei nº1.283, de 18 de dezembro de 1950 e a Lei nº7.889, de 23 de novembro de 1989, que dispõem sobre a inspeção industrial e sanitária de produtos de origem animal (RIIISPOA). <a target="_blank" href="http://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/20134722/do1-2017-03-30-decreto-n-9-013-de-29-de-marco-de-2017-20134698">Acessar Decreto.</a><br><br>
+
+<b> IN Nº22, DE 24 DE NOVEMBRO DE 2005 </b> - Aprova o Regulamento Técnico para Rotulagem de Produtos de Origem Animal Embalado. <a target="_blank" href="https://www.cidasc.sc.gov.br/inspecao/files/2012/08/instru%C3%A7%C3%A3o-normativa-22_2005.pdf">Acessar Instrução Normativa.</a><br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b><h1>Regulamentos Técnicos de Identidade e Qualidade de Produtos de Origem Animal</h1></b><br>
+<p class="p1"><div> <a target="_blank" href="https://www.gov.br/agricultura/pt-br/assuntos/suasa/regulamentos-tecnicos-de-identidade-e-qualidade-de-produtos-de-origem-animal-1">Acessar Regulamentos.</a><br> <br> </div></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+ 
+ </div></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Aline Ulir Calliari (Nutricionista - Epagri) </font> 
+<br><br><br> <font size="2"> Criado em: 23/06/2020</font>
+<br> <font size="2"> Última atualização: 05/07/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=09603&amp;cdElemento=8656">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=8656');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

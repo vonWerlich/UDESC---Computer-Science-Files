@@ -1,0 +1,22 @@
+Título: TOMATE - Nutrição Mineral - Nitrogênio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04645&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B733%5D%7B339%7D101.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B733%5D%7B426%7D101.jpg
+Legenda: Comparação da tonalidade de verde de uma folha com adubação equilibrada de nitrogênio (esquerda) e com deficiência de N (direita). Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+
+-- Informações gerais: --
+- O N é o segundo nutriente mais acumulado pelo tomate (5) além de favorecer o desenvolvimento foliar, aumentando assim a capacidade de realizar fotossíntese, consequentemente levando ao aumento de produtividade. No entanto, a aplicação em excesso proporciona o crescimento exagerado do caule e das folhas, contribuindo para o acamamento da planta. Assim, contribui para tornar a planta menos tolerante a falta de água, mais suscetível ao ataque de doenças, provoca doenças fisiológicas, como podridão apical, frutos ocos e frutos com ombro-verde, e leva a maturação tardia dos frutos (1). - Há um aumento significativo na absorção do nitrogênio a partir dos 25 dias após o transplantio (DAT), prosseguindo com um aumento contínuo até os 60 DAT, mantendo o mesmo patamar elevado até os 100 DAT, com redução acentuada no final do ciclo produtivo (Informações baseadas nas curvas de absorção de nutrientes dos cultivares Pizzadoro e Carmem).
+
+-- Como identificar: --
+- Os sintomas de deficiência surgem em folhas mais velhas (1) como amarelecimento das folhas baixeiras (2), e gradualmente progridem para as novas (4), pois devido à translocação que apresenta na planta, as folhas mais novas permanecem normais (1). - Dentre os sintomas de deficiência estão: pequeno desenvolvimento da planta, folhagem verde-pálido e afinamento das folhas novas, e em casos de deficiência mais aguda, a paralisação do desenvolvimento das raízes (1). As hastes e nervuras se tornam roxas, e o crescimento da planta é atrofiado (4). - Os botões florais amarelecem e cai (3). - Em casos de deficiência mais severa, as folhas se tornam completamente amarelas ou marrons antes de caírem da planta (4).
+
+-- O que pode estar ocorrendo: --
+- Insuficiência de fertilizante nitrogenado (3). -Baixo nível de matéria orgânica no solo (3). - Elevado nível de matéria orgânica não decomposta no solo (3). - Deficiência de molibdênio e/ou de potássio (3) (5). - Compactação do solo (3). - Intensa lixiviação (3). - Seca prolongada (3). - Solos arenosos (5). - Deficiência de água por condições naturais ou manejo inadequado da irrigação (5).
+
+-- Controle: --
+- A correção se faz pela aplicação de nitrogênio, preferencialmente na forma nítrica (3), pelo fato do nitrato ser a forma mais absorvida pelas plantas e também por causa do menor índice salino das fontes nítricas (5). - Uso de plantas de cobertura que favoreçam a descompactação do solo e disponibilizem matéria orgânica (3). - Manejo adequado de água no solo (3).
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) LOPES, C. A.; ÁVILA, A. C. de. Doenças do tomateiro. Brasilia: Embrapa Hortaliças, 2005. (3) DA SILVA, J. C. et al. Cultivo de tomate para Industrialização. Revista Eletrônica Embrapa Hortaliças. v. 27, 2006. (4) Yara. Disponível em: . Acesso em 17/10/2018. * Embrapa hortaliças. Disponível em: https://sistemasdeproducao.cnptia.embrapa.br/FontesHTML/Tomate/TomateIndustrial_2ed/deficiencias.htm (5) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474.

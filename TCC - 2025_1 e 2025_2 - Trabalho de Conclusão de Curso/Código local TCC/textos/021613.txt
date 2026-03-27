@@ -1,0 +1,33 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Podridão do pé (Dickeya dadantii)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021613&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11382%5D%7B318%7Dpodrepe_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B309%7Dpodrepe_fig01.jpg
+Legenda: 01. Sintomas externos de podridão do pé. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B536%7Dpodrepe_fig02.jpg
+Legenda: 02. Sintomas externos de podridão do pé. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B326%7Dpodrepe_fig03.jpg
+Legenda: 03. Mancha de podridão do pé no colmo. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B422%7Dpodrepe_fig04.jpg
+Legenda: 04. Plantas com sintomas de podridão do pé. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B100%7Dpodrepe_fig05.jpg
+Legenda: 05. Podridão do pé na lavoura. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B340%7Dpodrepe_fig06.jpg
+Legenda: 06. Podridão do pé na lavoura. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B34%7Dpodrepe_fig07.jpg
+Legenda: 07. Reboleira de podridão do pé na lavoura.null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B293%7Dpodrepe_fig08.jpg
+Legenda: 08. Sintomas internos da podridão do pé. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B50%7Dpodrepe_fig09.jpg
+Legenda: 09. Colmo sadio e colmo apodrecido. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B298%7Dpodrepe_fig10.jpg
+Legenda: 10. Vista interna de colmo sadio e colmo apodrecido. Fonte: K.K.Scheuermann
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: bacteria Dickeya dadantii . A espécie D. dadantii , é derivada da reclassificação de bactérias do gênero Pectobacterium (formalmente Erwinia ), sendo portanto uma bactéria pectolítica.
+
+-- SINTOMAS: --
+Os sintomas se manifestam principalmente durante a fase de perfilhamento. Inicialmente observam-se plantas cloróticas, apresentando necrose na região interna do colmo, no ponto de emissão das raízes. A doença ao evoluir, provoca o apodrecimento da base planta e morte de perfilhos, com forte odor.
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.

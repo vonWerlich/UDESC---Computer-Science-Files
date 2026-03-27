@@ -1,0 +1,39 @@
+Título: ARROZ IRRIGADO - 04. Sistemas de cultivo - Pré-germinado
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013188&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+04. Sistemas de cultivo
+Pré-germinado
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11444%5D%7B133%7D04_pregerm_caput.jpg
+FOTO: H.F.Prando (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+Este é o sistema mais empregado em Santa Catarina e ganhou grande destaque desde a sua introdução, por sua capacidade de mitigação do problema do arroz-daninho e menor dependência das condições climática para a semeadura. A ampla adoção do sistema, no final da década de 70 e início dos anos 80, promoveu um salto na produtividade das lavouras catarinenses em torno de 300%. O sistema pré-germinado tem se mostrado adaptado às condições de cultivo catarinenses, visto que têm sido utilizado nas mesmas áreas, na forma de monocultura e com aumento de produtividade, por mais de 50 anos, não perdendo espaço para outros sistemas de cultivo.
+
+-- PRÁTICAS DE LAVOURA: --
+As principais práticas que caracterizam o sistema são a inundação e o preparo do solo antes da semeadura e a distribuição das sementes de arroz sobre lâmina de água, através do uso de distribuidores de sementes/adubos ( figuras abaixo ). Para que as sementes possam se desenvolver sob a lâmina de água, as mesmas precisam passar pelo processo de pré-germinação, cujas recomendações encontram-se descritas no Capítulo 9 Item 4 .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11444%5D%7B342%7D04_pregerm_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11444%5D%7B290%7D04_pregerm_fig02.jpg
+
+-- INUNDAÇÃO DOS QUADROS: --
+A inundação dos quadros deve ser iniciada entre 25 e 30 dias antes da data programada para a semeadura. Este tempo é necessário para o crescimento das plântulas oriundas de sementes já germinadas e para inibir novos fluxos de germinação de plantas daninhas. As plantas estabelecidas poderão ser controladas pelas operações de preparo final do solo antes da semeadura do arroz. Este tempo é também importante para que ocorram as reações de correção do solo e liberação dos nutrientes. O respeito à este intervalo entre a inundação e a semeadura é extremamente importante para o máximo aproveitamento dos benefícios do sistema.
+
+-- PREPARO DO SOLO: --
+As operações de preparo do solo compreendem o revolvimento do solo pré-inundação, a formação da lama e o renivelamento e alisamento do solo. O revolvimento pré-inundação pode ser feito por meio de gradagem (grade niveladora) ou rotativação, e tem como intuito de eliminar das plantas daninhas remanescentes das operações de manejo de entressafra ( figuras abaixo ). A operação de formação da lama compreende o destorroamento e homogeneização da massa de solo, e pode ser realizada com o auxílio do rodão-gaiola ou enxada rotativa ( figuras abaixo ). O renivelamento e alisamento podem ser realizados com o auxílio da prancha niveladora, com acoplamento do rodão-gaiola para melhorar a mobilidade do conjunto mecanizado ( figuras abaixo ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11444%5D%7B202%7D04_prepsolo_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11444%5D%7B19%7D04_prepsolo_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11444%5D%7B511%7D04_prepsolo_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11444%5D%7B56%7D04_prepsolo_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11444%5D%7B431%7D04_prepsolo_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11444%5D%7B328%7D04_prepsolo_fig06.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11444%5D%7B70%7D04_prepsolo_fig07.jpg
+
+-- VANTAGENS DO SISTEMA PRÉ-GERMINADO: --
+• Adoção do manejo da irrigação como prática integrada no controle de plantas daninhas. • Ampliação da janela de preparo do solo, com possibilidade de realização das operações mesmo em épocas chuvosas. • Aproveitamento do volume precipitado na primavera para inundação, reduzindo a necessidade de bombeamento. • Redução da necessidade de correção da acidez e dos níveis de fósforo do solo.
+
+-- CUIDADOS NA CONDUÇÃO DO PRÉ-GERMINADO: --
+• Reduzir ao máximo o número de drenagens na fase de estabelecimento da lavoura. • Quando necessária a drenagem, realizar as operações para retorno da lâmina de água o mais rápido possível, evitando reinfestações de plantas daninhas e reduzindo o volume de água necessário para formação da lâmina. • Dedicar máxima atenção à operação de nivelamento do solo, pois a homogeneidade da lâmina de água é fundamental para o adequado estabelecimento do arroz, controle eficiente de plantas daninhas e redução do uso de água. • Atentar para a ocorrência de caramujos, procedendo todas as operações recomendadas para a redução da população da praga. • Não drenar a área após as operações de preparo do solo, para evitar a perda de nutrientes e o transporte de sedimentos para as águas dos rios.
+
+-- Informações Complementares --
+• Douglas George de Oliveira (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola

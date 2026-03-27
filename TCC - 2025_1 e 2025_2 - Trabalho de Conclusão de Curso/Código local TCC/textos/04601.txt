@@ -1,0 +1,19 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Ombro amarelo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04601&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1516%5D%7B189%7Dombro_amarelo.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1516%5D%7B162%7Dombro_amarelo.jpg
+Legenda: Frutos de tomate com ombro-amarelo. Foto: C. A. Lopes
+
+-- SINTOMAS: --
+A região em volta do pedúnculo do fruto apresenta manchas irregulares amarelas, que, sob condições mais severas, podem tornar-se esbranquiçadas e enrugadas. A região interna afetada adquire consistência semelhante a isopor (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Altas temperaturas antes do início do amadurecimento dos frutos (1). - Baixo teor de potássio no solo (1).
+
+-- CONTROLE: --
+- Plantio de cultivares menos sensíveis (1). - Adubações balanceadas, baseadas em análises de solo (1).
+
+-- Informações Complementares --
+(1) LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005.

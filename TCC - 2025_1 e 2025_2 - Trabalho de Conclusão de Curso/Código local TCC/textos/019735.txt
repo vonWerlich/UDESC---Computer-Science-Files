@@ -1,0 +1,13 @@
+Título: CEBOLA - Escolha do cultivar - Sprint
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019735&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17288%5D%7B387%7Dsprint.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Código: 074; Cultivar: Sprint; Categoria: Bulbos; - Época de plantio: Inverno; - Ciclo (nº de dias): 90 a 100; - Formato: Globular.
+
+-- CARACTERÍSTICAS: --
+Variedade super precoce com ótima uniformidade de maturação (estalo). Apresenta alta produtividade, bulbos uniformes e de coloração castanho claro.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br/produto/ver/150/cebola-sprint

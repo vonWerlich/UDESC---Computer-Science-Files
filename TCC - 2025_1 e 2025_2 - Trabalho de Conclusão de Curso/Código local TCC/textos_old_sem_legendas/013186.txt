@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - 02. Caracterização da planta de arroz - Respostas da planta de arroz ao ambiente de cultivo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013186&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+02. Caracterização da planta de arroz
+Respostas da planta de arroz ao ambiente de cultivo
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11441%5D%7B457%7D02_arrozamb_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+As plantas de arroz são muito sensíveis às condições climáticas adversas nas épocas-chave, as quais podem causar prejuízos consideráveis para a definição dos componentes de rendimento.
+
+-- EXIGÊNCIAS CLIMÁTICAS DAS PLANTAS DE ARROZ: --
+Considerando o nível de impacto das condições adversas, pode-se estabelecer a seguinte ordem de importância das exigências climáticas das plantas de arroz: 1ª - Radiação solar nas fases reprodutiva e de enchimento de grãos. 2ª - Temperatura na fase reprodutiva. 3ª - Temperatura na fase de estabelecimento da lavoura.
+
+-- MANEJO PARA MELHOR RENDIMENTO: --
+O manejo dos efeitos das condições climáticas sobre a cultura deve ser feito por meio da escolha da época de semeadura. A época ideal para a semeadura deve ser aquela com menor risco de ocorrência de condições adversas nas épocas chave, considerando a ordem de importância das exigências climáticas. As tabelas abaixo apresentam as condições climáticas ideais e adversas em cada época chave, bem como o tipo de impacto sobre os componentes de rendimento.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11441%5D%7B516%7D02_tabcondadversas1_2021.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11441%5D%7B522%7D02_tabcondadversas2_2021.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11441%5D%7B160%7D02_tabcondadversas3_2021.jpg
+
+-- Informações Complementares --
+• Alexander de Andrade (Dr. em Melhoramento - Epagri) Melhoramento e cultivares
+• Marcos Lima Campos do Vale (Dr. em Solos e Nutrição de Plantas - Epagri) Manejo do solo e adubação

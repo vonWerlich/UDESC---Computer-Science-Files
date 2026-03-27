@@ -1,0 +1,19 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - C) MANEJO DE PLANTAS NA PRODUÇÃO INTEGRADA - j) Raleio de frutos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02501&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2264%5D%7B550%7Dfigura_7.jpg
+
+-- Conceito: --
+O tomate pode ser dividido em unidades fonte-dreno. As folhas são fontes de fotoassimilados e os frutos os principais drenos. Os fotoassimilados das folhas podem ser translocados para qualquer fruto, dependendo das condições fitossanitárias da planta. Como os frutos são drenos metabólicos fortes, os fotoassimilados são translocados preferencialmente para eles. A relação fonte-dreno pode exercer influência nas variações da produção por planta, bem como no tamanho e na massa individual dos frutos. Assim, o raleio de frutos é uma técnica cultural que pode alterar a relação fonte-dreno, propiciando aumento da produtividade comercial, no tamanho e na massa média dos frutos.
+
+-- Quando fazer: --
+É necessário destacar que a resposta à técnica de raleio de frutos dos cachos de tomate é diversa entre os cultivares. Os cachos (racimos) florais, principalmente de cultivares com cachos ramificados, possuem excessiva produção de frutos. Assim os frutos terminais/ apicais (Figura 7A), menores e afastados dos cachos, devem ser retirados logo no início do desenvolvimento para favorecer o crescimento dos frutos remanescentes. Alguns cultivares possuem cachos simples e com número de frutos definidos, dispensando a prática com essa finalidade. Frutos com doenças fitopatológicas (Figura 7B), danificados por insetos-praga (Figura 7C) ou com doenças fisiológicas (Figuras 7D e 7E) e malformados também devem ser retirados logo após a constatação do problema e depositados fora da lavoura.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2264%5D%7B9%7Dfigura_7.jpg
+Legenda: (A) Raleio de frutos defasados (indicado pela seta), (B) com doença fitopatológica, (C) com ataque de insetos-praga, (D) com podridão apical e (E) com lóculo aberto. Fonte: Sispit 2016.
+
+-- Vantagens: --
+Essa prática também favorece o maior crescimento dos frutos sadios remanescentes e elimina fontes de inóculo de doenças, propiciando com isso maior produtividade comercial e massa média de frutos. Por outro lado, sem a efetuação do raleio de frutos, o tomateiro apresenta maior número de frutos por planta. Nesse caso, pode inclusive haver maior produtividade, todavia os frutos terão massa média menor e menor valor comercial.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

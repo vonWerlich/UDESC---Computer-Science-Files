@@ -1,0 +1,30 @@
+Título: TOMATE - Nutrição Mineral - Ferro
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0871&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B753%5D%7B122%7Dcaptura_de_tela_2019-02-21_13.26.57_-_copia.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B753%5D%7B422%7Dcaptura_de_tela_2019-02-21_13.26.57.png
+Legenda: Evolução de sintomas de deciência de ferro em tomateiro. Foto: Rosa Honorato de Oliveira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B753%5D%7B123%7Dcaptura_de_tela_2019-02-21_13.26.57_-_copia_%284%29.png
+Legenda: Evolução de sintomas de deciência de ferro em tomateiro. Foto: Rosa Honorato de Oliveira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B753%5D%7B514%7Dcaptura_de_tela_2019-02-21_13.26.57_-_copia_%283%29.png
+Legenda: Evolução de sintomas de deciência de ferro em tomateiro. Rosa Honorato de Oliveira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B753%5D%7B261%7Dcaptura_de_tela_2019-02-21_13.26.57_-_copia_%282%29.png
+Legenda: Evolução de sintomas de deciência de ferro em tomateiro. Foto: Rosa Honorato de Oliveiranull
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B753%5D%7B260%7D108.jpg
+Legenda: Sintomas típicos da deficiência de ¿ferro. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+
+-- Informações gerais: --
+O ferro participa de funções importantes na planta como a fotossíntese, a respiração e o balanço hormonal (5). Além disso, é o micronutriente mais acumulado pela planta do tomate e casos de deficiência e toxicidade têm sido relatado quando o cultivo é feito em ambiente sem solo (4). O sintoma de deficiência de ferro é muito raro em cultivo realizado no solo. Contudo, no cultivo sem solo, principalmente naqueles em que são utilizados substratos 100% inertes, como é o caso da casca de coco, o erro do manejo da solução nutritiva pode levar facilmente a ocorrência da deficiência desse micronutriente.
+
+-- Como identificar: --
+O sintoma de deficiência de ferro é caracterizado por redução no crescimento da planta e coloração amarela uniforme nas folhas novas e eventualmente nas folhas intermediárias (1). Apresentam clorose nas áreas intercostais das folhas jovens, seguido do amarelecimento completo das pontas dos brotos (2).
+
+-- O que pode estar ocorrendo: --
+- Problema com solos encharcados (1). - Solos de textura arenosa (4). - Excesso de calagem (1). - Excessos na aplicação cobre e zinco (1). - Em cultivo sem solo pode estar ocorrendo problemas com a estabilidade do agente quelatizante. Existem quelatos próprios para soluções mais ácidas (FeEDTA e FeDTPA), quelatos que possuem maior disponibilidade numa faixa de pH entre 5 e 6,5 (FeHEDTA) e quelatos que mantém a estabilidade numa ampla faixa de pH (FeEDDHA), tanto ácida como básica.
+
+-- Correção: --
+No caso de cultivo sem solo, usar um quelato que fique estável na faixa de pH observado. Para cultivo no solo, a correção da deficiência é feita com a aplicação de ferro quelatizado em pulverizações (1).
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) YARA. Disponível em: https://www.yarabrasil.com.br/nutricao-de-plantas/tomate/deficiencias---tomate/deficiencia-de-ferro---tomate/. Acesso em: 19/10/2018. (3) Rosa Honorato de Oliveira et al. Caracterização de sintomas visuais de deciência de micronutrientes em tomateiro do grupo salada. Semina: Ciências Agrárias, Londrina, v. 30, suplemento 1, p. 1093-1100, 2009. (4) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474. (5) MALAVOLTA, E. Manual de nutrição mineral de plantas. 1. ed. São Paulo: Editora Agronômica Ceres, 2006.

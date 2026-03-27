@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016943&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16886%5D%7B287%7Dchave_fig01.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas)
+A praga é um inseto (tem três pares de pernas, antenas e asas)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16943%5D%7B171%7Dchave_fig03.jpg
+Legenda: A praga é um inseto (tem três pares de pernas, antenas e asas)
+16888
+A praga é um inseto (tem três pares de pernas, antenas e asas)
+A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16943%5D%7B435%7Dchave_fig04.jpg
+Legenda: A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora)
+16889
+A praga não é inseto (Pode ser um molusco, um ácaro, um crustáceo ou uma ave granívora)

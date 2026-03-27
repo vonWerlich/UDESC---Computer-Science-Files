@@ -1,0 +1,288 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9346&amp;isEdicao=N&amp;epagriTEC=S">LEGISLAÇÕES</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9348&amp;isEdicao=N&amp;epagriTEC=S">PNAE</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9349&amp;isEdicao=N&amp;epagriTEC=S">Leis, Resoluções e Notas Técnicas</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="8404">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="09349">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[8404]{386}canva_-_school_bell_icon.svg"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b><h1> 2023 À 2025 </h1></b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b> RESOLUÇÃO/CD/FNDE Nº3, DE 04 DE FEVEREIRO DE 2025 </b> - Altera a Resolução CD/FNDE nº 6, de 8 de maio de 2020, que dispõe sobre o atendimento da alimentação escolar aos alunos da educação básica no âmbito do Programa Nacional de Alimentação Escolar - PNAE.<a target="_blank" href="https://www.in.gov.br/web/dou/-/resolucao-cd/fnde-n-3-de-4-de-fevereiro-de-2025-611101217?fbclid=PAZXh0bgNhZW0CMTEAAaa6azXAQQoZHYyID1KZXSynOWDmV2xxnxg5I9yidXpOtDN25UcOSIl8fss_aem_Pv5sDiktORZtUlnEi4Kz-A">Acessar Resolução.</a><br><br>
+
+<b> LEI Nº 14.660, DE 23 DE AGOSTO DE 2023 </b> - Altera o art. 14 da Lei nº 11.947, de 16 de junho de 2009, para incluir grupos formais e informais de mulheres da agricultura familiar entre aqueles com prioridade na aquisição de gêneros alimentícios no âmbito do Programa Nacional de Alimentação Escolar (PNAE) e para estabelecer que pelo menos 50% (cinquenta por cento) da venda da família será feita no nome da mulher.<a target="_blank" href="http://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14660.htm">Acessar Lei.</a><br><br>
+
+<b> RESOLUÇÃO/CD/FNDE Nº2, DE 10 DE MARÇO DE 2023 </b> - Altera a Resolução CD/FNDE nº 6, de 8 de maio de 2020, que dispõe sobre o atendimento da alimentação escolar aos alunos da educação básica no âmbito do Programa Nacional de Alimentação Escolar – PNAE <a target="_blank" href="https://www.in.gov.br/en/web/dou/-/resolucao-n-2-de-10-de-marco-de-2023-469394679">Acessar Resolução.</a><br><br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<img src="./img/iconeDocumento.png">  <a target="_blank" style="text-decoration: none;" href="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[8404]{227}regioes_geograficas_ibge_composicao_por_municipios.xls">Regiões Geográficas Imediatas e Intermediárias IBGE, 2017</a> <br>
+<br>
+<b><h1> 2020 À 2022 </h1></b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b> RESOLUÇÃO/CD/FNDE Nº21, DE 16 DE NOVEMBRO DE 2021 </b> - Altera a Resolução/CD/FNDE nº 6, de 8 de maio de 2020, que dispõe sobre o atendimento da alimentação escolar aos alunos da educação básica no âmbito do Programa Nacional de Alimentação Escolar – PNAE.  (Limite individual de venda: R$ 40.000,00 por DAP Familiar/ano/entidade executora) <a target="_blank" href="https://www.alertadiario.com.br/publication_pages/e8c47-diario-oficial-da-uniao-secao-1-atos-normativos-extra-2021-11-16-pg-1">Acessar Resolução.</a><br><br> 
+
+<b> NOTA TÉCNICA Nº 2139545/2020/COSAN/CGPAE/DIRAE </b> - Alterações dos aspectos de Alimentação e Nutrição e da Agricultura Familiar dispostos na Resolução CD/FNDE nº 20, de 4 de dezembro de 2020.<a target="_blank" href="https://www.fnde.gov.br/index.php/programas/pnae/pnae-area-gestores/pnae-notas-tecnicas-pareceres-relatorios">Acessar Nota Técnica.</a><br><br> 
+
+<b>RESOLUÇÃO/CD/FNDE Nº20, DE 02 DE DEZEMBRO DE 2020 </b> - Altera a Resolução/CD/FNDE nº 6, de 8 de maio de 2020, que dispõe sobre o atendimento da alimentação escolar aos alunos da educação básica no âmbito do Programa Nacional de Alimentação Escolar – PNAE.
+ <a target="_blank" href="https://www.fnde.gov.br/index.php/acesso-a-informacao/institucional/legislacao/item/13923-resolu%C3%A7%C3%A3o-n%C2%B0-20,-de-02-de-dezembro-de-2020#:~:text=Altera%20a%20Resolu%C3%A7%C3%A3o%2FCD%2FFNDE,Nacional%20de%20Alimenta%C3%A7%C3%A3o%20Escolar%20%E2%80%93%20PNAE.">Acessar Resolução.</a><br><br>
+
+<b>NOTA TÉCNICA Nº 1897361/2020/DIDAF/COSAN/CGPAE/DIRAE </b>  - Alterações dos aspectos da Agricultura Familiar da Resolução CD/FNDE no 6, de 8 de maio de 2020.<a target="_blank" href="https://www.fnde.gov.br/index.php/programas/pnae/pnae-area-gestores/pnae-notas-tecnicas-pareceres-relatorios">Acessar Nota Técnica.</a><br><br>
+
+<b>NOTA TÉCNICA Nº 1879810/2020/COSAN/CGPAE/DIRAE </b> - Alterações dos aspectos de Alimentação e Nutrição e de Segurança Alimentar e Nutricional da Resolução CD/FNDE nº 6, de 8 de maio de 2020.<a target="_blank" href="https://www.fnde.gov.br/index.php/programas/pnae/pnae-area-gestores/pnae-notas-tecnicas-pareceres-relatorios">Acessar Nota Técnica.</a><br><br> 
+
+<b>RESOLUÇÃO/CD/FNDE Nº6, DE 08 DE MAIO DE 2020</b> - Dispõe sobre o atendimento da alimentação escolar aos alunos da educação básica no âmbito do Programa Nacional de Alimentação Escolar – PNAE. <a target="_blank" href="https://www.fnde.gov.br/index.php/centrais-de-conteudos/publicacoes/category/100-resolucoes?download=13857:resolu%C3%A7%C3%A3o-n%C2%BA-6,-de-08-de-maio-de-2020">Acessar Resolução.</a><br><br>
+
+<b>RESOLUÇÃO/CD/FNDE Nº02, DE 09 DE ABRIL DE 2020</b> - Dispõe sobre a execução do Programa Nacional de Alimentação Escolar – PNAE durante o período de estado de calamidade pública, reconhecido pelo Decreto Legislativo nº 6, de 20 de março de 2020, e da emergência de saúde pública de importância internacional decorrente do novo coronavírus – Covid-19.<a target="_blank" href="https://www.fnde.gov.br/index.php/acesso-a-informacao/institucional/legislacao/item/13453-resolu%C3%A7%C3%A3o-n%C2%B0-02,-de-09-de-abril-de-2020"> Acessar Resolução.</a><br><br>
+
+<b>LEI Nº13.987, DE 07 DE ABRIL DE 2020</b> – Altera a Lei nº 11.947, de 16 de junho de 2009, para autorizar, em caráter excepcional, durante o período de suspensão das aulas em razão de situação de emergência ou calamidade pública, a distribuição de gêneros alimentícios adquiridos com recursos do Programa Nacional de Alimentação Escolar (Pnae) aos pais ou responsáveis dos estudantes das escolas públicas de educação básica.<a target="_blank" href="http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13987.htm"> Acessar Lei.</a><br><br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b><h1>2018 À 2019 </h1></b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b>LEI Nº13.666, DE 16 DE MAIO DE 2018</b> – Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional, para incluir o tema transversal da educação alimentar e nutricional no currículo escolar).<a target="_blank" href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13666.htm"> Acessar Lei.</a><br><br>
+
+<b>LEI Nº17.504, DE 10 DE ABRIL DE 2018</b> – Altera a ementa e o art. 1º, da Lei nº12.282, de 2002, que dispõe sobre o fornecimento de alimentos orgânicos na merenda escolar nas unidades educacionais do Estado de Santa Catarina.<a target="_blank" href="http://leis.alesc.sc.gov.br/html/2018/17504_2018_Lei_promulgada.html"> Acessar Lei.</a><br><br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+ 
+ </div></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Aline Ulir Calliari (Nutricionista - Epagri) </font> 
+<br><br><br> <font size="2"> Criado em: 16/06/2020</font>
+<br> <font size="2"> Última atualização: 06/02/2025</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=09349&amp;cdElemento=8404">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=8404');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

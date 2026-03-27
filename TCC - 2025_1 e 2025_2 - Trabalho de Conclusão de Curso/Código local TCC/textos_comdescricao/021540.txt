@@ -1,0 +1,30 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Podridão do pé (Dickeya dadantii)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021540&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+12. Manejo de doenças
+Podridão do pé ( Dickeya dadantii )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11382%5D%7B318%7Dpodrepe_caput.jpg
+FOTO: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B309%7Dpodrepe_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B536%7Dpodrepe_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B326%7Dpodrepe_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B422%7Dpodrepe_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B100%7Dpodrepe_fig05.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B340%7Dpodrepe_fig06.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B34%7Dpodrepe_fig07.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B293%7Dpodrepe_fig08.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B50%7Dpodrepe_fig09.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11382%5D%7B298%7Dpodrepe_fig10.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: bacteria Dickeya dadantii . A espécie D. dadantii , é derivada da reclassificação de bactérias do gênero Pectobacterium (formalmente Erwinia ), sendo portanto uma bactéria pectolítica.
+
+-- SINTOMAS: --
+Os sintomas se manifestam principalmente durante a fase de perfilhamento. Inicialmente observam-se plantas cloróticas, apresentando necrose na região interna do colmo, no ponto de emissão das raízes. A doença ao evoluir, provoca o apodrecimento da base planta e morte de perfilhos, com forte odor.
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+• Klaus Konrad Scheuermann (Dr. em Fitopatologia - Epagri) Manejo de doenças

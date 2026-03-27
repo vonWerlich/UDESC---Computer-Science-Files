@@ -1,0 +1,39 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Lagarta-enroladeira (Panoquinaspp.)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016919&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Lagarta-enroladeira ( Panoquina spp. )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11365%5D%7B225%7Denrola_caput.jpg
+FOTO: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11365%5D%7B278%7Denrola_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11365%5D%7B144%7Denrola_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11365%5D%7B127%7Denrola_fig13.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11365%5D%7B340%7Denrola_fig21.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11365%5D%7B211%7Denrola_fig22.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11365%5D%7B310%7Denrola_fig23.jpg
+
+-- INFORMAÇÕES GERAIS: Praga ocasional --
+Espécie(s): Panoquina spp. Ordem: Lepidoptera Família: Hesperidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11365%5D%7B486%7Denrola_base.jpg
+
+-- IDENTIFICAÇÃO: --
+• O adulto é uma pequena borboleta com cerca de 35mm de envergadura e asas marrom-escuras, com triângulos translúcidos nas asas anteriores. Voam ativamente durante o dia, em alta velocidade, a procura de flores para sugar o néctar. • A lagarta é de coloração verde, com um par de estrias dorsais amareladas, cabeça cordiforme proeminente, marrom com desenhos, e abdome delgado. No seu completo desenvolvimento chega a 40mm de comprimento. Não ocorre exposta sobre as folhas, como as outras lagartas que surgem no arroz, mas encerrada dentro de um tubo formado com a folha enrolada.
+
+-- CICLO DE VIDA: --
+Ainda desconhecido.
+
+-- OCORRÊNCIA: --
+Anual: de setembro a maio. Lavoura: do perfilhamento à maturação. Nota: a lagarta-enroladeira normalmente está sob forte pressão de controle biológico, o que impede a ocorrência de populações elevadas.
+
+-- DANOS: --
+As lagartas se alimentam das folhas do arroz, porém a desfolha dificilmente causa impacto na produção de grãos.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• A incidência de lagarta-enroladeira nas lavouras de arroz é bem casual e não necessita de intervenção com medidas específicas de controle.
+
+-- Informações Complementares --
+OLIVEIRA, J.V.; FREITAS, T.F.S.; FIUZA, L.M.; MENEZES, V.G.; DOTTO, G. Manual de insetos associados à cultura do arroz irrigado . Cachoeirinha: IRGA, 2010. 56p. (IRGA. Boletim Técnico, 8).
+OLIVEIRA, J.V.; FREITAS, T.F.S.; FIUZA, L.M.; MENEZES, V.G.; DOTTO, G. Manual de insetos associados à cultura do arroz irrigado . Cachoeirinha: IRGA, 2010. 56p. (IRGA. Boletim Técnico, 8).
+• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri) Manejo integrado de pragas

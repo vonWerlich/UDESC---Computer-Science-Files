@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 06. Manejo nutricional - Análise e adubação foliar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013143&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+06. Manejo nutricional
+Análise e adubação foliar
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11409%5D%7B221%7D06_adfoliar_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+A análise do teor de nutrientes na planta deve ser utilizada principalmente para a identificação de deficiências de micronutrientes. As condições de formação dos solos cultivados com arroz em Santa Catarina geralmente proporcionam boa disponibilidade de micronutrientes, não tendo sido observadas deficiências desses nutrientes em plantas de arroz nos levantamentos realizados pela Epagri até o momento. Contudo, algumas áreas com solos arenosos ou orgânicos podem eventualmente apresentar alguma deficiência.
+
+-- ADUBAÇÃO FOLIAR: --
+A adubação foliar deve ser utilizada principalmente para fornecer micronutrientes nas fases finais do desenvolvimento vegetativo. Não há, até o momento, indicação de aplicação foliar de macronutrientes (principalmente potássio) para o arroz irrigado, tanto pela não observação de benefícios dessa prática, quanto pelo risco de ocorrência de esterilização de espiguetas, causadas pela precipitação de sais em aplicações feitas na floração.
+
+-- Informações Complementares --
+• Rafael Ricardo Cantú (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação
+• Marcos Lima Campos do Vale (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação
+• Gelton Geraldo Fernandes Guimaraes (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação

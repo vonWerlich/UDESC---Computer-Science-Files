@@ -1,0 +1,12 @@
+Título: CEBOLA - DIAGNOSE VISUAL - Folhas - Descoloração
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016648&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B550%7D%5B12407%5D%7B278%7Dmildio_1.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16648%5D%7B267%7D%5B12703%5D%7B504%7Dfigura_16.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16648%5D%7B401%7D%5B12699%5D%7B276%7Dfigura_11.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16648%5D%7B207%7D%5B12702%5D%7B168%7Dfigura_15.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16648%5D%7B206%7D%5B12694%5D%7B129%7Dfigura_3.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16648%5D%7B528%7D%5B12704%5D%7B388%7Dfigura_17.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16648%5D%7B186%7D%5B12407%5D%7B432%7Dmildio_3.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16648%5D%7B344%7D%5B12407%5D%7B278%7Dmildio_1.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16648%5D%7B192%7D%5B12407%5D%7B259%7Dmildio_2.jpg

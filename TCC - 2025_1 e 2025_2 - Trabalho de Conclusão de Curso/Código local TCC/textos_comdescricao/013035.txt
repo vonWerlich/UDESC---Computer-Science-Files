@@ -1,0 +1,34 @@
+Título: ARROZ IRRIGADO - 05. Manejo de entressafra - Manejo da palha do arroz
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013035&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+05. Manejo de entressafra
+Manejo da palha do arroz
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11343%5D%7B374%7D05_palha_caput.jpg
+FOTO: D.S.Eberhardt (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+O período de entressafra do arroz, que vai desde a colheita até a semeadura da safra seguinte, é de grande importância para o manejo da cultura. Nele é possível atuar sobre importantes fatores de produção, permitindo melhorar o potencial produtivo da lavoura.
+
+-- A PALHA DO ARROZ: --
+A palha ou resteva do arroz ( figuras abaixo ) pode se tornar o refúgio ideal para manutenção e proliferação de pragas, patógenos e plantas daninhas do arroz irrigado. Pragas importantes como a bicheira-da-raiz, caramujos, e eventualmente o percevejo-do-grão podem permanecer na palha e, inclusive, se reproduzir. Por outro lado, a palha do arroz representa uma importante fonte de nutrientes. Para que esses nutrientes possam ser aproveitados pelas plantas de arroz na safra seguinte, é necessária a incorporação da palha, visando facilitar sua decomposição e promover a liberação e a absorção destes nutrientes por plantas que irão germinar e crescer durante a entressafra. Este processo, denominado ciclagem, é fundamental para a redução das perdas de nutrientes no período da entressafra, principalmente o potássio. Apesar de ser fonte de nutrientes, a palha do arroz também pode produzir ácidos orgânicos após a inundação do solo. Essa produção é mais prejudicial quando a incorporação da palha é realizada pouco antes da semeadura do arroz e pode dificultar o crescimento das plântulas ou até mesmo provocar a sua morte, prejudicando o estabelecimento da lavoura.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11343%5D%7B204%7D05_palha_01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11343%5D%7B254%7D05_palha_02.jpg
+
+-- MANEJO DA PALHA: --
+O manejo mais indicado para a palha é sua destruição logo após a colheita, aproveitando o calor do final do verão e do início do outono para a decomposição. Além disso, a destruição neste período proporciona uma maior exposição das sementes de plantas daninhas e de cultivares que estão na superfície ( figuras abaixo ), reduzindo a sua viabilidade ou facilitando sua germinação fora do período de cultivo, o que pode diminuir a infestação na safra seguinte. As operações de destruição da palha devem proporcionar o melhor contato desta com o solo, evitando-se ao máximo o revolvimento da superfície para não promover o enterrio das sementes de plantas daninhas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11343%5D%7B16%7D05_sementesuperficie_01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11343%5D%7B315%7D05_sementesuperficie_02.jpg
+
+-- MAQUINÁRIO PARA MANEJO DA PALHA: --
+Os implementos mais indicados para esta operação são o rolo-faca e a grade niveladora ( figuras abaixo ). O rolo-faca apresenta vantagens como a maior agilidade na operação, o melhor nivelamento da superfície e o menor revolvimento do solo. Atualmente, este é o implemento mais recomendado para a realização da incorporação da palha, que deve ser efetuada com uma fina lâmina d’água na superfície do solo. A enxada rotativa promove o enterrio de boa parte das sementes que estão na superfície, não sendo recomendada para a operação de incorporação da palha.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11343%5D%7B288%7D05_rolofaca_01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11343%5D%7B318%7D05_rolofaca_02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11343%5D%7B457%7D05_rolofaca_03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11343%5D%7B163%7D05_manejossolo.jpg
+
+-- Informações Complementares --
+• Marcos Lima Campos do Vale (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação
+• Ricieri Verdi (Engº-agrº - Epagri) Manejo da lavoura orizícola
+• Douglas George de Oliveira (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola

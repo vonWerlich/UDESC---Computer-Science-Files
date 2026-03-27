@@ -1,0 +1,17 @@
+Título: BANANA - Cultivares - SCS453 Noninha
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021671&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+SCS453 Noninha
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18354%5D%7B107%7Dcap_3_-_fig_1_-_letra_i_-_buques_maduro_noninha_-_autoria_eliseu_emanoel_dos_santos.jpg
+Tabela fornece uma comparação detalhada do peso médio de cachos em quilogramas (kg) de quatorze cultivares e híbridos de banana – incluindo 'BRS SCS Belluna' (com 11.39 kg na 1ª safra e 20.25 kg nas demais em Itajaí; 9.00 kg na 1ª e 16.72 kg na 2ª em Urussanga), 'Nanicão' (30.46 kg na 1ª e 35.61 kg nas demais em Itajaí; 20.09 kg na 1ª e 23.93 kg na 2ª em Urussanga), 'Grande Naine' (destacando-se como uma das mais produtivas, especialmente em Itajaí com 31.65 kg na 1ª safra e 37.99 kg nas demais, e em Urussanga com 22.77 kg na 1ª e 24.29 kg na 2ª), 'SCS452 Corupá', 'Williams', 'SCS453 Noninha' (com rendimento muito baixo de 10.8 kg na 1ª safra em Itajaí e dados ausentes para safras subsequentes e para Urussanga), 'SCS454 Carvoeira' (com dados apenas para Itajaí: 19.0 kg na 1ª e 19.4 kg nas demais), 'SCS451 Catarina', 'BRS Fhia Maravilha', 'BRS Princesa' (com dados omitidos para Itajaí, mas registrando 7.64 kg na 1ª safra e 15.93 kg na 2ª em Urussanga), 'BRS Tropical', 'BRS Thap Maeo', 'BRS Platina', e 'Ouro' (cujos valores em Urussanga, 6.63 kg na 1ª safra e 11.14 kg na 2ª, referem-se especificamente ao peso médio das pencas sem o engaço e a ráquis, e sem dados para Itajaí) – avaliados em duas localidades distintas no Brasil, Itajaí e Urussanga, sob a coluna "Cultivar/híbrido", com os dados de produtividade para "Peso em Itajaí (kg)" divididos entre '1ª safra' e 'demais safras' e para "Peso em Urussanga (kg)" divididos entre '1ª safra' e '2ª safra', sendo estes dados coletados sob condições experimentais em períodos específicos conforme notas de rodapé (Itajaí: entre 1997-2010 e 2016-2020; Urussanga: entre 2010-2012 e 2015-2018), e a análise geral aponta para uma produtividade geralmente superior na localidade de Itajaí em comparação com Urussanga, além de indicar lacunas e omissões de dados para certas cultivares em determinadas condições ou localidades, servindo como um recurso crucial para a tomada de decisões informadas sobre a seleção das cultivares de banana mais adequadas para diferentes condições ambientais e ciclos de produção no Brasil.
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAB, subgrupo Prata. Originária no sul de Santa Catarina de mutação natural do cultivar Prata Anã. Devido ao porte mais baixo, suporta maior densidade de plantio onde as recomendações de espaçamento são as mesmas dos cultivares do subgrupo Cavendish, de 2,5m x 2,5m; 2,0m x 3,0m, ou 1.600 plantas por hectare. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

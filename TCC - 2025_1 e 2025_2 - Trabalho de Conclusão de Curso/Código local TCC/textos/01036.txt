@@ -1,0 +1,32 @@
+Título: TOMATE - Cultivares - Dylla F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=01036&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B918%5D%7B462%7Dfb_img_1549766156655.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Syngenta; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a fungos: C1-5 - Cladosporium 1-5; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Grande (231 a 250 g); Tamanho do fruto: Médio (201 a 230 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Crescimento: Indeterminado. Planta: Vigorosa com excelente cobertura foliar e proteção dos frutos. Fruto: Redondo, levemente achatado, Multilocular, Longa vida (superior a 10 dias em fruto vermelho) . Peso: 220-250 gramas. Colheita: 100 a 105 dias após a semeadura.
+
+-- RESISTÊNCIA: --
+Fusarium oxysporum f. sp. lycopersici race 1, 2 e 3; Verticillium albo-atrum e Verticillium dahliae; Cladosporium fulvum: (grupo A, B, C, D e E); T.M.V (0), ToMV (0,1 e 2) Tomato Yellow Leaf Curl Virus (TYLCV); Tomato Spotted Wilt Virus (TSWV) .
+
+-- RECOMENDAÇÕES AGRONÔMICAS: --
+Época de Plantio: Ano todo. Condições de Cultivo: Campo Aberto. Espaçamento para Cultivo: Duas hastes: 1,2-1,4m x 0,7-0,8m Fitilho (1 haste): 35 a 45 cm. Raleio de frutos: Recomenda-se a operação de raleio de frutos, mantendo os cachos com 6 a 8 frutos/penca até 6 penca e 4 a 6 atéo ponteiro, garantindo melhor padronização dos frutos da base até o ponteiro. Nutrição: Realizar boa adubação no Plantio (NPK), com especial atenção para o Fósforo (P) . Sugestão para as adubações de cobertura: observar relação N:K da colheita até o ponteiro, conforme recomendação para o hibrido. Atenção para o período de formação dos frutos, onde há grande demanda dos nutrientes Cálcio (Ca) e Boro (B) . Informação Importante: Após o último cacho deixar o crescimento de 3 folhas, visando proteção das pencas superiores. Estágio de Colheita: Frutos podem ser colhidos no estágio verde ou transição para vermelho (cor de cana ou pintando) . Sanidade: Resistência aos principais vírus geminivírus (TYLCV) e vira-cabeça (TSWV), além de F3: Possibilidade de cultivos em áreas com problemas de viroses e F3. Excelente pegamento de frutos com boa classificação: Alto potencial produtivo com retorno sobre os investimentos. Alto vigor e cobertura foliar: Proteção dos frutos contra manchas causadas por fatores climáticos. No momento este material é posicionado apenas para litoral Catarinense em função da pressão de Mosca Branca. O Dylla possui uma boa tolerância ao TYLCV.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B918%5D%7B378%7Dfb_img_1549766156655.jpg
+Legenda: 1) Dylla. Evento da Hortitec 2018. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B918%5D%7B204%7Dfb_img_1549766162219.jpg
+Legenda: 1) Dylla. Evento da Hortitec 2018. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B918%5D%7B319%7Dfb_img_1549766159806.jpg
+Legenda: 1) Dylla. Evento da Hortitec 2018. null
+
+-- Informações para a fertirrigação: --
+Para a cultivar Dylla, aos 122 dias após o transplante de mudas, a extração total (g/planta) foi de 17,5 de N, 1,9 de P, 22,1 de K, 10,8de Ca, 2,8de Mg e 4,8 de S (Furlani & Maggio, 2016, dados não publicados) (2).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.syngenta.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.syngenta.com.br.

@@ -1,0 +1,23 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Mancha circular (Alternaria padwickii)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021581&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11380%5D%7B541%7Dmcircular_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11380%5D%7B517%7Dmcircular_fig01.jpg
+Legenda: 01. Sintomas da mancha circular na folha. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11380%5D%7B505%7Dmcircular_fig02.jpg
+Legenda: 02. Mancha circular na folha. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11380%5D%7B423%7Dmcircular_fig03.jpg
+Legenda: 03. Mancha circular na folha. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11380%5D%7B82%7Dmcircular_fig04.jpg
+Legenda: 04. Sintomas de mancha circular na lavoura. Fonte: K.K.Scheuermann
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11380%5D%7B285%7Dmcircular_fig05.jpg
+Legenda: 05. Sintomas de mancha circular na lavoura. Fonte: K.K.Scheuermann
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: fungo Alternaria padwickii .
+
+-- SINTOMAS: --
+A doença provoca nas folhas manchas ovaladas de 3 a 10 mm de diâmetro, inicialmente amareladas, tornando-se cinza claro, com bordos escuros. Associado à mancha, há normalmente uma risca marrom que sobe para aponta da folha. Nos grãos o fungo provoca a mancha das glumas e pode infectar as plântulas durante o processo de germinação.
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.

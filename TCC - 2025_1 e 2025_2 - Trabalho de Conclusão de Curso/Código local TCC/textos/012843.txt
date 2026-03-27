@@ -1,0 +1,50 @@
+Título: PLANTAS PARA ADUBAÇÃO VERDE - Canola (Brassica napus)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012843&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11163%5D%7B211%7Dcanola_rio_do_sul_set2018_foto_juliane.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11163%5D%7B240%7Dcanola%2Bagronomica_set2019_foto_juliane.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11163%5D%7B189%7Dcanola_com_flores_amarelas_agronomica_10set19_foto_juliane.jpg
+Legenda: Canola com flores amarelas_Agronômica_10set19. Foto: Juliane Garcia Knapik Justen
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11163%5D%7B259%7Dcanola_agronomica_6set2020_foto_juliane.jpg
+Legenda: Canola_Agronômica_6set2020. Foto: Juliane Garcia Knapik Justen
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11163%5D%7B143%7Dcanola_agronomica_7ago2019_foto_juliane.jpg
+Legenda: canola_Agronômica_7ago2019. Foto: Juliane Garcia Knapik Justen
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11163%5D%7B232%7Dcanola_rio_do_sul_set2018_foto_juliane.jpg
+Legenda: canola_Rio do Sul_set2018. Foto: Juliane Garcia Knapik Justen
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11163%5D%7B109%7Dcanola_sementes_agronomica_nov2019_foto_juliane.jpg
+Legenda: canola_sementes_Agronômica_nov2019. Foto: Juliane Garcia Knapik Justen
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11163%5D%7B164%7Dcanola_foto_juliane_justen.jpg
+Legenda: Sementes. Foto: Juliane Garcia Knapik Justen
+
+-- INFORMAÇÕES GERAIS: --
+OUTROS NOMES COMUNS: couve-nabiça, raba, nabo-sem-pelos, rapeseed. NOME CIENTÍFICO: Brassica napus L. FAMÍLIA: Brassicaceae. ORIGEM: Índia.
+
+-- CARACTERÍSTICAS BOTÂNICAS: --
+PORTE: Herbáceo. HÁBITO DE CRESCIMENTO: Ereto. CAULE: Cilíndrico e ramificado. ALTURA DA PLANTA (m): 0,8 a 1,2. SISTEMA RADICULAR: Pivotante. PROFUNDIDADE DA RAIZ: 1 metro ou mais.
+
+-- INFORMAÇÕES FENOLÓGICAS: --
+CICLO VEGETATIVO: Anual. ÉPOCA IDEAL DE PLANTIO: Outono/inverno. ÉPOCA PREFERENCIAL DE PLANTIO: Maio e junho. ÉPOCA POSSÍVEL DE PLANTIO: Março a junho. CICLO PARA FLORESCIMENTO (dias): 50 a 75. CICLO PARA COLHEITA DE SEMENTES (dias): 140 a 180.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+PRODUÇÃO DE FITOMASSA (MS t/ha): 2 a 6. PRODUÇÃO DE FITOMASSA (MV t/ha): 20 a 50. TOLERÂNCIA À GEADA: Tolerante (até -3°C). TOLERÂNCIA A SOLOS ÁCIDOS: Baixa. TOLERÂNCIA A BAIXA FERTILIDADE DO SOLO: Média. TOLERÂNCIA AO DÉFICIT HÍDRICO: Baixa. TOLERÂNCIA AO ENCHARCAMENTO: Baixa. TOLERÂNCIA A BAIXA TEMPERATURA: Média. VELOCIDADE NA COBERTURA INICIAL DO SOLO: Rápida.
+
+-- SEMENTES: --
+PRODUTIVIDADE DE SEMENTES (kg/ha): 1500 a 2800. PESO DE MIL SEMENTES (gramas): 2,5 a 3,8. PRESENÇA DE SEMENTES DURAS: sem registro.
+
+-- SEMEADURA: --
+ESPAÇAMENTO ENTRE LINHAS (metros): 0,2 a 0,4. DENSIDADE DE SEMEADURA (kg/ha, em linha): 5 a 8. DENSIDADE DE SEMEADURA (kg/ha, a lanço): 10 a 15.
+
+-- COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: --
+RELAÇÃO C/N: 10 a 18. NITROGÊNIO (% na massa seca): 4. FÓSFORO (P2O5 % na massa seca): 0,2 a 0,25. POTÁSSIO (K2O % na massa seca): 0,15 a 0,23.
+
+-- INDICAÇÃO DE USO / CULTIVO: --
+ROTAÇÃO DE CULTURAS: Sequência, soja-canola-milho-trigo. OUTROS USOS: Alimentação animal (o farelo possui 34 a 38% de proteína), extração de óleos vegetais.
+
+-- INFORMAÇÕES FITOSSANITÁRIAS: --
+SUSCEPTIBILIDADE A PRAGAS E DOENÇAS: Mofo-branco ( Sclerotinia sclerotiorum ); manchas-de-alternaria ( Alternaria sp ); canela-preta ( Leptosphaeria maculans ); corós ( Diloboderus abderus ) e grilo-marrom ( Anurogryllus muticus ).
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+DESENVOLVIMENTO EM SANTA CATARINA: Ótimo desenvolvimento vegetativo. MANEJO DA FITOMASSA: Manejo mecânico (rolo-faca) a partir da emissão das primeiras flores, para evitar ressemeadura. Manejo químico em qualquer época. DICAS: A rolagem ou dessecação deverá ser realizada com 30% dos frutos (síliquas) formados. Sugere-se um intervalo de, pelo menos, dois anos, entre um cultivo e outro de canola para evitar proliferação de doenças. ATENÇÃO: Sofre prejuízos com geada no estádio de plântula e florescimento. CARACTERÍSTICA DESTAQUE: Em rotação, diminui problemas fitossanitários no trigo, soja e milho.
+
+-- Informações Complementares --
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, CLIQUE AQUI!

@@ -1,0 +1,15 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Manejo dos nutrientes e recomendação de adubação - Molibdênio (Mo)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014619&isEdicao=N&epagriTEC=S
+
+
+-- IMPORTÂNCIA DO NUTRIENTE: --
+O molibdênio atua como catalizador de reações de oxirredução em mais de 60 enzimas presentes nas células vegetais. Este micronutriente tem um importante papel no metabolismo do nitrogênio nas plantas, onde participa, por exemplo, no processo de redução do NO3- para NO2 ativando a enzima redutase do nitrato. Em plantas adultas de cebola deficientes em Mo ocorre a morte das extremidades (pontas) das folhas e abaixo delas aparecem partes flácidas ou murchas, enquanto a parte basal ainda permanece verde (TRANI et al., 2014). O molibdênio é absorvido pelas plantas na forma MoO42- quando o pH do meio é maior ou igual a 5 e como HMoO4-, em valores menores de pH. O molibdênio é necessário em pequenas quantidades, cerca de 100g de Mo por hectare para proporcionar boas produções de hortaliças em geral.
+
+-- SINTOMAS DE DEFICIÊNCIA: --
+Embora não seja comprovado o surgimento de deficiência de Mo e/ou resposta à adição desse nutriente no Brasil, em algumas situações durante o desenvolvimento da cultura, principalmente após as adubações nitrogenadas, pode ser benéfica a aplicação de Mo.
+
+-- RECOMENDAÇÃO DE MOLIBDÊNIO PARA A CEBOLA: --
+Para o fornecimento de Mo pode ser realizada aplicação via foliar usando como fonte o molibdato de sódio ou molibdato de amônio na concentração de 0,05% (0,5g por litro de água).
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

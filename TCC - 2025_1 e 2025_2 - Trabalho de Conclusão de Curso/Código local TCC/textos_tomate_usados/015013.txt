@@ -1,0 +1,19 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Manejo dos insetos praga - Monitoramento de insetos-praga
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015013&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+
+-- INFORMAÇÕES GERAIS: --
+O uso de armadilhas pode colaborar para o monitoramento e manejo de pragas do tomateiro. No mercado brasileiro as principais armadilhas disponíveis comercialmente são:
+
+-- Associadas a feromônios: --
+entre as principais vantagens da utilização desta técnica está a especificidade de controle, uma vez que a utilização de feromônios (moléculas químicas específicas utilizadas pelos insetos na comunicação) impedem a captura e a eliminação de insetos benéficos, tais como inimigos naturais e polinizadores. Entre as opções comerciais para utilização no manejo do tomateiro estão as armadilhas para a traça-do-tomateiro, broca-pequena e brocas-grande-do-tomateiro.
+
+-- Associadas a coloração: --
+são armadilhas estáticas que se utilizam de coloração atrativa em uma superfície impregnada em cola para a atração e captura de insetos alvos, que podem ser pequenas cartelas ou grandes faixas ao longo do abrigo de cultivo. As principais disponíveis são as amarelas e azuis, e visam principalmente a captura de tripes, mosca-branca e pulgões. Uma desvantagem desta técnica é sua generalização, uma vez que cores, como a amarela, exercem grande atratividade em inimigos naturais.
+
+-- Armadilha luminosa: --
+utiliza a atração por uma fonte de luz na captura de insetos alvo. No caso da cultura do tomateiro, pode ser utilizada na atração e manejo de adultos de traças e brocas, uma vez que estes insetos apresentam atividade noturna e boa resposta a estímulos luminosos. Também apresenta características generalistas no seu modo de coleta, não selecionando apenas organismos alvo.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

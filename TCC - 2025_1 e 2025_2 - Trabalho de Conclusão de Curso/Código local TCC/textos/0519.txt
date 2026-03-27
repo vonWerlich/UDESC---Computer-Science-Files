@@ -1,0 +1,35 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Plantas daninhas em arroz irrigado - Aguapé (Heteranthera reniformis)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0519&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B412%5D%7B440%7Dpldan_aguape_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B412%5D%7B130%7Dpldan_aguape_fig01.jpg
+Legenda: 01. Malha de aguapé. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B412%5D%7B96%7Dpldan_aguape_fig02.jpg
+Legenda: 02. Detalhe das folhas de aguapé. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B412%5D%7B491%7Dpldan_aguape_fig03.jpg
+Legenda: 03. Área de lavoura infestada por aguapé. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B412%5D%7B378%7Dpldan_aguape_fig04.jpg
+Legenda: 04. Plântulas de aguapé em lavoura de arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B412%5D%7B260%7Dpldan_aguape_fig05.jpg
+Legenda: 05. Infestação em desenvolvimento de aguapé. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B412%5D%7B3%7Dpldan_aguape_fig06.jpg
+Legenda: 06. Detalhe da plântula de aguapé. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B412%5D%7B176%7Dpldan_aguape_fig11d.jpg
+Legenda: 07. Aguapé se desenvolvendo em manancial. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B412%5D%7B238%7Dpldan_aguape_fig12.jpg
+Legenda: 08. Aguapé se desenvolvendo em manancial. Fonte: D.S.Eberhardt (remasterizada)
+
+-- DESCRIÇÃO BOTÂNICA: --
+Autor da Descrição: Horlandezan Bragança (1) Características da Planta: Família: Pontederiaceae Divisão e Classe: Angyospermae Monocotyledoneae Ciclo: Perene Reprod./Propagação: Estolão; Semente; Habitat/Tipologia: Planta Aquática Adaptações: Aquático - Flutuante; Altura(cm): 10 Características das Folhas: Filotaxia: Alternada Forma do Limbo: Obovadas: Reniforme Superfície: Glabras Consistência: Carnosa Nervação/Venação: Peltinérveas Comprimento (cm): 6-12 Características das Flores e do fruto: Inflorescência: Espiga Perianto: Diperiantada, Metaclamídea, Hermafrodita Tipologia do Fruto: Cápsula
+
+-- OBSERVAÇÕES: --
+Espécie infestante de arroz irrigado ou de várzea, beiras de canais e coleções de água, áreas úmidas ou inundadas. Serve para decorar tanques aquáticos (1).
+
+-- Produtos com reconhecido controle da invasora: --
+Ally ; Aurora ; Basagran ; 2,4-D ; Gladium ; Heat ; Invest/Gulliver ; Loyant ; Nominee ; Only ; Kifix ; Propanil* ; Ricer ; Sirius ; *Controle obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento (plântulas com até uma folha – V1).
+
+-- Produtos com controle médio (70% a 90%): --
+Gamit
+
+-- Informações Complementares --
+(1) AGROFIT: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html (2) Agrolink. Site: https://www.agrolink.com.br/problemas/agua-pe-mirim_1322.html

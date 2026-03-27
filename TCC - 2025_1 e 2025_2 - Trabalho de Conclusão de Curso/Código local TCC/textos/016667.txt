@@ -1,0 +1,5 @@
+Título: CEBOLA - DIAGNOSE VISUAL - Raízes - Deformações e nódulos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016667&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16660%5D%7B103%7D%5B7394%5D%7B279%7Dscreenshot_20200330-145456_adama_hf.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16667%5D%7B327%7D%5B7394%5D%7B279%7Dscreenshot_20200330-145456_adama_hf.jpg

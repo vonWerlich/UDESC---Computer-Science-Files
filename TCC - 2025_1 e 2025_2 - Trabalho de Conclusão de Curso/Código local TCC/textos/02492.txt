@@ -1,0 +1,23 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - C) MANEJO DE PLANTAS NA PRODUÇÃO INTEGRADA - a) Mudas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02492&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2255%5D%7B183%7Dcapa_1.jpg
+
+-- Importância de uma boa muda: --
+A produção de mudas se constitui numa das etapas importantes do sistema produtivo de tomate. Devido à atenção que deve ser dada a essa etapa e suas implicações futuras, as mudas de tomate devem ser adquiridas de produtores especializados e idôneos, com certificado fitossanitário, a fim de assegurar a alta qualidade das mudas em termos fisiológicos e fitossanitários.
+
+-- Vantagem no uso de bandejas: --
+Deve-se dar preferência às mudas produzidas em bandejas de poliestireno expandido (isopor) ou de plástico. A utilização de bandejas de poliestireno expandido e de plástico têm se mostrado eficiente nas etapas de semeadura, manuseio, produção, controle fitossanitário e nutricional e no transplante das mudas de tomate. Isso, principalmente, porque as bandejas são leves, de fácil manuseio, comportam um grande número de mudas por bandeja, ocupam pouco espaço para a sua produção e proporcionam mudas com torrão. Destacam-se ainda neste método de produção de mudas a economia de substrato e a melhor utilização da área de viveiro.
+
+-- Modelos de bandejas: --
+No mercado há vários modelos de bandejas de poliestireno expandido e de plástico com diversos números de células (72, 128, 200 e 288), todas com 68 x 34cm; sendo as profundidades e os volumes das células inversamente proporcionais ao número de células por bandeja, ou seja, quanto maior o número de células por bandeja, menor é sua profundidade, por conseguinte menor o volume de substrato por célula. Para a produção de mudas de tomate, as bandejas de 200 e de 288 células são as mais usadas. Todavia atualmente já há viveiristas que produzem mudas de tomate em bandejas de 450 células, sendo estas usadas por produtores de tomate para processamento industrial.
+
+-- Tamanho da célula da bandeja: --
+Destaca-se que na produção de mudas em bandejas, o tamanho da célula e o tipo de substrato são fatores que influenciam o desenvolvimento, a arquitetura do sistema radicular e o estado nutricional das mudas, sendo o maior volume de substrato por célula mais favorável às mudas. As bandejas com maior número de células podem ser economicamente mais vantajosas, porque produzem maior número de mudas em menor área e com menor custeio de substrato por muda, todavia, devido à limitação do espaço físico aos quais as plantas são submetidas, pode haver produção de mudas muito pequenas, com apenas duas folhas e com pouco volume radicular, além de atraso no início da colheita, pelo lento crescimento inicial, gerando prejuízo na produção final.
+
+-- O substrato: --
+O substrato deve apresentar ótimas propriedades físicas e teores adequados de nutrientes, além de facilitar a retirada das mudas das células em ponto de transplante com torrão.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

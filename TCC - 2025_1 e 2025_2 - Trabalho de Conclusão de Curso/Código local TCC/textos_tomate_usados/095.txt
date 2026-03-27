@@ -1,0 +1,26 @@
+Título: TOMATE - Fitossanidade - Vírus - Topo amarelo do tomateiro (TYTV ou PLRV)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=095&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1592%5D%7B491%7Dtopo_amarelo_1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1592%5D%7B259%7Dtopo_amarelo_1.jpg
+Legenda: Folhas retorcidas em forma de colher e clorose. Foto: C.A. Lopes
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1592%5D%7B340%7Dtopo_amarelo_3.jpg
+Legenda: Sintomas de topo amarelo. Foto: J. R. Carvalho
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1592%5D%7B24%7Dtopo_amarelo_2.jpg
+Legenda: Sintomas de topo amarelo. Foto: J. R. Carvalho
+
+-- INFORMAÇÕES GERAIS: --
+Topo amarelo do tomateiro (Tomato yellow top vírus – TYTV ou Potato leafroll vírus- PLRV), é uma doença causada por um vírus pertencente ao gênero Polerovirus, da família Luteoviridae e transmitida por Pulgões (2). A origem do nome da doença parte do sintoma de clorose vindo da planta de forma decrescente, de cima para baixo (2). Solanaceae, Amaranthaceae e Cruciferae são famílias botânicas que fazer parte da gama de hospedeoras do TYTV, sendo a batata uma potente fonte de inóculo para o tomate (2). A doença ocorre com maior frequência em climas amenos e quando o topo amarelo se infesta de plantas jovens, a doença se torna alarmante e o risco de perda é alta, podendo chegar em 100% (1).
+
+-- SINTOMAS: --
+- A doença é mais comum nas folhas da planta e os sintomas aparecem após 30 dias do aparecimento da doença (1). - Folhas retorcidas, amarelas e crescimento atrofiado (1). - Brotos auxiliares voltados para cima (2). - Redução dos frutos em tamanho e número (1). - Aborto das flores (1). - Clorose em folhas jovens (2). - Folíolos apresentam tamanho reduzido (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+1. Ataque da doença em climas amenos, como clima seco (1). 2. Propagação de pulgões. Solução: Monitoramento e controle dos pulgões.
+
+-- CONTROLE: --
+- Usar telas à prova de pulgões em sementeiras (2). - Cultivo do tomate em abrigos. - Manter a sementeira longe de plantas daninhas solanáceas (2). - Evitar o plantio de solanáceas no mesmo local da população primária do vírus. - Uso de inseticidas aficidas antes do transplante das mudas (2).
+
+-- Informações Complementares --
+1- Vale, F.X.R.; Zambolim, L.; Zambolim, E.M.; Alvarenga, M.A.R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. UFLA, 2004. cap 9, pag 268-270. 2- Lopes CA, Santos JRM. Doenças do tomateiro. Brasília: Embrapa; 1994.

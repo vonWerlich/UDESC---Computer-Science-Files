@@ -1,0 +1,33 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Bactérias - Franciselose
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09926&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9032%5D%7B270%7Dfrancis.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9032%5D%7B296%7Dfrancis2.jpg
+Legenda: Granulomas branco no fígado e lesões nas brânquias. Fonte: Jatobá et al. (2016)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B9032%5D%7B314%7Dfrancis3.jpg
+Legenda: Granulomas brancos no rim. Fonte: Jatobá et al. (2016)
+
+-- INFORMAÇÕES GERAIS: --
+A franciselose é uma doença causada pela bactéria Gram-negativa Francisella noatunensis subsp. orientalis. Essa bactéria possui crescimento intracelular, especialmente nas células de defesa do peixe, fator que dificulta ainda mais o combate.
+
+-- DISSEMINAÇÃO: --
+A disseminação dessa doença é realizada por meio do transporte de peixes infectados. Por isso, a importação de peixes de outros estados precisa ser cautelosa. Essa doença também possui transmissão vertical, por isso, o manejo de matrizes do produtor de alevino é importante para evitar sua transmissão.
+
+-- OCORRÊNCIA: --
+A doença ocorre mais comumente e também de forma mais severa no inverno, abaixo de 24°C, ou nos períodos de grande variação de temperatura (outono), por isso, os cuidados entre os produtores de Santa Catarina têm que ser redobrados.
+
+-- MANIFESTAÇÃO DA DOENÇA: --
+A doença aguda acomete principalmente alevinos e juvenis, ocasionando surtos de mortalidades de até 60%. Já a doença crônica acomete animais adultos, causando pequenas ou nenhuma mortalidade. Contudo, o animal adulto infectado com Francisella se torna mais susceptível à estreptococose. Além disso, em alguns casos, esses animais apresentam pontos negros no filé, podendo condenar até 15% dos mesmos.
+
+-- SINTOMAS: --
+Em Santa Catarina, o primeiro caso foi relatado em 2015 na região norte do estado (JATOBÁ et al., 2016). Os animais analisados em Santa Catarina apresentaram-se apáticos, com coloração escura e natação errática, lesões externas na nadadeira, brânquias hemorrágicas e olhos opacos. A sintomatologia mais característica dessa doença é a presença de nódulos brancos nos órgãos internos, principalmente rins. A mortalidade apresentada neste caso por Jatobá et al. (2016) foi de 55% do cultivo, e as tilápias apresentavam peso médio de 390g.
+
+-- NOTIFICAÇÃO AO MAPA: --
+A franciselose é uma doença de notificação obrigatória pelo Ministério da Agricultura, Pecuária e Abastecimento (MAPA), sendo necessário, no caso de surtos, sua notificação aos órgãos oficiais. No caso de Santa Catarina, o órgão oficial é a Cidasc. A propriedade deverá ser interditada até o término do tratamento e o laudo de um laboratório credenciado comprovando o controle da doença.
+
+-- CONTROLE: --
+- A franciselose ainda não possui vacina e, sendo assim, o tratamento deverá ser realizado com antibiótico (florfenicol).
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52). JATOBÁ, A., KLIPP, S. P., & HOPPE, R. (2016). Primeiro relato de Francisella noatunensis subespécie orientalis no sul do Brasil–relato de caso. Acta Veterinaria Brasilica, 10(2), 172-176.

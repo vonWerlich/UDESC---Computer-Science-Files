@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Lambdacialotrina Tiametoxan
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017158&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Lambdacialotrina Tiametoxan
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Lambdacialotrina Tiametoxan; Nome comercial: Eforia, Engeo Pleno, Platinum Neo; Grupo químico: Piretroide Neonicotinoide; Dose de produto comercial (Oebalus poecilus): 150 a 200mL/ha; Carência (dia): 21 Classe Toxicológica: 4 = pouco tóxico (faixa azul); Classe ambiental: I = altamente perigoso ao meio ambiente;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”.
+
+-- PRAGAS QUE CONTROLA: --
+Percevejo-do-grão (Oebalus spp.)
+
+-- Informações Complementares --

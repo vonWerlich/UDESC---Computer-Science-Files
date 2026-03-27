@@ -1,0 +1,16 @@
+Título: TOMATE - Tratos Culturais - Irrigação - 3.2) Manejo da água da irrigação - método da tensão de água no solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02198&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1990%5D%7B68%7D33.jpg
+
+-- Conceito: --
+O método da tensão de água no solo se baseia em leitura por meio de tensiômetros, que são equipamentos próprios para medir a tensão de água ou potencial matricial do solo. Existem diversos tipos de tensiômetros (digital, de ponteiro, de mercúrio, etc), com variável nível de precisão e confiabilidade. A tensão de água expressa a força com que a água está retida pelas partículas do solo. Assim, quanto maior a umidade do solo, menor é a tensão com que a água está retida e mais fácil é para as plantas retirar água do solo. A tensão ideal para cultura vai variar conforme o sistema de irrigação, tipo de solo e estádio de desenvolvimento da cultura.
+
+-- Valores de tensão de referência: --
+Como o tomateiro deve ser irrigado por gotejamento, sugere-se, de maneira geral, tensões entre 10 e 20 kPa nos estádios iniciais, de frutificação e maturação, e entre 20 e 30 kPa no estádio de desenvolvimento vegetativo. Quanto mais arenoso for o solo, menor deve ser o valor de tensão dentro dessas faixas indicadas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1990%5D%7B233%7D33.jpg
+Legenda: Tensiômetros com vacuômetro instalados numa lavoura de tomate experimental sob estresse hídrico. Fonte: www.hidrosense.com.br.
+
+-- Informações Complementares --
+Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019.

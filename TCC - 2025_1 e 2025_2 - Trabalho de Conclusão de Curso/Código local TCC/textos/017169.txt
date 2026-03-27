@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Fungicidas registrados para o controle de doenças na cultura do arroz - Certeza N
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017169&isEdicao=N&epagriTEC=S
+
+
+-- INFORMAÇÕES GERAIS: --
+Nome comercial: Certeza N; Finalidade: Produto para tratamento de sementes; Ingrediente ativo: tiofanato metílico + fluazinam; Formulação: FS (suspensão concentrada para tratamento de sementes); Dose (p.c./ha): 145 a 180 mL (Dose para 100 kg de sementes); Carência: ND = não determinado; Classificação toxicológica: 5 = improvável de causar dano agudo (faixa azul); Classificação ambiental: II = muito perigoso.
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+As recomendações estão de acordo com os registros obtidos do AGROFIT, acessado em 14/05/2020 (www.agricultura.gov.br), onde se encontra a listagem completa dos fungicidas registrados para a cultura do arroz. Carência = Tempo entre a última aplicação do produto e a colheita. Dose para 100 kg de sementes.
+
+-- RECOMENDAÇÕES DE CONTROLE DE DOENÇAS NO ARROZ: --
+- Aspergillus spp.; - Penicillium spp.; - Queima das bainhas ou rizoctoniose (Rhizoctonia solani) ; - Fusarium moniliforme.
+
+-- Informações Complementares --

@@ -1,0 +1,29 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - L) TECNOLOGIA DE APLICAÇÃO DE PRODUTOS FITOSSANITÁRIOS - h) Volume de calda por hectare
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03019&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2783%5D%7B34%7Dcapa_1.jpg
+
+-- Pulverizador costal: --
+Para uso de pulverizador costal, pode-se demarcar uma área de 100m2 (10m x 10m), onde será realizada uma pulverização com água em sua superfície, medindo-se o volume gasto, que posteriormente será extrapolado para um hectare, conforme a fórmula: Q = q x 10000 ÷ 100 Sendo: Q= volume de aplicação (Litros/hectare (10000 m2); q = vazão total (litros)
+
+-- Equipamentos tratorizados: --
+No caso de equipamentos tratorizados, a avaliação da vazão do equipamento pode ser obtida pelo seguinte procedimento: Colocar um volume conhecido dentro do tanque do equipamento e pulverizar até o esgotamento do líquido. Cronometrar o tempo consumido para esse procedimento.
+
+-- Exemplo baseado em Chaim (2009): --
+1) Medir 20 litros de água no tanque do pulverizador; 2) Acionar o pulverizador, selecionando a rotação do motor usualmente utilizada na pulverização; 3) Cronometrar o tempo que se gasta para pulverizar os 20 litros (ex.: 3 min e 15s); 4) Converter o tempo para segundos. Por exemplo, se o tempo gasto foi de 3min e 15s, multiplica-se a quantidade de minutos por 60 (3 x 60 = 180). Em seguida, soma-se o resultado à quantidade de segundos (180 + 15 = 195), logo o tempo foi de 195s; 5) Dividir os 20 litros pelo tempo em segundo (20/195 = 0,10256L/s); 6) Multiplicar o valor por 60 para obter a vazão em L/min: Vazão: 0,10256 x 60 = 6,15L/min; 7) Para dividir a vazão pelo número de bicos. Exemplo de pulverizador com 8 bicos: Vazão/bico = 6,16/8 = 0,77L/min; Essa informação é importante para aquisição de bicos novos. Na compra deve ser especificada a vazão desejada conforme a pressão de trabalho que se pretende utilizar. Exemplo de especificação: bico leque, ângulo de 80º, com vazão de 0,4L/min, pressão de 3,2kg/cm2 (ou 45lbf/pol2).
+
+-- Velocidade de deslocamento da máquina: --
+Já a avaliação da velocidade de deslocamento da máquina durante a pulverização pode ser obtida pelo seguinte procedimento: - Com uma trena medir um percurso de 50 metros; - Afastar o trator a 5 metros anteriores a esse percurso para imprimir velocidade durante o percurso; - Disparar o cronometro no momento em que o para-choque dianteiro do trator (ou outro ponto de referência) atingir a marca inicial. Desligar o cronômetro no momento em que o para-choque dianteiro atingir a marca final dos 50 metros. Anotar esse tempo e repetir a operação. Se, por exemplo, o trator demorar 40s para percorrer os 50m, deve-se dividir a distância percorrida pelo trator pela quantidade de segundos consumidos (50/40 = 1,25 m/s). Para transformar em minutos, multiplica-se o resultado por 60 (Velocidade = 1,25 x 60 = 75 m/min). Para saber a velocidade em km/h faz-se diretamente 75 m/1000 m (=1 km) x 60 min (1 hora) = 4,5 km/h ou também pela distância percorrida (50m) x 3,6 ÷ tempo (40s) = 4,5 km/h.
+
+-- Determinar o volume gasto por hectare deve ser aplicada a fórmula: --
+Q= q x 600 ÷ V x f Sendo: Q= volume de aplicação (litros/hectare); q = vazão total dos bicos durante 1 minuto (litros/minutos); f = espaçamento entre linhas de plantas (metros); 600 = fator de conversão; V = velocidade de aplicação (km/hora) – obtido pela fórmula: Velocidade (Km/h) = distância percorrida (m) x 3,6 ÷ tempo gasto (segundos)
+
+-- A quantidade de produto a ser adicionada ao tanque: --
+Conhecidas a taxa de aplicação e a capacidade do tanque de pulverização, calcula-se a quantidade de produto a ser adicionada ao tanque em cada reabastecimento. Dividindo-se o volume da calda ou a taxa de aplicação (L/ha) pela capacidade do tanque (L) obtém-se o número de tanques que serão utilizados para pulverizar a área de um hectare.
+
+-- A quantidade de produto a ser adicionada a cada tanque: --
+A quantidade de produto a ser adicionada a cada tanque é obtida dividindo-se a dose recomendada para um hectare pelo número de tanques que serão necessários para esta área. Não se deve considerar a quantidade de produto por 100 litros e sim por hectare, levando em consideração que o volume deverá ser menor que 1000 litros/hectare. Ao se considerar a quantidade de produto em 100 litros, além do uso desnecessário de água e do produto, essa prática poderá causar fitoxicidade nas plantas.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

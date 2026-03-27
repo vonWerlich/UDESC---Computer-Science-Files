@@ -1,0 +1,36 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - D) MANEJO DE SOLO, ADUBAÇÃO E NUTRIÇÃO DE PLANTAS - f) Adubação de base
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02510&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2271%5D%7B31%7Dcapa_1.jpg
+
+-- Recomendação de NPK na base: --
+Na adubação de base é recomendada a aplicação no sulco de corte da palhada nas seguintes proporções: para o nitrogênio, 10% da dose total do adubo nitrogenado; no caso do fósforo, a dose total de fósforo na base ou 1/2 dose, de acordo com a interpretação do resultado de análise. Se a interpretação indicar teores muito baixos ou baixos, que são doses elevadas de adubos fosfatados, recomenda-se a aplicação em duas etapas: a primeira com 1/2 da dose aplicada a lanço em toda a área por ocasião do preparo do solo no plantio da aveia e a outra com 1/2 da dose aplicada na base no sulco de plantio do tomate. Para a adubação de potássio, recomenda-se aplicar 5% da dose total do adubo potássico (Tabela 4).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2271%5D%7B489%7Dtabela_4.jpg
+Legenda: Porcentagem de adubação na base e em cobertura para o Sistema de Produção Integrada de Tomate de Mesa (Sispit), em plantio direto para Santa Catarina. Fonte: Sispit 2016.
+
+-- Como fazer: --
+A aplicação poderá ser feita com o equipamento de corte e sulcador ou a lanço, sob o sulco. Se a incorporação for mais profunda, com o equipamento de corte, não há necessidade de efetuar uma prática de mistura. Se a aplicação for a lanço sob a linha do sulco, efetua-se uma prática de mistura dos adubos de forma manual ou mecanizada para evitar a queima das raízes em contato direto com os adubos aplicados na linha.
+
+-- Quando fazer: --
+Essa prática deve ser efetuada de preferência 10 dias antes do plantio.
+
+-- Boro na base: --
+Recomenda-se ainda aplicar nessa adubação de base o micronutriente boro (3-5kg/ha), utilizando 30-50kg/ha de bórax (Tabela 4) também na linha do sulco de plantio.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2271%5D%7B115%7Dtabela_4.jpg
+Legenda: Porcentagem de adubação na base e em cobertura para o Sistema de Produção Integrada de Tomate de Mesa (Sispit), em plantio direto para Santa Catarina. Fonte: Sispit 2016.
+
+-- Adubação para o fornecimento de nitrogênio: --
+Como fontes da adubação nitrogenada poderão ser utilizadas diferentes adubos formulados ou adubos simples: ureia, sulfato de amônia, nitrato de amônio, monoamônio fosfato (MAP) ou diamônio fosfato (DAP). Deve-se sempre optar por aquele adubo que oferecer melhor custo-benefício por unidade de nutriente. Se a opção for pelo uso da ureia, certificar-se de que o solo esteja úmido, ou efetuar a prática da incorporação logo após a aplicação para evitar perdas por volatilização.
+
+-- Adubação para o fornecimento de fósforo: --
+O fósforo deve sempre ser aplicado na fórmula de fosfatos solúveis (superfosfato simples ou triplo, MAP, DAP) ou, se for usado adubo formulado, calcular a quantidade aplicada e complementar com adubos simples. Os fosfatos naturais não devem ser utilizados para a cultura do tomate, devido a sua baixa solubilidade e baixa eficiência.
+
+-- Adubação para o fornecimento de potássio: --
+O cloreto de potássio é a principal fonte de adubo potássico na base ou, se for usado adubo formulado, calcular a quantidade aplicada e complementar com cloreto de potássio.
+
+-- Adubação orgânica: --
+Outra opção é a utilização de adubo orgânico que, na maioria das vezes, deve ser complementado com adubação mineral. Podem ser usadas fontes como esterco de bovinos, suínos e de aves. Recomenda-se, no entanto, analisar quimicamente o adubo orgânico para verificar a sua composição e quantificar a contribuição dos nutrientes incorporados com a dose que está sendo utilizada. O adubo orgânico pode ser utilizado também a lanço em toda a área antes do plantio da cobertura verde de aveia, principalmente em área com baixa fertilidade natural do solo.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

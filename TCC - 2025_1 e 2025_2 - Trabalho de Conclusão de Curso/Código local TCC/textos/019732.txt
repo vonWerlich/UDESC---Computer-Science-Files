@@ -1,0 +1,13 @@
+Título: CEBOLA - Escolha do cultivar - Bola Suprema
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019732&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17285%5D%7B42%7Dbola_suprema.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Código: 069; Cultivar: Bola Suprema; Categoria: Bulbos; - Época de plantio: Inverno; - Ciclo (nº de dias): 120 a 140; - Formato: Globular.
+
+-- CARACTERÍSTICAS: --
+Variedade do tipo Bola Precoce, de ciclo precoce. Apresenta bulbos uniformes, de coloração castanho com alta capacidade de armazenamento.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br/produto/ver/96/cebola-bola-suprema

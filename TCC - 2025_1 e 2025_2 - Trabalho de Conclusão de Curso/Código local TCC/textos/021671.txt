@@ -1,0 +1,10 @@
+Título: BANANA - Cultivares - SCS453 Noninha
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021671&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18354%5D%7B107%7Dcap_3_-_fig_1_-_letra_i_-_buques_maduro_noninha_-_autoria_eliseu_emanoel_dos_santos.jpg
+
+-- DESCRIÇÃO DO CULTIVAR --
+Grupo genômico AAB, subgrupo Prata. Originária no sul de Santa Catarina de mutação natural do cultivar Prata Anã. Devido ao porte mais baixo, suporta maior densidade de plantio onde as recomendações de espaçamento são as mesmas dos cultivares do subgrupo Cavendish, de 2,5m x 2,5m; 2,0m x 3,0m, ou 1.600 plantas por hectare. (Mais informações em: "Avaliação de cultivares para o Estado de Santa Catarina")(¹).
+
+-- Informações Complementares --
+(¹)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2023-2024. Florianópolis, 2023. 101p. (Epagri. Boletim Técnico, 212). On-line.

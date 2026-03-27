@@ -1,0 +1,26 @@
+Título: TOMATE - Calagem e Adubação - Análise Foliar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=05339&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B4794%5D%7B502%7Dimg_4822.jpg
+
+-- CONCEITO: --
+A análise química foliar consiste na determinação dos teores de elementos em tecidos vegetais (principalmente folhas) visando o diagnóstico do estado nutricional da cultura. Auxilia, ainda, na interpretação dos efeitos da adubação anteriormente efetuada e a estimar indiretamente o grau de fertilidade do solo. A análise foliar permite, também, distinguir os sintomas provocados por agentes patogênicos daqueles provocados por nutrição inadequada (1).
+
+-- AMOSTRAGEM: --
+Recomenda-se coletar a 4.ª folha com pecíolo, a partir do ponteiro, por ocasião do primeiro fruto maduro, de 25 a 30 plantas por lote homogêneo. A tabela 2 apresenta as faixas de teores adequados de macro e micronutrientes (1). Também é aceita a coleta da terceira folha completa (com pecíolo) a partir do ápice, por ocasião do 1º fruto maduro (2).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4794%5D%7B61%7Danalise_foliar.jpg
+Legenda: Padrões de concentração de macro (g.kg-1) e micro (mg.kg-1) na matéria seca das folhas do tomateiro, por ocasião da colheita do 2º cacho.Fonte: Adaptado de Alvarenga (2004).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4794%5D%7B292%7Danalise_foliar_2.jpg
+Legenda: Padrões de concentração de macro (g.kg-1) e micro (mg.kg-1) na matéria seca das folhas do tomateiro, por ocasião emissão da 3ª e 4ª inflorescência. Fonte: Adaptado de Alvarenga (2004).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B4794%5D%7B520%7Danalise_foliar.jpg
+Legenda: Teores adequados de macro e micronutrientes nas folhas do tomateiro. Fonte: Trani et al., 2015.
+
+-- CUIDADOS: --
+Deve-se tomar o cuidado em amostrar as folhas de tomateiros quando em dias anteriores não ocorreram pulverizações de determinados agrotóxicos e fertilizantes foliares. Tais produtos podem ter em sua composição, macro e micronutrientes que podem “mascarar” os resultados da análise química foliar, cujos valores indicariam teores muito altos, até tóxicos destes, quando na verdade, as quantidades apontadas representam a soma do nutriente absorvido com o adsorvido (“aderido”) na folha (1).
+
+-- Diagnóstico da composição Nutricional (CND) para Tomate --
+O CND é um software desenvolvido para a avaliação do diagnóstico/balanço nutricional da planta por meio de resultados da análise foliar. Esse modelo foi desenvolvido em cima do tomateiro para indústria. Para acessar CLIQUE AQUI.
+
+-- Informações Complementares --
+(1) Trani et al. Calagem e adubação do tomate de mesa / Paulo Espíndola Trani; Edson Akira Kariya; Sérgio Minoru Hanai; et al. Campinas: Instituto Agronômico, 2015. 35 p. online. (Série Tecnologia Apta. Boletim Técnico IAC, 215). (2) Hahn et al. 2017. Aplicação de formulações de cálcio e boro na cultura do tomateiro tutorado. Agropecuária Catarinense, Florianópolis, v.30, n.3, p.61-66, set./dez. 2017.

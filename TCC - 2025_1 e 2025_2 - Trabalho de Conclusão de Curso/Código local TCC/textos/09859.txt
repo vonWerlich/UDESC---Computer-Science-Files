@@ -1,0 +1,17 @@
+Título: LEGISLAÇÕES - Rotulagem - INMETRO
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09859&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8910%5D%7B137%7Dcanva_-_checklist_icon.svg
+
+-- 2021 --
+
+=== 2021 ===
+PORTARIA INMETRO Nº339, DE 06 DE AGOSTO DE 2021 - Aprova o Regulamento Técnico consolidado que estabelece a metodologia para determinação do peso drenado de mercadorias pré-embaladas. Acessar Portaria. PORTARIA INMETRO Nº328, DE 29 DE JULHO DE 2021 - Aprova o Regulamento Técnico Metrológico consolidado sobre o controle metrológico de mercadorias pré-embaladas comercializadas em unidades de massa, de conteúdo nominal desigual. Acessar Portaria. PORTARIA INMETRO Nº251, DE 09 DE JUNHO DE 2021 - Aprova o Regulamento Técnico Metrológico consolidado sobre conteúdos líquidos de mercadorias pré-embaladas. Acessar Portaria. PORTARIA INMETRO Nº249, DE 09 DE JUNHO DE 2021 - Aprova o Regulamento Técnico Metrológico consolidado que estabelece a forma de expressar a indicação quantitativa do conteúdo líquido das mercadorias pré-embaladas. Acessar Portaria. PORTARIA INMETRO Nº201, DE 30 DE ABRIL DE 2021 - Dispõe sobre a indicação quantitativa do peso líquido de mercadorias pré-embaladas, acondicionadas e/ou etiquetadas no ponto de venda. Acessar Portaria.
+
+-- 2008 À 2020 --
+
+=== 2008 À 2020 ===
+PORTARIA INMETRO/MDIC Nº306, DE 28 DE SETEMBRO DE 2020 - Dispõe sobre a lista dos atos normativos inferiores a decreto vigentes no Estoque Regulatório do Instituto Nacional de Metrologia, Qualidade e Tecnologia – Inmetro. Acessar Portaria. PORTARIA INMETRO/MDIC Nº248, DE 17 DE JULHO DE 2008 - Determina a padronização do conteúdo líquido dos produtos pré-medidos acondicionados de acordo com o anexo da presente Portaria. Acessar Portaria. PORTARIA INMETRO/MDIC Nº153, DE 19 DE MAIO DE 2008 - Aprova o anexo Regulamento Técnico Metrológico que estabelece os critérios para verificação do conteúdo líquido de produtos pré-medidos com conteúdo nominal igual, comercializados nas grandezas de massa e volume. Acessar Portaria.
+
+-- Informações Complementares --

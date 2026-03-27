@@ -1,0 +1,28 @@
+Título: TOMATE - Fitossanidade - Vírus - Mosaico Comum (TMV e ToMV)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04616&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1594%5D%7B209%7Dmosaico_comum_1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1594%5D%7B404%7Dmosaico_comum_4.jpg
+Legenda: Deformação dos frutos. Foto: A. C Avila
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1594%5D%7B506%7Dmosaico_comum_2.jpg
+Legenda: Folhas retorcidas. Foto: A Inoue-Nagata
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1594%5D%7B230%7Dmosaico_comum_1.jpg
+Legenda: Mosaico Amarelo. Foto: A Inoue-Nagata
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1594%5D%7B203%7Dmosaico_comum_3.jpg
+Legenda: Mosaico Verde.Foto: A. C Avila
+
+-- INFORMAÇÕES GERAIS: --
+A doença mosaico comum pode ser causada por basicamente dois tipos de agentes causais, sabendo que ambas são do gênero Tobamovirus, a primeira é a Tobacco mosaic virus – TMV e a segunda ToMV -Tomato mosaic vírus (1). Essa doença também é conhecida pelo nome vírus do mosaico do fumo e vírus do mosaico do tomateiro. Como essa doença não possui inseto vetor , a sua transmissão se dá por meio do contato entre a planta doente com a sadia, maquinários ou por sementes (3). No Brasil podemos encontrar o vírus em todas as regiões, pois apesar de uso de materiais resistentes, algumas observações feitas em campos mostram que a doença pode ser resistente à esses materiais (1).
+
+-- SINTOMAS: --
+Tanto a TMV quanto a ToMV podem apresentar sintoma de “cordão-de-sapato”. Nesse sintoma encontramos apenas a nervura central, desaparecendo as bordas do folíolo. Quando um dos sintomas é o mosaico, geralmente encontramos as plantas sintomáticas distribuídas ao longo da linha, pelo modo de transmissão do vírus (1). Folhas:. - Mosaico Verde (claro e escuro) (3). - Mosaico amarelo (3,2). - Distorção foliar (3). - Alongadas (3). Frutos: . - Moisaico amarelo (3). - Manchas necróticas (3). - Bronzeamento (3). - Redução de crescimento (2,3). Plantas jovens: - Crescimento retardado (2).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+Resistência à materiais resistentes: Solução: Algumas observações de campo indicam que ainda há transmissão da doença pela resistência do vírus aos materiais resistentes. Estudo dirigido para caraterização do vírus no campo é uma solução ao longo prazo para esse problema (1).
+
+-- CONTROLE: --
+- Esterilização de ferramentas que tenham contato direto com o tomateiro (3). - Esterilização das mãos dos trabalhadores locais (3,1). - Usar cultivares resistentes à doença (3,1). - Comprar sementes de qualidade (1). - Não plantar em áreas com histórico de contaminação (1). - Tratar sementes duvidosas com solução de fosfato trisódico a 10%, por 15 minutos (3).
+
+-- Informações Complementares --
+(1) ZERBINI, F. M.; GUIMARÃES, L. M.; ZERBINI, P. A. Tomate: Tecnologia de Produção. Viçosa, 2007. Cap 12, pag 271-274. (2) Vale, F.X.R.; Zambolim, L.; Zambolim, E.M.; Alvarenga, M.A.R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. UFLA, 2004. cap 9, pag 264-265. (3) Lopes CA, Santos JRM. Doenças do tomateiro. Brasília: Embrapa; 1994.

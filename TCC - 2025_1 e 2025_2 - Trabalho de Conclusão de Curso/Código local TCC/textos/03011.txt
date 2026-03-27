@@ -1,0 +1,19 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - L) TECNOLOGIA DE APLICAÇÃO DE PRODUTOS FITOSSANITÁRIOS - a) Aspectos gerais
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03011&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2776%5D%7B75%7Dcapa_1.jpg
+
+-- Alvo biológico: --
+O produto fitossanitário deve exercer a sua ação sobre determinado organismo que se deseja controlar. Portanto, o alvo a ser atingido é esse organismo, seja planta daninha, inseto ou doença. Qualquer quantidade do produto químico que não atinja o alvo, não será eficiente e, consequentemente, ocorrerá perda desse produto.
+
+-- Eficiência: --
+Entende-se por eficiência de aplicação a relação entre a dose teoricamente requerida para o controle e a dose efetivamente empregada. A eficiência está também diretamente relacionada com o aplicador e o seu equipamento. Portanto, o aplicador deve ser treinado e o equipamento deve estar em condições de efetuar a aplicação correta.
+
+-- Volume de aplicação: --
+A aplicação líquida é classificada como processo em função do volume de calda aplicado por hectare (Tabela 15). Normalmente a aplicação com alto volume é feita além da capacidade máxima da folha, ocorrendo com isso escorrimento. Nesse tipo de aplicação o depósito de produto químico sobre a superfície tratada é proporcional à concentração de calda utilizada e independentemente do volume de calda aplicado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2776%5D%7B171%7Dtabela_15.jpg
+Legenda: Categorias de aplicação via líquida em cultura de campo. Fonte: Matuo (1998).
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

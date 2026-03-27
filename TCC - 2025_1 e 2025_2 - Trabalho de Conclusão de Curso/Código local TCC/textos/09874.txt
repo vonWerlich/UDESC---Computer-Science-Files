@@ -1,0 +1,29 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Parasitos (Protozoários e moluscos) - Larvas de moluscos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09874&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8924%5D%7B85%7Dmoluscos.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8924%5D%7B53%7Dgloquideo_1.jpg
+Legenda: Molusco bivalve, família Unionidae. Foto: Rafael Koggi
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8924%5D%7B205%7Dgloquideo_2.jpg
+Legenda: Nadadeira parasitada. Foto: Rafael Koggi
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8924%5D%7B148%7Dcam00727.jpg
+Legenda: Tilápia-do-nilo parasitada por larvas gloquídeo (Região dorsal). Foto: Rafael Koggi
+
+-- INFORMAÇÕES GERAIS: --
+Já foram registrados alguns casos de parasitose por larvas gloquídio em Santa Catarina. Gloquídio é o nome dado ao estágio larval de moluscos bivalves de água doce que, para sobreviverem e metamorfosearem, parasitam temporariamente as nadadeiras, brânquias e pele de peixes.
+
+-- PERÍODO DE PARASITISMO: --
+ara a maioria dessas espécies, o período de parasitismo dura entre 10 e 30 dias e é geralmente condicionado às épocas chuvosas na primavera e temperaturas mais elevadas.
+
+-- O QUE PODE ESTAR OCORRENDO: --
+Ambientes de cultivo (açudes ou viveiros) favorecem esses casos, pois as larvas não conseguem se dispersar naturalmente pelo ambiente aquático (ficando confinadas em viveiros com baixa renovação).
+
+-- OCORRÊNCIA EM ANIMAIS JOVENS: --
+As larvas gloquídio são mais comumente encontradas em animais jovens pelo fato de seu sistema imunológico ainda não estar totalmente desenvolvido.
+
+-- CONTROLE: --
+- Retirada manual dos moluscos durante a secagem dos viveiros (enterrados no lodo do viveiro); - Aplicar cal virgem (150 a 200 g/m2) para eliminar formas jovens aderidas a algum substrato. -Uso de telas protetoras com malha de 100 micras (0,1mm) junto ao canal de abastecimento de água do viveiro. - Descartar a água utilizada no transporte (isso não eliminará totalmente o problema caso elas já estejam aderidas nos peixes, mas diminuirá a sua disseminação).
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

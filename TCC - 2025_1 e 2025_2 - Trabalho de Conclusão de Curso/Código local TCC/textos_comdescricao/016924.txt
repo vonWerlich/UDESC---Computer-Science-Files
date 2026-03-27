@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas) - A praga é um inseto (tem três pares de pernas, antenas e asas) - A praga não é um besouro. É outro tipo de inseto - A praga é um inseto sugador. Tem uma espécie de agulha na cabeça, para picar as plantas - A praga é outro sugador. A agulha se origina na parte de trás da cabeça e parece sair por entre o primeiro par de pernas - A praga é uma cigarrinha, ágil, salta quando molestada e tem coloração castanho-amarelada ou preta
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016924&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16902%5D%7B182%7Dchave_fig15.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas)
+A praga é um inseto (tem três pares de pernas, antenas e asas)
+A praga não é um besouro. É outro tipo de inseto
+A praga é um inseto sugador. Tem uma espécie de agulha na cabeça, para picar as plantas
+A praga é outro sugador. A agulha se origina na parte de trás da cabeça e parece sair por entre o primeiro par de pernas
+A praga é uma cigarrinha, ágil, salta quando molestada e tem coloração castanho-amarelada ou preta
+A praga é uma cigarrinha com cerca de 3mm de comprimento e coloração castanho-amarelada ou preta - SOGATA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16924%5D%7B368%7Dchv_sogataa.jpg
+Legenda: A praga é uma cigarrinha com cerca de 3mm de comprimento e coloração castanho-amarelada ou preta - SOGATA
+21449
+A praga é uma cigarrinha com cerca de 3mm de comprimento e coloração castanho-amarelada ou preta - SOGATA
+A praga é uma cigarrinha maior, com 8 a 13mm de comprimento e coloração marrom escura ou preta com ventre avermelhado; pode ter manchas amarelas nas asas - CIGARRINHAS-DAS-PASTAGENS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16924%5D%7B291%7Dchv_cigpastoa.jpg
+Legenda: A praga é uma cigarrinha maior, com 8 a 13mm de comprimento e coloração marrom escura ou preta com ventre avermelhado; pode ter manchas amarelas nas asas - CIGARRINHAS-DAS-PASTAGENS
+21450
+A praga é uma cigarrinha maior, com 8 a 13mm de comprimento e coloração marrom escura ou preta com ventre avermelhado; pode ter manchas amarelas nas asas - CIGARRINHAS-DAS-PASTAGENS

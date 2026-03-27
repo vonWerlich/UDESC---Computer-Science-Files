@@ -1,0 +1,20 @@
+Título: TOMATE - Cultivares - Lili F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03972&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B3681%5D%7B80%7Dlili_red.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Takii; Finalidade: Copa; Grupo: Grape/Cherry/CockTail/Cereja/Outros; Polinização: Híbrido; Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a viroses: TMV - Tobacco mosaic virus; Tamanho do fruto: Muito Pequeno (menor que 170 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Tomate Cereja de alto rendimento. Planta de crescimento vigoroso e indeterminado. Boa uniformidade de frutos redondos e saborosos com peso médio entre 15 e 20 g.
+
+-- RESISTÊNCIA: --
+Resistência ao Vírus do mosaico do tomate e Nematoides (Meloidogyne arenaria, M. incognita e M. javanica).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://takii.com.br/produto/lili/ ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://takii.com.br/produto/lili/

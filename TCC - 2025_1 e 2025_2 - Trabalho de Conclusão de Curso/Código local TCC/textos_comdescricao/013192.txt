@@ -1,0 +1,32 @@
+Título: ARROZ IRRIGADO - 04. Sistemas de cultivo - Semeadura em solo seco - Características dos sistemas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013192&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+04. Sistemas de cultivo
+Semeadura em solo seco
+Características dos sistemas
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11445%5D%7B406%7D04_soloseco_caput.jpg
+FOTO: D.S.Eberhardt (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+Os sistemas de cultivo baseados na semeadura em solo seco recebem esse nome devido à implantação/semeadura da lavoura ocorrer antes da entrada de água, através do uso de semeadoras ( figura abaixo ). Como a semeadura é realizada com semeadora, a disposição das plantas se dá em linhas de plantio, e por isso o sistema é também chamado entre os agricultores catarinenses de arroz em linha .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11445%5D%7B251%7D04_soloseco_fig01.jpg
+
+-- INUNDAÇÃO DOS QUADROS: --
+Na semeadura em solo seco, a inundação dos quadros se dá apenas no início do perfilhamento das plantas de arroz, após a aplicação dos herbicidas. Esse processo favorece a germinação do arroz-daninho, impedindo o uso do sistema em áreas com alta infestação ( figuras abaixo ). Esta condição limitou por anos a adoção dos sistemas com semeadura em solo seco em Santa Catarina, uma vez que a grande maioria das áreas de cultivo de arroz apresentava alta infestação de arroz-daninho. Contudo, a introdução da tecnologia CL (Clearfield®) permitiu a expansão dos sistemas com semeadura em solo seco no Estado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11445%5D%7B57%7D04_soloseco_fig02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11445%5D%7B9%7D04_soloseco_fig03.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11445%5D%7B80%7D04_soloseco_fig04.jpg
+
+-- VANTAGENS DOS SISTEMAS DE SEMEADURA EM SOLO SECO: --
+• Maior rendimento das operações mecanizadas. • Redução do consumo de combustíveis. • Redução do desgastes de máquinas e equipamentos. • Menor demanda de mão de obra no preparo e implantação. • Redução na infestação de plantas daninhas aquáticas, caramujos e marrecas. • Redução do transporte de sedimentos para ás águas dos rios.
+
+-- CUIDADOS NA CONDUÇÃO DOS SISTEMAS DE SEMEADURA EM SOLO SECO: --
+• Não utilizar cultivares CL, com a tecnologia ClearField®, por mais de duas safra consecutivas. • Evitar o uso desses sistemas em áreas com histórico de ocorrência do vírus do enrolamento. • Atentar para o monitoramento e controle de lagartas, principalmente aquelas que ocorrem na fase de implantação da lavoura.
+
+-- MODALIDADES DE SEMEADURA EM SOLO SECO: --
+Os principais sistemas com semeadura em solo seco são o convencional, o cultivo mínimo e o plantio direto, sendo os dois primeiros majoritários em Santa Catarina. A adoção do plantio direto é limitada pela necessidade de realização de operações de renivelamento do solo após a colheita, uma vez que a produção de arroz no Estado ocorre como monocultivo. As diferenças entre esses sistemas se dão no tipo, quantidade e momento de realização das operações de preparo do solo.
+
+-- Informações Complementares --
+• Douglas George de Oliveira (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola

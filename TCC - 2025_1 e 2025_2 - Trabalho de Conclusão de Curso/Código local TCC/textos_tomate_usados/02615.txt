@@ -1,0 +1,20 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - E) MANEJO DA IRRIGAÇÃO POR GOTEJAMENTO - b) Irrigação por gotejamento
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02615&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2405%5D%7B506%7Dcapa_1.jpg
+
+-- Vantagens: --
+A irrigação por gotejamento como prática agrícola permite a aplicação de adubos via água de irrigação (fertirrigação) que, em relação à adubação convencional, possui maior eficiência no uso dos nutrientes, economia de mão de obra, melhor trânsito na cultura e, principalmente, melhor adequação da quantidade e da época de fornecimento de nutrientes, de acordo com a marcha de absorção. Essa prática agrícola tem condições de controlar com maior precisão as aplicações de água e adubos ao longo de todo o ciclo da cultura, em comparação com o uso de irrigação por aspersão ou por superfície. Além disso, a irrigação por gotejamento pode proporcionar um incremento de produtividade e uma economia de água de até 30% em comparação aos demais sistemas de irrigação. A água aplicada via gotejamento, diretamente no solo, sem molhar a folhagem e os frutos, contribui também para a diminuição da incidência de doenças na parte aérea e do apodrecimento de frutos, além de reduzir o uso de fungicidas em até 60%.
+
+-- Cuidados: --
+Os inadequados dimensionamentos do sistema de irrigação podem resultar na distribuição desuniforme dos adubos na área. Igualmente, as reações químicas dos adubos neste sistema podem causar corrosão dos equipamentos, precipitação de adubos, principalmente quando as misturas e/ou as fontes são inadequadas. Por outro lado, o manejo incorreto da fertirrigação pode ocasionar a salinização do solo pelo excesso de sais como os cloretos, sulfatos, bicarbonatos, nitratos e boratos de sódio, magnésio, cálcio etc.
+
+-- As necessidades hídricas totais: --
+O estudo e o monitoramento das condições edafoclimáticas durante o desenvolvimento da cultura permitem aplicar, com alta precisão, a quantidade requerida de água no momento oportuno, a partir de instrumentos de medida e controle instalados no campo. As necessidades hídricas totais, após o transplante, para a cultura do tomate no campo com 90 a 120 dias são de 400 a 600mm. O excesso durante o período de floração provoca o aumento das quedas das flores e a redução do crescimento. Igualmente, variações de umidade do solo podem causar desbalanceamento de cálcio, provocando podridão apical e rachaduras nos frutos. O início da frutificação e do desenvolvimento dos frutos são os estágios da cultura que apresentam maior sensibilidade à deficiência de água no solo.
+
+-- Para o manejo adequado da água: --
+Para o manejo adequado da água de irrigação é necessário o controle da umidade do solo e/ou o conhecimento da evapotranspiração durante todo o ciclo da cultura. Para tanto, é indispensável que os parâmetros relacionados às plantas, ao solo e ao clima sejam conhecidos para que se possam determinar o momento adequado de irrigar e a quantidade de água a ser aplicada. Dessa forma, um manejo adequado é essencial para o sucesso da atividade.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

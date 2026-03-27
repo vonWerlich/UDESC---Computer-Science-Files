@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Átila
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019791&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17328%5D%7B285%7Datila.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Código: 635; Cultivar: Átila; Categoria: Solanáceas; Híbrido do tipo Saladete. Possui plantas rústicas e vigorosas, altamente produtiva com alto pegamento sequencial de frutos até o ponteiro. Produz frutos firmes de excelente formato, alongados, uniformes da base ao ponteiro, com parede grossa, pesados, de ótimo sabor e com coloração vermelho intenso. Boa tolerância à rachaduras e manchas. Longa vida de 3 semanas; - Ciclo: 95 a 110 dias (DAS); - Hábito de crescimento: Indeterminado; - Cultivo: Campo aberto e ambiente protegido; - Tolerâncias: TSWV, TYLCV, F123, TMV, V e N, com boa tolerância à bactérias.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.tsvsementes.com.br/produto/ver/476/tomate-atila ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br/produto/ver/476/tomate-atila

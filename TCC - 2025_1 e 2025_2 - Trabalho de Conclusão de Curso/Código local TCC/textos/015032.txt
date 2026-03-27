@@ -1,0 +1,31 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - j) Principais doenças do tomateiro no Litoral Norte de Santa Catarina - Nematoide-das-galhas ou meloidoginose
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015032&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B13029%5D%7B179%7D63_-_copia.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Os nematoides do gênero Meloidogyne, formadores de galhas nas raízes, são os que provocam as maiores perdas. As espécies mais comuns são: Meloidogyne incognita, M. javanica e M. arenaria (Lopes & Ávila, 2005).
+
+-- SINTOMAS: --
+Os sintomas incialmente observados são os reflexos, como o retardo no crescimento das plantas e amarelecimento generalizado, devido ao comprometimento do sistema radicular. Os ataques mais severos causam a morte da planta. Os sintomas diretos são observados nas raízes, com a presença de galhas e, em casos mais severos, raízes totalmente deformadas (Tihohod, 1993; Lopes & Ávila, 2005).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B13029%5D%7B433%7D63.jpg
+Legenda: Sintomas severos do ataque de Meloidogyne sp. em tomate. null
+
+-- ETIOLOGIA: --
+Os nematoides do gênero Meloidogyne são parasitas obrigatórios. Os juvenis de segundo estádio (J2) penetram nas raízes, iniciando a formação de seu sítio de alimentação e liberando toxinas que provocam a hipertrofia e hiperplasia das células, formando as galhas. Os nematoides alimentam-se até o estádio reprodutivo, com a postura de ovos pelas fêmeas. São encontrados em todos os tipos de solo, porém com predominância em solos arenosos e temperaturas acima de 25 ºC. Infectam raízes de plantas de mais de 50 gêneros botânicos (Tihohod, 1993; Lopes & Ávila, 2005).
+
+-- Controle genético: --
+Os cultivares de tomateiro do grupo salada, com resistência a M. arenaria, M. incognita e M. javanica, são: Arual, Efésios, Maestrina, Marioto (BS 14003), Royale, Troyano, Tywana, Akrai, Alambra, Aliança, Almirante, Araucária, Astuto, Batalha, Bravence, BRS Portinari, BS DS0060, BS ISB0027, BS ISC0018, BS ISC0018, BS ISC0045, BS ISC0050, BS ISP0024, BS IS0010, BS IS0035, BS IS0082, Capadócia, Capitão, Ceça, Cedro, Cerrado, Colono, Colorado, Compack, Conquistador, Cris, Débora Max, Dominador, Ellen, Ensure, Festy, Future, Gislani, Gold, Grandeur, Hechicero, Ibatã, Inox, Ipa6, Ipê, Itaipava, Itapitã, Ivety, Janaína, Justyne, Lambda, Letycia, Lezaforta, Lumi, Maranguara, Marguerita, Momotaro York, Natália, Nemo - Netta, Olympo, Onix, Parma, Pataxó, Paty, Pietra, Predador, Protheus, Rally, Runner, Samuray, Santy, Serato, Spartus, Stella, Stewart, Supremo, Supremo R, Sylviana, Tyguan, Tyla, Umbu, Upiã, Valerin, Vento, Vinicio e Yapussú.
+
+-- Controle cultural: --
+- Adubações orgânicas com composto curado; - Rotação de culturas; - De modo geral, fertilizantes amoniacais promovem o decréscimo de injúrias causadas por nematoides em comparação a adubações nitrogenadas na forma nítrica (Zambolim et al., 2012); - Uso de plantas antagonistas como a mucuna-preta (Mucuna aterrima), crotalária (Crotalaria spectabilis e Crotalaria breviflora) e cravo-de-defunto (Tagetes patula, T. minuta, T. erecta) (Tihohod, 1993).
+
+-- Controle físico: --
+Solarização do solo durante as estações mais quentes do ano.
+
+-- Controle biológico: --
+- Uso de biofertilizantes a 5%, aplicado via sistema de gotejo, durante todo o ciclo da lavoura, com objetivo de estimular a microbiota antagonista do solo; - Bacillus methilotrophicus e B. subtilis possuem registro no MAPA para o controle de M. javanica em sistemas orgânicos de produção; - Paecilomyces lilacinus possui registro no MAPA para o controle de M. incognita em sistemas orgânicos de produção.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

@@ -1,0 +1,32 @@
+Título: ARROZ IRRIGADO - 09. Sementes e semeadura de arroz irrigado - Semeadura em sistema pré-germinado
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013161&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+09. Sementes e semeadura de arroz irrigado
+Semeadura em sistema pré-germinado
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11420%5D%7B512%7D08_sempregerm_caput.jpg
+FOTO: H.F.Prando (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+A semeadura deverá ser feita com sementes pré-germinadas, utilizando-se máquinas reguladas e ajustadas para distribuição uniforme das sementes, em quadros nivelados e inundados ( figuras abaixo ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11420%5D%7B116%7D08_chupacabra_01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11420%5D%7B447%7D08_chupacabra_02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11420%5D%7B357%7D08_chupacabra_03.jpg
+
+-- DENSIDADE DE SEMEADURA: --
+A densidade de semeadura deve possibilitar o estabelecimento de aproximadamente 300 plântulas de arroz por metro quadrado de lavoura. Como parâmetro geral, para todos os cultivares e épocas de semeadura, deve-se utilizar em torno de 400 sementes aptas por metro quadrado, o que corresponde à aproximadamente 120kg/ha de sementes certificadas. Em semeaduras realizadas fora da época preferencial ou em condições adversas, recomenda-se o acréscimo de 10 a 20% na quantidade de sementes.
+
+-- PRE-GERMINAÇÃO DAS SEMENTES: --
+O processo de pré-germinação das sementes consiste de duas etapas principais: • Hidratação – imersão completa das sementes em água durante 24 a 48 horas, acondicionadas em sacos ou tanques a fim de possibilitar a absorção de água. • Incubação – processo de aceleração da germinação das sementes após a hidratação. Estas, após retiradas da água, devem ser colocadas à sombra e cobertas com lona para evitar desidratação e uniformizar a temperatura, por igual período (24 a 48 horas). Recomenda-se virar os sacos de sementes após 12 a 18 horas do início da incubação, visando uniformizar a germinação. Deve-se evitar o acúmulo de água junto às sementes, o que dificulta o contato destas com o oxigênio do ar, essencial para o processo de germinação. Cuidado especial deve ser tomado quando as sementes foram pré-germinadas em “big bags”, sendo recomendado transferir as sementes para um segundo “big bag” na metade da incubação. Como se trata de volume muito grande, as sementes do centro da embalagem podem atingir temperaturas muito altas, reduzindo o potencial germinativo e o vigor das mesmas. Os períodos de hidratação e incubação variam de acordo com o cultivar e com a temperatura da água e do ambiente no momento da prática, sendo a faixa entre 20 e 25°C ideal para a germinação das sementes de arroz.
+
+-- PONTO PARA A SEMEADURA: --
+A emissão do coleóptilo e da radícula caracteriza o ponto de semeadura ( figuras abaixo ). Para a semeadura mecânica, o coleóptilo e a radícula não devem ter ultrapassado 1mm de comprimento. Para que a semeadura seja facilitada, é recomendável balizar previamente as faixas de semeadura para evitar a concentração ou raleio da densidade nas faixas de sobreposição. O uso de GPS facilita sobremaneira a semeadura mecanizada. Também é recomendável que a semeadura seja executada durante o período do dia em que o vento seja mínimo, para evitar o amontoamento de sementes.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11420%5D%7B505%7D08_sempregerm_01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11420%5D%7B384%7D08_sempregerm_02.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11420%5D%7B312%7D08_sempregerm_03.jpg
+
+-- Informações Complementares --
+• Gabriela Neves Martins (Dr. em Sementes - Epagri) Produção de sementes
+• Laerte Reis Terres (Dr. em Melhoramento - Epagri) Melhoramento e cultivares
+• Douglas George de Oliveira (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola

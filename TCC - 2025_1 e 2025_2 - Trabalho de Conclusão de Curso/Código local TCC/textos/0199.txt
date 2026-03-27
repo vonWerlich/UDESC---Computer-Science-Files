@@ -1,0 +1,29 @@
+Título: TOMATE - Cultivares - Jumbo F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0199&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B101%5D%7B201%7Djumbo.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Característica dos frutos: Resistência a rachadura dos frutos; Crescimento: Indeterminado; Empresa: Horticeres Sementes; Finalidade: Copa; Grupo: Santa Cruz; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: CB - Cancro Bacteriano (Clavibacter michiganensis); Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+PLANTA: Hábito de crescimento indeterminado. FRUTO: Tipo santa cruz, firmes, resistentes a rachaduras e fundo preto, com peso médio de 150 g.
+
+-- DESTAQUE: --
+Frutos de excelente qualidade e ótimo padrão comercial.
+
+-- DESCRIÇÃO: --
+Época: Melhor adaptação em temperaturas amenas. Ciclo: 100 a 120 dias. Espaçamento: Entre fileiras 1,00 a 1,30 m. Entre plantas 0,40 a 0,60 m. Plantas/há: 10 a 17 mil.
+
+-- QUALIDADE DE SEMENTES: --
+Tomate tipo santa cruz com ótimo padrão de mercado.
+
+-- RESISTÊNCIA: --
+Resistente a Mancha de Estenfílio (Stemphylium solani), Verticílio (Verticillium dahliae), Cancro Bacteriano (Clavibacter michiganensis) e TMV (Mosaico).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( hhttps://www.horticeres.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.horticeres.com.br.

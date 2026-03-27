@@ -1,0 +1,303 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=1&amp;isEdicao=N&amp;epagriTEC=S">TOMATE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9&amp;isEdicao=N&amp;epagriTEC=S">Nutrição Mineral</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=37&amp;isEdicao=N&amp;epagriTEC=S">Fósforo</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="745">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="37">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[745]{18}102.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Desconhecido. </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>FOTOS:</b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2027,37,745,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[745]{174}20170731_094810.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,2030,37,745,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[745]{513}2015-07-02_14.27.00.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,3352,37,745,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[745]{379}102.jpg">  </a> 
+<br><br>
+<b>Informações gerais:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - A maioria dos solos brasileiros apresentam baixos teores de P disponível e aliado a este fato, o P é fortemente adsorvido no solo, este fatores combinados resultam na redução da eficiência da adubação fosfatada. E por essa razão, é o nutriente mais utilizado nas adubações no Brasil (8). 
+- Este macronutriente é retirado em menor quantidade do solo, quando comparado aos outros, mas a sua adubação é muito importante, visto que proporciona grandes respostas, como a melhor qualidade dos frutos colhidos, em especial frutos de maior peso (1). <br>
+- O fósforo possui boa mobilidade na planta, e em casos de deficiência é translocado para regiões de crescimento (1). <br> <br>
+- Este nutriente na forma de fosfato faz parte de compostos denominados ATP que fornecem energia para os processos metabólicos das plantas (8).
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Como identificar:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os sintomas de deficiência de P no tomateiro é bem evidente em situações agudas de deficiência. Os sintomas de deficiência são: coloração arroxeada do lado inferior dos cotilédones e das folhas novas, na região das nervuras (1) pelo acúmulo do pigmento antocianina (2). Em estádios de desenvolvimento mais tardios, as folhagens se apresentam com coloração roxo-amarronzadas que evoluem para necroses (2). Também ocorre redução da floração e frutificação, e a queda de frutos (1). <br> <br>
+Em algumas cultivares, a deficiência aparece como pontos marrons internevalmente nas folhas mais baixas, iniciando pela margem das folhas e progride para necroses (5). <br> <br>
+Inibição do crescimento de plantas, caules finos, aceleração no desenvolvimento de flores, porém com menor produção de frutos (4). <br>
+Além das desordens nutricionais citados anteriormente a deficiência de P também ocasiona a baixa produtividade do tomateiro (7).
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>O que pode estar ocorrendo:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - Baixas temperaturas (2). <br>
+- Compactação do solo (2). <br>
+- Solo alcalino ou salino (2). <br>
+- Solo com baixos teores de P (6).
+- Adsorção do P pela argila e por óxido de Fe e Al (6).<br>
+- Formação de fosfatos de alumínio em pH baixo e fosfatos de cálcio em solos com pH alto (6).<br>
+- Baixa umidade do solo que reduz o transporte do P por difusão (6).<br>
+- A localização do fertilizante fosfatado não está próximo das raízes (6).<br>
+- Altas concentrações de sulfatos no solo decorrentes das fertilizações (6).<br>
+
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Controle:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O ideal é sempre fazer a adubação fosfatada em pré-plantio, com o adubo supersimples ou supertriplo. A cama de aves, comumente utilizada como fonte de matéria orgânica, também apresenta elevadas quantidade de fósforo. No caso de observar sintomas de deficiência após a instalação da cultura, uma alternativa é utilizar o adubo MAP em fertirrigação, pois possui alta solubilidade (3). <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Em excesso: </b><br>
+<p class="p1"><div> - Em excesso, pode bloquear certos elementos antagônicos, como Fe, Zn ou Cu.<br>
+- Baixas temperaturas podem levar à má assimilação do fósforo, fato comum, por exemplo, em cultivos de tomate no inverno. <br> </div></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+(1) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. <br>
+(2) LOPES, C. A.. ÁVILA, A. C. de. Doenças do tomateiro. Brasilia: Embrapa Hortaliças, 2005. <br>
+(3) DA SILVA, J. C. et al. Cultivo de tomate para Industrialização. Revista Eletrônica Embrapa Hortaliças. v. 27, 2006. <br>
+(4) FERREIRA, M. E. et al. Nutrição eadubação de hortaliças. Potafós, Piracicaba-SP, 1993. <br>
+(5) YARA. Disponível em: <https: www.yarabrasil.com.br="" nutricao-de-plantas="" tomate="" deficiencias---tomate="" deficiencia-de-fosforo---tomate="">. Acesso em 17/10/2018. <br>
+(6) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474. <br>
+(7) TAKAHASHI, H.W.; ANDRADE, B.L.G. Diagnose foliar na cultura do tomate. In: PRADO, R. M.; CECÍLIO FILHO, A. B.; CORREIA, M. A. R.; PUGA, A. P. (Ed.). Nutrição de plantas: diagnose foliar em hortaliças. 1. ed. Jaboticabal: FCAV/CAPES/FAPESP/FUNDUNESP, 2010. p. 313–342. <br>
+(8) FAQUIN, V. Nutrição Mineral de Plantas. Lavras: UFLA/FAEPE, 2005. <br>
+ </https:></div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Rafael Gustavo Ferreira Morales (Doutor em Fitotecnia - Epagri)<br> &nbsp;&nbsp; Possui graduação em Agronomia pela Universidade Tecnológica Federal do Paraná (2006), atuando principalmente na área de fitopatologia e microbiologia. Mestre em Fitotecnia pela Universidade Estadual do Centro-Oeste do Paraná (2010), trabalhando com melhoramento do morangueiro e marcadores moleculares. Doutor em Fitotecnia pela Universidade Federal de Lavras (2012), atuando na área de melhoramento de hortaliças, com ênfase na cultura do tomateiro e estresses ambientais. Pós-doutor pela Universidade Federal do Paraná (2014), trabalhando com resistência de fitopatógenos a fungicidas. Atualmente é pesquisador da Empresa de Pesquisa Agropecuária e Extensão Rural de Santa Catarina (Epagri), atuando na área de olericultura na Estação Experimental de Itajaí-EEI. </font> 
+<br> <font size="2">• Fábio Satoshi Higashikawa (Doutor em Ciência do Solo - Epagri)<br> &nbsp;&nbsp; Engenheiro-Agrônomo pela Universidade Federal de Lavras (UFLA) em 2008 e Mestre em Ciência do Solo (2009) pela mesma universidade. Doutor em Ciência do Solo pela Universidade Federal de Lavras (2013) com período sanduíche no Centro de Edafologia y Biologia Aplicada del Segura (CEBAS-CSIC) no Departamento de Solo e Conservação de Água e Manejo de Resíduo Orgânico (2011-2012). Fez Pós-Doutorado na ESALQ/USP no Departamento de Ciência do Solo. Atualmente é pesquisador em fertilidade do solo e nutrição de plantas da Epagri na Estação Experimental de Ituporanga desde 2014. </font> 
+<br><br><br> <font size="2"> Criado em: 09/11/2018</font>
+<br> <font size="2"> Última atualização: 13/08/2019</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=37&amp;cdElemento=745">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=745');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

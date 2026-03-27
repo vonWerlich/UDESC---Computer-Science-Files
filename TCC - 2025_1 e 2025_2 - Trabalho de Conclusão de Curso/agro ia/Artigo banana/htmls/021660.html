@@ -1,0 +1,379 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7983&amp;isEdicao=N&amp;epagriTEC=S">BANANA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_banana_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21660&amp;isEdicao=N&amp;epagriTEC=S">         Zoneamento agroclimático e ecofisiologia da bananeira</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18386">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021660">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18386]{443}cepa_6.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Thomé et al. (1999)  </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  Zoneamento agroecológico para a cultura da bananeira em Santa Catarina 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>MAPEAMENTO DAS ÁREAS PRODUTORAS DE BANANA EM SANTA CATARINA</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O estado de Santa Catarina exibe múltiplas condições agroclimáticas, o que favorece uma ampla possibilidade de cultivos agrícolas, desde plantas de exigências temperadas – 
+como maçã, uva e pera –, passando pelo cultivo de grãos –soja, milho e arroz – e plantas de exigências tropicais – como a banana. <br><br>No Brasil, Santa Catarina é 
+destaque na produção de bananas, ocupando o quarto lugar entre os estados produtores. 
+A área colhida de bananeiras do subgrupo Cavendish, distribuída pelo Estado com um total de <b>20.800ha, está concentração na região 
+norte, em municípios como Corupá, com 4.830ha; Luiz Alves, com 3.900ha; e Massaranduba, com 1.957ha</b>.<br><br>
+Já o subgrupo Prata totaliza <b>7.500ha, havendo uma concentração dos principais municípios produtores no sul do Estado, com Jacinto Machado, representando 2.500ha, seguido de Santa Rosa do Sul, com 820ha, e Criciúma, com 560ha</b>(<sup>9</sup>).
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28657,021660,18386,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18386]{359}cepa_2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28658,021660,18386,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18386]{174}cepa_3.jpg">  </a> 
+<br><br>
+<b>SENSORIAMENTO REMOTO POR IMAGENS DE SATÉLITE</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Através de satélites e técnicas de sensoriamento remoto, informações sobre 
+plantios agrícolas podem ser adquiridas de forma rápida e precisa, atendendo, assim, às 
+exigências e necessidades de levantamentos regulares sobre a produção de alimentos(<sup>1</sup>). <br><br>Os métodos convencionais, como levantamentos declaratórios, são 
+confiáveis; porém, com o advento de constelações de satélites cada vez mais poderosos 
+em resolução temporal e espacial, tais métodos estão se tornando ultrapassados, pois 
+são considerados onerosos e demorados. Além disso, os mapeamentos utilizando dados 
+orbitais apresentam a vantagem de atualizações temporais em um curto espaço de tempo 
+em grandes extensões geográficas. 
+Um dos índices mais utilizados é o normalized difference vegetation index (NDVI), 
+que utiliza, além das bandas espectrais do visível, bandas do infravermelho próximo. <br><br>Valores de NDVI abaixo de 0,5, por exemplo, podem representar fatores estressantes ao 
+cultivo, como baixa disponibilidade de água ou alguma patologia que diminuirá a taxa 
+fotossintética da planta, reduzindo os valores do índice. O NDVI pode ainda ser utilizado 
+para monitoramento das lavouras com presença de doenças como a sigatoka negra, umas 
+das principais patologias foliares da bananeira, que afeta significativamente esta cultura. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28660,021660,18386,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18386]{316}cepa_4.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28659,021660,18386,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18386]{50}cepa_5.jpg">  </a> 
+<br><br>
+<b>ANÁLISES TEMPORAIS DAS INFORMAÇÕES DOS SENSORIAMENTOS REMOTOS</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Análises temporais são essenciais para o entendimento de questões como 
+produtividade e estresse causado por doenças, pragas ou água, além de ser muitas vezes 
+o que ajuda a entender as adversidades que vem ocorrendo no ambiente de produção(<sup>2</sup>).<br><br> Os sensores de alta resolução temporal, como o MODIS, auxiliam 
+nestes estudos. Com capacidade de revisita de até dois dias e resolução espacial de 
+250m, este sensor pode ser utilizado para fins de análises temporais, analisando questões 
+espectrais da cultura de forma temporal e sazonal, dependendo da necessidade, e, assim, 
+proporcionar um levantamento de dados espaciais de amplo espaço geográfico, de modo 
+rápido e de baixo custo.<br><br> Os levantamentos agrícolas podem ser 
+úteis não só para as estimativas de safra, mas também para identificação e monitoramento 
+de doenças nos pomares, como a murcha de Fusarium, o complexo de sigatoka e outras 
+doenças identificáveis através das imagens e que podem ser quantificadas e monitoradas 
+por meio da aplicação de sensoriamento remoto e imagens temporais. Os avanços em 
+processamento de séries temporais e disponibilização de imagens de amplo espectro 
+radiométrico têm criado oportunidades nunca realizadas na agricultura, uma vez que 
+cobrem grandes áreas geográficas não só em nível municipal, mas também estadual. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28661,021660,18386,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18386]{175}cepa_7.jpg">  </a> 
+<br><br>
+<b>ZONEAMENTO AGRÍCOLA PARA O CULTIVO DA BANANA</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O clima subtropical de Santa Catarina impõe algumas limitações para o cultivo 
+da bananeira, destacando-se as baixas temperaturas no inverno e ocorrência de ventos 
+fortes em qualquer época do ano(<sup>3</sup>). <br><br>A temperatura mínima 
+basal para o crescimento de folhas de bananeira do subgrupo Cavendish foi determinada 
+como 12,6°C na região sul de Santa Catarina, o que explica 86% da taxa de produção 
+foliar da bananeira (<sup>4</sup>). <br><br>Como forma de representar climaticamente as 
+Unidades de Gestão Técnica (UGTs) produtoras, são apresentados, na <b>tabela abaixo</b>, os valores 
+médios anuais de temperaturas média, máxima e mínima (°C) e precipitação total (mm) 
+para as principais regiões produtoras de banana em Santa Catarina. Essas variáveis foram 
+estimadas com base em modelos estatísticos e matemáticos e observa-se que a variação 
+existente entre as regiões é pequena, dada a concentração da produção de banana na 
+parte leste continental do Estado. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28662,021660,18386,4);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18386]{526}ciram1.jpg">  </a> 
+<br><br>
+<b>ZONEAMENTO AGROECOLÓGICO E SOCIOECONÔMICO DE SANTA CATARINA</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O Zoneamento Agroecológico e Socioeconômico de Santa Catarina refere-se 
+à potencialidade de cultivo das espécies em função das características ambientais de 
+11 zonas agroecológicas. <br><br>Essa metodologia auxilia a tomada de decisão para planejamento 
+das propriedades e trata da aptidão edafoclimática de 177 culturas, incluindo industriais e 
+grãos, frutíferas, olerícolas, raízes, tubérculos, forrageiras e espécies florestais no Estado.  <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28663,021660,18386,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18386]{502}cepa_6.jpg">  </a> 
+<br><br>
+<b>ZONEAMETO AGRÍCOLA DE RISCOS CLIMÁTICOS</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O Zoneamento Agrícola de Riscos Climáticos é uma ferramenta técnico-científica 
+para tomada de decisão, baseada nos solos e na climatologia de cada região, bem como 
+nas exigências bioclimáticas das espécies. <br><br>Ele apoia a racionalização do crédito agrícola, 
+proteção dos recursos naturais (como água e solo) e do meio ambiente. Por tudo isso, este 
+tipo de zoneamento é a ferramenta oficial que viabiliza o acesso do agricultor ao Programa 
+de Garantia da Atividade Agropecuária (Proagro).<br><br> De forma abrangente, a área de recomendação da cultura em Santa Catarina 
+abrange as regiões do Litoral Norte, Alto Vale do Itajaí, Foz do Rio Itajaí e Litoral Sul.<br><br>
+Os cultivares Prata, por apresentarem boa resistência ao frio e aos ventos fortes(<sup>8</sup>), são os mais recomendados para a região do Litoral Sul Catarinense, onde são plantados em encostas de morros, evitando-se o risco de geadas em áreas de várzeas e de fundo de vales(<sup>5</sup>)(<sup>4</sup>). <br><br>Os cultivares Cavendish predominam e são mais recomendados para o Litoral Norte Catarinense, onde também 
+são cultivados em encostas de morros, mas podem ser plantados em áreas de baixadas.<br><br> Bananeiras desse subgrupo apresentam alta suscetibilidade aos danos por geadas e a “friagem” (chilling) dos frutos(<sup>7</sup>), caracterizada pela queima da casca devido ao frio. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28664,021660,18386,6);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18386]{334}ciram_2.jpg">  </a> 
+<br><br>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+ GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.<br><br>
+
+(<sup>9</sup>)CEPA. Boletim Agropecuário. Novembro/2021. Florianópolis, 2021, 55p. (Epagri. 
+Documentos, 347). Empresa de Pesquisa Agropecuária e Extensão Rural de Santa 
+Catarina.<br><br>
+
+(<sup>2</sup>)BAUMANN, M. OZDOGAN, M. RICHARDSON, A.D. RADELOFF, V. C. Phenology from 
+Landsat when data is scarce: Using MODIS and Dynamic Time-Warping to combine 
+multi-year Landsat imagery to derive annual phenology curves. International Journal of 
+Applied Earth Observation and Geoinformation, v. 54, 72-83, 2017.<br><br>
+
+(<sup>1</sup>)ATZBERGER, C. Advances in Remote Sensing of Agriculture: Context Description, Existing 
+Operational Monitoring Systems and Major Information Needs. Remote Sensing, v. 5, p. 
+949-981, 2015.<br><br>
+
+
+(<sup>8</sup>)LIVRAMENTO, G.; NEGREIROS, R. J. Z. BANANA: Recomendações técnicas para o cultivo no 
+litoral norte de Santa Catarina. Florianópolis: Epagri, 2017. 101 p. (Sistema de produção, 
+49).<br><br>
+
+
+(<sup>5</sup>)SCHERER, R.F.; SÔNEGO, M.; BELTRAME, A.B.; MARO, L.A.C.; Danos causados por 
+vendaval em bananais de diferentes cultivares de bananeira (Musa spp.). Agropecuária 
+Catarinense, Florianópolis, v.31, n.1, p.45-47, 2018.<br><br>
+
+
+(<sup>4</sup>)SÔNEGO, M.; PERUCH, L. A. M.; MOOT, D. J.; NESI, C. N. Temperature and rate of leaf 
+production in banana crops in a subtropical environment. In: REUNIÃO INTERNACIONAL 
+DA ACORBAT, 18., 2008, Guayaquil. Anais…Guayaquil, 2008.<br><br>
+
+(<sup>7</sup>)EPAGRI. Avaliação de cultivares para o estado de Santa Catarina 2020-2021. 
+Florianópolis, 2020. 90p. (Epagri. Boletim Técnico, 194).<br><br>
+
+
+(<sup>3</sup>)SOUZA, A. T. de; CONCEIÇÃO, O. A. da. Fatores que afetam a qualidade de banana na 
+agricultura familiar catarinense. Florianópolis: Instituto Cepa/SC, 2002. 68p.<br><br>
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Kleber Trabaquini (Dr. - Epagri)<br> &nbsp;&nbsp; Pesquisador - Epagri/CIRAM </font> 
+<br> <font size="2">• Cristina Pandolfo (Dra. - Epagri)<br> &nbsp;&nbsp; Pesquisadora - Epagri/CIRAM </font> 
+<br><br><br> <font size="2"> Criado em: 07/03/2024</font>
+<br> <font size="2"> Última atualização: 29/04/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021660&amp;cdElemento=18386">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18386');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

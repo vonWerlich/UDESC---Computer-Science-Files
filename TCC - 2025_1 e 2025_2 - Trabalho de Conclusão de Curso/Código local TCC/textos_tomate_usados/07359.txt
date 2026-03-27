@@ -1,0 +1,20 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - c) Escolha dos cultivares, produção de mudas e plantio - 3) Semeadura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07359&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6644%5D%7B156%7Dcapa_tomatorg.jpg
+
+-- Quantidade de sementes a utilizar: --
+As sementes utilizadas devem ser de boa qualidade. É colocada apenas uma semente por recipiente para evitar o desbaste. Devem ser cobertas com substrato sem torrões a uma profundidade igual a três vezes o seu maior diâmetro. Semeia-se de 10 a 15% a mais da necessidade de mudas para repor suas eventuais perdas.
+
+-- Tipo de bandeja: --
+As mudas podem ser produzidas em bandejas de isopor ou plásticas. A produção em bandejas traz vantagens como: ótima germinação, manejo facilitado, uniformidade de mudas e economia de água. Deve-se dar preferência por bandejas de 128 células, que possuem 34,6cm3 de volume por célula, para melhor desenvolvimento do sistema radicular, apesar de serem aceitas bandejas de até 72 células.
+
+-- Após a semeadura: --
+Em bandejas, é comum o empilhamento até o início da emergência (48 a 72 horas), quando são distribuídas e podem ser mantidas suspensas em bancadas (0,3 a 0,6m do solo) para que ocorra a poda natural das raízes que saem das células. Esta poda estimula o enraizamento secundário que contribui para maior aderência do substrato às raízes durante o transplante.
+
+-- Caso a muda seja adquirida fora da propriedade: --
+Recomenda-se que sejam adquiridas de produtores especializados e idôneos, a fim de assegurar sua alta qualidade. Contudo, infelizmente, são escassos os casos de cidades que possuem produtores especializados em fornecer mudas orgânicas de tomateiro.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

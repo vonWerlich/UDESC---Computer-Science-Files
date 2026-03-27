@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Herbicidas indicados para o arroz irrigado - Starice
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015667&isEdicao=N&epagriTEC=S
+
+
+-- INFORMAÇÕES GERAIS: --
+- Ingrediente ativo: Fenoxaprope-p-etílico; - Formulação e Concentração (g/L ou kg): CE 69; - Dose (quantidade/ha): 0,8 a 1,0 L; - Época de aplicação: Pós; - Classificação tóxicológica: 5 (produto improvável de causar dano agudo, faixa azul); - Classificação ambiental: ; II (muito perigoso ao ambiente); - Intervalo de segurança (dia): 80;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+- Adicionar adjuvante específico na dose recomendada (vide bula). - A aplicação de todo e qualquer tratamento herbicida deve seguir as recomendações do receituário agronômico, utilizando-se equipamentos de proteção individual (EPI) e acompanhado de um responsável técnico.
+
+-- INFORMAÇÕES SOBRE O CONTROLE DE PLANTAS DANINHAS NO ARROZ: --
+Aguapé: não controla. Angiquinho: não controla. Arroz-daninho: não controla. Capim-arroz: controla, mas pode apresentar resistência ao herbicida. Capim-macho: controla. Cuminho: não controla. Junquinho: não controla. Sagitária: não controla.
+
+-- Informações Complementares --

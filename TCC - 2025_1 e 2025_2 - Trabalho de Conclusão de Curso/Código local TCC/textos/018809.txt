@@ -1,0 +1,33 @@
+Título: BIOFERTILIZANTE EEI - Funcionamento da UPPB, modelo Epagri
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018809&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16394%5D%7B400%7Dfigura_4.partes_funcionais_da_uppb_-_copia.jpg
+
+-- Unidade Portátil de Produção de Biofertilizantes (UPPB): --
+A UPPB apresenta quatro partes funcionais: os conjuntos de bombeamento e oxigenação, e os sistemas de circulação e descarga (Figura 4):
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16394%5D%7B118%7Dfigura_4.partes_funcionais_da_uppb.jpg
+Legenda: Figura 4. Partes funcionais da UPPB. Autor: Alexandre Visconti
+
+-- A– Conjunto de bombeamento: --
+Encontra-se fixado na parte de baixo da bombona. Tem a finalidade de promover a circulação do biofertilizante no sistema e, ao final do processo fermentativo, fazer a descarga do biofertilizante para o seu uso (Figura 5).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16394%5D%7B444%7Dfigura_5._conjunto_de_bombeamento.jpg
+Legenda: Figura 5. Conjunto de bombeamento. Autor: Alexandre Visconti
+
+-- B – Conjunto de oxigenação: --
+Está localizado na parte superior da unidade de fermentação. É formado por uma torneira plástica e uma mangueira, assemelhando-se a um sistema ‘Venturi’ e tem a função de injetar ar no biofertilizante (Figura 6).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16394%5D%7B56%7Dfigura_6._conjunto_de_oxigenacao.jpg
+Legenda: Figura 6. Conjunto de oxigenação. Autor: Alexandre Visconti
+
+-- C – Sistema de Circulação: --
+Situado na parte interior, tem como função não permitir a decantação da fração sólida do biofertilizante, no fundo da bombona (Figura 7).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16394%5D%7B152%7Dfigura_7._sistema_de_circulacao.jpg
+Legenda: Figura 7. Sistema de circulação. Autor: Alexandre Visconti
+
+-- D – Sistema de descarga: --
+É acionado ao final processo fermentativo, para retirar o biofertilizante da bombona e realizar o seu uso (Figura 8).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16394%5D%7B193%7Dfigura_8._sistema_de_descarga.jpg
+Legenda: Figura 8. Sistema de descarga do biofertilizante. Autor: Alexandre Visconti
+
+-- Informações Complementares --
+Visconti, A.; Schallenberger, E. Morales, R.G.F.; Cantú, R.R. Unidade Portátil de Produção de Biofertilizante Aeróbico, Modelo Epagri. Cartilha da Epagri, Florianópolis, Março de 2022.

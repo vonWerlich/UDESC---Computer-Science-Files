@@ -1,0 +1,21 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Murcha-dágua ou Murcha-por-asfixia
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=01694&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1519%5D%7B531%7Dimg-20190423-wa0060.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1519%5D%7B421%7Dimg-20190423-wa0061.jpg
+Legenda: Sintomas da murcha pelo excesso de água no solo. Foto: Ariel Ritter
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1519%5D%7B317%7Dimg-20190423-wa0060.jpg
+Legenda: Sintomas da murcha pelo excesso de água no solo. Foto: Ariel Ritter
+
+-- SINTOMAS: --
+As raízes não respiram e perdem a função de absorção e translocamento da água para a parte superior da planta. Como consequência, o topo da planta fica murcho. Se essa condição permanecer por vários dias, pode ocorrer amarelecimento das folhas mais velhas, colapso do caule e morte do topo da planta (1). O que pode ajudar na diferenciação entre esse estresse e uma infestação pela bactéria murchadeira, é que na primeira as plantas afetadas estarão delimitadas pela área sujeita ao encharcamento, ao passo que na murchadeira a doença ocorre em reboleiras que por vezes não ocorrem na área inteira pegando todas as plantas ao mesmo tempo.
+
+-- O QUE PODE ESTAR OCORRENDO: --
+- Solos encharcados por excesso de chuvas ou de irrigação (1). - Plantio em áreas de baixada.
+
+-- CONTROLE: --
+- Irrigação adequada e evitar vazamentos em dutos de irrigação e, ainda, com boa drenagem do solo (1). - Evitar o plantio em baixadas e sujeitas ao acúmulo de água. - Fazer um sistema de drenagem na área de cultivo.
+
+-- Informações Complementares --
+(1) LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005.

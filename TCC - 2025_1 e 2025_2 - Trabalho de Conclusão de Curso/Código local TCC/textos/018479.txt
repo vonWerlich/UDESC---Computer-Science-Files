@@ -1,0 +1,36 @@
+Título: COMPOSTAGEM - Tipos de compostagem - Leira estática com ar forçado
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018479&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16098%5D%7B310%7Dfigura_2.jpg
+
+-- DESCRIÇÃO: --
+O sistema de leira estática com ar forçado segue as mesmas recomendações do sistema de leira estática (vide item 2.1), diferenciando apenas no manejo da aeração.
+
+-- COMO FAZER O MANEJO COM AR FORÇADO: --
+O sistema de aeração forçada deve ser dimensionado de acordo com as instalações e o volume de material a ser compostado. É importante prever um sistema que permita o uso de máquinas, com os canos de aeração instalados abaixo do nível do piso, dentro de canaletas (Figura 2 A e B). Outros métodos mais simplificados, com compressores acoplados a canos perfurados, também podem ser empregados para menores volumes (Figura 2 C e D).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16098%5D%7B270%7Dfigura_2a.jpg
+Legenda: Figura 2A. Sistemas de aeração de compostagem com uso de canaletas com canos inseridos no piso (A e B). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16098%5D%7B176%7Dfigura_2b.jpg
+Legenda: Figura 2B. Sistemas de aeração de compostagem com uso de canaletas com canos inseridos no piso (A e B). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16098%5D%7B12%7Dfigura_2c.jpg
+Legenda: Figura 2C. Sistemas de aeração de compostagem com compressor radial acoplado a canos perfurados inseridos sob a pilha de compostagem (C e D). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16098%5D%7B523%7Dfigura_2d.jpg
+Legenda: Figura 2D. Sistemas de aeração de compostagem com compressor radial acoplado a canos perfurados inseridos sob a pilha de compostagem (C e D). Foto: Rafael Ricardo Cantú
+
+-- DIMENSIONAMENTO DO AR FORÇADO: --
+Há diversas publicações sobre dimensionamento de ar forçado, variando entre 2 a 20m3 h-1 por tonelada de pilha da compostagem, ou até mesmo com maiores discrepâncias, dependendo do material a ser compostado. Experiências realizadas pela Epagri (Figura 3) mostraram que no primeiro mês de compostagem, o regime de 3m3 h-1 de ar por tonelada, com 50% do tempo ligado (a cada 30 minutos), foi eficiente na melhoria do processo. No segundo mês, o emprego do ar em apenas 25% do tempo (15 minutos ligado e 45 desligado) foi eficiente. Após 60 dias do início da montagem das leiras, não é necessário o emprego de ar forçado. Todavia, é necessário testar o dimensionamento de acordo com cada caso, buscando obter a melhor eficiência, a exemplo do caso acompanhado pela Epagri ilustrado na Figura 3 C e D. É necessário fazer um revolvimento mensal, nos casos da Figura 3, com o auxílio de tratores.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16098%5D%7B214%7Dfigura_3a.jpg
+Legenda: Figura 3A. Sistemas de aeração de compostagem com uso de ar forçado, em uma pilha de materiais constituídos por capim e esterco bovino (A e B). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16098%5D%7B97%7Dfigura_3b.jpg
+Legenda: Figura 3B. Sistemas de aeração de compostagem com uso de ar forçado, em uma pilha de materiais constituídos por capim e esterco bovino (A e B). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16098%5D%7B367%7Dfigura_3c.jpg
+Legenda: Figura 3C. Sistemas de aeração de compostagem com uso de ar forçado com esterco de aves de postura misturado a serragem (C e D). Foto: Rafael Ricardo Cantú
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B16098%5D%7B271%7Dfigura_3d.jpg
+Legenda: Figura 3D. Sistemas de aeração de compostagem com uso de ar forçado com esterco de aves de postura misturado a serragem (C e D). Seta vermelha indica o local da entrada do cano para a aeração da pilha de compostagem. Foto: Rafael Ricardo Cantú
+
+-- EXEMPLO DE APLICAÇÃO DA TÉCNICA: --
+Local: Blumenau, SC. Ano da observação: 2021 Material compostado: A - capim elefante (Relação C/N de 40/1), B - esterco bovino (Relação C/N de 8/1). Proporções utilizadas (volume/volume): 12 a 15 / 1 dos materiais A/B Revolvimento da pilha: mensal Volume de ar: 3m3 h-1 de ar por tonelada Tempo necessário para a finalização do processo: 90 dias
+
+-- Informações Complementares --
+Rafael Ricardo Cantú; Rafael G. F. Morales; Euclides Schallenberger; Alexandre Visconti; Cesar Augusto Lodi. COMPOSTAGEM: Estratégias para transformar resíduos em fertilizantes. Cartilha da Epagri, Edição: Epagri/DEMC, Divulgação: On-line. Florianópolis, fevereiro/2022.

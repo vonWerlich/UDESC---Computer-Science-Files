@@ -1,0 +1,19 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Broca-pequena-do-fruto
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014999&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12997%5D%7B284%7D52-3_-_copia.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12997%5D%7B355%7D52-2.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12997%5D%7B113%7D52-3.jpg
+Legenda: Danos causados pelo ataque na parte externa dos frutos. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12997%5D%7B148%7D52-1.jpg
+Legenda: Lagartas da broca-pequena se alimentando de frutos. null
+
+-- INFORMAÇÕES GERAIS: --
+O adulto da broca-pequena-do-fruto, Neoleucinodes elegantalis – (Guennée, 1854) (Lepidoptera: Crambidae) é uma mariposa de 25 mm.
+
+-- CICLO DE VIDA: --
+A mariposa coloca seus ovos nos frutos, sob as sépalas. Após a eclosão, por um furo quase imperceptível, a lagarta penetra no fruto, onde se alimenta da polpa. Após aproximadamente 30 dias, a lagarta de 11 a 13 mm e de coloração rosada abandona o fruto, empupando no solo, de onde emergirá um novo adulto.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

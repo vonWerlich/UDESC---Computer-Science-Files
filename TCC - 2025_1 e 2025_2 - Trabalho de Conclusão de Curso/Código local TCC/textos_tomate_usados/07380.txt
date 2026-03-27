@@ -1,0 +1,26 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - e) Adubação e manejo do solo - 3) Nutrição mineral e calagem
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07380&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6663%5D%7B504%7Dcapa_tomatorg.jpg
+
+-- CULTIVO PROTEGIDO x CÉU ABERTO: --
+A produção de tomates no sistema orgânico de produção em de abrigos de cultivo necessita de cuidados complementares com o solo, comparados aos sistemas a céu aberto. Isso porque os cultivos em abrigos são intensivos, na maioria das vezes com frequentes revolvimentos do solo, o que leva à redução da matéria orgânica e, com isso, há diversas implicações negativas para o desenvolvimento e a produção do tomateiro.
+
+-- IMPORTÂNCIA DA MATÉRIA ORGÂNICA DO SOLO: --
+A matéria orgânica possui inúmeras funções no solo que regulam a disponibilidade dos nutrientes às plantas, interferem na sua fisiologia por meio das substâncias húmicas e melhoram a retenção e o fornecimento de água aos cultivos. Além disso, dentro de abrigos não ocorre lixiviações, o que tem levado ao acúmulo de alguns nutrientes no solo, muitas vezes acima do nível crítico da cultura. Neste caso, a matéria orgânica possui papel fundamental na retenção e disponibilidade dos nutrientes, sem ocasionar salinização da solução do solo e desequilíbrios na absorção dos nutrientes. Por outro lado, a adubação orgânica deve ser devidamente dimensionada para não ocorrer os problemas com acúmulo excessivo de nutrientes.
+
+-- NUTRIÇÃO VIA COMPOSTO ORGÂNICO: --
+Os resultados de pesquisa encontrados na Epagri/EEI com a adubação orgânica à base de compostos confirmam que é muito raro ocorrerem deficiência e desequilíbrios nutricionais.
+
+-- USO CONTINUADO DE COMPOSTO EM ABRIGOS: --
+Todavia, com o uso continuado de composto no abrigo, ocorre o efeito residual de nutrientes, tal como o nitrogênio (N) que, se não for bem manejado nas doses do fertilizante, ocasiona um demasiado desenvolvimento vegetativo, reduzindo a aeração e a luminosidade necessárias ao cultivo. Esse aspecto de excesso de N ocasiona a redução da produção e deixa a planta propensa a doenças, como requeima, nematoides, murcha bacteriana e até mesmo podridões bacterianas como a causada pela Erwinia carotovora. Além disso, as plantas podem ficar mais atrativas a pragas como a mosca-branca entre outras.
+
+-- IMPORTÂNCIA DA ANÁLISE DO SOLO: --
+A correção do solo em um abrigo para produção orgânica de tomates deve ser realizada sempre com base na análise de solo, devendo-se fazer no mínimo a cada dois anos e, se possível, anualmente, para cada talhão/abrigo de cultivo.
+
+-- CALAGEM: --
+Com base na análise de solo, caso precise corrigir o pH, deve-se buscar atingir o pH 6,0. Após essa primeira correção, que deve ser feita preferencialmente com calcário, a adição de composto orgânico no decorrer dos cultivos mantém o pH do solo em níveis próprios à cultura. Contudo, é necessário realizar o monitoramento periódico do solo, pois a maioria dos compostos são alcalinos e podem ocasionar a elevação demasiada do pH. É possível encontrar abrigos de produção de hortaliças em Santa Catarina que utilizaram exclusivamente composto que enfrentam problemas de disponibilidade de Zn e Mn.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

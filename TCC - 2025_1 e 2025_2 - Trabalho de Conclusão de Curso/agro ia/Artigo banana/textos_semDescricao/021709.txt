@@ -1,0 +1,31 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - MOSAICO DA BANANEIRA - CMV
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021709&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+MOSAICO DA BANANEIRA - CMV
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18399%5D%7B141%7Dfigura_7b_folha_com_faixas_amarelas.jpg
+FOTO: Addolorata Colariccio
+
+-- DESCRIÇÃO --
+O CMV é a espécie tipo do gênero Cucumovirus, família Bromoviridae. As partículas do CMV são isométricas e seu genoma é constituído por três segmentos de RNA lineares de fita simples, de polaridade positiva. Por possuir um genoma segmentado, o CMV está sujeito a pseudorrecombinações, que, juntamente com mutações e rearranjos, são responsáveis pela elevada variabilidade genética e o grande número de estirpes do vírus. O CMV possui um amplo círculo de hospedeiros em diferentes famílias botânicas de plantas ornamentais, olerícolas e da vegetação espontânea (cerca de 1.200 espécies). A transmissão do CMV ocorre principalmente pela propagação vegetativa dos rizomas, ressaltando que, mesmo de rizomas infectados pelo vírus, podem se originar perfilhos sadios. Isto ocorre porque a distribuição do vírus nas plantas não é uniforme.
+
+-- TRANSMISSÃO --
+O CMV se propaga da fonte de inóculo por transmissão mecânica, pelas ferramentas de corte empregadas no manejo da cultura e por afídeos. Para os novos plantios, provém das plantas ornamentais, olerícolas e plantas daninhas, especialmente da trapoeraba e espirradeira (Impatiens sp.) (Figura abaixo) , plantas daninhas muito comuns em cultivo de banana. No Brasil, a primeira ocorrência do CMV foi descrita, em 1941, no estado de São Paulo, ocasionando mosaico, necrose e morte de bananeiras. Posteriormente, outros isolados de CMV foram identificados em bananeiras no Rio de Janeiro, Pernambuco, Minas Gerais e São Paulo( 1 ).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18399%5D%7B282%7Dfigura_8_impatiens.jpg
+
+-- SINTOMAS --
+Os principais sintomas nas folhas das bananeiras infectadas são a clorose entre as nervuras, mosaico de coloração amarela e deformação do limbo foliar (Figura abaixo) . As plantas podem ter o crescimento reduzido (nanismo) e, nos frutos, ocorre má formação, redução do número e do tamanho e uma ligeira ondulação da casca, conhecida como marca de dedos (Figura abaixo) . Os sintomas induzidos pelo CMV podem variar de leve mosaico a sintomas severos de nanismo e necrose do cartucho central, e sua manifestação depende da estirpe do vírus e das condições ambientais. O sintoma principal consiste em estrias amarelas que se iniciam na nervura principal e se desenvolvem paralelas às nervuras secundárias, formando um mosaico amarelo (Figura abaixo) , podem evoluir para estrias necróticas e redução e deformação do limbo foliar em folhas mais velhas (Figura abaixo) , dando-lhe uma aparência atrofiada e lanceolada. Em bananeiras cultivadas em regiões com clima mais quente, sintomas de mosaico podem ser mais brandos ou não se manifestar.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18399%5D%7B518%7Dfigura_7a_frutos_cmv.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18399%5D%7B124%7Dfigura_7b_folha_com_faixas_amarelas.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18399%5D%7B229%7Dfigura_7c_reducao_e_deformacao.jpg
+
+-- CONTROLE --
+Devido à ausência de cultivares resistentes ao CMV , o manejo deve ser preventivo pelo uso de mudas provenientes de empresas produtoras de mudas registradas no Mapa. Além disso, sempre que possível, deve-se empregar o controle biológico e/ou químico para evitar a presença dos afídeos no início do cultivo, uma vez que, após a manifestação dos sintomas, o controle dos afídeos é inútil, pois o vírus já foi transmitido na picada de prova e está disseminado no cultivo. Realização de inspeções periódicas, eliminação de plantas com sintomas de mosaico e substituição por plantas sadias.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )COLARICCIO, A.; EIRAS, M.; CHAVES, A.L.R. Vírus: patógeno limitante à cultura de bananeira no Brasil. In: NOGUEIRA, E.M.C.; ALMEIDA, I.G.; FERRARI, J.T.; BERIAM, O.T.S. (Eds.). In: Bananicultura – Manejo fitossanitário e aspectos econômicos e sociais da cultura. Instituto Biológico, São Paulo, 1ª ed., p.116-135, 2013.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )COLARICCIO, A.; EIRAS, M.; CHAVES, A.L.R. Vírus: patógeno limitante à cultura de bananeira no Brasil. In: NOGUEIRA, E.M.C.; ALMEIDA, I.G.; FERRARI, J.T.; BERIAM, O.T.S. (Eds.). In: Bananicultura – Manejo fitossanitário e aspectos econômicos e sociais da cultura. Instituto Biológico, São Paulo, 1ª ed., p.116-135, 2013.
+• André Boldrin Beltrame (Dr. - Epagri) Pesquisador - Epagri - Itajaí

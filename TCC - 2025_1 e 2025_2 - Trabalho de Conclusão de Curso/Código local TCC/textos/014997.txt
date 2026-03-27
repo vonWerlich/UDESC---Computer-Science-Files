@@ -1,0 +1,23 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Desfolheadores
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014997&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12995%5D%7B266%7D50-2_-_copia.jpg
+
+-- VAQUINHAS: --
+Os coleópteros são os principais insetos desfolhadores que atacam o tomateiro, os principais são as vaquinhas desfolhadoras Epicauta atomaria (Germar, 1821) (Meloidae) e Diabrotica speciosa (Germar, 1824) (Chrysomelidade).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12995%5D%7B344%7D50-2_-_copia.jpg
+Legenda: Adulto de Diabrotica speciosa. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12995%5D%7B489%7D50-1.jpg
+Legenda: Adulto de Epicauta atomaria. null
+
+-- GORGULHOS: --
+Esta cultura também pode ser atacada com menor frequência por outras espécies de gorgulhos, como o “bicho-da-tromba-de-elefante” Phyrdenus divergens (Germar, 1824) e Faustinus sp. (Curculionidae).
+
+-- DANOS: --
+Os prejuízos das vaquinhas são o desfolhamento das plantas, enquanto que os curculionídeos adultos atacam as folhas e na fase jovem fazem galerias nos ramos, frutos e raízes , podendo levar a planta à morte.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12995%5D%7B315%7D50-3.jpg
+Legenda: Danos ocasionados pelo ataque de coleópteros desfolhadores. null
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

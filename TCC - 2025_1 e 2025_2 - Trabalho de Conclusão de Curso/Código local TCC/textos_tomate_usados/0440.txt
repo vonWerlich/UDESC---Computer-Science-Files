@@ -1,0 +1,28 @@
+Título: TOMATE - Cultivares - Vero (HS 1188) F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0440&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B335%5D%7B6%7Dhs_1188.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Horticeres Sementes; Finalidade: Copa; Grupo: Italiano; Polinização: Híbrido; Precocidade: Média (111 a 120dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: F3 - Fusarium oxysporum f.sp. lycopersici - raça 3; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- PLANTA E FRUTOS: --
+Muito produtiva com hábito de crescimento indeterminado, porte alto e médio enfolhamento. Indicado para cultivo em campo aberto e estufa. Tipo italiano, de formato alongado, firmes, de coloração vermelho intenso e excelente sabor. Peso médio de 140 a 170 gramas.
+
+-- DESCRIÇÃO: --
+ÉPOCA: Melhor adaptação em temperaturas amenas. CICLO: 100 a 120 dias. ESPAÇAMENTO: Entre fileiras 1,00 a 1,20 m. Entre plantas: 0,35 a 0,50 m. PLANTAS/HÁ:16 a 23 mil.
+
+-- RESISTÊNCIA: --
+Plantas resistentes a Murcha Fusarium raças 1, 2, 3, ToMV, TSWV, Murcha Verciliar do Tomate e Nematoides. Tolerante a TYLVC.
+
+-- OBSERVAÇÕES DE CAMPO: --
+Em cultivo realizado em Palhoça, SC, o cultivar apresentou uma grande incidência de galhas. Como não foi feita a identificação da espécie de nematoide que estava ocorrendo, um dos seguintes fatos estão ocorrendo: Ou o cultivar é suscetível a umas das três principais raças (javanica, arenaria e incognita) / ou a lavoura está com problemas com uma quarta raça de nematoide diferente destas de ocorrência mais comum.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B335%5D%7B91%7Dnema.jpg
+Legenda: Ocorrência de galhas no cultivar Vero. Foto: Edson de Quadra
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.horticeres.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.horticeres.com.br.

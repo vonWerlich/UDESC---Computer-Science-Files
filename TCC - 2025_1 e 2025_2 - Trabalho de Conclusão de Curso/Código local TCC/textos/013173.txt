@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - 13. Tecnologia de aplicação de agrotóxicos em arroz irrigado - Condições climáticas para as pulverizações
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013173&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11430%5D%7B33%7D11_condclima_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+No campo, para a realização das pulverizações, deve se avaliar as condições meteorológicas, principalmente a temperatura, a umidade relativa do ar, a velocidade e direção do vento, o molhamento foliar resultante de orvalho e a possibilidade de chuvas, durante ou logo após a aplicação. De maneira geral, pode-se atribuir às condições meteorológicas e às pontas de pulverização a maior parcela de contribuição para a ineficiência do processo de pulverização no controle de pragas, doenças e plantas daninhas da cultura do arroz irrigado.
+
+-- TEMPERATURA: --
+No momento das pulverizações, a temperatura não deve ser superior a 28°C. para evitar a evaporação de gotas finas e extremamente finas, além da redução significativa no diâmetro das demais gotas.
+
+-- UMIDADE RELATIVA DO AR: --
+Pelos mesmos motivos da temperatura, a umidade relativa do ar deve estar acima de 55% no momento das pulverizações.
+
+-- VELOCIDADE DO VENTO: --
+Em relação à velocidade do vento, o ideal é que esteja entre 3,2 e 6,5km/h. No intervalo entre 6,5 e 9,6km/h, deve-se evitar as aplicações de herbicidas. Acima de 9,6km/h não se recomenda as pulverizações e abaixo de 3,2km/h estas devem ser evitadas em dias quentes e ensolarados.
+
+-- ORVALHO: --
+Caso haja a presença de orvalho, não realizar pulverizações, para não diluir a concentração do ingrediente ativo aplicado, bem como não proporcionar maior escorrimento para o solo, pelo arraste das gotas com o movimento da pulverização.
+
+-- CHUVA: --
+A ocorrência de chuvas durante a aplicação remove total ou parcialmente os depósitos de produtos sobre as plantas. Caso a chuva ocorra em períodos inferiores a 2 horas após a pulverização, há redução drástica do efeito sobre o alvo, necessitando de reaplicações para a maioria dos produtos.
+
+-- Informações Complementares --

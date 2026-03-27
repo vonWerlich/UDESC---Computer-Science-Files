@@ -1,0 +1,65 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Broca-do-colo (Ochetina uniformis)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021504&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11354%5D%7B455%7Dbcolo_caput.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B285%7Dbcolo_fig01.jpg
+Legenda: 01. Adulto de Ochetina uniformis. Composição: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B297%7Dbcolo_fig02.jpg
+Legenda: 02. Adulto de Ochetina uniformis. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B504%7Dbcolo_fig03.jpg
+Legenda: 03. Adulto de Ochetina uniformis. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B241%7Dbcolo_fig04.jpg
+Legenda: 04. Comparativo de tamanho entre adultos da broca-do-colo e da bicheira-da-raiz. Composição: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B164%7Dbcolo_fig05.jpg
+Legenda: 05. Ovos e larva da broca-do-colo. Composição: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B261%7Dbcolo_fig06.jpg
+Legenda: 06. Broca-do-colo. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B230%7Dbcolo_fig07.jpg
+Legenda: 07. Broca-do-colo. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B394%7Dbcolo_fig08.jpg
+Legenda: 08. Broca-do-colo. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B548%7Dbcolo_fig11.jpg
+Legenda: 11. Ataque da broca-do-colo na lavoura. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B155%7Dbcolo_fig12.jpg
+Legenda: 12. Plantas atacadas pela broca-do-colo. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B54%7Dbcolo_fig13.jpg
+Legenda: 13. Coração morto em plantas atacadas pela broca-do-colo. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B513%7Dbcolo_fig14.jpg
+Legenda: 14. Reboleira de ataque da broca-do-colo na lavoura. Fonte: IRGA (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B248%7Dbcolo_fig15.jpg
+Legenda: 15. Plantas com sintoma de coração morto. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B112%7Dbcolo_fig16.jpg
+Legenda: 16. Sintomas de coração morto. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B352%7Dbcolo_fig21.jpg
+Legenda: 21. Colmo de arroz cortado mostrando o dano interno da broca-do-colo. Fonte: E.R.Hickel
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B50%7Dbcolo_fig22.jpg
+Legenda: 22. Furo de saída da broca-do-colo. Fonte: H.F.Prando (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B180%7Dbcolo_fig23.jpg
+Legenda: 23. Furo de saída da broca-do-colo. Fonte: H.F.Prando (remasterizada)
+
+-- INFORMAÇÕES GERAIS: Praga secundária --
+Espécie: Ochetina uniformis (Pascoe) Ordem: Coleoptera Família: Curculionidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B472%7Dbcolo_base.jpg
+Legenda: Quadro resumo
+
+-- IDENTIFICAÇÃO: --
+• O adulto é um gorgulho-aquático, com cerca de 5mm de comprimento, de corpo oblongo e coloração geral parda. Difere de outros gorgulhos aquáticos do arroz pela longa tromba negra na cabeça. • A larva é a broca-do-colo. Um verme recurvado, de cor branca, ápodo, com cabeça castanha perceptível e seis pares de espiráculos dorsais em forma de gancho.
+
+-- CICLO DE VIDA: --
+O ciclo biológico de O. uniformis ainda não foi estudado e portanto se desconhece quanto perdura cada uma das fases. Também são raros os estudos de biologia com outras espécies do gênero Ochetina , que normalmente ocorrem em plantas aquáticas diversas. O adulto passa o inverno em diapausa, em abrigos de hibernação.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B525%7Dbcolo_ciclo.jpg
+Legenda: Ciclo de vida da broca-do-colo, sem conhecimento da duração das fases.
+
+-- OCORRÊNCIA: --
+Anual: de outubro a março. Crítico: novembro/dezembro. Lavoura: do perfilhamento à floração.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11354%5D%7B396%7Dbcolo_fenologia.jpg
+Legenda: Fenologia da ocorrência da broca-do-colo na lavoura de arroz em Santa Catarina.
+
+-- DANOS: --
+• O adulto perfura o colmo do arroz para se alimentar do meristema da planta, bem como efetuar a postura. • A larva abre galerias na parte basal da planta enquanto se alimenta internamente dos colmos. Tanto os danos dos adultos quanto os das larvas resultam no sintoma de "coração morto". Em ataques tardios, estes podem resultar no sintoma de panícula branca. Quando puxado com força, o perfilho do arroz se rompe na base, deixando as raízes no solo.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Bom preparo e nivelamento do solo. • Manter lâmina de água uniforme. • Realizar vistorias periódicas para verificar a ocorrência e os locais de maior concentração da praga. • Nas áreas com sintomas, incrementar a adubação nitrogenada em até 50% da dose usual de N/ha. • Eliminar as plantas aquáticas hospedeiras que estejam nas quadras ou nos valos. • Controle químico com tratamento de sementes ou concomitantemente ao da bicheira-da-raiz.
+
+-- Informações Complementares --
+POSSEBON, S.B. Flutuação populacional e controle químico de Ochetina uniformis (Pascoe, 1881) (Coleoptera, Erirhinidae, Erirhininae) em área de arroz irrigado . 2007. 59f. Dissertação (Mestrado em Agronomia), Universidade Federal de Santa Maria, Santa Maria, 2007.

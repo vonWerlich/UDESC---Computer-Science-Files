@@ -1,0 +1,41 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Cascudo-preto (Euetheola humilis)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013052&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Cascudo-preto ( Euetheola humilis )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11356%5D%7B369%7Dcpreto_caput.jpg
+FOTO: Não identificada (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11356%5D%7B266%7Dcpreto_fig04.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11356%5D%7B228%7Dcpreto_fig11.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11356%5D%7B215%7Dcpreto_fig13.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11356%5D%7B540%7Dcpreto_fig22.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11356%5D%7B267%7Dcpreto_fig21.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11356%5D%7B478%7Dcpreto_fig23.jpg
+
+-- INFORMAÇÕES GERAIS: Praga secundária --
+Espécie: Euetheola humilis (Burm.) Ordem: Coleoptera Família: Scarabaeidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11356%5D%7B521%7Dcpreto_base.jpg
+
+-- IDENTIFICAÇÃO: --
+• O adulto é um escaravelho preto, com cerca de 15mm de comprimento, pernas robustas e sem chifres na cabeça ou no protórax. • A larva é um coró, arqueada em forma de “C”, de cor branca, com pernas e cabeça castanha. Atinge cerca de 50mm de comprimento e vive no solo, onde se alimenta de raízes.
+
+-- CICLO DE VIDA: --
+Em laboratório, a 33°C, o ciclo de ovo a adulto se completa em 53 dias. Em campo, normalmente há duas gerações anuais, variando o período larval de 4 a 12 meses e o pupal de 12 a 15 dias. A incubação dos ovos varia de 8 a 10 dias. A longevidade dos adultos pode chegar a 90 dias.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11356%5D%7B284%7Dcpreto_ciclo.jpg
+
+-- OCORRÊNCIA: --
+Anual: de setembro a março. Crítico: novembro. Lavoura: perfilhamento e eventualmente maturação. Nota: praga de plantio em solo seco.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11356%5D%7B376%7Dcpreto_fenologia.jpg
+
+-- DANOS: --
+Os adultos roem a base das plantas, causando murcha e posterior seca de perfilhos. Ao se puxar do solo, estes soltam-se facilmente das raízes. Um eventual ataque na maturação pode ocasionar o acamamento de plantas, dificultando a colheita. As larvas normalmente não habitam as arrozeiras, pois o solo alagado lhes é desfavorável. Assim normalmente ocorrem em pastagens e áreas em pousio.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Inundar quadros com presença de sintomas. • Em áreas com histórico de ocorrência de cascudo-preto, semear sementes tratadas com inseticida.
+
+-- Informações Complementares --
+ALZUGARAY, R. El Cascarudo Negro - Quién es, cómo vive, de dónde viene. Revista Arroz , v.15, n.55, p.44-48, 2008.
+ALZUGARAY, R. El Cascarudo Negro - Quién es, cómo vive, de dónde viene. Revista Arroz , v.15, n.55, p.44-48, 2008.
+• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri) Manejo integrado de pragas

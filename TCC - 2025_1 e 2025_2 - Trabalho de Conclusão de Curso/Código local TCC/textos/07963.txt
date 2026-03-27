@@ -1,0 +1,27 @@
+Título: TOMATE - Cultivares - Coronel F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07963&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B7149%5D%7B465%7Dcoronel_01.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Seminis; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Muito alta (antes dos 90 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Sbl - Stemphylium botryosum f.sp lycopersici; Resistência a fungos: Sl - Stemphylium lycopersici; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV:0-2 - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Médio (201 a 230 g); Vigor: Alto
+
+-- RECURSOS: --
+Possui elevada rusticidade e adaptabilidade, mantendo um bom comportamento no cultivo de verão. Produz frutos que variam de 200 a 230 g, firmes e com alto brilho. Excelente cobertura foliar, prevenindo queima de frutos por sol. Dicas Agronômicas: SV0631TH (Coronel) pode exigir um bom manejo de nitrogênio e, o número de frutos pode exceder 6 frutos dependendo da prática do cultivo, o que deve ser um ponto de atenção.
+
+-- RESISTÊNCIAS: --
+RESISTÊNCIA À DOENÇAS ( HR ): ToMV:0-/TSWV/Fol:0,1/Sbl/Sl/Ss/Va:0/Vd:0 RESISTÊNCIA À DOENÇAS ( IR ): Ma/Mi/Mj
+
+-- OUTRAS INFORMAÇÕES: --
+Maior percentual de frutos de primeira. Mais rentabilidade. Excelente pegamento sequencial de frutos, da base ao ponteiro.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B7149%5D%7B218%7Dcoronel_03.jpg
+Legenda: Imagem de divulgação. https://seminis.com.br/Produtos/coronel-svth0361/477
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B7149%5D%7B8%7Dcoronel_02.jpg
+Legenda: Imagem de divulgação. https://seminis.com.br/Produtos/coronel-svth0361/477
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.seminis.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.seminis.com.br.

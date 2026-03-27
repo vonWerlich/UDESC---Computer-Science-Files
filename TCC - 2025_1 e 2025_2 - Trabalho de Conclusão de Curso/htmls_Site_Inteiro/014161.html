@@ -1,0 +1,331 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=8233&amp;isEdicao=N&amp;epagriTEC=S">CEBOLA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9909&amp;isEdicao=N&amp;epagriTEC=S">        Aspectos Fitotécnicos: Produção de mudas e espaçamento</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=14161&amp;isEdicao=N&amp;epagriTEC=S">Sistema de produção de mudas</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="12413">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="014161">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[12413]{401}canteiros_de_producao_de_mudas.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO:  Menezes Júnior, FOG </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>PRODUÇÃO DE BULBOS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A produção de bulbos de cebola no estado de Santa Catarina ainda é em sua maioria realizada via transplante de mudas. A produção de mudas garante o estabelecimento de densidades populacionais adequadas e maior uniformidade do tamanho de bulbos colhidos, notadamente em solos de difícil mecanização, a exemplo dos Cambissolos. <br><br>
+
+Para a obtenção de mudas de alta qualidade (sadias e vigorosas) indica-se a rotação anual da área destinada a formação dos canteiros de mudas. Esse local não deve ser cultivado com espécies da família Alliaceae nos três anos subsequentes à primeira semeadura da cebola.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ESCOLHA DOS CULTIVARES: </b><br>
+<p class="p1"><div> O uso de cultivares/híbridos obtidos a partir de sementes fiscalizadas de cultivares/híbridos adaptados às condições edafoclimáticas locais e, de preferência, indicados pelo órgão oficial de pesquisa do Estado de Santa Catarina.<br> <br> </div></p>
+<b>ÉPOCA DE SEMEADURA: </b><br>
+<p class="p1"><div> A época de semeadura de cultivares/híbridos deverá ser realizada conforme o ciclo do cultivar (precoce, médio ou tardio) indicado e sob a responsabilidade da empresa produtora de sementes e, de preferência, indicada pelo órgão oficial de pesquisa do Estado de Santa Catarina. <br> </div></p>
+<b>PREPARO DOS CANTEIROS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O solo onde serão estabelecidos os canteiros deve ser arado a uma profundidade aproximada de 20cm e, posteriormente, bem destorroado. Os canteiros são então “levantados”, seguindo as linhas de nível do terreno, a uma altura de 10 a 15cm de acordo com a textura do solo e regimes de chuva da região.<br><br>
+
+Os canteiros devem ter de 1,0 a 1,2m de largura e comprimento variável de acordo com a área disponível e necessidade de mudas a serem produzidas. Para sua confecção podem ser utilizados diversos métodos e equipamentos, porém os mais utilizados ainda são o uso de enxada rotativa e a demarcação manual com a pá, o uso de rotoencanteirador e a rotativação do solo com o trator, sendo que os próprios pneus demarcam os canteiros.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CARACTERÍSTICAS DOS CANTEIROS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Indica-se que a superfície do canteiro seja uniforme, de preferência com uma leve declividade para evitar o acúmulo de água na superfície e reduzir a velocidade de escoamento das águas da chuva ou irrigação. Em terrenos declivosos, para interceptar a enxurrada proveniente de áreas adjacentes, recomenda-se a construção de um terraço acima do canteiro.<br><br>
+
+Para facilitar a movimentação entre canteiros, tratos culturais, tratos fitossanitários e o arranquio de mudas, recomenda-se deixar um espaço de 20 a 30cm entre os canteiros.<br><br>
+
+Em solos sujeitos ao “selamento superficial” a operação de destorroamento não é indicada.	Nesse caso, bons resultados têm sido obtidos com a realização de uma aração prévia à semeadura. Entretanto, nesta condição, o uso de irrigações frequentes e em pouca quantidade se torna indispensável.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CORREÇÃO DO PH: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Indica-se a correção do solo para pH 6,0, devido à alta sensibilidade da cebola ao alumínio. A necessidade de calagem deverá ser determinada por técnico habilitado (Técnico Agrícola ou Engenheiro Agrônomo) a partir de laudo da análise do solo obtido em laboratório credenciado à Rede Oficial de Laboratórios de Análise de Solo e de Tecido Vegetal dos Estados do Rio Grande do Sul e de Santa Catarina (ROLAS). O calcário comum deverá ser aplicado, no mínimo, 90 dias antes do preparo dos canteiros, o que garantirá tempo suficiente para que reaja e corrija o solo ao pH desejado. No caso do calcário finamente moído, com PRNT de 100%, o tempo de reação no solo é mais rápido podendo ser aplicado mais próximo do preparo do solo, o que penderá das características do calcário e da umidade do solo. No caso de dúvidas o engenheiro-agrônomo deverá ser consultado.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>ADUBAÇÃO DOS CANTEIROS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A adubação dos canteiros pode ser realizada com adubos minerais e orgânicos. Recomenda-se, sempre que possível, que o produtor faça o uso de adubos orgânicos. Esses, além de elevar os teores de nutrientes, contribuem significativamente para a melhora das propriedades físicas e biológicas do solo, melhorando a fertilidade como um todo.<br><br>
+
+Na adubação do canteiro de produção de mudas utilizar somente adubos orgânicos bem curtidos ou bem compostados nas doses indicadas pelo SPC, para evitar prejuízos ao desenvolvimento de mudas e contaminações biológicas. Na fase de canteiro e em mudas recém-transplantadas para a lavoura o uso de adubos orgânicos mal curtidos ou decompostos e déficits hídricos concorrem para o surgimento larvas de moscas da cebola (Delia platura).<br><br>
+
+Para a adubação orgânica podem ser utilizados, desde que bem curtidos e nas doses indicadas, estercos de diversas origens. A escolha por um ou outro material estará associada à disponibilidade na região produtora (Tabela 1).<br><br>
+
+O adubo orgânico deve ser incorporado pelo menos 30 dias antes da semeadura e, quando necessário, complementado com o mineral. A complementação da adubação orgânica deverá ser feita com nitrogênio, fósforo e potássio, os quais deverão ser incorporados ao solo por ocasião de seu preparo. <br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23701,014161,12413,7);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[12413]{25}tabela_1.jpg">  </a> 
+<br><br>
+<b>ADUBAÇÃO MINERAL EM COBERTURA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O uso de nitrogênio mineral em cobertura poderá ser necessário no caso das plantas apresentarem sintomas de deficiência. Essa situação ocorre, normalmente, quando da má armazenagem do adubo orgânico e em anos chuvosos. Nesse caso, indica-se que aproximadamente aos 30 a 40 dias após a semeadura seja realizada uma cobertura nitrogenada com 2,0 a 4,0g de N m-2 de canteiro (4,5 a 9,0 g de ureia por m-2 ou 6 a 12g de nitrato de amônio por m-2). <br><br>
+
+NO CASO DE DESENVOLVIMENTO INICIAL MUITO LENTO: <br>
+Recomenda-se a distribuição de 1,0 a 2,0kg de esterco de aviário bem curtido por 10m2 de canteiro aos 30 a 40 dias da semeadura. Caso necessário, esta adubação poderá ser repetida a cada 15 ou 20 dias após a primeira cobertura.<br><br>
+
+ADUBAÇÃO SEM A ANÁLISE DO SOLO:<br>
+Na falta de recomendações mais específicas (ausência da análise do solo), tem-se indicado para os solos da região do Alto Vale do Itajaí o uso de 0,5 a 1,0kg m-2 de esterco de peru e 150 a 200g m-2 da formulação 5-20-10.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COMPOSIÇÃO DOS PRINCIPAIS ADUBOS ORGÂNICOS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Concentração média de nutrientes e teor de matéria seca dos principais adubos orgânicos disponíveis para o uso na cultura da cebola (Tabela 2). É importante mencionar que a concentração de nutrientes e teor de água em adubos orgânicos varia de acordo com a origem do material, espécie animal, alimentação utilizada, proporção entre dejetos (fezes + urina), material utilizado para a cama e manejo dado aos materiais orgânicos. Devido a isso, sempre que possível, recomenda-se que o material seja analisado previamente em um dos laboratórios da ROLAS credenciados pela Comissão de Química e Fertilidade do Solo – RS/SC.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23736,014161,12413,9);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[12413]{407}tabela_2.jpg">  </a> 
+<br><br>
+<b>BIOFERTILIZANTES E COMPOSTO ORGÂNICO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O uso biofertilizantes em cobertura na fase de produção de mudas deverá contar com auxílio técnico, uma vez que o grande número de bioformulações existentes não permite a recomendação de uma única dose para todos os casos e existem controvérsias quanto a sua eficiência em relação ao fornecimento de nutrientes, manejo de tripes e de míldio na cultura da cebola (MENEZES JÚNIOR et al., 2013; MENEZES JÚNIOR et al., 2014).<br><br>
+
+O composto termófilo estabilizado pode ser utilizado tanto como leito de semeadura quanto para a cobertura de sementes no canteiro. Este material é obtido pelo processo de compostagem a partir da mistura de esterco, descarte de cebola e capim elefante triturados na proporção de 1:1:1 em volume, por um período de 3 a 4 meses. Resultados de pesquisa indicam que o uso de composto termófilo reduz a intensidade de ataque de <a href="javascript:chamarPagina(14156)">Botrytis squamosa</a> (sapeco), e auxilia na diminuição da incidência do tombamento de plantas e mudas, doença associada à fitopatógenos de solo, como Rhizoctonia solani, Pythium sp. e Fusarium sp.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SEMEADURA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> A semeadura nos canteiros produção de mudas poderá ser feita a lanço ou em linhas. Nesse caso, em pequenos sulcos transversais, de 1,0 a 1,5cm de profundidade, abertos transversalmente ou longitudinalmente no canteiro, distanciados em 10cm entre si, nos quais as sementes serão distribuídas uniformemente.<br><br>
+
+A densidade de semeadura não deverá ultrapassar 3,0 gramas de semente por metro quadrado de canteiro. Utilizar menores densidades de semeadura (2,0 a 2,5g de sementes m-2 de canteiro) em locais sujeitos a neblina constante. O uso de densidades menores de semeadura proporcionará um ambiente mais arejado, dificultando na fase inicial de desenvolvimento o tombamento das mudas, e a incidência do sapeco ou queima acinzentada (<a href="javascript:chamarPagina(14156)">Botrytis squamosa</a>), considerada a principal doença na fase de canteiro.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COBERTURA DOS CANTEIROS APÓS A SEMEADURA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Após o preparo do solo e operações de calagem, adubação e semeadura indica-se que os canteiros sejam cobertos com uma camada de no máximo 2cm de pó de serra ou casca de arroz incinerada ou composto orgânico ou vermicomposto (húmus de minhoca) peneirados. Ensaios de pesquisa indicam o composto como a melhor cobertura a ser utilizada após a semeadura.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,23873,014161,12413,12);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[12413]{84}canteiro_de_producao_de_mudas.jpg">  </a> 
+<br><br>
+<b>MANEJO DE PLANTAS INDESEJÁVEIS NOS CANTEIROS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O manejo de plantas indesejáveis (“plantas daninhas” ou “plantas invasoras”) e tratamentos fitossanitários deverão ser realizados com produtos registrados e nas doses indicadas para a cultura da cebola.<br><br>
+
+Por sua vez, nos sistemas agroecológicos, onde não é permitido o uso de herbicidas convencionais o manejo de plantas indesejáveis pode ser realizado pela solarização do solo ou pelo uso da cobertura do canteiro com papel-rolo.<br><br>
+
+No último caso, sobre canteiro corrigido, adubado e aplainado é disposta uma camada papel rolo de 80g.m-2 (ou papel jornal ou uma a duas camadas de papel pardo fino). Posteriormente, distribui-se uma camada de 2cm de composto termófilo estabilizado (ou vermicomposto), irriga-se e procede-se a semeadura a lanço. Em seguida, o canteiro deve receber uma cobertura de no máximo 2cm de pó de serra de ano, oriundo de madeira não tratada quimicamente. <br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>MANEJO DE DOENÇAS NOS CANTEIROS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Nos sistemas agroecológicos, onde não há a possibilidade do uso de biocidas mais agressivos, indica-se para o manejo de doenças o uso preventivo de calda bordalesa a 0,3% ou cinza vegetal na dose de 50g m-2 de canteiro. <br><br>
+
+Para maiores detalhes consultar os Referenciais Tecnológicos para a Produção de Cebola em Sistemas Orgânicos nº 142 (GONÇALVES et al., 2008) e o Sistema de Produção nº 46 (EPAGRI, 2013) ou edições mais recentes.  <br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>PODA DAS FOLHAS DAS MUDAS NOS CANTEIROS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> É uma operação realizada com objetivo de uniformizar o tamanho de mudas para que elas sejam retiradas do canteiro em uma única operação ou para sua manutenção por um período maior de tempo no campo até que o solo esteja preparado e em condições para plantio, ou ainda para viabilizar do uso de transplantadeiras semimecanizadas. É uma prática permitida, desde que: realizada em dias secos; as plantas recebam em seguida ao manejo de poda tratamentos fitossanitários com produtos registrados para a cultura; que em cada operação as plantas não sejam rebaixadas a menos de 10cm; seja dado um intervalo de no mínimo uma semana entre a última poda, considerando o período de carência do produto fitossanitário e a operação de transplante (EPAGRI, 2013; MENEZES JÚNIOR et al., 2013). <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+<a href="javascript:chamarPagina(13750)">CLIQUE AQUI</a> para acessar as referências na íntegra.
+ </div></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Francisco Olmar Gervini de Menezes Júnior (Eng. Agr- Dr. Produção Vegetal - Epagri)<br> &nbsp;&nbsp;Possui graduação em Engenharia Agronômica (1994), mestrado (1998) e doutorado (2003) em Produção Vegetal pela FAEM/UFPel. Atualmente é pesquisador em Olericultura na EPAGRI de Ituporanga/SC. Desenvolve pesquisas relacionadas à Produção Integrada e Orgânica de Cebola. </font> 
+<br><br><br> <font size="2"> Criado em: 14/09/2021</font>
+<br> <font size="2"> Última atualização: 04/11/2021</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=014161&amp;cdElemento=12413">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=12413');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

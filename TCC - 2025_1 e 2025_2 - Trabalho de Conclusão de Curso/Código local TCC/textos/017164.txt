@@ -1,0 +1,14 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Metomil Novalurom
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017164&isEdicao=N&epagriTEC=S
+
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Metomil Novalurom; Nome comercial: Voraz; Grupo químico: Carbamato Benzoiluréia; Dose de produto comercial (Pseudaletia sequax e Pseudaletia adultera): 500-700mL/ha; Carência (dia): 14 Classe Toxicológica: 2 = altamente tóxico (faixa vermelha); Classe ambiental: I = altamente perigoso ao meio ambiente;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”.
+
+-- PRAGAS QUE CONTROLA: --
+Lagarta-das-panículas (Pseudaletia spp.)
+
+-- Informações Complementares --

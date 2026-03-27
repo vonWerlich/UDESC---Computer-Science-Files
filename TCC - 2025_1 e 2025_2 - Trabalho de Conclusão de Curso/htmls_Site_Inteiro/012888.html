@@ -1,0 +1,361 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=670&amp;isEdicao=N&amp;epagriTEC=S">PLANTAS PARA ADUBAÇÃO VERDE</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_culturas_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=12888&amp;isEdicao=N&amp;epagriTEC=S">Crotalaria espectabilis (Crotalaria spectabilis)</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="11209">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="012888">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11209]{168}crotalaria_espectabilis_2017_foto_juliane.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Juliane Garcia Knapik Justen </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Crotalaria spectabilis Röth, guizo-de-cascavel, chocalho de cascavel. 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>FOTOS: </b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21677,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{484}c._spectabilis_crescim.inicial,_epagri-cepaf,_2014..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21681,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{266}c._spectabilis,_detalhe_fruto,_epagri-cepaf,_2020.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21682,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{422}c._spectabilis,_frutificacao,_epagri-cepaf,_2006..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21678,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{207}c._spectabilis_x_c._breviflora,_epagri-cepaf,_2020.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21680,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{102}c._spectabilis_x_c.ochroleuca,_epagri-cepaf,_2020.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21697,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{27}colheita_graos_c.spectabilis,_epagri-cepaf,_2015_2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21704,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{442}img_20200117_135023680_hdr.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21699,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{348}crotalaria_espectabilis_2006_apresentacao_leandro_wildner.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21700,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{408}crotalaria_espectabilis_2017_foto_juliane.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21688,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{212}c.spectabilis,_cresc.inicial_pd,_epagri-cepaf,_2020_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21689,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{71}c.spectabilis,_cresc._inicial,_epagri-cepaf,_2019_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21691,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{211}c.spectabilis,_cresc.inicial,_epagri-cepaf,_2019.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21690,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{37}c.spectabilis,_cresc.inicial_pd,_epagri-cepaf,_2020_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21692,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{6}c.spectabilis,_detalhe_flor,_epagri-cepaf,_2020.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21693,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{541}c.spectabilis,_detalhes_folhas._epagri-cepaf,_cda_2007.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21685,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{153}c.spectabilis_frutificacao,_epagri-cepaf,_2006_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21687,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{503}c.spectabilis_frutos,_epagri-cepaf,_2006.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21695,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{68}c.spectabilis,_pre-floracao,_epagri-cepaf,_cda_2007a.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21696,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{342}c.spectabilis,_pre-floracao,_epagri-cepaf,_cda_2007b.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21684,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{248}c.spectabilis_10-02-2015_(3)..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21701,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{146}detalhe_plantas_cresc.inicial_c._spectabilis,_epagri-cepaf,_2005..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21703,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{404}detalhes_ramificacoes_c._spectabilis,_epagri-cepaf,_2015..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21706,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{253}lavoura_c._spectabilis,_epagri-cepaf,_2010.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21707,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{151}lavoura_c._spectabilis,_epagri-cepaf,_2020_1.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21708,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{214}milhoa_x_c._spectabilis,_iapar,_showrural,_cascavel,_epagri-cepaf,_2015..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,21709,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{344}quiabo_x_c._spectabilis,_iapar_showrural_cascavel,_epagri-cepaf,_2015..jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26302,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{144}c._spectabilis_20220927_2.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,26303,012888,11209,1);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[11209]{440}producao_sementes_c._spectabilis,_epagri-cepaf,_2020_5.jpg">  </a> 
+<br><br>
+<b>INFORMAÇÕES GERAIS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> OUTROS NOMES COMUNS: Crotalária, guizo-de-cascavel, chocalho-de-cascavel, showy crotalaria.<br><br>
+NOME CIENTÍFICO: <i>Crotalaria espectabilis</i> Roth.<br><br>
+FAMÍLIA: <i>Fabaceae</i> (Leguminosas).<br><br>
+ORIGEM: América do Sul (Brasil) e do Norte.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CARACTERÍSTICAS BOTÂNICAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> PORTE: Herbáceo.<br><br>
+HÁBITO DE CRESCIMENTO: Ereto/ramificado.<br><br>
+CAULE: Ereto, podendo atingir a altura de 1,5 m.<br><br>
+ALTURA DE PLANTA (m): 1,0 a 1,5.<br><br>
+SISTEMA RADICULAR: Pivotante/ramificado/vigoroso.<br><br>
+PROFUNDIDADE DE RAIZ: até 35 cm.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INFORMAÇÕES FENOLÓGICAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> CICLO VEGETATIVO: Anual.<br><br>
+ÉPOCA IDEAL DE PLANTIO: Primavera/verão.<br><br>
+ÉPOCA PREFERENCIAL DE PLANTIO: Outubro a dezembro.<br><br>
+ÉPOCA POSSÍVEL DE PLANTIO: Setembro a fevereiro.<br><br>
+CICLO PARA FLORESCIMENTO (dias): 90 a 120.<br><br>
+CICLO PARA COLHEITA DE SEMENTES (dias): 170 a 180.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CARACTERÍSTICAS AGRONÔMICAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> PRODUÇÃO DE FITOMASSA (MS t/ha): 4 a 6.<br><br>
+PRODUÇÃO DE FITOMASSA (MV t/ha): 20 a 30.<br><br>
+TOLERÂNCIA À GEADA: Suscetível.<br><br>
+TOLERÂNCIA A SOLOS ÁCIDOS: Suscetível.<br><br>
+TOLERÂNCIA À BAIXA FERTILIDADE DO SOLO: Média a alta.<br><br>
+TOLERÂNCIA AO DÉFICIT HÍDRICO: Alta.<br><br>
+TOLERÂNCIA AO ENCHARCAMENTO: Baixa.<br><br>
+TOLERÂNCIA A BAIXA TEMPERATURA: Baixa.<br><br>
+TOLERÂNCIA AO SOMBREAMENTO TEMPORÁRIO: Média.<br><br>
+VELOCIDADE DE COBERTURA INICIAL DO SOLO: Média.<br><br>
+APTIDÃO PARA PASTAGEM: Não possui (Muito tóxica).<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SEMENTES: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> PRODUTIVIDADE DE SEMENTES (kg/ha): 600 a 900.<br><br>
+PESO DE MIL SEMENTES (gramas): 16 a 19.<br><br>
+PRESENÇA DE SEMENTES DURAS: Sim.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SEMEADURA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> ESPAÇAMENTO ENTRE LINHAS (metros): 0,2 a 0,5.<br><br>
+DENSIDADE DE SEMEADURA (kg/ha, em linha): 12 a 15.<br><br>
+DENSIDADE DE SEMEADURA (kg/ha, a lanço): 20 a 25.<br><br>
+DENSIDADE DE PLANTAS POR ÁREA (pl/m2): 20.<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> QUANTIDADE ACUMULADA DE NITROGÊNIO (kg/ha): 90 a 100.<br><br>
+RELAÇÃO C/N: 17 a 19.<br><br>
+NITROGÊNIO (% na massa seca): 1,97 a 3,30.<br><br>
+FÓSFORO (P2O5 % na massa seca): 0,07 a 0,25.<br><br>
+POTÁSSIO (K2O % na massa seca): 0,79 a 1,78.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INDICAÇÃO DE USO / CULTIVO: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> MISTURAS DE ADUBOS VERDES: Milho, milheto, trigo-mourisco, guandu-anão, mucuna-anã, milheto e capim-sudão.<br><br>
+SUGESTÕES DE MISTURAS: Milheto (5 a 8kg/ha) + trigo-mourisco (15 a 20 kg/ha) + crotalária-espectabilis ou crotalária-breviflora ou crotalária-ocroleuca (6 a 8kg/ha cada ou misturadas); milheto (5 a 8kg/ha) + trigo-mourisco (15 a 20kg/ha) + crotalária-espectabilis ou crotalária-breviflora ou crotalária-ocroleuca (6 a 8kg/ha cada ou misturadas) + guandu-anão ou mucuna-anã (10 a 15kg/ha).<br><br>
+CONSÓRCIO COM CULTURAS (sucessão/intercalares): Milho, cebola, fumo, mandioca, trigo, hortaliças e culturas perenes.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INFORMAÇÕES FITOSSANITÁRIAS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> SUSCEPTIBILIDADE A PRAGAS E DOENÇAS: 	Vaquinhas (Cerotoma arcuata e Diabrotica speciosa); Burrinho das solanáceas (Epicauta atomaria); Lagarta das vagens (Heliothis sp.); lagarta negra das inflorescências e vagens (Utetheisa ornatrix); Tripes (Caliothrips phaseoli); Fusarium Sp.; Septoria crotalariae; Oidium; Bacterioses (Xanthomonas campestris e Pseudomonas syringae pv. tomato) e cancro das hastes (Phomopsis phaseoli). Alta suscetibilidade à Sclerotinia sclerotiorum.	<br><br>
+SUSCEPTIBILIDADE A NEMATOIDES: 	Informação indisponível no momento.	<br><br>
+CONTROLE DE NEMATOIDES: 	Eficiente no controle de nematoides. Não é hospedeira e reduz a população de nematoides das espécies: Meloidogyne 2 javanica; Meloidogyne incognita; Pratylenchus brachyurus; Rotylenchulus reniformis e Heterodera glycines.	<br><br>
+CONTROLE DE DOENÇAS: 	Informação indisponível no momento.	<br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>INFORMAÇÕES COMPLEMENTARES: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> DESENVOLVIMENTO EM SANTA CATARINA: Ótimo desenvolvimento vegetativo.<br><br>
+MANEJO DA FITOMASSA: Manejo mecânico (rolo-faca) a partir da floração.<br><br>
+DICAS: Proporciona redução drástica na população de fitonematóides.<br><br>
+ATENÇÃO: Não cultivar isolada em áreas com histórico de mofo branco (<i>Sclerotinia sclerotiorum</i>); suas vagens, quando secas, são deiscentes e liberam as sementes que germinam na próxima estação de crescimento.<br>
+CARACTERÍSTICAS DESTAQUES: Excelente fixadora de nitrogênio; excelente para controle de nematóides.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, <a href="javascript:chamarPagina(12822)">CLIQUE AQUI!</a><br>
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Rafael Gustavo Ferreira Morales (Eng.-Agrônomo, Dr. Fitotecnia - Epagri)<br> &nbsp;&nbsp;Pesquisador de olericultura na área de agricultura orgânica. </font> 
+<br> <font size="2">• Juliane Garcia Knapik Justen (Eng.Florestal, Msc Ciências Florestatais - Epagri)<br> &nbsp;&nbsp;Coordenação Programa Desenvolvimento e Sustentabilidade Ambiental, atuando em restauração de ecossistemas degradados, vegetação ripária, conservação do solo e da água, prestação de serviços ambientais, legislação ambiental. </font> 
+<br> <font size="2">• Leandro do Prado Wildner (Eng.-Agrônomo, MSc. Agronomia - Epagri)<br> &nbsp;&nbsp;Experiência por mais de 30 anos trabalhando com introdução, avaliação e manejo de plantas de cobertura em sistemas conservacionistas de produção no Estado de Santa Catarina. </font> 
+<br><br><br> <font size="2"> Criado em: 11/03/2021</font>
+<br> <font size="2"> Última atualização: 19/07/2023</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=012888&amp;cdElemento=11209">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=11209');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

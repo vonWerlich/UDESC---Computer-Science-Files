@@ -1,0 +1,26 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Ferimentos por granizo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=01693&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1518%5D%7B469%7Dimg-20211204-wa0016.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1518%5D%7B129%7Dimg-20211204-wa0020.jpg
+Legenda: Danos causados por chuva de granizo em Carandai/MG. Autor Desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1518%5D%7B361%7Dimg-20211204-wa0015.jpg
+Legenda: Danos causados por chuva de granizo em Carandai/MG. Autor Desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1518%5D%7B134%7Dimg-20211204-wa0019.jpg
+Legenda: Danos causados por chuva de granizo em Carandai/MG. Autor Desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1518%5D%7B56%7Dimg-20211204-wa0017.jpg
+Legenda: Danos causados por chuva de granizo em Carandai/MG. Autor Desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1518%5D%7B282%7Dimg-20211204-wa0018.jpg
+Legenda: Danos causados por chuva de granizo em Carandai/MG. Autor Desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1518%5D%7B291%7Dimg-20211204-wa0016.jpg
+Legenda: Danos causados por chuva de granizo em Carandai/MG. Autor Desconhecido.
+
+-- SINTOMAS: --
+Danos mecânicos nas folhas e nos frutos, pode ainda promover danos indiretos como servir de porta de entrada para a proliferação de outras doenças (1).
+
+-- CONTROLE: --
+- Evitar áreas com alta probabilidade de ocorrência de granizo (2). - Realizar o cultivo em locais protegidos por plástico ou por telas.
+
+-- Informações Complementares --
+(1) LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005. (2) DA SILVA, J. C. et al. Cultivo de Tomate para Industrialização. Revista Eletrônica Embrapa Hortaliças disponível em, Acesso em, v. 27, 2006. Foto: https://www.hfbrasil.org.br/upload/galeria/0350391001464096216.jpg

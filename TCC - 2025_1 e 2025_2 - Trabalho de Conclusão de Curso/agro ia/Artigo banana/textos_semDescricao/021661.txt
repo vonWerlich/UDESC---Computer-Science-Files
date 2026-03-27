@@ -1,0 +1,49 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021661&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+DOENÇAS QUARENTENÁRIAS
+21721
+DOENÇAS QUARENTENÁRIAS
+MANCHA DE CORDANA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18397%5D%7B355%7Dcordana.png
+21707
+MANCHA DE CORDANA
+ANTRACNOSE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18406%5D%7B145%7Dantracnose_1.jpg
+21719
+ANTRACNOSE
+CONTROLE DO COMPLEXO SIGATOKA (AMARELA/NEGRA)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18396%5D%7B367%7Dsigatoka_3.png
+21706
+CONTROLE DO COMPLEXO SIGATOKA (AMARELA/NEGRA)
+ESTRIAS DA BANANEIRA - BSV
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18400%5D%7B459%7Dfigura_9b_estrias_necroticas.jpg
+21710
+ESTRIAS DA BANANEIRA - BSV
+MAL-DO-PANAMÁ
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18398%5D%7B365%7Dpanama_1.png
+21708
+MAL-DO-PANAMÁ
+MOSAICO DA BANANEIRA - CMV
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18399%5D%7B141%7Dfigura_7b_folha_com_faixas_amarelas.jpg
+21709
+MOSAICO DA BANANEIRA - CMV
+NEMATOIDES
+21713
+NEMATOIDES
+PODRIDÃO DA COROA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18407%5D%7B316%7Dpodridao_coroa_1.png
+21720
+PODRIDÃO DA COROA
+SIGATOKA AMARELA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18394%5D%7B238%7Dsigatoka_amarela.png
+21704
+SIGATOKA AMARELA
+SIGATOKA NEGRA
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18395%5D%7B507%7Dsigatoka_negra.jpg
+21705
+SIGATOKA NEGRA

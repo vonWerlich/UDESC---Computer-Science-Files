@@ -1,0 +1,44 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Manejo alimentar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010496&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17918%5D%7B415%7Dmanejo_alimentar_capa.jpg
+
+-- IMPORTÂNCIA: --
+O manejo alimentar é uma das etapas fundamentais para o sucesso do cultivo da tilápia, considerando que alimentação representa cerca de 70% do custo de produção. O manejo alimentar irá influenciar diretamente na conversão alimentar (quantidade de ração gasta para produzir um kg de peixe).
+
+-- Qualidade de água: --
+A alimentação da tilápia poderá variar de acordo com os parâmetros de qualidade de água daquele dia.
+
+-- Oxigênio: --
+Valores de oxigênio abaixo de 4mg por litro ou valores de nitrogênio amoniacal não ionizado acima de 0,1mg por litro pode prejudicar a conversão alimentar.
+
+-- Horário: --
+A tilápia é um peixe de hábito alimentar diurno, sendo adequada a alimentação nos períodos matutinos e vespertinos.
+
+-- Estação do ano: --
+No outono e inverno, o mais adequado é alimentar nos períodos mais quentes (tarde).
+
+-- Tamanho do pélete: --
+O tamanho do pélete utilizado, a porcentagem de proteína bruta na ração, a quantidade de ração fornecida e o número de vezes ao longo do dia, são parâmetros que pode variar de acordo com o tamanho do peixe e da temperatura da água.
+
+-- Tabela de alimentação: --
+As tabelas de alimentação devem servir de referência, e o produtor deve estar atento à sobra de ração ou ao comportamento de voracidade excessivo, indicando que faltou ração na alimentação anterior.
+
+-- Rotina: --
+O produtor deve manter uma rotina de alimentação (horários e locais de alimentação).
+
+-- Distribuição: --
+A tilápia possui um comportamento de dominância, por isso, quanto melhor distribuída esta ração no viveiro, maior vai ser a oportunidade de todos os animais comerem e mais homogêneo será o crescimento dos peixes.
+
+-- Excesso de alimento: --
+O cuidado com o excesso de alimentação em temperaturas elevadas também é importante. O excesso de alimentação em temperaturas acima de 30ºC pode ocasionar o inchaço abdominal, seguido de inflamação do intestino causado por bactérias entéricas, e por último, até a morte.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17918%5D%7B536%7Dinchaco_2.jpg
+Legenda: Tilápia com inchaço abdominal devido ao excesso de alimento. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17918%5D%7B284%7Dinchaco_1.jpg
+Legenda: Tilápia com inchaço abdominal devido ao excesso de alimento. Foto: Bruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17918%5D%7B280%7Dtabela_de_alimentacao.jpg
+Legenda: TABELA DE ALIMENTAÇÃO PARA TILÁPIA. Fonte: Bruno Corrêa da Silva
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

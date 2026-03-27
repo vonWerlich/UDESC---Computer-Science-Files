@@ -1,0 +1,46 @@
+Título: TOMATE - Fitossanidade - Vírus - Vira Cabeça (Gênero Tospovirus)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=096&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1603%5D%7B507%7Dimg-20200603-wa0048.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B183%7D75.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B444%7D76.jpg
+Legenda: Escurecimento das folhas. Foto: Rafael Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B290%7D77.jpg
+Legenda: Escurecimento das folhas, face inferior da folha. Foto: Rafael Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B508%7Dimg-20200511-wa0026_%281%29.jpg
+Legenda: Sintomas da virose em frutos do tomateiro. Foto: Marcelo Zanella
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B520%7D13.jpg
+Legenda: Sintomas em frutos. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B93%7D14.jpg
+Legenda: Sintomas em frutos. Foto: Alice Kazuko Inoue-Nagata (Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B352%7Dimg-20200603-wa0048.jpg
+Legenda: Sintomas em frutos em área de cultivo convencional em Antônio Carlos-SC. Foto: Marcelo Zanella
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B127%7Dimg-20200603-wa0045.jpg
+Legenda: Sintomas em frutos em área de cultivo convencional em Antônio Carlos-SC. Foto: Marcelo Zanella
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B103%7Dimg-20200603-wa0046.jpg
+Legenda: Sintomas em frutos em área de cultivo convencional em Antônio Carlos-SC. Foto: Marcelo Zanella
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B179%7D78.jpg
+Legenda: Sintomas nos frutos. Fonte: https://www.seminis.com.br/o-complexo-vira-cabeca-tomateiro-epidemiologia-e-manejo/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B17%7D%5B1949%5D%7B446%7D.jpg
+Legenda: Tripes adulto da espécie Frankliniella schultzei na forma escura. Autor Desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1603%5D%7B266%7D2.png
+Legenda: Vira-cabeça do tomateiro. Fonte: Manual de Fitopatologia v.2.
+
+-- INFORMAÇÕES GERAIS: --
+O vira cabeça do tomateiro é uma doença que já foi considerada a principal virose da cultura do tomate devido ao seu dano na planta. Quando a infecção pela doença ocorre no início do plantio da cultura, os danos podem chegar em 100% (1). Essa doença é ocasionada por várias espécies do gênero Tospovirus, sendo as principais GRSV > TCSV > TSWV > CSNV, sendo os dois primeiros os mais importantes aqui no Brasil (5), e é transmitida pelo Tripes (2). Dentro dessa gama de espécies do tripes, podemos destacar a Frankliniella shultzei, que transmite o vírus em sua fase larval (2). Os toposvirus possuem uma grande importância, pois eles podem infectar cerca de 850 espécies de plantas, incluindo olerícolas como: Pimentão, batata, alface, berinjela, etc (1). Os dois primeiros meses do ciclo da cultura são os mais críticos (3). Doença muito importante no estado de Santa Catarina (5), com grande ocorrência no nordeste brasileiro.
+
+-- SINTOMAS: --
+Os sintomas variam de acordo com o estádio fenológico da planta, assim como temperatura, e idade da planta (1). Folhas: - Bronzeamento (1,2). - Arroxeamento (Fotografia 2) (3). - Curvatura do ponteiro para baixo (origem do nome da doença) (2). - Manchas cloróticas (1). - Enrolamento dos folíolos (1). - Crescimento paralisado (2). Frutos: - Lesões irregulares (3). - Lesões anelares concêntricas (2). - Em casos severos, necrose (2,3).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+Surtos epidêmicos são mais frequentes no verão devido ao aumento da população de Tripes (3).
+
+-- CONTROLE: --
+- Evitar plantio em locais anteriormente afetados pela doença (2). - Evitar plantio em locais perto de culturas que possam a ser contaminadas, como: pimentão, batata, alface e berinjela (2). - Utilizar cultivares resistentes à doença (2). O gene de resistência é o Sw5, é muito bom para as quatro principais espécies, mas já há relatos de quebra de resistência em outros países (5). - Manejar as mudas em locais isolados (2). - Pulverizar as mudas com inseticidas antes do transplantio e após 3 semanas do mesmo (2). - Eliminar restos da plantação após o término da safra (2).
+
+-- OBSERVAÇÕES: --
+- Juracy Lins (Pesquisador da Epagri de Caçador): Os sintomas nos frutos ficam mais aparentes nas plantas que são tolerantes / resistentes a virose. O sintoma não aparece na parte vegetativa da planta, mas aparece no fruto. A planta ainda serve como fonte de inóculo na lavoura.
+
+-- Informações Complementares --
+(1) ZERBINI, F. M.; GUIMARÃES, L. M.; ZERBINI, P. A. Tomate: Tecnologia de Produção. Viçosa, 2007. Cap 12, pag 266-268. (2) Lopes CA, Santos JRM. Doenças do tomateiro. Brasília: Embrapa; 1994. (3) Vale, F.X.R.; Zambolim, L.; Zambolim, E.M.; Alvarenga, M.A.R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. UFLA, 2004. cap 9, pag 262-264. (4) Aplicativo ADAMA Hortifruti Brasil. Para mais informações, consultar o site https://www.adama.com/brasil/pt/ ou diretamente pelo aplicativo ADAMA HF . (5) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro. Apresentação: Alice Kazuko Inoue-Nagata. Tema: Embrapa Hortaliças e o manejo de viroses em tomateiro. Data do evento: 14/09/2020. Para informações na íntegra, acessar: https://youtu.be/sgDHRSl-FeI .

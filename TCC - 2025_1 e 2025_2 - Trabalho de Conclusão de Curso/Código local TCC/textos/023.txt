@@ -1,0 +1,16 @@
+Título: TOMATE - Calagem e Adubação - Adubação Foliar
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=023&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+
+-- CONSIDERAÇÕES IMPORTANTES: --
+Nos trabalhos de pesquisa com fertilizantes foliares, principalmente com macronutrientes, conduzidas até o momento por instituições de pesquisa dos Estados do RS e de SC, as culturas não tem apresentado resposta em produtividade, não justificando a recomendação generalizada desses insumos. Os macronutrientes são absorvidos em maiores quantidades pelas plantas, necessitando, portanto, de várias aplicações foliares para suprir as necessidades de um cultivo, o que em geral inviabiliza economicamente sua utilização. Resultados de pesquisa: - Aplicações foliares de Ca e B e de B via solo não aumentam a produção e não diminuem a incidência dos distúrbios fisiológicos podridão apical e lóculos aberto em tomateiro tutorado (Anexo 1).
+
+-- Casos em que é possível utilizar: --
+1) Para o suprimento de micronutrientes nos casos de deficiência comprovada; 2) Em solos alcalinos, em que a disponibilidade de nutrientes, principalmente os micronutrientes, não é adequada ao desenvolvimento das plantas;
+
+-- Recomendação do Instituto Agronômico de Campinas: --
+O uso da adubação foliar é um tema polêmico e gera controvérsias no mundo científico e entre pesquisadores da área de solos. Em São Paulo essa prática é mais aceita e recomendada por especialistas. Assim, segue a recomendação de Trani et al. 2015, com sugestões de adubos e quantidades para uso na adubação foliar. Pulverizar as plantas com ácido bórico a 0,1%, sulfato de zinco a 0,3%, cloreto de cálcio a 0,2% e sulfato de magnésio heptaidratado a 0,4%, iniciando as aplicações cerca de 20 dias após o pegamento das mudas, repetindo-se as pulverizações a cada duas semanas. Aplicar o cloreto de cálcio separadamente dos demais. Outra opção é utilizar o quelato de cálcio com as demais fontes de nutrientes, na mesma solução. Em solos deficientes, aplicar sulfato de cobre a 0,3%, separadamente dos demais produtos. Utilizar espalhante adesivo. Não misturar os fertilizantes foliares com agrotóxicos. No comércio, existem produtos que contêm todos esses nutrientes de forma compatível em uma mesma solução. Devem ser observadas as concentrações e indicações de doses no rótulo dos produtos (1).
+
+-- Informações Complementares --
+(1) Trani et al. Calagem e adubação do tomate de mesa / Paulo Espíndola Trani; Edson Akira Kariya; Sérgio Minoru Hanai; et al. Campinas: Instituto Agronômico, 2015. 35 p. online. (Série Tecnologia Apta. Boletim Técnico IAC, 215). Anexo 1. Hahn et al. 2017. Aplicação de formulações de cálcio e boro na cultura do tomateiro tutorado. Agropecuária Catarinense, Florianópolis, v.30, n.3, p.61-66, set./dez. 2017.

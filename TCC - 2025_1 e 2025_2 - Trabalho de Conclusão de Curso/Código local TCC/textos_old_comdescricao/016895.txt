@@ -1,0 +1,23 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 3. Diagnóstico a partir da pragaInicie por aqui, caso tenha em mãos a praga e não saiba que bicho é. - A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas) - A praga é um inseto (tem três pares de pernas, antenas e asas) - A praga é um besouro (tem uma couraça dorsal protegendo as asas e pode ter uma espécie de tromba na cabeça) - A praga é pequena, até 5mm de comprimento, ou se maior, com uma tromba na cabeça - A praga é um tipo de gorgulho, com uma tromba na cabeça, ainda que pequena
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016895&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16893%5D%7B170%7Dchave_fig12.jpg
+DIAGNOSE VISUAL
+3. Diagnóstico a partir da praga Inicie por aqui, caso tenha em mãos a praga e não saiba que bicho é.
+A praga é um bicho no estágio adulto (pode ter asas aparentes ou uma couraça protegendo as asas)
+A praga é um inseto (tem três pares de pernas, antenas e asas)
+A praga é um besouro (tem uma couraça dorsal protegendo as asas e pode ter uma espécie de tromba na cabeça)
+A praga é pequena, até 5mm de comprimento, ou se maior, com uma tromba na cabeça
+A praga é um tipo de gorgulho, com uma tromba na cabeça, ainda que pequena
+A praga é um gorgulho aquático, adaptado a mergulhar e nadar na água
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16895%5D%7B183%7Dchave_fig13.jpg
+Legenda: A praga é um gorgulho aquático, adaptado a mergulhar e nadar na água
+21445
+A praga é um gorgulho aquático, adaptado a mergulhar e nadar na água
+A praga é um gorgulho terrestre preto, de tamanho e formato semelhante a um grão de arroz - GORGULHO-DAS-PANÍCULAS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16895%5D%7B406%7Dchv_gorgpana.jpg
+Legenda: A praga é um gorgulho terrestre preto, de tamanho e formato semelhante a um grão de arroz - GORGULHO-DAS-PANÍCULAS
+21446
+A praga é um gorgulho terrestre preto, de tamanho e formato semelhante a um grão de arroz - GORGULHO-DAS-PANÍCULAS

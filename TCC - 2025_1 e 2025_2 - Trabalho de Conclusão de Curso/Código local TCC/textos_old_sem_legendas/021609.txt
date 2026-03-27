@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano é no colmo ou nas panículas, ainda que tenham folhas amareladas - Apenas o colmo tem sinais externos de dano - Colmo ítegro, porém com manchas marrons irregulares ou manchas ovaladas com tecido seco no centro (doenças fúngicas do arroz) - As manchas são de aspecto seco, irregulares ou de bordos definidos
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021609&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21567%5D%7B80%7Dpl12_manchaseca.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano é no colmo ou nas panículas, ainda que tenham folhas amareladas
+Apenas o colmo tem sinais externos de dano
+Colmo ítegro, porém com manchas marrons irregulares ou manchas ovaladas com tecido seco no centro (doenças fúngicas do arroz)
+As manchas são de aspecto seco, irregulares ou de bordos definidos
+Mancha irregular seca, na região da aurícula ou no nó basal da panícula - BRUSONE
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21609%5D%7B42%7Dchv_brusoneauricula.jpg
+Legenda: Mancha irregular seca, na região da aurícula ou no nó basal da panícula - BRUSONE
+21611
+Mancha irregular seca, na região da aurícula ou no nó basal da panícula - BRUSONE
+Mancha seca de borda escura regular, ovalada ou arrendondada, frequentemente próxima da linha d’água - QUEIMA DAS BAINHAS
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B21609%5D%7B331%7Dchv_queimabcolmo.jpg
+Legenda: Mancha seca de borda escura regular, ovalada ou arrendondada, frequentemente próxima da linha d’água - QUEIMA DAS BAINHAS
+21612
+Mancha seca de borda escura regular, ovalada ou arrendondada, frequentemente próxima da linha d’água - QUEIMA DAS BAINHAS

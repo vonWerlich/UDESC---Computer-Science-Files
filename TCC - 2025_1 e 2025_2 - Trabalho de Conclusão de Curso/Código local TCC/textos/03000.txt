@@ -1,0 +1,25 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - K) PRINCIPAIS PRAGAS E SEU CONTROLE - f) Lagarta-rosca (Agrotis ipsilon)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03000&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2766%5D%7B298%7Dcapa_1.jpg
+
+-- Reconhecimento dos danos: --
+As lagartas apresentam coloração cinza-escura e quando tocadas se enrolam no caule, o que caracteriza o nome de “lagarta-rosca”. As lagartas cortam as plantas rente ao solo e escondem-se a pouca profundidade, pró-ximo às plantas cortadas, exigindo replantio das mudas. Essa praga é mais importante em cul-tivos de tomateiro rasteiro, pois as lagartas atacam os frutos que ficam em contato com o solo.
+
+-- Monitoramento e método de amostragem: --
+Inspeção visual do colo da planta, para detecção de lagartas ou danos diretos (plantas cortadas).
+
+-- Nível de ação: --
+Realizar jato dirigido de inseticida quando se observar as primeiras plantas cortadas.
+
+-- Principais inimigos naturais: --
+Besouro carabídeo (Calosoma granulatum), vespas parasitoides (Trichogramma), formigas e aranhas predadoras.
+
+-- Métodos de controle de lagartas: --
+• Eliminar solanáceas espontâneas das proximidades do plantio; • Retirar e destruir frutos danificados; • Transplantar as mudas em períodos diferentes ao cultivo do milho ou em locais distantes da área plantada; • Plantar sorgo ou nabo forrageiro a cada seis linhas de plantio ou nas curvas de nível para atrair inimigos naturais; • Ensacamento das inflorescências ou pencas (Figura 37), mantendo-se as embalagens até a colheita; • Utilizar inseticidas biológicos e que apresentam seletividade aos inimigos naturais, dando-se preferência aos que sejam à base de Bacillus thuringiensis. Reguladores de crescimento também são recomendados; • Fazer rotação de agrotóxicos, conforme o modo de ação e o grupo químico; • Liberação massiva de parasitoides Trichogramma; • Eliminar os restos da cultura e revolver o solo após o término do cultivo para destruir as pupas; • Fazer rotação de culturas e evitar o plantio sucessivo de culturas hospedeiras, tais como o milho e a soja.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2766%5D%7B25%7Dfigura_37.jpg
+Legenda: Folhas de tomateiro danificadas pela traça-do-tomateiro. Foto: Janaína Pereira dos Santos
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

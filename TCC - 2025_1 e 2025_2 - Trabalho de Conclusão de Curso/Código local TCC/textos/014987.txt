@@ -1,0 +1,18 @@
+Título: BANANA - Avaliação de cultivares para o Estado de Santa Catarina
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014987&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12985%5D%7B44%7Drecomendacao_cultivares.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B7%7Dta1.gif
+Legenda: Principais características dos cultivares de banana Foto: Arquivo Epagri
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B441%7Dta2.png
+Legenda: Principais características dos cultivares de banana Foto: Arquivo Epagri
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B246%7Dta3.png
+Legenda: Peso médio dos cachos de banana em Itajaí e Urussanga Foto: Arquivo Epagri
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B341%7Dta4.png
+Legenda: Suscetibilidade de cultivares de bananeira às principais pragas e doenças da cultura(1) Foto: Arquivo Epagri
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B86%7Dta5.png
+Legenda: Resistência de cultivares a intempéries climáticas(1) Foto: Arquivo Epagri
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12985%5D%7B335%7Dta6.png
+Legenda: . Recomendações para ponto de colheita, temperatura de climatização e ponto de maturação para consumo e principais mercados de cultivares de bananeira Foto: Arquivo Epagri
+
+-- Informações Complementares --

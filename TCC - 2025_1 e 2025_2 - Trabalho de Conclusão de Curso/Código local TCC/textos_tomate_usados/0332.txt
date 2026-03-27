@@ -1,0 +1,23 @@
+Título: TOMATE - Cultivares - Chapolin F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0332&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B228%5D%7B411%7Dchapolin.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Isla; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a viroses: Ty1 - Tomato yellow leaf curl virus 1 (ToLCV); Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Ciclo Verão (dias): 120 à 130 dias. Cor da polpa: vermelha. Tipo de crescimento: semi - determinado. Peso comercial: 80g - 90g.
+
+-- USO/COMENTÁRIOS: --
+Planta de crescimento semi-determinado, chegando a aproximadamente 60 cm de altura. Frutos pequenos, produção em torno de 30 a 40 frutos/planta. Tem ótimo potencial tanto para mercado in natura quanto para processamento. Excelente adaptabilidade para variadas zonas agroclimática, desde clima temperado à subtropical. Nas regiões mais quentes, é recomendado somente em épocas ou locais de clima ameno.
+
+-- RESISTÊNCIA: --
+ToLCV - Tomato leaf curl vírus, Pinta preta, Requeima Murcha bacteriana (murchadeira), Nematoides de raiz, Estresse térmico e hídrico.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.isla.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.isla.com.br.

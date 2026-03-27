@@ -1,0 +1,286 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=9346&amp;isEdicao=N&amp;epagriTEC=S">LEGISLAÇÕES</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=13196&amp;isEdicao=N&amp;epagriTEC=S">PAA - Programa de Aquisição de Alimentos</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="11451">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="013196">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[11451]{545}brasil.png"> 
+                  
+                    
+            </div>
+          
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;   
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b><h1> 2023 e 2024</h1></b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b> RESOLUÇÃO GGPAA Nº17, DE 17 DE FEVEREIRO DE 2025 </b> - Altera a Resolução GGPAA nº 3, de 5 de setembro de 2023. <a target="_blank" href="https://www.conab.gov.br/agricultura-familiar/paanet/entregas/item/download/56975_77bf4ace0c3dc2a464790eff7276b3b7">Acessar Resolução.</a><br><br>
+
+<b> RESOLUÇÃO GGPAA Nº 8, DE 30 DE JULHO DE 2024 </b> - Dispõe sobre a execução da modalidade "Compra Institucional", no âmbito do Programa de Aquisição de Alimentos (PAA). <a target="_blank" href="https://www.in.gov.br/en/web/dou/-/resolucao-n-8-de-30-de-julho-de-2024-575313459">Acessar Resolução.</a><br><br>
+
+<b> RESOLUÇÃO GGPAA Nº 4, DE 11 DE SETEMBRO DE 2023 </b> - Dispõe sobre a modalidade Compra Direta (CD), no âmbito do Programa de Aquisição de Alimentos - PAA.<a target="_blank" href="https://www.conab.gov.br/agricultura-familiar/legislacao-e-regulamentos-do-paa/resolucoes">Acessar Resolução.</a><br><br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b><h1>2020 à JULHO DE 2023</h1></b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> <b> LEI Nº14.628, DE 20 DE JULHO DE 2023 </b> - Institui o Programa de Aquisição de Alimentos (PAA) e o Programa Cozinha Solidária; altera as Leis nºs 12.512, de 14 de outubro de 2011, e 14.133, de 1º de abril de 2021 (Lei de Licitações e Contratos Administrativos); e revoga dispositivos das Leis nºs 11.718, de 20 de junho de 2008, 11.775, de 17 de setembro de 2008, 12.512, de 14 de outubro de 2011, e 14.284, de 29 de dezembro de 2021.<a target="_blank" href="https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2023/Lei/L14628.htm">Acessar Lei.</a><br><br>
+
+<b> PORTARIA MDS Nº899, DE 17 DE JULHO DE 2023 </b> - Dispõe sobre os procedimentos operacionais para execução do Programa de Aquisição de Alimentos na modalidade Compra com Doação Simultânea.<a target="_blank" href="https://www.in.gov.br/en/web/dou/-/portaria-mds-n-899-de-17-de-julho-de-2023-497022955
+">Acessar Portaria.</a><br><br>
+
+<b> RESOLUÇÃO GGPAA Nº2, DE 15 DE JUNHO DE 2023 </b> - Dispõe acerca da destinação dos alimentos adquiridos com recursos do Programa de Aquisição de Alimentos (PAA).<a target="_blank" href="https://www.in.gov.br/en/web/dou/-/resolucao-n-2-de-15-de-junho-de-2023-490427463">Acessar Resolução.</a><br><br>
+
+<b> DECRETO Nº11.476, DE 06 DE ABRIL DE 2023 </b> - Regulamenta o Programa de Aquisição de Alimentos, instituído pela Medida Provisória nº1.166 de 22 de março de 2023, e dispõe sobre o funcionamento do Grupo Gestor do PAA e do Comitê de Assessoramento do Grupo Gestor do PAA.<a target="_blank" href="https://www.in.gov.br/en/web/dou/-/decreto-n-11.476-de-6-de-abril-de-2023-475709085">Acessar Decreto.</a><br><br>
+
+<b> MEDIDA PROVISÓRIA Nº1.166, DE 22 DE MARÇO DE 2023 </b> - Institui o Programa de Aquisição de Alimentos e altera a Lei nº 12.512, de 14 de outubro de 2011, e a Lei nº 14.133, de 1º de abril de 2021.<a target="_blank" href="https://www2.camara.leg.br/legin/fed/medpro/2023/medidaprovisoria-1166-22-marco-2023-793913-publicacaooriginal-167362-pe.html">Acessar Medida Provisória.</a><br><br>
+
+<b> RESOLUÇÃO GGALIMENTA Nº03, DE 14 DE JUNHO DE 2022 </b> - Dispõe sobre a execução da modalidade "Compra Institucional", no âmbito do Programa Alimenta Brasil.<a target="_blank" href="https://in.gov.br/en/web/dou/-/resolucao-n-ggalimenta-3-de-14-de-junho-de-2022-408552211">Acessar Resolução.</a><br><br>
+
+<b> LEI  Nº14.284 , DE 29 DE DEZEMBRO DE 2021 </b> - Institui o Programa Auxílio Brasil e o Programa Alimenta Brasil; define metas para taxas de pobreza; altera a Lei nº 8.742, de 7 de dezembro de 1993; revoga a Lei nº 10.836, de 9 de janeiro de 2004, e dispositivos das Leis nos 10.696, de 2 de julho de 2003, 12.512, de 14 de outubro de 2011, e 12.722, de 3 de outubro de 2012; e dá outras providências. (Conversão da Medida Provisória nº1.061 de 09 de agosto de 2021)<a target="_blank" href="https://in.gov.br/en/web/dou/-/lei-n-14.284-de-29-de-dezembro-de-2021-370918498#:~:text=1%C2%BA%20Esta%20Lei%20institui%20o,de%20que%20trata%20o%20art.">Acessar Lei.</a><br><br>
+
+<b> DECRETO Nº10.880, DE 02 DE DEZEMBRO DE 2021 </b> - Regulamenta o Programa Alimenta Brasil, instituído pela Medida Provisória nº1.061 de 09 de agosto de 2021. <a target="_blank" href="https://www.in.gov.br/en/web/dou/-/decreto-n-10.880-de-2-de-dezembro-de-2021-364265206">Acessar Decreto.</a><br><br>
+
+<b> LEI  Nº14.016, DE 23 DE JUNHO DE 2020 </b> - Dispõe sobre o combate ao desperdício de alimentos e a doação de excedentes de alimentos para o consumo humano.<a target="_blank" href="https://www.in.gov.br/en/web/dou/-/lei-n-14.016-de-23-de-junho-de-2020-263187111">Acessar Lei.</a><br><br>
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2" style="margin-top: -2px;"><div> 
+ 
+ </div></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• Aline Ulir Calliari (Nutricionista - Epagri) </font> 
+<br><br><br> <font size="2"> Criado em: 11/08/2021</font>
+<br> <font size="2"> Última atualização: 19/02/2025</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=013196&amp;cdElemento=11451">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=11451');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

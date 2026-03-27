@@ -1,0 +1,16 @@
+Título: BANANA - Cultivares - Figo cinza
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021676&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Cultivares
+Figo cinza
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18359%5D%7B42%7Dcap_3_-_fig_3_-_letra_e_-_buque_maduro_figo_cinza_-_autoria_eliseu_emanoel_dos_santos.jpg
+FOTO: Eliseu E. dos Santos
+
+-- Descrição --
+Esta variedade apresenta dupla aptidão, ou seja, assim como as bananas-da-terra, elas também são muito utilizadas em pratos quentes (bananas cozidas, fritas, assadas, em farofas etc.), porém, quando estão maduras, são consumidas in natura.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18359%5D%7B427%7Dcap_3_-_fig_3_-_letra_b_-_figo_cinza_-_autoria_eliseu_emanoel_dos_santos.jpg
+
+-- Informações Complementares --
+• Ramon Felipe Scherer (Dr. - Epagri) Pesquisador - Epagri - Itajaí

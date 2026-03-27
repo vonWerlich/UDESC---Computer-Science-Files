@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Inseticidas registrados para o controle de pragas na cultura do arroz - Lambda-cialotrina Tiametoxam
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017128&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Inseticidas registrados para o controle de pragas na cultura do arroz
+Lambda-cialotrina Tiametoxam
+
+-- INFORMAÇÕES GERAIS: --
+Ingrediente ativo: Lambda-cialotrina Tiametoxam ; Nome comercial: Cruiser Opti; Grupo químico: Piretroide Neonicotinoide ; Dose de produto comercial (tratamento de sementes (TS)): 300-500mL/ 100kg4 Carência (dia): - Classe Toxicológica: 5 = improvável de causar dano agudo (faixa azul); Classe ambiental: I = altamente perigoso ao meio ambiente;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+O cadastro de uso autorizado do nome comercial em Santa Catarina deve ser consultado na página do Sigen+ ( https://sigen.cidasc.sc.gov.br ) na opção “Consulta de Agrotóxico”. Dose para 100kg de sementes. Produto não recomendado para uso no sistema pré-germinado.
+
+-- PRAGAS QUE CONTROLA: --
+Bicheira-da-raiz (Oryzophagus oryzae)
+
+-- Informações Complementares --

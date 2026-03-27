@@ -1,0 +1,32 @@
+Título: ARROZ IRRIGADO - 14. Colheita, secagem e armazenamento - Secagem
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013167&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+14. Colheita, secagem e armazenamento
+Secagem
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11424%5D%7B58%7D12_seca_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Etapa de recebimento dos grãos que tem por finalidade obter o melhor rendimento no beneficiamento e maior longevidade do armazenamento. Há uma redução da umidade do grão até 13%, onde cada 1% de perda da umidade corresponde a 1,15% de perda do peso. A etapa é composta pelas operações de amostragem, pré-limpeza e limpeza e secagem. As formas de secagem indicadas o arroz irrigado em Santa Catarina são a natural, a estacionária e a intermitente.
+
+-- AMOSTRAGEM: --
+A amostragem corresponde à operação de identificação, caracterização e mensuração do produto (características do cultivar, teor de umidade, impurezas, etc.). Coletar sub-amostras em vários pontos formando uma amostra representativa do lote. Na Legislação Brasileira, os descontos permitidos no arroz em casca, são teores de umidade acima de 13% e impurezas.
+
+-- PRÉ-LIMPEZA E LIMPEZA: --
+As operações de pré-limpeza e limpeza, destinadas à retirada dos corpos indesejáveis (materiais inertes, grãos com má formação e/ou atacados por pragas e doenças, grãos de plantas espontâneas e insetos) deve ser feito de forma que a massa de grãos apresente níveis de impurezas menores que 1% no fim do processo. O conjunto de equipamentos deve ser compatível com a capacidade de colheita/recebimento da lavoura, o equipamento tem sua eficiência limitada no tempo.
+
+-- SECAGEM NATURAL: --
+Tipo de secagem usada para pequenas quantidades de grãos com auxílio do sol/temperatura ambiente ( Figura abaixo ). O arroz é espalhado em superfícies planas protegidas do solo e revolvido durante o dia e amontoado no escurecer. Durante a noite a massa de grãos deve ser mantida coberta. Esse tipo de secagem é viável em regiões que tenham clima propício (seco).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11424%5D%7B355%7D12_secanatural_01.jpg
+
+-- SECAGEM ESTACIONÁRIA: --
+Este tipo de secagem deve ser realizada a partir de silos secadores armazenadores ( figura abaixo ), e consiste em uma boa alternativa para os produtores rurais com baixa capacidade de investimento. O ar natural ou levemente aquecido deve ser insuflado por ventiladores na massa de grãos nivelada. Os danos mecânicos ou térmicos são mínimos quando a construção e operação de secadores estacionários seguem corretamente as orientações técnicas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11424%5D%7B232%7D12_secaestacio_01.jpg
+
+-- SECAGEM INTERMITENTE: --
+Destinada a fluxos maiores de recebimento de grãos, possui maior capacidade de secagem. Os danos ou choques térmicos são mínimos se respeitado o limite da temperatura do ar de secagem de (40°C), com taxa de remoção do teor de umidade de 1,5-2% por hora. Odores nesse processo caracterizam perda de matéria seca e desestruturação de nutrientes. A movimentação dos grãos neste tipo de secagem não causa perdas significativas.
+
+-- Informações Complementares --
+• Ricieri Verdi (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola
+• Fabrício Campos Masiero (Dr. Pós-colheita e armazenagem - IFC/Campus Rio do Sul) Manejo pós-colheita e armazenagem

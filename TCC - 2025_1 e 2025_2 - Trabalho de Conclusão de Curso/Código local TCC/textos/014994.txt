@@ -1,0 +1,18 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - i) Principais insetos-praga em lavouras de tomate no Litoral Norte de Santa Catarina - Pulgões
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014994&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12992%5D%7B184%7D48-1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12992%5D%7B229%7D48-2.jpg
+Legenda: Adulto alado. null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12992%5D%7B499%7D48-1.jpg
+Legenda: Adultos ápteros de pulgões. null
+
+-- INFORMAÇÕES GERAIS: --
+A principal espécie registrada em tomateiro é Myzus persicae (Sulzer, 1776) (Hemiptera: Aphididae), de corpo verde claro com cabeça, antena e tórax preto, medindo cerca de 2 mm de comprimento, sendo a forma áptera (sem asas) a mais comum (Figura X). A forma alada, menos comum, é a principal responsável pela dispersão e colonização de novas áreas (Figura 48). Os pulgões se reproduzem predominantemente de forma assexuada, e desenvolvem-se em aproximadamente 10 dias.
+
+-- DANOS: --
+Estes insetos alimentam-se sugando a seiva, preferencialmente das brotações e folhas novas, as quais adquirem aspecto enrugado e deformado, prejudicando a formação da planta, além de, assim como as moscas-brancas, favorecer o desenvolvimento da fumagina. Entretanto, a transmissão de viroses, como “vírus Y”, “topo amarelo” e “amarelo baixeiro” representam o maior risco à produção do tomateiro.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

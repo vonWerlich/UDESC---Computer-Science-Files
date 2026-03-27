@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - V325
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019938&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17443%5D%7B73%7Dv325.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Tipologia: Saladete indeterminado; Resistência: HR : ToMV, Fol:1, 2; IR : TYLCV, M; Peso: 160g a 180g; Benefícios: Frutos com alta qualidade, pesados e de fácil comercialização; Planta: Plantas vigorosas com alta produtividade; Tolerância a Geminivírus e nematóides; Pencas uniformes do início ao final de colheita; Permite longas colheitas em cultivo protegido; Frutos: Alta qualidade e rendimento; Frutos de bom calibre e firmeza, pesados e com ótima qualidade de polpa; Excelente pós-colheita; Tipologia saladete de fácil comercialização; Ótimo sabor e apresentação em caixas e embalagens; Recomendamos plantio em cultivo protegido; Para áreas com incidência de Murcha-do-tomateiro - patógenos como Fusarium raça 3, Verticillium e Ralstonia - recomendamos a utilização do nosso porta-enxerto com resistências CASTLE-PRÓ F1.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.vilmorinmikado.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.vilmorinmikado.com.br.

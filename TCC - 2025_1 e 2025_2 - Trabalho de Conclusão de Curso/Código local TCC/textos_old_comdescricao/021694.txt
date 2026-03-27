@@ -1,0 +1,24 @@
+Título: BANANA - Manejo do bananal - Controle de vegetação espontânea
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021694&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Manejo do bananal
+Controle de vegetação espontânea
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18381%5D%7B132%7Dplantas_invaroras_1.jpg
+Prática da "Desfolha da bananeira", um manejo cultural essencial no cultivo, centrando-se no pseudostemo de uma bananeira – formado por bainhas foliares sobrepostas com textura lisa e algumas descolorações naturais ou cicatrizes – onde uma ferramenta de poda especializada, um gancho com lâmina metálica curva e afiada exibindo sinais de ferrugem e desgaste pelo uso contínuo, está posicionada como se em plena atividade ou momentaneamente apoiada após o corte de uma folha; adjacente, uma base de folha de bananeira recentemente cortada, com bordas secas e escurecidas, evidencia a remoção, característica da desfolha que visa eliminar folhas velhas, doentes ou danificadas para melhorar a aeração, a penetração da luz e a sanidade do bananal; ao fundo, a folhagem densa e verde vibrante de outras bananeiras, iluminada pela luz solar que também destaca as texturas do pseudostemo e da ferramenta, compõe o cenário típico de uma plantação onde a desfolha é realizada para otimizar o desenvolvimento dos cachos e a saúde geral das plantas, com a imagem capturando um momento que simboliza a intervenção humana direta no ciclo produtivo da bananeira através desta técnica agrícola fundamental.
+FOTO: Foto: Arquivo Epagri
+
+-- DESCRIÇÃO --
+Logo após o plantio, num período de pelo menos cinco meses, o controle de plantas invasoras é muito importante, pois as mudas micropropagadas são bastante sensíveis à competição com plantas invasoras por água, nutrientes ou luz. Neste período inicial é recomendado o coroamento das mudas em crescimento, feito exclusivamente por métodos mecânicos, preferencialmente através de roçadas manuais ou mecanizadas. Os primeiros cinco meses são os mais limitantes para o desenvolvimento da cultura, necessitando de quatro a seis roçadas para o crescimento adequado das mudas. Não é recomendável o controle químico de plantas invasoras na fase inicial do bananal, pois as mudas são muito sensíveis às derivas de herbicidas, podendo ser afetadas ou até mesmo morrerem.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18381%5D%7B108%7Dplantas_invasoras.png
+Processo de higienização e preparo pós-colheita da banana em tanques de água, ilustrando em duas perspectivas a etapa crítica de lavagem e degomagem, onde pencas de bananas verdes são imersas e flutuam em tanques (sejam retangulares de alvenaria azulejada ou grandes circulares de plástico) para a remoção completa de resíduos de campo, um procedimento essencial que evita manchas e danos mecânicos nos frutos antes das fases subsequentes de seleção, classificação e embalamento.
+
+-- MANEJO DAS INVASORAS NO BANANAL EM PRODUÇÃO --
+O bananal em produção deve ser apenas roçado. As gramíneas mais agressivas ou plantas hospedeiras de vírus como a trapoeraba ( Commelina spp.) podem ser eliminadas manualmente, com enxadas, ou com aplicação localizada de herbicidas pós-emergentes( 1 )( 2 ). No controle químico localizado, de plantas de vegetação espontânea em bananais já estabelecidos, podem-se utilizar herbicidas pós-emergentes sobre áreas com infestação de invasoras mais agressivas. Os herbicidas registrados para a cultura da bananeira podem ser consultados no Sistema de Agrotóxicos Fitossanitários (Agrofit) ( 3 ).
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p. ( 2 )ALVES, E.J. A cultura da banana: aspectos técnicos, socioeconômicos e agroindustriais. Brasília: Embrapa/SPI, 1997. 585p. ( 3 )https://agrofit.agricultura.gov.br/agrofit.
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p. ( 2 )ALVES, E.J. A cultura da banana: aspectos técnicos, socioeconômicos e agroindustriais. Brasília: Embrapa/SPI, 1997. 585p. ( 3 )https://agrofit.agricultura.gov.br/agrofit.
+• Ricardo José Zimmermann de Negreiros (Msc. - Epagri) Pesquisador - Epagri - Itajaí
+• Jorge Luiz Malburg (Msc. - Epagri) Pesquisador - Epagri - Itajaí

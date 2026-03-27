@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - Silvety F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0809&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B688%5D%7B359%7Dsilvety.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Syngenta; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: F2 - Fusarium oxysporum f.sp. lycopersici - raça 2; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Tamanho do fruto: Médio (201 a 230 g); Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Crescimento: Determinado. Planta: Vigorosa, crescimento vegetativo rápido , excelente cobertura foliar. Fruto: Redondo, levemente achatado, multilocular, firme e longa vida (superior a 15 dias em fruto vermelho) . Peso: >220 gramas. Colheita: 95 a 105 dias após a semeadura.
+
+-- RECOMENDAÇÕES AGRONÔMICAS: --
+Época de Plantio: Ano todo. Condições de Cultivo: Campo Aberto. Espaçamento para Cultivo: 1,0-1,4m x 0,4-0,8m (linha simples) . Desbrote: Recomenda-se a retirados dos brotos laterais antes do surgimento da 1ª. Penca. Nutrição: Realizar boa adubação no Plantio (NPK), com especial atenção para o Fósforo (P) de acordo com analise de solo. Sugestão para as adubações de cobertura: observar relação N:K de 1:1 na 1ª. Cobertura e mudar para 1:2 (N:K) na 2ª. E demais coberturas de acordo com a necessidade da planta. Atenção para o período de formação dos frutos, onde há grande demanda dos nutrientes Cálcio (Ca) e Boro (B) . Estágio de Colheita: Frutos podem ser colhidos no estágio de transição para vermelho (cor de cana ou pintando) .
+
+-- OUTRAS INFORMAÇÕES: --
+Frutos firmes com boa longevidade pós-colheita: Segurança no transporte e comercialização. Menor utilização de mão-de-obra: Redução do custo de Produção. Alta produtividade: Melhor rendimento por área. Planta rústica: Possibilidade de plantio em épocas com pressão de viroses (TYLCV e TSWV) . Boa padronização de frutos no ponteiro frutos AA: Melhor cotação no mercado. Frutos com coloração vermelha atraente e sabor marcante: Maior valorização pelo consumidor. São do segmento Salada, porém são determinado. Ambos não estão mais na linha comercial no Brasil
+
+-- RESISTÊNCIA: --
+HR - Fol 1-2/ V 1/ TMV/ ToMV 0-2/ TSWV:TO IR - N/ TYLCV.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.syngenta.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.syngenta.com.br.

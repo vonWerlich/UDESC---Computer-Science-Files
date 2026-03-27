@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Elity
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019115&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16758%5D%7B101%7Dtomate-hib.-elity.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Planta: Vigorosa e produtiva, com hábito de crescimento indeterminado. Boa cobertura foliar e sanidade; Frutos: Tipo Santa Cruz, grandes, firmes e uniformes; Época: Ano todo; Resistência: TYLCV – Geminivírus (Tomato yellow leaf curl virus)| TSWV – (Tomato spottted wilt virus) | Va – Murcha-de-Verticílio (Verticilium albo-atrum e Verticilium dahliae) | Fol – Murcha-de-Fusário (Fusarium oxysporum f.sp. lycopersici) | Nematóide (Meloidogyne spp.); Destaque: Sanidade e produtividade.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.horticeres.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.horticeres.com.br.

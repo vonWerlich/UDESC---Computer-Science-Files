@@ -1,0 +1,19 @@
+Título: BANANA - Manejo do bananal - Poda de coração
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021689&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18376%5D%7B58%7Dpoda_coracao.jpg
+
+-- DESCRIÇÃO --
+É a eliminação do botão floral de flores masculinas (coração ou mangará), e sinaliza para a planta que sua fase reprodutiva já acabou. Este manejo interrompe o fluxo de seiva para o botão floral, de modo que a planta passa a priorizar o desenvolvimento do cacho( 1 ).
+
+-- QUANDO E COMO FAZER --
+Recomenda-se eliminar o coração quando este se encontra cerca de 10cm abaixo da última penca de frutos , preferencialmente pela quebra manual da ráquis masculina. Em plantas altas, a poda pode ser feita com utilização de foices com cabo longo. Todavia, o corte feito em bisel cria uma superfície aberta maior do que com a quebra manual da ráquis, o que pode facilitar a entrada e disseminação de fungos causadores da seca-do-rabo. ( 2 )
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18376%5D%7B334%7Dcoracao_1.jpg
+Legenda: Eliminação da falsa penca deixando-se um dedo. Foto: Keny H. Marigueli
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18376%5D%7B403%7Dcoracao_2.jpg
+Legenda: posicionamento da mão para poda do coração Foto: Keny H. Marigueli
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18376%5D%7B241%7Dcoracao_3.jpg
+Legenda: Quebra do coraçãoFoto: Keny H. Marigueli
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p. ( 1 )BORGES, A.L.; SILVA, A. L.S.; BATISTA, D.C.; MOREIRA, F.R.B.; FLORI, J.E.; MORAIS, J.E.; ARAUJO, J.L.P.; PINTO, J.M.; CASTRO, J.M.C.; BESERRA, M.S.; AZOUBEL, P.M.; CUNHA, T.J.F.; SILVA, S.O.; CORDEIRO, Z.J.M. Sistema de produção da bananeira irrigada. Embrapa Semiárido Sistemas de Produção, 4 ISSN 1807-0027 Versão Eletrônica Jul/2009 ( 2 )LICHTEMBERG, L.A.; MALBURG, J.L.; SCHMITT, A.T. HINZ, R.H.; ZAFFARI, G.R.; XII Curso de bananicultura. Florianópolis, SC: Secretaria de Agricultura e Abastecimento, Epagri, 2000. 175p.

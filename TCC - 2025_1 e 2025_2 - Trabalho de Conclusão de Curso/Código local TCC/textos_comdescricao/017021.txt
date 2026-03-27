@@ -1,0 +1,24 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas - As folhas estão comidas ou raspadas - O limbo foliar está inteiro, apesar de haver porções raspadas - A raspagem na folha ultrapassa os limites das nervuras
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017021&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17011%5D%7B114%7Dpl15_raspairregular.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano está restrito às folhas
+As folhas estão comidas ou raspadas
+O limbo foliar está inteiro, apesar de haver porções raspadas
+A raspagem na folha ultrapassa os limites das nervuras
+O limbo foliar está finamente raspado, deixando-o com estrias entre as nervuras - PERSEQUITO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17021%5D%7B274%7Dplt_perseq.jpg
+Legenda: O limbo foliar está finamente raspado, deixando-o com estrias entre as nervuras - PERSEQUITO
+17025
+O limbo foliar está finamente raspado, deixando-o com estrias entre as nervuras - PERSEQUITO
+O limbo foliar está grosseiramente raspado - LESMA-OMALONIX
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17021%5D%7B110%7Dplt_lesma.jpg
+Legenda: O limbo foliar está grosseiramente raspado - LESMA-OMALONIX
+17024
+O limbo foliar está grosseiramente raspado - LESMA-OMALONIX

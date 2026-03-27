@@ -1,0 +1,60 @@
+Título: TOMATE - Fitossanidade - Pragas - Pulgões (Myzus persicae e Macrosiphum euphorbiae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=077&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1948%5D%7B457%7D233697.jpg
+
+-- Pulgão da Batatinha (Macrosiphum euphorbiae) --
+A forma alada dessa espécie diference-se das ápteras pelo seu tamanho, sendo esta última maior. O comprimento pode variar de 3 a 4 mm. A coloração é geralmente amarelo-esverdeado, com cabeça e antenas mais escuras. Vivem em colônias e tem preferência por viver na parte inferior das folhas dos ponteiros. A principal cultura que ele ataca é a batata, porém utiliza como hospedeiros alternativos o tomate, berinjela, pimentão, alface e fumo (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B93%7D233696.jpg
+Legenda: FONTE: https://inpn.mnhn.fr/espece/cd_nom/215536?lg=en. Foto: C. Quintin
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B391%7D233697.jpg
+Legenda: Fonte: https://inpn.mnhn.fr/espece/cd_nom/215536?lg=en. Foto: C. Quintin
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B314%7Dmacrosiphum_euphorbiae3.jpg
+Legenda: Fonte: https://www.agrolink.com.br/culturas/problema/pulgao-das-solanaceas_425.htmlnull
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B40%7Dmacrosiphum_euphorbiae4.jpg
+Legenda: Fonte: https://www.agrolink.com.br/culturas/problema/pulgao-das-solanaceas_425.htmlnull
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B136%7Dmacrosiphum_euphorbiae7.jpg
+Legenda: Fonte: https://www.agrolink.com.br/culturas/problema/pulgao-das-solanaceas_425.htmlnull
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B43%7Dmacrosiphum_euphorbiae8.jpg
+Legenda: Fonte: https://www.agrolink.com.br/culturas/problema/pulgao-das-solanaceas_425.htmlnull
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B226%7Dmacrosiphum_euphorbiae2.jpg
+Legenda: Fonte: https://www.agrolink.com.br/culturas/problema/pulgao-das-solanaceas_425.htmlnull
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B147%7Dmacrosiphum_euphorbiae1.jpg
+Legenda: Fonte: https://www.agrolink.com.br/culturas/problema/pulgao-das-solanaceas_425.htmlnull
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B334%7Dmacrosiphum_euphorbiae5.jpg
+Legenda: Fonte: https://www.agrolink.com.br/culturas/problema/pulgao-das-solanaceas_425.htmlnull
+
+-- Pulgão Verde (Myzus persicae) --
+A principal espécie registrada em tomateiro é Myzus persicae (Sulzer, 1776) (Hemiptera: Aphididae), de corpo verde claro com cabeça, antena e toráx preto, medem cerca de 2 mm de comprimento, sendo a forma áptera (sem asas) a mais comum. A forma alada, menos comum, é a principal responsável pela dispersão e colonização de novas áreas. Os pulgões se reproduzem predominantemente de forma assexuada, e se desenvolvem em aproximadamente 10 dias (3). Dentre os pulgões, esta espécie é a que ataca o maior número de culturas: melancia; couve; alface; repolho; fumo; feijoeiro, maracujá, mamão, abóbora, abobrinha, batata, berinjela, brássicas, chuchu, jiló, pepino, pimentão, tomate, pimenta, gérbera (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B245%7D48-2.jpg
+Legenda: Adulto alado. Foto: Luís Cláudio Paterno Silveira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B433%7D48-1.jpg
+Legenda: Adultos ápteros de pulgões. Foto: Luís Cláudio Paterno Silveira
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B130%7D235662.jpg
+Legenda: FONTE: https://inpn.mnhn.fr/espece/cd_nom/52046?lg=en. Foto: C. Quintin
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B469%7D235661.jpg
+Legenda: Fonte: https://inpn.mnhn.fr/espece/cd_nom/52046?lg=en. Foto: C. Quintin
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1948%5D%7B132%7Dscreenshot_20200330-131746_adama_hf.jpg
+Legenda: Imagem da praga. Fonte: ADAMA Hortifruti Brasil.
+
+-- DANOS: --
+Estes insetos se alimentam sugando a seiva, preferencialmente das brotações e folhas novas, as quais adquirem aspecto enrugado e deformado, prejudicando a formação da planta, além de, assim como as moscas-brancas, favorecer o desenvolvimento da fumagina. Entretanto, a transmissão de viroses, como “ vírus Y ”, “ topo amarelo ” e “ amarelo baixeiro ”, representam o maior risco a produção do tomateiro.
+
+-- MONITORAMENTO: --
+Monitoramento: Se faz empregando-se 4 bandejas (por hectare) amarelas com água e algumas gotas de detergente doméstico, colocadas a 0,5 m do solo. Também é possível pela contagem direta em 100 folhas por hectare, duas vezes por semana. Quando for constatada a presença de mais de 20 pulgões alados nas bandejas ou mais de 30 formas ápteras em cada avaliação, o controle químico deve ser realizado (3).
+
+-- CONTROLE: --
+Medidas gerais de controle: - Práticas como uso de adubação equilibrada (evitando-se excesso de nitrogênio) (4). - Manejo adequado da irrigação para evitar o estresse hídrico (favorecendo o estabelecimento rápido das plantas) (4). - Emprego da irrigação por aspersão para controle mecânico (4). - Eliminação de plantas infectadas com viroses (4). - Eliminação de plantas hospedeiras silvestres e daninhas (4). - Rotação de culturas (4). - Implantação de barreiras vivas (sorgo, capim elefante, milheto ou cana-de-açúcar) perpendiculares à direção predominante do vento ao redor do cultivo (4). - Colheita antecipada (principalmente de frutos atacados). - Destruição de restos de cultura (4).
+
+-- Controle Biológico: --
+O controle biológico natural, que é exercido por diversos predadores e parasitoides, não se mostra totalmente eficiente, uma vez que pequenas populações desses pulgões são suficientes para a ocorrência da transmissão de viroses. Alternativamente, pode-se utilizar palha de arroz, capim seco ou plástico, como cobertura de solo, pois, além de proteger as plantas, têm acentuado efeito na repelência de formas aladas migrantes, diminuindo as “picadas de prova” e, consequentemente, a transmissão de viroses. A palha de arroz, por exemplo, deve ser colocada em faixas de 30 cm ao longo das linhas de plantio ou mesmo cobrindo toda a extensão das entrelinhas de cultivo; no entanto, esta prática mostra-se inviável para grandes áreas de cultivo, o que impossibilita sua utilização em grande escala.
+
+-- Controle cultural: --
+O isolamento dos talhões de plantio por data e área também deve ser realizado, evitando-se o escalonamento de plantio em áreas próximas. Nesse sentido, o plantio dos talhões deve ser realizado no sentido contrário ao vento, daquele mais velho para o mais novo, de forma a desfavorecer o deslocamento das pragas dos talhões velhos para os novos.
+
+-- Controle Químico: --
+As mudas devem ser produzidas em telados e mantidas pulverizadas com inseticidas recomendados (Agrofit) antes e depois de serem transplantadas no campo. Após a constatação de mais de 10 pulgões por 40 folhas, recomenda-se a aplicação de Pirimicarb. Esse produto é específico para o controle de pulgões, não afetando o desempenho de parasitóides e predadores, como Chrysoperla spp. A pulverização de Pirimicarb (Pi-Rimor 500 PM) deve ser feita em toda a área, em razão das características de migração e dispersão do pulgões (2).
+
+-- Informações Complementares --
+(1) Dirceu Pratissoli e José Romário de Carvalho. GUIA DE CAMPO: Pragas da Cultura do Tomateiro. Guia de Campo: Pragas da Cultura do Tomateiro / Dirceu Pratissoli, José Romário de Carvalho. – Alegre, ES: NUDEMAFI, Centro de Ciências Agrárias, UFES, 2015. 35p. (Série Técnica / NUDEMAFI, ISSN 2359-4179). (2) João Bosco Carvalho da Silva. Cultivo de tomate para industrialização. Embrapa Hortaliças, Sistema de Produção, Versão Eletrônica, Jan/2003. (3) Instituto Biológico- ASPECTOS FITOSSANITÁRIOS DO TOMATEIRO. n.27 (jul. 2013) – São Paulo. Pág99. (4) Alexandre Pinho de Moura. Pulgões. Fonte: http://www.agencia.cnptia.embrapa.br/gestor/pimenta/arvore/CONT000gn7f7wku02wx5ok0liq1mqkqimbov.html. (5) Aplicativo ADAMA Hortifruti Brasil. Para mais informações, consultar o site https://www.adama.com/brasil/pt/ ou diretamente pelo aplicativo ADAMA HF .

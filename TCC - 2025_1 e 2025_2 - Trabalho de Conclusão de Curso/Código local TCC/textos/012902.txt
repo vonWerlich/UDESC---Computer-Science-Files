@@ -1,0 +1,54 @@
+Título: PLANTAS PARA ADUBAÇÃO VERDE - Sorgo forrageiro (Sorghum bicolor)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012902&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11204%5D%7B342%7Dsorgo_for._cda_2007c_epagri-cepaf..jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11204%5D%7B467%7Dsorgo_forrageiro_jan2022_foto_juliane_justen.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11204%5D%7B264%7D1.jpg
+Legenda: Pendoamento. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11204%5D%7B107%7Dsementes_sorgo_cepaf.jpg
+Legenda: Sementes. Foto: Leandro do Prado Wildner
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11204%5D%7B375%7Dsorgo_for._cda_2007a_epagri-cepaf..jpg
+Legenda: Sorgo for. CDA 2007a Epagri-Cepaf. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11204%5D%7B510%7Dsorgo_for._cda_2007c_epagri-cepaf..jpg
+Legenda: Sorgo for. CDA 2007c Epagri-Cepaf. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11204%5D%7B213%7Dsorgo_for._cda_2007e_epagri-cepaf..jpg
+Legenda: Sorgo for. CDA 2007e Epagri-Cepaf. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11204%5D%7B516%7Dsorgo_for._cda_2007g_epagri-cepaf..jpg
+Legenda: Sorgo for. CDA 2007g Epagri-Cepaf. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11204%5D%7B461%7Dsorgo_forrageiro_-_maturacao._epagri-cepaf%2C_2000..bmp
+Legenda: Sorgo forrageiro - maturação. Epagri-Cepaf, 2000. Foto: Leandro Wildner.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11204%5D%7B85%7Dsorgo_apresentacao_lauro1.jpg
+Legenda: Sorgo_apresentação Lauro. Foto: Leandro Wildner.
+
+-- INFORMAÇÕES GERAIS: --
+NOME CIENTÍFICO: Sorghum bicolor (L.) Moench. FAMÍLIA: Poaceae (Gramíneas). ORIGEM: África.
+
+-- CARACTERÍSTICAS BOTÂNICAS: --
+PORTE: Herbáceo. HÁBITO DE CRESCIMENTO: Ereto. CAULE: Colmos cilíndricos, enfolhados desde a base, divididos em nós e entrenós. ALTURA DA PLANTA (m): 1,0 a 2,7. SISTEMA RADICULAR: Fasciculado, agressivo.
+
+-- INFORMAÇÕES FENOLÓGICAS: --
+CICLO VEGETATIVO: Anual. ÉPOCA IDEAL DE PLANTIO: Primavera/verão. ÉPOCA PREFERENCIAL DE PLANTIO: Agosto a outubro. ÉPOCA POSSÍVEL DE PLANTIO: Agosto a janeiro. CICLO PARA FLORESCIMENTO (dias): 70 a 90.
+
+-- CARACTERÍSTICAS AGRONÔMICAS: --
+PRODUÇÃO DE FITOMASSA (MS t/ha): 5 a 18. PRODUÇÃO DE FITOMASSA (MV t/ha): 20 a 60. TOLERÂNCIA À GEADA: Suscetível. TOLERÂNCIA A SOLOS ÁCIDOS: Média. TOLERÂNCIA A BAIXA FERTILIDADE DO SOLO: Média. TOLERÂNCIA AO DÉFICIT HÍDRICO: Alta. TOLERÂNCIA AO ENCHARCAMENTO: Baixa. TOLERÂNCIA A BAIXA TEMPERATURA: Baixa. VELOCIDADE NA COBERTURA INICIAL DO SOLO: Rápida. APTIDÃO PARA PASTAGEM: Forte.
+
+-- SEMENTES: --
+PRODUTIVIDADE DE SEMENTES (kg/ha): 5000 a 8000. PESO DE MIL SEMENTES (gramas): 26 a 30. PRESENÇA DE SEMENTES DURAS: Não.
+
+-- SEMEADURA: --
+ESPAÇAMENTO ENTRE LINHAS (metros): 0,2 a 0,5. DENSIDADE DE SEMEADURA (kg/ha, em linha): 8 a 10. DENSIDADE DE SEMEADURA (kg/ha, a lanço): 15 a 40. DENSIDADE DE PLANTAS POR ÁREA (pl/ha): 150 a 350 mil.
+
+-- COMPOSIÇÃO QUÍMICA DO TECIDO VEGETAL: --
+QUANTIDADE ACUMULADA DE NITROGÊNIO (kg/ha): 58 (60 dias após a semeadura) a 78 (120 dias após a semeadura). RELAÇÃO C/N: 50 (60 dias após a semeadura) a 100 (120 dias após a semeadura). NITROGÊNIO (% na massa seca): 2,44 a 2,85. FÓSFORO (P2O5 % na massa seca): 0,10 a 0,30. POTÁSSIO (K2O % na massa seca): 1,40 a 2,20.
+
+-- INDICAÇÃO DE USO / CULTIVO: --
+MISTURAS DE ADUBOS VERDES: Milheto, crotalárias, mucunas, labe-labe, feijão-caupi e guandu-anão. SUGESTÕES DE MISTURAS: Sorgo (10kg/ha) + feijão-caupi (30kg/ha); sorgo (10kg/ha + labe-labe (25kg/ha). CONSÓRCIO COM CULTURAS (sucessão/intercalares): Soja, amendoim, feijão, milho e cobertura para o SPD em geral. ROTAÇÃO DE CULTURAS: Soja, amendoim, feijão.
+
+-- INFORMAÇÕES FITOSSANITÁRIAS: --
+SUSCEPTIBILIDADE A NEMATOIDES: Pratylenchus brachyurus e Meloidogyne incognita . CONTROLE DE NEMATOIDES: Rotylenchulus reniformis .
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+DESENVOLVIMENTO EM SANTA CATARINA: Desenvolve-se bem em todas as regiões de Santa Catarina. MANEJO DA FITOMASSA: Manejo mecânico (rolo-faca) ou químico (herbicida) a partir da floração. ATENÇÃO: Baixa sensibilidade ao glyphosate. CARACTERÍSTICA DESTAQUE: Apresenta alguma resistência à deficiência hídrica.
+
+-- Informações Complementares --
+Informações coletadas com base em experiências de campo de técnicos da Epagri, bem como numa extensa revisão de literatura. Para acessar as referências na íntegra, CLIQUE AQUI!

@@ -1,0 +1,21 @@
+Título: ARROZ IRRIGADO - 06. Manejo nutricional - Determinação do teor de nutrientes no solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013140&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+06. Manejo nutricional
+Determinação do teor de nutrientes no solo
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11406%5D%7B20%7D06_amostrasolo_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+As atividades que compõem o manejo nutricional se destinam principalmente à elevar o potencial produtivo da lavoura e a sua correta execução é fundamental para se obter boa rentabilidade.
+
+-- ANÁLISE DE SOLO: --
+O teor de nutrientes disponível no solo é avaliado por meio da análise de amostras de solo. A coleta das amostras é a fase de maior importância para a correta avaliação, pois qualquer erro cometido nesta fase prejudica a definição das doses que deverão ser aplicadas. Para a coleta, a lavoura deve ser separada em áreas homogêneas (ou glebas), considerando os seguintes aspectos: • Manchas de solo. • Cultivar e dose de adubos usados nas últimas duas safras. • Rotação com outras lavouras (soja, milho, etc.). Em cada gleba devem ser coletadas várias sub-amostras, as quais devem ser muito bem misturadas no final da coleta, devendo ser retiradas 500g que serão enviados ao laboratório (amostra composta). É importante que as amostras sejam coletadas nos 20cm do solo. A coleta deve ser feita cerca de 4 meses antes da semeadura da lavoura, para permitir a aplicação de corretivos de baixo custo, caso seja necessária.
+
+-- Informações Complementares --
+SOSBAI. Arroz irrigado : recomendações técnicas da pesquisa para o Sul do Brasil. Cachoeirinha: Sosbai, 2018. 240p.
+SOSBAI. Arroz irrigado : recomendações técnicas da pesquisa para o Sul do Brasil. Cachoeirinha: Sosbai, 2018. 240p.
+• Rafael Ricardo Cantú (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação
+• Marcos Lima Campos do Vale (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação
+• Gelton Geraldo Fernandes Guimaraes (Dr. em Solos e Nutrição de Plantas - Epagri) Solos e adubação

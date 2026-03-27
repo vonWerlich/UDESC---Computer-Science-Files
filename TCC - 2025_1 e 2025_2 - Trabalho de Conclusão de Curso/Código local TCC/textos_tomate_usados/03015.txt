@@ -1,0 +1,21 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - L) TECNOLOGIA DE APLICAÇÃO DE PRODUTOS FITOSSANITÁRIOS - d) Equipamentos e aplicação
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=03015&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2779%5D%7B41%7Dcapa_1.jpg
+
+-- Perdas de agrotóxicos x três estádios de crescimento da cultura: --
+Em tomate estaqueado, Chaim et al. (1999a) observaram perdas extremamente elevadas de agrotóxicos aplicados em três estádios de crescimento da cultura (Tabela 20).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2779%5D%7B167%7Dtabela_20.jpg
+Legenda: Distribuição percentual de agrotóxicos na cultura de tomate estaqueado. Fonte: Chaim et al. (1999a).
+
+-- Pressão de pulverização: --
+O deslocamento das gotas do bico de pulverização até as plantas é proporcionado unicamente pela força da pressão hidráulica, mas nem sempre ela é suficiente para promover a penetração no interior das plantas. Para resolver o problema, a maioria dos agricultores eleva a pressão de pulverização e isso acrescenta uma série de efeitos colaterais, pois aumenta a exposição dos aplicadores, a perda por deriva e a evaporação. Testes foram realizados por Chaim (2009), comparando duas técnicas diferentes de pulverização na cultura do tomate estaqueado, sendo uma técnica tradicional (pulverização hidráulica com lança manual), e uma alternativa em que as gotas são arremessadas com vento (pulverizador motorizado costal modificado). Na aplicação convencional, foram aplicados 1000 L/ha de calda e na pulverização alternativa 20L/ha. A quantidade de agrotóxico aplicada por hectare foi aproximadamente a mesma, nos dois processos testados. Os resíduos encontrados nas diferentes regiões das plantas são apresentados na Tabela 21.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2779%5D%7B505%7Dtabela_21.jpg
+Legenda: Resíduos de agrotóxicos encontrados em diferentes regiões de plantas de tomate estaqueado, tratadas com dois tipos de pulverizadores. Fonte: Chaim (2009).
+
+-- Pulverizador motorizado costal x pulverizador convencional: --
+Observa-se que, apesar de se aplicar aproximadamente a mesma quantidade de ingrediente ativo, o pulverizador motorizado costal proporcionou um resíduo médio nas plantas 19 vezes maior do que o pulverizador convencional. Por outro lado, se o resíduo proporcionado pela aplicação convencional é suficiente para controlar o problema fitossanitário, a dose aplicada pelo pulverizador motorizado costal poderia ser reduzida 19 vezes.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

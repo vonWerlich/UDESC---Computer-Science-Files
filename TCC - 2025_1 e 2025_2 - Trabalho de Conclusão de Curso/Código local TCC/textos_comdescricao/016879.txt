@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 4. Diagnóstico a partir da doençaInicie por aqui, caso saiba que se trata de doença, mas tenha dúvida.Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais. - Os colmos ou panículas estão com manchas escuras ou de aspecto seco e são os sintomas no colmo ou na panícula que predominam na planta
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016879&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17060%5D%7B519%7Dpl02_colmopan.jpg
+DIAGNOSE VISUAL
+4. Diagnóstico a partir da doença Inicie por aqui, caso saiba que se trata de doença, mas tenha dúvida. Normalmente, as doenças do arroz são de natureza fúngica, que resultam em manchas mas sem rompimento dos tecidos vegetais.
+Os colmos ou panículas estão com manchas escuras ou de aspecto seco e são os sintomas no colmo ou na panícula que predominam na planta
+Os colmos estão com manchas escuras ou de aspecto seco e são os sintomas no colmo que predominam na planta
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16879%5D%7B126%7Dpl10_colmomanchado.jpg
+Legenda: Os colmos estão com manchas escuras ou de aspecto seco e são os sintomas no colmo que predominam na planta
+16880
+Os colmos estão com manchas escuras ou de aspecto seco e são os sintomas no colmo que predominam na planta
+As panículas estão com manchas escuras ou secas e são os sintomas na panícula que predominam na planta
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16879%5D%7B197%7Dpl11_panmanchada.jpg
+Legenda: As panículas estão com manchas escuras ou secas e são os sintomas na panícula que predominam na planta
+16868
+As panículas estão com manchas escuras ou secas e são os sintomas na panícula que predominam na planta

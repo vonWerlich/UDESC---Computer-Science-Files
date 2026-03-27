@@ -1,0 +1,67 @@
+Título: TOMATE - Cultivares - BRS Imigrante F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0851&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B728%5D%7B347%7Dbrs_imigrante.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Determinado; Empresa: Agrocinco; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Resistência a fungos: St ou Ss - Stemphylium solani; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: Ty1 - Tomato yellow leaf curl virus 1 (ToLCV); Tamanho do fruto: Grande (231 a 250 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido rústico de crescimento semi-determinado e condução com três hastes. Excelente cobertura foliar. Frutos firmes, vermelho brilhante com peso médio de 230g a 250g. Origem: Agrocinco Seeds of Value e Embrapa Hortaliças.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B323%7Dbrs_imigrante_1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B501%7Dbrs_imigrante_3.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B300%7Dbrs_imigrante_4.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B290%7Dbrs_imigrante_5.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B4%7Dbrs_imigrante_6.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B255%7Dbrs_imigrante_7.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B220%7Dbrs_imigrante_8.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B304%7Dbrs_imigrante_9.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B476%7Dbrs_imigrante_10.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B522%7Dbrs_imigrante_11.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B267%7Dbrs_imigrante_12.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B118%7Dbrs_imigrante_13.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B14%7Dbrs_imigrante_14.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B279%7Dbrs_imigrante_15.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B501%7Dbrs_imigrante_16.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B168%7Dbrs_imigrante_17.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B337%7Dbrs_imigrante_18.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B414%7Dbrs_imigrante_19.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B478%7Dimigrante_20.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B5%7Dimigrante_21.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B222%7Dimigrante_22.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B430%7Dimigrante_23.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B78%7Dimigrante_24.jpg
+Legenda: Site da Empresa:null
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B728%5D%7B458%7Dbrs_imigrante_2.jpg
+Legenda: Site da Empresa:null
+
+-- RESISTÊNCIA: --
+Verticilium, Fusarium raças 1, 2 e 3, Mancha de Estenfílio, Vírus do Mosaico do Tabaco e TY (geminivírus).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( http://www.agrocinco.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+http://www.agrocinco.com.br/2013/produto_detalhes.asp?idprod=99&idcat=1&idsub=1

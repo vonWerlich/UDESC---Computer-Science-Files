@@ -1,0 +1,22 @@
+Título: TOMATE - Cultivares - Rutyele F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0722&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B603%5D%7B190%7Drutyele.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Boa pós colheita; Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: TSV Sementes; Finalidade: Copa; Grupo: Saladette; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a viroses: TMV - Tobacco mosaic virus; Resistência a viroses: TYLCV - Tomato yellow leaf curl virus; Vigor: Alto
+
+-- INFORMAÇÕES DA EMPRESA: --
+Híbrido do tipo saladete. Possui plantas vigorosas com boa cobertura foliar, pegamento uniforme dos frutos e alto potencial produtivo. Internódios curtos. Produz frutos firmes, com excelente uniformidade e coloração vermelho intenso. Ciclo (nº de dias): 100 a 110 dias; Hábito de crescimento: Indeterminado.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B603%5D%7B464%7D3.jpg
+Legenda: Folder de divulgação do produto.null
+
+-- RESISTÊNCIA: --
+TYLCV, N, Fol 3, TMV e bactérias.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.tsvsementes.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.tsvsementes.com.br.

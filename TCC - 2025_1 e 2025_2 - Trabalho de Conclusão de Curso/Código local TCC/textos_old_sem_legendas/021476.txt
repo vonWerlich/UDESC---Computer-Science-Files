@@ -1,0 +1,44 @@
+Título: ARROZ IRRIGADO - 11. Manejo de pragas - Lagarta-militar (Spodoptera frugiperda)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021476&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+11. Manejo de pragas
+Lagarta-militar ( Spodoptera frugiperda )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11344%5D%7B523%7Dlagmil_caput.jpg
+FOTO: Bayer (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B191%7Dlagmil_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B174%7Dlagmil_fig09.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B423%7Dlagmil_fig08.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B180%7Dlagmil_fig07.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B434%7Dlagmil_fig22.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B165%7Dlagmil_fig34.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B139%7Dlagmil_fig51.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B299%7Dlagmil_fig56.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B410%7Dlagmil_fig57.jpg
+
+-- INFORMAÇÕES GERAIS: Praga primária --
+Espécie: Spodoptera frugiperda (Smith) Ordem: Lepidoptera Família: Noctuidae
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B332%7Dlagmil_base.jpg
+
+-- IDENTIFICAÇÃO: --
+• O adulto é uma mariposa de corpo robusto, com 40mm de envergadura, coloração geral cinza com manchas no primeiro par de asas, que definem diferentes camuflagens. O segundo par de asas é de coloração branca. • Os ovos são postos em massa sobre a lâmina foliar ou sobre o solo e são cobertos por escamas que provêm do corpo da fêmea. • A lagarta chega a 40mm de comprimento e a coloração é variável, de verde-clara a marrom-escura ou quase preta. • A pupa é livre, de coloração marrom e ocorre no solo.
+
+-- CICLO DE VIDA: --
+Completa-se em cerca de 30 dias, sendo o período larval em torno de 18 dias e o pupal de 8 dias. A incubação dos ovos finda em 3 ou 4 dias. Nas épocas frias do ano, as fases do ciclo biológico perduram por mais tempo, podendo o ciclo variar de 80 a 90 dias no inverno. Fêmeas põem cerca de 1.500 ovos, em grupos de 100 a 200 ovos por postura.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B526%7Dlagmil_ciclo.jpg
+
+-- OCORRÊNCIA: --
+Anual: de setembro a março. Crítico: novembro. Lavoura: da emergência à colheita. As mariposas infestam as lavouras de arroz irrigado nos estágios iniciais, principalmente na ausência temporária da lâmina de água. Lavouras constantemente inundadas parecem ser evitadas, talvez pelo risco iminente de afogamento. Por isso, a lagarta-militar infesta menos o cultivo pré-germinado. O inseto pode ser mais frequente em períodos secos ou em arrozais situados próximos a lavouras de milho ou sorgo.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11344%5D%7B46%7Dlagmil_fenolog.jpg
+
+-- DANOS: --
+As lagartas se alimentam das folhas novas do arroz, podendo cortar plantas jovens rente ao solo. O ataque é mais prejudicial durante a fase vegetativa, ou seja, aproximadamente nos primeiros 50 dias após a semeadura.
+
+-- ALTERNATIVAS DE MANEJO INTEGRADO: --
+• Bom preparo e nivelamento do solo. • Inundar quadros com presença de sintomas para afogar as lagartas ou expô-las à maior predação por pássaros. • Manter lâmina de água uniforme. • Realizar vistorias periódicas durante o estabelecimento da lavoura, inspecionando inclusive capins nas taipas e valas. • Evitar o excesso de adubação nitrogenada e adequar a adubação potássica. O nitrogênio torna as plantas mais tenras e preferidas pelas lagartas, ao passo que o potássio atua na lignificação dos tecidos vegetais, deixando as plantas menos atrativas. • Adotar controle localizado, sempre que possível e evitar o uso rotineiro de inseticidas. • Aplicar somente inseticidas registrados e recomendados para o controle da lagarta-militar. • Em pós-colheita, eliminar a resteva e roçar taipas, valas e áreas adjacentes.
+
+-- Informações Complementares --
+HICKEL, E.R.; PRANDO, H.F.; EBERHARDT, D.S. Lagartas nas lavouras catarinenses de arroz irrigado : ocorrência, monitoramento e manejo integrado. Florianópolis: Epagri, 2018. 48 p. (Epagri. Boletim Técnico, 182).
+HICKEL, E.R.; PRANDO, H.F.; EBERHARDT, D.S. Lagartas nas lavouras catarinenses de arroz irrigado : ocorrência, monitoramento e manejo integrado. Florianópolis: Epagri, 2018. 48 p. (Epagri. Boletim Técnico, 182).
+• Eduardo Rodrigues Hickel (Dr. em Entomologia - Epagri) Manejo integrado de pragas

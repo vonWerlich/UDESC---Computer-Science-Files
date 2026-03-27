@@ -1,0 +1,28 @@
+Título: BANANA - Fitossanidade - Principais doenças da bananeira - NEMATOIDES
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021713&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+BANANA
+Fitossanidade
+Principais doenças da bananeira
+NEMATOIDES
+CONTROLE DOS NEMATOIDES
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18405%5D%7B55%7Dtombamento.png
+21716
+CONTROLE DOS NEMATOIDES
+NEMATOIDE CAVERNÍCOLA ( Radopholus similis )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18401%5D%7B481%7Dnematoide_cavernicola.png
+21711
+NEMATOIDE CAVERNÍCOLA ( Radopholus similis )
+NEMATOIDE DAS GALHAS RADICULARES ( Meloidogyne spp.)
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18404%5D%7B32%7Dnematoide_das_galhas_das_raizes.png
+21715
+NEMATOIDE DAS GALHAS RADICULARES ( Meloidogyne spp.)
+NEMATOIDE DAS LESÕES RADICULARES ( Pratylenchus coffeae )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18403%5D%7B82%7Dzilton_2.png
+21714
+NEMATOIDE DAS LESÕES RADICULARES ( Pratylenchus coffeae )
+NEMATOIDE ESPIRALADO DA BANANEIRA ( Helicotylenchus multicinctus )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18402%5D%7B191%7Dnematoide_espiralado_1.jpg
+21712
+NEMATOIDE ESPIRALADO DA BANANEIRA ( Helicotylenchus multicinctus )

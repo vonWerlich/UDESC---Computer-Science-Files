@@ -1,0 +1,33 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Tilapicultura - Enfermidades na tilapicultura - Bactérias - Estreptococose
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=09925&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B8959%5D%7B348%7Dstrepto.png
+
+-- ESTREPTOCOCOSE: --
+Essa doença causa prejuízos na tilapicultura de diversas regiões do mundo e é causada pelas bactérias Gram-positivas do gênero Streptococcus. Dentre as principais espécies, temos a S. agalactiae e S. iniae, sendo a primeira mais comumente encontrada no Brasil.
+
+-- OCORRÊNCIA DA DOENÇA NO VIVEIRO: --
+Essa bactéria, assim como as outras, é comumente encontrada no sistema de cultivo. Alevinos assintomáticos são importantes fontes de contaminação na propriedade, já que essa doença pode ser transmitida verticalmente (dos pais para o filho). Além disso, essa bactéria é excretada nas fezes de animais infectados, podendo sobreviver na água e infectar outros animais.
+
+-- RELAÇÃO DA BACTÉRIA COM A TEMPERATURA: --
+Outro fator que favorece o aparecimento dessa doença é a presença de temperaturas da água acima de 30°C.
+
+-- SINTOMAS: --
+Dentre as sintomatologias mais comuns, está: - desorientação do peixe, com natação errática, já que essa é uma bactéria que ataca principalmente o cérebro do peixe; - perda de apetite; - hemorragia na base das nadadeiras; - abdômen distendido em decorrência da acumulação de fluidos corporais; - inflamação da córnea, em estágios avançados a exoftalmia (inchaço de um ou os dois olhos, e o escurecimento do corpo); - podem aparecer também hemorragias ou abcesso no corpo, boca, ânus e base das nadadeiras.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8959%5D%7B456%7Destrepto_2.jpg
+Legenda: Sintomas da doença. Foto: Natalia da Costa Marchiori
+
+-- OCORRÊNCIA: --
+- Essa doença é mais encontrada em sistemas intensivos, como a produção em tanque-rede. Contudo, em viveiros escavados também são comuns nos cultivos com altas densidades;
+
+-- PREJUÍZOS: --
+Apesar da doença geralmente ocasionar mortalidades na fase final de cultivo (acima de 500g), causando prejuízos maiores ao produtor, a estreptococose pode acometer juvenis. Outro prejuízo causado pela doença se deve as perdas no frigorífico. O peixe que sobrevive a esta doença pode apresentar lesões no filé, fazendo com que este seja descartado na indústria.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B8959%5D%7B540%7Destrepto_1.jpg
+Legenda: Prejuízos causados no filé na indústria. Foto: Boletim técnico da MSD (https://www.aquavac.com.br/media/1091/tcl-boletim-aquavac-strepsa.pdf).
+
+-- CONTROLE: --
+- Não povoar em viveiros escavados com taxas acima de 6 peixes por m²; - Realizar o vazio sanitário de um mês entre os ciclos; - Cuidados no manuseio dos peixes, principalmente em temperaturas elevadas; - Vacinação de juvenis ou reprodutores, quando a fazenda possuir um histórico de problemas com esta enfermidade; - Tratamento com antibiótico (florfenicol).
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

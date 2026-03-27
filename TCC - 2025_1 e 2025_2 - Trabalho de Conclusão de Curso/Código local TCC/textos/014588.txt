@@ -1,0 +1,34 @@
+Título: CEBOLA - Manejo da água da irrigação - 2. Produção de mudas (canteiro de mudas)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014588&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12680%5D%7B11%7Ddsc09256.jpg
+
+-- TEOR DE ÁGUA NO SOLO ANTES DA SEMEADURA: --
+Indica-se antes da semeadura elevar o teor de água no solo entre 80% e 100% da água disponível na profundidade de até 20cm.
+
+-- FREQUENCIA E LÂMINA: --
+A irrigação deve ser realizada com frequência de um a dois dias. A lâmina de irrigação deve ser suficiente para repor a água consumida pela evapotranspiração do período com base em métodos reconhecidos pela comunidade científica disponíveis nas literaturas nacional e internacional.
+
+-- IRRIGAÇÃO A PARTIR DA QUARTA SEMANA: --
+Quando as mudas estiverem com mais de quatro semanas, a frequência da irrigação pode ser menor, passando para dois a três dias, tendo-se o cuidado de irrigar com lâmina suficiente para manter a umidade ideal até a profundidade onde se encontram as raízes.
+
+-- IRRIGAÇÃO DOS CANTEIROS ANTES DO TRANSPLANTIO DAS MUDAS: --
+Antes do transplante, indica-se que o produtor irrigue bem os canteiros de maneira a facilitar o arranquio das mudas.
+
+-- TIPO DE IRRIGAÇÃO NOS CANTEIROS: --
+Na irrigação de canteiros de produção de mudas de cebola indica-se utilizar microaspersores ou aspersores pequenos, com pressão suficiente para pulverizar bem as gotas de água. Dessa forma têm-se uma irrigação com mais eficiência, evita-se o “selamento” do solo e danos físicos às folhas de plantas e mudas.
+
+-- IRRIGAÇÃO EM SISTEMA AGROECOLÓGICO COM COBERTURA DE PAPEL: --
+No sistema de produção de mudas agroecológico em que se utiliza cobertura com papel, indica-se que a primeira irrigação seja realizada logo após a semeadura e cobertura dos canteiros com pó de serra. Posteriormente, o canteiro deverá ser irrigado de forma a manter o composto e solo próximos a sua máxima capacidade de retenção de água e capacidade de campo, respectivamente.
+
+-- PROBLEMAS COM ALTAS PLUVIOSIDADES NO PERÍODO DE FORMAÇÃO DAS MUDAS: --
+A ocorrência de alta pluviosidade no período de formação das mudas prejudica notadamente o crescimento e o desenvolvimento de plantas.
+
+-- CULTIVO PROTEGIDO PARA PRODUÇÃO DE MUDAS: --
+Para evitar excessos hídricos, além da formação de canteiros mais elevados, o produtor pode, opcionalmente, produzir suas mudas sob túneis baixos cobertos com filme plástico transparente (PEBD) de 50cm de altura. Isso possibilitará um melhor controle das variáveis microclimáticas e, consequentemente, terá reflexos positivos do ponto de vista fitossanitário, podendo haver redução no uso de agrotóxicos.
+
+-- MANEJO DOS TÚNEIS: --
+Os túneis deverão ser manejados de forma a evitar excesso e déficits hídricos, bem como extremos microclimáticos. Nesse sentido, recomenda-se que seja aberto nas primeiras horas da manhã para a redução da umidade relativa do ar interna, podendo ser mantido semifechado no restante do dia, e fechado quando da ocorrência de precipitações e ventos fortes. No caso de previsão de geadas, aconselha-se que o túnel seja fechado no período da tarde para armazenar calor. A superfície dos canteiros deverá permanecer úmida, porém bem drenada, para evitar problemas fitossanitários.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

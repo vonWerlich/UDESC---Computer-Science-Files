@@ -1,0 +1,10 @@
+Título: CEBOLA - Escolha do cultivar - BRS Alfa São Francisco
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014568&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12580%5D%7B479%7Dbrs_alfa_sao_francisco.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Embrapa, Hortivale Polinização: Polinização aberta Ciclo maturação/dias: Super precoce/120-150 Formato do bulbo: Globular arredondado Cor da película do bulbo: Amarela Cor da polpa do bulbo: Branca Região/Época de plantio: Nordeste: Agosto a Novembro
+
+-- Informações Complementares --
+Informações coletadas e organizadas pelo autor

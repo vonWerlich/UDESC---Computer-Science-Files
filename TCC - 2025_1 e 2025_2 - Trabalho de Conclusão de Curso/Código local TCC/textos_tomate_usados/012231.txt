@@ -1,0 +1,17 @@
+Título: 1) REGULAMENTAÇÃO - 1) Requisitos para iniciar uma produção orgânica
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012231&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_alface.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6640%5D%7B293%7Dcapa_tomatorg.jpg
+
+-- Tipos de certificação: --
+O Ministério da Agricultura mantém um cadastro nacional de produtores orgânicos que permite identificar as unidades de produção orgânicas (UPO) que atendem as normativas, a sua distribuição no País e a modalidade de controle e certificação da conformidade. A certificação poderá ser realizada por Organizações Certificadoras por Auditoria (OACs) ; pelas Organizações Participativas de Avaliação da Conformidade Orgânica (OPACs) ; e Organizações de Controle Social (OCS) . Nos dois primeiros casos as unidades de produção são certificadas e os produtos que chegam ao mercado têm o selo federal “Orgânico Brasil”. As unidades credenciadas ligadas às OCS não são certificadas, porém recebem uma declaração de cadastro no Ministério da Agricultura que permite a venda direta em feiras livres, entrega de cestas ou venda para programas governamentais (BERNARDES, 2018).
+
+-- Documentos necessários: --
+Os produtores em sistemas orgânicos serão orientados pela sua organização certificadora quanto aos procedimentos necessários. De modo geral, a unidade de produção orgânica deverá possuir documentos e registros de procedimentos de todas as operações envolvidas na produção. Todos os documentos e registros deverão ser mantidos por um período mínimo de 5 (cinco) anos.
+
+-- Plano de manejo no período de conversão: --
+Todas as unidades de produção orgânica devem dispor de Plano de Manejo Orgânico atualizado. Durante o período em que a propriedade estiver se adaptando às normas, isto é, no período de conversão , deverá ser elaborado um plano de manejo orgânico específico contemplando os regulamentos técnicos e todos os aspectos relevantes do processo de produção, tais como: histórico de utilização da área; manutenção ou incremento da biodiversidade; manejo dos resíduos; conservação do solo e da água; manejos da produção vegetal; da produção animal; dos animais de serviço, produção para subsistência e outros procedimentos para pós-produção, envase, armazenamento, processamento, transporte e comercialização. Também deve-se observar as medidas para prevenção e mitigação de riscos de contaminação externa; procedimentos que contemplem a aplicação das boas práticas de produção; as inter-relações ambientais, econômicas e sociais; a ocupação da unidade de produção considerando os aspectos ambientais; e ações que visem evitar contaminações internas e externas.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

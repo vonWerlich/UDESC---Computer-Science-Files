@@ -1,0 +1,53 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Boas práticas de manejo - Monitoramento e manejo de qualidade de água
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010481&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17899%5D%7B66%7D2018-01-24_%2825%29.jpg
+
+-- Quando e como monitorar os parâmetros de qualidade de água? --
+O monitoramento dos parâmetros da qualidade da água de forma adequada é importante para a padronização das medidas e precisão dos resultados, tornando as tomadas de decisões mais assertivas durante o cultivo.
+
+-- RECOMENDAÇÕES: --
+1- OXIGÊNIO: Essa recomendação é para o monitoramento diário, onde o produtor saberá o menor valor de oxigênio dissolvido no dia. Contudo, é necessário periodicamente monitorar o oxigênio ao anoitecer para regular os horários dos aeradores conforme orientações no item: uso de aeradores . 2- TRANSPARÊNCIA: A iluminação interferirá na análise, com isso, preferencialmente deverá ser realizado a medição com tempo ensolarado. 3- Se houver visivelmente algum problema no cultivo, estes parâmetros deverão ser monitorados semanalmente. 4- Níveis conforme as tabelas dos itens amônia e nitrito .
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17899%5D%7B283%7Drecomendacoes.jpg
+Legenda: Recomendações para monitoramento e qualidade de água.Fonte: Silva et al. (2019) (1)
+
+-- LOCAL DE MEDIÇÃO E COLETA DE ÁGUA NO VIVEIRO: --
+O local de medição e coleta de água no viveiro deverá ser na saída do viveiro próximo ao monge e entre 1 e 1,5m de profundidade na coluna de água. Essa amostra dará um resultado mais crítico do viveiro (água de saída do fundo), servindo de alerta para possíveis problemas que podem acontecer nos dias subsequentes.
+
+-- ANÁLISES DE OXIGÊNIO, TEMPERATURA E TRANSPARÊNCIA: --
+As análises de oxigênio, temperatura e transparência deverão ser realizadas diretamente no viveiro. Já as demais análises poderão ser coletadas, com auxílio da garrafa de coleta, e realizadas posteriormente.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17899%5D%7B466%7Dmonitoramento.jpg
+Legenda: Acompanhamento da análise de água a campo. (A) Leitura da transparência com o disco de Secchi; (B) Leitura do oxigênio e temperatura com oxímetro; (C) Coleta de água do viveiro a um metro de profundidade com garrafa de coleta artesanal; (D) Análises de pH, alcalinidade, amônia e nitrito. Fotos: Haluko Massago.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17899%5D%7B392%7Dequipamentos.jpg
+Legenda: Equipamentos utilizados na medição dos parâmetros de qualidade de água. (A) Termômetro; (B) Oxímetro digital; (C) Disco de Secchi; (D) Garrafa de coletora de água para amostragem na coluna da água; (E) pHmetro digital; (F) Kit de análise de água. Fotos: Haluko Massago.
+
+-- MEDIDAS CORRETIVAS: --
+E o que fazer com esses dados coletados? A seguir seguem as medidas remediadoras a serem tomadas quando os parâmetros de qualidade de água estão inadequados.
+
+-- PROBLEMA: Oxigênio --
+Oxigênio abaixo de 4mg por litro pela manhã: - Verificar dimensionamento e horários dos aeradores; - Verificar a tabela de alimentação, se necessário baixar a taxa de arraçoamento.
+
+-- PROBLEMA: Transparência --
+Transparência abaixo de 25cm com coloração esverdeada: - Verificar a taxa de arraçoamento e sobras de ração; - Controlar com maior frequência a alcalinidade. Transparência abaixo de 25cm com coloração argilosa: - Aplicar gesso (250 a 500g por m²) ou cal hidratada (2 a 5g por m²) para precipitação da argila. Transparência acima de 40cm: - Verificar alcalinidade e corrigir com calcário se necessário; - Fertilizar a água do viveiro ( fertilização de viveiro ).
+
+-- PROBLEMA: pH --
+Alta variação diária do pH (acima de 2 unidades): - Verificar alcalinidade e se necessário corrigir com calcário; - Verificar transparência e tentar controlar. pH abaixo de 6: - Corrigir com calcário (200g por m²). pH acima de 10: - Verificar alcalinidade e se necessário corrigir com calcário; - Verificar transparência e coloração da água (excesso de fitoplâncton), se necessário diminuir a alimentação.
+
+-- PROBLEMA: Alcalinidade --
+Alcalinidade abaixo de 30mg por litro: - Corrigir a alcalinidade com calcário Abaixo de 10mg por litro – 300g m-² Entre 10 a 20mg por litro – 200g m-² Entre 20 a 30mg por litro – 100g m-² - Pode ser corrigido com cal hidratada (2 a 5 g por m²) Obs: A aplicação da cal hidratada deve ser feita nas doses recomendadas e apenas com acompanhamento de um técnico, realizando o monitoramento do pH da água durante sua aplicação.
+
+-- PROBLEMA: Amônia --
+Amônia ( nível amarelo ): - Diminuir a alimentação em 30%; - Verificar alcalinidade e corrigir se necessário; - Aumentar a aeração; - Aplicar o biorremediador periodicamente. Amônia ( nível vermelho ): - Não alimentar até voltar a níveis seguros; - Verificar a alcalinidade e corrigir se necessário; - Aumentar a aeração; - Renovar a água do fundo; - Aplicar o biorremediador periodicamente.
+
+-- PROBLEMA: Nitrito --
+Nitrito ( nível amarelo ): - Diminuir a alimentação em 30%; - Verificar alcalinidade e corrigir se necessário; - Aumentar a aeração; - Aplicar o biorremediador periodicamente; - Aplicar sal conforme indicação acima. Nitrito ( nível vermelho ): - Não alimentar até voltar a níveis seguros; - Verificar alcalinidade e corrigir se necessário; - Aumentar a aeração; - Renovar a água do fundo; - Aplicar o biorremediador periodicamente; - Aplicar sal conforme a indicação acima.
+
+-- RENOVAÇÃO DE ÁGUA: --
+A renovação de água contínua ou de forma indiscriminada não é indicada pelos autores. Sendo assim, somente será indicada quando os níveis de amônia ou nitrito estiveram no nível vermelho. Além disso, para renovar de forma mais eficiente o produtor deverá baixar o viveiro a uma altura segura (baixar no máximo cerca de 20 a 30% do volume do viveiro) e fazer a reposição da água. A renovação contínua (água entrando e saindo ao mesmo tempo), de forma geral, não é tão eficiente quanto ao método descrito acima, além de ser uma porta de entrada para patógenos.
+
+-- Anexo: Cartilha de qualidade de água para criação de tilápia --
+Para acessar a cartilha, CLIQUE AQUI!
+
+-- Informações Complementares --
+(1) SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

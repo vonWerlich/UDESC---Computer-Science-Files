@@ -1,0 +1,43 @@
+Título: TOMATE - Nutrição Mineral - Potássio
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=041&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B746%5D%7B301%7Dpotassio.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B746%5D%7B91%7Dpotassio.jpg
+Legenda: Amadurecimento irregular do fruto devido a deficiência de potássio. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B746%5D%7B315%7Ddef_potassio.jpg
+Legenda: Amadurecimento irregular do fruto devido a deficiência de potássio. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B746%5D%7B141%7Dimg-20160509-wa0006.jpg
+Legenda: Amadurecimento irregular do fruto devido a deficiência de potássio. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B746%5D%7B460%7Dimg-20160509-wa0009.jpg
+Legenda: Amadurecimento irregular do fruto devido a deficiência de potássio. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B746%5D%7B221%7Dimg-20160509-wa0010.jpg
+Legenda: Amadurecimento irregular do fruto devido a deficiência de potássio. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B746%5D%7B342%7Dimg-20160509-wa0005.jpg
+Legenda: Amadurecimento irregular do fruto devido a deficiência de potássio. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B746%5D%7B476%7Dimg-20181019-wa0018.jpg
+Legenda: Ausência de suco celular devido a deficiência de potássio no solo. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B746%5D%7B23%7Dfb_img_1567282358049.jpg
+Legenda: Provável deficiência de Potássio. Autor Desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B746%5D%7B82%7D103.jpg
+Legenda: Sintomas típicos de deficiência de potássio. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B746%5D%7B84%7D104.jpg
+Legenda: Sintomas típicos de deficiência de potássio. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+
+-- Informações gerais: --
+É o principal nutriente quando se pensa em qualidade do fruto. Há um aumento significativo na sua absorção a partir dos 40 dias de cultivo, com um pico na absorção que se estende até os 70 dias de cultivo, diminuindo gradualmente a sua absorção até o final do ciclo (Informações baseadas nas curvas de absorção de nutrientes dos cultivares Pizzadoro, Santa Clara, Híbrido EF-50).
+
+-- Como identificar: --
+A deficiência é caracterizada por amarelecimento e secamento das pontas e das bordas foliares. Os sintomas também aparecem em folhas mais velhas, com clorose internerval. Em casos mais avançados de deficiência, a clorose e a necrose atingem as folhas mais novas, levando a queda das folhas mais velhas (1). Pontos necróticos, com coloração marrom claro a esbranquiçado, se desenvolvem nas áreas necróticas (3). A deficiência de K também leva ao amadurecimento desuniforme dos frutos, gerando uma mistura de cores nos frutos interna e externamente (1). Outro sintoma de deficiência é a formação de frutos pequenos (5). Além disso, o crescimento das plantas torna-se lento e a falta de firmeza dos frutos, em muitos casos é devido a deficiência de K (2). Em tomates cultivados em estufa, geralmente apresentam amadurecimento manchado do fruto, sintoma de deficiência de K (3).
+
+-- O que pode estar ocorrendo: --
+- Baixo teor de K no solo (2) (4). - Alta taxa de lixiviação (2). - Calagem excessiva (2) (4). - Presença de altos teores de cálcio e magnésio no solo (2) reduzem a absorção de potássio por inibição competitiva (6). - Adubações nitrogenadas muito pesadas com base no amônio (MAP, que tem 11% de NH4 ou até mesmo o nitrato de amônio, que tem 17% de NH4) (2).
+
+-- Correção: --
+Adubação em cobertura com cloreto de potássio, que é o mais econômico; também sulfato ou nitrato de potássio (possuem alto custo), seguida de irrigação ou diretamente numa fertirrigação.
+
+-- Observações gerais: --
+- A aplicação de K no tomateiro tende a aumentar a produção e a qualidade dos frutos, com coloração avermelhada mais intensa e sem a presença de espaços vazios em seu interior. - Fixa melhor os frutos na planta, não ocorrendo quedas nas fases de formação e amadurecimento. - Deve-se cuidar com o excesso dessa adubação, pois induz a deficiência de cálcio (1). - - Em excesso, pode bloquear certos elementos antagônicos, como ferro, zinco magnésio ou manganês.
+
+-- Informações Complementares --
+(1)ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2)DA SILVA, J. C. et al. Cultivo de tomate para Industrialização. Revista Eletrônica Embrapa Hortaliças. v. 27, 2006. (3)Yara. Disponível em: . Acesso em 17/10/2018. (4) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474. (5) TAKAHASHI, H.W.; ANDRADE, B.L.G. Diagnose foliar na cultura do tomate. In: PRADO, R. M.; CECÍLIO FILHO, A. B.; CORREIA, M. A. R.; PUGA, A. P. (Ed.). Nutrição de plantas: diagnose foliar em hortaliças. 1. ed. Jaboticabal: FCAV/CAPES/FAPESP/FUNDUNESP, 2010. p. 313–342. (6) FAQUIN, V. Nutrição Mineral de Plantas. Lavras: UFLA/FAEPE, 2005.

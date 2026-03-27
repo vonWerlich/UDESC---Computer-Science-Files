@@ -1,0 +1,17 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Qualidade de água - Transparência
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010057&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B9135%5D%7B453%7Ddisco_de_secchi.png
+
+-- IMPORTÂNCIA: --
+A quantidade de fitoplâncton influenciará na produção de oxigênio durante o dia e no consumo durante a noite. A concentração adequada de fitoplâncton na água é essencial para o bom funcionamento de um viveiro. Uma forma indireta e prática de se avaliar a concentração de fitoplâncton a campo é pela transparência da água.
+
+-- VALORES DE REFERÊNCIA: --
+A transparência adequada para um viveiro de tilapicultura é entre 25 a 40cm. TRANSPARÊNCIA ACIMA DE 40cm: pode favorecer o crescimento de algas filamentosas e plantas aquáticas no fundo do viveiro. TRANSPARÊNCIA ENTRE 25 e 40cm: Ideal. TRANSPARÊNCIA MENOR QUE 25cm: pode resultar em excesso de fitoplâncton e, consequentemente, em problemas com oxigênio dissolvido pela manhã e elevados valores de pH no final da tarde.
+
+-- COLORAÇÃO DA ÁGUA (Esverdeada, Avermelhada, Marrom) --
+Apenas o valor da transparência não é suficiente para indicar a presença adequada de fitoplâncton. É necessário verificar a coloração da água. A coloração esverdeada e homogênea da água indica a presença de alimento natural (fitoplâncton), desejado na piscicultura. Já a coloração avermelhada ou marrom pode indicar a presença de sólidos em suspensão, como argila. Ou ainda, manchas avermelhadas ou agregação de algas verdes podem indicar a presença de algas nocivas, que não são desejadas.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

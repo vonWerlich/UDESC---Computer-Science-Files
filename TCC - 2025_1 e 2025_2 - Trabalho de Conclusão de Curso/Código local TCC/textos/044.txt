@@ -1,0 +1,24 @@
+Título: TOMATE - Fitossanidade - Distúrbios Fisiológicos e outros - Frutos amarelados ou manchados
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=044&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1288%5D%7B148%7D1.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1288%5D%7B317%7D1.jpg
+Legenda: Figura 1. (A) Frutos de tomate manchados com escurecimento interno dos vasos. LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1288%5D%7B323%7D2.jpg
+Legenda: Figura 2B. LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005.
+
+-- SINTOMAS: --
+Os frutos exibem coloração externa irregular (Figura 1A). Quando na parte interna dessas manchas houver a presença de vasos escurecidos (Figura 1B) o distúrbio recebe o nome de "gray wall" (1).
+
+-- O QUE PODE ESTAR OCORRENDO: --
+Temperaturas superiores a 30ºC, pois as mesmas inibem a produção de licopeno e favorecem a síntese de carotenóides, que conferem a cor amarelo-alaranjada (1).
+
+-- CONTROLE: --
+O distúrbio pode ser evitado com o plantio de cultivares tolerantes (1).
+
+-- OBSERVAÇÕES: --
+A faixa ótima de temperatura para a síntese do pigmento responsável pela cor vermelha dos frutos é de 20ºC a 24ºC (1).
+
+-- Informações Complementares --
+(1) LOPES, C. A; ÁVILA, A. C de. Doenças do Tomateiro. Brasília: Embrapa Hortaliças, 2005.

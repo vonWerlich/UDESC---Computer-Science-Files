@@ -1,0 +1,6 @@
+Título: TOMATE - DIAGNOSE VISUAL - SINTOMAS NO CAULE - Lesões
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04556&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4536%5D%7B532%7Dpinta_preta_-_tese.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4556%5D%7B367%7D35.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B4556%5D%7B196%7Dpinta_preta_-_tese.jpg

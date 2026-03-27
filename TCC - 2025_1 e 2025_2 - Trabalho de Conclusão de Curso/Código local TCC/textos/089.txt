@@ -1,0 +1,35 @@
+Título: TOMATE - Tratos Culturais - Tutoramento e condução de plantas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=089&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1978%5D%7B472%7Dimg-20160327-wa0047.jpg
+
+-- Informações gerais: --
+O tipo de tutoramento utilizado, bem como a forma de condução, podem alterar a distribuição da radiação solar e a ventilação em torno das plantas, influenciando diretamente o ambiente de cultivo da cultura e a incidência de pragas e doenças. Essa prática é de essencial importância para a produção do tomateiro, tanto em campo quanto em abrigos (2). Para o grupo salada e Santa Cruz existem várias formas de se conduzir o tomateiro, dentre os quais se destacam: 1) Tradicional ou "V" invertido; 2) Triangular; 3) Espaldeira; 4) Bambu vertical; 5) Fitilho vertical; 6) Carrossel Holandês. Estes métodos permitem melhor distribuição da radiação solar e ventilação dentro do cultivo, com menor molhamento foliar e, por conseguinte, menor severidade das doenças foliares. Além disso, esse método permite uma melhor cobertura foliar dos fungicidas de contato, como é o caso da calda bordalesa, proporcionando uma maior eficiência no controle de doenças.
+
+-- Tutoramento fitilho vertical: --
+Para o tutoramento com fitilhos (com tutores de essências florestais ou fitilhos plásticos.), a estrutura consiste de dois fios de arame estendidos ao longo da linha de cultivo. Eles podem ser suportados por postes independentes da estrutura do abrigo de cultivo. O fitilho é amarrado no fio de arame que fica rente ao solo e no outro que geralmente fica a uma altura de 2 m do solo, variando essa altura conforme o número de cachos desejados (geralmente de 6 a 7 cachos) ou na altura que facilite o manejo pelo trabalhador. A planta é enrolada no fitilho vertical conforme vai crescendo, realizando-se a capação ao passar da altura do arame. Um dos pontos negativos do uso do fitilho é a baixa estabilidade de sustentação da planta. Assim, quando a lavoura está em plena produção, com os pés carregados de frutos, pode ocorrer o rompimento do fitilho, com queda da planta e dos frutos. Esse problema pode ser agravado pelas correntes de vento em abrigos desprovidos de tela nas laterais (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1978%5D%7B538%7Dimg-20160327-wa0047.jpg
+Legenda: Condução do tomateiro com uma haste. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1978%5D%7B230%7D20-2.jpg
+Legenda: Tutoramento vertical do tomateiro usando amarrio com fitilho em forma de 8. Foto: Rafael G. F. Morales
+
+-- Tutoramento bambu vertical: --
+O tutoramento com bambu dá maior estabilidade para a planta, trazendo benefícios muito semelhantes do que aqueles observados pelo uso dos fitilhos. A principal diferença é que nesse sistema a planta tem que ser fixada no bambu por meio de fitilhos próprios para o amarrio, fazendo um “8” com o amarrilho, prevenindo-se desta forma lesões nas hastes devido ao atrito com a vara. Em um ciclo cultural faz-se até sete amarrios por plantas. É importante utilizar varas de bambu novas, já que varas velhas disseminam fitopatógenos. Contudo, caso a estratégia seja o reaproveitamento de varas dos cultivos anteriores, o produtor deve mergulhá-las por 4 horas em calda bordalesa, na concentração de 3 a 5% (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1978%5D%7B136%7D20-1.jpg
+Legenda: Tutoramento vertical do tomateiro com haste única em varas de bambu. Foto: Rafael G. F. Morales
+
+-- CARROSSEL HOLANDÊS: --
+O sistema de tutoramento conhecido como carrossel holandês pode garantir longevidade e aumento da produtividade. Essa condução específica consiste em um arame na horizontal, acima das fileiras de tomate, com altura de 1,70 a 2m. As plantas então são trançadas com fitilho, que será preso em cima, no arame. A medida que a planta cresce, é preciso soltar o fitilho, envolver a nova parte da planta nele e prender o fitilho no arame, desta vez um pouco mais pra frente. A principal vantagem do sistema carrossel é que ele proporciona longevidade de produção. É possível ficar mais tempo com a planta dentro da estufa, possibilitando ainda mais que ela expresse plenamente seu potencial produtivo (3). Isso acontece por que, no sistema Carrossel, o produtor precisa baixar todos os pés, retirar todas as folhas, retirar a penca que já deu frutos. Essa limpeza diminui a quantidade de insetos, melhora a pulverização, pois não temos mais folhas velhas para alimentar insetos, fungos ou bactérias, pois o pé está sempre limpo. Dessa forma temos uma planta que produz por muito mais tempo (3). Veja um vídeo no youtube sobre o tutoramento.
+
+-- MÉTODO DE CONDUÇÃO: --
+A condução da planta com uma haste, sem poda apical ou com poda a 2,00 m acima do solo, é o método de condução mais utilizado no país para produção de tomate de mesa e o mais recomendado para se obter elevadas produtividades. No entanto, vários autores têm sugerido a condução das plantas com duas hastes associado à poda apical, sendo a melhor segunda haste a da bifurcação, que ocorre logo acima do primeiro cacho (1). Normalmente se deixam nove cachos de tomate por planta, seja com uma ou duas hastes. Ao se escolher o último cacho a ficar, desponta-se a(s) haste(s) a três folhas acima da última penca de frutos. Na condução com duas hastes, o espaçamento deve ser maior do que aquele utilizando nos cultivos com uma única haste.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1978%5D%7B244%7D%5B1978%5D%7B295%7Dtomate-43-1024.jpg
+Legenda: Condução do tomateiro com duas hastes. Foto: Autor desconhecido.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1978%5D%7B389%7D%5B1978%5D%7B486%7D22.jpg
+Legenda: Condução do tomateiro com uma haste. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1978%5D%7B339%7D%5B1978%5D%7B339%7Dduas_hastes.jpg
+Legenda: Planta de tomate no momento da definição da segunda haste. Foto: Anderson F. Wamser. Acervo Epagri.
+
+-- Informações Complementares --
+(1) Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019. (2) SILVA, D.J.; VALE, F.X.R. Tomate: tecnologia de produção. Viçosa, MG: UFV; Brasília, D.F., Ministério do Desenvolvimento Agrário, 2007. 355p. il; 23 cm. Mueller, S.; Wamser, A.F. Manejo de plantas na produção integrada de tomate tutorado. In: Becker et al. Sistema de Produção Integrada para o tomate tutorado em Santa Catarina. Florianópolis: Epagri, 2016. Cap.3. p.27-39. (3) Retirado do site: https://canaldohorticultor.com.br/tutoramento-do-tomateiro/

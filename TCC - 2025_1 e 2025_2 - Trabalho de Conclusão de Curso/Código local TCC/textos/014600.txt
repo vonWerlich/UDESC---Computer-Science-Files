@@ -1,0 +1,49 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Sistema fertirrigado - Considerações e recomendações gerais
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014600&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12691%5D%7B358%7Dfigura_2.jpg
+
+-- POPULAÇÃO DE PLANTAS: --
+São recomendadas populações de 300 a 600 mil plantas ha-1.
+
+-- ESPAÇAMENTO COM LINHAS DUPLAS: --
+O uso de espaçamento com linhas duplas melhora o aproveitamento das fitas de irrigação (linhas simples distanciadas em 10cm e linhas duplas em 40cm (Figura 1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12691%5D%7B92%7Dfigura_1.jpg
+Legenda: Disposição das plantas em fila dupla. null
+
+-- CRITÉIOS PARA A ESCOLHA DA POPULAÇÃO DE PLANTAS: --
+A escolha da população de plantas dependerá das condições climáticas, da altitude, do solo, sistema tecnológico e da disponibilidade de água de cada região.
+
+-- ESCOLHA DA POPULAÇÃO DE PLANTAS EM FUNÇÃO DAS CONDIÇÕES DA REGIÃO DE CULTIVO: --
+Em regiões em que predominam os Cambissolos, de menor altitude (475m), pouco ventiladas, com maior nebulosidade e/ou potencial de inóculo, e maior possibilidade de problemas fitossanitários, indicam-se populações de 400 mil plantas ha-1. Em regiões de maior altitude, mais arejadas, em solos mais profundos, a exemplo do Meio-Oeste catarinense, onde predominam os Nitossolos Bruno, podem ser empregadas populações de até 600 mil plantas ha-1.
+
+-- USO DE PLANTAS DE COBERTURA: --
+Em dezembro, antes do plantio da cebola, semeia-se o milheto (30kg sementes ha-1), e em abril/maio do ano de transplante o consórcio nabo forrageiro (10kg sementes ha-1) /centeio (60kg sementes ha-1) ou nabo forrageiro (10kg sementes ha-1) /aveia (60kg sementes ha-1). Estes serão dessecados e acamados antes do transplante das mudas de cebola.
+
+-- COMPOSIÇÃO DE UM SISTEMA DE FERTIRRIGAÇÃO: --
+O sistema de fertirrigação é composto por uma bomba com sistema Venturi, reservatório de água, reservatório de dissolução de fertilizante, linha de fertirrigação principal e secundárias.
+
+-- MOMENTO DA ADUBÇÃO FOSFATADA: --
+A adubação fosfatada é feita antes do plantio. Após é realizada a abertura dos sulcos, o transplante e em seguida ao pegamento das mudas é feita a instalação do sistema de fertirrigação.
+
+-- ESPAÇAMENTO DOS GOTEJADORES: --
+As linhas secundárias são fitas de irrigação com gotejadores espaçados em 10cm (Figura 2).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12691%5D%7B448%7Dfigura_2.jpg
+Legenda: Figura . Fita gotejadora na entre a linha dupla de cebola. null
+
+-- PARCELAMENTO DO NITROGÊNIO: --
+O parcelamento de nitrogênio e potássio poderá ser realizado de forma semanal, quinzenal ou mensal.
+
+-- AUMENTO DA PRODUTIVIDADE COM O PARCELAMENTO SEMANAL: --
+Quando bem manejada a lavoura e em anos sem eventos meteorológicos extremos (temperaturas ou precipitações elevadas, seca ou excesso de umidade, distribuição irregular de chuvas e granizo, entre outros fenômenos), o parcelamento semanal pode aumentar em 13% a produtividade de bulbos com diâmetro acima de 50mm.
+
+-- N e K CONFORME ANÁLISE DO SOLO: --
+A dose a ser aplicada de nitrogênio e potássio deverá seguir a análise de solo. O parcelamento das doses totais dos fertilizantes nitrogenados e potássicos deverá seguir a curva de absorção dos nutrientes para cada cultivar (Tabela 1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12691%5D%7B179%7Dtabela_1.jpg
+Legenda: Tabela atualizada das datas de aplicação semanal dos fertilizantes (em dias após o transplante - DAT) e percentagem a aplicar de nitrogênio e potássio por período (em dias) para os cultivares Empasc 352 – Bola Precoce, Epagri 363 - Superprecoce e Epagri 362 Crioula Alto Vale durante o ciclo em sistema de transplante. Fonte: adaptado de Fayad & Mondardo (2004); Kurtz et al. (2016); Kurtz et al., 2020).
+
+-- REDUÇÃO DE CUSTOS COM O PARCELAMENTO: --
+Em relação à aplicação semanal, parcelamentos quinzenais e mensais reduzem a mão de obra para a fertirrigação em 2 e 4 vezes, respectivamente.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

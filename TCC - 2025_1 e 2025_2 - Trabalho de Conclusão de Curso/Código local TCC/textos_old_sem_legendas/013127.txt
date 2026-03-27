@@ -1,0 +1,21 @@
+Título: ARROZ IRRIGADO - 02. Caracterização da planta de arroz
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013127&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+02. Caracterização da planta de arroz
+Indicadores morfológicos do desenvolvimento da planta de arroz
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11439%5D%7B455%7Dindmorf_02.jpg
+13184
+Indicadores morfológicos do desenvolvimento da planta de arroz
+Componentes de rendimento
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11440%5D%7B231%7D02_comprend_caput.jpg
+13185
+Componentes de rendimento
+Respostas da planta de arroz ao ambiente de cultivo
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11441%5D%7B457%7D02_arrozamb_caput.jpg
+13186
+Respostas da planta de arroz ao ambiente de cultivo
+Monitoramento do desenvolvimento da lavoura (Graus-Dia)
+21111
+Monitoramento do desenvolvimento da lavoura (Graus-Dia)

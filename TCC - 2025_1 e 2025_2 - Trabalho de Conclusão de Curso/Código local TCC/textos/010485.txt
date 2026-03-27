@@ -1,0 +1,28 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Boas práticas de manejo - Biometrias e acompanhamento da produção
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010485&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17902%5D%7B128%7D2017-01-27_%28011%29_biometria.jpg
+
+-- IMPORTÂNCIA: --
+O monitoramento do cultivo deve ser realizado por meio de biometrias periódicas, com auxílio de tarrafa, balde/cesto e balança. Na fase de berçário, ou nos primeiros 70 dias de cultivo, as biometrias podem ser semanais, devido ao maior percentual de crescimento do animal. Posteriormente, as biometrias podem ser feitas quinzenalmente. Com os dados de análise de água e peso do peixe você deverá analisar o andamento do cultivo, como estão se comportando os parâmetros zootécnicos e como esses resultados podem estar associados aos dados de manejo alimentar realizado nesse período e os dados de qualidade de água.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17902%5D%7B225%7Dbiometria_1.jpg
+Legenda: Biometrias e acompanhamento da produção. Foto: Haluko Massago
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17902%5D%7B253%7Dbiometria_2.jpg
+Legenda: Biometrias e acompanhamento da produção. Foto: Haluko Massago
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17902%5D%7B117%7Dbiometria_3.jpg
+Legenda: Biometrias e acompanhamento da produção. Foto: Haluko Massago
+
+-- RECOMENDAÇÕES: --
+- Amostre pelo menos 50 peixes por biometria, oriundos de pelo menos três tarrafadas em diferentes locais do viveiro; - Ao final do cultivo, antes da despesca, é recomendado realizar uma biometria de, no mínimo, 100 animais, para poder ter um dado mais preciso para passar ao comprador; - Em águas com temperaturas altas (acima de 32°C) ou baixas (abaixo de 18°C), deve-se evitar a biometria para não estressar o peixe e não abrir uma porta de entrada para as enfermidades; - A biometria é o momento que além de pesar o peixe, você pode olhar para características visuais dele, como por exemplo: sinais de desnutrição ou excesso de alimentação; sinais clínicos de enfermidades, como exoftalmia, ulcerações no corpo, lesões branquiais; uniformidade do lote, entre outras.
+
+-- EXEMPLO PRÁTICO DE ACOMPANHAMENTO: --
+Abaixo temos um exemplo de um acompanhamento periódico de uma produção de tilápia. Note na tabela e no gráfico que no dia 14/03/2018 houve uma queda brusca de crescimento diário (g/dia) em relação a biometria anterior, que resultou em um aumento da conversão alimentar de 1,18 para 2,45 naquela quinzena (28/02 a 14/03). Neste caso, observando os dados de qualidade de água notou-se um pico na concentração de nitrito na água. Com isso, tomaram-se medidas para contornar este problema, e o crescimento e conversão alimentar voltou a crescer na quinzena seguinte (14/03 a 27/03). Contudo, quando não há esse tipo de monitoramento o produtor só irá perceber quando aparecer peixe morrendo por causa do excesso de nitrito, e neste caso o prejuízo na conversão alimentar e no crescimento do peixe já teria sido muito maior.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17902%5D%7B298%7Dtabela_biometria.jpg
+Legenda: Exemplo de tabela de acompanhamento da biometria. Autor: Bruno Corrêa da Silva
+
+-- Anexo: Cartilha de alimentação de tilápia em viveiro escavado --
+Para acessar a cartilha, CLIQUE AQUI!
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

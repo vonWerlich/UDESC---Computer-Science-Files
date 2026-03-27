@@ -1,0 +1,19 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Herbicidas indicados para o arroz irrigado - Prowl H2O
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=015662&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+10. Plantas daninhas
+Herbicidas indicados para o arroz irrigado
+Prowl H2O
+
+-- INFORMAÇÕES GERAIS: --
+- Ingrediente ativo: Pendimetalina; - Formulação e Concentração (g/L ou kg): CS 455; - Dose (quantidade/ha): 2,5 a 4,L; - Época de aplicação: Pré; - Classificação tóxicológica: 4 (produto pouco tóxico, faixa azul); - Classificação ambiental: II (muito perigoso ao ambiente); - Intervalo de segurança (dia): ND;
+
+-- INFORMAÇÕES COMPLEMENTARES: --
+- Adicionar adjuvante específico na dose recomendada (vide bula). - A aplicação de todo e qualquer tratamento herbicida deve seguir as recomendações do receituário agronômico, utilizando-se equipamentos de proteção individual (EPI) e acompanhado de um responsável técnico.
+
+-- INFORMAÇÕES SOBRE O CONTROLE DE PLANTAS DANINHAS NO ARROZ: --
+Aguapé: não controla. Angiquinho: não controla. Arroz-daninho: não controla. Capim-arroz: controla. Capim-macho: controla. Cuminho: não controla. Junquinho: não controla. Sagitária: não controla.
+
+-- Informações Complementares --

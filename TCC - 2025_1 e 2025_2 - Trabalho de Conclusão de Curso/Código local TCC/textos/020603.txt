@@ -1,0 +1,22 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Boas práticas de manejo - Uso de biorremediadores
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=020603&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+
+-- IMPORTÂNCIA: --
+Os biorremediadores, também chamados comercialmente de probióticos, são microrganismos (geralmente bactérias e leveduras) e/ou suas enzimas (protease, amilase, lipase) que possuem a capacidade de melhorar a qualidade da água e do solo do cultivo, consequentemente, melhorando o desempenho do animal.
+
+-- MÉTODO DE APLICAÇÃO E EFEITOS: --
+O seu método de aplicação é na água e seus principais efeitos são: - Degradação de matéria orgânica; - Ciclagem de nutrientes tóxicos, como amônia e nitrito ; - Inibição de bactérias patogênicas presente no solo, como por exemplo Aeromonas, Pseudomonas, Streptococcus , entre outras.
+
+-- INDICAÇÃO DE USO: --
+O uso do biorremediador é indicado em viveiros mais intensivos, onde há alta taxa de arraçoamento, gerando um maior acúmulo de matéria orgânica e compostos nitrogenados, que favorecem o aparecimento de doenças. Neste caso, o biorremediador será usado de forma preventiva.
+
+-- O QUE SÃO E DO QUE PRECISAM: --
+Os biorremediadores são microrganismos vivos que precisam de condições ambientais adequadas para atuarem. Estes microrganismos necessitam de uma alta concentração de oxigênio, pH do solo e da água próximo do neutro (pH = 7), e valores de alcalinidade na água mínimos de 30mg L-1, mas preferencialmente acima de 50mg por litro.
+
+-- PRÁTICAS IMPORTANTES A SEREM LEVADAS EM CONSIDERAÇÃO: --
+É importante realizar, antes ou em conjunto com a aplicação dos biorremediadores, as boas práticas de manejo, como: calagem adequada, correção de alcalinidade, uso adequado de aeradores, manejo alimentar adequado, etc. Pois, apenas assim, o produtor irá potencializar o seu uso.
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

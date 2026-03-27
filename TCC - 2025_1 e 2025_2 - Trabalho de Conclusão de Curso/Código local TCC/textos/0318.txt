@@ -1,0 +1,26 @@
+Título: TOMATE - Cultivares - Santa Clara 5800 OP
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0318&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B213%5D%7B147%7Dsanta_clara_5.800.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Crescimento: Indeterminado; Empresa: Feltrin; Finalidade: Copa; Grupo: Santa Cruz; Polinização: Polinização aberta; Precocidade: Alta (90 a 110 dias); Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Tamanho do fruto: Muito Pequeno (menor que 170 g)
+
+-- INFORMAÇÕES DA EMPRESA: --
+Cultivar: Tomate Santa Clara 5.800. Colheita (Dias): 100 A 110. Hábito De Crescimento: Indeterminado. Peso: 130 A 150 G. Uso: Mercado Fresco (1).
+
+-- DESTAQUE: --
+Seleção De Tomate Santa Clara, Maior Uniformidade E Resistência A Doenças (1).
+
+-- Informações para a fertirrigação: --
+Para a cultivar Santa Clara, em campo aberto, a ordem decrescente de acúmulo de nutrientes na parte aérea é: K > N > Ca > S > P > Mg, alcançando os valores máximos de 360,0, 206,0, 202,0, 49,0, 32,0 e 29,0 kg ha-1, respectivamente para cada nutriente, atingindo produtividade de 88,6 t ha-1 (2).
+
+-- RESISTÊNCIA: --
+F1 (Fusarium Oxysporum Raça 1); V (Va: Verticillium Albo-Atrum E Vd: Verticillium Dahliae) (1).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.sementesfeltrin.com.br ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.sementesfeltrin.com.br.

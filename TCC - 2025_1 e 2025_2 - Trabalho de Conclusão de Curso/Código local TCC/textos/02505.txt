@@ -1,0 +1,20 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - D) MANEJO DE SOLO, ADUBAÇÃO E NUTRIÇÃO DE PLANTAS - b) Coleta de amostras e análise do solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02505&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2267%5D%7B254%7Dcapa_1.jpg
+
+-- Conceito: --
+A análise do solo compreende as etapas de coleta de amostra, análise laboratorial, interpretação dos resultados e recomendação da adubação e da calagem. Cada etapa está sujeita a erros que podem afetar a recomendação dos corretivos. Portanto, o máximo de cuidado nessa fase é fundamental, tanto no manejo da amostra, como na escolha de um laboratório idôneo.
+
+-- Quais laboratórios procurar: --
+Aos produtores catarinenses, recomenda-se utilizar laboratórios credenciados pela Rede Oficial de Laboratórios de Análise de Solo e Tecido Vegetal (Rolas).
+
+-- Como realizar a amostragem: --
+A amostra deve representar uma área relativamente homogênea. Nessa área, coleta-se uma amostra composta de 10 a 20 subamostras, que devem ser obtidas percorrendo o terreno em zigue-zague. Para a cultura do tomate, recomenda-se que a calagem e a adubação de pré- plantio atendam às necessidades da camada superficial (de 0 a 20cm) do solo; portanto, o solo deve ser amostrado até essa profundidade.
+
+-- Quando realizar a coleta da amostra: --
+A coleta das amostras de solo pode ser feita em qualquer época do ano, mas sempre com antecedência de, pelo menos, oito meses ou mais. Para as condições do Alto Vale do Rio do Peixe recomenda-se a coleta entre fevereiro e março, para que seja possível a realização da calagem entre março e abril. Esse período é suficiente para a aplicação do corretivo de acidez, tempo suficiente para que ocorram a reação e a neutralização da acidez do solo, e para que a área esteja preparada e pronta para o plantio da cobertura verde do solo, feita com aveia no início de maio.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

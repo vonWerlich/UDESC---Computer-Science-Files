@@ -1,0 +1,28 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - K) PRINCIPAIS PRAGAS E SEU CONTROLE - d) Lagarta-do-cartucho do milho (Spodoptera frugiperda)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02998&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2764%5D%7B226%7Dcapa_1.jpg
+
+-- Reconhecimento dos danos: --
+Nas folhas inicialmente verificam-se massas de ovos e/ou lagartas recém-eclodidas em circulação. Nessa fase, as lagartas podem se alimentar das folhas onde foi realizada a postura, ou até mesmo de folhas do terço superior, por migrarem entre as partes vegetativas da planta. Nos locais de alimentação das lagartas, observa-se uma raspagem superficial ou pequenos orifícios no mesófilo foliar (Gravena & Benvenga, 2003). Os danos acarretam na redução da área fotossintética da planta, podendo influenciar na produtividade quando a praga estiver em alta infestação e em cultivos próximos a lavouras de milho (Gravena & Benvenga, 2003).
+
+-- Monitoramento: --
+• Inspeção de folhas; • Instalação de armadilhas contendo cápsula difusora de feromônio específico, de modo a auxiliar na tomada de decisão de controle da praga. Recomenda-se instalar uma armadilha a cada 5ha.
+
+-- Método de amostragem: --
+Inspeção de folhas do terço superior da planta para a detecção de ovos.
+
+-- Nível de ação: --
+Presença de ovos em 10% das plantas amostradas.
+
+-- Principais inimigos naturais: --
+Crisopídeos (C. externa e C. cubana), percevejos (Geocoris, Nabis, Podisus e Orius), besouros carabídeos (Calosoma, Lebia e Calida), tesourinha (D. luteipes), vespas parasitoides (Cotesia, C. sonorensis e Trichogramma), formigas e aranhas predadoras, fungos (Nomuraea rileyi e Erynia radicans), vírus, protozoários e nematoides.
+
+-- Métodos de controle de lagartas: --
+• Eliminar solanáceas espontâneas das proximidades do plantio; • Retirar e destruir frutos danificados; • Transplantar as mudas em períodos diferentes ao cultivo do milho ou em locais distantes da área plantada; • Plantar sorgo ou nabo forrageiro a cada seis linhas de plantio ou nas curvas de nível para atrair inimigos naturais; • Ensacamento das inflorescências ou pencas (Figura 37), mantendo-se as embalagens até a colheita; • Utilizar inseticidas biológicos e que apresentam seletividade aos inimigos naturais, dando-se preferência aos que sejam à base de Bacillus thuringiensis. Reguladores de crescimento também são recomendados; • Fazer rotação de agrotóxicos, conforme o modo de ação e o grupo químico; • Liberação massiva de parasitoides Trichogramma; • Eliminar os restos da cultura e revolver o solo após o término do cultivo para destruir as pupas; • Fazer rotação de culturas e evitar o plantio sucessivo de culturas hospedeiras, tais como o milho e a soja.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B2764%5D%7B148%7Dfigura_37.jpg
+Legenda: Ensacamento de pencas de tomate para proteger do ataque de pragas. Foto: Janaína Pereira dos Santos
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

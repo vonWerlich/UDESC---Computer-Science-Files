@@ -1,0 +1,20 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - B) BOTÂNICA, ORIGEM E CLIMA PARA O TOMATEIRO - d) Adaptação climática
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02489&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2253%5D%7B32%7Dcapa_1.jpg
+
+-- Temperatura: --
+O tomate se desenvolve melhor em regiões com temperaturas entre 18-23°C. Temperaturas inferiores a 12°C podem afetar a frutificação devido à maior possibilidade de abortamento de flores, além de propiciar menor taxa de crescimento das raízes e das plantas. Tal fato pode induzir sintomas de deficiência de fósforo e cálcio nas folhas e nos frutos. No entanto, temperaturas superiores a 32°C, além de ocasionar alta taxa de abortamento de flores, predispõem a planta a doenças causadas por fungos e bactérias. A temperatura mínima de germinação das sementes gira em torno de 10°C e a ótima vai de 16 a 29°C. Para maximizar a frutificação efetiva, a faixa ótima de temperatura é de 19 a 24°C e a noturna de 14 a 17°C. Temperaturas noturnas abaixo de 10°C e superiores a 20°C prejudicam a frutificação.
+
+-- Umidade relativa do ar: --
+A umidade relativa do ar ótima oscila entre 60 e 80%. A umidade relativa muito elevada favorece o desenvolvimento de doenças da parte aérea e, por outro lado, a umidade relativa muito baixa dificulta a fixação do pólen ao estigma das flores reduzindo a frutificação efetiva.
+
+-- Fotoperíodo: --
+Embora algumas espécies silvestres de tomate somente floresçam em dias curtos, o tomate domesticado se desenvolve bem tanto em condições de dias curtos, quanto de dias longos, ou seja, em fotoperíodos de 8 a 16 horas. Assim pode-se afirmar que o tomate é indiferente ao fotoperíodo, por isso é cultivado em todos os estados brasileiros. Entretanto, é necessária uma boa radiação solar.
+
+-- Granizo: --
+Áreas com alta probabilidade de ocorrência de granizo não devem ser utilizadas, porque o granizo pode danificar os frutos, as folhas e os caules de tomate, que por sua vez pode causar enormes perdas na produção de frutos e provocar a proliferação de doenças nas plantas.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

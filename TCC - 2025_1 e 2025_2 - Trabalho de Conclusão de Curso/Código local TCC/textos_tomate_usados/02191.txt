@@ -1,0 +1,15 @@
+Título: TOMATE - Tratos Culturais - Plantas de Cobertura
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02191&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1982%5D%7B500%7D25.jpg
+
+-- Conceito: --
+O abrigo de cultivo é uma área muito valorizada na propriedade, onde ocorre cultivo intensivo durante vários anos consecutivos. Em caso de observar degradação do solo, devido ao revolvimento, ou acúmulo de sais, provocados pela ausência de lavagem pela água da chuva, o produtor pode optar por não fazer um ciclo de cultivo com plantas comerciais e adotar o uso de plantas recicladoras como as leguminosas de verão Crotalária juncea, feijão-de-porco, feijão-guandu, dentre outras, que podem ser consorciadas com as gramíneas sorgo e milheto. No inverno pode-se associar aveia com ervilhaca. Assim, num novo ciclo de cultivo, após esses cultivos para recuperação da área, a probabilidade de sucesso no cultivo do tomateiro se torna muito maior.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1982%5D%7B28%7D25.jpg
+
+-- Plantas de cobertura de inverno: --
+Onde a cultura do tomate se desenvolve entre outubro a março, a recomendação é utilizar plantas de cobertura de inverno. Recomenda-se cultivar aveia preta (Avena strigosa) sozinha ou consorciada com nabo forrageiro (Raphanus sativus L.). A aveia preta pode ser semeada a lanço ou em linha (100 Kg/ha) e o nabo forrageiro, em linha, 15 Kg/ha. O ciclo para acamamento da aveia é de 120 dias e do nabo forrageiro é de 60 dias de estabelecimento da cobertura. Recomenda-se acamar e não dessecar as plantas de cobertura.
+
+-- Informações Complementares --
+Rafael G.F. Morales et al. TOMATORG: Sistema Orgânico de Produção de Tomates em Santa Catarina. Sistema de Produção, Epagri, 2019.

@@ -1,0 +1,25 @@
+Título: FORMIGAS EM PINUS E EUCALIPTO - Recomendações para o manejo - Recomendações adicionais - Levantamento de sobrevivência de plantas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021123&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_epagrirural.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18030%5D%7B163%7Df7.jpg
+
+-- RECOMENDAÇÃO GERAL: --
+O levantamento de sobrevivência de plantas é recomendado de 30 a 60 dias após o plantio, para registrar como está o desenvolvimento das mudas recém-plantadas e verificar a necessidade de realizar o replantio, caso ocorra a mortalidade de mudas.
+
+-- LEVANTAMENTO DE SOBREVIVÊNCIA: --
+Durante o levantamento de sobrevivência de plantas é importante registrar as causas da sua mortalidade, anotando-se o número de plantas que foram atacadas por formigas cortadeiras. Essa informação pode direcionar as equipes de combate à formiga aos locais mais infestados para realizar o seu controle aos 60-90 dias após o plantio.
+
+-- CAMINHAMENTO PARA O LEVANTAMENTO: --
+Para esse levantamento deve-se avaliar 20 plantas na mesma linha, intercalar 4 linhas, avaliar mais 20 plantas, assim sucessivamente, com caminhamento em escada, de modo a percorrer todo o talhão (Figura 1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18030%5D%7B219%7Df7.jpg
+Legenda: Caminhamento para a realização do levantamento de sobrevivencia de plantas.Foto: Foto: Mariane A. Nickele
+
+-- VANTAGENS DO USO DESSA METODOLOGIA: --
+Com essa metodologia de caminhamento é possível amostrar de maneira eficaz tanto as plantas com injúrias que apresentam distribuição espacial agregada (reboleiras), como as plantas com injúrias com distribuição espacial aleatória (espalhadas).
+
+-- USO DA METODOLOGIA EM OUTRAS SITUAÇÕES: --
+Essa metodologia pode ser utilizada também aos seis meses após o plantio de eucalipto e um ano após o plantio de pinus, para avaliar o estabelecimento do plantio.
+
+-- Informações Complementares --
+Todo o material bibliográfico utilizado neste sistema pode ser consultado ao clicar AQUI!

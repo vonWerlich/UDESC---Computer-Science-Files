@@ -1,0 +1,17 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - c) Escolha dos cultivares, produção de mudas e plantio - 2) Escolha do substrato para produção das mudas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07358&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6643%5D%7B25%7Dcapa_tomatorg.jpg
+
+-- Importância do substrato: --
+Existem no mercado diversas empresas que comercializam substratos prontos. A elaboração de um substrato na propriedade precisa contemplar todas as características desejadas e ser justificada pela disponibilidade de materiais a baixo custo e de mão de obra. Em substratos inadequados, as sementes não germinam, as plantas se desenvolvem irregularmente e podem aparecer sintomas de deficiência ou excesso de algum nutriente.
+
+-- Características desejáveis para a correta produção de mudas orgânicas de tomate: --
+- Serem leves e porosos, para garantir a adequada relação entre água e ar nos seus poros; - Formar torrão sem aderir nas bandejas; - Conter todos os nutrientes necessários para o período de formação da muda, de forma equilibrada, com pH levemente ácido e baixa salinidade (condutividade elétrica – EC); - Estar isento de sementes ou propágulos de plantas daninhas; - Não possuir contaminantes microbiológicos que possam causar doenças nas plantas; - Ser homogêneo para não ocasionar diferenças de desenvolvimento entre plantas ou bandejas.
+
+-- Cobrir as sementes com substrato após a semeadura: --
+Para maior uniformidade da germinação, logo após a semeadura, deve-se cobrir a superfície do substrato com material que reduz a evaporação e evita danos à superfície causados pela irrigação. Comumente é utilizado o próprio substrato. Pode-se utilizar também a vermiculita pura de granulometria média ou fina, que apresenta grande capacidade de retenção de água e ajuda a manter a uniformidade na germinação.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

@@ -1,0 +1,29 @@
+Título: TOMATE - Nutrição Mineral - Fósforo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=04643&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B745%5D%7B18%7D102.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B745%5D%7B174%7D20170731_094810.jpg
+Legenda: Coloração arroxeada do lado inferior das folhas novas, na região das nervuras devido ao acúmulo do pigmento antocianina. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B745%5D%7B513%7D2015-07-02_14.27.00.jpg
+Legenda: Coloração arroxeada do lado inferior das folhas novas, na região das nervuras devido ao acúmulo do pigmento antocianina. Foto: Rafael G. F. Morales
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B745%5D%7B379%7D102.jpg
+Legenda: Sintomas típicos da deficiência de fósforo. Fonte: http://blog.agrologica.es/deficiencias-y-excesos-nutricionales-en-cultivo-tomate-sintomas-y-correccion-fertilizantes-nitrogeno-fosforo-potasio-magnesio-calcio-azufre-hierro-zinc-manganeso-boro-molibdeno-cloro/
+
+-- Informações gerais: --
+- A maioria dos solos brasileiros apresentam baixos teores de P disponível e aliado a este fato, o P é fortemente adsorvido no solo, este fatores combinados resultam na redução da eficiência da adubação fosfatada. E por essa razão, é o nutriente mais utilizado nas adubações no Brasil (8). - Este macronutriente é retirado em menor quantidade do solo, quando comparado aos outros, mas a sua adubação é muito importante, visto que proporciona grandes respostas, como a melhor qualidade dos frutos colhidos, em especial frutos de maior peso (1). - O fósforo possui boa mobilidade na planta, e em casos de deficiência é translocado para regiões de crescimento (1). - Este nutriente na forma de fosfato faz parte de compostos denominados ATP que fornecem energia para os processos metabólicos das plantas (8).
+
+-- Como identificar: --
+Os sintomas de deficiência de P no tomateiro é bem evidente em situações agudas de deficiência. Os sintomas de deficiência são: coloração arroxeada do lado inferior dos cotilédones e das folhas novas, na região das nervuras (1) pelo acúmulo do pigmento antocianina (2). Em estádios de desenvolvimento mais tardios, as folhagens se apresentam com coloração roxo-amarronzadas que evoluem para necroses (2). Também ocorre redução da floração e frutificação, e a queda de frutos (1). Em algumas cultivares, a deficiência aparece como pontos marrons internevalmente nas folhas mais baixas, iniciando pela margem das folhas e progride para necroses (5). Inibição do crescimento de plantas, caules finos, aceleração no desenvolvimento de flores, porém com menor produção de frutos (4). Além das desordens nutricionais citados anteriormente a deficiência de P também ocasiona a baixa produtividade do tomateiro (7).
+
+-- O que pode estar ocorrendo: --
+- Baixas temperaturas (2). - Compactação do solo (2). - Solo alcalino ou salino (2). - Solo com baixos teores de P (6). - Adsorção do P pela argila e por óxido de Fe e Al (6). - Formação de fosfatos de alumínio em pH baixo e fosfatos de cálcio em solos com pH alto (6). - Baixa umidade do solo que reduz o transporte do P por difusão (6). - A localização do fertilizante fosfatado não está próximo das raízes (6). - Altas concentrações de sulfatos no solo decorrentes das fertilizações (6).
+
+-- Controle: --
+O ideal é sempre fazer a adubação fosfatada em pré-plantio, com o adubo supersimples ou supertriplo. A cama de aves, comumente utilizada como fonte de matéria orgânica, também apresenta elevadas quantidade de fósforo. No caso de observar sintomas de deficiência após a instalação da cultura, uma alternativa é utilizar o adubo MAP em fertirrigação, pois possui alta solubilidade (3).
+
+-- Em excesso: --
+- Em excesso, pode bloquear certos elementos antagônicos, como Fe, Zn ou Cu. - Baixas temperaturas podem levar à má assimilação do fósforo, fato comum, por exemplo, em cultivos de tomate no inverno.
+
+-- Informações Complementares --
+(1) ALVARENGA, M. A. R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. Editora UFLA. (2) LOPES, C. A.. ÁVILA, A. C. de. Doenças do tomateiro. Brasilia: Embrapa Hortaliças, 2005. (3) DA SILVA, J. C. et al. Cultivo de tomate para Industrialização. Revista Eletrônica Embrapa Hortaliças. v. 27, 2006. (4) FERREIRA, M. E. et al. Nutrição eadubação de hortaliças. Potafós, Piracicaba-SP, 1993. (5) YARA. Disponível em: . Acesso em 17/10/2018. (6) CECÍLIO FILHO, A.B.; NOWAKI, R.H.D. Nutrição e adubação da cultura do tomate para indústria. In: PRADO, R. M.; CECÍLIO FILHO, A. B. (Ed.). Nutrição e adubação de hortaliças. 1. ed. Jaboticabal: FCAV/CAPES, 2016. p. 447–474. (7) TAKAHASHI, H.W.; ANDRADE, B.L.G. Diagnose foliar na cultura do tomate. In: PRADO, R. M.; CECÍLIO FILHO, A. B.; CORREIA, M. A. R.; PUGA, A. P. (Ed.). Nutrição de plantas: diagnose foliar em hortaliças. 1. ed. Jaboticabal: FCAV/CAPES/FAPESP/FUNDUNESP, 2010. p. 313–342. (8) FAQUIN, V. Nutrição Mineral de Plantas. Lavras: UFLA/FAEPE, 2005.

@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Bartô
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=018648&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16244%5D%7B152%7Dbarto.png
+
+-- INFORMAÇÕES GERAIS: --
+- DESTAQUES: Vigor; Uniformidade; - PESO: 100 - 150g; - PLANTA: Alta produtividade; - ÉPOCA DE PLANTIO: Regiões Norte, Nordeste e Centro-Oeste: Cultivo ano todo em temperaturas acima de 15°C; Regiões Sul e Sudeste: Outubro a Janeiro; - CICLO: 110 - 120 dias; - FRUTOS: Firmes; Formato alongado; Coloração vermelha; - MODERADA RESISTÊNCIA: V (Verticillium spp. - Murcha de verticílio); Mi (Meloidogyne incognita - Nematóide das galhas); Fol 1, 2 e 3 (Fusarium oxysporum f. sp. lycopersici - Murcha de fusário (3 Raças (0, 1 e 2).
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://loja.sementesfeltrin.com.br/tomate/envelope-de-tomate-barto-contem-400-miligrama-s-de-semente-s ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://loja.sementesfeltrin.com.br/tomate/envelope-de-tomate-barto-contem-400-miligrama-s-de-semente-s

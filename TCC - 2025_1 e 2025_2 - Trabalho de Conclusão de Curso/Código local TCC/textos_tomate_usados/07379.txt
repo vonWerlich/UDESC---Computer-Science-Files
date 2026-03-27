@@ -1,0 +1,42 @@
+Título: TOMATE - Sistemas de Produção - Produção Orgânica (TOMATORG) - e) Adubação e manejo do solo - 2) Preparo do solo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07379&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B6662%5D%7B207%7D26.jpg
+
+-- SISTEMAS DE PRODUÇÃO: --
+O plantio do tomateiro pode ser em sistema de plantio direto ou em manejo convencional do preparo do solo, sendo preconizado o primeiro nesse caso.
+
+-- Conceito: --
+O sistema de plantio direto consiste na mobilização mínima do solo, permitindo que os fertilizantes sejam incorporados pelo sulco de plantio das mudas ou aplicados sobre a superfície.
+
+-- Plantio Direto no tomateiro: --
+Há diferentes formas de plantio direto do tomateiro, sendo a mais comum realizada sobre uma planta de cobertura, normalmente aveia tombada com auxílio de um ‘rolo’ de madeira tracionado por trator ou microtrator. Também pode ser realizado o revolvimento do solo apenas na linha de cultivo, deixando a planta de cobertura roçada ou tombada na entrelinha.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6662%5D%7B131%7D32.jpg
+Legenda: Abertura de sulcos para plantio direto de tomate. A área entre as filas permanece intacta e coberta pela palhada da vegetação de cobertura, que foi roçada. Fonte: Morales et al., 2019.
+
+-- Vantagens: --
+O sistema de plantio direto para o cultivo do tomateiro pode apresentar uma série de vantagens, como a preservação da matéria orgânica e seus inúmeros benefícios, a manutenção da estrutura e demais aspectos benéficos em relação à fertilidade do solo, além de reduzir o gasto com maquinário e mão de obra.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6662%5D%7B143%7D33.jpg
+Legenda: Plantio direto de tomateiro com aplicação única de composto na base, em estudo com diferentes doses. Fonte: Morales et al., 2019.
+
+-- Plantio Direto em cultivo protegido: --
+Esse sistema pode ser adotado dentro de abrigos de cultivo, onde pode ser subsequentemente implantado sobre a resteva de outra cultura. Nesse caso, com o fertilizante orgânico, também pode ser aplicado e incorporado somente na linha de plantio, ou somente na linha sem incorporação.
+
+-- Conceito: --
+O manejo convencional de preparo do solo consiste em lavração com 20 a 25cm de profundidade, seguida de gradagens e/ou rotativação. As enxadas rotativas, quando usadas, devem ser em baixa rotação para não desestruturar o solo.
+
+-- Objetivo: --
+Além disso, o preparo de solo é feito com o objetivo de facilitar o plantio, garantir um melhor crescimento das raízes, eliminar plantas concorrentes, incorporandoas ou não ao solo.
+
+-- Desvantagens: --
+Entre as desvantagens do preparo convencional do solo, destacam-se: o solo fica mais tempo descoberto e exposto à erosão; ocorre maior perda de água; diminuição da matéria orgânica; formação de camada compactada (pé-de-arado); elevação da temperatura do solo; maior consumo de energia e desequilíbrio da biologia do solo.
+
+-- Umidade para o preparo: --
+A identificação do ponto certo de umidade no solo para iniciar o seu preparo é importante para assegurar um funcionamento adequado e econômico da máquina e do implemento empregado e para a obtenção de um resultado satisfatório. Em solos muito úmidos não se recomenda fazer o preparo. Deve-se aguardar o melhor momento para realizá-lo, com o solo no estádio friável, que é reconhecido tomando-se um punhado de solo a cerca de 5 a 10cm de profundidade e comprimindo-o na mão. A friabilidade é constatada se a porção de solo puder ser facilmente moldada, mas se esfarelar com facilidade tão logo cesse a força sobre ela.
+
+-- Uso de arado e enxada rotativa: --
+Para cada tipo de solo haverá a necessidade ou não do uso de arado ou somente da enxada rotativa. Se o solo for muito argiloso e estiver compactado, recomenda-se o uso do arado no preparo. Em solos arenosos somente a enxada rotativa é suficiente.
+
+-- Informações Complementares --
+MORALES, R.G.F. (Org.) Tomatorg: Sistema Orgânico de Produção de Tomates em Santa Catarina. Florianópolis, SC: Epagri, 2019. 176p. (Epagri. Sistemas de Produção, 53).

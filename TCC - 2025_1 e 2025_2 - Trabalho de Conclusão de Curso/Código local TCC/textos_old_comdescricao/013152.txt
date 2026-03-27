@@ -1,0 +1,30 @@
+Título: ARROZ IRRIGADO - 08. Cultivares - Escolha de cultivares
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013152&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+08. Cultivares
+Escolha de cultivares
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11416%5D%7B331%7D08_cultivares_caput.jpg
+FOTO: D.S.Eberhardt (remasterizada)
+
+-- INFORMAÇÕES GERAIS: --
+Os cultivares recomendados anual e oficialmente pela Epagri estão listados no Boletim Técnico intitulado Avaliação de cultivares para o Estado de Santa Catarina , disponível gratuitamente online em: www.Epagri.sc.gov.br/Boletim . Embora a Epagri conte hoje com 33 cultivares de arroz irrigado desenvolvidos e lançados para Santa Catarina, muitos deles já não são mais recomendados oficialmente, ou tem, hoje, características um pouco diferentes de quando foram originalmente lançados, como a reação a doenças por exemplo. Assim, é importante que o agricultor esteja atento ao mercado e às informações técnicas atualizadas.
+
+-- RESUMO DAS CARACTERÍSTICAS DOS CULTIVARES: --
+A escolha do cultivar de arroz irrigado a ser utilizado é um dos aspectos mais determinantes para o sucesso da lavoura. Nas tabelas abaixo se encontram os principais cultivares e a opção entre eles depende da região, do local, do solo e sua fertilidade e do sistema de cultivo no qual serão utilizados. Além disso, é importante considerar o mercado para o qual se destina o produto final (grãos), havendo necessidade, em vários casos, de acordos prévios com a indústria que processará os grãos, como no caso dos tipos especiais de arroz.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11416%5D%7B279%7D08_tabcultivaprod.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11416%5D%7B18%7D08_tabcultivacarac.jpg
+
+-- SELEÇÃO DE CULTIVARES PARA PLANTIO: --
+Diante da decisão de escolher o cultivar a ser plantado, é preciso considerar que, entre os técnicos ligados à orizicultura de Santa Catarina, há consenso que os cultivares não são o principal limitante da produtividade. Se muitas vezes a produtividade não atinge os patamares desejados, isso tem muito mais relação com o manejo da lavoura, o solo, o clima, que com o cultivar escolhido. Uma das primeiras questões importantes ao se escolher um cultivar é observar que não haja repetição de uso de apenas um cultivar (monocultivo varietal), tanto em nível de propriedade rural, como de localidade, região ou estado. O cultivo de grandes áreas com apenas um ou dois cultivares acelera a seleção de pragas ou doenças que superam as resistências que estes cultivares tinham quando foram lançados. Além disso, o uso de mais cultivares ameniza os riscos aos quais a lavoura está sujeita (intempéries, extremos de temperatura, etc). Por fim, é necessário destacar que produtividade, qualidade do grão, reação à fatores bióticos e abióticos (doenças, pragas, temperaturas extremas), pode variar e diferir dos apresentados nas tabelas de cultivares em função do clima, local, épocas de cultivo, manejo e condições industriais. Nesse sentido, é importante que o produtor rural siga sempre as recomendações de cultivo preconizadas pela área técnica.
+
+-- AVISO LEGAL: --
+Os cultivares de arroz da Epagri podem apresentar diferentes e inesperados comportamentos em ambientes específicos, mesmo dentro do Estado de Santa Catarina. É importante que o agricultor esteja atento e procure encontrar, junto com um profissional habilitado, os cultivares de arroz mais adequados às suas condições e propósitos.
+
+-- Informações Complementares --
+• Ester Wickert (Dr. em Melhoramento - Epagri) Melhoramento e cultivares
+• Douglas George de Oliveira (Engº-agrº Especialista - Epagri) Manejo da lavoura orizícola
+• Rubens Marschalek (Dr. em Melhoramento - Epagri) Melhoramento e cultivares
+• Alexander de Andrade (Dr. em Melhoramento - Epagri) Melhoramento e cultivares
+• Laerte Reis Terres (Dr. em Melhoramento - Epagri) Melhoramento e cultivares

@@ -1,0 +1,32 @@
+Título: ARROZ IRRIGADO - 10. Plantas daninhas - Plantas daninhas em arroz irrigado - Capim-arroz (Echinochloa colona)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0507&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B400%5D%7B451%7Dpldan_capimarroz_caputcolona.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B400%5D%7B169%7Darroz_1.jpg
+Legenda: Folha. Fonte: https://www.agrolink.com.br/problemas/capim-arroz_193.html
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B400%5D%7B36%7Dscreenshot_20200331-132423_agrobase.jpg
+Legenda: Imagens da planta. Fonte: Agrobase Brasil.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B400%5D%7B422%7Dechinochloa_colona76.jpg
+Legenda: Imagens da planta. Agrolink
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B400%5D%7B448%7Dpldan_capimarroz_fig07a.jpg
+Legenda: 01. Lavoura de arroz infestada por capim-arroz. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B400%5D%7B413%7Dpldan_capimarroz_fig11.jpg
+Legenda: 02. Capim-arroz em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B400%5D%7B22%7Dpldan_capimarroz_fig12.jpg
+Legenda: 03. Capim-arroz em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B400%5D%7B116%7Dpldan_capimarroz_fig13.jpg
+Legenda: 04. Capim-arroz em lavoura. Fonte: D.S.Eberhardt (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B400%5D%7B104%7Dpldan_capimarroz_fig16.jpg
+Legenda: 05. Infestação inicial de capim-arroz em lavoura. D.S.Eberhardt (remasterizada)
+
+-- Descrição Botânica: --
+Autor da Descrição: Horlandezan Bragança (1) Características da Planta: Família: Poaceae (Gramineae) Divisão e Classe: Angyospermae Monocotyledoneae Ciclo: Anual Reprod./Propagação: Estolão; Fruto; Habitat/Tipologia: Aéreo - Colmo Adaptações: Estolonífero ascendente; Altura(cm): 25-70 Características das Folhas: Filotaxia: Alternada Forma do Limbo: Lanceoladas: Lanceolada típica Superfície: Glabras Consistência: Herbácea Nervação/Venação: Paralelinérveas Comprimento (cm): até 25 Características das Flores e do fruto: Inflorescência: Panícula Perianto: Aperiantada, Hermafrodita e Unissexuada Tipologia do Fruto: Cariópse
+
+-- Observações: --
+Espécie daninha típica de locais úmidos e alagados, por isso, é uma das mais sérias invasoras em culturas de arroz. Também é temida em plantações de juta. Por tolerar solos com pouca umidade, também aparece em algumas culturas de sequeiro, embora com menos importância, tais como: algodão, amendoim, arroz irrigado, arroz de sequeiro, café, feijão, fumo, mamona, mandioca, milho, pastagem, soja e sorgo. É considerada ainda, como hospedeira de alguns agentes patogênicos como o nematoide Meloidogyne incognita, o fungo Piricularia e os vírus da folha branca do arroz e do mosaico da cana. Fornece boa forragem, por ser apreciada por todo o gado e possuir a particularidade de desenvolver-se justamente nos meses em que diminuem ou faltam as forragens habituais. Apresentam sementes que são permitidas junto às sementes comercializadas dentro de certos limites máximos especificados por atos oficiais (1).
+
+-- Produtos com reconhecido controle da invasora: --
+Aura ; Clincher(Constatada resistência ao herbicida) ; Facet(Constatada resistência ao herbicida) ; Gamit ; Loyant ; Herbadox/Prowl ; Nominee(Constatada resistência ao herbicida) ; Only(Constatada resistência ao herbicida) ; Kifix(Constatada resistência ao herbicida) ; Propanil* ; Ricer(Constatada resistência ao herbicida) ; Starice(Constatada resistência ao herbicida) ; Strike ; *Controle obtido sobre plantas daninhas nos estádios iniciais de desenvolvimento (plântulas com até uma folha – V1).
+
+-- Informações Complementares --
+(1) AGROFIT. Site: http://agrofit.agricultura.gov.br/primeira_pagina/extranet/AGROFIT.html (2) Agrolink. Site: https://www.agrolink.com.br/problemas/capim-arroz_193.html

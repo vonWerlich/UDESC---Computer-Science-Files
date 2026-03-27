@@ -1,0 +1,19 @@
+Título: TOMATE - Tratos Culturais - Amontoa
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=081&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B1993%5D%7B97%7Damontoa.jpg
+
+-- Conceito: --
+Consiste basicamente em chegar terra no colo (pé) da planta, com o objetivo de aumentar o sistema radicular e com isso a capacidade de absorver nutrientes das plantas. O fósforo é o nutriente que é mais favorecido por essa prática, pois aumenta a zona de atuação do sistema radicular. Em solos ricos em P, a prática da amontoa pode não trazer os resultados esperados.
+
+-- Quando fazer: --
+Deve ser realizado 15 a 20 dias após o transplantio, já tendo sido feita a primeira adubação de base (1).
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B1993%5D%7B148%7Damontoa.jpg
+Legenda: Prática da amontoa em tomateiro. Fonte: http://cultivehortaorganica.blogspot.com/2011/07/recomendacoes-gerais-para-cultivo-de_21.html
+
+-- Amontoa nos sistemas de produção: --
+- No Sistema de Produção Integrada (Sispit) não é prática recomendada. - No Sistema de Produção Orgânica (Tomatorg) é aceita, mas em solos de média a alta fertilizada, manejada no sistema orgânico por mais de 3 anos, não apresenta resultados que justifiquem a sua realização.
+
+-- Informações Complementares --
+(1) SILVA, D.J.; VALE, F.X.R. Tomate: tecnologia de produção. Viçosa, MG: UFV; Brasília, D.F., Ministério do Desenvolvimento Agrário, 2007. 355p. il; 23 cm.

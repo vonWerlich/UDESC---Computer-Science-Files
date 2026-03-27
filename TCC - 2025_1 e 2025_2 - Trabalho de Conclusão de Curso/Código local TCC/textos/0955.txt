@@ -1,0 +1,25 @@
+Título: TOMATE - Cultivares - Runner F1
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=0955&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B837%5D%7B282%7Drunner.jpg
+
+-- CARACTERÍSTICAS: --
+Característica dos frutos: Fruto vermelho; Empresa: Semillas Fitó; Finalidade: Copa; Grupo: Salada; Polinização: Híbrido; Precocidade: Alta (90 a 110 dias); Resistência a bactérias e nematoides: Ma - Meloidogyne arenaria; Resistência a bactérias e nematoides: Mi - Meloidogyne incognita; Resistência a bactérias e nematoides: Mj - Melodogyne javanica; Resistência a fungos: Ff - Fulvia fulva (ex Cladosporium fulvum); Resistência a fungos: Fol - Fusarium oxysporum f.sp. melonis - raça 0; Resistência a fungos: For - Fusarium oxysporum f.sp. radicis-lycopersici; Resistência a fungos: F1 - Fusarium oxysporum f.sp. lycopersici - raça 1; Resistência a fungos: On - Oidium neolycopersici; Resistência a fungos: Va - Verticillium albo-atrum; Resistência a fungos: Vd - Verticillium dahliae; Resistência a viroses: ToMV - Tomato mosaic virus; Resistência a viroses: TSWV - Vira Cabeça - Tomato spotted wilt virus; Tamanho do fruto: Grande (231 a 250 g); Vigor: Alto; Vigor: Médio
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B837%5D%7B32%7Dfoto_no_campo.jpg
+Legenda: Dia de campo para a demonstração do cultivar. Fonte: http://www.agrotec.pt/noticias/semillas-fito-apresenta-novas-variedades-de-tomate-em-dia-de-campo/
+
+-- INFORMAÇÕES DA EMPRESA: --
+Esteve em mostra uma ampla gama de variedades, com destaque para o tomate cacho BIGRAM, consolidado e reconhecido como líder de mercado em Portugal há mais de 10 anos. A variedade RUNNER foi uma das novas variedades apresentadas como excelente alternativa no segmento de tomate salada para o mercado português e ibérico. Trata-se de um tomate de calibre elevado (250-300 g), uniforme e precoce (transplantes recomendados a partir de Dezembro). Em jeito de balanço, Vasco Vital, Iberia Area Manager da Semillas Fitó, congratula-se com a presença dos principais agentes do setor do tomate estufa nesta jornada, afirmando que «é com muita satisfação que vejo que a Fitó continua a ser uma empresa de referência em Portugal, contribuindo com a sua genética e serviço aos agricultores para que Portugal seja cada vez mais reconhecido como zona de excelente qualidade e alta segurança alimentar.
+
+-- RESISTÊNCIA: --
+HR: ToMV / Fol: 0, 1 / Va / Vd / TSWV / For / Ff: A-E IR: On / Ma / Mi / Mj
+
+-- REPORTAGEM PARA DIVULGAÇÃO DO PRODUTO: --
+https://www.vidarural.pt/agroindustria/semillas-fito-realiza-dia-de-campo-dedicado-ao-tomate/
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://www.semillasfito.com/en/ ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://www.semillasfito.com/en/.

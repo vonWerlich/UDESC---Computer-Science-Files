@@ -1,0 +1,14 @@
+Título: TOMATE - Cultivares - Dynamo
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=019394&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B16995%5D%7B325%7Ddynamo.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Empresa: Superseed; Pós colheita: Excelente; Tamanho Médio: 7 x 8,5 cm; Peso Médio: 230g; Ciclo: 115 dias após semeio; Tipo de fruto: Salada; Resistencia: Fol: 0,1, For, Ma, Mi, Mj, Va, Vd, ToMV, TSWV e TYCV; PONTOS FORTES: Resistência ao TYLCV (geminivírus), TSWV (vira-cabeça) e a nematoides. Apresenta ótimo tamanho de fruto e firmeza; PLANTA: Crescimento indeterminado, com alto vigor e muito bem enfolhada; FRUTOS: Uniformes, pesados e com excelente firmeza; CARACTERÍSTICAS: Permite ao produtor produzir em áreas com problema de geminivírus e no período chuvoso. Possui ainda excelente uniformidade de frutos durante todo o ciclo da colheita, fornecendo alto rendimento.
+
+-- Disclaimer/Aviso Legal: --
+A Epagri não se responsabiliza pelo conteúdo técnico apresentado nesta consulta. Maiores informações devem ser buscadas diretamente no site da empresa ( https://agristar.com.br/superseed/tomate-salada-ind-hibrido/dynamo-f1/3824 ). Caso você constate algum erro no cadastro, informe-nos imediatamente através do campo "Enviar Feedback", ao final desta página.
+
+-- Informações Complementares --
+https://agristar.com.br/superseed/tomate-salada-ind-hibrido/dynamo-f1/3824">https://agristar.com.br/superseed/tomate-salada-ind-hibrido/dynamo-f1/3824

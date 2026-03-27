@@ -1,0 +1,18 @@
+Título: BANANA - Fitossanidade - Principais pragas da bananeira - TRIPES-DA-ERUPÇÃO/TRIPES-DA-FLOR
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021700&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B18390%5D%7B282%7Dtripes_da_erupcao_1.jpg
+
+-- DESCRIÇÃO --
+ESPÉCIE : Frankliniella spp. Ordem: Thysanoptera Família: Thripidae Biologia: Insetos extremamente pequenos, com adultos medindo entre 1,2mm e 1,5mm, de coloração escura, levemente marrom. São geralmente encontrados nas flores novas, ainda protegidas pelas brácteas. Podem ocorrer durante todo o ano, porém suas populações tendem a aumentar durante as estações mais quentes do ano.
+
+-- DANOS --
+As fêmeas colocam seus ovos nos frutos, nos tecidos ainda em desenvolvimento, o que causa aparecimento de pontos marrons na superfície (Figura B abaixo) , que não interferem na qualidade do fruto, mas afetam diretamente a qualidade visual dos frutos, além de permitir a entrada de fungos, como Colletotrichum musae , agente causal da antracnose, que diminuem a vida pós-colheita.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B18390%5D%7B454%7Dtripes_eurupcao.png
+Legenda: DANO CAUSADO POR TRIPES-DA-ERUPÇÃO Foto: Marcelo M. de Haro
+
+-- CONTROLE --
+Deve-se proceder às mesmas técnicas de controle utilizadas para o tripes-da-ferrugem.
+
+-- Informações Complementares --
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.

@@ -1,0 +1,23 @@
+Título: ARROZ IRRIGADO - DIAGNOSE VISUAL - 2. Dignóstico a partir da plantaInicie por aqui, caso tenha em mãos a planta com sintomas. - O dano é externo na planta - O dano é na parte aérea das plantas - O dano está restrito às folhas - As folhas estão comidas ou raspadas - O limbo foliar está inteiro, apesar de haver porções raspadas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=017011&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17008%5D%7B144%7Dpl11_limboraspado.jpg
+DIAGNOSE VISUAL
+2. Dignóstico a partir da planta Inicie por aqui, caso tenha em mãos a planta com sintomas.
+O dano é externo na planta
+O dano é na parte aérea das plantas
+O dano está restrito às folhas
+As folhas estão comidas ou raspadas
+O limbo foliar está inteiro, apesar de haver porções raspadas
+A raspagem na folha é retilínea e restrita aos espaços internervais
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17011%5D%7B262%7Dpl14_raspareto.jpg
+Legenda: A raspagem na folha é retilínea e restrita aos espaços internervais
+17020
+A raspagem na folha é retilínea e restrita aos espaços internervais
+A raspagem na folha ultrapassa os limites das nervuras
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B17011%5D%7B114%7Dpl15_raspairregular.jpg
+Legenda: A raspagem na folha ultrapassa os limites das nervuras
+17021
+A raspagem na folha ultrapassa os limites das nervuras

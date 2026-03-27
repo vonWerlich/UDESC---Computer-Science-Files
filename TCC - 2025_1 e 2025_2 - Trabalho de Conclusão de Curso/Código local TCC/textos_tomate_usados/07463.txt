@@ -1,0 +1,16 @@
+Título: TOMATE - Calagem e Adubação - Adubação - Recomendação SPDH
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=07463&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6733%5D%7B414%7Dfosforo_e_potassio.jpg
+Legenda: Interpretação do teor de P ou K no solo para recomendação de adubação de base. Fonte: Claudinei Kurtz
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6733%5D%7B246%7Dnitrogenio.jpg
+Legenda: Recomendação de adubação nitrogenada conforme o teor de matéria orgânica no solo. Fonte: Claudinei Kurtz
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B6733%5D%7B251%7Dpotassio.jpg
+Legenda: Recomendação de adubação potássica conforme o teor de potássio no solo. Fonte: Claudinei Kurtz
+
+-- CONDIÇÕES PARA A FERTIRRIGAÇÃO: --
+Caso a aplicação for realizada via fertirrigação, aplicar 4, 2, 2, 3, 4, 5, 7, 8, 8, 9, 9, 9, 8, 7, 6, 5 e 4% do N e K2O recomendado na 1ª, 2ª, 3ª, 4ª, 5ª, 6ª, 7ª, 8ª, 9ª, 10ª, 11ª, 12ª, 13ª, 14ª, 15ª, 16ª e 17ª semanas após o plantio, respectivamente. Caso não haja fertirrigação, aplicar 5, 4, 8, 12, 15, 16, 15, 11 e 14% do N e K2O recomendado na 2ª, 4ª, 6ª, 8ª, 10ª, 12ª, 14ª, 16ª e 18ª semanas após o plantio, respectivamente. Há necessidade de ajuste destas recomendações levando-se em conta as condições climáticas (luz e temperatura). Deve-se aumentar, manter ou diminuir a adubação semanal de N e K2O em cobertura conforme as condições de luminosidade e temperatura forem ótimas, boas ou sub-ótimas, respectivamente.
+
+-- Informações Complementares --
+Informações pessoais.

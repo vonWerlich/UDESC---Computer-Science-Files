@@ -1,0 +1,343 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="1857">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="63">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[1857]{268}img-20211211-wa0006.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Marcelo Zanella </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp; Murcha de Fusarium (Fusarium oxysporum f.sp lycopersici) 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>FOTOS: </b><br>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24869,63,1857,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1857]{233}img-20211211-wa0007.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24870,63,1857,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1857]{277}img-20211211-wa0008.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24868,63,1857,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1857]{151}img-20211211-wa0006.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24867,63,1857,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1857]{365}img-20211211-wa0005.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,24871,63,1857,5);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[1857]{207}img-20211211-wa0009.jpg">  </a> 
+<br><br>
+<b>INFORMAÇÕES GERAIS: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - No Brasil, pode ser encontrada em quase todas as regiões produtoras, sendo constatada inclusive em cultivos protegidos (2).<br>
+- Sua disseminação se dá por água de irrigação, implementos agrícolas e sementes. Os patógenos sobrevivem em sementes e clamidósporos (1).<br>
+- Nas áreas onde a murcha–de–fusário ainda não ocorre, o manejo pelo princípio da exclusão, visando o impedimento da entrada do patógeno na área de cultivo, é o mais importante (2).<br>
+- No Brasil, não era um problema muito grande no passado, pois as principais cultivares híbridas eram resistentes as raças 1 e 2. Contudo, em 2003 (em Espírito Santo) foi confirmada a presença da raça 3 e essa doença voltou a ter relevância e vem causando muitos prejuízos. De lá pra cá, além do ES, a raça 3 foi confirmada nos Estados de SP, RJ, MG, GO, BA e CE, além do distrito federal (10).<br><br>
+
+<mark>Pelo levantamento que vem sendo feito pela Embrapa desde 2003, a raça 3 ainda não foi confirmada na região Sul do Brasil (10).</mark><br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SINTOMAS:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - A doença, pode se manifestar em qualquer estádio de desenvolvimento do tomateiro, mas, é mais comum em plantas no início de florescimento e frutificação (2).<br>
+- Os sintomas mais evidentes da doença são o amarelecimento das folhas a partir das mais velhas, seguido de murcha da planta toda. Os sintomas da murcha–de–fusário do tomateiro iniciam–se pelas folhas basais que perdem a turgidez, tornam–se amareladas, apresentam crestamento do limbo e, finalmente, caem (2).<br>
+- Nos frutos, a área apodrecida adquire coloração marrom-claro e fica coberta por estruturas brancas do fungo. Os frutos próximos ao solo são mais afetados (6).<br>
+- Quando se corta transversalmente a raiz ou o caule de uma planta doente, pode–se observar o típico escurecimento de vasos, que evidencia a presença do patógeno (2).<br>
+- O escurecimento dos tecidos vasculares infectados é mais intenso na base do caule sendo uma característica marcante, embora não exclusiva da doença. A planta quando infectada também pode apresentar crescimento retardado (2).
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>O QUE PODE ESTAR OCORRENDO:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> 1.	Baixa intensidade de luz (7; 5).<br>
+Solução: Em cultivo protegido o plástico deve ser limpo no mínimo a cada 6 meses, visando o aumento da luminosidade dentro do ambiente.<br><br>
+2.	Baixo pH (7).<br>
+Solução: Calagem do solo para elevar pH 6,5-6,8.<br><br>
+
+- Condições favoráveis ao patógeno: déficit hídrico; solo arenoso (1); dias curtos; tecidos vegetais deficientes em nitrogênio, fósforo e cálcio; adubação nitrogenada excessiva, especialmente com amônia (5). A doença é favorecida quando a temperatura for de 25-28ºC (7), alta umidade do solo.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>DISPERSÃO E SOBREVIVÊNCIA: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - Sementes (mudas), água irrigação, máquinas e implementos (10).<br>
+- Estruturas de resistência (clamidósporos), que sobrevive no solo por 5 a 8 anos.<br>
+- Esse fungo só consegue atacar plantas do gênero solanum (Secção Lycopersicon), que são os parentes mais próximos do tomateiro.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>CONTROLE:</b><br>
+<b>Controle genético: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Controle genético, por meio do plantio de cultivares resistentes. Pesquisar no próprio aplicativo pelos seguintes genes de resistência:<br>
+Fcr - Fusarium crown <br>
+Fol - Fusarium oxysporum f.sp. melonis - raça 0 <br>
+For - Fusarium oxysporum f.sp. radicis-lycopersici <br>
+Fr - Fusarium radicis lycopersici <br>
+F1 - Fusarium oxysporum f.sp. lycopersici - raça 1 <br>
+F2 - Fusarium oxysporum f.sp. lycopersici - raça 2 <br>
+F3 - Fusarium oxysporum f.sp. lycopersici - raça 3 <br><br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Controle biológico:</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - Uso de biofertilizantes a 5%, aplicado através do sistema de gotejo, durante todo o ciclo da lavoura, com objetivo de estimular a microbiota antagonista presente no solo.<br>
+- Trichoderma asperellum está registrado no MAPA para o controle de Fusarium solani em sistemas orgânicos de produção.<br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Controle cultural: </b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> - Manipulação da fertilidade do solo (adicionar calcário para obter pH no mínimo 7,0; evitar o uso de micronutrientes; evitar o uso excessivo de fósforo e magnésio; usar nitrogênio na forma de nitrato, evitando a forma amoniacal; aplicar fertilizantes em bandas próximo às raízes e não diretamente na cova) (2).<br>
+- Elevados níveis de fósforo (superfosfato) acima do requerido para o crescimento do tomateiro aumentam a severidade de F. oxysporum f.sp. lycopersici em pH 6,0 (4).<br>
+- Níveis equilibrados de cálcio contribuem a redução da severidade de F. oxysporum f.sp. lycopersici (4).<br>
+- Impedir a drenagem de água de local infestado para novas áreas de plantio (2).<br>
+- Uso da rotação de culturas com plantas não hospedeiras por cinco a sete anos, com gramíneas como arroz, milho e pastagem (9).<br>
+- Prevenir a disseminação do patógeno eliminando o movimento de solo infestado, bem como o trânsito de máquinas, animais e operários de lavouras doentes para áreas livres da doença (2).<br>
+- Eliminar os restos culturais diminuindo, assim, o inóculo inicial para o próximo ciclo da cultura (2).<br>
+- Evitar plantar em áreas com nematoides, pois aumenta a severidade da doença, em função dos ferimentos causados nas raízes, que servem de porta de entrada para o patógeno (8).<br><br> <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>Controle físico:</b><br>
+<p class="p1"><div> - Solarização do solo durante as estações mais quentes do ano. <br> </div></p>
+<b>Controle químico: </b><br>
+<p class="p1"><div> Nenhuma medida de controle químico é efetiva e economicamente viável no controle da murcha–de–fusário em tomateiro.  <br> </div></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+(1) ZAMBOLIM, L.; VALE; F. X. R. do; COSTA, H. Controle integrado das doenças de hortaliças. Viçosa: UFV, Departamento de Fitopatologia, 1997.<br>
+(2) Domingos Eduardo Guimarães Tavares de Andrade et al. Murcha–de–fusário: importante doença do tomateiro no estado de pernambuco. Anais da Academia Pernambucana de Ciência Agronômica, Recife, vols. 5 e 6, p.243-263, 2008-2009. Disponível em: "https://ainfo.cnptia.embrapa.br/digital/bitstream/item/19394/1/Andrade.pdf".<br>
+(3)https://sistemasdeproducao.cnptia.embrapa.br/FontesHTML/Tomate/TomateIndustrial_2ed/doencas_fungo.htm.<br>
+(4) ZAMBOLIM, L.; VENTURA, J. A.; ZANÃO JR, L. A. Efeito da nutrição mineral no controle de doenças de plantas. Viçosa, MG: Os autores, 2012, 321p.<br>
+(5) D. Blancard	(INRA). Site: http://ephytia.inra.fr/fr/C/5217/Tomate-Biologie-epidemiologie. Acessado em: 27/08/2019.<br>
+(6) Lopes, C.A.; Santos, J.R.M. Doenças do tomateiro. Brasília: Embrapa; 1994. <br>
+(7) Vale, F.X.R.; Zambolim, L.; Zambolim, E.M.; Alvarenga, M.A.R. Tomate: produção em campo, em casa-de-vegetação e em hidroponia. UFLA, 2004. cap 9, pag 213-309.<br>
+(8) Silva, J.B.C.; Giordano, L.B.; Furumoto, O. Sistemas de produção: Cultivo de tomate para industrialização. Embrapa. 2003.<br>
+(9) Vale, F.X.R.; Junior, W.C.J.; Rodrigues, F.A.; Costa, H.; Souza, C.A.; Tomate: tecnologia de produção. Viçosa. 2007. Cap 9, pag 177-180.<br>
+(10) Ciclo de Palestras sobre Manejo Fitossanitário do Tomateiro.
+Apresentação: Ailton Reis. Tema:  Manejo de doenças causadas por fungos e oomicetos da parte radicular do tomateiro. Data do evento: set/2020. Para mais informações, basta acessar ao vídeo na íntegra: <a target="_blank" href="https://youtu.be/CChRRIZ99FM.
+
+ &lt;/p&gt; &lt;/font&gt; 
+&lt;br&gt;&lt;br&gt;&lt;br&gt; &lt;font size='2'&gt; Criado em: 29/01/2019&lt;/font&gt;
+&lt;br&gt; &lt;font size='2'&gt; Última atualização: 14/12/2021&lt;/font&gt;
+  
+                &lt;/font&gt; 
+            &lt;/div&gt;
+
+       
+     &lt;/form&gt;  
+     
+     
+     
+       &lt;div style=" padding-left:="" 10px;="" padding-right:="" 4px;"="">
+          </a></div> <a href="#" data-ctrl="" class=""> fechar /\</a></p><hr><a target="_blank" href="https://youtu.be/CChRRIZ99FM.
+
+ &lt;/p&gt; &lt;/font&gt; 
+&lt;br&gt;&lt;br&gt;&lt;br&gt; &lt;font size='2'&gt; Criado em: 29/01/2019&lt;/font&gt;
+&lt;br&gt; &lt;font size='2'&gt; Última atualização: 14/12/2021&lt;/font&gt;
+  
+                &lt;/font&gt; 
+            &lt;/div&gt;
+
+       
+     &lt;/form&gt;  
+     
+     
+     
+       &lt;div style=" padding-left:="" 10px;="" padding-right:="" 4px;"="">
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> </span></font></a><font face="Arial"><a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a>  </font> <br>   
+                 
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          
+       </font></font></div></form><font style="font-family: Arial; font-size: 17px;"><font size="2">
+     
+     
+  </font></font></div><font style="font-family: Arial; font-size: 17px;"><font size="2">  
+    
+</font></font></div><font style="font-family: Arial; font-size: 17px;"><font size="2">    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=1857');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</font></font></body></html>

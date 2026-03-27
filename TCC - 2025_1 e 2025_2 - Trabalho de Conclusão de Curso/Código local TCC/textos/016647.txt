@@ -1,0 +1,11 @@
+Título: CEBOLA - DIAGNOSE VISUAL - Folhas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016647&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16643%5D%7B160%7D%5B12407%5D%7B259%7Dmildio_2_%281%29.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B43%7D%5B12204%5D%7B236%7Dfigura_14_-_copia.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B76%7D%5B12706%5D%7B296%7Dfigura_19a.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B550%7D%5B12407%5D%7B278%7Dmildio_1.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B413%7D%5B12410%5D%7B66%7Diysv_principal.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B402%7D%5B12699%5D%7B276%7Dfigura_11.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B301%7D%5B12408%5D%7B294%7Dqueima_das_pontas_2.jpg
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_estrutura/%5B16647%5D%7B61%7D%5B11991%5D%7B103%7Dfigura_4.jpg

@@ -1,0 +1,21 @@
+Título: CEBOLA - Manejo do solo, correção, adubação e recomendações - Sistema fertirrigado - Conceito Geral
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014602&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12693%5D%7B369%7Dferti.jpg
+
+-- FINALIDADE: --
+O sistema fertirrigado pode ser utilizado para o fornecimento de água e nutrientes ou apenas para a distribuição de nutrientes.
+
+-- FORMAS DE FAZER: --
+A aplicação de água e nutrientes poderá ser feita por sistemas de irrigação por aspersão ou gotejamento.
+
+-- FERTIRRIGAÇÃO POR GOTEJAMENTO: --
+O sistema de produção fertirrigado por gotejamento (SPFG) destaca-se pela alta produtividade. Estudos em que o sistema de fertirrigação foi utilizado para o fornecimento de nutriente e que consideraram a variação da população de plantas (300 a 600 mil plantas ha-1) indicam uma produtividade média acima de 45 t ha-1, sendo possível em anos sem variações ou eventos climáticos extremos a obtenção em nível experimental de produtividades superiores a 62 t ha-1. É plausível que com o aperfeiçoamento do sistema e o fornecimento de água (irrigação), de acordo com a demanda hídrica, as produtividades possam ser ainda superiores àquelas atualmente registradas..
+
+-- PRODUTIVIDADES EM EXPERIMENTOS x MÉDIA DO ESTADO: --
+No caso de considerarmos os últimos nove anos, enquanto a média de produtividade do estado catarinense foi de 19t ha-1, no mesmo período os estudos realizados na Epagri/EEItu no SPFG revelaram uma produtividade média de 42t ha-1 (MENEZES JÚNIOR & KURTZ, 2016). Tais produtividades são relevantes, visto que em SC predominam o uso de cultivares de polinização aberta e o cultivo em regiões com áreas declivosas, com solos de difícil mecanização, a exemplo de Cambissolos e condições ambientais muito propícias à incidência do tripes e do míldio. Além disso, há irregularidade de chuvas (em frequência e intensidade) e a ocorrência de fenômenos extremos como seca, alta umidade relativa do ar, temperaturas elevadas, precipitações elevadas e granizo (BLAINSKI & RICCE, 2018ab). Eventos climáticos relacionados, entre outros fatores, a localização geográfica de SC.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12693%5D%7B135%7Dfoto_sistema_fertirrigado_em_ponto_de_colheita.jpg
+Legenda: Ponto de colheita Menezes Júnior, FOG
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

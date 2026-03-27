@@ -1,0 +1,15 @@
+Título: ARROZ IRRIGADO - 15. Cultivo da soca em arroz irrigado - Cultivo não recomendado
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013180&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11436%5D%7B281%7D13_socanao_caput.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Algumas ocorrências ou condições da lavoura principal tornam o cultivo da soca muito arriscado ou mesmo não recomendado. O produtor deve estar atento a essas situações, para não ter prejuízo neste tipo de cultivo.
+
+-- LAVOURAS CL ( Clearfield ) --
+Não deve ser realizado o cultivo da soca em lavouras com variedades CL ( Clearfield ). Esta recomendação deve-se ao fato de que plantas de arroz-daninho não controladas no cultivo principal, irão rebrotar e o florescimento irá coincidir com a variedade CL, ocorrendo cruzamento entre ambas e originando plantas de arroz-daninho resistentes que não mais serão controladas pelos herbicidas do sistema CL, na safra seguinte. O cultivo da soca com variedades CL, tem sido um dos principais fatores responsáveis pela crescente proliferação de arroz-daninho resistente aos herbicidas recomendados para o sistema Clearfield.
+
+-- LAVOURAS COM SOGATA: --
+Caso a lavoura principal tenha sofrido infestação severa da cigarrinha sogata , o cultivo da soca deve ser evitado. Nestes casos, o rebrote do arroz fica sujeito à rápida re-infestação, em função da alta população do inseto na área, com possibilidade de perdas expressivas na produtividade da soca. Além disso, populações altas de sogata são de difícil controle pois há muito escape, elevando os custos com controle químico.
+
+-- Informações Complementares --

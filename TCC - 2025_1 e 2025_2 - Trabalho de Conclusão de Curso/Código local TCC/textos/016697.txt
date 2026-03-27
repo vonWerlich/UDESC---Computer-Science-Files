@@ -1,0 +1,67 @@
+Título: CEBOLA - Manejo de pragas - Piolho ou Tripes da cebola (Thrips tabaci)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=016697&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12203%5D%7B302%7Dfigura_7_-_copia.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12203%5D%7B437%7Dfigura_7.jpg
+Legenda: Figura 1. Ninfas de tripes, Thrips tabaci, nas folhas centrais de cebola. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12203%5D%7B519%7Dfigura_8.jpg
+Legenda: Figura 2. Danos causados pela alta infestação de tripes em cebola com folhas com lesões esbranquiçadas e retorcidas. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12203%5D%7B40%7Dfigura_9.jpg
+Legenda: Figura 3. Danos causados por tripes em cebola, com planta com lesões foliares esbranquiçadas, seca de ponteiros, retorcimento e redução moderada no tamanho dos bulbos. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12203%5D%7B453%7D%5B12203%5D%7B40%7Dfigura_9.jpg
+Legenda: Figura 3. Danos causados por tripes em cebola, com planta com lesões foliares esbranquiçadas, seca de ponteiros, retorcimento e redução moderada no tamanho dos bulbos. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12203%5D%7B438%7Dfigura_10.jpg
+Legenda: Figura 4. Plantas de cebola danificadas por virose. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12203%5D%7B224%7Dfigura_13.jpg
+Legenda: Figura 5. Incidência de tripes superior a 10 ninfas por planta, correspondente ao nível de ação para aplicação de inseticidas.Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12203%5D%7B256%7Dfigura_11.jpg
+Legenda: Figura 6. Larvas de mosca, Toxomerus spp., predadoras de ninfas de tripes (A). Adulto da joaninha, Eriopis connexa, predadora de tripes (B). Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+
+-- INFORMAÇÕES GERAIS: --
+O tripes Thrips tabaci Lind (Thysanoptera: Thripidae) ou piolho-da-cebola, como é conhecido popularmente em Santa Catarina, é a principal praga da cultura da cebola no Brasil.
+
+-- IDENTIFICAÇÃO: --
+Esse inseto tem tamanho pequeno, medindo em torno de 1mm de comprimento na fase adulta. Na fase de ninfa (inseto jovem), esse inseto caracteriza-se por apresentar cor esbranquiçada à amarelo-esverdeada e por não voar, porque é desprovido de asas, enquanto o adulto tem coloração amarela-escura à marrom e voa. Esse inseto abriga-se na parte interna das folhas (Figura 1).
+
+-- REPRODUÇÃO: --
+A população de piolho-da-cebola é basicamente composta por fêmeas, que se reproduzem pelo processo de partenogênese sem a presença de machos. As fêmeas põem os ovos inseridos nas folhas. Após quatro dias, eclodem as ninfas que se desenvolvem por cinco a dez dias. A próxima fase é o estágio pupal, que dura até 58 horas e pode ocorrer no solo ou na planta. Em seguida, emergem os adultos. As fêmeas adultas vivem em média 22 dias e põem de 20 a 100 ovos.
+
+-- RELAÇÃO DA PRAGA COM A TEMPERATURA E CHUVAS: --
+O aumento da população de tripes-da-cebola é diretamente proporcional ao aumento da temperatura e à redução das chuvas.
+
+-- DANOS: --
+Os danos que causa decorrem da “raspagem” das folhas e “sucção” de seiva das plantas, que inicialmente causa lesões esbranquiçadas a prateadas na parte interna das folhas, mas que podem se manifestar em toda a planta (Figura 2). Com o aumento da severidade do ataque ocorre amarelecimento, retorcimento e seca dos ponteiros das folhas, provocando a diminuição do tamanho de bulbos (Figura 3).
+
+-- DANOS INDIRETOS: viroses --
+Os danos causados por tripes nas folhas da cebola favorecem a entrada de virose do gênero Tospovirus, Iris Yellow Spot (Figura 4).
+
+-- DANOS INDIRETOS: maturação fisiológica --
+A armazenagem de bulbos proveniente de áreas severamente atacadas por tripes também é prejudicada, pois as plantas retardam ou não atingem o tombamento por ocasião da maturação fisiológica, facilitando a entrada de água das chuvas, o que predispõe os bulbos a perdas por bacterioses.
+
+-- OCORRÊNCIA: --
+O piolho-da-cebola incide em altas densidades populacionais principalmente em períodos quentes e secos de setembro até novembro. Em virtude do clima favorável, altas infestações (acima de 10 ninfas de tripes por planta) podem acontecer a partir da segunda quinzena de setembro até novembro.
+
+-- OCORRÊNCIA: Plantio direto --
+Em sistema de plantio direto na palha (Figura 7) tem-se observado que as plantas de cebola, pela melhoria das condições, físicas, biológicas e químicas do solo, toleram melhor as perdas significativas por incidência de tripes e doenças fùngicas na produtividade.
+
+-- INIMIGOS NATURAIS: --
+O controle biológico do piolho-da-cebola é realizado naturalmente por insetos predadores, incluindo larvas de moscas da família Syrphidae (Toxomerus spp.) e da joaninha Eriopis connexa (Germar) (Coleoptera: Coccinelidae), que se alimentam principalmente de ninfas. As larvas das moscas predadoras, Toxomerus spp., apresentam formato vermiforme, têm cor verde-amarelada, e medem aproximadamente de 0,5 a 0,8cm de comprimento (Figura 6A). As joaninhas, na fase adulta, apresentam manchas de cor branca, preta, vermelha nas asas, e medem aproximadamente 1cm de comprimento (Figura 6B). As larvas são de cor preta, branca e amarela e medem cerca de 1cm de comprimento no final da fase de desenvolvimento larval. É interessante manter ervas invasoras e vegetação espontânea em terraços, pois servem de abrigo para os inimigos naturais.
+
+-- CONTROLE: químico --
+O uso de inseticidas no controle de tripes é justificável apenas quando o inseto atinge determinados níveis populacionais. Convém ressaltar que o uso de inseticidas em regiões de temperaturas amenas pode ser reduzido ou eliminado, como observado no sul do país. Porém, para isso é necessário adotar cultivares precoces e o sistema de plantio direto na palha, pois estas medidas de controle cultural são eficazes para favorecer, respectivamente, o escape a altas populações do inseto e a tolerância das plantas aos danos. O aumento da produtividade da cultura da cebola devido à aplicação de inseticidas não ocorre necessariamente em solos de alta fertilidade, pois os altos níveis de matéria orgânica e bem estruturados geram condições nutricionais suficientes para que as plantas tolerem o dano do inseto. Por isso, nem sempre é necessária a pulverização com inseticidas. A utilização do controle químico baseado no nível de dano econômico de 10 ninfas antes e 30 após a formação do bulbo por planta (Figura 7), para as condições de Ituporanga, na região do Alto Vale, SC, favorecem a diminuição do uso de inseticidas sem comprometer a produtividade. Desta forma, serão realizadas pulverizações de acordo com o nível de dano econômico para a região do Alto Vale, SC. O menor número de pulverizações ocorre em cultivares com plantio em junho e julho para as condições de sul do país. A alternância de inseticidas de grupos químicos diferentes é importante para se evitar o desenvolvimento de resistência no inseto. Atualmente estão registrados os seguintes grupos químicos: análogo de pirazol, carbamato, espinosina, neocotinoides, organofosforados, piretroides, piretroides com organofosforados, piretroides com neocotinoides. O uso de substâncias associadas a inseticidas no controle químico, como espalhantes e adjuvantes, açúcar, enxofre, não tem apresentado resultados significativos de incremento no rendimento da cultura. Portanto, não se justifica o uso de tais substâncias economicamente. É necessário o uso criterioso de inseticidas para se preservar os inimigos naturais.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12203%5D%7B89%7Dtabela_1.jpg
+Legenda: Relação dos inseticidas registrados no Ministério da Agricultura Pecuária e Abastecimento (MAPA) para o controle de tripes na cultura da cebola. FONTE: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+
+-- CONTROLE: cultural --
+O manejo fitossanitário em cebola deve iniciar-se com o manejo ecológico do solo, a fim de se obter plantas equilibradas nutricionalmente. Desta forma, no plantio direto, a utilização de adubos verdes, estercos e compostos deve ser preferida em relação ao tradicional uso de apenas adubo mineral e mecanização intensiva do solo para prevenir pragas e patógenos. O ideal seria suprir apenas a quantidade de nutrientes necessárias para a cultura, sem excessos que pudessem causar desequilíbrios e predispor a entrada de pragas e doenças. Deve-se considerar que mesmo solos sob manejo orgânico podem gerar plantas desequilibradas, basta haver excesso de nutrientes. Em sistema de plantio direto na palha (Figura 7), tem-se observado que as plantas de cebola, pela melhoria das condições, físicas, biológicas e químicas do solo, toleram melhor as perdas significativas por incidência de tripes e doenças fúngicas na produtividade. O fornecimento de nitrogênio de maneira parcelada e em níveis adequados à cultura favorece a sanidade de plantas e evita altas densidades populacionais de tripes.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12203%5D%7B460%7Dfigura_12.jpg
+Legenda: Figura 7. Cebola em sistema de plantio direto sobre palha de aveia e nabo forrageiro. Método cultural no manejo de tripes. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+
+-- CONTROLE: genético --
+No manejo de tripes o controle cultural pode ser feito com o plantio de cultivares de ciclo precoce para as condições do sul do país, pois quando há altas infestações de tripes, de setembro até novembro, as plantas estão com o bulbo em fase final de formação e a perda de produtividade é reduzida. Isto ajuda a diminuir ou até eliminar o uso de inseticidas. Os cultivares precoces recomendados pela Epagri para o plantio em Santa Catarina são: Empasc 352 Bola Precoce, Epagri 363 Superprecoce, SCS 366 Poranga, Epagri SCS 379 Robusta. Há, porém, vários cultivares precoces de mesma origem genética disponíveis no comércio do sul do país. No Brasil algumas pesquisas já apontaram algum nível de resistência de cultivares a incidência de tripes. Em Pernambuco, para Duquesa, Dessex e Granex Ouro (LOGES et al, 2004). Em Minas Gerais, para Franciscana (LEITE et al., 2004), CNPH 6415 e 6074 (LEITE et al., 2007). No Paraná, para BR 29, Sirius e Alfa São Francisco RT (SILVA, 2011).
+
+-- CONTROLE: manejo da irrigação --
+A irrigação em lavouras de cebola, de acordo com a necessidade hídrica de cada região produtora, é importante, pois o tripes é favorecido por condições de seca. Convém ressaltar que o excesso de adubação e a pouca disponibilidade de água favorecem a infestação de tripes.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

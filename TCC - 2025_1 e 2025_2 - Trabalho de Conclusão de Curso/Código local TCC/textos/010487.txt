@@ -1,0 +1,36 @@
+Título: PISCICULTURA EM VIVEIROS ESCAVADOS - Boas práticas de manejo - Florações de algas e macrófitas
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=010487&isEdicao=N&epagriTEC=S
+
+[IMAGEM] /sedimob/img/icone_vazio.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B17905%5D%7B316%7Dflorescimento_de_cianobacteria.jpg
+
+-- IMPORTÂNCIA: --
+Na piscicultura podemos nos deparar com diversas situações não desejadas ao longo do cultivo por diversos motivos, e que, de um modo ou de outro, acabam prejudicando o desempenho zootécnico do animal e, consequentemente, o lucro do produtor. O aparecimento excessivo de macrófitas aquáticas e microalgas são uns desses problemas.
+
+-- PREJUÍZOS: --
+Apesar de ser muito eficientes na absorção de nutrientes dissolvidos na água, característica desejada em canais de drenagem ou lagoas de decantação/estabilização, no viveiro de cultivo, a presença das macrófitas aquáticas prejudica o crescimento de fitoplâncton e, consequentemente, zooplâncton. Além disso, prejudicam o manejo e a despesca, além de consumirem oxigênio da água. Já os excessos de microalgas causarão problemas de baixas concentrações de oxigênio pela manhã.
+
+-- Macrófitas emersas e enraizadas: --
+Fatores que favorecem o surgimento: - Viveiros rasos ou com transparência alta. Como evitar: - Manter transparência adequada do viveiro através da adubação.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17905%5D%7B493%7Dfotos_ninphea.jpg
+Legenda: Florescimento de ninféiaBruno Corrêa da Silva
+
+-- Macrófitas flutuantes: --
+Fatores que favorecem o surgimento: - Viveiros de peixes carnívoros ou viveiros cheios por muitos dias antes de povoar. Como evitar: - Povoar com espécies que se alimentem dessas plantas como a tilápia; - Preparar o viveiro 3 a 5 dias antes de povoar; - Em casos iniciais, a retirado manual é indicada; - Em caso de alta proliferação é necessária renovação da água por cima.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17905%5D%7B190%7Dflorescimento_de_aguape.jpg
+Legenda: Florescimento de aguapéBruno Corrêa da Silva
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17905%5D%7B475%7Dflorescimento_de_lemna.jpg
+Legenda: Florescimento de lemnaBruno Corrêa da Silva
+
+-- Microalgas (florescimento excessivo): --
+Fatores que favorecem o surgimento: - Acúmulo de matéria orgânica no fundo, e altos níveis de nitrogênio e fósforo na água. Como evitar: - Diminuir a quantidade de ração fornecida até que os parâmetros de qualidade de água voltem ao normal; - Retirada dos aglomerados de algas através da renovação de água por cima e, posteriormente, renova-se a água por baixo para retirada da água mais carregada de sólidos e nutrientes.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17905%5D%7B288%7Dflorescimento_de_microalga_euglena_sanguinea.jpg
+Legenda: Florescimento de microalga (Euglena sanguinea)Bruno Corrêa da Silva
+
+-- Cianobactérias: --
+Fatores que favorecem o surgimento: - Acúmulo de matéria orgânica e fósforo no solo. Como evitar: - Diminuir a quantidade de ração fornecida até que os parâmetros de qualidade de água voltem ao normal; - Retirada dos aglomerados de algas através da renovação de água por cima e, posteriormente, renova-se a água por baixo para retirada da água mais carregada de sólidos e nutrientes. Obs: O florescimento de cianobactérias ou dinoflagelados pode causar o off-flavor na carne do peixe, popularmente conhecido por gosto de barro, devido à presença de compostos produzidos por estas algas.
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B17905%5D%7B319%7Dflorescimento_de_cianobacteria.jpg
+Legenda: Florescimento de cianobactériasBruno Corrêa da Silva
+
+-- Informações Complementares --
+SILVA, B.C. ; MASSAGO, H.; MARCHIORI, N. C. Monocultivo de tilápia em viveiros escavados em Santa Catarina. Florianópolis, SC: Epagri, 2019. 126p. (Epagri. Sistemas de Produção, 52).

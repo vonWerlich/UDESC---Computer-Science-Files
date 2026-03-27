@@ -1,0 +1,11 @@
+Título: TOMATE - Sistemas de Produção - Produção Integrada de Tomates (SISPIT) - H) MANEJO DAS PRINCIPAIS DOENÇAS BACTERIANAS - a) Introdução
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=02945&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B2706%5D%7B421%7Dcapa_1.jpg
+
+-- Introdução: --
+Bactérias correspondem a um grupo de microrganismos de grande importância na natureza. A maioria atua como decompositoras de matéria orgânica, algumas em simbiose e outras causando doenças em plantas. No entanto, quando se trata de doenças em plantas, as fitobactérias ou bactérias fitopatogênicas são caracterizadas como organismos de difícil controle. Essa tarefa depende muito mais do manejo da cultura do que propriamente do controle químico, tal como efetuado com os fungos. Muitos dos bactericidas não apresentam um efetivo controle, principalmente quando a composição do ingrediente ativo é um antibiótico. Além de baixa absorção e translocação pela planta, a substância é facilmente lixiviada pela chuva. Deve-se considerar também o custo desse controle, a grande possibilidade do surgimento de novas raças e eventuais resíduos no fruto. Essas condições tornam indispensável o manejo da cultura para não favorecer o estabelecimento da doença. Entre as várias doenças bacterianas do tomateiro, apenas aquelas de expressão econômica para a região do AVRP são detalhadas a seguir.
+
+-- Informações Complementares --
+Walter Ferreira Becker in: BECKER. W.F. (Coord.); WAMSER, A.F.; FELTRIM, A.L.; SUZUKI, A.; SANTOS, J.P.; VALMORBIDA, J.; HAHN, L.; MARCUZZO, L.L; MUELLER, S.;. Sistema de produção integrada para o tomate tutorado em Santa Catarina. Florianópolis, SC: Epagri, 2016. 149p.

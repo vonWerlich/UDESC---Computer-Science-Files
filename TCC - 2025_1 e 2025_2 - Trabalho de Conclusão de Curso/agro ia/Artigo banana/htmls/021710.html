@@ -1,0 +1,335 @@
+<html><head><link href="../sedimob/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../sedimob/css/jquery/themes/smoothness/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../sedimob/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../sedimob/js/jquery-ui.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.dataTables.min.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/epagri.js"></script>    
+    <script type="text/javascript" src="../sedimob/js/jquery.collapser.js"></script>        
+    <script>
+        // Função utilizada para o usuário cadastrador linkar uma página de conteúdo dentro de outra página
+        function chamarPagina (cdEstrutura) {
+             location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoDetalhe&epagriTEC=S&cdEstrutura=' + cdEstrutura;
+        }
+        
+        function salvarFeedback() {
+           document.getElementById("frmFeedbackElemento").submit();
+        }                   
+        
+        function salvar() {
+           document.getElementById("frmManutencaoElemento").submit();
+        }
+
+        function salvarResponsavelTecnico(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroResponsavelTecnico.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Responsável Técnico', url, 'Fechar', false,600,430);
+        }
+        function salvarImagem(cdElemento, cdEstrutura) {
+               url = '/sedimob/sedimob/cadastroElementoImagem.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura; 
+               abreDialog(true, 'Inserir Imagem', url, 'Fechar', false,600,230);
+        }
+        function salvarArquivo(cdElemento, cdEstrutura, cdCampoElemento, cdTipoArquivo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivo.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdCampoElemento + '&cdTipoArquivo=' + cdTipoArquivo; 
+               abreDialog(true, 'Inserir Arquivo', url, 'Fechar', false,600,250);
+        }
+        
+        function excluir(cdElemento, cdEstrutura) {
+            if ( confirm('Deseja realmente remover toda esta tela?') ) {            
+               location.href='/sedimob/consulta.action?subFuncao=removerElemento&cdElemento=' + cdElemento.toString().trim() + '&isEdicao=S&cdEstrutura=' + cdEstrutura;
+            }   
+        }
+        function removerAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerAnexoElemento&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdAnexo=' + cdAnexo + '&cdCampo=' + cdCampo; 
+            }             
+        }
+        function editarAnexo(cdEstrutura, cdElemento, cdAnexo, cdCampo) {
+               url = '/sedimob/sedimob/cadastroElementoArquivoUpdate.jsp?cdElemento=' + cdElemento + '&cdEstrutura=' + cdEstrutura + '&cdCampoElemento=' + cdAnexo + '&cdTipoArquivo=721';  
+               abreDialog(true, 'Editar Nome e Fonte da imagem', url, 'Fechar', false,600,250);
+        }        
+        function removerResponsavelTecnico(cdEstrutura, cdElemento, cdResponsavel) {
+            if ( confirm('Deseja realmente remover o item?') ) {
+               location.href='/sedimob/consulta.action?subFuncao=removerResponsavelTecnico&cdEstrutura=' + cdEstrutura.toString().trim() + '&isEdicao=S' +  
+                             '&cdElemento=' + cdElemento + '&cdResponsavel=' + cdResponsavel; 
+            }             
+        }        
+        function abrirGaleria(isEdicao, cdAnexo, cdEstrutura, cdElemento, nrAnexo) {
+               location.href='/sedimob/consulta.action?subFuncao=consultaDiagnosticoGaleria&cdEstrutura=' + cdEstrutura.toString().trim() +  
+                             '&cdElemento=' + cdElemento + '&nrAnexo=' + nrAnexo + '&isEdicao=' + isEdicao + '&cdAnexo=' + cdAnexo + '&epagriTEC=S'; 
+        }
+    
+        function selecionado(cdUnorg) {
+           // location.href='../sedimob/consulta.action?subFuncao=consultaUnidadesDetalhe&cdUnorg=' + cdUnorg.toString().trim();
+        }
+        function voltar() {
+            //location.href="../semob/consulta.action?subFuncao=consultaUnidades";
+            history.back();            
+        }
+        
+        function abrirFeedback() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "block";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "block";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "block";    
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "block";                
+            document.getElementById("btnSalvarFeedback").style.display = "block";                          
+            document.getElementById("linkFeedback").style.display = "none";
+            $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
+        }
+
+        function inicio() {
+            document.getElementById("DS_NOME_FEEDBACK").style.display = "none";            
+            document.getElementById("DS_EMAIL_FEEDBACK").style.display = "none";                        
+            document.getElementById("DS_TEXTO_FEEDBACK").style.display = "none";  
+            document.getElementById("DS_LOCAL_FEEDBACK").style.display = "none";              
+            document.getElementById("btnSalvarFeedback").style.display = "none";              
+        }
+        
+        // JQuery DataTable - Exibe resultados da consulta
+        $(document).ready(function() {
+           $('.p1').collapser({
+		mode: 'lines',
+		truncate: 4
+	   });
+           $('.p2').collapser({
+		mode: 'lines',
+		truncate: 1
+	   });           
+           $( "#accordion" ).accordion({
+                 heightStyle: "fill"
+           });   
+           $( "#accordion-resizer" ).resizable({
+                 minHeight: 400,
+                 minWidth: 200,
+                 resize: function() {
+                   $( "#accordion" ).accordion( "refresh" );
+                }
+           });           
+           $("#consultaUnidade").DataTable( {
+             "order": [],               
+             "paging":    false,
+             "info":      false,
+             "bFilter":   true,
+             "oLanguage": { "sSearch": " " },
+             "columnDefs": [{
+                 "targets": 'no-sort',
+                 "orderable": false,
+             }]             
+           } );
+           
+           $('.dataTables_filter input[type="search"]').
+              attr('placeholder','Digite para procurar na lista abaixo...').
+              css({'width':'350px','display':'inline-block'});   
+      
+           // Faz com que o clique na linha da tabela faça a seleção do beneficiário
+           $("#consultaUnidade tr").css('cursor', 'pointer');           
+           $('#consultaUnidade tr').click(function() {
+                var nomeSel = $(this).children("td").map(function() {
+                   return $(this).text();
+                }).get(1);       
+                if ( nomeSel !== null && nomeSel.toString().trim() !== '' ) selecionado(nomeSel);
+           });             
+      
+        });                
+    </script> 
+    <style>
+        #accordion-resizer {  padding: 0px;  margin-top: -25px; width: 100%;  height: 76vh; border-left: 0px; border-bottom: 0px; border-right: 0px; border-top: 0px;} 
+        #accordion h5 { background: none;  background-color: #CCCCCC; height: 10px; line-height: 10px; border-left: 0px;}
+        #accordion h4 { background: none;  background-color: #00AA00; height: 10px; line-height: 10px; border-left: 0px; color: white;}        
+        
+       .dataTables_filter input { height: 40px; font-size: 20px; }
+       .dataTables_wrapper .dataTables_filter { float: left; text-align: left; margin-left: -10px;} 
+       .dataTables_wrapper table thead{ display:none;}       
+    </style>
+    
+    <style>
+       .show-class{background: #eeeeee;}
+       .show-class a:link{color: green; text-decoration: none;}  
+       
+       .hide-class{background: #fff; }
+       .hide-class a:link{color: green; text-decoration: none;}         
+    </style>
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <style>
+        @-ms-viewport { width: 50vw ; min-zoom: 50% ; zoom: 50% ; }          @viewport { width: 50vw ; min-zoom: 50% zoom: 50% ; }
+	@-ms-viewport { user-zoom: fixed ; min-zoom: 50% ; }                 @viewport { user-zoom: fixed ; min-zoom: 50% ;	}
+    </style> 
+
+  
+        
+      
+</head><body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding: 0px;">
+<div style="padding-left: 0px; padding-right: 0px;">
+    
+
+ <div data-role="header" style="background-color: white; height: 55px; box-shadow: 0px 0px 16px 2px #000000">
+    <table width="100%">
+        <tbody><tr>    
+            <td align="left"> <img style="width:50px; height: 50px;" src="/sedimob/img/iconeEpagriTecMobSemBorda.png">  </td>            
+            <td align="left"> <font face="Arial" size="3"> EpagriTEC </font> </td>
+            <td width="100%"> &nbsp; </td>
+            <td align="right"> <a style="text-decoration: none;" href="javascript:history.back()"> <img src="/sedimob/img/iconeVoltarBranco.png"> </a> </td>
+            <td align="right"> <a style="text-decoration: none;" href="../sedimob/consulta.action?subFuncao=epagriTec"> <img src="/sedimob/img/iconeBarraHomeBranco.png"> </a> </td>
+        </tr> 
+    </tbody></table>
+ </div>  
+
+         
+  <div data-role="header">  <table width="100%" cellspacing="0" cellpadding="0"> <tbody><tr> <td width="100%;">  <font style="font-family: Arial; font-size: 15px; font-weight: bold;"><font color="lightgrey">	◀ </font><a style="text-decoration: none; color:black;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7983&amp;isEdicao=N&amp;epagriTEC=S">BANANA</a> </font>  </td><td> <img style="width: 45px; height: 45px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_banana_color.png"> <br> </td> </tr> </tbody></table> &nbsp;&nbsp;&nbsp;&nbsp;<font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=7984&amp;isEdicao=N&amp;epagriTEC=S">     Fitossanidade</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21661&amp;isEdicao=N&amp;epagriTEC=S">Principais doenças da bananeira</a> </font><font style="font-family: Arial; font-size: 15px;">&nbsp;<font color="lightgrey">◀</font> <a style="text-decoration: none; color: #aaaaaa; font-weight: normal;" href="../sedimob/consulta.action?subFuncao=consultaDiagnostico&amp;cdEstrutura=21710&amp;isEdicao=N&amp;epagriTEC=S">ESTRIAS DA BANANEIRA - BSV</a> </font><br> </div>
+        
+  <div style="padding-left: 10px; padding-right: 4px;"> 
+   
+     <form method="POST" name="form" id="frmManutencaoElemento" action="/sedimob/consulta.action?subFuncao=salvarElemento&amp;isEdicao=S">       
+       <input type="hidden" name="cdElemento" id="cdElemento" value="18400">     
+       <input type="hidden" name="cdEstrutura" id="cdEstrutura" value="021710">            
+   
+           
+          
+          
+            <div> &nbsp;&nbsp; 
+                
+                  
+                    <img style="width: 300px; height: 250px;" src="http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/[18400]{459}figura_9b_estrias_necroticas.jpg"> 
+                  
+                    
+            </div>
+          
+            
+               <div style="margin-top: -8px;"> <font style="font-family: Arial; font-size: 11px;"> FOTO: Addolorata Colariccio      </font></div>
+            
+            
+            <div style="font-family: Arial; font-size: 17px; color: #66B252; font-weight: bold;"> 
+                                
+                      &nbsp;&nbsp;  SINTOMAS DO BSV EM FOLHA DE BANANEIRA DO SUBGRUPO PRATA 
+                
+            </div>
+            <div style="height: 8px;"> </div>
+            <hr>
+            
+            <div style="padding-left: 15px; padding-right: 0px;">
+                <font style="font-family: Arial; font-size: 17px;"> 
+                    <b>DESCRIÇÃO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O BSV pertence à família Caulimoviridae, ordem Ortervirales e ao gênero <i>Badnavirus</i>. <br><br>
+A partícula viral é baciliforme não envelopada e o genoma é constituído por um DNA de 
+fita dupla (dsDNA) circular, de 7,4 a 8,0Kb. O <b>BSV</b> é um pararretrovírus que, após infectar a 
+célula vegetal, libera o DNA circular no núcleo desta, onde se torna enovelado, e é transcrito 
+em RNA mensageiro, como um RNA pré-genômico, empregado na replicação do DNA no 
+citoplasma. Assim, pode ser utilizado como molde para a síntese de novas moléculas de 
+DNA do vírus, que se acumulam no citoplasma, desde pequenos fragmentos incompletos 
+até sequências completas do DNA do vírus, que são formas lineares fragmentadas do 
+DNA circular original do vírus e que se integram ao genoma da planta.<br><br>
+A maioria dos fragmentos de DNA do vírus resulta em genomas virais parciais e 
+não funcionais. Há, porém, sequências que contêm toda a extensão do genoma viral, e 
+que podem ser ativadas resultando na forma completa do genoma do vírus, causando a manifestação dos sintomas da doença. Sequências incompletas do BSV podem se integrar 
+ao genoma das bananeiras, tanto na espécie <i>Musa acuminata</i> (genoma A), quanto na <i>Musa balbisiana</i> (genoma B). A integração do genoma completo de BSV no genoma de <i>M. balbisiana</i> alertou para a ocorrência de sequências do BSV integrado ao genoma da 
+maioria dos híbridos cultivados no mundo. Embora sequências incompletas também tenham sido encontradas tanto no genoma A como no B, é só neste último as formas endógenas do BSV podem causar sintomas pelo estresse abiótico e pela micropropagação das mudas. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<b>SINTOMAS</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Os sintomas característicos induzidos pelo BSV nas bananeiras são as estrias cloróticas <b>(Figura abaixo)</b> e necróticas (Figura abaixo), que acompanham as nervuras secundárias, formando uma linha contínua da nervura principal até o bordo da folha, tornando o limbo foliar mais fino e rasgado, com os sintomas afetando uma ou mais folhas da planta.<br><br> Observam-se também pontos necróticos no engaço (Figura abaixo) e manchas necróticas 
+irregulares na casca dos frutos <b>(Figura abaixo)</b>, que também podem apresentar rachaduras. <br><br>
+Outros sintomas podem incluir a atrofia do crescimento das plantas, necrose do pseudocaule e espessamento das nervuras. Na floração, ocorre o estrangulamento do pseudocaule, impedindo a emergência do cacho, que pode se tornar retorcido(<sup>1</sup>).<br><br> A 
+variabilidade dos sintomas está associada a fatores abióticos, principalmente a variação de temperatura, que pode ser um dos fatores para a ativação da forma epissomal, que causa sintomas nas plantas. Os sintomas podem ser mais severos em plantas mantidas a 22°C, enquanto nas plantas mantidas entre 28°C e 35°C pode ocorrer uma redução dos sintomas e uma maior ocorrência de sequências do BSV integradas ao genoma da planta(<sup>2</sup>).  Assim, como o genótipo da planta, a espécie do vírus que infecta as bananeiras também se reflete nos sintomas, bem como a ocorrência da infecção dupla do BSV com o CMV afeta a variabilidade dos 
+sintomas. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28732,021710,18400,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18400]{419}figura_9c_pontuacoes_necroticas_no_engaco.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28731,021710,18400,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18400]{370}figura_9b_estrias_necroticas.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28730,021710,18400,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18400]{401}figura_9a_estrias_cloroticas.jpg">  </a> 
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28733,021710,18400,2);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18400]{495}figura_9d_pontuacoes_necroticas_em_frutos.jpg">  </a> 
+<br><br>
+<b>TRANSMISSÃO</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> O BSV não é transmitido pelas ferramentas empregadas nos tratos culturais. Possui um círculo de hospedeiros restrito à família Musaceae, embora haja relatos da ocorrência em algumas espécies de helicônia na Colômbia(<sup>3</sup>). <br><br>A disseminação do vírus ocorre principalmente pela propagação vegetativa do hospedeiro doente, uma vez que todas as plantas descendentes de plantas infectadas podem manifestar sintomas. Além disso, as cochonilhas vetores (Hemiptera: Coccoidea: Pseudococcidae), podem 
+transmitir o vírus de forma semipersistente, sendo a mais comum <i>Planococcus citri</i> (cochonilha dos citros) (Figura abaixo). <br><br>Também há relatos de outras espécies de cochonilhas 
+que podem transmitir o BSV, entre estas, <i>Saccharicoccus sacchari</i> (cochonilha da canade-açúcar), <i>Dysmicoccus brevipes</i> (cochonilha do abacaxi) e por <i>Pseudococcus elisae</i> e <i>D. 
+brevipes</i> (cochonilhas de <i>Musa</i> sp.)(<sup>1</sup>). <br><br>Apesar das cochonilhas serem 
+sedentárias, nos ínstares iniciais são altamente móveis e podem ser levadas pelo vento de uma planta a outra; portanto, é possível que a transmissão de BSV no campo também seja realizada por cochonilhas.
+ <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+<a style="text-decoration: none;" href="javascript:abrirGaleria(&quot;N&quot;,28734,021710,18400,3);"> <img style="width: 100px; height: 100px;" title="ver imagem" src="https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/[18400]{393}figura_10_cochonilha.jpg">  </a> 
+<br><br>
+<b>CONTROLE</b><br>
+<p class="p1 show-class"><div style="overflow: hidden; height: auto;"> Para a realização do manejo adequado do BSV, é necessária a detecção precoce do 
+vírus para evitar que este seja propagado e disseminado através de mudas. As doenças 
+causadas não podem ser controladas após a introdução no cultivo; por esta razão, para 
+aquelas causadas por vírus, o mais importante são as medidas preventivas, que incluem 
+o uso de plantas livres de vírus, que podem ser obtidas por cultura de tecidos, assim 
+como o uso de variedades resistentes, obtidas pelo melhoramento genético – lembrando 
+que resistência não significa imunidade, podendo ser quebrada pela ocorrência de 
+novas variantes do vírus. <br><br>O controle do BSV é dificultado principalmente pelo fato das 
+sequências genômicas do vírus estarem integradas ao genoma do DNA de <i>Musa</i> spp. em 
+todos os híbridos de bananeira mundialmente produzidos e consumidos, impondo severas 
+restrições ao intercâmbio de mudas. O produtor deve lembrar que os danos causados 
+pelo BSV são mais severos quando não são adotadas as práticas culturais adequadas, 
+como iniciar o cultivo com plantas livres de vírus, manter distância dos cultivos velhos, 
+realizar a inspeção das plantas (eliminando aquelas com sintomas e fazer a substituição 
+por plantas sadias) e retirar os restos culturais, para que não sejam fonte de inóculo.<br><br> O 
+BSV tem um círculo de hospedeiros restrito, mas as cochonilhas vetores podem colonizar 
+outras espécies de plantas; por isso, outra medida importante é verificar a ocorrência de 
+cochonilhas vetores do vírus, identificar as espécies e as plantas onde ocorrem e tomar 
+medidas a fim de manter a população de cochonilhas sob controle. <br> </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p>
+
+                
+                    <hr>
+                    <b> Informações Complementares </b> <br><br>
+                     Material bibliográfico:<br>
+                     
+                        <font size="2"> <p class="p2 show-class" style="margin-top: -2px;"><div style="overflow: hidden; height: auto;"> 
+GUIMARÃES, G.G.F.; BELTRAME, A.B.; MALBURG, J.L.; MARO, L.A.C.; SCHERER, R.F.; NEGREIROS, R.J.Z. (Orgs.). Produção de banana em Santa Catarina. Florianópolis, SC: Epagri, 2023. 320p.<br><br>
+
+
+
+(<sup>1</sup>)HINZ, R.H.; DA SILVA, C.M. Ocorrência de “banana streak virus” nas cultivares de 
+bananeira Grande Naine e Nanicão. Agropecuária Catarinense, v. 23, n. 2, p. 96-98, 2010. 
+Disponível em: https://publicacoes.epagri.sc.gov.br/RAC/article/view/735. Acesso em: 17 
+nov. 2021.<br><br>
+
+(<sup>2</sup>)BHAT, A.I; HOHN, T.; SELVARAJAN, R. Badnaviruses: The Current Global Scenario. Viruses, 
+v.8, 177, 2016.<br><br>
+
+
+
+
+
+(<sup>3</sup>)CARDONA, L.N; ZAPATA, C.J. Characterization of phytopathogenic fungi, bacteria, 
+nematodes and viruses in four commercial varieties of Heliconia (Heliconia sp.). Revista – 
+Facultad Nacional de Agronomía Medellín, v. 65, p. 6697-6710, 2012.<br><br>
+
+ </div> <a href="#" data-ctrl="" class=""> fechar /\</a></p> </font> 
+Responsáveis Técnicos:
+<br> <font size="2">• André Boldrin Beltrame (Dr. - Epagri)<br> &nbsp;&nbsp; Pesquisador - Epagri - Itajaí </font> 
+<br><br><br> <font size="2"> Criado em: 18/03/2024</font>
+<br> <font size="2"> Última atualização: 29/04/2024</font>
+  
+                </font> 
+            </div>
+
+       
+     </form>  
+     
+     
+     
+       <div style="padding-left: 10px; padding-right: 4px;">
+          <hr>
+          <font face="Arial"> <b> Enviar Feedback </b> <span id="linkFeedback"> <a style="text-decoration: none; color: green;" href="javascript:abrirFeedback();"> clique aqui </a> </span> </font> <br>   
+          <form method="POST" name="form" id="frmFeedbackElemento" action="/sedimob/consulta.action?subFuncao=enviarFeedback&amp;cdEstrutura=021710&amp;cdElemento=18400">       
+                 <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_NOME_FEEDBACK" id="DS_NOME_FEEDBACK" placeholder="Nome" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_EMAIL_FEEDBACK" id="DS_EMAIL_FEEDBACK" placeholder="e-mail" value="">        <input type="text" style="width: 300px; font-family: Calibri; font-size: 14px; display: none;" name="DS_LOCAL_FEEDBACK" id="DS_LOCAL_FEEDBACK" placeholder="Município" value="">    <textarea name="DS_TEXTO_FEEDBACK" id="DS_TEXTO_FEEDBACK" maxlength="500" style="overflow-y: scroll; width: 300px; height: 200px; display: none;" rows="10"></textarea>     
+             <input style="cursor: pointer; border: 0px; line-height: 30px; background: rgb(0, 170, 0); font-family: Arial; font-size: 13px; color: white; display: none;" id="btnSalvarFeedback" type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar Feedback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" onclick="javascript:salvarFeedback();">           
+          </form>
+       </div>
+     
+     
+  </div>  
+    
+</div>    
+
+  <script>
+        // Grava acesso somente se não for edição do aplicativo
+        
+               $.ajax('/sedimob/consulta.action?subFuncao=gravaAcesso&cdElemento=18400');
+        
+  </script>
+
+     
+
+
+<script> inicio(); </script>
+        
+
+</body></html>

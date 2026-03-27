@@ -1,0 +1,12 @@
+Título: TOMATE - Zoneamento para o Estado de Santa Catarina - Risco climático
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=012213&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img/sedimob_icone_tomate_color.png
+
+-- PESQUISAR NO SITE DO MAPA: --
+Como o MAPA é o canal oficial que regulamenta o ZARC (Zoneamento Agrícola de Riscos Climáticos), busque, em primeiro lugar, a portaria referente a cultura de interesse, acessando o site do MAPA. CLIQUE AQUI! Caso o link esteja quebrado, o caminho dentro do site é: Assuntos / Gestão de Riscos / Programa Nacional de Zoneamento Agrícola de Risco Climático / Portarias / SC.
+
+-- CASO A PORTARIA DA CULTURA DE INTERESSE NÃO ESTEJA NA LISTA DO MAPA: --
+Acesse o site do CIRAM e pesquise a existência das informações em zoneamento agrícola ou análise de risco climático. Caso o link esteja quebrado, o arquivo pode ser acessado diretamente no site do CIRAM ( https://ciram.epagri.sc.gov.br. ). O caminho no site é: SOLUÇÕES / AGRICULTURA / ZONEAMENTO
+
+-- Informações Complementares --

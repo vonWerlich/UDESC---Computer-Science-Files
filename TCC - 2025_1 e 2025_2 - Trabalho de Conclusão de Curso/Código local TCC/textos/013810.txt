@@ -1,0 +1,44 @@
+Título: CEBOLA - Manejo de pragas - Larvas de Moscas (Delia platura e Pseudosciara pedunculata)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=013810&isEdicao=N&epagriTEC=S
+
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B12021%5D%7B523%7Dfigura_5_-_copia.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12021%5D%7B403%7Dfigura_5.jpg
+Legenda: Figura 1. Adultos da mosca Pseudosciara pedunculata. Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B12021%5D%7B464%7Dfigura_6.jpg
+Legenda: Figura 2. Larvas da mosca Pseudosciara pedunculata.Foto: Paulo Antônio de Souza Gonçalves e Leandro Delalibera Geremias
+
+-- INFORMAÇÕES GERAIS: --
+Há duas espécies de mosca, que podem atacar a lavoura de cebola recém transplantada, popularmente conhecidas como bicheira ou bichinho da raiz ( Delia platura e Pseudosciara pedunculata).
+
+-- ADULTOS (P. pedunculata): --
+Os adultos de P. pedunculata são moscas de cor preta, corpo delgado, medindo aproximadamente 8 mm de envergadura e 5 mm de comprimento (Figura 1).
+
+-- LARVAS (P. pedunculata): --
+São de corpo fino, delgado, e geralmente apresentam maior comprimento no máximo desenvolvimento, 8 a 9 mm (Figura 2).
+
+-- DIFERENÇA ENTRE Delia platura e Pseudosciara pedunculata: --
+P. pedunculata se assemelham a mosquitos; D. platura se assemelha a mosca doméstica.
+
+-- DIFERENÇA NO DANO ENTRE Delia platura e Pseudosciara pedunculata: --
+O dano também difere entre as espécies, enquanto a larva de D. platura perfura a planta na área de inserção das raízes causando amarelecimeto e até a morte das plantas devido a destruição do tecido vascular das plantas, P. pedunculata alimenta-se das raízes externas e provoca amarelecimento e encarquilhamento da folha central das plantas.
+
+-- HÁBITOS SAPRÓFITAS: --
+Ambas espécies têm hábitos de saprófitas e tendência para se alimentar de plantas que sofreram um estresse por ocasião do transplante, tais como dificuldade no desenvolvimento de raízes em solo degradado, seca, toxidez por alumínio, herbicidas ou outro insumo aplicado via foliar, prática do corte das raízes ou folhas para o transplantio. O uso de mudas fora do padrão para plantio (diâmetro de um lápis) também provoca dificuldade no desenvolvimento das plantas e predispõe ao ataque por larvas de mosca. Portanto, em áreas onde a ocorrência de larvas de mosca é frequente, o ideal é que o agente causador de estresse nas plantas seja identificado para evitá-lo em futuros plantios.
+
+-- DANOS x MATÉRIA ORGÂNICA: --
+Os danos por larvas de mosca também têm sido observados em áreas onde há matéria orgânica em processo de decomposição proveniente de plantas de cobertura, plantas daninhas, restos culturais ou adubação orgânica.
+
+-- OCORRÊNCIA EM FUNÇÃO DO MANEJO CULTURAL: --
+Geralmente o ataque de moscas ocorre em locais em que a lavoura foi implantada imediatamente após a aração de restos culturais, o manejo de plantas daninhas e de cobertura, sugerindo que essas operações deveriam ser realizadas com antecedência, em torno de duas a três semanas antes do transplante. Em áreas em que as plantas de cebola apresentavam toxidez de alumínio também foi constatado ataque de larvas de P. pedunculata, que provavelmente se alimentavam das plantas em degeneração pela dificuldade de se desenvolver devido às condições inadequadas de solo.
+
+-- OCORRÊNCIA EM MUDAS RECÉM TRANSPLANTADAS: --
+Convém ressaltar que no processo de início de desenvolvimento das mudas recém-transplantadas ocorre morte de raízes, o que também atrai as larvas de mosca para alimentação. Após as plantas estarem com todas raízes novas (“planta pega”) não haverá danos severos devido ao ataque dessas larvas.
+
+-- CONTROLE: Químico --
+O controle químico dessas espécies não pode ser legalmente realizado, pois não há inseticidas registrados para estas espécies em cebola no Brasil (vide manejo da mosca da cebola na fase do canteiro). Caso seja necessário realizar controle de larvas, devem ser utilizados inseticidas registrados para a cultura para se evitar fitotoxidez. Geralmente aplicações excessivas de inseticidas destroem inimigos naturais, tornando-se uma prática antieconômica, sendo mais viável o replantio.
+
+-- MANEJO ALTERNATIVO PARA CONTROLE DA PRAGA: --
+A adoção de práticas de manejo de solo, tais como, calagem incorporada previamente e com implementos adequados, adubação equilibrada, plantas de coberturas recomendadas para a região, rotação de culturas, facilita o desenvolvimento das plantas no início do transplante e evita o ataque por larvas de moscas.
+
+-- Informações Complementares --
+CLIQUE AQUI para acessar as referências na íntegra.

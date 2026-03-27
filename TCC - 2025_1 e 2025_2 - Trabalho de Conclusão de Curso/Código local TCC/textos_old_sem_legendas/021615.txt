@@ -1,0 +1,22 @@
+Título: ARROZ IRRIGADO - 12. Manejo de doenças - Podridão da bainha (Sarocladium oryzae)
+URL: https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021615&isEdicao=N&epagriTEC=S
+
+EpagriTEC
+ARROZ IRRIGADO
+12. Manejo de doenças
+Podridão da bainha ( Sarocladium oryzae )
+[IMAGEM] http://intranetdoc.epagri.sc.gov.br/sedimob/img_elemento/%5B11383%5D%7B425%7Dpodrebainha_caput.jpg
+FOTO: V.L.S.Lobo (remasterizada)
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11383%5D%7B224%7Dpodrebainha_fig01.jpg
+[IMAGEM] https://intranetdoc.epagri.sc.gov.br/sedimob/arq_anexos/%5B11383%5D%7B318%7Dpodrebainha_fig02.jpg
+
+-- INFORMAÇÕES GERAIS: --
+Patógeno: fungo Sarocladium oryzae .
+
+-- SINTOMAS: --
+A doença ocorre mais comumente na bainha da folha bandeira, na forma de lesões oblongas, com centro claro e margens de coloração marrom-avermelhada. Com o avanço da doença, as lesões coalescem, provocando a necrose da bainha. Isso dificulta a emissão da panícula, que fica parcial ou totalmente presa, e as espiguetas apodrecem dentro da bainha.
+
+-- Informações Complementares --
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+SCHEUERMANN, K.K.; MIURA, L. Manejo de doenças. In: EBERHARDT, D.S.; SCHIOCCHET, M.A. Recomendações para a produção de arroz irrigado em Santa Catarina (Sistema pré-germinado). Florianópolis: Epagri, 2015. p.66-75.
+• Klaus Konrad Scheuermann (Dr. em Fitopatologia - Epagri) Manejo de doenças
