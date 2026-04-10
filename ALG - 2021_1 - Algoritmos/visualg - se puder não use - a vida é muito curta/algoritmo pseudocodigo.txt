@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+
+Var
+num_alunos: inteiro
+media, mediageral,mediaturma, n1, n2: real
+nome: caracter
+Inicio
+mediageral<-0
+mediaturma<-0
+// num_alunos<-1
+// ENQUANTO ( num_alunos <= 3) FACA
+PARA num_alunos DE 1 ATE 3 PASSO 1 FACA
+escreval("Entre com nome e 2 notas:")
+leia(nome, n1, n2)
+media<- (n1 + n2)/2
+mediageral<- mediageral + media
+escreval("Aluno(a):", nome, " teve media:", media)
+FIMPARA
+// num_alunos <- num_alunos + 1
+//FIMENQUANTO
+mediaturma<- mediageral/(num_alunos)
+escreval("Média geral da turma:", mediaturma)
+Fimalgoritmo

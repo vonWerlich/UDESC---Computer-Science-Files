@@ -1,0 +1,43 @@
+// M 1.80 F 1.78 F 1.50 M 2.0 M 1.60
+Var
+altura, menoraltura, maioraltura, somaAlturaMulheres: real
+num_pessoas, num_homens, num_mulheres: inteiro
+mediaAlturaMulheres: real
+sexo: caracter
+Inicio
+num_pessoas<-1
+escreval("Digite sexo ( F/M) e altura")
+leia( sexo, altura)
+SE ( sexo = "F") ENTAO
+num_mulheres<- num_mulheres + 1
+somaAlturaMulheres<-somaAlturaMulheres + altura
+FIMSE
+maioraltura <- altura
+menoraltura<- altura
+ENQUANTO ( num_pessoas < 3 ) FACA
+escreval("Digite sexo ( F/M) e altura")
+leia( sexo, altura)
+num_pessoas<- num_pessoas + 1
+SE ( sexo = "F") ENTAO
+num_mulheres<- num_mulheres + 1
+somaAlturaMulheres<-somaAlturaMulheres + altura
+SENAO
+SE (sexo = "M") ENTAO
+num_homens <- num_homens + 1
+FIMSE
+FIMSE
+
+SE ( maioraltura < altura ) ENTAO
+maioraltura<- altura
+FIMSE
+SE ( menoraltura > altura ) ENTAO
+menoraltura<- altura
+FIMSE
+FIMENQUANTO
+mediaAlturaMulheres<- somaAlturaMulheres/num_mulheres
+escreval("Maior altura", maioraltura)
+escreval("Menor altura", menoraltura)
+escreval("Numero de homens", num_homens)
+escreval("Altura média das mulheres", mediaAlturaMulheres)
+
+Fimalgoritmo

@@ -1,0 +1,63 @@
+1.1 Construa um algoritmo para calcular as raízes de uma equação do 2º grau (Ax2 + Bx + C),
+sendo que os valores A, B e C são fornecidos pelo usuário (considere que a equação possui
+duas raízes reais).
+1.2 Construa um algoritmo que, tendo como dados de entrada dois pontos quaisquer do plano,
+P(x1,Y1) e Q(x2,y2), imprima a distância entre eles.
+A fórmula que efetua tal cálculo é: d = ✓(x2 - x1)2 + (y2 -y1)2 ,
+que reescrita utilizando os operadores matemáticos adotados fica:
+d = rad(pot(x2-x 1,2) + pot(y2-y 1,2))
+1.3 Faça um algoritmo para calcular o volume de uma esfera de raio R, em que Ré um dado
+4
+fornecido pelo usuário. O volume de uma esfera é dado por V= - nR3•
+
+
+
+EXERCÍCIO 1. 1 (página 33)
+1. inicio
+2. li declaração de variáveis
+3. real: A, 8, C, li coeficientes da equação
+4. D, li delta
+5. Xl, X2; li raízes
+6.
+7. li entrada de dados
+8. leia (A,8,C);
+9.
+10. li processamento de dados
+11. D f- pot (8,2) - 4*A*C;
+12. Xl f- (-8 + rad(D))l(2*A};
+13. X2 f- (-8 - rad{D))l(2*A};
+14.
+15. li saída de dados
+16. escreva ("Primeira raiz = 11 ,Xl};
+17. escreva (''Segunda raiz= '',X2};
+18. fim.
+EXERCÍCIO 1.2 (página 33)
+1. inicio
+2.
+3. li declaração de varzaveis
+4. real: D; li dist ncia calculada
+5. inteiro: Xl, X2, Yl, Y2; li pontos
+6.
+7. li entrada de dados
+8. leia (Xl, Yl, X2, Y2}; li valores dos pontos
+9.
+10. li processamento de dados
+11. D f- rad (pot(X2-Xl,2) + pot(Y2- Yl,2));
+12.
+13. li saída de dados
+14. escreva (''Distância=
+15. fim.
+EXERCÍCIO 1.3 (página 33)
+1. inicio
+li , D) .,
+2. li declaração de variáveis
+3. real: R, li raio
+4. V; li volume
+5. li entrada de dados
+6. leia (R);
+7. li processamento de dados (Contiuua)
+184 Lógíco de progromoção
+8. V~ 413 * 3,1416 * pot (R, 3);
+9. li saída de dados
+10. escreva ("Volume=", V);
+11. fim.
