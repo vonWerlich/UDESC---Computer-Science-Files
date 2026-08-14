@@ -1,0 +1,7 @@
+erastotenes_segmentado/target
+erasrostenes/target
+exercicio2/target
+exercicio4/target
+huffman/target
+lista1/target
+lista3/target
