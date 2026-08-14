@@ -1,0 +1,53 @@
+https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html          -> curso shell script apple
+
+
+https://wiki.inf.ufpr.br/maziero/doku.php?id=unix%3Ahistorico_do_unix_e_linux   -> histórico do linux e etc
+
+https://wiki.inf.ufpr.br/maziero/doku.php?id=unix%3Ao_ambiente_de_trabalho     -> maziero: o ambiente de trabalho
+
+https://www.baeldung.com/linux/process-states  -> linux process states
+
+https://danielmiessler.com/blog/tmux   -> Tactical tmux: The 10 Most Important Commands
+
+https://aurelio.net/regex/      -> portal brasileiro sobre expressões regulares
+
+https://ihateregex.io/   ->  repositório e depurador interativo de expressões regulares
+
+https://regex-generator.olafneumann.org/?sampleText=2020-03-12T13%3A34%3A56.123Z%20INFO%20%20%5Borg.example.Class%5D%3A%20This%20is%20a%20%23simple%20%23logline%20containing%20a%20%27value%27.&flags=i  -> gerador interativo de expressões regulares a partir de exemplos de texto
+
+
+https://openvim.com/       -> tutorial interativo de vim
+
+https://aurelio.net/shell/ -> livro aurelio jargas
+
+https://www.shellcheck.net/ -> ferramenta online para análise de shell scripts
+
+https://wiki.archlinux.org/title/LVM  -> documentação mais compacta do Arch Linux sobre LVM
+
+https://ntp.br/  ->  portal com tutoriais de configuração do NTP para várias plataformas, informações sobre servidores no Brasil, etc.
+
+https://www.ranum.com/security/computer_security/papers/ai/index.html  -> "artificial ignorance: how-to guide" -- oldie, but goldie
+
+https://tldp.org/LDP/intro-linux/html/index.html  -> Introduction to Linux: A Hands on Guide (Machtelt Garrels)
+
+https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html -> GNU/Linux Command-Line Tools Summary (Gareth Anderson)
+
+https://tldp.org/LDP/Bash-Beginners-Guide/html/index.html -> 
+Bash Guide for Beginners (Machtelt Garrels)
+
+https://tldp.org/LDP/abs/html/index.html -> Advanced Bash-Scripting Guide (Mendel Cooper)
+
+https://linuxcommand.org/index.php -> LinuxCommand.org: Learn the Linux Command Line. Write Shell Scripts (William Shotts)
+
+https://mywiki.wooledge.org/ -> Greg's Wiki (Bash Guide, Bash FAQ, Bash Pitfalls, Bash Sheet, ...)
+
+https://wiki.inf.ufpr.br/maziero/doku.php?id=socm%3Astart -> Sistemas Operacionais: Conceitos e Mecanismos (Carlos Maziero)
+
+https://pages.cs.wisc.edu/~remzi/OSTEP/ -> Operating Systems: Three Easy Pieces (Remzi H. Arpaci-Dusseau e Andrea C. Arpaci-Dusseau)
+
+https://heather.cs.ucdavis.edu/matloff/public_html/debug.html -> The Student's Guide to the Secret Art of Debugging (Norm Matloff)
+
+https://docs.freebsd.org/en/books/developers-handbook/tools/ -> Programming Tools (FreeBSD Developers' Handbook)
+
+http://dbp-consulting.com/tutorials/debugging/index.html -> Debugging (Patrick Horgan)
+

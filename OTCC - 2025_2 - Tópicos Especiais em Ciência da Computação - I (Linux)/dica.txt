@@ -1,0 +1,1 @@
+use uma virtual machine (ova) para os exercícios que mexem com admins e etc (se vc fizer *****, isso não estraga seu PC nem o da UDESC)
