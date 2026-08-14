@@ -1,1 +1,1 @@
-erastotenes_segmentado/target/
+/erastotenes_segmentado/target
