@@ -1,0 +1,8 @@
+[package]
+name = "erastotenes_segmentado"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bitvec = "1.0"
+crossbeam-utils = "0.8"
